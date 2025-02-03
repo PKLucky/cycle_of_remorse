@@ -1,0 +1,82 @@
+[
+    {
+        "nid": "HP",
+        "name": "HP",
+        "maximum": 60,
+        "desc": "Hit points. The unit is removed from the battle if HP reaches 0.",
+        "position": "hidden",
+        "growth_colors": true
+    },
+    {
+        "nid": "STR",
+        "name": "Str",
+        "maximum": 40,
+        "desc": "Strength. The higher the number, the more damage you inflict.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "MAG",
+        "name": "Mag",
+        "maximum": 40,
+        "desc": "Magical power. Increases spell and staff effectiveness.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "SKL",
+        "name": "Skill",
+        "maximum": 40,
+        "desc": "Fighting skill. A higher number improves accuracy.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "SPD",
+        "name": "Spd",
+        "maximum": 40,
+        "desc": "This affects both evasion and attack speed.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "LCK",
+        "name": "Luck",
+        "maximum": 40,
+        "desc": "Luck affects many things.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "DEF",
+        "name": "Def",
+        "maximum": 40,
+        "desc": "Reduces damage from weapons.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "RES",
+        "name": "Res",
+        "maximum": 40,
+        "desc": "Reduces damage from magic.",
+        "position": "left",
+        "growth_colors": true
+    },
+    {
+        "nid": "CON",
+        "name": "Con",
+        "maximum": 20,
+        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
+        "position": "right",
+        "growth_colors": false
+    },
+    {
+        "nid": "MOV",
+        "name": "Move",
+        "maximum": 10,
+        "desc": "The distance you can move in one turn.",
+        "position": "right",
+        "growth_colors": false
+    }
+]

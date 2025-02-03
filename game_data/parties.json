@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Krista",
+        "name": "Krista's Army",
+        "leader": "Krista"
+    },
+    {
+        "nid": "Other",
+        "name": "Krista's Army",
+        "leader": "Forrest"
+    },
+    {
+        "nid": "Dead",
+        "name": "Dead",
+        "leader": "Krista"
+    },
+    {
+        "nid": "LeftBehind",
+        "name": "LeftBehind",
+        "leader": "Krista"
+    },
+    {
+        "nid": "DreadLords",
+        "name": "DreadLords",
+        "leader": "Krista"
+    }
+]

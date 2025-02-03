@@ -1,0 +1,1725 @@
+[
+    {
+        "nid": "None",
+        "behaviours": [
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Attack",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "HealAtHalf",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() / 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Pursue",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -4,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Defend",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Guard",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "PursueVillage",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Visit",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "FleeToVillage",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() / 2"
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Visit1",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 3.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "FollowLord",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() / 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Berserk",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 10,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "BerserkCh9",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "enemy"
+                ],
+                "view_range": -4,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 10,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Heal",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_away_from",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "HealAttack",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Thief",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "<white>Door</>",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "<white>Chest</>",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Steal",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 21,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "SimpleThief",
+        "behaviours": [
+            {
+                "action": "Steal",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -2,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 12,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Escape",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch0",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    6
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch4",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    2,
+                    2
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    14,
+                    3
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    1,
+                    13
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    13,
+                    11
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    20
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_4') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    13,
+                    18
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_5') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "AllyRetrieval",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Party",
+                    "LeftBehind: LeftBehind"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch7x",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    3
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    14,
+                    3
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    2,
+                    15
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    15,
+                    12
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    8,
+                    7
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_4') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch9",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    1,
+                    0
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() / 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    1,
+                    5
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() / 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    13,
+                    5
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    12,
+                    9
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    1,
+                    10
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_4') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    9,
+                    17
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_5') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    19
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_6') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch15",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "player"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch16",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    10,
+                    6
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    2,
+                    12
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    14,
+                    14
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    19,
+                    14
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch16Heal",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    10,
+                    6
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    2,
+                    12
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    14,
+                    14
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    19,
+                    14
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch17",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    5
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    11,
+                    6
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    19,
+                    9
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    3,
+                    13
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    21,
+                    12
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_4') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    5,
+                    19
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_5') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    22,
+                    18
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_6') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    11,
+                    21
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_7') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch18Hayato",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    17,
+                    2
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    11,
+                    11
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_1') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    18,
+                    14
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_2') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch18Yukino",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    4,
+                    8
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_3') == False"
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    2,
+                    14
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "(unit.get_hp() <= unit.get_max_hp() // 2) and any_unit_in_region('Fort_4') == False"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Marina",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "<white>Door</>",
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.level.nid ==  '7a'"
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Rembrandt"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Forrest"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Azure",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Aqua"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Semi"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Xiang",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() / 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Felicity"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Semi",
+        "behaviours": [
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount < 2"
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "<white>Door</>",
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount == 2"
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount > 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -3,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount > 2"
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount > 2"
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Iris",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "enemy"
+                ],
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Tsurugi",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": [
+                    "Name",
+                    "Tsurugi"
+                ],
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "Reem",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Forrest"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Forrest"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Tsubaki",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Name",
+                    "Nagisa"
+                ],
+                "view_range": -1,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "GeroltLeeann",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -2,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() > unit.get_max_hp() // 2"
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "BossGuard",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 21,
+        "offense_bias": 2,
+        "roam_ai": false
+    }
+]

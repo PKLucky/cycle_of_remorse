@@ -1,0 +1,107 @@
+[
+    {
+        "nid": "Controls",
+        "name": "Controls",
+        "title": "Controls",
+        "category": "Controls",
+        "text": "These controls can be configured in the Options menu.{br}<yellow>Move:</>{br}Arrow keys / Left control stick or D-pad / Mouse hover{br}<yellow>Confirm:</>{br}X key / A button / Left mouse button\n<yellow>Back:</>{br}Z key / B button / Right mouse button{br}<yellow>Info:</>{br}C key / RB / Middle mouse button\n<yellow>Aux:</>{br}A key / LB{br}<yellow>Start:</>{br}S key / Start\n<yellow>Other notes:</>{br}<blue>Growths</> can be seen by pressing <blue>Aux</> on a unit's <blue>Personal Data</> page.{br}Cutscenes can be <blue>partially skipped</> by pressing <blue>Back</> or <blue>fully skipped</> by pressing <blue>Start</>.\nScreenshots can be taken by pressing the <blue>~ key</>. They are saved as <blue>.bmp</> files in the <blue>screenshots</> folder in the <blue>cycle_of_remorse</> folder."
+    },
+    {
+        "nid": "Arena",
+        "name": "Arena",
+        "title": "Arena",
+        "category": "Mechanics",
+        "text": "A unit who lands on an Arena tile may battle against a random opponent to earn money.{br}The higher the wager, the tougher the enemy is.\nUnits can equip themselves with any weapon in their inventory prior to entering."
+    },
+    {
+        "nid": "AllyRetrieval",
+        "name": "Ally Retrieval",
+        "title": "Ally Retrieval",
+        "category": "Mechanics",
+        "text": "After a chapter with <blue>Escape</> as a win condition, there will be an opportunity to regain allies that were left behind.\nThese maps function similarly to a regular <blue>Escape</> map. Having Krista leave the map will cause any other allied unit on the map to be <red>left behind</>.\nDo not take this second chance lightly. This will be <red>the only time</> you will be able to get your lost allies back.\nThese maps may also be completed by <blue>routing the enemy</>. All allies would then be rescued."
+    },
+    {
+        "nid": "Crew",
+        "name": "Wyrmfang",
+        "title": "Wyrmfang Pirates",
+        "category": "Mechanics",
+        "text": "One member of the <blue>Wyrmfang Pirates</> will join the party once per chapter (<red>except</> for <blue>Ch. 15</>) until <blue>Ch. 21</> if the number of party members is less than that chapter's number of deployment slots.\nThey are all <blue>Pirates</> with growth rates and base stats similar to <blue>generic enemy Pirates</>."
+    },
+    {
+        "nid": "EnemyThieves",
+        "name": "Thieves",
+        "title": "Enemy Thieves",
+        "category": "Mechanics",
+        "text": "Enemy thieves, rogues, and assassins will prioritize opening doors, opening chests, stealing from player units, and escaping from the map (in that order)."
+    },
+    {
+        "nid": "Houses",
+        "name": "Houses",
+        "title": "All About Houses",
+        "category": "Mechanics",
+        "text": "All houses give EXP when visited.{br}<red>Red</> houses give items/money on top of EXP.{br}<yellow>Yellow</> houses do not give items nor money, but give more EXP to compensate for this.\n<blue>Thieves</>, <blue>Rogues</>, and <blue>Assassins</> gain double EXP when visiting houses."
+    },
+    {
+        "nid": "Promotions",
+        "name": "Promotions",
+        "title": "Promoting Units",
+        "category": "Mechanics",
+        "text": "All first tier classes need a <blue>Master Seal</> to promote to second tier.{br}Most second tier classes will need a <blue>Master Crown</> to promote to third tier.\nCertain characters need a <blue>specific item</> other than the Master Crown to promote to third tier."
+    },
+    {
+        "nid": "SecretShops",
+        "name": "Secret Shops",
+        "title": "Secret Shops",
+        "category": "Mechanics",
+        "text": "A unit can access the Secret Shops if the <blue>Gold Card</> is in their inventory.\nA Secret Shop counts as being visited if you <blue>buy an item</> or <blue>Wait</> without buying anything."
+    },
+    {
+        "nid": "StatCaps",
+        "name": "Stat Caps",
+        "title": "Stat Caps",
+        "category": "Mechanics",
+        "text": "All first-tier classes have their non-HP stats capped at 20. Most first-tier classes have their HP capped at 40. Brigands have their HP capped at 60.\nSecond-tier and third-tier class stat caps vary depending on class. Second-tier non-HP stats are at minimum capped at 25. Their HP is capped at 45 at minimum.\nThird-tier non-HP stats are at minimum capped at 35. Their HP is capped at 60 at minimum."
+    },
+    {
+        "nid": "Supports",
+        "name": "Supports",
+        "title": "Supports",
+        "category": "Mechanics",
+        "text": "Pairs of units raise their Support levels by <blue>being deployed on the same map</>.\nUnits have <blue>no limit</> on how many support partners they can have. However, only the top <blue>three</> pairings will give them bonuses.\nUnits also may only have either one <blue>S</> Rank support or one <blue>A+</> Rank support.{br}S Rank and A+ Rank supports indicate which pairs have a <blue>paired ending</>."
+    },
+    {
+        "nid": "HitAvo",
+        "name": "Hit/Avo",
+        "title": "Hit and Avoid (Avo)",
+        "category": "Equations",
+        "text": "Equations for Hit and Avoid:{br}<blue>Hit</> = Skl * 2 + Luk / 2{br}<blue>Avo</> = Spd * 2 + Luk"
+    },
+    {
+        "nid": "Crit",
+        "name": "Crit/Crit Avo",
+        "title": "Crit Hit Rate and Crit Hit Avoid",
+        "category": "Equations",
+        "text": "Equations for Crit and Crit Avo:{br}<blue>Crit</> = Luk{br}<blue>Crit Avo</> = Skl / 2."
+    },
+    {
+        "nid": "AttackSpeed",
+        "name": "Attack Speed",
+        "title": "Attack Speed",
+        "category": "Equations",
+        "text": "A weapon's <blue>Weight (Wt)</> adds a penalty to the unit's <blue>Attack Speed</> if its Wt is greater than the unit's Con. The penalty is Wt - Con."
+    },
+    {
+        "nid": "Escape",
+        "name": "Escape",
+        "title": "Escape",
+        "category": "Win Cond.",
+        "text": "The chapter will end once Krista escapes the map. Any units that are still on the map will be left behind and will <red>no longer be usable</>.{br}Some units may stay due to their importance to the story."
+    },
+    {
+        "nid": "Seize",
+        "name": "Seize",
+        "title": "Seize",
+        "category": "Win Cond.",
+        "text": "<blue>Any unit</> may stand on a Seize tile to clear a Seize map."
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "nid": "Knight",
+        "name": "Knight",
+        "desc": "One of Foliaga's Holy Knights.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Vergrande",
+        "name": "Vergrande",
+        "desc": "Member of Vergrande Monestary's clergy.",
+        "icon_nid": "TemplarEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wyrmfang",
+        "name": "Wyrmfang",
+        "desc": "Member of the Wyrmfang Pirates.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Pirate",
+        "name": "Pirate",
+        "desc": "Ruffian who terrorizes the high seas.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bandit",
+        "name": "Bandit",
+        "desc": "Bandit who lives within Oregot's mountains.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Snag",
+        "name": "Snag",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Crate",
+        "name": "Crate",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Rune",
+        "name": "Rune",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Charmed",
+        "name": "Charmed",
+        "desc": "A Folian Holy Knight under the influence of dark magic.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Enemy",
+        "name": "Enemy",
+        "desc": "An arena fighter.",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Circ",
+        "name": "Circ",
+        "desc": "A cult of unknown origin.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Medeas",
+        "name": "Medeas",
+        "desc": "A citizen of Medeas.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Merinas",
+        "name": "Merinas",
+        "desc": "A citizen of Merinas.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Phantom",
+        "name": "Phantom",
+        "desc": "Warriors who possess great strength, but vanish when attacked.",
+        "icon_nid": "Small_portrait_Monster_Ally",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Ferrach",
+        "name": "Ferrach",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Azalea",
+        "name": "Azalea",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Matthew",
+        "name": "Matthew",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

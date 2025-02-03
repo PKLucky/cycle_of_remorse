@@ -1,0 +1,240 @@
+[
+    {
+        "nid": "Berserker",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Arch_Mogall",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Archer",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Assassin",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Bishop",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Brigand",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Cavalier",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Citizen",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Cleric",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Entombed",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Falcoknight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Fighter",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_General",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Great_Knight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Knight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Mage (1)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Mage_Knight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Mercenary",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Mogall",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Monk",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Myrmidon",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Paladin",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Pegasus_Knight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Pirate",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Ranger",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Revenant",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Sage",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Shaman",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Sniper",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Soldier",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Sword_Bonewalker",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Sword_Wight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Swordmaster",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Thief",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Troubadour",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Valkyrie",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Vanguard",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Warrior",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Wyvern_Knight",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Wyvern_Lord",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Generic_Portrait_Wyvern_Rider",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Druid (M) Magic {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Trickster (M) Sword T3 {Jj09, Scraiza, Sword of HaE}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Journeyman (M) Axe (SamirPlayz)",
+        "subicon_dict": {
+            "Journeyman 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Lancer (M) Lance {SALVAGED}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Phantom (U) Axe {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Boat {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Monk (M) Magic {GratedShtick}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Wyvern Knight (U) Lance {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Arbalest (F) Lance {EldritchAbomination, Jj09}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Arbalest (F) Sword {EldritchAbomination, Jj09}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Arbalest (F) Bow {EldritchAbomination, N426, Jj09}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Crates (U) {Primefusion}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Fancy Bard (M) +Lyre {MeatOfJustice}",
+        "subicon_dict": {
+            "Fancy Bard (M) +Lyre {MeatOfJustice} 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Halberdier (M) Dragoon Lance {Uncredited}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Tactician (M) Staff {Aruka, Yggdra, Pushwall}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Ninja {Der}",
+        "subicon_dict": {}
+    }
+]

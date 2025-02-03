@@ -1,0 +1,457 @@
+[
+    [
+        "_Chapter Sound",
+        false,
+        false
+    ],
+    [
+        "Fire Emblem Theme",
+        false,
+        false
+    ],
+    [
+        "Precious Things",
+        false,
+        false
+    ],
+    [
+        "Grasp at Victory",
+        false,
+        false
+    ],
+    [
+        "Distant Roads",
+        false,
+        false
+    ],
+    [
+        "Enemies Appear",
+        false,
+        false
+    ],
+    [
+        "Verdane Army",
+        false,
+        false
+    ],
+    [
+        "Binding Ties",
+        false,
+        false
+    ],
+    [
+        "Arena Entrance",
+        false,
+        false
+    ],
+    [
+        "Arena Battle",
+        false,
+        false
+    ],
+    [
+        "_Arena Victory",
+        false,
+        false
+    ],
+    [
+        "Strike",
+        false,
+        false
+    ],
+    [
+        "Safeguard",
+        false,
+        false
+    ],
+    [
+        "Victory Now!",
+        false,
+        false
+    ],
+    [
+        "Softly with Grace",
+        false,
+        false
+    ],
+    [
+        "Healing",
+        false,
+        false
+    ],
+    [
+        "Curing",
+        false,
+        false
+    ],
+    [
+        "Shops",
+        false,
+        false
+    ],
+    [
+        "Armory",
+        false,
+        false
+    ],
+    [
+        "Together We Ride",
+        false,
+        false
+    ],
+    [
+        "A Knight's Oath",
+        false,
+        false
+    ],
+    [
+        "Prepare to Charge",
+        false,
+        false
+    ],
+    [
+        "Game Over",
+        false,
+        false
+    ],
+    [
+        "Loyalty",
+        false,
+        false
+    ],
+    [
+        "Girl of the Plains",
+        false,
+        false
+    ],
+    [
+        "Ships and Homes",
+        false,
+        false
+    ],
+    [
+        "Raid",
+        false,
+        false
+    ],
+    [
+        "The Messenger",
+        false,
+        false
+    ],
+    [
+        "The Kingdom of Bern",
+        false,
+        false
+    ],
+    [
+        "An Unexpected Caller",
+        false,
+        false
+    ],
+    [
+        "A Hint of Things to Come",
+        false,
+        false
+    ],
+    [
+        "Silent Ground",
+        false,
+        false
+    ],
+    [
+        "Lyn's Desire",
+        false,
+        false
+    ],
+    [
+        "The Archsage Athos",
+        false,
+        false
+    ],
+    [
+        "Within Sadness",
+        false,
+        false
+    ],
+    [
+        "To the Heights",
+        false,
+        false
+    ],
+    [
+        "Requiem",
+        false,
+        false
+    ],
+    [
+        "What Comes from Darkness",
+        false,
+        false
+    ],
+    [
+        "When the Rush Comes",
+        false,
+        false
+    ],
+    [
+        "Respite in Battle",
+        false,
+        false
+    ],
+    [
+        "Into the Shadow of Triumph",
+        false,
+        false
+    ],
+    [
+        "Was This Love",
+        false,
+        false
+    ],
+    [
+        "For Your Own Good",
+        false,
+        false
+    ],
+    [
+        "MoonForest",
+        false,
+        false
+    ],
+    [
+        "MoonForest - Marina",
+        false,
+        false
+    ],
+    [
+        "MoonForest - Duet",
+        false,
+        false
+    ],
+    [
+        "Alight",
+        false,
+        false
+    ],
+    [
+        "Far Dawn",
+        false,
+        false
+    ],
+    [
+        "Master Battle",
+        false,
+        false
+    ],
+    [
+        "Commence the Psychological Analysis",
+        false,
+        false
+    ],
+    [
+        "Inescapable Fate",
+        false,
+        false
+    ],
+    [
+        "Companions",
+        false,
+        false
+    ],
+    [
+        "Pirate Otter Battle",
+        false,
+        false
+    ],
+    [
+        "Pirate Otter Hideout",
+        false,
+        false
+    ],
+    [
+        "Route 111",
+        false,
+        false
+    ],
+    [
+        "Big Bad Burnin' Buddha",
+        false,
+        false
+    ],
+    [
+        "FE5 Arena Battle",
+        false,
+        false
+    ],
+    [
+        "The Steel Samurai",
+        false,
+        false
+    ],
+    [
+        "Moustafa",
+        false,
+        false
+    ],
+    [
+        "Normal Battle",
+        false,
+        false
+    ],
+    [
+        "Poison Battle",
+        false,
+        false
+    ],
+    [
+        "Water Battle",
+        false,
+        false
+    ],
+    [
+        "Land of Swirling Sands",
+        false,
+        false
+    ],
+    [
+        "Bug Battle",
+        false,
+        false
+    ],
+    [
+        "Past Light",
+        false,
+        false
+    ],
+    [
+        "Event Theme 4",
+        false,
+        false
+    ],
+    [
+        "Shizima4",
+        false,
+        false
+    ],
+    [
+        "Fantasy 09",
+        false,
+        false
+    ],
+    [
+        "Sand town",
+        false,
+        false
+    ],
+    [
+        "Lullaby of a Loyal Knight",
+        false,
+        false
+    ],
+    [
+        "Fighting Battle",
+        false,
+        false
+    ],
+    [
+        "Ethnic 08",
+        false,
+        false
+    ],
+    [
+        "Ethnic 15",
+        false,
+        false
+    ],
+    [
+        "Dazed Desert Walk",
+        false,
+        false
+    ],
+    [
+        "Raid Ethnic",
+        false,
+        false
+    ],
+    [
+        "Folk Arabian",
+        false,
+        false
+    ],
+    [
+        "Doppel",
+        false,
+        false
+    ],
+    [
+        "Doppel - Vocal",
+        false,
+        false
+    ],
+    [
+        "Midosuji",
+        false,
+        false
+    ],
+    [
+        "Guildmaster Wigglytuff",
+        false,
+        false
+    ],
+    [
+        "Fantasy 08",
+        false,
+        false
+    ],
+    [
+        "Castle 03",
+        false,
+        false
+    ],
+    [
+        "Spring City",
+        false,
+        false
+    ],
+    [
+        "Market",
+        false,
+        false
+    ],
+    [
+        "Wish4",
+        false,
+        false
+    ],
+    [
+        "RetroRoman Koharu",
+        false,
+        false
+    ],
+    [
+        "Windmill Village",
+        false,
+        false
+    ],
+    [
+        "Otogi3",
+        false,
+        false
+    ],
+    [
+        "Ohayashi",
+        false,
+        false
+    ],
+    [
+        "Sakuya3",
+        false,
+        false
+    ],
+    [
+        "Kagaribi no Oyado",
+        false,
+        false
+    ]
+]

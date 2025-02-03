@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "secretVisit",
+        "desc": "Checks if the player visits the Secret Shop"
+    },
+    {
+        "nid": "ch7Choice",
+        "desc": "Stores which choice the player makes at the end of Chapter 6"
+    },
+    {
+        "nid": "TruthPlot",
+        "desc": "Toggles to True after a certain point in the plot"
+    },
+    {
+        "nid": "CircPlot",
+        "desc": "Toggles to True after a certain point in the plot"
+    }
+]
