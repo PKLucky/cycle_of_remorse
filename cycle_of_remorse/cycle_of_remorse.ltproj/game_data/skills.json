@@ -441,22 +441,6 @@
         ]
     },
     {
-        "nid": "NightvisionFelicity",
-        "name": "Nightvision",
-        "desc": "Grants +3 tiles of vision in Fog of War.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            12,
-            34
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ]
-        ]
-    },
-    {
         "nid": "Nightvision",
         "name": "Nightvision",
         "desc": "Grants +3 tiles of vision in Fog of War.",
@@ -473,6 +457,30 @@
             [
                 "sight_range_bonus",
                 3
+            ]
+        ]
+    },
+    {
+        "nid": "RecklessShield",
+        "name": "Reckless Shield",
+        "desc": "If unit is injured, takes -3 damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            14
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist",
+                3
+            ],
+            [
+                "combat_condition",
+                "unit.get_hp() < unit.get_max_hp()"
             ]
         ]
     },

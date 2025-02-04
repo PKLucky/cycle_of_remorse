@@ -5505,7 +5505,12 @@
             "CON": 20,
             "MOV": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "RecklessShield"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

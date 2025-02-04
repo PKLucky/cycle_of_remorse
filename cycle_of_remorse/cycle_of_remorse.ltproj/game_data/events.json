@@ -20012,7 +20012,7 @@
             "autolevel_to;Jake;10;fixed",
             "###",
             "set_wexp;Anna;Lance;31;no_banner",
-            "give_item;Anna;Heavy Spear;no_banner",
+            "give_item;Anna;Axebuster;no_banner",
             "give_item;Anna;SlimLance;no_banner",
             "equip_item;Anna;SlimLance",
             "set_wexp;Jake;Bow;31;no_banner",

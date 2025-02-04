@@ -9,6 +9,7 @@ UNDER THE HOOD
 
 GAMEPLAY
 * Treasure from chests that are stolen from enemy thieves are now dropped upon defeating them (including money).
+* Brigands have a class skill: Reckless Shield (unit takes less damage when injured).
 [!!] Guide entry on Supports has been added. (Can be added via the debug command "add_lore;Supports")
 * The Trade command in the map menu is now green. (Indicates it is a free action that can be done before attacking.)
 * The Steal+ command in the map menu is now white.
@@ -17,6 +18,13 @@ GAMEPLAY
 * Guide entry for Secret Shops has been revised.
 * Death quotes now play when a unit dies from poison damage or from a Mine.
 * Rogues from Chapter 20: Edoyama to Chapter 22: Samegoro's Wrath are now Ninjas. (Still functionally the same as Rogues. Done to indicate that they will not steal from chests or player units like Rogues would normally do. They are also not weak to Krista's Royal Sword.)
+
+CHAPTER SPECIFIC
+Chapter 7x: Merchants Abroad
+* One Knight now holds an Axebuster instead of a Steel Lance.
+* One Knight now holds an Iron Axe instead of an Iron Lance.
+* One Cavalier now holds a droppable Heavy Spear instead of a Steel Lance.
+* Anna now starts with an Axebuster instead of a Heavy Spear.
 
 CHARACTER-SPECIFIC
 Tsurugi
