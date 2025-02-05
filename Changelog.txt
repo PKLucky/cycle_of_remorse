@@ -23,6 +23,9 @@ CHAPTER SPECIFIC
 Chapter 0: Damsel in No Stress
 * Kai or Trevor dying is now considered a Game Over condition.
 
+Chapter 3:
+* Game Over condition for if too many enemies within the house now works.
+
 Chapter 7x: Merchants Abroad
 * One Knight now holds an Axebuster instead of a Steel Lance.
 * One Knight now holds an Iron Axe instead of an Iron Lance.

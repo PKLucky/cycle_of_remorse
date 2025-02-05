@@ -32777,7 +32777,7 @@
         "name": "GameOver",
         "trigger": "turn_change",
         "level_nid": "3",
-        "condition": "len(get_units_in_region(team='enemy')) >= 3",
+        "condition": "len(get_units_in_region('danger',team='enemy')) >= 3",
         "commands": [],
         "only_once": false,
         "priority": 20,
