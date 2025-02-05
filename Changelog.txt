@@ -20,6 +20,9 @@ GAMEPLAY
 * Rogues from Chapter 20: Edoyama to Chapter 22: Samegoro's Wrath are now Ninjas. (Still functionally the same as Rogues. Done to indicate that they will not steal from chests or player units like Rogues would normally do. They are also not weak to Krista's Royal Sword.)
 
 CHAPTER SPECIFIC
+Chapter 0: Damsel in No Stress
+* Kai or Trevor dying is now considered a Game Over condition.
+
 Chapter 7x: Merchants Abroad
 * One Knight now holds an Axebuster instead of a Steel Lance.
 * One Knight now holds an Iron Axe instead of an Iron Lance.
@@ -36,6 +39,9 @@ Asuka
 SUPPORTS
 New Support Conversations
 * Taiga/Yumi - C
+
+AESTHETIC
+* New portrait for Azure.
 =====================================================
 v0.12.4
 This version is compatible with saves from v.12.x

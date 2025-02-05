@@ -20,7 +20,7 @@
         "objective": {
             "simple": "Defeat boss",
             "win": "Defeat boss",
-            "loss": "Forrest dies"
+            "loss": "Forrest or Kai or,Trevor dies"
         },
         "roam": false,
         "roam_unit": "Eirika",

@@ -60,6 +60,10 @@
     [
         [
             "other",
+            "wallally"
+        ],
+        [
+            "other",
             "player"
         ],
         [
@@ -69,10 +73,6 @@
         [
             "enemy_1",
             "other"
-        ],
-        [
-            "other",
-            "wallally"
         ]
     ]
 ]
