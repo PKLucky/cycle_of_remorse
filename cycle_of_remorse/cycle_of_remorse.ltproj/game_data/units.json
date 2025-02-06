@@ -4889,7 +4889,7 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 4,
+            "SPD": 7,
             "LCK": 1,
             "SKL": 5,
             "MOV": 0,
@@ -5317,6 +5317,86 @@
         ]
     },
     {
+        "nid": "Shula",
+        "name": "Shula",
+        "desc": "A villager from Coral Desert.\nSerious, but has a soft side.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Sniper",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "SPD": 22,
+            "RES": 15,
+            "LCK": 13,
+            "HP": 32,
+            "CON": 6,
+            "SKL": 23,
+            "MOV": 6,
+            "DEF": 12,
+            "STR": 23,
+            "MAG": 15
+        },
+        "growths": {
+            "SPD": 50,
+            "RES": 35,
+            "LCK": 35,
+            "HP": 65,
+            "CON": 15,
+            "SKL": 50,
+            "MOV": 0,
+            "DEF": 25,
+            "STR": 55,
+            "MAG": 35
+        },
+        "stat_cap_modifiers": {
+            "SPD": 3,
+            "RES": 0,
+            "LCK": 0,
+            "HP": 0,
+            "CON": 0,
+            "SKL": 5,
+            "MOV": 0,
+            "DEF": 0,
+            "STR": 3,
+            "MAG": 0
+        },
+        "starting_items": [
+            [
+                "SteelLongbow",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "SHULA"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Woman2",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "D-Dammit{tgm}...!{tgm} Not like this{tgm}..."
+            ]
+        ]
+    },
+    {
         "nid": "Kiraz",
         "name": "Kiraz",
         "desc": "A young girl who lived alone in the desert.\nOptimistic and a hard-worker.",
@@ -5411,84 +5491,108 @@
         ]
     },
     {
-        "nid": "Shula",
-        "name": "Shula",
-        "desc": "A villager from Coral Desert.\nSerious, but has a soft side.",
-        "variant": "Female",
+        "nid": "Ervan",
+        "name": "Ervan",
+        "desc": "Former prince of Fuegsol.\nConsumed with bitterness and betrayal.",
+        "variant": "",
         "level": 1,
-        "klass": "Sniper",
-        "tags": [
-            "Female"
-        ],
+        "klass": "BowLord",
+        "tags": [],
         "bases": {
-            "SPD": 22,
-            "RES": 15,
-            "LCK": 13,
-            "HP": 32,
-            "CON": 6,
+            "HP": 35,
+            "STR": 25,
+            "MAG": 10,
             "SKL": 23,
-            "MOV": 6,
-            "DEF": 12,
-            "STR": 23,
-            "MAG": 15
+            "SPD": 21,
+            "LCK": 10,
+            "DEF": 19,
+            "RES": 17,
+            "CON": 7,
+            "MOV": 6
         },
         "growths": {
-            "SPD": 50,
-            "RES": 35,
-            "LCK": 35,
-            "HP": 65,
-            "CON": 15,
-            "SKL": 50,
-            "MOV": 0,
-            "DEF": 25,
-            "STR": 55,
-            "MAG": 35
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 3,
-            "RES": 0,
-            "LCK": 0,
-            "HP": 0,
-            "CON": 0,
-            "SKL": 5,
-            "MOV": 0,
             "DEF": 0,
-            "STR": 3,
-            "MAG": 0
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "HP": 0,
+            "MOV": 0,
+            "CON": 0,
+            "RES": 0,
+            "MAG": 0,
+            "LCK": 0
         },
-        "starting_items": [
-            [
-                "SteelLongbow",
-                false
-            ],
-            [
-                "Elixir",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
-                "SHULA"
+                "ERVAN"
             ]
         ],
         "unit_notes": [],
         "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
             "Bow": [
                 false,
                 241,
-                null
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Woman2",
-        "affinity": "Wind",
-        "fields": [
-            [
-                "DeathQuote",
-                "D-Dammit{tgm}...!{tgm} Not like this{tgm}..."
-            ]
-        ]
+        "portrait_nid": "Ervan",
+        "affinity": "Anima",
+        "fields": []
     },
     {
         "nid": "Torgen",
@@ -6574,115 +6678,6 @@
         "alternate_classes": [],
         "portrait_nid": "Thalia",
         "affinity": "Light",
-        "fields": []
-    },
-    {
-        "nid": "Ervan",
-        "name": "Ervan",
-        "desc": "Former prince of Fuegsol.\nConsumed with bitterness and betrayal.",
-        "variant": "",
-        "level": 1,
-        "klass": "BowLord",
-        "tags": [],
-        "bases": {
-            "HP": 10,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 7,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "DEF": 0,
-            "STR": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "HP": 0,
-            "MOV": 0,
-            "CON": 0,
-            "RES": 0,
-            "MAG": 0,
-            "LCK": 0
-        },
-        "starting_items": [
-            [
-                "Killer Bow",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "ERVAN"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                241,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Ervan",
-        "affinity": "Anima",
         "fields": []
     },
     {

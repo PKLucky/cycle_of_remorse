@@ -236,5 +236,13 @@
     {
         "nid": "Ninja {Der}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Camel Rider (M) Lance {Orihara Saki}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Militia (M) Deserter Lance {Rasdel}",
+        "subicon_dict": {}
     }
 ]

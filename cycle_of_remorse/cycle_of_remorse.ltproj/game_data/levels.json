@@ -20,7 +20,7 @@
         "objective": {
             "simple": "Defeat boss",
             "win": "Defeat boss",
-            "loss": "Forrest or Kai or,Trevor dies"
+            "loss": "Forrest{comma} Kai{comma} or,Trevor dies"
         },
         "roam": false,
         "roam_unit": "Eirika",
@@ -549,7 +549,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -597,7 +597,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -717,7 +717,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -765,7 +765,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -813,7 +813,7 @@
                 "nid": "112",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -906,7 +906,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "2",
@@ -927,7 +932,7 @@
         "objective": {
             "simple": "Defeat enemy,Left {e:len(game.get_enemy_units())}",
             "win": "Defeat enemy,Left {e:len(game.get_enemy_units())}",
-            "loss": "At least one prisoner dies or,Krista dies"
+            "loss": "Aqua{comma} Semi{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -1182,7 +1187,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -1198,7 +1203,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     2,
                     7
@@ -1210,7 +1215,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -1382,7 +1387,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -1406,7 +1411,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 3,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -1735,7 +1740,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "3",
@@ -2000,7 +2010,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -2024,7 +2034,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -2048,7 +2058,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -2658,7 +2668,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "4",
@@ -2804,7 +2819,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -2828,7 +2843,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -3770,7 +3785,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "4x",
@@ -3835,7 +3855,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -3887,7 +3907,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 4,
-                "klass": "Soldier",
+                "klass": "Pikeman",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -4101,6 +4121,10 @@
                     [
                         "Flux",
                         false
+                    ],
+                    [
+                        "Red Gem",
+                        true
                     ]
                 ],
                 "starting_skills": [
@@ -4383,7 +4407,12 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "5",
@@ -9043,6 +9072,10 @@
                     [
                         "Steel Lance",
                         false
+                    ],
+                    [
+                        "Red Gem",
+                        true
                     ]
                 ],
                 "starting_skills": [
@@ -9500,7 +9533,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "7b",
@@ -12031,7 +12069,7 @@
         "objective": {
             "simple": "Seize the forts,{eval:game.level_vars['fortsSeized']}/5 seized",
             "win": "Seize the forts",
-            "loss": "Krista or Anna,or Jake dies"
+            "loss": "Anna{comma} Jake{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -21263,7 +21301,7 @@
         "objective": {
             "simple": "Defeat Bosses",
             "win": "Defeat Bosses",
-            "loss": "Krista or prisoners die"
+            "loss": "Krista or {e:'Aqua' if game.game_vars['ch7Choice'] == 'a' else 'Marina'} dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -27301,7 +27339,7 @@
         "objective": {
             "simple": "Defend the cargo,{eval:game.turncount}/7 turn(s)",
             "win": "Defend the cargo",
-            "loss": "All cargo is destroyed or,Krista or Anna or Jake dies"
+            "loss": "All cargo is destroyed,Anna{comma} Jake{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -35890,7 +35928,7 @@
         "objective": {
             "simple": "Survive,{eval:game.turncount}/7 turn(s)",
             "win": "Defend for 7 turns,or Defeat boss",
-            "loss": "Krista or Gerolt,or Leeann dies"
+            "loss": "Gerolt{comma} Leeann{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": "Krista",
@@ -36114,7 +36152,7 @@
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Short Spear",
                         false
                     ]
                 ],
@@ -36138,7 +36176,7 @@
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Short Spear",
                         false
                     ]
                 ],
@@ -36834,7 +36872,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 4,
-                "klass": "Paladin",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -36882,11 +36920,11 @@
                 "nid": "122",
                 "variant": null,
                 "level": 4,
-                "klass": "Paladin",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "SteelPoleax",
+                        "Steel Blade",
                         false
                     ]
                 ],
@@ -37294,7 +37332,7 @@
                 "nid": "139",
                 "variant": null,
                 "level": 4,
-                "klass": "Falcoknight",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -37342,11 +37380,11 @@
                 "nid": "141",
                 "variant": null,
                 "level": 4,
-                "klass": "Falcoknight",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Short Spear",
+                        "Hand Axe",
                         false
                     ]
                 ],
@@ -37390,7 +37428,7 @@
                 "nid": "143",
                 "variant": null,
                 "level": 4,
-                "klass": "Paladin",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -38189,11 +38227,11 @@
                 "nid": "106",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Berserker",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Dragon Axe",
                         false
                     ]
                 ],
@@ -38213,11 +38251,11 @@
                 "nid": "107",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -38285,11 +38323,11 @@
                 "nid": "110",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Berserker",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Hammer",
                         false
                     ]
                 ],
@@ -38309,11 +38347,11 @@
                 "nid": "111",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -38333,11 +38371,11 @@
                 "nid": "112",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -38357,11 +38395,11 @@
                 "nid": "113",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Berserker",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -38429,11 +38467,11 @@
                 "nid": "116",
                 "variant": null,
                 "level": 5,
-                "klass": "Sage",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Elfire",
+                        "Dragon Axe",
                         false
                     ]
                 ],
@@ -38453,17 +38491,17 @@
                 "nid": "117",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Sorceror",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Mend",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Heal",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -38477,11 +38515,11 @@
                 "nid": "118",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -38501,11 +38539,11 @@
                 "nid": "119",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Warrior",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Short Bow",
                         false
                     ]
                 ],
@@ -38645,11 +38683,11 @@
                 "nid": "125",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -38669,11 +38707,11 @@
                 "nid": "126",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "SteelGreatlance",
                         false
                     ]
                 ],
@@ -38717,11 +38755,11 @@
                 "nid": "128",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "SteelLongbow",
                         false
                     ]
                 ],
@@ -38981,11 +39019,11 @@
                 "nid": "139",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Elice",
                         false
                     ]
                 ],
@@ -39005,11 +39043,11 @@
                 "nid": "140",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Miasma",
                         false
                     ]
                 ],
@@ -39029,17 +39067,17 @@
                 "nid": "141",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Sorceror",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Physic",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Heal",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -39053,11 +39091,11 @@
                 "nid": "142",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Gibbous",
                         false
                     ]
                 ],
@@ -39077,11 +39115,11 @@
                 "nid": "143",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -39173,11 +39211,11 @@
                 "nid": "147",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -39197,11 +39235,11 @@
                 "nid": "148",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "CamelRider",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -39244,8 +39282,8 @@
                     3
                 ],
                 "size": [
-                    2,
-                    2
+                    1,
+                    1
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -39428,72 +39466,6 @@
         "ai_groups": []
     },
     {
-        "nid": "25",
-        "name": "Ch. 25: Return to Oregot",
-        "tilemap": null,
-        "bg_tilemap": null,
-        "party": "Krista",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "26",
-        "name": "Ch. 26: An Ancient Secret",
-        "tilemap": null,
-        "bg_tilemap": null,
-        "party": "Krista",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "27",
-        "name": "Ch. 27: The Oregotian Council",
-        "tilemap": null,
-        "bg_tilemap": null,
-        "party": "Krista",
-        "music": {},
-        "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [],
-        "units": [],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
         "nid": "DEBUG",
         "name": "DEBUG",
         "tilemap": "DEBUG",
@@ -39580,9 +39552,11 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Poisoned"
+                ],
                 "team": "enemy",
-                "ai": "Thief",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -40315,6 +40289,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

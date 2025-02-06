@@ -85,6 +85,7 @@ Berserker (Sword) - Maiser6
 Berserker (Hawkzerker Female) - Pikmin1211, Maiser6
 Berserker (Hawkzerker No Ponytail) - Orihara_Saki, ltranc
 Brigand (Female) - eCut
+Camel Rider - Orihara Saki
 Cath Custom (Generic) - RiriK
 Cavalier (Male) (Axe, Handaxe) - Skitty
 Cleric - Eldritch Abomination, Flasuban
@@ -116,6 +117,7 @@ Mage Knight (Male, Magic) - ???
 Mage Knight (Male, Sword) - Aruka, Kenpuhu
 Marshall - Nuramon
 Mercenary (Female) - TBA
+Militia - Alusq
 Monk (Female) - Eldritch Abomination
 Ninja - Pikmin, Der
 Paladin (Female) - Tordo45
@@ -149,6 +151,7 @@ Battle Sage - L95
 Berserker (Female) - Unknown
 Berserker (Female Hawkzerker) - Pikmin1211, DerTheVaporeon
 Brigand (Female) - Skitty
+Camel Rider - Orihara_Saki
 Cavalier (Female) - Tordo45
 Cavalier (Female) (Axe) - RobertFPY
 Cavalier (Male) (Axe) - Siuloir
@@ -177,6 +180,7 @@ Mage Lord - TyTheBub
 Marshall - Nuramon
 Matriarch - Unknown
 Mercenary (Female) - Flasuban
+Militia - Alusq
 Monk (Female) - Teraspark
 Naoko - Ghostblade
 Ninja - Der
@@ -199,12 +203,14 @@ Warrior (Tellius) - Rasdel
 Class Cards
 Arbalest - EldritchAbomination, Jj09, N426
 Bard - MeatofJustice
+Camel Rider - Orihara_Saki
 Crates - Primefusion
 Halberdier - Uncredited
 Journeyman - SamirPlayz
 Lancer - Team SALVAGED
 Monk - GratedShtick
 Ninja - Der
+Pikeman - Rasdel
 Sorceror - Aruka, Yggdra, Pushwall
 
 Spell Animations:

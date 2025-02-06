@@ -15012,7 +15012,7 @@
                 null
             ],
             [
-                "ally_blast_aoe",
+                "ally_blast_except_self_aoe",
                 1
             ]
         ]
@@ -15064,12 +15064,12 @@
                 5
             ],
             [
-                "ally_blast_aoe",
-                1
-            ],
-            [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "ally_blast_except_self_aoe",
+                1
             ]
         ]
     },
@@ -15120,12 +15120,12 @@
                 5
             ],
             [
-                "ally_blast_aoe",
-                1
-            ],
-            [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "ally_blast_except_self_aoe",
+                1
             ]
         ]
     },
@@ -15260,12 +15260,12 @@
                 "Rally"
             ],
             [
-                "ally_blast_aoe",
-                1
-            ],
-            [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "ally_blast_except_self_aoe",
+                1
             ]
         ]
     },
@@ -15324,12 +15324,12 @@
                 "Rally"
             ],
             [
-                "ally_blast_aoe",
-                1
-            ],
-            [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "ally_blast_except_self_aoe",
+                1
             ]
         ]
     },

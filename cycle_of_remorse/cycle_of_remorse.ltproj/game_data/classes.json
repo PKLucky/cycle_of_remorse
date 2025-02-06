@@ -2288,10 +2288,10 @@
         "max_level": 20,
         "bases": {
             "HP": 17,
-            "STR": 2,
+            "STR": 5,
             "MAG": 0,
             "SKL": 5,
-            "SPD": 7,
+            "SPD": 4,
             "LCK": -2,
             "DEF": 3,
             "RES": 2,
@@ -2300,10 +2300,10 @@
         },
         "growths": {
             "HP": 75,
-            "STR": 55,
+            "STR": 60,
             "MAG": 50,
             "SKL": 60,
-            "SPD": 65,
+            "SPD": 60,
             "LCK": 60,
             "DEF": 30,
             "RES": 35,
@@ -2336,10 +2336,10 @@
         },
         "max_stats": {
             "HP": 47,
-            "STR": 25,
+            "STR": 28,
             "MAG": 25,
             "SKL": 28,
-            "SPD": 31,
+            "SPD": 28,
             "LCK": 25,
             "DEF": 25,
             "RES": 25,
@@ -3064,6 +3064,135 @@
         "fields": []
     },
     {
+        "nid": "Pikeman",
+        "name": "Pikeman",
+        "desc": "Inexperienced spearmen who use brutish tactics.",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Bandit"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 24,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 4,
+            "SPD": 3,
+            "LCK": 1,
+            "DEF": 4,
+            "RES": 3,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 70,
+            "MAG": 0,
+            "SKL": 55,
+            "SPD": 45,
+            "LCK": 45,
+            "DEF": 55,
+            "RES": 50,
+            "CON": 15,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 40,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 10
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                1,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Militia (M) Deserter Lance {Rasdel}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Pikeman",
+        "combat_anim_nid": "Pikeman",
+        "fields": []
+    },
+    {
         "nid": "Halberdier",
         "name": "Halberdier",
         "desc": "Veteran frontliners who claim never to miss their target.",
@@ -3728,6 +3857,140 @@
         ],
         "map_sprite_nid": "Paladin",
         "combat_anim_nid": "Paladin",
+        "fields": []
+    },
+    {
+        "nid": "CamelRider",
+        "name": "Camel Rider",
+        "desc": "Mounted warriors who are efficient in desert combat.",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": "Cavalier",
+        "turns_into": [],
+        "tags": [
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 21,
+            "STR": 7,
+            "MAG": 1,
+            "SKL": 2,
+            "SPD": 2,
+            "LCK": -3,
+            "DEF": 2,
+            "CON": 8,
+            "MOV": 8,
+            "RES": 7
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 60,
+            "MAG": 40,
+            "SKL": 60,
+            "SPD": 50,
+            "LCK": 50,
+            "DEF": 40,
+            "CON": 15,
+            "MOV": 0,
+            "RES": 45
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 3,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 2,
+            "MOV": 1,
+            "RES": 2
+        },
+        "max_stats": {
+            "HP": 53,
+            "STR": 30,
+            "MAG": 25,
+            "SKL": 27,
+            "SPD": 25,
+            "LCK": 25,
+            "DEF": 25,
+            "CON": 20,
+            "MOV": 10,
+            "RES": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                131,
+                491
+            ],
+            "Lance": [
+                true,
+                0,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                491
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Camel Rider (M) Lance {Orihara Saki}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "CamelRider",
+        "combat_anim_nid": "CamelRider",
         "fields": []
     },
     {

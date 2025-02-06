@@ -7,6 +7,13 @@
         "text": "These controls can be configured in the Options menu.{br}<yellow>Move:</>{br}Arrow keys / Left control stick or D-pad / Mouse hover{br}<yellow>Confirm:</>{br}X key / A button / Left mouse button\n<yellow>Back:</>{br}Z key / B button / Right mouse button{br}<yellow>Info:</>{br}C key / RB / Middle mouse button\n<yellow>Aux:</>{br}A key / LB{br}<yellow>Start:</>{br}S key / Start\n<yellow>Other notes:</>{br}<blue>Growths</> can be seen by pressing <blue>Aux</> on a unit's <blue>Personal Data</> page.{br}Cutscenes can be <blue>partially skipped</> by pressing <blue>Back</> or <blue>fully skipped</> by pressing <blue>Start</>.\nScreenshots can be taken by pressing the <blue>~ key</>. They are saved as <blue>.bmp</> files in the <blue>screenshots</> folder in the <blue>cycle_of_remorse</> folder."
     },
     {
+        "nid": "Debug",
+        "name": "Debug",
+        "title": "Debug Menu",
+        "category": "Controls",
+        "text": "The <blue>debug</> menu can be enabled by pressing <blue>UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT</> while on the map menu. (Menu with the options Unit, Objective, Suspend, etc.)\nLT-Maker event commands can be executed one at a time through this menu. To exit, press the <blue>ENTER</> key."
+    },
+    {
         "nid": "Arena",
         "name": "Arena",
         "title": "Arena",

@@ -463,7 +463,7 @@
     {
         "nid": "RecklessShield",
         "name": "Reckless Shield",
-        "desc": "If unit is injured, takes -3 damage.",
+        "desc": "If unit is injured, takes -(10% Max HP) damage.",
         "icon_nid": "Skills",
         "icon_index": [
             6,
@@ -475,12 +475,12 @@
                 null
             ],
             [
-                "resist",
-                3
-            ],
-            [
                 "combat_condition",
                 "unit.get_hp() < unit.get_max_hp()"
+            ],
+            [
+                "eval_resist",
+                "unit.get_max_hp() * 0.1"
             ]
         ]
     },
@@ -690,7 +690,7 @@
             ],
             [
                 "degeneration",
-                0.1
+                -0.1
             ],
             [
                 "unit_flickering_tint",

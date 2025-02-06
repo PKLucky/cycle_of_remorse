@@ -3,7 +3,7 @@ YOU FOOL! I have tricked you into opening Readme.txt! You now must read it in it
 FIRE EMBLEM: CYCLE OF REMORSE
 A GBA Fire Emblem-style fangame created with Lex Talionis/LT Maker created by rainlash.
 
-Version 0.12.5
+Version 0.12.6
 (This version is compatible with saves from v0.12.X. Check Changelog.txt for more details.)
 
 FEUniverse Thread:

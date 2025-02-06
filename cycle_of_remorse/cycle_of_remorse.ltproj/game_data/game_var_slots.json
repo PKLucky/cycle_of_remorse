@@ -14,5 +14,9 @@
     {
         "nid": "CircPlot",
         "desc": "Toggles to True after a certain point in the plot"
+    },
+    {
+        "nid": "ChapterFlag",
+        "desc": "Keeps track of current numbered chapter"
     }
 ]

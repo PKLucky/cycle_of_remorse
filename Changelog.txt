@@ -1,3 +1,34 @@
+v0.12.6
+This version is compatible with saves from v.12.x
+Changes marked with [!!] will NOT carry over from a v.12.x save.
+
+UNDER THE HOOD
+[!!] Reverted item components of refresh skills and rally skills.
+
+GAMEPLAY
+[!!] Guide entry on Debug menu added.
+* Replaced generic enemy soldiers from Chapter 1: Regroup to Chapter 4x: Rescue Mission with new enemy class: Pikeman.
+* Reworked enemy AI for ally retrieval maps (Chapter 4x: Rescue Mission, Chapter 7B: Interception) to make enemies less aggressive.
+* Rewrote some loss conditions to be more clear.
+* Reckless Shield now reduces damage by 10% of the unit's max HP instead of a flat damage reductions.
+* Adjusted generic Ninja Strength and Speed bases and growths.
+* Added Camel Rider class. (Arena only)
+
+CHAPTER-SPECIFIC
+Chapter 4x: Rescue Mission
+* Generic Shaman boss now holds a droppable Red Gem.
+
+Chapter 7B: Interception
+* Generic Pegasus Knight boss now holds a droppable Red Gem.
+
+Chapter 15: Gintoki Arena
+* Aqua and Lucy are now not deployable if they cannot equip the Assault staff even if it is in the player's inventory.
+* Added walls to certain parts of the map.
+
+CHARACTER-SPECIFIC
+Asuka
+* Raised Speed cap.
+=====================================================
 v0.12.5
 This version is compatible with saves from v.12.x
 Changes marked with [!!] will NOT carry over from a v.12.x save.

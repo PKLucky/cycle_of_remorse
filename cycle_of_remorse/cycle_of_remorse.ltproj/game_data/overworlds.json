@@ -339,7 +339,7 @@
                     18,
                     15
                 ],
-                "icon": "ruins",
+                "icon": "pyramid",
                 "level": "23",
                 "menu_options": []
             },
@@ -350,8 +350,8 @@
                     16,
                     15
                 ],
-                "icon": "map_node",
-                "level": null,
+                "icon": "fort",
+                "level": "24",
                 "menu_options": []
             },
             {
@@ -366,24 +366,13 @@
                 "menu_options": []
             },
             {
-                "nid": "26",
-                "name": "Ch 26",
-                "pos": [
-                    6,
-                    12
-                ],
-                "icon": "map_node",
-                "level": null,
-                "menu_options": []
-            },
-            {
                 "nid": "27",
                 "name": "Ch 27",
                 "pos": [
-                    6,
-                    10
+                    5,
+                    7
                 ],
-                "icon": "cathedral",
+                "icon": "ruins",
                 "level": null,
                 "menu_options": []
             }
@@ -839,30 +828,6 @@
                 [
                     16,
                     15
-                ]
-            ],
-            "(6, 12)-(7, 14)": [
-                [
-                    7,
-                    14
-                ],
-                [
-                    7,
-                    12
-                ],
-                [
-                    6,
-                    12
-                ]
-            ],
-            "(6, 10)-(6, 12)": [
-                [
-                    6,
-                    10
-                ],
-                [
-                    6,
-                    12
                 ]
             ]
         },
