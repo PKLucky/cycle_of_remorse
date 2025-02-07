@@ -27618,7 +27618,7 @@
             "give_wexp;{created_unit};Lance;1;no_banner",
             "give_wexp;{created_unit};Axe;1;no_banner",
             "elif;game.get_unit('{created_unit}').klass == 'Bishop'",
-            "give_wexp;{created_unit};Light;1",
+            "give_wexp;{created_unit};Light;1;no_banner",
             "else",
             "end",
             "if;game.get_unit('{created_unit}').wexp['Sword'] > 0",
