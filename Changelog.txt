@@ -4,6 +4,7 @@ Changes marked with [!!] will NOT carry over from a v.12.x save.
 
 UNDER THE HOOD
 [!!] Reverted item components of refresh skills and rally skills.
+* Arena now has a more refined system for equipping the opponent with the weapon. Opponent weapons are now randomized based on what they can equip.
 
 GAMEPLAY
 [!!] Support points are now gained based on how many turns units spend together on the map. Distance between units does not matter. Number of support points gained through base conversations and support rank requirements have increased to compensate for this change.
@@ -11,7 +12,7 @@ GAMEPLAY
 * Replaced generic enemy soldiers from Chapter 1: Regroup to Chapter 4x: Rescue Mission with new enemy class: Pikeman.
 * Reworked enemy AI for ally retrieval maps (Chapter 4x: Rescue Mission, Chapter 7B: Interception) to make enemies less aggressive.
 * Rewrote some loss conditions to be more clear.
-* Reckless Shield now reduces damage by 10% of the unit's max HP instead of a flat damage reductions.
+* Reckless Shield now reduces damage by 10% of the unit's max HP instead of a flat damage reduction.
 * Adjusted generic Ninja Strength and Speed bases and growths.
 * Added Camel Rider class. (Arena only)
 
@@ -19,8 +20,15 @@ CHAPTER-SPECIFIC
 Chapter 4x: Rescue Mission
 * Generic Shaman boss now holds a droppable Red Gem.
 
+Chapter 5: Holy Knights
+* Only 3 Chest Keys and 3 Door Keys in stock now.
+
 Chapter 7B: Interception
 * Generic Pegasus Knight boss now holds a droppable Red Gem.
+
+CHAPTER-SPECIFIC
+Chapter 14: The Scourge Sisters
+* Loss condition now says Azure instead of Aqua if player chose the Lake Lunaris route at the end of Chapter 6: Dark Woods.
 
 Chapter 15: Gintoki Arena
 * Aqua and Lucy are now not deployable if they cannot equip the Assault staff even if it is in the player's inventory.
@@ -32,6 +40,10 @@ Felicity
 
 Asuka
 * Raised Speed cap.
+
+ITEM-SPECIFIC
+Lightning
+* Wt lowered from 6 to 4.
 
 WRITING
 * Minor dialogue changes.

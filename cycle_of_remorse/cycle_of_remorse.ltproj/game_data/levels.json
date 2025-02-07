@@ -21271,7 +21271,7 @@
         "objective": {
             "simple": "Defeat Bosses",
             "win": "Defeat Bosses",
-            "loss": "Krista or {e:'Aqua' if game.game_vars['ch7Choice'] == 'a' else 'Marina'} dies"
+            "loss": "Krista or {e:'Azure' if game.game_vars['ch7Choice'] == 'a' else 'Marina'} dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -39668,7 +39668,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    3,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
