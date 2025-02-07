@@ -63,12 +63,12 @@
             "player"
         ],
         [
-            "enemy",
-            "enemy2"
-        ],
-        [
             "other",
             "wallally"
+        ],
+        [
+            "enemy",
+            "enemy2"
         ],
         [
             "enemy_1",

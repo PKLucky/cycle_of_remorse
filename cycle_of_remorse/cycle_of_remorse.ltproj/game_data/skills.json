@@ -690,7 +690,7 @@
             ],
             [
                 "degeneration",
-                -0.1
+                0.1
             ],
             [
                 "unit_flickering_tint",
