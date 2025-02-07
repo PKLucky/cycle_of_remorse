@@ -1,17 +1,3 @@
-v0.12.7
-This version is compatible with saves from v.12.x
-Changes marked with [!!] will NOT carry over from a v.12.x save.
-
-GAMEPLAY
-[!!] Support points are now gained based on how many turns units spend together on the map. Distance between units does not matter. Number of support points gained through base conversations and support rank requirements have increased to compensate for this change.
-
-CHARACTER-SPECIFIC
-Felicity
-[!!] Sight range bonus in Fog of War maps now expressed as a separate skill: Nightvision. (Does not apply if already past Chapter 6: Dark Woods)
-
-WRITING
-* Minor dialogue changes.
-=====================================================
 v0.12.6
 This version is compatible with saves from v.12.x
 Changes marked with [!!] will NOT carry over from a v.12.x save.
@@ -20,6 +6,7 @@ UNDER THE HOOD
 [!!] Reverted item components of refresh skills and rally skills.
 
 GAMEPLAY
+[!!] Support points are now gained based on how many turns units spend together on the map. Distance between units does not matter. Number of support points gained through base conversations and support rank requirements have increased to compensate for this change.
 [!!] Guide entry on Debug menu added.
 * Replaced generic enemy soldiers from Chapter 1: Regroup to Chapter 4x: Rescue Mission with new enemy class: Pikeman.
 * Reworked enemy AI for ally retrieval maps (Chapter 4x: Rescue Mission, Chapter 7B: Interception) to make enemies less aggressive.
@@ -40,8 +27,14 @@ Chapter 15: Gintoki Arena
 * Added walls to certain parts of the map.
 
 CHARACTER-SPECIFIC
+Felicity
+[!!] Sight range bonus in Fog of War maps now expressed as a separate skill: Nightvision. (Does not apply if already past Chapter 6: Dark Woods)
+
 Asuka
 * Raised Speed cap.
+
+WRITING
+* Minor dialogue changes.
 =====================================================
 v0.12.5
 This version is compatible with saves from v.12.x
