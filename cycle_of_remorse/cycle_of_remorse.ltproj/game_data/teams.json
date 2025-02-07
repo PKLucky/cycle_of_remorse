@@ -60,7 +60,7 @@
     [
         [
             "other",
-            "wallally"
+            "player"
         ],
         [
             "enemy",
@@ -68,7 +68,7 @@
         ],
         [
             "other",
-            "player"
+            "wallally"
         ],
         [
             "enemy_1",

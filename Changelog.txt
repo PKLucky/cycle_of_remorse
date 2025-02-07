@@ -1,3 +1,17 @@
+v0.12.7
+This version is compatible with saves from v.12.x
+Changes marked with [!!] will NOT carry over from a v.12.x save.
+
+GAMEPLAY
+[!!] Support points are now gained based on how many turns units spend together on the map. Distance between units does not matter. Number of support points gained through base conversations and support rank requirements have increased to compensate for this change.
+
+CHARACTER-SPECIFIC
+Felicity
+[!!] Sight range bonus in Fog of War maps now expressed as a separate skill: Nightvision. (Does not apply if already past Chapter 6: Dark Woods)
+
+WRITING
+* Minor dialogue changes.
+=====================================================
 v0.12.6
 This version is compatible with saves from v.12.x
 Changes marked with [!!] will NOT carry over from a v.12.x save.
