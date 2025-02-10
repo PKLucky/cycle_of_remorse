@@ -39347,10 +39347,10 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Escape",
+                "nid": "Escape1",
                 "region_type": "event",
                 "position": [
-                    23,
+                    24,
                     19
                 ],
                 "size": [
@@ -39358,7 +39358,24 @@
                     1
                 ],
                 "sub_nid": "Escape",
-                "condition": "unit.team != 'enemy'",
+                "condition": "unit.team == 'other'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    25,
+                    4
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false

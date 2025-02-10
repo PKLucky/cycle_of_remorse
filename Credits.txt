@@ -330,6 +330,7 @@ FE Blazing Sword:
 - Fire Emblem Theme
 - Girl of the Plains
 - Grasp at Victory
+- The Grieving Heart
 - Healing
 - A Hint of Things to Come
 - Inescapable Fate
