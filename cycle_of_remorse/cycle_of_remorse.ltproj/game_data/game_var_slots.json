@@ -18,5 +18,13 @@
     {
         "nid": "ChapterFlag",
         "desc": "Keeps track of current numbered chapter"
+    },
+    {
+        "nid": "SamKaiCh2",
+        "desc": "Checks if Sam and Kai had their in-battle Talk Convo"
+    },
+    {
+        "nid": "ch7IrisConvo",
+        "desc": "Checks if Base Convo with Iris was activated"
     }
 ]
