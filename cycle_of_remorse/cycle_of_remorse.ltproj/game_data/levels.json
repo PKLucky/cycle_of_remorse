@@ -39728,10 +39728,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    2,
-                    6
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -39824,7 +39821,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    3,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -39844,7 +39844,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    3,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": false
             },

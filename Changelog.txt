@@ -1,3 +1,27 @@
+UNDER THE HOOD
+* Simplified displaying opponent's class name in Arena code.
+
+CHAPTER-SPECIFIC
+Chapter 0: Damsel in No Stress
+* Kai and Trevor now have unique boss dialogue.
+
+CHARACTER-SPECIFIC
+[!!] Joshua (Changes don't apply if already recruited)
+* Lowered Strength and Magic growth rates by 10%.
+* Raised Skill and Speed growth rates by 5%.
+* Raised Defense growth rate by 10%.
+* Adjusted stat caps when he is in Hero.
+
+ITEM-SPECIFIC
+Blarblade
+* Clarified that its effect stacks with Trevor's personal Skill.
+
+Oreg's Scroll
+[!!] Now shows alert saying that growth rates increased upon use.
+
+Repair Kit
+[!!] Reverted it back to where it can be found in the Staff menu.
+
 v0.12.6
 This version is compatible with saves from v.12.x
 Changes marked with [!!] will NOT carry over from a v.12.x save.

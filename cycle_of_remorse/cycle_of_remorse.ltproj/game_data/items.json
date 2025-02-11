@@ -10218,7 +10218,7 @@
     {
         "nid": "Blarblade",
         "name": "Bl\u00e1rblade",
-        "desc": "Trevor only. Heals half damage dealt.",
+        "desc": "Trevor only. Heals half damage dealt. (Stacks with <icon>Skills 7, 32</> White Lightning).",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -14462,6 +14462,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global OregScrollAlert"
             ]
         ]
     },
@@ -14793,29 +14797,24 @@
                 null
             ],
             [
-                "status_on_hold",
-                "Repair"
-            ],
-            [
                 "unrepairable",
                 null
             ],
             [
                 "hover_description",
                 "Repair an item to full uses."
-            ]
-        ]
-    },
-    {
-        "nid": "RepairKit_Skill",
-        "name": "<white>Repair</>",
-        "desc": "Repair an item to full uses.",
-        "icon_nid": "Consumable",
-        "icon_index": [
-            0,
-            12
-        ],
-        "components": [
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
             [
                 "target_ally",
                 null
@@ -14827,6 +14826,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "spell",
+                null
             ],
             [
                 "exp",
@@ -14843,21 +14846,6 @@
             [
                 "map_hit_sfx",
                 "MapHeal"
-            ],
-            [
-                "spell",
-                null
-            ],
-            [
-                "c_uses",
-                1
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "no_map_hp_display",
@@ -15386,118 +15374,6 @@
             [
                 "map_cast_anim",
                 "MapSmallHealTrans"
-            ]
-        ]
-    },
-    {
-        "nid": "Summon",
-        "name": "Summon",
-        "desc": "Summon a phantom.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            15,
-            50
-        ],
-        "components": [
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "event_on_hit",
-                "Global Summon"
-            ],
-            [
-                "exp",
-                10
-            ],
-            [
-                "spell",
-                null
-            ],
-            [
-                "map_cast_anim",
-                "Swoosh"
-            ],
-            [
-                "map_hit_sfx",
-                "Summon"
-            ],
-            [
-                "traversable_tile_target_restrict",
-                null
-            ],
-            [
-                "never_use_battle_animation",
-                null
-            ],
-            [
-                "empty_tile_target_restrict",
-                null
-            ],
-            [
-                "target_tile",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Replicate",
-        "name": "Replicate",
-        "desc": "Summon a phantom.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            14,
-            50
-        ],
-        "components": [
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "event_on_hit",
-                "Global Replicate"
-            ],
-            [
-                "exp",
-                10
-            ],
-            [
-                "spell",
-                null
-            ],
-            [
-                "map_cast_anim",
-                "Swoosh"
-            ],
-            [
-                "map_hit_sfx",
-                "Summon"
-            ],
-            [
-                "traversable_tile_target_restrict",
-                null
-            ],
-            [
-                "never_use_battle_animation",
-                null
-            ],
-            [
-                "empty_tile_target_restrict",
-                null
-            ],
-            [
-                "target_tile",
-                null
             ]
         ]
     },

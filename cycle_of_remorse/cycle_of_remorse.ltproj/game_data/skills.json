@@ -1487,26 +1487,6 @@
         ]
     },
     {
-        "nid": "Repair",
-        "name": "Repair",
-        "desc": "Repair an item to full uses.",
-        "icon_nid": "Consumable",
-        "icon_index": [
-            0,
-            12
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "ability",
-                "RepairKit_Skill"
-            ]
-        ]
-    },
-    {
         "nid": "BallistaUse",
         "name": "BallistaUse",
         "desc": "Allows unit to use Bows when using a Ballista (For Chapter 17x)",
@@ -3409,8 +3389,8 @@
     },
     {
         "nid": "DAMIEN",
-        "name": "Replicate",
-        "desc": "Can summon one Phantom onto an adjacent space. Only one Phantom can be summoned at a time.",
+        "name": "Placeholder",
+        "desc": "???",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -3420,10 +3400,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "ability",
-                "Replicate"
             ]
         ]
     },
