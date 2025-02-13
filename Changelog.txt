@@ -5,7 +5,17 @@ CHAPTER-SPECIFIC
 Chapter 0: Damsel in No Stress
 * Kai and Trevor now have unique boss dialogue.
 
+Chapter 1: Regroup
+* Chell now has unique boss dialogue.
+
+Chapter 9: Infiltration
+* Now only get one Master Seal from the northwestern chest.
+
 CHARACTER-SPECIFIC
+[!!] Marina (Changes don't apply if already recruited
+* Lowered base Speed by 2.
+* Raised base HP by 2.
+
 [!!] Joshua (Changes don't apply if already recruited)
 * Lowered Strength and Magic growth rates by 10%.
 * Raised Skill and Speed growth rates by 5%.
@@ -14,13 +24,27 @@ CHARACTER-SPECIFIC
 
 ITEM-SPECIFIC
 Blarblade
-* Clarified that its effect stacks with Trevor's personal Skill.
+* Clarified in its description that its effect stacks with Trevor's personal Skill.
 
 Oreg's Scroll
 [!!] Now shows alert saying that growth rates increased upon use.
 
 Repair Kit
 [!!] Reverted it back to where it can be found in the Staff menu.
+
+SUPPORTS
+* Changed final support rank for Kai/Asuka from A+ to S.
+
+New support pairs:
+* Sam/Michael
+* Sam/Reem
+
+New support conversations:
+* Forrest/Alex - B-A
+* Forrest/Lucy - C
+* Sam/Ecco - B
+* Viola/Masashi - C
+* Yukino/Masashi - C
 
 v0.12.6
 This version is compatible with saves from v.12.x

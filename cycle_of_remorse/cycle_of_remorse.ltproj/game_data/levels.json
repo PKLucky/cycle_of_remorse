@@ -37934,7 +37934,7 @@
     },
     {
         "nid": "24",
-        "name": "Ch. 24: ",
+        "name": "Ch. 24: Breaking In",
         "tilemap": "Ch24",
         "bg_tilemap": null,
         "party": "Krista",
@@ -37978,7 +37978,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
+                    14,
                     1
                 ],
                 "starting_traveler": null,
@@ -37997,7 +37997,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
+                    16,
                     1
                 ],
                 "starting_traveler": null,
@@ -38016,7 +38016,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
+                    18,
                     1
                 ],
                 "starting_traveler": null,
@@ -38035,6 +38035,44 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
+                    20,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "4",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "5",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
                     24,
                     1
                 ],
@@ -38042,7 +38080,7 @@
                 "generic": true
             },
             {
-                "nid": "wall",
+                "nid": "wall1",
                 "variant": null,
                 "level": 1,
                 "klass": "Wall30",
@@ -38054,8 +38092,27 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
+                    13,
                     5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "wall2",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall30",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38067,8 +38124,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    15
+                    19,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -38163,8 +38220,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    3
+                    17,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38187,8 +38244,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    5
+                    23,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38212,7 +38269,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    7
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38235,8 +38292,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    7
+                    10,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38307,8 +38364,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    11
+                    19,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38321,7 +38378,7 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "WindSword",
                         false
                     ]
                 ],
@@ -38331,8 +38388,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    11
+                    2,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38355,8 +38412,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    12
+                    0,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38379,8 +38436,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    12
+                    21,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38403,8 +38460,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    11
+                    9,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38427,8 +38484,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    12
+                    5,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38451,8 +38508,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    13
+                    5,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38475,8 +38532,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    10
+                    11,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38499,8 +38556,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    9
+                    7,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38523,8 +38580,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    8
+                    11,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38547,8 +38604,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    0
+                    16,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38571,8 +38628,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    1
+                    19,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38595,8 +38652,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    2
+                    24,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38620,7 +38677,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    13
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38644,7 +38701,7 @@
                 "ai_group": "",
                 "starting_position": [
                     13,
-                    13
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38667,8 +38724,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    14
+                    7,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38692,7 +38749,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    15
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38715,8 +38772,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    17
+                    3,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38739,7 +38796,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
+                    12,
                     16
                 ],
                 "starting_traveler": null,
@@ -38763,8 +38820,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    15
+                    10,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38788,7 +38845,7 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    15
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38835,8 +38892,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    19
+                    1,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38859,8 +38916,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    19
+                    4,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38883,7 +38940,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
+                    18,
                     7
                 ],
                 "starting_traveler": null,
@@ -38907,7 +38964,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
+                    21,
                     7
                 ],
                 "starting_traveler": null,
@@ -38931,7 +38988,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
+                    16,
                     5
                 ],
                 "starting_traveler": null,
@@ -38955,7 +39012,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
+                    22,
                     5
                 ],
                 "starting_traveler": null,
@@ -38979,8 +39036,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    12
+                    0,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39003,8 +39060,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    12
+                    10,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39027,8 +39084,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    13
+                    18,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39051,8 +39108,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    14
+                    2,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39075,8 +39132,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    16
+                    22,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39099,8 +39156,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    14
+                    24,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39123,8 +39180,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    14
+                    11,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39133,11 +39190,11 @@
                 "nid": "145",
                 "variant": null,
                 "level": 5,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Killer Lance",
                         false
                     ]
                 ],
@@ -39147,8 +39204,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    18
+                    15,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39171,7 +39228,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
+                    15,
                     19
                 ],
                 "starting_traveler": null,
@@ -39195,8 +39252,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    17
+                    24,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39219,8 +39276,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    18
+                    15,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39265,7 +39322,7 @@
                 "nid": "Door1",
                 "region_type": "event",
                 "position": [
-                    18,
+                    14,
                     4
                 ],
                 "size": [
@@ -39282,7 +39339,7 @@
                 "nid": "Door2",
                 "region_type": "event",
                 "position": [
-                    20,
+                    16,
                     4
                 ],
                 "size": [
@@ -39299,7 +39356,7 @@
                 "nid": "Door3",
                 "region_type": "event",
                 "position": [
-                    22,
+                    18,
                     4
                 ],
                 "size": [
@@ -39316,7 +39373,7 @@
                 "nid": "Door4",
                 "region_type": "event",
                 "position": [
-                    24,
+                    20,
                     4
                 ],
                 "size": [
@@ -39333,8 +39390,59 @@
                 "nid": "Door5",
                 "region_type": "event",
                 "position": [
-                    23,
-                    8
+                    22,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door6",
+                "region_type": "event",
+                "position": [
+                    24,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door7",
+                "region_type": "event",
+                "position": [
+                    17,
+                    14
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door8",
+                "region_type": "event",
+                "position": [
+                    22,
+                    14
                 ],
                 "size": [
                     2,
@@ -39350,12 +39458,12 @@
                 "nid": "Escape1",
                 "region_type": "event",
                 "position": [
-                    24,
-                    19
+                    25,
+                    16
                 ],
                 "size": [
-                    2,
-                    1
+                    1,
+                    12
                 ],
                 "sub_nid": "Escape",
                 "condition": "unit.team == 'other'",
@@ -39384,12 +39492,12 @@
                 "nid": "treasure1",
                 "region_type": "normal",
                 "position": [
-                    12,
-                    2
+                    7,
+                    7
                 ],
                 "size": [
                     4,
-                    4
+                    3
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -39402,7 +39510,7 @@
                 "region_type": "normal",
                 "position": [
                     0,
-                    16
+                    24
                 ],
                 "size": [
                     4,
@@ -39419,7 +39527,7 @@
                 "region_type": "normal",
                 "position": [
                     10,
-                    16
+                    24
                 ],
                 "size": [
                     4,
@@ -39427,23 +39535,6 @@
                 ],
                 "sub_nid": "",
                 "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Secret",
-                "region_type": "event",
-                "position": [
-                    18,
-                    8
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "<white>Secret</>",
-                "condition": "has_item('GoldCard', unit.nid) and game.get_unit('Anna').team != 'player'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false

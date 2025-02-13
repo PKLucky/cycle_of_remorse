@@ -2080,11 +2080,11 @@
             "Female"
         ],
         "bases": {
-            "HP": 13,
+            "HP": 15,
             "STR": 3,
             "MAG": 6,
             "SKL": 8,
-            "SPD": 12,
+            "SPD": 10,
             "LCK": 6,
             "DEF": 5,
             "RES": 7,
