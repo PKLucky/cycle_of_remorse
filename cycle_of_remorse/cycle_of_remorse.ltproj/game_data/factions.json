@@ -140,6 +140,16 @@
         ]
     },
     {
+        "nid": "Fueg",
+        "name": "Fueg",
+        "desc": "A citizen of Fueg.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Phantom",
         "name": "Phantom",
         "desc": "Warriors who possess great strength, but vanish when attacked.",

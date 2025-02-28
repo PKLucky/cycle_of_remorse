@@ -1182,13 +1182,13 @@
         ],
         "bases": {
             "HP": 17,
-            "STR": 9,
+            "STR": 10,
             "MAG": 0,
             "SKL": 7,
-            "SPD": 4,
+            "SPD": 5,
             "LCK": 4,
-            "DEF": 9,
-            "RES": 10,
+            "DEF": 8,
+            "RES": 9,
             "CON": 6,
             "MOV": 7
         },
@@ -3177,10 +3177,10 @@
         "tags": [],
         "bases": {
             "HP": 12,
-            "STR": 0,
+            "STR": 1,
             "MAG": 4,
             "SKL": 6,
-            "SPD": 7,
+            "SPD": 6,
             "LCK": 1,
             "DEF": 4,
             "RES": 6,
@@ -3189,13 +3189,13 @@
         },
         "growths": {
             "HP": 65,
-            "STR": 0,
-            "MAG": 65,
-            "SKL": 75,
-            "SPD": 75,
+            "STR": 30,
+            "MAG": 60,
+            "SKL": 70,
+            "SPD": 65,
             "LCK": 35,
-            "DEF": 65,
-            "RES": 70,
+            "DEF": 60,
+            "RES": 65,
             "CON": 15,
             "MOV": 0
         },
@@ -5254,6 +5254,10 @@
             [
                 "IronPoleax",
                 false
+            ],
+            [
+                "DoorKey5",
+                false
             ]
         ],
         "learned_skills": [
@@ -5326,7 +5330,7 @@
         "desc": "A villager from Coral Desert.\nSerious, but has a soft side.",
         "variant": "Female",
         "level": 1,
-        "klass": "Sniper",
+        "klass": "Sage",
         "tags": [
             "Female"
         ],
@@ -5339,20 +5343,20 @@
             "SKL": 23,
             "MOV": 6,
             "DEF": 12,
-            "STR": 23,
+            "STR": 0,
             "MAG": 15
         },
         "growths": {
-            "SPD": 50,
-            "RES": 35,
-            "LCK": 35,
-            "HP": 65,
+            "SPD": 55,
+            "RES": 40,
+            "LCK": 40,
+            "HP": 70,
             "CON": 15,
-            "SKL": 50,
+            "SKL": 60,
             "MOV": 0,
-            "DEF": 25,
-            "STR": 55,
-            "MAG": 35
+            "DEF": 30,
+            "STR": 0,
+            "MAG": 55
         },
         "stat_cap_modifiers": {
             "SPD": 3,
@@ -5360,19 +5364,27 @@
             "LCK": 0,
             "HP": 0,
             "CON": 0,
-            "SKL": 5,
+            "SKL": 8,
             "MOV": 0,
             "DEF": 0,
-            "STR": 3,
+            "STR": 0,
             "MAG": 0
         },
         "starting_items": [
             [
-                "SteelLongbow",
+                "Elwind",
+                false
+            ],
+            [
+                "Gleam",
                 false
             ],
             [
                 "Elixir",
+                false
+            ],
+            [
+                "Distort",
                 false
             ]
         ],
@@ -5385,6 +5397,21 @@
         "unit_notes": [],
         "wexp_gain": {
             "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                131,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
                 false,
                 241,
                 null
@@ -5448,10 +5475,6 @@
             "MAG": 0
         },
         "starting_items": [
-            [
-                "Nosferatu",
-                false
-            ],
             [
                 "Rescue",
                 false
@@ -8752,14 +8775,14 @@
             "Bandit"
         ],
         "bases": {
-            "HP": 32,
+            "HP": 34,
             "STR": 28,
             "MAG": 0,
-            "SKL": 16,
+            "SKL": 17,
             "SPD": 15,
-            "LCK": 6,
-            "DEF": 24,
-            "RES": 9,
+            "LCK": 7,
+            "DEF": 18,
+            "RES": 11,
             "CON": 13,
             "MOV": 6
         },
@@ -9675,23 +9698,23 @@
     {
         "nid": "Sven",
         "name": "Sven",
-        "desc": "A warrior of unknown origin.\nHas a mysterious aura about him.",
+        "desc": "A rogue of unknown origin.\nHas a mysterious aura about him.",
         "variant": "",
         "level": 5,
-        "klass": "Halberdier",
+        "klass": "Rogue",
         "tags": [
             "Boss"
         ],
         "bases": {
             "MOV": 6,
-            "STR": 30,
+            "STR": 10,
             "MAG": 0,
             "CON": 9,
-            "DEF": 24,
-            "SKL": 21,
-            "RES": 15,
-            "SPD": 22,
-            "LCK": 13,
+            "DEF": 17,
+            "SKL": 27,
+            "RES": 18,
+            "SPD": 29,
+            "LCK": 24,
             "HP": 39
         },
         "growths": {
@@ -9720,16 +9743,16 @@
         },
         "starting_items": [
             [
-                "SteelGreatlance",
+                "Killing Edge",
                 false
             ],
             [
-                "Short Spear",
-                false
-            ],
-            [
-                "GreatShield",
+                "PassRing",
                 true
+            ],
+            [
+                "WornBook",
+                false
             ]
         ],
         "learned_skills": [],
@@ -9737,7 +9760,12 @@
         "wexp_gain": {
             "Lance": [
                 false,
-                361,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                241,
                 null
             ]
         },

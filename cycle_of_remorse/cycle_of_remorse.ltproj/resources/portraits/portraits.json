@@ -132,6 +132,18 @@
         "info_offset": 0
     },
     {
+        "nid": "Man6",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Woman1",
         "blinking_offset": [
             24,
@@ -1741,6 +1753,18 @@
     },
     {
         "nid": "FelicityDream",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Barmaid",
         "blinking_offset": [
             24,
             32

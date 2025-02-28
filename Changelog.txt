@@ -1,3 +1,6 @@
+v0.13.0
+This version is NOT compatible with saves from previous versions.
+
 UNDER THE HOOD
 * Simplified displaying opponent's class name in Arena code.
 
@@ -8,44 +11,77 @@ Chapter 0: Damsel in No Stress
 Chapter 1: Regroup
 * Chell now has unique boss dialogue.
 
+Chapter 3: Seeking Shelter
+* New outro cutscene if both Chell and Sam are alive.
+
 Chapter 9: Infiltration
 * Now only get one Master Seal from the northwestern chest.
 
+Chapter 13: Quick Pit Stop
+* Changed Daigo's stats:
++2 HP, +1 SKL, +1 LCK, -6 DEF, +2 RES
+
 CHARACTER-SPECIFIC
-[!!] Marina (Changes don't apply if already recruited
+Alex
+* Lowered base Defense and Resistance by 1.
+* Raised base Strength and Speed by 1.
+
+Marina
 * Lowered base Speed by 2.
 * Raised base HP by 2.
 
-[!!] Joshua (Changes don't apply if already recruited)
+Joshua
 * Lowered Strength and Magic growth rates by 10%.
 * Raised Skill and Speed growth rates by 5%.
 * Raised Defense growth rate by 10%.
 * Adjusted stat caps when he is in Hero.
 
+Cole
+* Changed second tier class to Mage Knight.
+* Lowered base Speed by 1.
+* Raised base Strength by 1.
+* Lowered Magic, Skill, Defense, and Resistance growth rates by 5%.
+* Lowered Speed growth rate by 10%.
+* Raised Strength growth rate by 30%.
+
 ITEM-SPECIFIC
 Blarblade
 * Clarified in its description that its effect stacks with Trevor's personal Skill.
 
+Devil Axe:
+* Adjusted backfiring proc. rate.
+* Raised Mt by 4.
+
 Oreg's Scroll
-[!!] Now shows alert saying that growth rates increased upon use.
+* Now shows alert saying that growth rates increased upon use.
 
 Repair Kit
-[!!] Reverted it back to where it can be found in the Staff menu.
+* Reverted it back to where it can be found in the Staff menu.
 
 SUPPORTS
 * Changed final support rank for Kai/Asuka from A+ to S.
 
 New support pairs:
+* Forrest/Xiang
 * Sam/Michael
+* Sam/Cole
 * Sam/Reem
 
 New support conversations:
 * Forrest/Alex - B-A
 * Forrest/Lucy - C
+* Forrest/Marina - A
+* Kai/Taiga - A
+* Kai/Sumire - C
 * Sam/Ecco - B
+* Sam/Masashi - B
 * Viola/Masashi - C
-* Yukino/Masashi - C
+* Yukino/Masashi - C-B
 
+AESTHETIC
+* Bards now have a battle animation when using a Staff.
+* Added CG to Krista/Forrest A rank Support conversation.
+=====================================================
 v0.12.6
 This version is compatible with saves from v.12.x
 Changes marked with [!!] will NOT carry over from a v.12.x save.

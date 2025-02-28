@@ -35896,9 +35896,9 @@
             "boss_battle": "Raid Ethnic"
         },
         "objective": {
-            "simple": "Survive,{eval:game.turncount}/7 turn(s)",
-            "win": "Defend for 7 turns,or Defeat boss",
-            "loss": "Gerolt{comma} Leeann{comma} or,Krista dies"
+            "simple": "Stop Sven,{e:game.turncount}/20 turn(s)",
+            "win": "Stop Sven in 20 turns,or Defeat Sven",
+            "loss": "Sven escapes,ssGerolt{comma} Leeann{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": "Krista",
@@ -35913,7 +35913,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
+                    24,
                     23
                 ],
                 "starting_traveler": null,
@@ -35926,8 +35926,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    24
+                    24,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -35945,8 +35945,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    6
+                    17,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -35964,8 +35964,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    7
+                    15,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -35983,8 +35983,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    12
+                    19,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -35993,7 +35993,7 @@
                 "nid": "wall4",
                 "variant": null,
                 "level": 1,
-                "klass": "Wall30",
+                "klass": "Wall60",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -36002,27 +36002,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "wall5",
-                "variant": null,
-                "level": 1,
-                "klass": "Wall30",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "wallally",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    22,
-                    15
+                    6,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36030,12 +36011,12 @@
             {
                 "nid": "Sven",
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Sven",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    22
+                    2,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -36047,8 +36028,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    2
+                    10,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -36060,8 +36041,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    2
+                    11,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -36080,12 +36061,12 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    19
+                    9,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36104,12 +36085,12 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    19
+                    12,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36117,7 +36098,7 @@
             {
                 "nid": "203",
                 "variant": null,
-                "level": 5,
+                "level": 7,
                 "klass": "Halberdier",
                 "faction": "Knight",
                 "starting_items": [
@@ -36132,8 +36113,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    20
+                    21,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36141,7 +36122,7 @@
             {
                 "nid": "204",
                 "variant": null,
-                "level": 5,
+                "level": 7,
                 "klass": "Halberdier",
                 "faction": "Knight",
                 "starting_items": [
@@ -36156,8 +36137,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    22
+                    21,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36165,7 +36146,7 @@
             {
                 "nid": "205",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "Sage",
                 "faction": "Knight",
                 "starting_items": [
@@ -36176,12 +36157,12 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    11
+                    16,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36189,7 +36170,7 @@
             {
                 "nid": "206",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "WyvernKnight",
                 "faction": "Knight",
                 "starting_items": [
@@ -36200,12 +36181,12 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    11
+                    20,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36213,7 +36194,7 @@
             {
                 "nid": "207",
                 "variant": "Sword",
-                "level": 3,
+                "level": 6,
                 "klass": "General",
                 "faction": "Knight",
                 "starting_items": [
@@ -36228,7 +36209,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
+                    10,
                     20
                 ],
                 "starting_traveler": null,
@@ -36237,7 +36218,7 @@
             {
                 "nid": "208",
                 "variant": "Sword",
-                "level": 3,
+                "level": 6,
                 "klass": "General",
                 "faction": "Knight",
                 "starting_items": [
@@ -36252,8 +36233,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    5
+                    13,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36261,7 +36242,7 @@
             {
                 "nid": "209",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "Bishop",
                 "faction": "Knight",
                 "starting_items": [
@@ -36276,8 +36257,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    13
+                    3,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36285,7 +36266,7 @@
             {
                 "nid": "210",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "Swordmaster",
                 "faction": "Knight",
                 "starting_items": [
@@ -36300,8 +36281,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    14
+                    21,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36309,7 +36290,7 @@
             {
                 "nid": "211",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "Hero",
                 "faction": "Knight",
                 "starting_items": [
@@ -36324,8 +36305,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    13
+                    19,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36333,7 +36314,7 @@
             {
                 "nid": "212",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "Sniper",
                 "faction": "Knight",
                 "starting_items": [
@@ -36348,8 +36329,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    11
+                    17,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36357,7 +36338,7 @@
             {
                 "nid": "213",
                 "variant": null,
-                "level": 3,
+                "level": 6,
                 "klass": "Sniper",
                 "faction": "Knight",
                 "starting_items": [
@@ -36372,14 +36353,62 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    11
+                    3,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "101",
+                "nid": "214",
+                "variant": null,
+                "level": 6,
+                "klass": "WyvernKnight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "215",
+                "variant": null,
+                "level": 6,
+                "klass": "WyvernKnight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101a",
                 "variant": null,
                 "level": 4,
                 "klass": "Valkyrie",
@@ -36396,14 +36425,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    1
+                    4,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "102",
+                "nid": "102a",
                 "variant": null,
                 "level": 4,
                 "klass": "Sniper",
@@ -36420,8 +36449,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    1
+                    5,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36444,8 +36473,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    3
+                    6,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36468,8 +36497,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    3
+                    24,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36492,8 +36521,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    5
+                    2,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36516,8 +36545,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    5
+                    23,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36526,7 +36555,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 4,
-                "klass": "Swordmaster",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -36540,8 +36569,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    1
+                    3,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36554,7 +36583,7 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "CleaveBow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -36564,8 +36593,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    1
+                    24,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36588,8 +36617,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    1
+                    23,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36612,8 +36641,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    3
+                    5,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36636,8 +36665,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    3
+                    23,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36664,8 +36693,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    4
+                    24,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36688,8 +36717,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    6
+                    2,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36712,8 +36741,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    6
+                    7,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36736,8 +36765,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    8
+                    0,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36760,8 +36789,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    10
+                    1,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36784,32 +36813,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 4,
-                "klass": "Halberdier",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    10
+                    4,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36832,8 +36837,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    10
+                    0,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36857,7 +36862,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    13
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36880,8 +36885,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    14
+                    11,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36904,8 +36909,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    15
+                    23,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36928,8 +36933,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    16
+                    1,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36952,8 +36957,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    17
+                    1,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36976,8 +36981,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    17
+                    0,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37000,8 +37005,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    16
+                    23,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37014,7 +37019,7 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "BroadheadBow",
+                        "CleaveBow",
                         false
                     ]
                 ],
@@ -37024,8 +37029,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    16
+                    10,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37048,8 +37053,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    16
+                    10,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37072,8 +37077,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    17
+                    11,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37096,12 +37101,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    17
+                    0,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37124,8 +37129,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    17
+                    3,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37134,7 +37139,7 @@
                 "nid": "132",
                 "variant": null,
                 "level": 4,
-                "klass": "Berserker",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -37148,8 +37153,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    22
+                    1,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37158,7 +37163,7 @@
                 "nid": "133",
                 "variant": null,
                 "level": 4,
-                "klass": "Warrior",
+                "klass": "GriffonKnight",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -37172,56 +37177,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "134",
-                "variant": null,
-                "level": 4,
-                "klass": "General",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "135",
-                "variant": null,
-                "level": 4,
-                "klass": "General",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    23
+                    23,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37234,7 +37191,7 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Lancereaver",
                         false
                     ]
                 ],
@@ -37244,8 +37201,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    24
+                    24,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37268,176 +37225,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    24
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "138",
-                "variant": null,
-                "level": 4,
-                "klass": "Valkyrie",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    24,
-                    19
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "139",
-                "variant": null,
-                "level": 4,
-                "klass": "GriffonKnight",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Lancebuster",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "140",
-                "variant": null,
-                "level": 4,
-                "klass": "Rogue",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Thief",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    24,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "141",
-                "variant": null,
-                "level": 4,
-                "klass": "GriffonKnight",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Hand Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "142",
-                "variant": null,
-                "level": 4,
-                "klass": "Rogue",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Thief",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    22,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "143",
-                "variant": null,
-                "level": 4,
-                "klass": "CamelRider",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Iron Blade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    24,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "144",
-                "variant": null,
-                "level": 4,
-                "klass": "Valkyrie",
-                "faction": "Circ",
-                "starting_items": [
-                    [
-                        "Elthunder",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    24
+                    0,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37448,12 +37237,12 @@
                 "nid": "New_Region",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    4
+                    9,
+                    3
                 ],
                 "size": [
-                    2,
-                    3
+                    4,
+                    2
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -37465,12 +37254,12 @@
                 "nid": "New Region_1",
                 "region_type": "formation",
                 "position": [
-                    11,
-                    4
+                    9,
+                    9
                 ],
                 "size": [
-                    2,
-                    3
+                    4,
+                    2
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -37482,59 +37271,8 @@
                 "nid": "New Region_2",
                 "region_type": "formation",
                 "position": [
-                    8,
+                    11,
                     7
-                ],
-                "size": [
-                    4,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "New Region_3",
-                "region_type": "formation",
-                "position": [
-                    5,
-                    5
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "New Region_4",
-                "region_type": "formation",
-                "position": [
-                    14,
-                    5
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "New Region_5",
-                "region_type": "formation",
-                "position": [
-                    10,
-                    6
                 ],
                 "size": [
                     1,
@@ -37550,8 +37288,8 @@
                 "nid": "Chest1",
                 "region_type": "event",
                 "position": [
-                    21,
-                    1
+                    22,
+                    7
                 ],
                 "size": [
                     1,
@@ -37567,8 +37305,8 @@
                 "nid": "Chest2",
                 "region_type": "event",
                 "position": [
-                    23,
-                    1
+                    24,
+                    7
                 ],
                 "size": [
                     1,
@@ -37601,8 +37339,8 @@
                 "nid": "Chest4",
                 "region_type": "event",
                 "position": [
-                    1,
-                    21
+                    3,
+                    20
                 ],
                 "size": [
                     1,
@@ -37618,76 +37356,93 @@
                 "nid": "Door1",
                 "region_type": "event",
                 "position": [
-                    3,
-                    1
+                    2,
+                    2
                 ],
                 "size": [
-                    3,
-                    1
+                    1,
+                    3
                 ],
                 "sub_nid": "<white>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
                 "nid": "Door2",
                 "region_type": "event",
                 "position": [
-                    22,
+                    14,
                     3
                 ],
                 "size": [
-                    1,
-                    3
+                    3,
+                    1
                 ],
                 "sub_nid": "<white>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
                 "nid": "Door3",
                 "region_type": "event",
                 "position": [
-                    9,
-                    10
+                    21,
+                    3
                 ],
                 "size": [
-                    2,
-                    3
+                    3,
+                    1
                 ],
                 "sub_nid": "<white>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
                 "nid": "Door4",
                 "region_type": "event",
                 "position": [
-                    9,
-                    15
+                    20,
+                    6
                 ],
                 "size": [
-                    2,
-                    3
+                    3,
+                    1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and unit.nid != 'Sven'",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
                 "nid": "Door5",
                 "region_type": "event",
                 "position": [
-                    9,
-                    17
+                    19,
+                    10
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door6",
+                "region_type": "event",
+                "position": [
+                    10,
+                    12
                 ],
                 "size": [
                     2,
@@ -37696,15 +37451,49 @@
                 "sub_nid": "<white>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "Door6",
+                "nid": "Door7",
                 "region_type": "event",
                 "position": [
-                    22,
-                    17
+                    3,
+                    15
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door8",
+                "region_type": "event",
+                "position": [
+                    7,
+                    15
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door9",
+                "region_type": "event",
+                "position": [
+                    23,
+                    14
                 ],
                 "size": [
                     1,
@@ -37713,32 +37502,49 @@
                 "sub_nid": "<white>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "Door7",
+                "nid": "Door10",
                 "region_type": "event",
                 "position": [
                     2,
-                    20
+                    17
                 ],
                 "size": [
-                    3,
-                    1
+                    1,
+                    3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and unit.nid != 'Sven'",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "Door8",
+                "nid": "Door11",
                 "region_type": "event",
                 "position": [
-                    17,
-                    21
+                    6,
+                    18
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door12",
+                "region_type": "event",
+                "position": [
+                    16,
+                    17
                 ],
                 "size": [
                     3,
@@ -37747,7 +37553,58 @@
                 "sub_nid": "<white>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door13",
+                "region_type": "event",
+                "position": [
+                    11,
+                    18
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door14",
+                "region_type": "event",
+                "position": [
+                    8,
+                    23
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door15",
+                "region_type": "event",
+                "position": [
+                    14,
+                    22
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
@@ -37755,14 +37612,286 @@
                 "region_type": "event",
                 "position": [
                     24,
-                    24
+                    20
+                ],
+                "size": [
+                    1,
+                    6
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    5
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "escape",
-                "condition": "unit.team == 'enemy'",
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs2') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs1_1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs2') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs2",
+                "region_type": "event",
+                "position": [
+                    2,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs1') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs2_1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs1') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs3",
+                "region_type": "event",
+                "position": [
+                    5,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs4') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs3_1",
+                "region_type": "event",
+                "position": [
+                    5,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs4') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs4",
+                "region_type": "event",
+                "position": [
+                    24,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs3') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs4_1",
+                "region_type": "event",
+                "position": [
+                    24,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs3') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs5",
+                "region_type": "event",
+                "position": [
+                    18,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs6') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs5_1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs6') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs6",
+                "region_type": "event",
+                "position": [
+                    1,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs5') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs6_1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs5') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs7",
+                "region_type": "event",
+                "position": [
+                    6,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs8') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs7_1",
+                "region_type": "event",
+                "position": [
+                    6,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs8') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs8",
+                "region_type": "event",
+                "position": [
+                    24,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs7') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "stairs8_1",
+                "region_type": "event",
+                "position": [
+                    24,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "condition": "not any_unit_in_region('stairs7') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37778,11 +37907,11 @@
                 "positions": {
                     "Krista": [
                         24,
-                        24
+                        25
                     ],
                     "Khalid": [
                         24,
-                        24
+                        25
                     ]
                 }
             },
@@ -37792,67 +37921,24 @@
                     "wall1",
                     "wall2",
                     "wall3",
-                    "wall4",
-                    "wall5"
+                    "wall4"
                 ],
                 "positions": {
                     "wall1": [
-                        2,
-                        6
+                        17,
+                        8
                     ],
                     "wall2": [
-                        22,
-                        7
-                    ],
-                    "wall3": [
-                        16,
-                        12
-                    ],
-                    "wall4": [
-                        3,
+                        15,
                         14
                     ],
-                    "wall5": [
-                        22,
-                        15
-                    ]
-                }
-            },
-            {
-                "nid": "gerolt",
-                "units": [
-                    "201",
-                    "202",
-                    "203",
-                    "204",
-                    "205",
-                    "206",
-                    "207",
-                    "208",
-                    "209",
-                    "210",
-                    "211",
-                    "212",
-                    "213",
-                    "Gerolt",
-                    "Leeann"
-                ],
-                "positions": {}
-            },
-            {
-                "nid": "npc",
-                "units": [
-                    "205",
-                    "206"
-                ],
-                "positions": {
-                    "206": [
-                        3,
-                        10
+                    "wall3": [
+                        19,
+                        19
                     ],
-                    "205": [
-                        3,
-                        9
+                    "wall4": [
+                        6,
+                        12
                     ]
                 }
             },
@@ -37865,24 +37951,24 @@
                 ],
                 "positions": {
                     "Sven": [
-                        22,
-                        22
+                        10,
+                        9
                     ],
                     "Krista": [
-                        22,
-                        20
+                        10,
+                        10
                     ],
                     "Khalid": [
-                        21,
-                        20
+                        11,
+                        10
                     ]
                 }
             },
             {
                 "nid": "enemy",
                 "units": [
-                    "101",
-                    "102",
+                    "101a",
+                    "102a",
                     "103",
                     "104",
                     "105",
@@ -37898,7 +37984,6 @@
                     "115",
                     "116",
                     "117",
-                    "118",
                     "119",
                     "120",
                     "121",
@@ -37914,18 +37999,8 @@
                     "131",
                     "132",
                     "133",
-                    "134",
-                    "135",
                     "136",
-                    "137",
-                    "138",
-                    "139",
-                    "140",
-                    "141",
-                    "142",
-                    "143",
-                    "144",
-                    "Sven"
+                    "137"
                 ],
                 "positions": {}
             }
@@ -37989,7 +38064,7 @@
                 "variant": "Boy",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Knight",
+                "faction": "Fueg",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38008,7 +38083,7 @@
                 "variant": "Girl",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Knight",
+                "faction": "Fueg",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38027,7 +38102,7 @@
                 "variant": "Boy",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Knight",
+                "faction": "Fueg",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38046,7 +38121,7 @@
                 "variant": "Boy",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Knight",
+                "faction": "Fueg",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38065,7 +38140,7 @@
                 "variant": "Girl",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Knight",
+                "faction": "Fueg",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38124,8 +38199,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    22
+                    20,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -38216,7 +38291,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -38240,7 +38315,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -38360,12 +38435,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    13
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38432,12 +38507,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     21,
-                    13
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38484,8 +38559,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    15
+                    8,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38556,8 +38631,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    18
+                    6,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38594,13 +38669,13 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Steel Bow",
+                        "SteelLongbow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -38642,13 +38717,13 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Steel Bow",
+                        "SteelLongbow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -38676,7 +38751,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
+                    12,
                     21
                 ],
                 "starting_traveler": null,
@@ -38700,8 +38775,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    21
+                    16,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38724,8 +38799,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    21
+                    16,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38748,8 +38823,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    21
+                    19,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38988,7 +39063,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
+                    19,
                     5
                 ],
                 "starting_traveler": null,
@@ -39012,7 +39087,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
+                    20,
                     5
                 ],
                 "starting_traveler": null,
@@ -39060,8 +39135,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    24
+                    11,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39204,8 +39279,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    23
+                    18,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39228,8 +39303,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    19
+                    21,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39276,7 +39351,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
+                    22,
                     26
                 ],
                 "starting_traveler": null,
@@ -39526,8 +39601,8 @@
                 "nid": "treasure3",
                 "region_type": "normal",
                 "position": [
-                    10,
-                    24
+                    18,
+                    21
                 ],
                 "size": [
                     4,
@@ -39544,13 +39619,629 @@
         "ai_groups": []
     },
     {
+        "nid": "25",
+        "name": "Ch. 25: Going Deeper",
+        "tilemap": "Ch25",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Dazed Desert Walk",
+            "player_battle": "Ethnic 15",
+            "enemy_phase": "Folk Arabian",
+            "enemy_battle": "Ethnic 08",
+            "boss_battle": "Raid Ethnic"
+        },
+        "objective": {
+            "simple": "Defeat Boss",
+            "win": "Defeat Boss",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Milo",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    26,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fueg",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    3,
+                    30
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    30
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    30
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "New Region_3",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "New Region_4",
+                "region_type": "formation",
+                "position": [
+                    8,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "chest1",
+                "region_type": "event",
+                "position": [
+                    3,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "<white>Chest</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "chest2",
+                "region_type": "event",
+                "position": [
+                    3,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "<white>Chest</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door1",
+                "region_type": "event",
+                "position": [
+                    3,
+                    25
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door2",
+                "region_type": "event",
+                "position": [
+                    3,
+                    23
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door3",
+                "region_type": "event",
+                "position": [
+                    3,
+                    21
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door4",
+                "region_type": "event",
+                "position": [
+                    3,
+                    19
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door5",
+                "region_type": "event",
+                "position": [
+                    3,
+                    17
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door6",
+                "region_type": "event",
+                "position": [
+                    3,
+                    15
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door7",
+                "region_type": "event",
+                "position": [
+                    3,
+                    13
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door8",
+                "region_type": "event",
+                "position": [
+                    3,
+                    11
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door9",
+                "region_type": "event",
+                "position": [
+                    24,
+                    25
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door10",
+                "region_type": "event",
+                "position": [
+                    24,
+                    21
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door11",
+                "region_type": "event",
+                "position": [
+                    24,
+                    19
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door12",
+                "region_type": "event",
+                "position": [
+                    24,
+                    23
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door13",
+                "region_type": "event",
+                "position": [
+                    24,
+                    17
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door14",
+                "region_type": "event",
+                "position": [
+                    24,
+                    15
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door15",
+                "region_type": "event",
+                "position": [
+                    24,
+                    13
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door16",
+                "region_type": "event",
+                "position": [
+                    24,
+                    11
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "escape",
+                "region_type": "event",
+                "position": [
+                    0,
+                    33
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.team == 'other'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
         "nid": "DEBUG",
         "name": "DEBUG",
         "tilemap": "DEBUG",
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": null,
+            "player_phase": "Distant Roads",
             "enemy_phase": null,
             "other_phase": null,
             "player_battle": null,
@@ -39634,7 +40325,7 @@
                     "Poisoned"
                 ],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Sven",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -40280,7 +40971,7 @@
                     1
                 ],
                 "sub_nid": "Escape",
-                "condition": "True",
+                "condition": "False",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -40303,7 +40994,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "New Region",
+                "nid": "stairs1",
                 "region_type": "event",
                 "position": [
                     7,
@@ -40313,25 +41004,25 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit1",
-                "condition": "unit.team != 'player'",
+                "sub_nid": "Stairs",
+                "condition": "game.level_vars['StairsCheck'] != True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "Ballista",
+                "nid": "stairs2",
                 "region_type": "event",
                 "position": [
-                    0,
+                    1,
                     6
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Use",
-                "condition": "True",
+                "sub_nid": "Stairs",
+                "condition": "game.level_vars['StairsCheck'] != True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false

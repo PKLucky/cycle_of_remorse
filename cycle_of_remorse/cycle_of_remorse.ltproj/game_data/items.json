@@ -5119,7 +5119,7 @@
     {
         "nid": "Devil Axe",
         "name": "Devil Axe",
-        "desc": "User may damage themselves.\nBackfire Proc: (31 - Luk)%",
+        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5140,7 +5140,7 @@
             ],
             [
                 "damage",
-                24
+                28
             ],
             [
                 "hit",
@@ -14771,6 +14771,22 @@
         ]
     },
     {
+        "nid": "WornBook",
+        "name": "Worn Book",
+        "desc": "A book that Krista loaned to Ervan.\n(Cannot be removed from unit's inventory.)",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "locked",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "RepairKit",
         "name": "Repair Kit",
         "desc": "Repair an item to full uses. Usable once per chapter.\nMerchants and Maids only.",
@@ -14870,6 +14886,26 @@
             [
                 "status_on_hold",
                 "Range1"
+            ]
+        ]
+    },
+    {
+        "nid": "PassRing",
+        "name": "Pass Ring",
+        "desc": "Allows unit to move through enemy units when held.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "value",
+                10000
+            ],
+            [
+                "status_on_hold",
+                "Pass"
             ]
         ]
     },

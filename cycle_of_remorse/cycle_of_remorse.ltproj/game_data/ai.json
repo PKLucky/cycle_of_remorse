@@ -1721,5 +1721,66 @@
         "priority": 21,
         "offense_bias": 2,
         "roam_ai": false
+    },
+    {
+        "nid": "Sven",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "<white>Door</>",
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Stairs",
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 22,
+        "offense_bias": 2.0,
+        "roam_ai": false
     }
 ]

@@ -34,6 +34,7 @@ Dragon - L95
 Eidongivudarn - LaurentLacroix
 Felicity - PKLucky, TheBlindArcher
 Generic Buff Barmaid - LaurentLacroix
+Generic Barmaid - Armory
 Generic Female Bandit - Cygnus
 Generic Female Pirate - LaurentLacroix
 Generic Female Pirate 2 - MaxTUS
@@ -273,6 +274,7 @@ Meteor - BatimaTheBat
 Miasma - Beansy
 Naginata - BatimaTheBat
 Papa's Blade - Ereshkigal
+Pass Ring - Beansy
 Range Ring - Beansy
 Repair Kit - SMITHYGCN
 Royal Sword - Zane
@@ -291,6 +293,7 @@ Susanoo - Ereshkigal
 Swordbuster - CamTech075
 Thunderbolt - BatimaTheBat
 Wind - WhydidImakethisaccount
+Worn Book - Lisandra Brave
 
 UI Elements:
 Battle Screen - Fenreir (with edits by PKLucky)

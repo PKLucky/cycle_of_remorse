@@ -101,7 +101,7 @@
     },
     {
         "nid": "DEVIL_AXE",
-        "expression": "31 - LCK"
+        "expression": "36 - LCK"
     },
     {
         "nid": "SKILL",
