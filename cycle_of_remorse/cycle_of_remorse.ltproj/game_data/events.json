@@ -136,8 +136,7 @@
             "speak;Forrest;I apologize, Your Highness{tgm}...{tgm}|I will have to withdraw{tgm}...!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Forrest",
             "end",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathForrest"
     },
@@ -160,8 +159,7 @@
             "speak;Forrest;I apologize, Your Highness{tgm}...{tgm}|I will have to withdraw{tgm}...!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Forrest",
             "end",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathForrest_Poison"
     },
@@ -183,8 +181,7 @@
             "expression;Sam;CloseEyes",
             "end",
             "remove_portrait;Sam",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathSam"
     },
@@ -206,8 +203,7 @@
             "expression;Sam;CloseEyes",
             "end",
             "remove_portrait;Sam",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathSam_Poison"
     },
@@ -239,10 +235,7 @@
             "else",
             "game_var;AquaDeathTime;'Medeas'",
             "end",
-            "music_fade_back",
-            "if;unit.team == 'player'",
-            "change_party;{unit};Dead",
-            "end"
+            "music_fade_back"
         ],
         "nid": "Global DeathAqua"
     },
@@ -274,10 +267,7 @@
             "else",
             "game_var;AquaDeathTime;'Medeas'",
             "end",
-            "music_fade_back",
-            "if;unit.team == 'player'",
-            "change_party;{unit};Dead",
-            "end"
+            "music_fade_back"
         ],
         "nid": "Global DeathAqua_Poison"
     },
@@ -299,8 +289,7 @@
             "expression;Alex;CloseEyes",
             "end",
             "remove_portrait;Alex",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathAlex"
     },
@@ -322,8 +311,7 @@
             "expression;Alex;CloseEyes",
             "end",
             "remove_portrait;Alex",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathAlex_Poison"
     },
@@ -422,7 +410,6 @@
             "speak;Joshua;No{tgm}...!{tgm} I can still{tgm}...!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Joshua",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathJoshua"
@@ -446,7 +433,6 @@
             "speak;Joshua;No{tgm}...!{tgm} I can still{tgm}...!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Joshua",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathJoshua_Poison"
@@ -470,7 +456,6 @@
             "speak;Yumi;Ah{tgm}...{tgm} That{tgm}...{tgm} hurt{tgm}...;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Yumi",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathYumi"
@@ -494,7 +479,6 @@
             "speak;Yumi;Ah{tgm}...{tgm} That{tgm}...{tgm} hurt{tgm}...;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Yumi",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathYumi_Poison"
@@ -517,8 +501,7 @@
             "expression;Taylor;CloseEyes",
             "end",
             "remove_portrait;Taylor",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathTaylor"
     },
@@ -540,8 +523,7 @@
             "expression;Taylor;CloseEyes",
             "end",
             "remove_portrait;Taylor",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathTaylor_Poison"
     },
@@ -563,8 +545,7 @@
             "expression;Lucy;CloseEyes",
             "end",
             "remove_portrait;Lucy",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathLucy"
     },
@@ -586,8 +567,7 @@
             "expression;Lucy;CloseEyes",
             "end",
             "remove_portrait;Lucy",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathLucy_Poison"
     },
@@ -749,8 +729,7 @@
             "expression;Chell;CloseEyes",
             "end",
             "remove_portrait;Chell",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathChell"
     },
@@ -772,8 +751,7 @@
             "expression;Chell;CloseEyes",
             "end",
             "remove_portrait;Chell",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathChell_Poison"
     },
@@ -799,10 +777,7 @@
             "if;game.level.nid == '2'",
             "lose_game",
             "end",
-            "music_fade_back",
-            "if;unit.team == 'player'",
-            "change_party;{unit};Dead",
-            "end"
+            "music_fade_back"
         ],
         "nid": "Global DeathSemi"
     },
@@ -828,10 +803,7 @@
             "if;game.level.nid == '2'",
             "lose_game",
             "end",
-            "music_fade_back",
-            "if;unit.team == 'player'",
-            "change_party;{unit};Dead",
-            "end"
+            "music_fade_back"
         ],
         "nid": "Global DeathSemi_Poison"
     },
@@ -852,8 +824,7 @@
             "speak;Kai;Damn it{tgm}...!{tgm} I gotta retreat!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Kai",
             "end",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathKai"
     },
@@ -870,8 +841,7 @@
             "add_portrait;Kai;FarRight",
             "speak;Kai;Damn it{tgm}...!{tgm} I gotta retreat!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Kai",
-            "music_fade_back",
-            "change_party;{unit};Dead"
+            "music_fade_back"
         ],
         "nid": "Global DeathKai_Poison"
     },
@@ -893,7 +863,6 @@
             "speak;Anna;Ah{tgm}...!{tgm} S-Sorry, I have to retreat{tgm}...!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Anna",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathAnna"
@@ -916,7 +885,6 @@
             "speak;Anna;Ah{tgm}...!{tgm} S-Sorry, I have to retreat{tgm}...!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Anna",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathAnna_Poison"
@@ -939,7 +907,6 @@
             "speak;Jake;N-No{tgm}...{tgm} I gotta fall back!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Jake",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathJake"
@@ -962,7 +929,6 @@
             "speak;Jake;N-No{tgm}...{tgm} I gotta fall back!;;;boss_convo_right;;;;;;;None",
             "remove_portrait;Jake",
             "music_fade_back",
-            "change_party;{unit};Dead",
             "end"
         ],
         "nid": "Global DeathJake_Poison"
@@ -1096,6 +1062,30 @@
             "transition;close"
         ],
         "nid": "24 Outro"
+    },
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "remove_all_units",
+            "add_unit;Krista;22,14;immediate;stack",
+            "make_generic;MiloCopy;Assassin;1;enemy;None;Knight",
+            "make_generic;ErvanCopy;Citizen;1;other;None;Knight;Ervan",
+            "center_cursor;Krista",
+            "transition;open",
+            "flicker_cursor;Krista",
+            "add_portrait;Krista;Right",
+            "#speak;Krista;",
+            "remove_portrait;Krista",
+            "transition;close"
+        ],
+        "nid": "25 Outro"
     },
     {
         "name": "Defeat Boss",
@@ -4651,6 +4641,38 @@
     {
         "name": "Chest",
         "trigger": "<white>Chest</>",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Chest1'",
+            "show_layer;chest1",
+            "elif;region.nid == 'Chest2'",
+            "show_layer;chest2",
+            "else",
+            "end",
+            "unlock;{unit}",
+            "if;region.nid == 'Chest1'",
+            "give_item;{unit};Dragonshield",
+            "end",
+            "elif;region.nid == 'Chest2'",
+            "give_item;{unit};Blue Gem",
+            "end",
+            "else",
+            "end",
+            "if;has_skill('{unit}', 'ThiefsExpertise') and unit.team == 'player'",
+            "give_exp;{unit};12",
+            "end",
+            "has_attacked;{unit}"
+        ],
+        "nid": "25 Chest"
+    },
+    {
+        "name": "Chest",
+        "trigger": "<white>Chest</>",
         "level_nid": "22",
         "condition": "True",
         "commands": [],
@@ -5403,6 +5425,58 @@
     {
         "name": "Door",
         "trigger": "<white>Door</>",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Door1'",
+            "show_layer;door1",
+            "elif;region.nid == 'Door2'",
+            "show_layer;door2",
+            "elif;region.nid == 'Door3'",
+            "show_layer;door3",
+            "elif;region.nid == 'Door4'",
+            "show_layer;door4",
+            "elif;region.nid == 'Door5'",
+            "show_layer;door5",
+            "elif;region.nid == 'Door6'",
+            "show_layer;door6",
+            "elif;region.nid == 'Door7'",
+            "show_layer;door7",
+            "elif;region.nid == 'Door8'",
+            "show_layer;door8",
+            "elif;region.nid == 'Door9'",
+            "show_layer;door9",
+            "elif;region.nid == 'Door10'",
+            "show_layer;door10",
+            "elif;region.nid == 'Door11'",
+            "show_layer;door11",
+            "elif;region.nid == 'Door12'",
+            "show_layer;door12",
+            "elif;region.nid == 'Door13'",
+            "show_layer;door13",
+            "elif;region.nid == 'Door14'",
+            "show_layer;door14",
+            "elif;region.nid == 'Door15'",
+            "show_layer;door15",
+            "elif;region.nid == 'Door16'",
+            "show_layer;door16",
+            "else",
+            "end",
+            "unlock;{unit}",
+            "if;has_skill('{unit}', 'ThiefsExpertise') and unit.team == 'player'",
+            "give_exp;{unit};12",
+            "end",
+            "has_attacked;{unit}"
+        ],
+        "nid": "25 Door"
+    },
+    {
+        "name": "Door",
+        "trigger": "<white>Door</>",
         "level_nid": "7a",
         "condition": "True",
         "commands": [],
@@ -5769,7 +5843,7 @@
             "create_achievement;Endgame;???;Complete the game once",
             "##",
             "base;Clearing",
-            "choice;Test1;Who killed Ervan?;It was Circ's Talons.,It was Forrest.,It was Judah.,He killed himself.;;vertical;center",
+            "choice;Test1;Who killed Ervan?;{e:\"It was Circ's Talons.\" if game.game_vars['TalonsChoice'] is not True else '??'},{e:'It was Forrest.' if game.game_vars['ForrestChoice'] is not True else '??'},{e:'It was Judah.' if game.level_vars['JudahChoice'] is not True else '??'},{e:'He killed himself.' if game.level_vars['TalonsChoice'] is not True else '??'};;vertical;center",
             "choice;Test2;Who killed Ervan?;It was me.,It was me.,It was me.,It was me.;;vertical;center",
             "choice;Test;Who killed Ervan?;It was me.,It was me.,It was me.,It was me.,It was me.,It was me.,It was me.,It was me.,It was me.,It was me.;;vertical;center"
         ],
@@ -9227,6 +9301,20 @@
     {
         "name": "Escape",
         "trigger": "Escape",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit}",
+            "wait;400"
+        ],
+        "nid": "25 Escape"
+    },
+    {
+        "name": "Escape",
+        "trigger": "Escape",
         "level_nid": "7a",
         "condition": "True",
         "commands": [],
@@ -12223,58 +12311,58 @@
             "change_background;Bedroom",
             "transition;open",
             "music;Girl of the Plains",
-            "multi_add_portrait;Yumi;Left;Kai;Right",
+            "multi_add_portrait;Yumi;Left;KaiShirtless;Right",
             "expression;Yumi;HalfCloseEyes",
             "speak;Yumi;That wasn't any better than last time.",
-            "expression;Kai;CloseEyes",
-            "speak;Kai;And I keep telling you I don't care.",
-            "expression;Kai;NormalBlink",
-            "speak;Kai;Whatever you're looking for, you're not gonna find it with me, Yumi.",
+            "expression;KaiShirtless;CloseEyes",
+            "speak;KaiShirtless;And I keep telling you I don't care.",
+            "expression;KaiShirtless;NormalBlink",
+            "speak;KaiShirtless;Whatever you're looking for, you're not gonna find it with me, Yumi.",
             "expression;Yumi;NormalBlink",
             "speak;Yumi;Why bother with this line of work then?",
-            "speak;Kai;Because there's a demand. It's all a means to an end.",
+            "speak;KaiShirtless;Because there's a demand. It's all a means to an end.",
             "speak;Yumi;Come on, you can't honestly believe that.|Hasn't there been at least one client who you maybe{tgm}...",
             "expression;Yumi;HalfCloseEyes",
             "speak;Yumi;Wanted as more than just a client?",
-            "speak;Kai;Nope. It's just a job to me.",
+            "speak;KaiShirtless;Nope. It's just a job to me.",
             "expression;Yumi;NormalBlink",
             "speak;Yumi;Do you just not like doing it?",
-            "speak;Kai;I didn't say that. I just don't feel one way or another about it, is all.",
+            "speak;KaiShirtless;I didn't say that. I just don't feel one way or another about it, is all.",
             "expression;Yumi;CloseEyes",
             "speak;Yumi;Really now{tgm}...?",
-            "expression;Kai;CloseEyes",
-            "speak;Kai;I know most people say they actually get excitement out of it, but not me.",
-            "expression;Kai;NormalBlink",
-            "speak;Kai;Like I said before, as long as we both get what we want out of it,|I don't care how they feel.|At the end of the day, it's a transaction.",
+            "expression;KaiShirtless;CloseEyes",
+            "speak;KaiShirtless;I know most people say they actually get excitement out of it, but not me.",
+            "expression;KaiShirtless;NormalBlink",
+            "speak;KaiShirtless;Like I said before, as long as we both get what we want out of it,|I don't care how they feel.|At the end of the day, it's a transaction.",
             "expression;Yumi;HalfCloseEyes,Smile",
             "speak;Yumi;You know, if you said all that to begin with, I wouldn't have pestered you about it.",
-            "expression;Kai;CloseEyes,Smile",
-            "speak;Kai;It's what I was trying to say from the start.",
+            "expression;KaiShirtless;CloseEyes,Smile",
+            "speak;KaiShirtless;It's what I was trying to say from the start.",
             "expression;Yumi;CloseEyes,NoSmile",
             "speak;Yumi;Hmm{tgm}...{tgm} I suppose so.",
             "expression;Yumi;NormalBlink",
             "speak;Yumi;Sorry for wasting your time, Kai.",
-            "expression;Kai;Smile",
-            "speak;Kai;Hey, that's my line.",
-            "expression;Kai;NoSmile",
-            "speak;Kai;I'll refund you the gold, Yumi.|You said you'd want your money's worth, and you're not gonna get it.|So, it'd be in your best interest to take it back.",
+            "expression;KaiShirtless;Smile",
+            "speak;KaiShirtless;Hey, that's my line.",
+            "expression;KaiShirtless;NoSmile",
+            "speak;KaiShirtless;I'll refund you the gold, Yumi.|You said you'd want your money's worth, and you're not gonna get it.|So, it'd be in your best interest to take it back.",
             "expression;Yumi;CloseEyes,Smile",
             "speak;Yumi;Keep it.",
             "expression;Yumi;HalfCloseEyes,Smile",
             "speak;Yumi;Think of it as compensation for me being a bother.",
-            "expression;Kai;CloseEyes,Smile",
-            "speak;Kai;Suit yourself.",
-            "expression;Kai;NormalBlink,NoSmile",
-            "speak;Kai;Anyway, I'd better get dressed and out the door.|Better to slip out while it's still dark, after all.",
+            "expression;KaiShirtless;CloseEyes,Smile",
+            "speak;KaiShirtless;Suit yourself.",
+            "expression;KaiShirtless;NormalBlink,NoSmile",
+            "speak;KaiShirtless;Anyway, I'd better get dressed and out the door.|Better to slip out while it's still dark, after all.",
             "expression;Yumi;NormalBlink,NoSmile",
             "speak;Yumi;Yeah. See ya.",
-            "mirror_portrait;Kai",
-            "move_portrait;Kai;FarRight",
-            "mirror_portrait;Kai",
-            "speak;Kai;Hey. Before I go, I just wanna say thanks.",
+            "mirror_portrait;KaiShirtless",
+            "move_portrait;KaiShirtless;FarRight",
+            "mirror_portrait;KaiShirtless",
+            "speak;KaiShirtless;Hey. Before I go, I just wanna say thanks.",
             "speak;Yumi;Hm? For what?",
-            "expression;Kai;Smile",
-            "speak;Kai;Just{tgm}...{tgm} for being understanding.",
+            "expression;KaiShirtless;Smile",
+            "speak;KaiShirtless;Just{tgm}...{tgm} for being understanding.",
             "expression;Yumi;Smile",
             "speak;Yumi;Yeah. Of course.",
             "unlock_support_rank;Kai;Yumi;A",
@@ -25250,6 +25338,44 @@
     {
         "name": "Intro",
         "trigger": "level_start",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music_clear",
+            "chapter_title;_Chapter Sound",
+            "remove_unit;Krista;immediate",
+            "###",
+            "level_var;_minimum_deployment;17",
+            "###",
+            "transition;close",
+            "change_background;CastleBright",
+            "transition;open",
+            "music_clear",
+            "music;The Grieving Heart",
+            "",
+            "#",
+            "###",
+            "transition;close",
+            "base;Gate;Sand town",
+            "transition;open",
+            "end_skip",
+            "music_clear",
+            "music;Sand town",
+            "###",
+            "transition;close",
+            "arrange_formation",
+            "center_cursor;Krista",
+            "transition;open",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary"
+        ],
+        "nid": "25 Intro"
+    },
+    {
+        "name": "Intro",
+        "trigger": "level_start",
         "level_nid": "23_1",
         "condition": "True",
         "commands": [],
@@ -29015,10 +29141,7 @@
             "expression;{unit};CloseEyes",
             "end",
             "remove_portrait;{unit}",
-            "if;unit.team == 'player' and game.level.nid != '15'",
-            "music_fade_back",
-            "change_party;{unit};Dead",
-            "end"
+            "music_fade_back"
         ],
         "nid": "Global DeathNonConditional"
     },
@@ -29048,10 +29171,7 @@
             "expression;{unit};CloseEyes",
             "end",
             "remove_portrait;{unit}",
-            "if;unit.team == 'player' and game.level.nid != '15'",
-            "music_fade_back",
-            "change_party;{unit};Dead",
-            "end"
+            "music_fade_back"
         ],
         "nid": "Global DeathNonConditional_Poison"
     },
@@ -31868,6 +31988,27 @@
     {
         "name": "Outro2",
         "trigger": "level_end",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "overworld_cinematic;0",
+            "reveal_overworld_node;24;immediate",
+            "set_overworld_position;Krista;24;no_animate",
+            "reveal_overworld_road;23;24;immediate",
+            "center_cursor;24",
+            "toggle_narration_mode;open",
+            "music;A Hint of Things to Come",
+            "speak;;PLACEHOLDER;;;overworld_narration",
+            "toggle_narration_mode;close"
+        ],
+        "nid": "25 Outro2"
+    },
+    {
+        "name": "Outro2",
+        "trigger": "level_end",
         "level_nid": "3",
         "condition": "True",
         "commands": [],
@@ -33593,7 +33734,7 @@
             "change_background;Bedroom",
             "transition;open",
             "end_skip",
-            "multi_add_portrait;Tsubaki;Right;Tsubaki;Left",
+            "multi_add_portrait;Tsubaki;Right;Nagisa;Left",
             "speak;Tsubaki;They've taken Fort Daijima.",
             "speak;Nagisa;I see{tgm}...",
             "expression;Tsubaki;HalfCloseEyes",
@@ -34072,9 +34213,9 @@
         "nid": "21 Outro"
     },
     {
-        "name": "KristaErvanFlashback",
+        "name": "BaseConvo_KristaErvanFlashback",
         "trigger": null,
-        "level_nid": "DEBUG",
+        "level_nid": "25",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -34134,7 +34275,7 @@
             "multi_remove_portrait;KristaFlashback;ErvanFlashback",
             "change_background"
         ],
-        "nid": "DEBUG KristaErvanFlashback"
+        "nid": "25 BaseConvo_KristaErvanFlashback"
     },
     {
         "name": "GiveRaisedMorale",
@@ -34831,7 +34972,16 @@
         "_source": [
             "# Create a choice menu listing the dead units",
             "level_var;AmaterasuPosition;{target_pos}",
-            "choice;AmaterasuChoice;Who to revive?;{e:','.join([unit.nid for unit in game.get_all_units_in_party('Dead')])};;vertical;center;;Global AumRevive;type_unit;scroll_bar",
+            "for;deadUnits;[u for u in game.get_all_player_units()]",
+            "if;game.check_dead(game.get_unit('{deadUnits}').nid) == True",
+            "change_party;{e:game.get_unit('{deadUnits}').nid};Dead",
+            "end",
+            "endf",
+            "choice;AmaterasuChoice;Who to revive?;{e:','.join([unit.nid for unit in game.get_all_units_in_party('Dead')])};;vertical;center;;;type_unit;scroll_bar",
+            "resurrect;{e:game.game_vars['AmaterasuChoice']}",
+            "set_current_hp;{e:game.game_vars['AmaterasuChoice']};999",
+            "add_unit;{e:game.game_vars['AmaterasuChoice']};{v:AmaterasuPosition};immediate;closest;fade",
+            "change_party;{e:game.game_vars['AmaterasuChoice']};Krista",
             "# (Raise chosen unit's level to be comparable to rest of party?)"
         ],
         "nid": "Global AumStaff"
@@ -35861,22 +36011,6 @@
             "music_fade_back"
         ],
         "nid": "23 SpawnJudah"
-    },
-    {
-        "name": "AumRevive",
-        "trigger": null,
-        "level_nid": null,
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "resurrect;{e:game.game_vars['AmaterasuChoice']}",
-            "set_current_hp;{e:game.game_vars['AmaterasuChoice']};999",
-            "add_unit;{e:game.game_vars['AmaterasuChoice']};{v:AmaterasuPosition};immediate;closest;fade",
-            "change_party;{e:game.game_vars['AmaterasuChoice']};Krista"
-        ],
-        "nid": "Global AumRevive"
     },
     {
         "name": "CourtyardCutscene",

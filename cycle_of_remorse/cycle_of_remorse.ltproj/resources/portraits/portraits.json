@@ -1774,5 +1774,17 @@
             48
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "KaiShirtless",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
     }
 ]

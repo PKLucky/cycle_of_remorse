@@ -40869,7 +40869,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
