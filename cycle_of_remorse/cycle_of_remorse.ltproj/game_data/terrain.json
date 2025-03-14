@@ -354,7 +354,7 @@
         ],
         "minimap": "Shop",
         "platform": "Arena",
-        "background": "battleArena",
+        "background": "Arena",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -489,7 +489,7 @@
         ],
         "minimap": "Grass",
         "platform": "Plains",
-        "background": "Cliff",
+        "background": "battlePlains",
         "mtype": "Forest",
         "opaque": false,
         "status": "Forest"

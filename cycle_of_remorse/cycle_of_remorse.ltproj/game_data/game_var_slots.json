@@ -26,5 +26,9 @@
     {
         "nid": "ch7IrisConvo",
         "desc": "Checks if Base Convo with Iris was activated"
+    },
+    {
+        "nid": "KaiTsurugiCh17",
+        "desc": "Checks if Kai and Tsurugi had their in-battle Talk Convo"
     }
 ]

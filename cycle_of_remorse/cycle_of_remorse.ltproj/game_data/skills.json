@@ -1320,10 +1320,6 @@
         ],
         "components": [
             [
-                "hidden",
-                null
-            ],
-            [
                 "attack_proc",
                 "DevilAxe_Proc"
             ],
@@ -1333,7 +1329,11 @@
             ],
             [
                 "condition",
-                "False"
+                "'Medea' not in unit.tags and 'Foliaga' not in unit.tags and 'Merin' not in unit.tags and 'Fueg' not in unit.tags and 'Oreg' not in unit.tags and 'Circ' not in unit.tags and 'Shifter' not in unit.tags"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3191,8 +3191,32 @@
         ]
     },
     {
+        "nid": "NAGISA",
+        "name": "Wrath",
+        "desc": "Grants Crit +20 when unit is at or below 50% Max HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            35
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_hp() <= unit.get_max_hp() // 2"
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "TSUBAKI",
-        "name": "Rally Attack",
+        "name": "Rally Strike",
         "desc": "Grants Dmg +5 to all adjacent allies for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3227,30 +3251,6 @@
             [
                 "damage",
                 5
-            ]
-        ]
-    },
-    {
-        "nid": "NAGISA",
-        "name": "Wrath",
-        "desc": "Grants Crit +20 when unit is at or below 50% Max HP.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            2,
-            35
-        ],
-        "components": [
-            [
-                "condition",
-                "unit.get_hp() <= unit.get_max_hp() // 2"
-            ],
-            [
-                "crit",
-                20
-            ],
-            [
-                "class_skill",
-                null
             ]
         ]
     },
@@ -3377,12 +3377,12 @@
     },
     {
         "nid": "SHULA",
-        "name": "Outdoor Fighter",
-        "desc": "Grants +10 Hit/Avo while on outdoor tiles.",
+        "name": "Thin Air",
+        "desc": "When using Wind magic, unit ignores target's Res, but negates the attack's Brave effect.",
         "icon_nid": "Skills",
         "icon_index": [
-            2,
-            33
+            8,
+            32
         ],
         "components": [
             [
@@ -3390,16 +3390,12 @@
                 null
             ],
             [
-                "hit",
-                10
-            ],
-            [
-                "avoid",
-                10
-            ],
-            [
                 "condition",
-                "game.tilemap.get_terrain(unit.position) in ('1','2','3','4','7','10','11','12','20','21','22','Sand','Desert','Crop')"
+                "'Wind' in unit.get_weapon().tags"
+            ],
+            [
+                "item_override",
+                "SHULA"
             ]
         ]
     },
@@ -3912,7 +3908,7 @@
             ],
             [
                 "dynamic_resist",
-                "5 if unit.nid in ['Tsubaki','Samegoro'] else 0"
+                "5 if 'Merin' in unit.tags else 0"
             ]
         ]
     },

@@ -18,14 +18,14 @@ Joshua, Lucy, Sam - Berserker Sam
 All other characters - PKLucky and Intelligent Systems
 
 Portrait Sprites:
-Adler - HonokaSuzumiya
-Aidohntkeir - Cravat
-Akira - Sterling Glovner
+Adler (Harken alt) - HonokaSuzumiya
+Aidohntkeir (Swordswoman) - Cravat
+Akira (OC Sir Purple the Hatless) - Sterling Glovner
 Alfonso - RandomWizard
 Altena - Melia
 Anna - FireEmblemier
 Beekaus - Cygnus
-Beli - Sphealnuke
+Beli (Mercenary (Version 4)) - Sphealnuke
 Celik - XVI
 Daigo - Smokeyguy77
 Daphne - Ghostblade913
@@ -39,29 +39,30 @@ Generic Female Bandit - Cygnus
 Generic Female Pirate - LaurentLacroix
 Generic Female Pirate 2 - MaxTUS
 Generic Female Soldier - Kyrads
-Generic Female Soldier 2 - Alice, Zarg
+Generic Female Soldier 2 (Soldier (Female) [F2E]) - Alice, Zarg
 Generic Maid 1 - Ghostblade913
 Generic Maid 2 - JeyTheCount, Wasdye
 Generic Pirate - AmBrosiac
-Generic Priest - Matthieu
+Generic Priest (Priest (Version 3)) - Eden
 Guild Girl - MrGreen3339
 Hayato - Cygnus
 Hu - Ghostblade
 Irving - LaurentLacroix
-Iwo - LaurentLacroix
+Iwo (Generic (Version 29)) - LaurentLacroix
 Jake - knabepicer
 Jorge - RandomWizard
 Lorelei - HyperGammaSpaces
-Naturally - LaurentLacroix
-Noebuddy - LaurentLacroix
+Naturally (Generic (Version 27)) - LaurentLacroix
+Noebuddy (Generic (Version 18)) - LaurentLacroix
 Peony - MrGreen3339
 Saburo - Wasdye, Nickt
 Shigeo - AmBrosiac
 Shinobu - Its Just Jay
 Silvia - RandomWizard
+Solmaz - 
 Sven - XVI
 Talbot - Melia, RandomWizard
-Toodey - Imperial
+Toodey (Villager (Fates)) - Imperial
 Tuhdei - LaurentLacroix
 Vernon - Kanna
 Watt - Epicer
@@ -248,6 +249,9 @@ Broadhead Bow - Celice
 Charm - Zane
 Circ's Spine - Zarg
 Cleave Bow - BatimaTheBat
+Devil Bow - 2WB
+Devil Lance - 2WB
+Devil Sword - 2WB
 Distort - WhydidImakethisaccount
 Elice - Thunder Mage
 Elthunder - WhydidImakethisaccount
@@ -279,6 +283,7 @@ Range Ring - Beansy
 Repair Kit - SMITHYGCN
 Royal Sword - Zane
 Sake - PKLucky
+Short Axe Short Axe Style B (Tellius) - Topazlight
 Shimmer - Ereshkigal
 Silver Greatlance - BatimaTheBat
 Silver Longbow - Ereshkigal
@@ -431,5 +436,5 @@ Windmill Village - PeriTune https://peritune.com/blog/2021/12/29/windmill_villag
 Wish4 - PeriTune https://peritune.com/blog/2016/12/03/a-wish4/
 
 SFX:
-crowd02 - On-Jin https://on-jin.com/
-magicwater06 - Maou Damashii https://maou.audio/
+crowd02 (大歓声02) - On-Jin https://on-jin.com/sound/listshow.php?pagename=hito&title=%E5%A4%A7%E6%AD%93%E5%A3%B002&janl=%E4%BA%BA%E9%96%93%E7%B3%BB%E9%9F%B3&bunr=%E5%A3%B0&kate=%E9%A1%94%E3%83%BB%E9%A0%AD
+magicwater06 (se_magic_water06) - Maou Damashii https://maou.audio/se_magic_water06/

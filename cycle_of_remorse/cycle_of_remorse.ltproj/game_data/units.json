@@ -12,6 +12,7 @@
             "Convoy",
             "AdjConvoy",
             "Female",
+            "Medean",
             "Medea"
         ],
         "bases": {
@@ -150,7 +151,8 @@
         "klass": "Mage Knight",
         "tags": [
             "Lord",
-            "Medea"
+            "Medean",
+            "Circ"
         ],
         "bases": {
             "HP": 33,
@@ -426,7 +428,7 @@
         "level": 1,
         "klass": "MageTrevor",
         "tags": [
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 16,
@@ -555,7 +557,7 @@
         "klass": "PegasusKnight",
         "tags": [
             "Female",
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 17,
@@ -683,7 +685,7 @@
         "level": 1,
         "klass": "Brigand",
         "tags": [
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 30,
@@ -932,7 +934,7 @@
         "level": 1,
         "klass": "Thief",
         "tags": [
-            "Medea",
+            "Medean",
             "Protect"
         ],
         "bases": {
@@ -1053,7 +1055,7 @@
         "level": 1,
         "klass": "Cavalier",
         "tags": [
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 19,
@@ -1178,7 +1180,7 @@
         "klass": "Cavalier",
         "tags": [
             "Female",
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 17,
@@ -1307,7 +1309,7 @@
         "klass": "Troubadour",
         "tags": [
             "Female",
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 16,
@@ -1812,7 +1814,8 @@
         "klass": "Maid",
         "tags": [
             "Female",
-            "Dark"
+            "Dark",
+            "Shifter"
         ],
         "bases": {
             "HP": 15,
@@ -1949,7 +1952,7 @@
         "klass": "PegasusKnight",
         "tags": [
             "Female",
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 16,
@@ -2791,7 +2794,8 @@
         "klass": "Shaman",
         "tags": [
             "Female",
-            "Dark"
+            "Dark",
+            "Shifter"
         ],
         "bases": {
             "HP": 18,
@@ -3051,7 +3055,7 @@
         "level": 1,
         "klass": "Mage Knight",
         "tags": [
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 33,
@@ -3903,7 +3907,7 @@
         "klass": "Falcoknight",
         "tags": [
             "Female",
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 35,
@@ -4026,7 +4030,9 @@
         "variant": "",
         "level": 1,
         "klass": "MerchantTsurugi",
-        "tags": [],
+        "tags": [
+            "Shifter"
+        ],
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -4156,7 +4162,9 @@
         "variant": "",
         "level": 1,
         "klass": "WyvernKnight",
-        "tags": [],
+        "tags": [
+            "Fueg"
+        ],
         "bases": {
             "HP": 36,
             "STR": 28,
@@ -4501,7 +4509,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "Himiko{tgm}...{tgm} Mother is coming to meet you{tgm}..."
+                "Suno{tgm}...{tgm} Mother is coming to meet you{tgm}..."
             ]
         ]
     },
@@ -4975,122 +4983,6 @@
         ]
     },
     {
-        "nid": "Tsubaki",
-        "name": "Tsubaki",
-        "desc": "Princess of Merinas.\nSoft-spoken and peaceful.",
-        "variant": "",
-        "level": 1,
-        "klass": "Valkyrie",
-        "tags": [
-            "Boss",
-            "Female"
-        ],
-        "bases": {
-            "HP": 31,
-            "STR": 16,
-            "MAG": 26,
-            "SKL": 25,
-            "SPD": 20,
-            "LCK": 10,
-            "DEF": 10,
-            "RES": 22,
-            "CON": 4,
-            "MOV": 8
-        },
-        "growths": {
-            "HP": 60,
-            "STR": 35,
-            "MAG": 50,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 45,
-            "DEF": 30,
-            "RES": 45,
-            "CON": 15,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "SPD": 3,
-            "LCK": 0,
-            "SKL": 7,
-            "MOV": 0,
-            "STR": 0,
-            "DEF": 0,
-            "RES": 1,
-            "MAG": 4,
-            "HP": 0,
-            "CON": 0
-        },
-        "starting_items": [
-            [
-                "Fire",
-                false
-            ],
-            [
-                "Physic",
-                false
-            ]
-        ],
-        "learned_skills": [
-            [
-                1,
-                "TSUBAKI"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                241,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                131,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Tsubaki",
-        "affinity": "Anima",
-        "fields": []
-    },
-    {
         "nid": "Nagisa",
         "name": "Nagisa",
         "desc": "Tsubaki's retainer.\nStubborn and blunt.",
@@ -5203,6 +5095,123 @@
         "fields": []
     },
     {
+        "nid": "Tsubaki",
+        "name": "Tsubaki",
+        "desc": "Princess of Merinas.\nSoft-spoken and peaceful.",
+        "variant": "",
+        "level": 1,
+        "klass": "Valkyrie",
+        "tags": [
+            "Boss",
+            "Female",
+            "Merin"
+        ],
+        "bases": {
+            "HP": 31,
+            "STR": 16,
+            "MAG": 26,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 10,
+            "DEF": 10,
+            "RES": 22,
+            "CON": 4,
+            "MOV": 8
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 35,
+            "MAG": 50,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 45,
+            "DEF": 30,
+            "RES": 45,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 3,
+            "LCK": 0,
+            "SKL": 7,
+            "MOV": 0,
+            "STR": 0,
+            "DEF": 0,
+            "RES": 1,
+            "MAG": 4,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "Fire",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "TSUBAKI"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                241,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                131,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Tsubaki",
+        "affinity": "Anima",
+        "fields": []
+    },
+    {
         "nid": "Judah",
         "name": "Judah",
         "desc": "Ervan's former retainer.\nStrict and disciplined.",
@@ -5252,7 +5261,7 @@
                 false
             ],
             [
-                "IronPoleax",
+                "ShortAxe",
                 false
             ],
             [
@@ -5436,7 +5445,8 @@
         "klass": "Sorceror",
         "tags": [
             "Female",
-            "Dark"
+            "Dark",
+            "Shifter"
         ],
         "bases": {
             "HP": 36,
@@ -5524,7 +5534,9 @@
         "variant": "",
         "level": 1,
         "klass": "BowLord",
-        "tags": [],
+        "tags": [
+            "Fueg"
+        ],
         "bases": {
             "HP": 35,
             "STR": 25,
@@ -6162,7 +6174,7 @@
         "level": 1,
         "klass": "Marshall",
         "tags": [
-            "Medea"
+            "Medean"
         ],
         "bases": {
             "HP": 10,
@@ -6585,6 +6597,7 @@
         "level": 1,
         "klass": "DreadFighter",
         "tags": [
+            "Medean",
             "Medea"
         ],
         "bases": {
@@ -8443,7 +8456,8 @@
         "level": 1,
         "klass": "Bishop",
         "tags": [
-            "Boss"
+            "Boss",
+            "Foliaga"
         ],
         "bases": {
             "HP": 30,
@@ -8554,7 +8568,9 @@
         "level": 1,
         "klass": "Trickster",
         "tags": [
-            "Boss"
+            "Boss",
+            "Foliaga",
+            "Circ"
         ],
         "bases": {
             "HP": 38,
@@ -9393,7 +9409,7 @@
                 false
             ],
             [
-                "Devil Axe",
+                "DevilLance",
                 true
             ]
         ],
@@ -9496,7 +9512,8 @@
         "level": 1,
         "klass": "Marshall",
         "tags": [
-            "Boss"
+            "Boss",
+            "Merin"
         ],
         "bases": {
             "HP": 42,
@@ -9602,7 +9619,9 @@
         "level": 1,
         "klass": "DreadFighter",
         "tags": [
-            "Boss"
+            "Boss",
+            "Merin",
+            "Circ"
         ],
         "bases": {
             "HP": 37,
@@ -9780,25 +9799,59 @@
         ]
     },
     {
-        "nid": "Placeholder",
-        "name": "Placeholder",
+        "nid": "Solmaz",
+        "name": "Solmaz",
         "desc": "",
-        "variant": null,
+        "variant": "Female",
         "level": 5,
-        "klass": "Druid",
+        "klass": "Bishop",
         "tags": [
-            "Boss"
+            "Boss",
+            "Female"
         ],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "HP": 40,
+            "STR": 1,
+            "MAG": 28,
+            "SKL": 20,
+            "SPD": 18,
+            "LCK": 2,
+            "DEF": 16,
+            "RES": 25,
+            "CON": 8,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
         "starting_items": [
             [
-                "Luna",
+                "Purge",
                 false
             ],
             [
-                "Elthunder",
+                "Silence",
                 false
             ]
         ],
@@ -9807,17 +9860,27 @@
         "wexp_gain": {
             "Anima": [
                 false,
-                131,
+                0,
                 null
             ],
             "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                241,
+                null
+            ],
+            "Light": [
                 false,
                 241,
                 null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "Solmaz",
         "affinity": "Anima",
         "fields": []
     },
@@ -9829,7 +9892,9 @@
         "level": 1,
         "klass": "Assassin",
         "tags": [
-            "Boss"
+            "Boss",
+            "Fueg",
+            "Circ"
         ],
         "bases": {
             "HP": 33,
@@ -9930,7 +9995,9 @@
         "level": 1,
         "klass": "Marshall",
         "tags": [
-            "Boss"
+            "Boss",
+            "Oreg",
+            "Circ"
         ],
         "bases": {
             "HP": 33,
@@ -10031,7 +10098,8 @@
         "level": 1,
         "klass": "Archsage",
         "tags": [
-            "Boss"
+            "Boss",
+            "Circ"
         ],
         "bases": {
             "HP": 32,
@@ -10330,7 +10398,8 @@
         "level": 7,
         "klass": "WyvernKnight",
         "tags": [
-            "Female"
+            "Female",
+            "Fueg"
         ],
         "bases": {
             "HP": 42,

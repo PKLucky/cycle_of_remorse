@@ -1,3 +1,76 @@
+UNDER THE HOOD
+* Adjusted certain units' tags.
+* Adjusted certain items' compatibility to correspond with changes made with unit tags.
+* Minimum EXP gained in combat lowered from 1 to 0. (Affects attacking cracked walls, defeating enemies with Void Curse, etc.)
+
+ITEM-SPECIFIC
+* Ice and Elice changed to Glacier and Elglacier.
+* Goddess Icon changed to Beast Icon.
+* Added new item: Short Axe
+
+Alter
+* Changed icon
+
+Devil Axe
+* Certain units now not affected by backfire effect.
+* Can no longer be sold in shops.
+
+Distort
+* Changed icon
+
+Wyrmslayer
+* Lowered price from 3000G to 2000G
+
+Dragonspear
+* Lowered price from 4500G to 3000G
+
+Dragon Axe
+* Lowered price from 4500G to 3000G
+
+CHAPTER-SPECIFIC
+Chapter 11: Port Assault
+* Added Short Axe to base market.
+
+Chapter 16: Reunion
+* One generic enemy Brigand now uses a Short Axe instead of a Hand Axe.
+
+Chapter 17: Wyverns on the Archipelago
+* One generic enemy Pirate now uses a Short Axe instead of a Steel Axe.
+
+Chapter 17x: Trade Route Troubles
+* Saburo now drops a Devil Lance instead of a Devil Axe upon defeat.
+
+Chapter 19: A Noble's Lament
+* Added Nagisa's portrait to outro cutscene.
+* Removed Hikaru's boss icon after recruiting him.
+
+Chapter 22: Samegoro's Wrath
+* One generic enemy General now uses a Short Axe instead of a Hand Axe.
+
+CHARACTER-SPECIFIC
+Tsubaki
+* Renamed "Rally Attack" to "Rally Strike"
+
+Secret Character 2
+* Raised base Con by 2.
+* Lowered Con growth rate by 5%.
+
+SUPPORT
+* Revised Forrest/Xiang's C rank support conversation.
+* Revised Kai/Sam's C rank support conversation.
+
+New support pairs:
+* Joshua/Yumi
+* Yumi/Hikaru
+
+New Support Conversations:
+* Kai/Tsurugi - C-B
+* Alex/Lucy - B
+* Ryuuji/Tsubaki - B
+
+WRITING
+* Minor dialogue changes.
+=====================================================
 v0.13.0
 This version is NOT compatible with saves from previous versions.
 

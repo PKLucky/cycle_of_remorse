@@ -509,6 +509,81 @@
         ]
     },
     {
+        "nid": "DevilSword",
+        "name": "Devil Sword",
+        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%\n{e:'This unit is immune to backfire.' if 'Medea' in unit.tags or 'Foliaga' in unit.tags or 'Merin' in unit.tags or 'Fueg' in unit.tags or 'Oreg' in unit.tags or 'Circ' in unit.tags or 'Shifter' in unit.tags else ''}",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            30
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "status_on_equip",
+                "DevilAxe"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
         "nid": "Poison Sword",
         "name": "Poison Sword",
         "desc": "Poisons on contact.",
@@ -742,89 +817,6 @@
         ]
     },
     {
-        "nid": "Wyrmslayer",
-        "name": "Wyrmslayer",
-        "desc": "Effective against dragon units.",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            13
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                8
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Dragon"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ]
-        ]
-    },
-    {
         "nid": "Zanbato",
         "name": "Zanbato",
         "desc": "Effective against horseback units.",
@@ -898,6 +890,89 @@
                 {
                     "effective_tags": [
                         "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Wyrmslayer",
+        "name": "Wyrmslayer",
+        "desc": "Effective against dragon units.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon"
                     ],
                     "effective_multiplier": 3,
                     "effective_bonus_damage": 0,
@@ -2135,13 +2210,6 @@
                 1
             ],
             [
-                "prf_unit",
-                [
-                    "Krista",
-                    "Bryant"
-                ]
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -2169,6 +2237,12 @@
             [
                 "undiscardable",
                 null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Medea"
+                ]
             ]
         ]
     },
@@ -2951,6 +3025,81 @@
         ]
     },
     {
+        "nid": "DevilLance",
+        "name": "Devil Lance",
+        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%\n{e:'This unit is immune to backfire.' if 'Medea' in unit.tags or 'Foliaga' in unit.tags or 'Merin' in unit.tags or 'Fueg' in unit.tags or 'Oreg' in unit.tags or 'Circ' in unit.tags or 'Shifter' in unit.tags else ''}",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            21
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "status_on_equip",
+                "DevilAxe"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    },
+    {
         "nid": "Toxin Lance",
         "name": "Toxin Lance",
         "desc": "Poisons on contact",
@@ -3376,7 +3525,7 @@
             ],
             [
                 "value",
-                7500
+                6000
             ],
             [
                 "min_range",
@@ -3385,89 +3534,6 @@
             [
                 "max_range",
                 1
-            ]
-        ]
-    },
-    {
-        "nid": "Horseslayer",
-        "name": "Horseslayer",
-        "desc": "Effective against horseback units",
-        "icon_nid": "Lance",
-        "icon_index": [
-            0,
-            7
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "damage",
-                7
-            ],
-            [
-                "hit",
-                75
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                16
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "weight",
-                13
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "value",
-                1040
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Horse"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
             ]
         ]
     },
@@ -3555,6 +3621,89 @@
         ]
     },
     {
+        "nid": "Horseslayer",
+        "name": "Horseslayer",
+        "desc": "Effective against horseback units",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                16
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1040
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Dragonspear",
         "name": "Dragonspear",
         "desc": "Effective against dragon units.",
@@ -3613,7 +3762,7 @@
             ],
             [
                 "value",
-                4500
+                3000
             ],
             [
                 "min_range",
@@ -3857,14 +4006,6 @@
                 2
             ],
             [
-                "prf_unit",
-                [
-                    "Khalid",
-                    "Ervan",
-                    "Leeann"
-                ]
-            ],
-            [
                 "stat_change",
                 [
                     [
@@ -3888,6 +4029,12 @@
             [
                 "undiscardable",
                 null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Fueg"
+                ]
             ]
         ]
     },
@@ -4718,6 +4865,77 @@
         ]
     },
     {
+        "nid": "ShortAxe",
+        "name": "Short Axe",
+        "desc": "",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            23
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "value",
+                1500
+            ]
+        ]
+    },
+    {
         "nid": "Tomahawk",
         "name": "Tomahawk",
         "desc": "",
@@ -5092,7 +5310,7 @@
             ],
             [
                 "value",
-                4500
+                3000
             ],
             [
                 "min_range",
@@ -5119,7 +5337,7 @@
     {
         "nid": "Devil Axe",
         "name": "Devil Axe",
-        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%",
+        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%\n{e:'This unit is immune to backfire.' if 'Medea' in unit.tags or 'Foliaga' in unit.tags or 'Merin' in unit.tags or 'Fueg' in unit.tags or 'Oreg' in unit.tags or 'Circ' in unit.tags or 'Shifter' in unit.tags else ''}",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5180,10 +5398,6 @@
             [
                 "status_on_equip",
                 "DevilAxe"
-            ],
-            [
-                "value",
-                880
             ],
             [
                 "min_range",
@@ -5499,7 +5713,7 @@
             ],
             [
                 "value",
-                2250
+                4000
             ],
             [
                 "min_range",
@@ -6055,6 +6269,81 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "DevilBow",
+        "name": "Devil Bow",
+        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%\n{e:'This unit is immune to backfire.' if 'Medea' in unit.tags or 'Foliaga' in unit.tags or 'Merin' in unit.tags or 'Fueg' in unit.tags or 'Oreg' in unit.tags or 'Circ' in unit.tags or 'Shifter' in unit.tags else ''}",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "status_on_equip",
+                "DevilAxe"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -6893,7 +7182,7 @@
                 {
                     "effective_tags": [
                         "Flying",
-                        "Medea"
+                        "Medean"
                     ],
                     "effective_multiplier": 3,
                     "effective_bonus_damage": 0,
@@ -7562,12 +7851,6 @@
                 null
             ],
             [
-                "prf_unit",
-                [
-                    "Azalea"
-                ]
-            ],
-            [
                 "status_on_hit",
                 "FoliasGrace"
             ],
@@ -7586,6 +7869,12 @@
             [
                 "undiscardable",
                 null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Foliaga"
+                ]
             ]
         ]
     },
@@ -9226,12 +9515,6 @@
                 null
             ],
             [
-                "prf_unit",
-                [
-                    "Tsubaki"
-                ]
-            ],
-            [
                 "weapon_rank",
                 "A"
             ],
@@ -9262,6 +9545,12 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Merin"
+                ]
             ]
         ]
     },
@@ -10413,7 +10702,7 @@
     },
     {
         "nid": "Ice",
-        "name": "Ice",
+        "name": "Glacier",
         "desc": "Nullifies the weapon triangle.",
         "icon_nid": "Anima",
         "icon_index": [
@@ -10787,7 +11076,7 @@
     },
     {
         "nid": "Elice",
-        "name": "Elice",
+        "name": "Elglacier",
         "desc": "Reverses the weapon triangle.",
         "icon_nid": "Anima",
         "icon_index": [
@@ -11412,7 +11701,7 @@
         "icon_nid": "Dark",
         "icon_index": [
             0,
-            9
+            10
         ],
         "components": [
             [
@@ -11590,7 +11879,7 @@
         "icon_nid": "Dark",
         "icon_index": [
             0,
-            9
+            11
         ],
         "components": [
             [
@@ -13641,7 +13930,7 @@
     },
     {
         "nid": "Goddess Icon",
-        "name": "Goddess Icon",
+        "name": "Beast Icon",
         "desc": "Permanently raises Luck by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -15430,8 +15719,8 @@
         ]
     },
     {
-        "nid": "LunaCalc",
-        "name": "LunaCalc",
+        "nid": "SHULA",
+        "name": "SHULA",
         "desc": "Reduces an enemy's defenses to 0 when Luna is used",
         "icon_nid": "Skills",
         "icon_index": [
@@ -15442,6 +15731,10 @@
             [
                 "alternate_resist_formula",
                 "ZERO"
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     },

@@ -25005,7 +25005,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Hand Axe",
+                        "ShortAxe",
                         false
                     ]
                 ],
@@ -25881,7 +25881,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "ShortAxe",
                         false
                     ]
                 ],
@@ -34521,7 +34521,7 @@
                 "faction": "Merinas",
                 "starting_items": [
                     [
-                        "Hand Axe",
+                        "ShortAxe",
                         false
                     ]
                 ],
@@ -35898,7 +35898,7 @@
         "objective": {
             "simple": "Stop Sven,{e:game.turncount}/20 turn(s)",
             "win": "Stop Sven in 20 turns,or Defeat Sven",
-            "loss": "Sven escapes,ssGerolt{comma} Leeann{comma} or,Krista dies"
+            "loss": "Sven escapes,Gerolt{comma} Leeann{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": "Krista",
@@ -36052,7 +36052,7 @@
                 "variant": null,
                 "level": 20,
                 "klass": "Soldier",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Lance",
@@ -36076,7 +36076,7 @@
                 "variant": null,
                 "level": 20,
                 "klass": "Soldier",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Lance",
@@ -36100,7 +36100,7 @@
                 "variant": null,
                 "level": 7,
                 "klass": "Halberdier",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Short Spear",
@@ -36124,7 +36124,7 @@
                 "variant": null,
                 "level": 7,
                 "klass": "Halberdier",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Short Spear",
@@ -36148,7 +36148,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Sage",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Elfire",
@@ -36172,10 +36172,10 @@
                 "variant": null,
                 "level": 6,
                 "klass": "WyvernKnight",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "Short Spear",
                         false
                     ]
                 ],
@@ -36196,7 +36196,7 @@
                 "variant": "Sword",
                 "level": 6,
                 "klass": "General",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Sword",
@@ -36220,7 +36220,7 @@
                 "variant": "Sword",
                 "level": 6,
                 "klass": "General",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Blade",
@@ -36244,7 +36244,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Bishop",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Mend",
@@ -36268,7 +36268,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Swordmaster",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Sword",
@@ -36292,7 +36292,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Hero",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -36316,7 +36316,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Sniper",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Bow",
@@ -36340,7 +36340,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Sniper",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Steel Bow",
@@ -36364,7 +36364,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "WyvernKnight",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Javelin",
@@ -36388,7 +36388,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "WyvernKnight",
-                "faction": "Knight",
+                "faction": "Fuegsol",
                 "starting_items": [
                     [
                         "Javelin",
@@ -36449,8 +36449,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    25
+                    24,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36517,7 +36517,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Thief",
+                "ai": "ThiefCh23",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -36717,8 +36717,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    24
+                    23,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36837,8 +36837,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    22
+                    3,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36861,8 +36861,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    25
+                    2,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -36957,7 +36957,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
+                    5,
                     25
                 ],
                 "starting_traveler": null,
@@ -36981,8 +36981,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    24
+                    1,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37129,8 +37129,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    23
+                    24,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37197,7 +37197,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Thief",
+                "ai": "ThiefCh23",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -37221,11 +37221,35 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Thief",
+                "ai": "ThiefCh23",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     0,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 4,
+                "klass": "Rogue",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "ThiefCh23",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
                     17
                 ],
                 "starting_traveler": null,
@@ -37364,7 +37388,24 @@
                     3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door1_1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    2
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37381,7 +37422,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door2_1",
+                "region_type": "event",
+                "position": [
+                    14,
+                    3
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37398,7 +37456,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door3_1",
+                "region_type": "event",
+                "position": [
+                    21,
+                    3
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37415,7 +37490,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region) and unit.nid != 'Sven'",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door4_1",
+                "region_type": "event",
+                "position": [
+                    20,
+                    6
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.nid != 'Sven' and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37432,7 +37524,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door5_1",
+                "region_type": "event",
+                "position": [
+                    19,
+                    10
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37449,7 +37558,24 @@
                     3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door6_1",
+                "region_type": "event",
+                "position": [
+                    10,
+                    12
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37466,7 +37592,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door7_1",
+                "region_type": "event",
+                "position": [
+                    3,
+                    15
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37483,7 +37626,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door8_1",
+                "region_type": "event",
+                "position": [
+                    7,
+                    15
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37500,7 +37660,24 @@
                     3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door9_1",
+                "region_type": "event",
+                "position": [
+                    23,
+                    14
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37517,7 +37694,24 @@
                     3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region) and unit.nid != 'Sven'",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door10_1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    17
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.nid != 'Sven' and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37534,7 +37728,24 @@
                     3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door11_1",
+                "region_type": "event",
+                "position": [
+                    6,
+                    18
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37551,7 +37762,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door12_1",
+                "region_type": "event",
+                "position": [
+                    16,
+                    17
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37568,7 +37796,24 @@
                     3
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door13_1",
+                "region_type": "event",
+                "position": [
+                    11,
+                    18
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37585,7 +37830,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door14_1",
+                "region_type": "event",
+                "position": [
+                    8,
+                    23
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37602,7 +37864,24 @@
                     1
                 ],
                 "sub_nid": "<white>Door</>",
-                "condition": "unit.can_unlock(region)",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door15_1",
+                "region_type": "event",
+                "position": [
+                    14,
+                    22
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -37676,23 +37955,6 @@
                 "interrupt_move": false
             },
             {
-                "nid": "stairs2_1",
-                "region_type": "event",
-                "position": [
-                    2,
-                    8
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Stairs",
-                "condition": "not any_unit_in_region('stairs1') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
                 "nid": "stairs3",
                 "region_type": "event",
                 "position": [
@@ -37741,23 +38003,6 @@
                 "condition": "not any_unit_in_region('stairs3') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "stairs4_1",
-                "region_type": "event",
-                "position": [
-                    24,
-                    2
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Stairs",
-                "condition": "not any_unit_in_region('stairs3') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
                 "interrupt_move": false
             },
             {
@@ -37812,23 +38057,6 @@
                 "interrupt_move": false
             },
             {
-                "nid": "stairs6_1",
-                "region_type": "event",
-                "position": [
-                    1,
-                    15
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Stairs",
-                "condition": "not any_unit_in_region('stairs5') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
                 "nid": "stairs7",
                 "region_type": "event",
                 "position": [
@@ -37846,27 +38074,10 @@
                 "interrupt_move": false
             },
             {
-                "nid": "stairs7_1",
-                "region_type": "event",
-                "position": [
-                    6,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Stairs",
-                "condition": "not any_unit_in_region('stairs8') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
                 "nid": "stairs8",
                 "region_type": "event",
                 "position": [
-                    24,
+                    21,
                     17
                 ],
                 "size": [
@@ -37875,23 +38086,6 @@
                 ],
                 "sub_nid": "Stairs",
                 "condition": "not any_unit_in_region('stairs7') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "stairs8_1",
-                "region_type": "event",
-                "position": [
-                    24,
-                    17
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Stairs",
-                "condition": "not any_unit_in_region('stairs7') and game.level_vars['StairsCheck'] != True and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -38000,7 +38194,8 @@
                     "132",
                     "133",
                     "136",
-                    "137"
+                    "137",
+                    "138"
                 ],
                 "positions": {}
             }
@@ -38047,6 +38242,16 @@
                 "generic": false
             },
             {
+                "nid": "Forrest",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Kiraz",
                 "team": "other",
                 "ai": "None",
@@ -38064,7 +38269,7 @@
                 "variant": "Boy",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Fueg",
+                "faction": "Fuegsol",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38083,7 +38288,7 @@
                 "variant": "Girl",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Fueg",
+                "faction": "Fuegsol",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38102,7 +38307,7 @@
                 "variant": "Boy",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Fueg",
+                "faction": "Fuegsol",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38121,7 +38326,7 @@
                 "variant": "Boy",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Fueg",
+                "faction": "Fuegsol",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38140,7 +38345,7 @@
                 "variant": "Girl",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Fueg",
+                "faction": "Fuegsol",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -38193,7 +38398,7 @@
                 "generic": true
             },
             {
-                "nid": "Placeholder",
+                "nid": "Solmaz",
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -39662,18 +39867,18 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    26,
+                    27,
                     3
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "101",
+                "nid": "201",
                 "variant": "Girl",
                 "level": 20,
                 "klass": "Citizen",
-                "faction": "Fueg",
+                "faction": "Fuegsol",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
@@ -39683,139 +39888,1291 @@
                 "starting_position": [
                     2,
                     11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "202",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "203",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "204",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "205",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "206",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "207",
+                "variant": "Boy",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "208",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "102",
-                "variant": "Boy",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Sniper",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "SteelLongbow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
-                    11
+                    6,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "103",
-                "variant": "Boy",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Warrior",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Swordslayer",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    15
+                    6,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "104",
-                "variant": "Girl",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "SteelGreatlance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
-                    15
+                    6,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "105",
-                "variant": "Girl",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    19
+                    23,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "106",
-                "variant": "Boy",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Sniper",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "SteelLongbow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
-                    19
+                    23,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "107",
-                "variant": "Boy",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Warrior",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    23
+                    23,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "108",
-                "variant": "Girl",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fueg",
-                "starting_items": [],
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "SteelGreatlance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
+                    23,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 5,
+                "klass": "Berserker",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 5,
+                "klass": "Berserker",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": "",
+                "level": 5,
+                "klass": "General",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 5,
+                "klass": "Hero",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 5,
+                "klass": "Hero",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "SteelPoleax",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Alter",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Distort",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Runesword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "WindSword",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
                     23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 5,
+                "klass": "Sorceror",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Assault",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Elwind",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Gibbous",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 5,
+                "klass": "Sniper",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "BroadheadBow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 5,
+                "klass": "Sniper",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 5,
+                "klass": "Berserker",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "SteelPoleax",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 5,
+                "klass": "Berserker",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 5,
+                "klass": "Sorceror",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Stun",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 5,
+                "klass": "Citizen",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Elice",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Ice",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "139",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Distort",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 5,
+                "klass": "Halberdier",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 5,
+                "klass": "Warrior",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 5,
+                "klass": "Warrior",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Miasma",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 5,
+                "klass": "Sorceror",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 5,
+                "klass": "Swordmaster",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 5,
+                "klass": "Swordmaster",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Armorslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -39911,7 +41268,7 @@
                 "nid": "chest1",
                 "region_type": "event",
                 "position": [
-                    3,
+                    4,
                     3
                 ],
                 "size": [
@@ -39928,7 +41285,7 @@
                 "nid": "chest2",
                 "region_type": "event",
                 "position": [
-                    3,
+                    4,
                     6
                 ],
                 "size": [
@@ -40202,6 +41559,23 @@
                 "position": [
                     24,
                     11
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "<white>Door</>",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door17",
+                "region_type": "event",
+                "position": [
+                    5,
+                    4
                 ],
                 "size": [
                     3,
@@ -40699,7 +42073,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -40922,7 +42299,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    2,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             }

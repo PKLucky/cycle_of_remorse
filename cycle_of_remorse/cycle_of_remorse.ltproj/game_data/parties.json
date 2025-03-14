@@ -10,8 +10,8 @@
         "leader": "Forrest"
     },
     {
-        "nid": "Dead",
-        "name": "Dead",
+        "nid": "Prisoners",
+        "name": "Prisoners",
         "leader": "Krista"
     },
     {
@@ -20,8 +20,8 @@
         "leader": "Krista"
     },
     {
-        "nid": "DreadLords",
-        "name": "DreadLords",
+        "nid": "DeadLords",
+        "name": "DeadLords",
         "leader": "Krista"
     }
 ]
