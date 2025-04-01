@@ -35393,7 +35393,7 @@
             "if;region.nid == 'bridge1'",
             "show_layer;bridge1",
             "elif;region.nid == 'bridge2'",
-            "show_layer;bridge1",
+            "show_layer;bridge2",
             "end"
         ],
         "nid": "20 Bridges"
