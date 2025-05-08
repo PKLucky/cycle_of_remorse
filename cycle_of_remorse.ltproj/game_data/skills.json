@@ -3299,6 +3299,30 @@
         ]
     },
     {
+        "nid": "SHULA",
+        "name": "Thin Air",
+        "desc": "When using Wind magic, unit ignores target's Res, but negates the attack's Brave effect.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Wind' in unit.get_weapon().tags"
+            ],
+            [
+                "item_override",
+                "SHULA"
+            ]
+        ]
+    },
+    {
         "nid": "KIRAZ",
         "name": "Wild Magic",
         "desc": "Grants +5 to either Mag, Skl, Spd, Luk, Def, or Res or +10 to either Hit, Avo, or Crit at the start of each turn.",
@@ -3372,30 +3396,6 @@
             [
                 "condition",
                 "game.level_vars['kirazSkill'] >= 0 and game.turncount > 0"
-            ]
-        ]
-    },
-    {
-        "nid": "SHULA",
-        "name": "Thin Air",
-        "desc": "When using Wind magic, unit ignores target's Res, but negates the attack's Brave effect.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            8,
-            32
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "condition",
-                "'Wind' in unit.get_weapon().tags"
-            ],
-            [
-                "item_override",
-                "SHULA"
             ]
         ]
     },
