@@ -48,7 +48,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Tetsuya",
+        "nid": "Watt",
         "blinking_offset": [
             24,
             24
@@ -1512,7 +1512,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Naoko",
+        "nid": "Hu",
         "blinking_offset": [
             32,
             32
@@ -1524,7 +1524,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Tadashi",
+        "nid": "Tuhdei",
         "blinking_offset": [
             24,
             24
@@ -1536,7 +1536,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Izumi",
+        "nid": "Wye",
         "blinking_offset": [
             24,
             32
@@ -1548,7 +1548,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Kasumi",
+        "nid": "Beekos",
         "blinking_offset": [
             24,
             32
@@ -1560,7 +1560,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nobuyuki",
+        "nid": "Nobuhdi",
         "blinking_offset": [
             24,
             24
@@ -1572,7 +1572,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rie",
+        "nid": "Keir",
         "blinking_offset": [
             24,
             32
@@ -1584,7 +1584,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Shouhei",
+        "nid": "Aidon",
         "blinking_offset": [
             24,
             24
@@ -1596,7 +1596,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Emi",
+        "nid": "Gevadarn",
         "blinking_offset": [
             24,
             32
@@ -1608,7 +1608,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Hideaki",
+        "nid": "Nachurali",
         "blinking_offset": [
             24,
             24
@@ -1796,6 +1796,78 @@
         "smiling_offset": [
             24,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Boy2",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Boy3",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            24,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Girl2",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Boy4",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Girl3",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Girl4",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            48
         ],
         "info_offset": 0
     }

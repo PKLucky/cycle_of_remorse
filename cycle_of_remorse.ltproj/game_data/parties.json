@@ -23,5 +23,10 @@
         "nid": "DeadLords",
         "name": "DeadLords",
         "leader": "Krista"
+    },
+    {
+        "nid": "Dead",
+        "name": "Dead",
+        "leader": "Krista"
     }
 ]

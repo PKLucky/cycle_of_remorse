@@ -2425,7 +2425,7 @@
     {
         "nid": "SpysDagger_Cutscene",
         "name": "Spy's Dagger",
-        "desc": "Matthew only. Effective against units afflicted with negative status effects. Grants Def/Res +3 on self and inflicts Def/Res -3 on target for one turn after combat.",
+        "desc": "For cutscene purposes only.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -2467,43 +2467,6 @@
             [
                 "weapon_type",
                 "Sword"
-            ],
-            [
-                "prf_unit",
-                [
-                    "Matthew"
-                ]
-            ],
-            [
-                "status_on_equip",
-                "SpysDaggerSelf"
-            ],
-            [
-                "status_after_combat_on_hit",
-                "SpysDagger"
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Negative"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true,
-                    "weapon_effectiveness_multiplied": true
-                }
-            ],
-            [
-                "uses",
-                16
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "wexp",
@@ -7774,12 +7737,16 @@
             [
                 "equation_heal",
                 "HEAL"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
     {
         "nid": "FoliasStaff",
-        "name": "Folia's Staff",
+        "name": "Folia's Horn",
         "desc": "Folia bloodline only. Restores (User's Mag + 10) HP. Target regains 10% Max HP per turn for 5 turns.",
         "icon_nid": "Staff",
         "icon_index": [
@@ -7875,6 +7842,10 @@
                 [
                     "Foliaga"
                 ]
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -7958,6 +7929,10 @@
             [
                 "equation_heal",
                 "MEND"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8041,6 +8016,10 @@
             [
                 "battle_animation_music",
                 "Curing"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8143,6 +8122,10 @@
             [
                 "equation_heal",
                 "HEAL"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8230,6 +8213,10 @@
             [
                 "equation_heal",
                 "MEND"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8313,6 +8300,10 @@
             [
                 "wexp",
                 5
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8379,6 +8370,10 @@
             ],
             [
                 "unsplashable",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -8467,6 +8462,10 @@
             [
                 "eval_available",
                 "'MapFog' in game.level.tags"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8529,6 +8528,10 @@
             ],
             [
                 "unsplashable",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -8613,6 +8616,10 @@
             [
                 "map_hit_sfx",
                 "DebuffRecover"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8688,6 +8695,17 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_ai_priority",
+                {
+                    "condition": "True",
+                    "priority": "1"
+                }
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8759,6 +8777,17 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_ai_priority",
+                {
+                    "condition": "True",
+                    "priority": "1"
+                }
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8830,6 +8859,104 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_ai_priority",
+                {
+                    "condition": "True",
+                    "priority": "1"
+                }
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Trade",
+        "name": "Trade",
+        "desc": "Trade items with a distant allied unit.\n(Not affected by Prayer.)",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            23
+        ],
+        "components": [
+            [
+                "value",
+                1300
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "trade",
+                null
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "MapFlying"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    234,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "Quintessence"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -8901,6 +9028,17 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_ai_priority",
+                {
+                    "condition": "True",
+                    "priority": "1"
+                }
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -9020,6 +9158,10 @@
             [
                 "unsplashable",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -9090,11 +9232,22 @@
             ],
             [
                 "map_cast_anim",
-                "MapSmallHealTrans"
+                "MapSpiritbane"
             ],
             [
                 "battle_animation_music",
                 "Healing"
+            ],
+            [
+                "eval_ai_priority",
+                {
+                    "condition": "True",
+                    "priority": "1"
+                }
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -9172,6 +9325,10 @@
             ],
             [
                 "target_tile",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -9319,6 +9476,10 @@
             [
                 "unsplashable",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -9387,8 +9548,8 @@
         ]
     },
     {
-        "nid": "Latona",
-        "name": "Latona",
+        "nid": "Apollo",
+        "name": "Apollo",
         "desc": "Restores HP and condition of all allied units.\n(Not affected by Prayer.)",
         "icon_nid": "Staff",
         "icon_index": [
@@ -9445,6 +9606,10 @@
             ],
             [
                 "unsplashable",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -9551,6 +9716,10 @@
                 [
                     "Merin"
                 ]
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -13227,6 +13396,10 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -13285,6 +13458,10 @@
             ],
             [
                 "unrepairable",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -13345,6 +13522,14 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13404,6 +13589,14 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13451,6 +13644,14 @@
             [
                 "status_on_hit",
                 "PoisonStrike"
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13494,6 +13695,10 @@
             [
                 "unlock_staff",
                 null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13529,6 +13734,10 @@
             [
                 "no_alert_on_break",
                 null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13563,6 +13772,10 @@
             ],
             [
                 "no_alert_on_break",
+                null
+            ],
+            [
+                "no_map_hp_display",
                 null
             ]
         ]
@@ -13603,6 +13816,10 @@
             [
                 "no_alert_on_break",
                 null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13641,6 +13858,10 @@
             ],
             [
                 "no_alert_on_break",
+                null
+            ],
+            [
+                "no_map_hp_display",
                 null
             ]
         ]
@@ -13697,6 +13918,14 @@
             [
                 "eval_available",
                 "'MapFog' in game.level.tags"
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -13752,6 +13981,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -13813,6 +14046,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -13868,6 +14105,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -13925,6 +14166,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -13980,6 +14225,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -14037,6 +14286,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14092,6 +14345,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -14157,6 +14414,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14212,6 +14473,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -14269,6 +14534,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14322,6 +14591,14 @@
             [
                 "hover_description",
                 "Promotes Krista from Great Lord."
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14351,6 +14628,17 @@
         "nid": "PreciousStone",
         "name": "Precious Stone",
         "desc": "A stone with sentimental value.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    },
+    {
+        "nid": "ShinyGem",
+        "name": "Shiny Gem",
+        "desc": "A gem that shines in the sunlight.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -14408,6 +14696,14 @@
             [
                 "eval_target_restrict_2",
                 "unit.level >= 10"
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
             ]
         ]
     },
@@ -14457,6 +14753,14 @@
             [
                 "eval_target_restrict_2",
                 "unit.level >= 10"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14512,6 +14816,71 @@
                 [
                     "Xiang"
                 ]
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "KirazsStone",
+        "name": "Kiraz's Stone",
+        "desc": "Promotes Kiraz from Sorceror.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Kiraz"
+                ]
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14592,6 +14961,14 @@
             [
                 "unsplashable",
                 null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14666,6 +15043,14 @@
             ],
             [
                 "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -14755,6 +15140,10 @@
             [
                 "event_after_combat_on_hit",
                 "Global OregScrollAlert"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -14961,6 +15350,14 @@
             [
                 "ignore_fog_of_war",
                 null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -15060,6 +15457,22 @@
         ]
     },
     {
+        "nid": "7000G",
+        "name": "7000G",
+        "desc": "7000 Gold",
+        "icon_nid": "Valuable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "value",
+                14000
+            ]
+        ]
+    },
+    {
         "nid": "WornBook",
         "name": "Worn Book",
         "desc": "A book that Krista loaned to Ervan.\n(Cannot be removed from unit's inventory.)",
@@ -15154,6 +15567,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]
@@ -15327,6 +15744,10 @@
             [
                 "ally_blast_except_self_aoe",
                 1
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -15383,6 +15804,10 @@
             [
                 "ally_blast_except_self_aoe",
                 1
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -15439,6 +15864,10 @@
             [
                 "ally_blast_except_self_aoe",
                 1
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -15579,6 +16008,10 @@
             [
                 "ally_blast_except_self_aoe",
                 1
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -15643,6 +16076,10 @@
             [
                 "ally_blast_except_self_aoe",
                 1
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },
@@ -15786,6 +16223,10 @@
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]

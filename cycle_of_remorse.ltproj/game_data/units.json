@@ -5439,7 +5439,7 @@
     {
         "nid": "Kiraz",
         "name": "Kiraz",
-        "desc": "A young girl who lived alone in the desert.\nOptimistic and a hard-worker.",
+        "desc": "A young girl from Coral Desert.\nOptimistic and a hard-worker.",
         "variant": "Female",
         "level": 1,
         "klass": "Sorceror",
@@ -5486,11 +5486,15 @@
         },
         "starting_items": [
             [
-                "Rescue",
+                "Trade",
                 false
             ],
             [
                 "Vulnerary",
+                false
+            ],
+            [
+                "ShinyGem",
                 false
             ]
         ],
@@ -5530,7 +5534,7 @@
     {
         "nid": "Ervan",
         "name": "Ervan",
-        "desc": "Former prince of Fuegsol.\nConsumed with bitterness and betrayal.",
+        "desc": "Former crown prince of Fuegsol.\nConsumed with bitterness and a betrayed heart.",
         "variant": "",
         "level": 1,
         "klass": "BowLord",
@@ -9882,7 +9886,12 @@
         "alternate_classes": [],
         "portrait_nid": "Solmaz",
         "affinity": "Anima",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "N-No{tgm}...!{tgm} I'll retreat for now.|Lord Milo needs to know about this."
+            ]
+        ]
     },
     {
         "nid": "Milo",
@@ -10099,6 +10108,7 @@
         "klass": "Archsage",
         "tags": [
             "Boss",
+            "Female",
             "Circ"
         ],
         "bases": {

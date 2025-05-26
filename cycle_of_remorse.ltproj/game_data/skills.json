@@ -1315,8 +1315,8 @@
         "desc": "",
         "icon_nid": "Skills",
         "icon_index": [
-            6,
-            53
+            7,
+            28
         ],
         "components": [
             [
@@ -1343,38 +1343,13 @@
         "desc": "",
         "icon_nid": "Skills",
         "icon_index": [
-            6,
-            53
+            7,
+            28
         ],
         "components": [
             [
-                "lifelink",
-                -1.0
-            ]
-        ]
-    },
-    {
-        "nid": "NegateDamage",
-        "name": "NegateDamage",
-        "desc": "",
-        "icon_nid": "Skills",
-        "icon_index": [
-            6,
-            16
-        ],
-        "components": [
-            [
-                "ignore_damage",
-                null
-            ],
-            [
-                "lost_on_end_combat2",
-                {
-                    "lost_on_self": true,
-                    "lost_on_ally": true,
-                    "lost_on_enemy": true,
-                    "lost_on_splash": true
-                }
+                "devil_axe_gba",
+                "Affect attacks done by unit"
             ]
         ]
     },
@@ -4096,6 +4071,30 @@
         ]
     },
     {
+        "nid": "FullForce",
+        "name": "Full Force",
+        "desc": "If unit's HP == 100%, grants Dmg +10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            52
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "condition",
+                "unit.get_hp() == unit.get_max_hp()"
+            ]
+        ]
+    },
+    {
         "nid": "DEBUG",
         "name": "DEBUG",
         "desc": "DEBUG",
@@ -4216,6 +4215,22 @@
             [
                 "avoid",
                 1000
+            ]
+        ]
+    },
+    {
+        "nid": "ProcTest",
+        "name": "ProcTest",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "ATTACK_SPEED"
             ]
         ]
     }
