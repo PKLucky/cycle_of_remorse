@@ -40337,6 +40337,38 @@
                 "generic": true
             },
             {
+                "nid": "MiloCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Assassin",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "ErvanCopy",
+                "variant": "Dead",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "201",
                 "variant": "Girl",
                 "level": 20,
@@ -41644,12 +41676,7 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "26",
@@ -41748,7 +41775,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 1,
-                "klass": "Bishop",
+                "klass": "Thief",
                 "faction": "Knight",
                 "starting_items": [
                     [
@@ -41762,7 +41789,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Thief",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41863,8 +41890,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    6
+                    14,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -42062,7 +42089,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    14,
                     5
                 ],
                 "starting_traveler": null,
@@ -42384,6 +42411,19 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ferrach",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             }

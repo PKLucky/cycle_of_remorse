@@ -1,0 +1,2924 @@
+[
+    {
+        "nid": "Tools",
+        "sub_nid": "Useful tools",
+        "credit_type": "List",
+        "category": "Resources",
+        "icon_index": [],
+        "contrib": [
+            [
+                "rainlash",
+                "Lex Talionis Game Engine"
+            ],
+            [
+                "Klokinator",
+                "Fire Emblem Graphics Repository"
+            ]
+        ]
+    },
+    {
+        "nid": "BattleAnim",
+        "sub_nid": "Battle Animations",
+        "credit_type": "List",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": []
+    },
+    {
+        "nid": "Miscellaneous",
+        "sub_nid": "Miscellaneous",
+        "credit_type": "List",
+        "category": "Miscellaneous",
+        "icon_index": [],
+        "contrib": [
+            [
+                "PKLucky",
+                "Story"
+            ],
+            [
+                "PKLucky, BerserkerSam",
+                "Map Design"
+            ],
+            [
+                "PKLucky, Berserker Sam, BladeofLight12",
+                "Support Conversations"
+            ],
+            [
+                "Berserker Sam",
+                "Testing"
+            ]
+        ]
+    },
+    {
+        "nid": "Felicity",
+        "sub_nid": "Felicity",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "PKLucky, TheBlindArcher",
+                "Felicity"
+            ]
+        ]
+    },
+    {
+        "nid": "Anna",
+        "sub_nid": "Anna",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "FireEmblemier",
+                "Anna"
+            ]
+        ]
+    },
+    {
+        "nid": "Jake",
+        "sub_nid": "Jake",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Epicer",
+                "Jake"
+            ]
+        ]
+    },
+    {
+        "nid": "Yumi",
+        "sub_nid": "Yumi",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "PKLucky, JeyTheCount",
+                "Yumi"
+            ]
+        ]
+    },
+    {
+        "nid": "Altena",
+        "sub_nid": "Altena",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Melia",
+                "Altena"
+            ]
+        ]
+    },
+    {
+        "nid": "Hu",
+        "sub_nid": "Hu",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Ghostblade",
+                "Hu"
+            ]
+        ]
+    },
+    {
+        "nid": "Watt",
+        "sub_nid": "Watt",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Epicer",
+                "Watt"
+            ]
+        ]
+    },
+    {
+        "nid": "Aidon",
+        "sub_nid": "Aidon",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Aidon"
+            ]
+        ]
+    },
+    {
+        "nid": "Noh",
+        "sub_nid": "Noh",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Imperial",
+                "Noh"
+            ]
+        ]
+    },
+    {
+        "nid": "Wye",
+        "sub_nid": "Wye",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "RedBean",
+                "Wye"
+            ]
+        ]
+    },
+    {
+        "nid": "Beekos",
+        "sub_nid": "Beekos",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Cygnus",
+                "Beekos"
+            ]
+        ]
+    },
+    {
+        "nid": "Tamaruh",
+        "sub_nid": "Tamaruh",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Tamaruh"
+            ]
+        ]
+    },
+    {
+        "nid": "Tuhdei",
+        "sub_nid": "Tuhdei",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Tuhdei"
+            ]
+        ]
+    },
+    {
+        "nid": "Gevadarn",
+        "sub_nid": "Gevadarn",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Cravat",
+                "Gevadarn"
+            ]
+        ]
+    },
+    {
+        "nid": "Nachurali",
+        "sub_nid": "Nachurali",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Nachurali"
+            ]
+        ]
+    },
+    {
+        "nid": "Beli",
+        "sub_nid": "Beli",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Sphealnuke",
+                "Beli"
+            ]
+        ]
+    },
+    {
+        "nid": "Iwo",
+        "sub_nid": "Iwo",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Iwo"
+            ]
+        ]
+    },
+    {
+        "nid": "Alfonso",
+        "sub_nid": "Alfonso",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "RandomWizard",
+                "Alfonso"
+            ]
+        ]
+    },
+    {
+        "nid": "Jorge",
+        "sub_nid": "Jorge",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "RandomWizard",
+                "Jorge"
+            ]
+        ]
+    },
+    {
+        "nid": "Irving",
+        "sub_nid": "Irving",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Irving"
+            ]
+        ]
+    },
+    {
+        "nid": "Adler",
+        "sub_nid": "Adler",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "HonokaSuzumiya",
+                "Adler"
+            ]
+        ]
+    },
+    {
+        "nid": "Lorelei",
+        "sub_nid": "Lorelei",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "HyperGammaSpaces",
+                "Lorelei"
+            ]
+        ]
+    },
+    {
+        "nid": "Zeke",
+        "sub_nid": "Zeke",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "RandomWizard",
+                "Zeke"
+            ]
+        ]
+    },
+    {
+        "nid": "Talbot",
+        "sub_nid": "Talbot",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Melia, RandomWizard",
+                "Talbot"
+            ]
+        ]
+    },
+    {
+        "nid": "Daphne",
+        "sub_nid": "Daphne",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Ghostblade",
+                "Daphne"
+            ]
+        ]
+    },
+    {
+        "nid": "Vernon",
+        "sub_nid": "Vernon",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Kanna",
+                "Vernon"
+            ]
+        ]
+    },
+    {
+        "nid": "Peony",
+        "sub_nid": "Peony",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MrGreen3339",
+                "Peony"
+            ]
+        ]
+    },
+    {
+        "nid": "Shinobu",
+        "sub_nid": "Shinobu",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Its Just Jay",
+                "Shinobu"
+            ]
+        ]
+    },
+    {
+        "nid": "Daigo",
+        "sub_nid": "Daigo",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Smokeyguy77",
+                "Daigo"
+            ]
+        ]
+    },
+    {
+        "nid": "Yuma",
+        "sub_nid": "Yuma",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Roxannity",
+                "Yuma"
+            ]
+        ]
+    },
+    {
+        "nid": "Akira",
+        "sub_nid": "Akira",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Sterling Glovner",
+                "Akira"
+            ]
+        ]
+    },
+    {
+        "nid": "Shigeo",
+        "sub_nid": "Shigeo",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "AmBrosiac",
+                "Shigeo"
+            ]
+        ]
+    },
+    {
+        "nid": "Saburo",
+        "sub_nid": "Saburo",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Wasdye, Nickt",
+                "Saburo"
+            ]
+        ]
+    },
+    {
+        "nid": "Hayato",
+        "sub_nid": "Hayato",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Cygnus",
+                "Hayato"
+            ]
+        ]
+    },
+    {
+        "nid": "Sven",
+        "sub_nid": "Sven",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "XVI",
+                "Sven"
+            ]
+        ]
+    },
+    {
+        "nid": "Solmaz",
+        "sub_nid": "Solmaz",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "GabrielKnight",
+                "Solmaz"
+            ]
+        ]
+    },
+    {
+        "nid": "BanditFemale1",
+        "sub_nid": "BanditFemale1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Cygnus",
+                "Female Pirate 1"
+            ]
+        ]
+    },
+    {
+        "nid": "BanditFemale2",
+        "sub_nid": "BanditFemale2",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MaxTUS",
+                "Female Pirate 2"
+            ]
+        ]
+    },
+    {
+        "nid": "BanditFemale3",
+        "sub_nid": "BanditFemale3",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Cygnus",
+                "Female Bandit"
+            ]
+        ]
+    },
+    {
+        "nid": "BuffBarmaid",
+        "sub_nid": "BuffBarmaid",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Buff Barmaid"
+            ]
+        ]
+    },
+    {
+        "nid": "Barmaid",
+        "sub_nid": "Barmaid",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Armory",
+                "Barmaid"
+            ]
+        ]
+    },
+    {
+        "nid": "Dragon",
+        "sub_nid": "Dragon",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Dragon"
+            ]
+        ]
+    },
+    {
+        "nid": "GuildGirl",
+        "sub_nid": "GuildGirl",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MrGreen3339",
+                "Guild Girl"
+            ]
+        ]
+    },
+    {
+        "nid": "Maid1",
+        "sub_nid": "Maid1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Ghostblade",
+                "Maid 1"
+            ]
+        ]
+    },
+    {
+        "nid": "Maid2",
+        "sub_nid": "Maid2",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "JeyTheCount, Wasdye",
+                "Maid 2"
+            ]
+        ]
+    },
+    {
+        "nid": "Priest",
+        "sub_nid": "Priest1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Eden",
+                "Priest"
+            ]
+        ]
+    },
+    {
+        "nid": "SoldierFemale1",
+        "sub_nid": "SoldierGreenFemale",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Kyrads",
+                "Female Soldier 1"
+            ]
+        ]
+    },
+    {
+        "nid": "SoldierFemale2",
+        "sub_nid": "SoldierPurpleFemale1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Alice, Zarg",
+                "Female Soldier 2"
+            ]
+        ]
+    },
+    {
+        "nid": "Pirate",
+        "sub_nid": "Pirate1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "AmBrosiac",
+                "Pirate"
+            ]
+        ]
+    },
+    {
+        "nid": "Celik",
+        "sub_nid": "Celik",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "XVI",
+                "Celik"
+            ]
+        ]
+    },
+    {
+        "nid": "Silvia",
+        "sub_nid": "Silvia",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "RandomWizard",
+                "Silvia"
+            ]
+        ]
+    },
+    {
+        "nid": "Demir",
+        "sub_nid": "Demir",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Kanna",
+                "Demir"
+            ]
+        ]
+    },
+    {
+        "nid": "OtherPortraits",
+        "sub_nid": "Portraits (Other)",
+        "credit_type": "Text",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                null,
+                "All other portraits by PKLucky and Intelligent Systems"
+            ]
+        ]
+    },
+    {
+        "nid": "Meteor",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            10
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Meteor"
+            ]
+        ]
+    },
+    {
+        "nid": "Elthunder",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            7
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Elthunder"
+            ]
+        ]
+    },
+    {
+        "nid": "Blarblade",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            9
+        ],
+        "contrib": [
+            [
+                "PKLucky",
+                "Blarblade"
+            ]
+        ]
+    },
+    {
+        "nid": "Wind",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            6
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Wind"
+            ]
+        ]
+    },
+    {
+        "nid": "Elwind",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            8
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Elwind"
+            ]
+        ]
+    },
+    {
+        "nid": "Glacier",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Glacier"
+            ]
+        ]
+    },
+    {
+        "nid": "Elglacier",
+        "sub_nid": "Anima",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            12
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Elglacier"
+            ]
+        ]
+    },
+    {
+        "nid": "ShortAxe",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            23
+        ],
+        "contrib": [
+            [
+                "Topazlight",
+                "Short Axe"
+            ]
+        ]
+    },
+    {
+        "nid": "Swordbuster",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            17
+        ],
+        "contrib": [
+            [
+                "CamTech075",
+                "Swordbuster"
+            ]
+        ]
+    },
+    {
+        "nid": "Fish",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            22
+        ],
+        "contrib": [
+            [
+                "Mike",
+                "Fish"
+            ]
+        ]
+    },
+    {
+        "nid": "IronPoleax",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            16
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Iron Poleax"
+            ]
+        ]
+    },
+    {
+        "nid": "SteelPoleax",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            20
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Steel Poleax"
+            ]
+        ]
+    },
+    {
+        "nid": "SilverPoleax",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            21
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Silver Poleax"
+            ]
+        ]
+    },
+    {
+        "nid": "HolyAxe",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            18
+        ],
+        "contrib": [
+            [
+                "Jeorge Reds",
+                "Holy Axe"
+            ]
+        ]
+    },
+    {
+        "nid": "WyrmfangAxe",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            19
+        ],
+        "contrib": [
+            [
+                "Zane",
+                "Wyrmfang Axe"
+            ]
+        ]
+    },
+    {
+        "nid": "SteelLongbow",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            15
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Steel Longbow"
+            ]
+        ]
+    },
+    {
+        "nid": "SilverLongbow",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            16
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Silver Longbow"
+            ]
+        ]
+    },
+    {
+        "nid": "CleaveBow",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            12
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Cleave Bow"
+            ]
+        ]
+    },
+    {
+        "nid": "BroadheadBow",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            13
+        ],
+        "contrib": [
+            [
+                "Celice",
+                "Broadhead Bow"
+            ]
+        ]
+    },
+    {
+        "nid": "DevilBow",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            17
+        ],
+        "contrib": [
+            [
+                "2WB",
+                "Devil Bow"
+            ]
+        ]
+    },
+    {
+        "nid": "CircsSpine",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "Zarg",
+                "Circ's Spine"
+            ]
+        ]
+    },
+    {
+        "nid": "Miasma",
+        "sub_nid": "Dark",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            9
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "Miasma"
+            ]
+        ]
+    },
+    {
+        "nid": "Gibbous",
+        "sub_nid": "Dark",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            7
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Gibbous"
+            ]
+        ]
+    },
+    {
+        "nid": "Alter",
+        "sub_nid": "Dark",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            10
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Alter"
+            ]
+        ]
+    },
+    {
+        "nid": "Distort",
+        "sub_nid": "Dark",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Distort"
+            ]
+        ]
+    },
+    {
+        "nid": "Axebuster",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "Zelix",
+                "Axebuster"
+            ]
+        ]
+    },
+    {
+        "nid": "IronGreatlance",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            13
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Iron Greatlance"
+            ]
+        ]
+    },
+    {
+        "nid": "SteelGreatlance",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            14
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Steel Greatlance"
+            ]
+        ]
+    },
+    {
+        "nid": "SilverGreatlance",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            20
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Silver Greatlance"
+            ]
+        ]
+    },
+    {
+        "nid": "DevilLance",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            21
+        ],
+        "contrib": [
+            [
+                "2WB",
+                "Devil Lance"
+            ]
+        ]
+    },
+    {
+        "nid": "FuegsBeak",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            17
+        ],
+        "contrib": [
+            [
+                "LordGlenn",
+                "Fueg's Beak"
+            ]
+        ]
+    },
+    {
+        "nid": "Naginata",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            18
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Naginata"
+            ]
+        ]
+    },
+    {
+        "nid": "GaeBolg",
+        "sub_nid": "Lance",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            19
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Gae Bolg"
+            ]
+        ]
+    },
+    {
+        "nid": "Shimmer",
+        "sub_nid": "Light",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            6
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Shimmer"
+            ]
+        ]
+    },
+    {
+        "nid": "Flare",
+        "sub_nid": "Light",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            7
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Flare"
+            ]
+        ]
+    },
+    {
+        "nid": "Gleam",
+        "sub_nid": "Light",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            8
+        ],
+        "contrib": [
+            [
+                "WhydidImakethisaccount",
+                "Gleam"
+            ]
+        ]
+    },
+    {
+        "nid": "Soothe",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            16
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Soothe"
+            ]
+        ]
+    },
+    {
+        "nid": "Assault",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            21
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Assault"
+            ]
+        ]
+    },
+    {
+        "nid": "Stun",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            18
+        ],
+        "contrib": [
+            [
+                "Peerless",
+                "Stun"
+            ]
+        ]
+    },
+    {
+        "nid": "Trade",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            23
+        ],
+        "contrib": [
+            [
+                "Zarg",
+                "Trade"
+            ]
+        ]
+    },
+    {
+        "nid": "Charm",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            17
+        ],
+        "contrib": [
+            [
+                "Zane",
+                "Charm"
+            ]
+        ]
+    },
+    {
+        "nid": "FoliasHorn",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            20
+        ],
+        "contrib": [
+            [
+                "AtelierLabs",
+                "Folia's Horn"
+            ]
+        ]
+    },
+    {
+        "nid": "Amaterasu",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            22
+        ],
+        "contrib": [
+            [
+                null,
+                "Amaterasu"
+            ]
+        ]
+    },
+    {
+        "nid": "Lancebuster",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            18
+        ],
+        "contrib": [
+            [
+                null,
+                "Lancebuster"
+            ]
+        ]
+    },
+    {
+        "nid": "Flamberge",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            21
+        ],
+        "contrib": [
+            [
+                "Zelix",
+                "Flamberge"
+            ]
+        ]
+    },
+    {
+        "nid": "DevilSword",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            30
+        ],
+        "contrib": [
+            [
+                "2WB",
+                "Devil Sword"
+            ]
+        ]
+    },
+    {
+        "nid": "RoyalSword",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            22
+        ],
+        "contrib": [
+            [
+                "Zane",
+                "Royal Sword"
+            ]
+        ]
+    },
+    {
+        "nid": "Kodachi",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            27
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Kodachi"
+            ]
+        ]
+    },
+    {
+        "nid": "PapasBlade",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            23
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Papa's Blade"
+            ]
+        ]
+    },
+    {
+        "nid": "HiddenKnife",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            29
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Hidden Knife"
+            ]
+        ]
+    },
+    {
+        "nid": "AssassinEdge",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            24
+        ],
+        "contrib": [
+            [
+                "Jubby",
+                "Assassin Edge"
+            ]
+        ]
+    },
+    {
+        "nid": "Susanoo",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            25
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Susano'o"
+            ]
+        ]
+    },
+    {
+        "nid": "MedeasTooth",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            19
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Medea's Tooth"
+            ]
+        ]
+    },
+    {
+        "nid": "SpysDagger",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            26
+        ],
+        "contrib": [
+            [
+                "SacredStones",
+                "Spy's Dagger"
+            ]
+        ]
+    },
+    {
+        "nid": "new",
+        "sub_nid": "Sword",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            28
+        ],
+        "contrib": [
+            [
+                null,
+                "Sword"
+            ]
+        ]
+    },
+    {
+        "nid": "MasterCrown",
+        "sub_nid": "Boosters",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            9
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Master Crown"
+            ]
+        ]
+    },
+    {
+        "nid": "MerinsShell",
+        "sub_nid": "Boosters",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "Zarg",
+                "Merin's Shell"
+            ]
+        ]
+    },
+    {
+        "nid": "PassRing",
+        "sub_nid": "Boosters",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            15
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "Pass Ring"
+            ]
+        ]
+    },
+    {
+        "nid": "RangeRing",
+        "sub_nid": "Boosters",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            10
+        ],
+        "contrib": [
+            [
+                "Beansy",
+                "Range Ring"
+            ]
+        ]
+    },
+    {
+        "nid": "Thunderbolt",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            14
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Thunderbolt"
+            ]
+        ]
+    },
+    {
+        "nid": "RepairKit",
+        "sub_nid": "Consumable",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            12
+        ],
+        "contrib": [
+            [
+                "SMITHYGCN",
+                "Repair Kit"
+            ]
+        ]
+    },
+    {
+        "nid": "WornBook",
+        "sub_nid": "Consumable",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            14
+        ],
+        "contrib": [
+            [
+                "Lisandra Brave",
+                "Worn Book"
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Lord",
+        "sub_nid": "Lord",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "WiiSportsRemote",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_GreatLord",
+        "sub_nid": "GreatLord",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Teraspark",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_BowLord",
+        "sub_nid": "BowLord",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "ArcherBias",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_DancerMale",
+        "sub_nid": "Dancer",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_BardFemale",
+        "sub_nid": "BardFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Epicer",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Trickster",
+        "sub_nid": "Trickster",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "StreetHero, blood",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_TricksterFemale",
+        "sub_nid": "TricksterFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "StreetHero, Sable Mage",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_MercenaryFemale",
+        "sub_nid": "MercenaryFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Flasuban",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_DreadFighterFemale",
+        "sub_nid": "DreadFighterFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Pikmin1211",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Trueblade",
+        "sub_nid": "Trueblade",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_RogueFemale",
+        "sub_nid": "RogueFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_AssassinFemale",
+        "sub_nid": "AssassinFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Ninja",
+        "sub_nid": "Ninja",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "DerTheVaporeon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_NinjaFemale",
+        "sub_nid": "NinjaFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Pushwall",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_SoldierFemale",
+        "sub_nid": "SoldierFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Rexacuse, Peerless, Alusq, WarPath",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Pikeman",
+        "sub_nid": "Pikeman",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Alusq",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Lancer",
+        "sub_nid": "Lancer",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Team SALVAGED",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_LancerFemale",
+        "sub_nid": "LancerFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Team SALVAGED",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Halberdier",
+        "sub_nid": "Halberdier",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "TheBlindArcher",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_HalberdierFemale",
+        "sub_nid": "HalberdierFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "blood, Dei, dondon151",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Sentinel",
+        "sub_nid": "Sentinel",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_KnightSword",
+        "sub_nid": "KnightSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Agro",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_KnightAxe",
+        "sub_nid": "KnightAxe",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Agro",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Marshall",
+        "sub_nid": "Marshall",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Nuramon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_CavSword",
+        "sub_nid": "CavalierSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Agro",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_CavAxe",
+        "sub_nid": "CavalierTaylor",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Siuloir",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_CavFemale",
+        "sub_nid": "CavalierFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Tordo45",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_CamelRider",
+        "sub_nid": "CamelRider",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Orihara_Saki",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_PegKnight",
+        "sub_nid": "PegasusKnight",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Flasuban",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_PegKnightAxe",
+        "sub_nid": "PegasusKnightChell",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Flasuban",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_SkyKnight",
+        "sub_nid": "SkyKnight",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "CamusZekSirius, Flasuban",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_GriffonRider",
+        "sub_nid": "GriffonRider",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Blue Druid",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_GriffonKnight",
+        "sub_nid": "GriffonKnight",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "N426",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Arbalest",
+        "sub_nid": "Arbalest",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "N426",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_PirateFemale",
+        "sub_nid": "PirateFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "StreetHero",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_FighterFemale",
+        "sub_nid": "FighterFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Alusq",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_WarriorFemale",
+        "sub_nid": "WarriorFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Pushwall, FEGirls",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_BrigandFemale",
+        "sub_nid": "BrigandFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Skitty",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_BerserkerFemale",
+        "sub_nid": "BerserkerFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_ReaverFemale",
+        "sub_nid": "ReaverFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Pikmin1211, DerTheVaporeon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Vanguard",
+        "sub_nid": "Vanguard",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Rasdel",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Templar",
+        "sub_nid": "Templar",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_TemplarSword",
+        "sub_nid": "TemplarSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95, WarPath",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_MageHatless",
+        "sub_nid": "MageTrevor",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Pikmin1211",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_BattleSage",
+        "sub_nid": "BattleSage",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Archsage",
+        "sub_nid": "Archsage",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_ArchsageFemale",
+        "sub_nid": "ArchsageFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Spellsword",
+        "sub_nid": "Spellsword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "TyTheBub",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_MonkFemale",
+        "sub_nid": "MonkFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Teraspark",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Saint",
+        "sub_nid": "Saint",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_SaintFemale",
+        "sub_nid": "SaintFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Sorcerer",
+        "sub_nid": "Sorceror",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Ash3wl, L95",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_SorcererFemale",
+        "sub_nid": "SorcerorFemale",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Cygnus, Hanakko",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Maid",
+        "sub_nid": "Maid",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Batima",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_WarCleric",
+        "sub_nid": "WarCleric",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "DerTheVaporeon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Merchant",
+        "sub_nid": "Merchant",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "N426",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_MerchantTsurugi",
+        "sub_nid": "MerchantTsurugi",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "N426",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_ArmsMaster",
+        "sub_nid": "ArmsMaster",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Team SALVAGED, blood",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Avian",
+        "sub_nid": "Avian",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Unknown",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Catapulter",
+        "sub_nid": "Catapulter",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Flasuban, DerTheVaporeon",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_Crate",
+        "sub_nid": "Crate",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Primefusion",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ArbalestLance",
+        "sub_nid": "Arbalest (F) Lance {EldritchAbomination, Jj09}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "EldritchAbomination, Jj09",
+                "Arbalest (F) Lance"
+            ]
+        ]
+    },
+    {
+        "nid": "ArbalestSword",
+        "sub_nid": "Arbalest (F) Sword {EldritchAbomination, Jj09}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "EldritchAbomination, Jj09",
+                "Arbalest (F) Sword"
+            ]
+        ]
+    },
+    {
+        "nid": "ArbalestBow",
+        "sub_nid": "Arbalest (F) Bow {EldritchAbomination, N426, Jj09}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "EldritchAbomination, N426, Jj09",
+                "Arbalest (F) Bow"
+            ]
+        ]
+    },
+    {
+        "nid": "Crates_Card",
+        "sub_nid": "Crates (U) {Primefusion}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Primefusion",
+                "Crates"
+            ]
+        ]
+    },
+    {
+        "nid": "Bard_Card",
+        "sub_nid": "Fancy Bard (M) +Lyre {MeatOfJustice}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MeatOfJustice",
+                "Bard"
+            ]
+        ]
+    },
+    {
+        "nid": "Halberdier_Card",
+        "sub_nid": "Halberdier (M) Dragoon Lance {Uncredited}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Uncredited",
+                "Halberdier"
+            ]
+        ]
+    },
+    {
+        "nid": "Sorcerer_Card",
+        "sub_nid": "Tactician (M) Staff {Aruka, Yggdra, Pushwall}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Aruka, Yggdra, Pushwall",
+                "Sorcerer"
+            ]
+        ]
+    },
+    {
+        "nid": "Ninja_Card",
+        "sub_nid": "Ninja {Der}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Der",
+                "Ninja"
+            ]
+        ]
+    },
+    {
+        "nid": "CamelRider_Card",
+        "sub_nid": "Camel Rider (M) Lance {Orihara Saki}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Orihara Saki",
+                "Camel Rider"
+            ]
+        ]
+    },
+    {
+        "nid": "Pikeman_Card",
+        "sub_nid": "Militia (M) Deserter Lance {Rasdel}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Rasdel",
+                "Pikeman"
+            ]
+        ]
+    },
+    {
+        "nid": "DesertTown_BG",
+        "sub_nid": "DesertTown",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Tear Ring Saga",
+                "Desert Town"
+            ]
+        ]
+    },
+    {
+        "nid": "Music",
+        "sub_nid": "Music",
+        "credit_type": "List",
+        "category": "Audio",
+        "icon_index": [],
+        "contrib": [
+            [
+                "FE: Genealogy of the Holy War",
+                "Verdane Army"
+            ],
+            [
+                "FE: Thracia 776",
+                "FE5 Arena Battle"
+            ],
+            [
+                "FE: The Sacred Stones",
+                "Distant Roads, Game Over"
+            ],
+            [
+                "FE: Fates",
+                "Alight, Far Dawn, Past Light"
+            ],
+            [
+                "Magical Starsign",
+                "Pirate Otter Battle, Pirate Otter Hideout"
+            ],
+            [
+                "Paper Mario (N64)",
+                "Master Battle, Moustafa"
+            ],
+            [
+                "Phoenix Wright: Ace Attorney",
+                "The Steel Samurai"
+            ],
+            [
+                "Phoenix Wright: Ace Attorney - Dual Destinies",
+                "Commence the Psychological Analysis"
+            ],
+            [
+                "Pokemon Conquest",
+                "Bug Battle, Event Theme 4, Fighting Battle, Normal Battle, Poison Battle, Water Battle"
+            ],
+            [
+                "Pokemon Mystery Dungeon: Explorers of the Sky",
+                "Guildmaster Wigglytuff"
+            ],
+            [
+                "Pokemon Ruby/Sapphire/Emerald",
+                "Route 111"
+            ],
+            [
+                "Super Smash Bros. Melee",
+                "Together We Ride"
+            ],
+            [
+                "Viewtiful Joe: Red Hot Rumble",
+                "Big Bad Burnin' Buddha"
+            ],
+            [
+                "FE: The Blazing Blade",
+                "(Way too many to list. Check Credits.txt)"
+            ],
+            [
+                "Maoudamashii",
+                "Castle 03, Ethnic 08, Ethnic 15, Fantasy 08, Fantasy 09"
+            ]
+        ]
+    }
+]
