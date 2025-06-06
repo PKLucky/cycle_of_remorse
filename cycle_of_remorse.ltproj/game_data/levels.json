@@ -36332,7 +36332,7 @@
                 "generic": true
             },
             {
-                "nid": "Sven",
+                "nid": "Alim",
                 "team": "enemy",
                 "ai": "Sven",
                 "roam_ai": null,
@@ -38513,13 +38513,9 @@
                 "units": [
                     "Krista",
                     "Khalid",
-                    "Sven"
+                    "Alim"
                 ],
                 "positions": {
-                    "Sven": [
-                        10,
-                        9
-                    ],
                     "Krista": [
                         10,
                         10
@@ -38527,6 +38523,10 @@
                     "Khalid": [
                         11,
                         10
+                    ],
+                    "Alim": [
+                        10,
+                        9
                     ]
                 }
             },

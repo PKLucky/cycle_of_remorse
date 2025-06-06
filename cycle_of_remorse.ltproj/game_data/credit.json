@@ -594,8 +594,8 @@
         ]
     },
     {
-        "nid": "Sven",
-        "sub_nid": "Sven",
+        "nid": "Alim",
+        "sub_nid": "Alim",
         "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
@@ -604,8 +604,8 @@
         ],
         "contrib": [
             [
-                "XVI",
-                "Sven"
+                "Levin64",
+                "Alim"
             ]
         ]
     },
@@ -622,6 +622,38 @@
             [
                 "GabrielKnight",
                 "Solmaz"
+            ]
+        ]
+    },
+    {
+        "nid": "Jamal",
+        "sub_nid": "Jamal",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MeatOfJustice",
+                "Jamal"
+            ]
+        ]
+    },
+    {
+        "nid": "Sven",
+        "sub_nid": "Sven",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "XVI",
+                "Sven"
             ]
         ]
     },
@@ -1759,7 +1791,7 @@
         ]
     },
     {
-        "nid": "new",
+        "nid": "TrainingSword",
         "sub_nid": "Sword",
         "credit_type": 1,
         "category": "Graphics",
@@ -1770,7 +1802,7 @@
         "contrib": [
             [
                 null,
-                "Sword"
+                "Training Sword"
             ]
         ]
     },

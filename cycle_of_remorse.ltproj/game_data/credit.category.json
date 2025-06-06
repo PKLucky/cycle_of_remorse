@@ -3,6 +3,7 @@
     "Aidon": "Portraits/Player Character",
     "Akira": "Portraits/Bosses",
     "Alfonso": "Portraits/Bosses",
+    "Alim": "Portraits/Bosses",
     "Altena": "Portraits/Player Character",
     "Alter": "Item Icons/Dark",
     "Amaterasu": "Item Icons/Staff",
@@ -62,6 +63,7 @@
     "Irving": "Portraits/Bosses",
     "Iwo": "Portraits/Bosses",
     "Jake": "Portraits/Player Character",
+    "Jamal": "Portraits/Bosses",
     "Jorge": "Portraits/Bosses",
     "Kodachi": "Item Icons/Sword",
     "Lancebuster": "Item Icons/Sword",
@@ -174,6 +176,7 @@
     "Tamaruh": "Portraits/Player Character",
     "Thunderbolt": "Item Icons",
     "Trade": "Item Icons/Staff",
+    "TrainingSword": "Item Icons/Sword",
     "Tuhdei": "Portraits/Player Character",
     "Vernon": "Portraits/Bosses",
     "Watt": "Portraits/Player Character",
@@ -183,6 +186,5 @@
     "WyrmfangAxe": "Item Icons/Axe",
     "Yuma": "Portraits/Bosses",
     "Yumi": "Portraits/Player Character",
-    "Zeke": "Portraits/Bosses",
-    "new": "Item Icons/Sword"
+    "Zeke": "Portraits/Bosses"
 }
