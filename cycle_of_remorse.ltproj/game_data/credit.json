@@ -2885,6 +2885,19 @@
         ]
     },
     {
+        "nid": "StatusScreen",
+        "sub_nid": "info_menu_background",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "SaXor",
+                "Info Menu"
+            ]
+        ]
+    },
+    {
         "nid": "Music",
         "sub_nid": "Music",
         "credit_type": "List",
@@ -2950,6 +2963,55 @@
             [
                 "Maoudamashii",
                 "Castle 03, Ethnic 08, Ethnic 15, Fantasy 08, Fantasy 09"
+            ],
+            [
+                "Noru",
+                "Kagaribi no Oyado"
+            ],
+            [
+                "Peritune",
+                "Market, MoonForest, Ohayashi, Otogi3, Raid Ethnic, RetroRoman Koharu, Sakuya3, Shizima4, Windmill Village, Wish4"
+            ],
+            [
+                "presence of music",
+                "Spring City"
+            ],
+            [
+                "shimtone",
+                "Sand Town"
+            ],
+            [
+                "TAKAO Masaki",
+                "Dazed Desert Walk"
+            ],
+            [
+                "PKLucky, Pedro Silva",
+                "For Your Own Good, Was This Love"
+            ],
+            [
+                "PKLucky, The King of Fighters",
+                "Midosuji"
+            ],
+            [
+                "PKLucky",
+                "Lullabye of a Loyal Knight"
+            ]
+        ]
+    },
+    {
+        "nid": "SFX",
+        "sub_nid": "Sound Effects",
+        "credit_type": "List",
+        "category": "Audio",
+        "icon_index": [],
+        "contrib": [
+            [
+                "On-Jin",
+                "crowd02"
+            ],
+            [
+                "Maoudamashii",
+                "magicwater06"
             ]
         ]
     }
