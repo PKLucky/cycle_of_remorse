@@ -22,7 +22,321 @@
         "credit_type": "List",
         "category": "Graphics",
         "icon_index": [],
-        "contrib": []
+        "contrib": [
+            [
+                "GabrielKnight",
+                "Angel"
+            ],
+            [
+                "EldritchAbomination, Raspberry, Ayr",
+                "Arbalest"
+            ],
+            [
+                "Keks_Krebs, Beccarte, SD9K",
+                "Assassin (Female)"
+            ],
+            [
+                "SD9K, Peerless, MeatOfJustice",
+                "Assassin (Male, Hoodless, Bow)"
+            ],
+            [
+                "Keks_Krebs, The_Big_Dededester",
+                "Assassin (Male, Hoodless, Sword)"
+            ],
+            [
+                "Keks_Krebs",
+                "Assassin (Male, Hoodless, Unarmed)"
+            ],
+            [
+                "Spud, Ren_Ookami, St jack",
+                "Ballista (Catapult)"
+            ],
+            [
+                "GabrielKnight, knabepicer",
+                "Bard (Female)"
+            ],
+            [
+                "Black Mage, Temp, Wan",
+                "Bard (Male, Magic)"
+            ],
+            [
+                "St jack, The_Big_Dededester, Dolkar",
+                "Battle Sage"
+            ],
+            [
+                "Maiser6",
+                "Berserker (Sword)"
+            ],
+            [
+                "Pikmin1211, Maiser6",
+                "Berserker (Hawkzerker Female)"
+            ],
+            [
+                "Orihara Saki, ltranc",
+                "Berserker (Hawkzerker No Ponytail)"
+            ],
+            [
+                "eCut",
+                "Brigand (Female)"
+            ],
+            [
+                "Orihara Saki",
+                "Camel Rider"
+            ],
+            [
+                "RiriK",
+                "Cath Custom (Generic)"
+            ],
+            [
+                "Skitty",
+                "Cavalier (Male, Axe, Handaxe)"
+            ],
+            [
+                "Eldritch Abomination, Flasuban",
+                "Cleric"
+            ],
+            [
+                "BatimaTheBat, 7743",
+                "Cleric (FE12 Style)"
+            ],
+            [
+                "L95",
+                "Dancer (Male)"
+            ],
+            [
+                "Nuramon",
+                "Dragoon Rider"
+            ],
+            [
+                "Flasuban",
+                "Falcoknight"
+            ],
+            [
+                "Black Mage",
+                "Fighter (Female)"
+            ],
+            [
+                "Ayr",
+                "Griffon Knight (Staff of Ages)"
+            ],
+            [
+                "EldritchAbomination, Raspberry, Ayr",
+                "Griffon Rider"
+            ],
+            [
+                "Black Mage",
+                "Halberdier (Female)"
+            ],
+            [
+                "TheBlindArcher",
+                "Halberdier (Male)"
+            ],
+            [
+                "Nuramon",
+                "Harbinger"
+            ],
+            [
+                "WarPath, Red Bean",
+                "Hero (Echidna-variant)"
+            ],
+            [
+                "St jack",
+                "Hero (Female)"
+            ],
+            [
+                "MrNight48",
+                "High Magus"
+            ],
+            [
+                "Waleed",
+                "Journeyman (Sword)"
+            ],
+            [
+                "Nuramon",
+                "Knight (FE10 Style)"
+            ],
+            [
+                "TheBlindArcher",
+                "Knight (Sword, Axe, Handaxe)"
+            ],
+            [
+                "Team SALVAGED",
+                "Lancer"
+            ],
+            [
+                "DerTheVaporeon, Pikmin1211",
+                "Lord (Ephraim (F) Bow)"
+            ],
+            [
+                "UltraFenix",
+                "Master Lord"
+            ],
+            [
+                "MrNight48",
+                "Matriarch"
+            ],
+            [
+                "L95",
+                "Mage Dragon"
+            ],
+            [
+                "GabrielKnight",
+                "Mage (Male, Hatless)"
+            ],
+            [
+                "Aruka, Kenpuhu",
+                "Mage Knight (Female, Rapid Slash Crit)"
+            ],
+            [
+                "Teraspark",
+                "Mage Knight (Male, Lance)"
+            ],
+            [
+                "???",
+                "Mage Knight (Male, Magic)"
+            ],
+            [
+                "Aruka, Kenpuhu",
+                "Mage Knight (Male, Sword)"
+            ],
+            [
+                "Nuramon",
+                "Marshall"
+            ],
+            [
+                "TheBlindArcher",
+                "Mercenary (Female)"
+            ],
+            [
+                "Alusq",
+                "Militia"
+            ],
+            [
+                "Eldritch Abomination",
+                "Monk (Female)"
+            ],
+            [
+                "Pikmin1211, DerTheVaporeon",
+                "Ninja"
+            ],
+            [
+                "Tordo45",
+                "Paladin (Female)"
+            ],
+            [
+                "MrNight48",
+                "Patriarch"
+            ],
+            [
+                "Flasuban",
+                "Pegasus Knight"
+            ],
+            [
+                "WiiSportsRemote",
+                "Pirate (Female)"
+            ],
+            [
+                "JeyTheCount",
+                "Sky Knight"
+            ],
+            [
+                "JonoTheRed, ZoramineFae",
+                "Supplier (Male)"
+            ],
+            [
+                "knabepicer, Spud",
+                "Transporter (Sword)"
+            ],
+            [
+                "Aruka",
+                "Trickster (Female)"
+            ],
+            [
+                "Leo_Link",
+                "Trickster (Male)"
+            ],
+            [
+                "Redbean",
+                "Trueblade (Female)"
+            ],
+            [
+                "Dinar87",
+                "Trueblade (Male)"
+            ],
+            [
+                "Kyrads",
+                "Vagabond"
+            ],
+            [
+                "7743",
+                "War Cleric"
+            ],
+            [
+                "Temp, Pushwall",
+                "Warrior (Female)"
+            ],
+            [
+                "FEGirls",
+                "Warrior (Female, Thin)"
+            ],
+            [
+                "Leo_Link, Nuramon, Spud, JeyTheCount",
+                "Warrior (Tellius)"
+            ],
+            [
+                "RRSKAI",
+                "Wyvern Lord Reskin"
+            ],
+            [
+                "RiriK",
+                "Wyvern Lord (Helmetless Female)"
+            ]
+        ]
+    },
+    {
+        "nid": "SpellAnim",
+        "sub_nid": "Spell Animations",
+        "credit_type": "List",
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Thunder_Mage",
+                "Black Lightning"
+            ],
+            [
+                "Orihara Saki",
+                "Blarblade"
+            ],
+            [
+                "SHYUTERz",
+                "Dark Sigil"
+            ],
+            [
+                "Struedelmuffin, Alusq, 7743",
+                "Frostbite (Lite)"
+            ],
+            [
+                "St jack, Aegius",
+                "Galick Gun"
+            ],
+            [
+                "St jack, FF5",
+                "Giga Flare"
+            ],
+            [
+                "Mikey_Seregon",
+                "Ice Horn"
+            ],
+            [
+                "Beansy",
+                "Smite"
+            ],
+            [
+                "Scraiza",
+                "Vertical Light Blast"
+            ]
+        ]
     },
     {
         "nid": "Miscellaneous",

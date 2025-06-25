@@ -498,7 +498,7 @@
             24
         ],
         "smiling_offset": [
-            16,
+            24,
             40
         ],
         "info_offset": 0
@@ -1374,7 +1374,7 @@
             24
         ],
         "smiling_offset": [
-            16,
+            24,
             40
         ],
         "info_offset": 0
@@ -1760,6 +1760,18 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "MasashiShirtless",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
         ],
         "info_offset": 0
     },

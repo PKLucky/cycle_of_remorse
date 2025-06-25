@@ -36334,7 +36334,7 @@
             {
                 "nid": "Alim",
                 "team": "enemy",
-                "ai": "Sven",
+                "ai": "Alim",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -36726,6 +36726,30 @@
                 "starting_position": [
                     7,
                     20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "216",
+                "variant": null,
+                "level": 6,
+                "klass": "WyvernKnight",
+                "faction": "Fuegsol",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -40308,13 +40332,13 @@
                 "generic": false
             },
             {
-                "nid": "Milo",
+                "nid": "Jamal",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
+                    26,
                     3
                 ],
                 "starting_traveler": null,
@@ -40348,7 +40372,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    27,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -41926,8 +41953,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    7
+                    2,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false

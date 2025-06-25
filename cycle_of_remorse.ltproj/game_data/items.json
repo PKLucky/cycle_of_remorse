@@ -13601,9 +13601,9 @@
         ]
     },
     {
-        "nid": "MerinasPoison",
+        "nid": "PoisonVial",
         "name": "Poison Vial",
-        "desc": "Temporarily allows all unit's weapons to inflict <red>Poisoned</>.",
+        "desc": "Inflicts target and target's adjacent allies with <red>Poisoned</>.\n(Range = 2 thru Skl/2)",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -13623,12 +13623,8 @@
                 1200
             ],
             [
-                "target_ally",
-                null
-            ],
-            [
                 "uses",
-                3
+                1
             ],
             [
                 "uses_options",
@@ -13638,20 +13634,40 @@
                 }
             ],
             [
-                "eval_target_restrict_2",
-                "unit.klass not in ['Cleric','Dancer','Troubadour']"
-            ],
-            [
                 "status_on_hit",
-                "PoisonStrike"
-            ],
-            [
-                "map_cast_pose",
-                null
+                "Poisoned"
             ],
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                1
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_equation_range",
+                "CRIT_HIT"
+            ],
+            [
+                "hover_description",
+                "Inflicts target and target's adjacent allies with <red>Poisoned</>."
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    53,
+                    255,
+                    30
+                ]
             ]
         ]
     },
@@ -14975,7 +14991,7 @@
     {
         "nid": "MasterCrown",
         "name": "Master Crown",
-        "desc": "Promotes most second tier classes.\n(Excludes Krista, Felicity, Xiang, and Tsurugi).",
+        "desc": "Promotes most second tier classes.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -15272,6 +15288,10 @@
             [
                 "status_on_hold",
                 "SilverCard"
+            ],
+            [
+                "undiscardable",
+                null
             ]
         ]
     },
@@ -16136,22 +16156,6 @@
             [
                 "map_cast_anim",
                 "MapSmallHealTrans"
-            ]
-        ]
-    },
-    {
-        "nid": "PoisonWeapon",
-        "name": "PoisonWeapon",
-        "desc": "For Poison Strike skill. Gives weapons the ability to poison",
-        "icon_nid": "Skills",
-        "icon_index": [
-            0,
-            53
-        ],
-        "components": [
-            [
-                "status_on_hit",
-                "Poisoned"
             ]
         ]
     },

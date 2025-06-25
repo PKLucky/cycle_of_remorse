@@ -723,30 +723,6 @@
         ]
     },
     {
-        "nid": "PoisonStrike",
-        "name": "Poison Strike",
-        "desc": "All weapons can inflict <red>Poisoned</>.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            14,
-            30
-        ],
-        "components": [
-            [
-                "time",
-                3
-            ],
-            [
-                "allowed_weapons",
-                "[None, 'Staff'] not in item_system.weapon_type(unit, item)"
-            ],
-            [
-                "item_override",
-                "PoisonWeapon"
-            ]
-        ]
-    },
-    {
         "nid": "Resist+",
         "name": "Resist+",
         "desc": "Grants additional RES.",
@@ -1665,7 +1641,7 @@
             ],
             [
                 "allowed_weapons",
-                "item_system.weapon_type(unit, item) is not None"
+                "item_system.weapon_type(unit, item) != None"
             ],
             [
                 "hidden",
@@ -2617,7 +2593,7 @@
             ],
             [
                 "allowed_weapons",
-                "item_system.weapon_type(unit, item) is not None"
+                "item_system.weapon_type(unit, item) != None"
             ]
         ]
     },
@@ -3454,7 +3430,7 @@
         "components": [
             [
                 "condition",
-                "unit.get_hp() <= unit.get_max_hp() / 2"
+                "unit.get_hp() <= unit.get_max_hp() // 2"
             ],
             [
                 "hidden_if_inactive",
@@ -4215,22 +4191,6 @@
             [
                 "avoid",
                 1000
-            ]
-        ]
-    },
-    {
-        "nid": "ProcTest",
-        "name": "ProcTest",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "proc_rate",
-                "ATTACK_SPEED"
             ]
         ]
     }
