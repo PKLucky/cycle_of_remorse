@@ -15718,7 +15718,7 @@
     {
         "nid": "Refresh",
         "name": "<white>Refresh</>",
-        "desc": "Adjacent units can move again.",
+        "desc": "An adjacent unit can move again.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -15727,11 +15727,11 @@
         "components": [
             [
                 "min_range",
-                0
+                1
             ],
             [
                 "max_range",
-                0
+                1
             ],
             [
                 "refresh",
@@ -15760,10 +15760,6 @@
             [
                 "no_map_hp_display",
                 null
-            ],
-            [
-                "ally_blast_except_self_aoe",
-                1
             ],
             [
                 "map_cast_pose",
@@ -16192,6 +16188,54 @@
             [
                 "alternate_resist_formula",
                 "LOWER_TARGET"
+            ]
+        ]
+    },
+    {
+        "nid": "DAMIAN",
+        "name": "Ritual Summon",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            51
+        ],
+        "components": [
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "traversable_tile_target_restrict",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global RitualSummon"
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     },

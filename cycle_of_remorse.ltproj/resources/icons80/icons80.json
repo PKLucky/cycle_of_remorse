@@ -244,5 +244,9 @@
     {
         "nid": "Militia (M) Deserter Lance {Rasdel}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Phantom (U) Axe {IS}_1",
+        "subicon_dict": {}
     }
 ]

@@ -3376,17 +3376,21 @@
     },
     {
         "nid": "DAMIEN",
-        "name": "Placeholder",
-        "desc": "???",
+        "name": "Ritual Summon",
+        "desc": "Summons a phantom in exchange for Gold and an optional item from the unit's inventory.",
         "icon_nid": "Skills",
         "icon_index": [
-            14,
-            50
+            15,
+            51
         ],
         "components": [
             [
                 "class_skill",
                 null
+            ],
+            [
+                "ability",
+                "DAMIAN"
             ]
         ]
     },

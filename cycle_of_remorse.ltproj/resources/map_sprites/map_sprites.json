@@ -130,5 +130,13 @@
     "Pikeman",
     "CitizenDead",
     "PirateFemale",
-    "TricksterFemale"
+    "TricksterFemale",
+    "GeneralDead",
+    "MageDead",
+    "ThiefDead",
+    "ArcherDead",
+    "CavalierFemaleAxe",
+    "CavalierFemaleSword",
+    "PaladinFemaleAxe",
+    "PaladinFemaleSword"
 ]

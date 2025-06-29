@@ -2306,6 +2306,38 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "dead1",
+                "variant": "Dead",
+                "level": 1,
+                "klass": "Thief",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "dead2",
+                "variant": "Dead",
+                "level": 1,
+                "klass": "Mage",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -4657,7 +4689,7 @@
             },
             {
                 "nid": "106",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -4729,7 +4761,7 @@
             },
             {
                 "nid": "109",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -4949,7 +4981,7 @@
             },
             {
                 "nid": "118",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -4973,7 +5005,7 @@
             },
             {
                 "nid": "119",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -5097,7 +5129,7 @@
             },
             {
                 "nid": "124",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -5121,7 +5153,7 @@
             },
             {
                 "nid": "125",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -5961,7 +5993,7 @@
             },
             {
                 "nid": "101",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -5985,7 +6017,7 @@
             },
             {
                 "nid": "102",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -6009,7 +6041,7 @@
             },
             {
                 "nid": "103",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -6081,7 +6113,7 @@
             },
             {
                 "nid": "106",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -6129,7 +6161,7 @@
             },
             {
                 "nid": "108",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -6153,7 +6185,7 @@
             },
             {
                 "nid": "109",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -6177,7 +6209,7 @@
             },
             {
                 "nid": "110",
-                "variant": "FemaleSword",
+                "variant": "Sword",
                 "level": 6,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -6273,7 +6305,7 @@
             },
             {
                 "nid": "114",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -6297,7 +6329,7 @@
             },
             {
                 "nid": "115",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -7112,7 +7144,7 @@
                         19
                     ],
                     "125": [
-                        8,
+                        15,
                         19
                     ],
                     "126": [
@@ -7120,7 +7152,7 @@
                         19
                     ],
                     "127": [
-                        8,
+                        15,
                         19
                     ]
                 }
@@ -7289,7 +7321,7 @@
             },
             {
                 "nid": "101",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -7313,7 +7345,7 @@
             },
             {
                 "nid": "102",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -7385,7 +7417,7 @@
             },
             {
                 "nid": "105",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -7409,7 +7441,7 @@
             },
             {
                 "nid": "106",
-                "variant": "FemaleSword",
+                "variant": "Sword",
                 "level": 5,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -7457,7 +7489,7 @@
             },
             {
                 "nid": "108",
-                "variant": "FemaleAxe",
+                "variant": "Axe",
                 "level": 5,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -7577,7 +7609,7 @@
             },
             {
                 "nid": "113",
-                "variant": "FemaleSword",
+                "variant": "Sword",
                 "level": 6,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -7625,7 +7657,7 @@
             },
             {
                 "nid": "115",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -7673,7 +7705,7 @@
             },
             {
                 "nid": "117",
-                "variant": "Female",
+                "variant": "",
                 "level": 7,
                 "klass": "Cleric",
                 "faction": "Knight",
@@ -7725,7 +7757,7 @@
             },
             {
                 "nid": "119",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -12238,7 +12270,7 @@
             },
             {
                 "nid": "Midboss3",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -12502,7 +12534,7 @@
             },
             {
                 "nid": "110",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -12886,7 +12918,7 @@
             },
             {
                 "nid": "126",
-                "variant": "Female",
+                "variant": "",
                 "level": 7,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -13308,7 +13340,7 @@
             },
             {
                 "nid": "101",
-                "variant": "FemaleSword",
+                "variant": "Sword",
                 "level": 8,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -13332,7 +13364,7 @@
             },
             {
                 "nid": "102",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -13360,7 +13392,7 @@
             },
             {
                 "nid": "103",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Shaman",
                 "faction": "Circ",
@@ -13384,7 +13416,7 @@
             },
             {
                 "nid": "104",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -13628,7 +13660,7 @@
             },
             {
                 "nid": "114",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -13752,7 +13784,7 @@
             },
             {
                 "nid": "119",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -13920,7 +13952,7 @@
             },
             {
                 "nid": "126",
-                "variant": "Female",
+                "variant": "",
                 "level": 8,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -14014,6 +14046,174 @@
                 "starting_position": [
                     5,
                     7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": "",
+                "level": 8,
+                "klass": "Templar",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": "",
+                "level": 8,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "BroadheadBow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": "",
+                "level": 8,
+                "klass": "Shaman",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": "",
+                "level": 8,
+                "klass": "Knight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "IronGreatlance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": "",
+                "level": 8,
+                "klass": "Mage",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": "Sword",
+                "level": 8,
+                "klass": "Templar",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": "Axe",
+                "level": 8,
+                "klass": "Knight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -14193,7 +14393,11 @@
                     "122",
                     "123",
                     "124",
-                    "126"
+                    "126",
+                    "125",
+                    "127",
+                    "thief",
+                    "129"
                 ],
                 "positions": {
                     "101": [
@@ -14201,11 +14405,11 @@
                         3
                     ],
                     "102": [
-                        11,
-                        5
+                        12,
+                        6
                     ],
                     "103": [
-                        13,
+                        16,
                         6
                     ],
                     "Vernon": [
@@ -14214,75 +14418,107 @@
                     ],
                     "104": [
                         9,
-                        7
+                        6
                     ],
                     "105": [
                         2,
-                        9
+                        7
                     ],
                     "106": [
-                        15,
+                        16,
                         11
                     ],
                     "107": [
-                        21,
-                        11
+                        20,
+                        10
                     ],
                     "108": [
                         3,
-                        12
+                        13
                     ],
                     "109": [
                         4,
-                        12
+                        9
                     ],
                     "110": [
-                        10,
-                        13
+                        9,
+                        11
                     ],
                     "111": [
-                        22,
-                        13
+                        21,
+                        25
                     ],
                     "112": [
-                        4,
-                        16
+                        5,
+                        14
                     ],
                     "113": [
-                        9,
-                        16
+                        8,
+                        14
                     ],
                     "114": [
-                        23,
-                        17
+                        20,
+                        18
                     ],
                     "115": [
                         3,
-                        18
+                        15
                     ],
                     "116": [
-                        7,
-                        18
+                        12,
+                        21
                     ],
                     "117": [
-                        11,
-                        20
+                        13,
+                        17
                     ],
                     "118": [
-                        17,
-                        20
+                        16,
+                        17
                     ],
                     "120": [
-                        10,
-                        23
+                        9,
+                        22
                     ],
                     "122": [
-                        18,
+                        14,
                         24
                     ],
                     "123": [
                         11,
-                        26
+                        24
+                    ],
+                    "119": [
+                        19,
+                        12
+                    ],
+                    "121": [
+                        18,
+                        24
+                    ],
+                    "124": [
+                        21,
+                        14
+                    ],
+                    "125": [
+                        20,
+                        22
+                    ],
+                    "126": [
+                        12,
+                        11
+                    ],
+                    "127": [
+                        16,
+                        21
+                    ],
+                    "thief": [
+                        10,
+                        17
+                    ],
+                    "129": [
+                        5,
+                        7
                     ]
                 }
             },
@@ -14312,6 +14548,19 @@
                         7
                     ]
                 }
+            },
+            {
+                "nid": "MoreEnemy",
+                "units": [
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []
@@ -14672,7 +14921,7 @@
                     "Charmed"
                 ],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14698,7 +14947,7 @@
                     "Charmed"
                 ],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14724,7 +14973,7 @@
                     "Charmed"
                 ],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14750,7 +14999,7 @@
                     "Charmed"
                 ],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14774,7 +15023,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14798,7 +15047,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14822,7 +15071,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14846,7 +15095,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14874,7 +15123,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14886,7 +15135,7 @@
             },
             {
                 "nid": "115",
-                "variant": "FemaleSword",
+                "variant": "Sword",
                 "level": 9,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -14898,7 +15147,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14926,7 +15175,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14938,7 +15187,7 @@
             },
             {
                 "nid": "117",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -14950,7 +15199,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14974,7 +15223,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -14998,7 +15247,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15010,7 +15259,7 @@
             },
             {
                 "nid": "120",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -15022,7 +15271,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15046,7 +15295,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15070,7 +15319,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15082,7 +15331,7 @@
             },
             {
                 "nid": "123",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -15094,7 +15343,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15118,7 +15367,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15142,7 +15391,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15166,7 +15415,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15178,7 +15427,7 @@
             },
             {
                 "nid": "127",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -15190,7 +15439,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15230,7 +15479,7 @@
             },
             {
                 "nid": "129",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -15242,7 +15491,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15254,7 +15503,7 @@
             },
             {
                 "nid": "130",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -15266,7 +15515,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15290,7 +15539,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15314,7 +15563,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15338,7 +15587,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15362,7 +15611,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15386,7 +15635,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch9",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -15785,11 +16034,11 @@
         "party": "Krista",
         "music": {
             "player_phase": "Inescapable Fate",
-            "enemy_phase": "Verdane Army",
+            "enemy_phase": "Butterfly Emerges from Chrysalis",
             "player_battle": "Strike",
             "enemy_battle": "Safeguard",
             "boss_battle": "Softly with Grace",
-            "enemy2_phase": "Verdane Army"
+            "enemy2_phase": "Butterfly Emerges from Chrysalis"
         },
         "objective": {
             "simple": "Defeat Azalea",
@@ -15978,7 +16227,7 @@
             },
             {
                 "nid": "101",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Soldier",
                 "faction": "Knight",
@@ -16050,7 +16299,7 @@
             },
             {
                 "nid": "104",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -16122,7 +16371,7 @@
             },
             {
                 "nid": "107",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Cavalier",
                 "faction": "Knight",
@@ -16218,7 +16467,7 @@
             },
             {
                 "nid": "111",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Shaman",
                 "faction": "Circ",
@@ -16290,7 +16539,7 @@
             },
             {
                 "nid": "114",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -16338,7 +16587,7 @@
             },
             {
                 "nid": "116",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -16410,7 +16659,7 @@
             },
             {
                 "nid": "119",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -16530,7 +16779,7 @@
             },
             {
                 "nid": "124",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -16582,7 +16831,7 @@
             },
             {
                 "nid": "126",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Shaman",
                 "faction": "Circ",
@@ -16606,7 +16855,7 @@
             },
             {
                 "nid": "127",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Monk",
                 "faction": "Knight",
@@ -16682,7 +16931,7 @@
             },
             {
                 "nid": "130",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -16778,7 +17027,7 @@
             },
             {
                 "nid": "134",
-                "variant": "Female",
+                "variant": "",
                 "level": 9,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -17591,7 +17840,7 @@
             },
             {
                 "nid": "102",
-                "variant": "Female",
+                "variant": "",
                 "level": 11,
                 "klass": "Pirate",
                 "faction": "Pirate",
@@ -17615,7 +17864,7 @@
             },
             {
                 "nid": "103",
-                "variant": "Female",
+                "variant": "",
                 "level": 11,
                 "klass": "Pirate",
                 "faction": "Pirate",
@@ -17639,7 +17888,7 @@
             },
             {
                 "nid": "104",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Pirate",
                 "faction": "Pirate",
@@ -17663,7 +17912,7 @@
             },
             {
                 "nid": "105",
-                "variant": "Female",
+                "variant": "",
                 "level": 11,
                 "klass": "Pirate",
                 "faction": "Pirate",
@@ -17687,7 +17936,7 @@
             },
             {
                 "nid": "106",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Pirate",
                 "faction": "Pirate",
@@ -17711,7 +17960,7 @@
             },
             {
                 "nid": "107",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Mage",
                 "faction": "Pirate",
@@ -17879,7 +18128,7 @@
             },
             {
                 "nid": "114",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Pirate",
                 "faction": "Pirate",
@@ -17999,7 +18248,7 @@
             },
             {
                 "nid": "119",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Myrmidon",
                 "faction": "Pirate",
@@ -18071,7 +18320,7 @@
             },
             {
                 "nid": "122",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Mercenary",
                 "faction": "Pirate",
@@ -18119,7 +18368,7 @@
             },
             {
                 "nid": "124",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Lancer",
                 "faction": "Pirate",
@@ -18167,7 +18416,7 @@
             },
             {
                 "nid": "126",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Lancer",
                 "faction": "Pirate",
@@ -18215,7 +18464,7 @@
             },
             {
                 "nid": "128",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Mage",
                 "faction": "Pirate",
@@ -18239,7 +18488,7 @@
             },
             {
                 "nid": "129",
-                "variant": "Female",
+                "variant": "",
                 "level": 10,
                 "klass": "Myrmidon",
                 "faction": "Pirate",
@@ -22523,6 +22772,16 @@
                     18,
                     19
                 ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Rembrandt",
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -33107,7 +33366,13 @@
         "tilemap": "Chapter 21",
         "bg_tilemap": null,
         "party": "Krista",
-        "music": {},
+        "music": {
+            "player_phase": "Far Dawn",
+            "player_battle": "Master Battle",
+            "boss_battle": "Normal Battle",
+            "enemy_phase": "Water Battle",
+            "enemy_battle": "Poison Battle"
+        },
         "objective": {
             "simple": "Defeat Tsubaki",
             "win": "Defeat Tsubaki",
@@ -34538,7 +34803,7 @@
         "party": "Krista",
         "music": {
             "player_phase": "Alight",
-            "enemy_phase": "Water Battle",
+            "enemy_phase": "Butterfly Emerges from Chrysalis",
             "other_phase": "Past Light",
             "boss_battle": "Fighting Battle",
             "enemy_battle": "Poison Battle",
@@ -40380,6 +40645,22 @@
                 "generic": true
             },
             {
+                "nid": "JamalCopy",
+                "variant": "Dead",
+                "level": 1,
+                "klass": "General",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "ErvanCopy",
                 "variant": "Dead",
                 "level": 1,
@@ -41418,7 +41699,7 @@
                 "region_type": "formation",
                 "position": [
                     3,
-                    30
+                    22
                 ],
                 "size": [
                     2,
@@ -41435,44 +41716,8 @@
                 "nid": "New Region_1",
                 "region_type": "formation",
                 "position": [
-                    6,
-                    30
-                ],
-                "size": [
-                    2,
-                    3
-                ],
-                "sub_nid": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "New Region_2",
-                "region_type": "formation",
-                "position": [
-                    9,
-                    30
-                ],
-                "size": [
-                    1,
-                    3
-                ],
-                "sub_nid": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "New Region_3",
-                "region_type": "formation",
-                "position": [
                     5,
-                    31
+                    22
                 ],
                 "size": [
                     1,
@@ -41486,14 +41731,50 @@
                 "hide_time": false
             },
             {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_3",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    22
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "New Region_4",
                 "region_type": "formation",
                 "position": [
                     8,
-                    31
+                    23
                 ],
                 "size": [
-                    1,
+                    2,
                     1
                 ],
                 "sub_nid": null,
@@ -41953,8 +42234,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    5
+                    11,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false

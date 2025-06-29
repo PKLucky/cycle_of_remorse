@@ -2363,6 +2363,19 @@
         ]
     },
     {
+        "nid": "Map_ThiefDead",
+        "sub_nid": "ThiefDead",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "2WB",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Map_RogueFemale",
         "sub_nid": "RogueFemale",
         "credit_type": 8,
@@ -2532,6 +2545,19 @@
         ]
     },
     {
+        "nid": "Map_GeneralDead",
+        "sub_nid": "GeneralDead",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "PKLucky",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Map_Marshall",
         "sub_nid": "Marshall",
         "credit_type": 8,
@@ -2579,6 +2605,58 @@
         "contrib": [
             [
                 "Tordo45",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_CavalierFemaleAxe",
+        "sub_nid": "CavalierFemaleAxe",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_CavalierFemaleSword",
+        "sub_nid": "CavalierFemaleSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_PaladinFemaleAxe",
+        "sub_nid": "PaladinFemaleAxe",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_PaladinFemaleSword",
+        "sub_nid": "PaladinFemaleSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
                 null
             ]
         ]
@@ -2792,6 +2870,19 @@
         ]
     },
     {
+        "nid": "Map_ArcherDead",
+        "sub_nid": "ArcherDead",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Sigmaraven",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Map_MageHatless",
         "sub_nid": "MageTrevor",
         "credit_type": 8,
@@ -2800,6 +2891,19 @@
         "contrib": [
             [
                 "Pikmin1211",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_MageDead",
+        "sub_nid": "MageDead",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "PKLucky",
                 null
             ]
         ]
@@ -3309,6 +3413,14 @@
             [
                 "PKLucky",
                 "Lullabye of a Loyal Knight"
+            ],
+            [
+                "The King of Fighters 2002: Ultimate Match",
+                "Butterfly Emerges from Chrysalis"
+            ],
+            [
+                "The King of Fighters XV",
+                "Goodbye ESAKA - KOF XV"
             ]
         ]
     },

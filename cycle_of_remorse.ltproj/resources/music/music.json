@@ -31,7 +31,7 @@
     ],
     [
         "Verdane Army",
-        false,
+        true,
         false
     ],
     [
@@ -271,7 +271,7 @@
     ],
     [
         "Route 111",
-        false,
+        true,
         false
     ],
     [
@@ -286,7 +286,7 @@
     ],
     [
         "The Steel Samurai",
-        false,
+        true,
         false
     ],
     [
@@ -390,11 +390,6 @@
         false
     ],
     [
-        "Midosuji",
-        false,
-        false
-    ],
-    [
         "Guildmaster Wigglytuff",
         false,
         false
@@ -462,6 +457,31 @@
     [
         "Lullaby of a Loyal Knight - Vocal",
         false,
+        false
+    ],
+    [
+        "Butterfly Emerges from Chrysalis",
+        false,
+        false
+    ],
+    [
+        "_Route 111 Intro",
+        false,
+        false
+    ],
+    [
+        "_The Steel Samurai Intro",
+        false,
+        false
+    ],
+    [
+        "_Verdane Army Intro",
+        false,
+        false
+    ],
+    [
+        "Goodbye ESAKA - KOF XV",
+        true,
         false
     ]
 ]
