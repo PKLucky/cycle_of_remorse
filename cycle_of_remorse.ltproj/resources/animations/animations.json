@@ -556,5 +556,14 @@
         "speed": 300,
         "frame_times": "1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
+    },
+    {
+        "nid": "ThiefEscape",
+        "frame_x": 2,
+        "frame_y": 1,
+        "num_frames": 2,
+        "speed": 300,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
     }
 ]

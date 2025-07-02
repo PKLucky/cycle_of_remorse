@@ -2213,7 +2213,7 @@
         "learned_skills": [
             [
                 1,
-                "ImprovedSteal"
+                "StealPlus"
             ]
         ],
         "wexp_gain": {
@@ -2349,7 +2349,7 @@
         "learned_skills": [
             [
                 1,
-                "ImprovedSteal"
+                "StealPlus"
             ]
         ],
         "wexp_gain": {
@@ -10759,7 +10759,8 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "ArenaIgnore"
+            "ArenaIgnore",
+            "NoVariant"
         ],
         "max_level": 20,
         "bases": {
@@ -11747,7 +11748,8 @@
         "tags": [
             "Horse",
             "Mounted",
-            "ArenaIgnore"
+            "ArenaIgnore",
+            "NoVariant"
         ],
         "max_level": 20,
         "bases": {

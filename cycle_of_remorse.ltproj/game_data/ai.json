@@ -6,7 +6,7 @@
                 "action": "None",
                 "target": "None",
                 "target_spec": null,
-                "view_range": -5,
+                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -344,7 +344,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<white>Door</>",
+                "target_spec": "Door",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -354,7 +354,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<white>Chest</>",
+                "target_spec": "Chest",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -1224,7 +1224,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<white>Chest</>",
+                "target_spec": "Chest",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -1493,7 +1493,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<white>Door</>",
+                "target_spec": "Door",
                 "view_range": -3,
                 "invert_targeting": true,
                 "roam_speed": 100,
@@ -1696,7 +1696,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<white>Door</>",
+                "target_spec": "Door",
                 "view_range": -3,
                 "invert_targeting": false,
                 "roam_speed": 100,

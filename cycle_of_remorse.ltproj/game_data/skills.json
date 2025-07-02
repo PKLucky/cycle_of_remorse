@@ -293,7 +293,7 @@
         ]
     },
     {
-        "nid": "ImprovedSteal",
+        "nid": "StealPlus",
         "name": "Steal+",
         "desc": "Can steal items and unequipped weapons from enemies with lower speed.",
         "icon_nid": "Skills",

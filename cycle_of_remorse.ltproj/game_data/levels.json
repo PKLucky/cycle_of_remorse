@@ -1497,7 +1497,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1515,7 +1515,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1533,7 +1533,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1551,7 +1551,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1569,7 +1569,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1587,7 +1587,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1605,7 +1605,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1623,7 +1623,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1641,7 +1641,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -2352,7 +2352,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -2406,7 +2406,7 @@
                     2,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -4274,7 +4274,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4292,7 +4292,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4310,7 +4310,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4328,7 +4328,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4346,7 +4346,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4364,7 +4364,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4382,7 +4382,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -4400,7 +4400,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -6897,7 +6897,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Secret</>",
+                "sub_nid": "Secret",
                 "condition": "has_item('GoldCard', unit.nid)",
                 "time_left": null,
                 "only_once": false,
@@ -8186,7 +8186,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Arena</>",
+                "sub_nid": "Arena",
                 "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
@@ -8294,7 +8294,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Secret</>",
+                "sub_nid": "Secret",
                 "condition": "has_item('GoldCard', unit.nid)",
                 "time_left": null,
                 "only_once": false,
@@ -8384,7 +8384,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "False",
                 "time_left": null,
                 "only_once": false,
@@ -11833,7 +11833,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Secret</>",
+                "sub_nid": "Secret",
                 "condition": "has_item('GoldCard', unit.nid)",
                 "time_left": null,
                 "only_once": false,
@@ -13091,7 +13091,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -13109,7 +13109,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -13127,7 +13127,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -13145,7 +13145,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -13163,7 +13163,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -14231,7 +14231,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -14285,7 +14285,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -14303,7 +14303,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -14321,7 +14321,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -14339,7 +14339,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -15658,7 +15658,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
+                "sub_nid": "Seize",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -15712,7 +15712,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Arena</>",
+                "sub_nid": "Arena",
                 "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
@@ -15784,7 +15784,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -15802,7 +15802,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -15820,7 +15820,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -17116,7 +17116,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -17134,7 +17134,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -17152,7 +17152,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -17170,7 +17170,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -19990,7 +19990,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -20008,7 +20008,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -20026,7 +20026,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -20044,7 +20044,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -22414,7 +22414,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -22432,7 +22432,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -22450,7 +22450,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -22468,7 +22468,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -23440,7 +23440,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -24961,7 +24961,7 @@
                     2,
                     5
                 ],
-                "sub_nid": "<white>Secret</>",
+                "sub_nid": "Secret",
                 "condition": "has_item('GoldCard', unit.nid) and game.get_unit('Anna').team != 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -25957,7 +25957,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -25975,7 +25975,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -26011,7 +26011,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Secret</>",
+                "sub_nid": "Secret",
                 "condition": "has_item('GoldCard', unit.nid) and game.get_unit('Anna').team != 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -27189,7 +27189,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -27207,7 +27207,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -27225,7 +27225,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Secret</>",
+                "sub_nid": "Secret",
                 "condition": "has_item('GoldCard', unit.nid) and game.get_unit('Anna').team != 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -27495,7 +27495,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Arena</>",
+                "sub_nid": "Arena",
                 "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
@@ -27796,7 +27796,7 @@
         },
         "objective": {
             "simple": "Defend the cargo,{eval:game.turncount}/7 turn(s)",
-            "win": "Defend the cargo",
+            "win": "Defend the cargo,or Defeat boss",
             "loss": "All cargo is destroyed,Anna{comma} Jake{comma} or,Krista dies"
         },
         "roam": false,
@@ -28617,7 +28617,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Use</>",
+                "sub_nid": "Use",
                 "condition": "unit.nid != 'Jake'",
                 "time_left": null,
                 "only_once": false,
@@ -28635,7 +28635,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Use</>",
+                "sub_nid": "Use",
                 "condition": "unit.nid != 'Jake'",
                 "time_left": null,
                 "only_once": false,
@@ -28653,7 +28653,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Use</>",
+                "sub_nid": "Use",
                 "condition": "unit.nid != 'Jake'",
                 "time_left": null,
                 "only_once": false,
@@ -30274,6 +30274,18 @@
                     "128"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "Other",
+                "units": [
+                    "girl",
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []
@@ -31356,7 +31368,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -31374,7 +31386,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -31392,7 +31404,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -31410,7 +31422,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -31518,7 +31530,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -31536,7 +31548,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -33259,7 +33271,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Interact</>",
+                "sub_nid": "Interact",
                 "condition": "has_skill(unit.nid, 'ThiefsExpertise')",
                 "time_left": null,
                 "only_once": true,
@@ -33277,7 +33289,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Interact</>",
+                "sub_nid": "Interact",
                 "condition": "has_skill(unit.nid, 'ThiefsExpertise')",
                 "time_left": null,
                 "only_once": true,
@@ -33295,7 +33307,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -33313,7 +33325,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -33331,7 +33343,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Arena</>",
+                "sub_nid": "Arena",
                 "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
@@ -34564,7 +34576,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -34582,7 +34594,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34600,7 +34612,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34618,7 +34630,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34636,7 +34648,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34654,7 +34666,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34672,7 +34684,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": false,
@@ -34690,7 +34702,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34708,7 +34720,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34726,7 +34738,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -34744,7 +34756,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -36107,7 +36119,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -36125,7 +36137,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -36143,7 +36155,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -36161,7 +36173,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -36179,7 +36191,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -37934,7 +37946,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -37952,7 +37964,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -37970,7 +37982,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -37988,7 +38000,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -38006,7 +38018,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38042,7 +38054,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38078,7 +38090,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38114,7 +38126,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38150,7 +38162,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38186,7 +38198,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38222,7 +38234,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38258,7 +38270,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38294,7 +38306,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38330,7 +38342,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38366,7 +38378,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38402,7 +38414,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38438,7 +38450,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38474,7 +38486,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -38510,7 +38522,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region) and not unit.has_attacked and unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
@@ -40320,7 +40332,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40338,7 +40350,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40356,7 +40368,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40374,7 +40386,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40392,7 +40404,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40410,7 +40422,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40428,7 +40440,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40446,7 +40458,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -40464,8 +40476,8 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Seize</>",
-                "condition": "unit.team == 'player'",
+                "sub_nid": "Seize",
+                "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -41795,7 +41807,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41813,7 +41825,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41831,7 +41843,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41849,7 +41861,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41867,7 +41879,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41885,7 +41897,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41903,7 +41915,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41921,7 +41933,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41939,7 +41951,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41957,7 +41969,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -41975,7 +41987,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "<white>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -42235,7 +42247,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    7
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -42296,7 +42308,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    14,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -42784,8 +42799,8 @@
                     1,
                     1
                 ],
-                "sub_nid": "Escape",
-                "condition": "False",
+                "sub_nid": "escape",
+                "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,

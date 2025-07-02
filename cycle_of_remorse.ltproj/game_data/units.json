@@ -278,6 +278,10 @@
             [
                 "EscapeQuote",
                 "Made it. Good."
+            ],
+            [
+                "PromoStatCap3",
+                "STR,5,DEF,7"
             ]
         ]
     },
@@ -417,6 +421,14 @@
             [
                 "EscapeQuote",
                 "Woah, close call."
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,6,SPD,7,LCK,4"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,1,STR,2,SKL,10,SPD,13,LCK,5"
             ]
         ]
     },
@@ -674,6 +686,14 @@
             [
                 "EscapeQuote",
                 "Safe and sound."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,13,SKL,1,SPD,2,DEF,5"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,3,STR,18,SKL,3,SPD,5,DEF,6"
             ]
         ]
     },
@@ -802,6 +822,14 @@
             [
                 "EscapeQuote",
                 "Let's go!"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,12,STR,6"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,20,STR,10,SKL,6,SPD,9"
             ]
         ]
     },
@@ -923,6 +951,14 @@
             [
                 "DeathQuoteCh15",
                 "Oh, wow, you're strong!"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,3,SPD,2,RES,7"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,8,SKL,2,SPD,3,LCK,8,RES,13"
             ]
         ]
     },
@@ -1044,6 +1080,14 @@
             [
                 "DeathQuoteCh15",
                 "Argh, I knew I was gonna lose{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2,SKL,3,SPD,7,LCK,4"
+            ],
+            [
+                "PromoStatCap3",
+                "SKL,6,SPD,11,LCK,5"
             ]
         ]
     },
@@ -1168,6 +1212,14 @@
             [
                 "EscapeQuote",
                 "Yeehaw!{br}We're outta here!"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,6,SPD,8,LCK,1"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,11,SKL,2,SPD,11"
             ]
         ]
     },
@@ -1297,6 +1349,14 @@
             [
                 "EscapeQuote",
                 "Good.{br}Let's go."
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,1,DEF,6,RES,9"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,3,SKL,5,DEF,8,RES,12"
             ]
         ]
     },
@@ -1422,6 +1482,14 @@
             [
                 "EscapeQuote",
                 "Yahoo! Let's go, go, go!"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,3,SPD,1,LCK,2"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,8,SPD,4,LCK,3,RES,2"
             ]
         ]
     },
@@ -1550,6 +1618,14 @@
             [
                 "EscapeQuote",
                 "A perfect escape!"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,6,SPD,2,DEF,14"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,4,MAG,13,SPD,3,DEF,19,RES,2"
             ]
         ]
     },
@@ -1680,6 +1756,14 @@
             [
                 "EscapeQuote",
                 "{c:expression;Anil;Smile}..."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,4,SPD,2,RES,9"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,8,SKL,1,SPD,5,RES,13"
             ]
         ]
     },
@@ -1802,6 +1886,14 @@
             [
                 "DeathQuoteCh15",
                 "I guess I should train more{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,5,SKL,4,DEF,6"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,7,SKL,5,DEF,11"
             ]
         ]
     },
@@ -2069,6 +2161,14 @@
             [
                 "EscapeQuote",
                 "Nice! Time to go!"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,6,SKL,4,DEF,3,RES,6"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,9,RES,13"
             ]
         ]
     },
@@ -2194,6 +2294,14 @@
             [
                 "DeathQuoteCh15",
                 "The arena never was my venue of choice anyhow."
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,1,SKL,4,SPD,2,RES,3"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,9,SKL,5,SPD,5,RES,7"
             ]
         ]
     },
@@ -2308,6 +2416,14 @@
             [
                 "EscapeQuote",
                 "Let's go, guys!"
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,2,DEF,8"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,1,STR,8,SKL,6,SPD,2,DEF,14"
             ]
         ]
     },
@@ -2431,6 +2547,14 @@
             [
                 "DeathQuoteCh15",
                 "Never was one to take up arms anyway."
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,2,SPD,2"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,6,SKL,3,SPD,3"
             ]
         ]
     },
@@ -2549,6 +2673,14 @@
             [
                 "DeathQuoteCh15",
                 "Perhaps I'm getting rusty."
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,5,SKL,8"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,6,SKL,14"
             ]
         ]
     },
@@ -2916,6 +3048,14 @@
             [
                 "DeathQuoteCh15",
                 "What sort of entertainment do people get out of this{tgm}...?"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,10,SKL,2,SPD,3,DEF,1,RES,7"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,8,SPD,2,DEF,2,RES,8"
             ]
         ]
     },
@@ -3044,6 +3184,14 @@
             [
                 "DeathQuoteCh15",
                 "Wait, wait, wait, I coulda done SO much better!"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,7,SKL,1,LCK,10"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,9,SKL,0,LCK,8"
             ]
         ]
     },
@@ -3168,6 +3316,10 @@
             [
                 "DeathQuoteCh15",
                 "Hm{tgm}...{tgm} It seems I still have much to learn."
+            ],
+            [
+                "PromoStatCap3",
+                "STR,1,MAG,16,SKL,2,SPD,5,RES,5"
             ]
         ]
     },
@@ -3298,6 +3450,14 @@
             [
                 "DeathQuoteCh15",
                 "I can do a lot better next time!"
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,11,SPD,8,DEF,8,RES,7"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,1,SKL,17,SPD,15,DEF,10,RES,13"
             ]
         ]
     },
@@ -3418,6 +3578,10 @@
             [
                 "DeathQuoteCh15",
                 "The crew's not gonna let me hear the end of it if|they knew about this{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "HP,19,STR,18,SKL,7,SPD,5"
             ]
         ]
     },
@@ -3539,6 +3703,14 @@
             [
                 "DeathQuoteCh15",
                 "What?! No way! I totally could've taken you down!"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,12,DEF,7,RES,7"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,19,DEF,10,RES,11"
             ]
         ]
     },
@@ -3657,6 +3829,14 @@
             [
                 "DeathQuoteCh15",
                 "Ow{tgm}...{tgm} D-Don't look at me like that!|I'm not crying!"
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,5,SPD,12,LCK,17,DEF,10,RES,4\n"
+            ],
+            [
+                "PromoStatCap3",
+                "SKL,5,SPD,18,LCK,13,DEF,6,RES,0"
             ]
         ]
     },
@@ -3779,6 +3959,14 @@
             [
                 "DeathQuoteCh15",
                 "*sigh* Looks like I've still got a long way to go."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,9,SKL,3,RES,6"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,10,STR,16,SKL,0,DEF,2,RES,8"
             ]
         ]
     },
@@ -3896,7 +4084,12 @@
         "alternate_classes": [],
         "portrait_nid": "Yumi",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "PromoStatCap3",
+                "STR,4,SKL,1,SPD,14"
+            ]
+        ]
     },
     {
         "nid": "Lin",
@@ -4020,6 +4213,10 @@
             [
                 "DeathQuote",
                 "Viola{tgm}...{tgm} Chell{tgm}...{tgm} I'm sor{tgm}...{tgm} ry{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "SPD,7"
             ]
         ]
     },
@@ -4272,6 +4469,10 @@
             [
                 "DeathQuote",
                 "Argh! Dammit{tgm}...!{tgm} I gotta retreat!"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,12"
             ]
         ]
     },
@@ -4392,6 +4593,14 @@
             [
                 "DeathQuote",
                 "Prince Khalid{tgm}...{tgm} I was happy{tgm}...{tgm} to serve you{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,8,SPD,1,DEF,8,RES,11"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,4,SKL,1,SPD,0,DEF,4,RES,15"
             ]
         ]
     },
@@ -4510,6 +4719,10 @@
             [
                 "DeathQuote",
                 "Suno{tgm}...{tgm} Mother is coming to meet you{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "STR,4,SKL,13,SPD,12"
             ]
         ]
     },
@@ -4622,7 +4835,12 @@
         "alternate_classes": [],
         "portrait_nid": "Masashi",
         "affinity": "Wind",
-        "fields": []
+        "fields": [
+            [
+                "PromoStatCap3",
+                "HP,2,STR,9,SKL,3,DEF,6"
+            ]
+        ]
     },
     {
         "nid": "Hikaru",
@@ -4741,6 +4959,10 @@
             [
                 "DeathQuote",
                 "Oh, Great Merin, let me lay peacefully upon your back{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "SKL,17,SPD,3,LCK,6,RES,7"
             ]
         ]
     },
@@ -4862,6 +5084,10 @@
             [
                 "DeathQuote",
                 "One last nap{tgm}...{tgm} Good night{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "HP,4,STR,4,DEF,8,RES,18"
             ]
         ]
     },
@@ -4979,6 +5205,10 @@
             [
                 "DeathQuote",
                 "My only hope{tgm}...{tgm} is that my death was not in vain{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,7,SKL,8,SPD,13"
             ]
         ]
     },
@@ -5092,7 +5322,12 @@
         "alternate_classes": [],
         "portrait_nid": "Nagisa",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "PromoStatCap3",
+                "HP,4,STR,4,SPD,3,LCK,4"
+            ]
+        ]
     },
     {
         "nid": "Tsubaki",
@@ -5209,7 +5444,12 @@
         "alternate_classes": [],
         "portrait_nid": "Tsubaki",
         "affinity": "Anima",
-        "fields": []
+        "fields": [
+            [
+                "PromoStatCap3",
+                "MAG,16,SKL,7,SPD,3,RES,4"
+            ]
+        ]
     },
     {
         "nid": "Judah",
@@ -5330,6 +5570,10 @@
             [
                 "DeathQuote",
                 "I can't fall here{tgm}...{tgm} I'll retreat for now!"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,4,STR,14,SKL,9,SPD,9,DEF,12"
             ]
         ]
     },
@@ -5528,13 +5772,17 @@
             [
                 "DeathQuote",
                 "N-No{tgm}...{tgm} Not yet{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "HP,2,SKL,3"
             ]
         ]
     },
     {
         "nid": "Ervan",
         "name": "Ervan",
-        "desc": "Former crown prince of Fuegsol.\nConsumed with bitterness and a betrayed heart.",
+        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
         "variant": "",
         "level": 1,
         "klass": "BowLord",

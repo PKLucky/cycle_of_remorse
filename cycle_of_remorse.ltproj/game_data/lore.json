@@ -39,7 +39,7 @@
         "name": "Thieves",
         "title": "Enemy Thieves",
         "category": "Mechanics",
-        "text": "Enemy thieves, rogues, and assassins will prioritize opening doors, opening chests, stealing from player units, and escaping from the map (in that order)."
+        "text": "Enemy thieves, rogues, and assassins will prioritize opening doors, opening chests, stealing from player units, and escaping from the map (in that order).\nEscape points for enemy thieves are <blue>marked on the map</>."
     },
     {
         "nid": "Houses",
