@@ -59,20 +59,20 @@
     ],
     [
         [
-            "enemy_1",
-            "other"
+            "enemy",
+            "enemy2"
         ],
         [
             "other",
             "wallally"
         ],
         [
-            "enemy",
-            "enemy2"
-        ],
-        [
             "other",
             "player"
+        ],
+        [
+            "enemy_1",
+            "other"
         ]
     ]
 ]

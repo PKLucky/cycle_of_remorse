@@ -2636,6 +2636,32 @@
         ]
     },
     {
+        "nid": "Map_PaladinSword",
+        "sub_nid": "PaladinSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Map_PaladinAxe",
+        "sub_nid": "PaladinAxe",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Map_PaladinFemaleAxe",
         "sub_nid": "PaladinFemaleAxe",
         "credit_type": 8,

@@ -3873,7 +3873,8 @@
         "promotes_from": "Cavalier",
         "turns_into": [],
         "tags": [
-            "Mounted"
+            "Mounted",
+            "NoVariant"
         ],
         "max_level": 20,
         "bases": {

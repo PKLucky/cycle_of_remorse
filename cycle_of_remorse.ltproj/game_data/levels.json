@@ -20572,6 +20572,82 @@
                 "generic": true
             },
             {
+                "nid": "s1",
+                "variant": null,
+                "level": 1,
+                "klass": "Lancer",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "s2",
+                "variant": null,
+                "level": 1,
+                "klass": "Lancer",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "s3",
+                "variant": null,
+                "level": 1,
+                "klass": "Lancer",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "s4",
+                "variant": null,
+                "level": 1,
+                "klass": "Lancer",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Daigo",
                 "team": "enemy",
                 "ai": "Guard",
@@ -21666,9 +21742,41 @@
                         12
                     ]
                 }
+            },
+            {
+                "nid": "Soldiers",
+                "units": [
+                    "s1",
+                    "s2",
+                    "s3",
+                    "s4"
+                ],
+                "positions": {
+                    "s1": [
+                        8,
+                        17
+                    ],
+                    "s2": [
+                        9,
+                        17
+                    ],
+                    "s3": [
+                        8,
+                        17
+                    ],
+                    "s4": [
+                        9,
+                        17
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "14",
@@ -31954,7 +32062,7 @@
             },
             {
                 "nid": "101",
-                "variant": null,
+                "variant": "Sword",
                 "level": 2,
                 "klass": "Paladin",
                 "faction": "Merinas",
@@ -33903,7 +34011,7 @@
             },
             {
                 "nid": "115",
-                "variant": null,
+                "variant": "Axe",
                 "level": 3,
                 "klass": "Paladin",
                 "faction": "Merinas",
