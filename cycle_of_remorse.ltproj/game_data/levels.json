@@ -5922,9 +5922,7 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [
-            "MapFog"
-        ],
+        "tags": [],
         "units": [
             {
                 "nid": "Krista",
@@ -21771,12 +21769,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "14",
@@ -21803,9 +21796,7 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [
-            "MapFog"
-        ],
+        "tags": [],
         "units": [
             {
                 "nid": "Krista",
@@ -28963,9 +28954,7 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [
-            "MapFog"
-        ],
+        "tags": [],
         "units": [
             {
                 "nid": "Krista",
@@ -42123,8 +42112,134 @@
         "go_to_overworld": false,
         "should_record": true,
         "tags": [],
-        "units": [],
-        "regions": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "bandit",
+                "variant": null,
+                "level": 5,
+                "klass": "Warrior",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "BroadheadBow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    24,
+                    13
+                ],
+                "size": [
+                    3,
+                    5
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    23,
+                    14
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house1",
+                "region_type": "event",
+                "position": [
+                    24,
+                    0
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house2",
+                "region_type": "event",
+                "position": [
+                    12,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house3",
+                "region_type": "event",
+                "position": [
+                    15,
+                    23
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     },

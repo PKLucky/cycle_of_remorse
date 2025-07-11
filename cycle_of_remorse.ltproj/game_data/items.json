@@ -8461,11 +8461,15 @@
             ],
             [
                 "eval_available",
-                "'MapFog' in game.level.tags"
+                "v('_fog_of_war')"
             ],
             [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "not game.get_region_under_pos(target_pos, 'vision')"
             ]
         ]
     },
@@ -13933,7 +13937,7 @@
             ],
             [
                 "eval_available",
-                "'MapFog' in game.level.tags"
+                "v('_fog_of_war')"
             ],
             [
                 "map_cast_pose",

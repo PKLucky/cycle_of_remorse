@@ -279,11 +279,11 @@
                 "Steal"
             ],
             [
-                "gba_steal_icon",
+                "hidden",
                 null
             ],
             [
-                "hidden",
+                "gba_steal_icon",
                 null
             ],
             [
