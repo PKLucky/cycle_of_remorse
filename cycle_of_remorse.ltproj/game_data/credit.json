@@ -972,6 +972,22 @@
         ]
     },
     {
+        "nid": "Ch26Boss",
+        "sub_nid": "{Armory} F2U OC Merc-Brigand-Fighterguy",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Armory",
+                "Ch26Boss"
+            ]
+        ]
+    },
+    {
         "nid": "BanditFemale1",
         "sub_nid": "BanditFemale1",
         "credit_type": 4,
@@ -3204,6 +3220,22 @@
         ]
     },
     {
+        "nid": "Assassin_Card",
+        "sub_nid": "Assassin (U) Sword {L95}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Assassin (U) Sword"
+            ]
+        ]
+    },
+    {
         "nid": "Crates_Card",
         "sub_nid": "Crates (U) {Primefusion}",
         "credit_type": 3,
@@ -3248,6 +3280,22 @@
             [
                 "Uncredited",
                 "Halberdier"
+            ]
+        ]
+    },
+    {
+        "nid": "Sentinel_Card",
+        "sub_nid": "Knight (M) SALVAGED Lance {SALVAGED}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Team SALVAGED",
+                "Sentinel"
             ]
         ]
     },
@@ -3312,6 +3360,38 @@
             [
                 "Rasdel",
                 "Pikeman"
+            ]
+        ]
+    },
+    {
+        "nid": "SkyKnight_Card",
+        "sub_nid": "Seraph Knight (F) Lance {CamusZekeSirius}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "CamusZekeSirius",
+                "Sky Knight"
+            ]
+        ]
+    },
+    {
+        "nid": "Marshall_Card",
+        "sub_nid": "Baron (U) Lance {SamirPlayz}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "SamirPlayz",
+                "Marshall"
             ]
         ]
     },

@@ -13,7 +13,8 @@
             "AdjConvoy",
             "Female",
             "Medean",
-            "Medea"
+            "Medea",
+            "Canon"
         ],
         "bases": {
             "HP": 18,
@@ -152,7 +153,8 @@
         "tags": [
             "Lord",
             "Medean",
-            "Circ"
+            "Circ",
+            "Canon"
         ],
         "bases": {
             "HP": 33,
@@ -292,7 +294,9 @@
         "variant": "Kai",
         "level": 1,
         "klass": "Mercenary",
-        "tags": [],
+        "tags": [
+            "Canon"
+        ],
         "bases": {
             "HP": 21,
             "STR": 9,
@@ -842,7 +846,8 @@
         "klass": "Cleric",
         "tags": [
             "Female",
-            "Protect"
+            "Protect",
+            "Canon"
         ],
         "bases": {
             "HP": 17,
@@ -971,7 +976,8 @@
         "klass": "Thief",
         "tags": [
             "Medean",
-            "Protect"
+            "Protect",
+            "Canon"
         ],
         "bases": {
             "HP": 17,
@@ -1907,7 +1913,8 @@
         "tags": [
             "Female",
             "Dark",
-            "Shifter"
+            "Shifter",
+            "Canon"
         ],
         "bases": {
             "HP": 15,
@@ -2693,7 +2700,8 @@
         "klass": "Merchant",
         "tags": [
             "Required",
-            "Female"
+            "Female",
+            "Canon"
         ],
         "bases": {
             "HP": 17,
@@ -2809,7 +2817,8 @@
         "level": 1,
         "klass": "Ballistician",
         "tags": [
-            "Required"
+            "Required",
+            "Canon"
         ],
         "bases": {
             "HP": 17,
@@ -3203,7 +3212,8 @@
         "level": 1,
         "klass": "Mage Knight",
         "tags": [
-            "Medean"
+            "Medean",
+            "Canon"
         ],
         "bases": {
             "HP": 33,
@@ -4360,7 +4370,8 @@
         "level": 1,
         "klass": "WyvernKnight",
         "tags": [
-            "Fueg"
+            "Fueg",
+            "Canon"
         ],
         "bases": {
             "HP": 36,
@@ -5339,7 +5350,8 @@
         "tags": [
             "Boss",
             "Female",
-            "Merin"
+            "Merin",
+            "Canon"
         ],
         "bases": {
             "HP": 31,
@@ -5458,7 +5470,9 @@
         "variant": "",
         "level": 1,
         "klass": "Hero",
-        "tags": [],
+        "tags": [
+            "Canon"
+        ],
         "bases": {
             "HP": 35,
             "STR": 27,
@@ -5787,7 +5801,8 @@
         "level": 1,
         "klass": "BowLord",
         "tags": [
-            "Fueg"
+            "Fueg",
+            "Canon"
         ],
         "bases": {
             "HP": 35,
@@ -10238,6 +10253,111 @@
             [
                 "DeathQuote",
                 "L-Lord Milo, Great Circ{tgm}...{tgm}|I've failed you{tgm}..."
+            ]
+        ]
+    },
+    {
+        "nid": "Gunnar",
+        "name": "Gunnar",
+        "desc": "",
+        "variant": "",
+        "level": 6,
+        "klass": "Berserker",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 45,
+            "STR": 26,
+            "MAG": 7,
+            "SKL": 19,
+            "SPD": 16,
+            "LCK": 9,
+            "DEF": 24,
+            "RES": 5,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Swordslayer",
+                false
+            ],
+            [
+                "Tomahawk",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Gunnar",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "B-Blood{tgm}...?{tgm} N-No way{tgm}...!"
             ]
         ]
     },

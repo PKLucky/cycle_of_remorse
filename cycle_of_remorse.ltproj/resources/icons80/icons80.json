@@ -248,5 +248,21 @@
     {
         "nid": "Phantom (U) Axe {IS}_1",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Assassin (U) Sword {L95}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Knight (M) SALVAGED Lance {SALVAGED}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Seraph Knight (F) Lance {CamusZekeSirius}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Baron (U) Lance {SamirPlayz}",
+        "subicon_dict": {}
     }
 ]
