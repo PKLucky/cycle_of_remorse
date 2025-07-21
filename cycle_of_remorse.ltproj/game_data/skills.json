@@ -3354,6 +3354,94 @@
         ]
     },
     {
+        "nid": "ERVAN",
+        "name": "Authority",
+        "desc": "Grants all allied units Hit/Avo +5 for each enemy this unit kills. (Max. Hit/Avo +25)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_kill",
+                "ERVAN_AURA"
+            ]
+        ]
+    },
+    {
+        "nid": "ERVAN_AURA",
+        "name": "Authority",
+        "desc": "Hit/Avo +5",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            45
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stack",
+                5
+            ],
+            [
+                "aura",
+                "ERVAN_CHILD"
+            ],
+            [
+                "aura_range",
+                99
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "hide_aura",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ERVAN_CHILD",
+        "name": "Authority <blue>(Ervan)</>",
+        "desc": "Hit/Avo +5 per stack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            45
+        ],
+        "components": [
+            [
+                "stack",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "avoid",
+                5
+            ]
+        ]
+    },
+    {
         "nid": "TORGEN",
         "name": "High Ground",
         "desc": "Gains Avo +30 when in combat against non-flying units.",
@@ -3466,94 +3554,6 @@
             [
                 "ability",
                 "LUCIAN"
-            ]
-        ]
-    },
-    {
-        "nid": "ERVAN",
-        "name": "Authority",
-        "desc": "Grants all allied units Hit/Avo +5 for each enemy this unit kills. (Max. Hit/Avo +25)",
-        "icon_nid": "Skills",
-        "icon_index": [
-            7,
-            45
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "gain_skill_after_kill",
-                "ERVAN_AURA"
-            ]
-        ]
-    },
-    {
-        "nid": "ERVAN_AURA",
-        "name": "Authority",
-        "desc": "Hit/Avo +5",
-        "icon_nid": "Skills",
-        "icon_index": [
-            7,
-            45
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "stack",
-                5
-            ],
-            [
-                "aura",
-                "ERVAN_CHILD"
-            ],
-            [
-                "aura_range",
-                99
-            ],
-            [
-                "aura_target",
-                "ally"
-            ],
-            [
-                "lost_on_end_chapter",
-                null
-            ],
-            [
-                "hide_aura",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "ERVAN_CHILD",
-        "name": "Authority <blue>(Ervan)</>",
-        "desc": "Hit/Avo +5 per stack.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            7,
-            45
-        ],
-        "components": [
-            [
-                "stack",
-                5
-            ],
-            [
-                "lost_on_end_chapter",
-                null
-            ],
-            [
-                "hit",
-                5
-            ],
-            [
-                "avoid",
-                5
             ]
         ]
     },

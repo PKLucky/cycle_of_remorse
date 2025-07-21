@@ -72,7 +72,7 @@
     {
         "nid": "Crate",
         "name": "Crate",
-        "desc": "",
+        "desc": "A crate full of supplies.",
         "icon_nid": "BlankEmblem",
         "icon_index": [
             0,
@@ -113,6 +113,16 @@
         "nid": "Circ",
         "name": "Circ",
         "desc": "A cult of unknown origin.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Circ1",
+        "name": "Circ",
+        "desc": "A worshipper of Circ.",
         "icon_nid": "MonsterEmblem",
         "icon_index": [
             0,
@@ -163,7 +173,7 @@
         "nid": "Ferrach",
         "name": "Ferrach",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "BlankEmblem",
         "icon_index": [
             0,
             0
@@ -173,7 +183,7 @@
         "nid": "Azalea",
         "name": "Azalea",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "BlankEmblem",
         "icon_index": [
             0,
             0
@@ -183,7 +193,7 @@
         "nid": "Matthew",
         "name": "Matthew",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "BlankEmblem",
         "icon_index": [
             0,
             0

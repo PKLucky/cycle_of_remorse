@@ -246,10 +246,6 @@
         "subicon_dict": {}
     },
     {
-        "nid": "Phantom (U) Axe {IS}_1",
-        "subicon_dict": {}
-    },
-    {
         "nid": "Assassin (U) Sword {L95}",
         "subicon_dict": {}
     },
@@ -263,6 +259,56 @@
     },
     {
         "nid": "Baron (U) Lance {SamirPlayz}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Marauder (M) Axe {NoelWoodsoul}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dread Fighter (M) T3 Sword  {Nuramon}",
+        "subicon_dict": {
+            "Dread Fighter (M) T3 Sword  {Nuramon} 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Myrmidon (U) FE15-Style Sword {Nuramon}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Fighter (M) T3 Axe {Yasako}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Barbarian (M) Axe {valak, serif}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Monk (M) Magic {Blademaster, ltranc}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Mage (M) Fire Magic {L95}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dragon (U) Magic {L95}",
+        "subicon_dict": {
+            "Dragon (U) Magic {L95} 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Thaumaturge [F] Magic {Der}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Horse {L95}",
         "subicon_dict": {}
     }
 ]

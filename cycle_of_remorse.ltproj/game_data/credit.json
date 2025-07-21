@@ -290,6 +290,10 @@
             [
                 "RiriK",
                 "Wyvern Lord (Helmetless Female)"
+            ],
+            [
+                "Spud",
+                "Marauder"
             ]
         ]
     },
@@ -972,8 +976,8 @@
         ]
     },
     {
-        "nid": "Ch26Boss",
-        "sub_nid": "{Armory} F2U OC Merc-Brigand-Fighterguy",
+        "nid": "Gunnar",
+        "sub_nid": "Gunnar",
         "credit_type": 4,
         "category": "Graphics",
         "icon_index": [
@@ -983,7 +987,7 @@
         "contrib": [
             [
                 "Armory",
-                "Ch26Boss"
+                "Gunnar"
             ]
         ]
     },
@@ -3392,6 +3396,166 @@
             [
                 "SamirPlayz",
                 "Marshall"
+            ]
+        ]
+    },
+    {
+        "nid": "Marauder_Card",
+        "sub_nid": "Marauder (M) Axe {NoelWoodsoul}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NoelWoodsoul",
+                "Marauder"
+            ]
+        ]
+    },
+    {
+        "nid": "Trueblade_Card",
+        "sub_nid": "Dread Fighter (M) T3 Sword  {Nuramon}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Nuramon",
+                "Trueblade"
+            ]
+        ]
+    },
+    {
+        "nid": "DreadFighter_Card",
+        "sub_nid": "Myrmidon (U) FE15-Style Sword {Nuramon}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Nuramon",
+                "Dread Fighter"
+            ]
+        ]
+    },
+    {
+        "nid": "Gladiator_Card",
+        "sub_nid": "Fighter (M) T3 Axe {Yasako}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Yasako",
+                "Gladiator"
+            ]
+        ]
+    },
+    {
+        "nid": "Reaver_Card",
+        "sub_nid": "Barbarian (M) Axe {valak, serif}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "valak, serif",
+                "Reaver"
+            ]
+        ]
+    },
+    {
+        "nid": "Saint_Card",
+        "sub_nid": "Monk (M) Magic {Blademaster, ltranc}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Blademaster, ltranc",
+                "Saint"
+            ]
+        ]
+    },
+    {
+        "nid": "Archsage_Card",
+        "sub_nid": "Mage (M) Fire Magic {L95}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Archsage"
+            ]
+        ]
+    },
+    {
+        "nid": "Drake_Card",
+        "sub_nid": "Dragon (U) Magic {L95}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Drake"
+            ]
+        ]
+    },
+    {
+        "nid": "Cart_Card",
+        "sub_nid": "Horse {L95}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Cart"
+            ]
+        ]
+    },
+    {
+        "nid": "HolyKnight_Card",
+        "sub_nid": "Thaumaturge [F] Magic {Der}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "DerTheVaporeon",
+                "Holy Knight"
             ]
         ]
     },

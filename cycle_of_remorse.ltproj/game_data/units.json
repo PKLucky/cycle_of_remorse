@@ -5811,8 +5811,8 @@
             "SKL": 23,
             "SPD": 21,
             "LCK": 10,
-            "DEF": 19,
-            "RES": 17,
+            "DEF": 17,
+            "RES": 19,
             "CON": 7,
             "MOV": 6
         },
@@ -5823,8 +5823,8 @@
             "SKL": 45,
             "SPD": 45,
             "LCK": 30,
-            "DEF": 30,
-            "RES": 20,
+            "DEF": 20,
+            "RES": 30,
             "CON": 15,
             "MOV": 0
         },
@@ -5856,7 +5856,7 @@
             ],
             "Lance": [
                 false,
-                0,
+                131,
                 251
             ],
             "Axe": [
@@ -10068,7 +10068,7 @@
     {
         "nid": "Solmaz",
         "name": "Solmaz",
-        "desc": "",
+        "desc": "A former bishop of Fueg.\nDenounced her faith to become a follower of Circ.",
         "variant": "Female",
         "level": 5,
         "klass": "Bishop",
@@ -10259,7 +10259,7 @@
     {
         "nid": "Gunnar",
         "name": "Gunnar",
-        "desc": "",
+        "desc": "Leader of the Cragwood Bandits.\nA cruel brigand who shows no mercy.",
         "variant": "",
         "level": 6,
         "klass": "Berserker",
@@ -10269,14 +10269,14 @@
         "bases": {
             "HP": 45,
             "STR": 26,
-            "MAG": 7,
+            "MAG": 9,
             "SKL": 19,
             "SPD": 16,
-            "LCK": 9,
-            "DEF": 24,
-            "RES": 5,
-            "CON": 8,
-            "MOV": 5
+            "LCK": 10,
+            "DEF": 19,
+            "RES": 7,
+            "CON": 16,
+            "MOV": 6
         },
         "growths": {
             "HP": 0,
@@ -10308,7 +10308,7 @@
                 false
             ],
             [
-                "Tomahawk",
+                "ShortAxe",
                 false
             ]
         ],
@@ -10467,7 +10467,7 @@
     {
         "nid": "Vanguard",
         "name": "Vanguard",
-        "desc": "A golem from ancient times.",
+        "desc": "A golem from ancient times.\nProtective of those he feels indebted to.",
         "variant": "",
         "level": 1,
         "klass": "Marshall",
@@ -10572,22 +10572,22 @@
         "name": "Sven",
         "desc": "Soromir's subordinate.\nCunning and loyal to his liege.",
         "variant": "",
-        "level": 5,
+        "level": 8,
         "klass": "Assassin",
         "tags": [
             "Boss"
         ],
         "bases": {
             "MOV": 7,
-            "STR": 19,
+            "STR": 20,
             "MAG": 0,
             "CON": 10,
-            "DEF": 20,
-            "SKL": 32,
+            "DEF": 21,
+            "SKL": 37,
             "RES": 20,
-            "SPD": 34,
-            "LCK": 26,
-            "HP": 41
+            "SPD": 37,
+            "LCK": 28,
+            "HP": 44
         },
         "growths": {
             "MOV": 0,

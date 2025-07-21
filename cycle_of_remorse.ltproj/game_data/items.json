@@ -15445,6 +15445,10 @@
             [
                 "no_alert_on_break",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "not region.nid.startswith('Mine')"
             ]
         ]
     },

@@ -41,34 +41,16 @@
             "combat_variant_palette": "GenericPurple",
             "combat_color": "purple",
             "phase_change_sound_effect": null
-        },
-        {
-            "nid": "wallboth",
-            "map_sprite_palette": "map_sprite_purple",
-            "combat_variant_palette": null,
-            "combat_color": "purple",
-            "phase_change_sound_effect": null
-        },
-        {
-            "nid": "wallally",
-            "map_sprite_palette": "map_sprite_purple",
-            "combat_variant_palette": null,
-            "combat_color": "purple",
-            "phase_change_sound_effect": null
         }
     ],
     [
         [
-            "other",
-            "wallally"
+            "enemy",
+            "enemy2"
         ],
         [
             "enemy_1",
             "other"
-        ],
-        [
-            "enemy",
-            "enemy2"
         ],
         [
             "other",
