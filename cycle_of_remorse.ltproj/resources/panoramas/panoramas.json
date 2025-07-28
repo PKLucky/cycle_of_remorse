@@ -8,10 +8,6 @@
         1
     ],
     [
-        "info_menu_background_1",
-        1
-    ],
-    [
         "Hill",
         1
     ],
@@ -453,6 +449,14 @@
     ],
     [
         "OutskirtsSnow",
+        1
+    ],
+    [
+        "ArenaBG",
+        1
+    ],
+    [
+        "ArenaStands",
         1
     ]
 ]

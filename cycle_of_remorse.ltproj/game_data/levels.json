@@ -22852,7 +22852,7 @@
             "boss_battle": "Normal Battle"
         },
         "objective": {
-            "simple": "Place crates,Left {eval:6 - len(get_units_in_region('cratedrop', team='other')) - v('cratesDead')}",
+            "simple": "Place crates,Left {eval:6 - len(get_units_in_region('cratedrop', team='other', tag='ArenaIgnore')) - v('cratesDead')}",
             "win": "Place crates on drop-off,point or defeat boss",
             "loss": "Krista dies,or all supplies destroyed"
         },
@@ -42196,6 +42196,54 @@
                 "generic": true
             },
             {
+                "nid": "t1",
+                "variant": "",
+                "level": 6,
+                "klass": "GriffonKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Ch26",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "t2",
+                "variant": "",
+                "level": 6,
+                "klass": "GriffonKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Ch26",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 6,
@@ -43293,7 +43341,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    4,
                     24
                 ],
                 "starting_traveler": null,
@@ -43544,6 +43592,23 @@
                     "snag2"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "torgen",
+                "units": [
+                    "t1",
+                    "t2"
+                ],
+                "positions": {
+                    "t1": [
+                        0,
+                        24
+                    ],
+                    "t2": [
+                        0,
+                        24
+                    ]
+                }
             }
         ],
         "ai_groups": []

@@ -1200,6 +1200,22 @@
         ]
     },
     {
+        "nid": "ArmoredMan",
+        "sub_nid": "ArmoredMan",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Armored Man"
+            ]
+        ]
+    },
+    {
         "nid": "Celik",
         "sub_nid": "Celik",
         "credit_type": 4,
@@ -3560,6 +3576,32 @@
         ]
     },
     {
+        "nid": "Library_BG",
+        "sub_nid": "Library",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Fate Grand Order",
+                "Library BG"
+            ]
+        ]
+    },
+    {
+        "nid": "ArenaTRS_BG",
+        "sub_nid": "ArenaBG",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Tear Ring Saga",
+                "Arena Conversation BG"
+            ]
+        ]
+    },
+    {
         "nid": "DesertTown_BG",
         "sub_nid": "DesertTown",
         "credit_type": 6,
@@ -3569,6 +3611,45 @@
             [
                 "Tear Ring Saga",
                 "Desert Town"
+            ]
+        ]
+    },
+    {
+        "nid": "ArenaStands_BG",
+        "sub_nid": "ArenaStands",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Fire Emblem: Path of Radiance/Radiant Dawn",
+                "Arena Stands BG"
+            ]
+        ]
+    },
+    {
+        "nid": "OutskirtsSnow_BG",
+        "sub_nid": "OutskirtsSnow",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Fire Emblem: Path of Radiance/Radiant Dawn",
+                "Outskirts Snow BG"
+            ]
+        ]
+    },
+    {
+        "nid": "Sauna_BG",
+        "sub_nid": "Sauna",
+        "credit_type": 6,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Fire Emblem: Path of Radiance/Radiant Dawn",
+                "Sauna BG"
             ]
         ]
     },
