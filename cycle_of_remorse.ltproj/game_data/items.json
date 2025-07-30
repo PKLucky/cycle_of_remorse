@@ -15382,6 +15382,10 @@
             [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "not (game.get_region_under_pos(target_pos, 'terrain') or game.get_region_under_pos(target_pos, 'event'))"
             ]
         ]
     },
@@ -15448,7 +15452,7 @@
             ],
             [
                 "eval_target_restrict_2",
-                "not region.nid.startswith('Mine')"
+                "not (game.get_region_under_pos(target_pos, 'terrain') or game.get_region_under_pos(target_pos, 'event'))"
             ]
         ]
     },

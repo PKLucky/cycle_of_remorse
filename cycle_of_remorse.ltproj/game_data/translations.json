@@ -389,7 +389,7 @@
     },
     {
         "nid": "prep_gba_check_map_desc",
-        "text": "View the map. Check the number and type of enemies. Also, check for shops and change your allies' starting positions."
+        "text": "View the map. Check the number and type of enemies. Also, change your allies' starting positions."
     },
     {
         "nid": "prep_gba_save_desc",

@@ -4939,7 +4939,7 @@
             },
             {
                 "nid": "115",
-                "variant": "Axe",
+                "variant": "",
                 "level": 5,
                 "klass": "Mage",
                 "faction": "Knight",
@@ -24076,7 +24076,7 @@
             },
             {
                 "nid": "113",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24095,7 +24095,7 @@
             },
             {
                 "nid": "114",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24133,7 +24133,7 @@
             },
             {
                 "nid": "116",
-                "variant": "Girl",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24209,7 +24209,7 @@
             },
             {
                 "nid": "120",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24228,7 +24228,7 @@
             },
             {
                 "nid": "121",
-                "variant": "Girl",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24247,7 +24247,7 @@
             },
             {
                 "nid": "122",
-                "variant": "Boy",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24266,7 +24266,7 @@
             },
             {
                 "nid": "123",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24304,7 +24304,7 @@
             },
             {
                 "nid": "125",
-                "variant": "Girl",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24342,7 +24342,7 @@
             },
             {
                 "nid": "127",
-                "variant": "Boy",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24361,7 +24361,7 @@
             },
             {
                 "nid": "128",
-                "variant": "Boy",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24418,7 +24418,7 @@
             },
             {
                 "nid": "131",
-                "variant": "Girl",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24456,7 +24456,7 @@
             },
             {
                 "nid": "133",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24513,7 +24513,7 @@
             },
             {
                 "nid": "136",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24570,7 +24570,7 @@
             },
             {
                 "nid": "139",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24608,7 +24608,7 @@
             },
             {
                 "nid": "141",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24646,7 +24646,7 @@
             },
             {
                 "nid": "143",
-                "variant": "Boy",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24684,7 +24684,7 @@
             },
             {
                 "nid": "145",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24741,7 +24741,7 @@
             },
             {
                 "nid": "148",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24760,7 +24760,7 @@
             },
             {
                 "nid": "149",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24817,7 +24817,7 @@
             },
             {
                 "nid": "152",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24855,7 +24855,7 @@
             },
             {
                 "nid": "154",
-                "variant": "Boy",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -24874,7 +24874,7 @@
             },
             {
                 "nid": "155",
-                "variant": "Woman",
+                "variant": "",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Merinas",
@@ -42109,6 +42109,15 @@
                     "wall2"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "copy",
+                "units": [
+                    "SolmazCopy",
+                    "MiloCopy",
+                    "JamalCopy"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []
@@ -43629,7 +43638,7 @@
             "base": null
         },
         "objective": {
-            "simple": "DEBUG,{eval:len(get_units_in_region('test'))}",
+            "simple": "DEBUG,{e:len(get_units_in_region('test'))}",
             "win": "Don't Crash",
             "loss": "Crash"
         },

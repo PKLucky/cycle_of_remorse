@@ -806,11 +806,11 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": [
-                    "Team",
-                    "player"
+                    "Tag",
+                    "Protect"
                 ],
                 "view_range": -3,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""

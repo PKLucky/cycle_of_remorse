@@ -117,11 +117,6 @@
                 false,
                 0,
                 251
-            ],
-            "Refresh": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -920,11 +915,6 @@
                 false,
                 0,
                 251
-            ],
-            "Refresh": [
-                true,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -1052,11 +1042,6 @@
             ],
             "Default": [
                 false,
-                0,
-                251
-            ],
-            "Refresh": [
-                true,
                 0,
                 251
             ]
@@ -8585,11 +8570,6 @@
                 false,
                 0,
                 251
-            ],
-            "Refresh": [
-                false,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Troubadour",
@@ -10735,11 +10715,6 @@
                 false,
                 0,
                 1
-            ],
-            "Refresh": [
-                true,
-                0,
-                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",

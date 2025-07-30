@@ -1177,6 +1177,7 @@
         "_source": [
             "transition;close",
             "remove_all_units",
+            "transition;open",
             "###",
             "transition;close"
         ],
@@ -3432,7 +3433,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "2 Intro"
     },
@@ -4033,14 +4034,17 @@
             "expression;Torgen;NormalBlink,Smile",
             "speak;Torgen;You want me to join you guys?",
             "bop_portrait;Krista",
-            "speak;Krista;Y-Yeah! You seem more eager to do that than I thought you'd be.",
+            "speak;Krista;Y-Yeah! You're more eager to do that than I thought you'd be.",
             "expression;Torgen;CloseEyes",
-            "speak;Torgen;In all honesty, I was thinking of leaving these guys anyway.|{c:e;Torgen;HalfCloseEyes}I thought you were dead, Krista.|With you gone, I didn't see the point of staying.|{c:e;Torgen;NormalBlink}At the same time, I kept hoping you'd be okay. So I stayed here waiting for you.",
+            "speak;Torgen;In all honesty, I was thinking of giving up the bandit life anyway.|{c:e;Torgen;HalfCloseEyes}I thought you were dead, Krista.|With you gone, I didn't see the point of staying.|{c:e;Torgen;NormalBlink}At the same time, I kept hoping you'd be okay. So I stayed here waiting for you.",
             "speak;Krista;Torgen{tgm}...",
             "expression;Torgen;Smile",
             "speak;Torgen;So, I'm in! From now on, we're allies through and through.|No need for us to keep pretending we're not.",
             "remove_all_portraits",
             "change_team;Torgen;player",
+            "for;torgenteam;[u for u in game.level.unit_groups.get('torgen').units if game.check_alive(u) == True]",
+            "change_team;{torgenteam};other",
+            "endf",
             "remove_talk;Forrest;Torgen",
             "remove_talk;Kai;Torgen",
             "remove_talk;Sam;Torgen",
@@ -6049,8 +6053,7 @@
             "base;Clearing",
             "#set_wexp;Tsubaki;Staff;500",
             "#give_item;Tsubaki;Amaterasu",
-            "level_var;WildPronoun;'He'",
-            "speak;;A wild {e:\"man\" if \"{v:WildPronoun}\" == \"He\" else \"woman\" if \"{v:WildPronoun}\" == \"She\" else \"person\"} raised in the forests of Nabu. Has a fear of blood and hates spiders."
+            "prep;t;gba"
         ],
         "nid": "DEBUG Intro"
     },
@@ -6201,7 +6204,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "4 Intro"
     },
@@ -6268,7 +6271,7 @@
             "speak;;Units will <red>not gain EXP, Weapon EXP, or Support Points</> for the chapter.;StyleNid=hint;no_sound",
             "speak;;You must deploy at least <red>five</> units for this chapter.;StyleNid=hint;no_sound",
             "enable_supports;False",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "4x Intro"
     },
@@ -6357,7 +6360,7 @@
             "speak;;Units will <red>not gain EXP, Weapon EXP, or Support Points</> for the chapter.;StyleNid=hint;no_sound",
             "speak;;You must deploy at least <red>six</> units for this chapter.;StyleNid=hint;NumLines=3;no_sound",
             "enable_supports;False",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "7ab Intro"
     },
@@ -6903,7 +6906,7 @@
             "level_var;houseVisit;0",
             "transition;open",
             "###",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "5 Intro"
     },
@@ -20505,9 +20508,9 @@
             "add_talk;Sam;Kai",
             "if;{v:EnemyThievesLore} != True",
             "add_lore;EnemyThieves",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary",
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba",
             "else",
-            "prep;false;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.",
+            "prep;false;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
             "end"
         ],
         "nid": "3 Intro"
@@ -21569,7 +21572,7 @@
             "add_talk;Felicity;Krista",
             "add_talk;Chell;Viola",
             "add_talk;Viola;Chell",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "6 Intro"
     },
@@ -21728,7 +21731,7 @@
             "add_talk;Marina;Forrest",
             "###",
             "music_clear",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "7a Intro"
     },
@@ -21849,7 +21852,7 @@
             "unlock_support_rank;Anna;Jake;C",
             "unlock_support_rank;Anna;Jake;B",
             "unlock_support_rank;Anna;Jake;A",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "7x Intro"
     },
@@ -22020,7 +22023,7 @@
             "add_talk;Felicity;Xiang",
             "add_talk;Krista;Xiang",
             "add_talk;Xiang;Felicity",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "8 Intro"
     },
@@ -22103,9 +22106,9 @@
             "center_cursor;Krista",
             "transition;open",
             "if;'{v:LunarisVergrande}' == 'Lake Lunaris'",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
             "else",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.",
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba",
             "end"
         ],
         "nid": "9 Intro"
@@ -22218,7 +22221,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "10 Intro"
     },
@@ -22240,7 +22243,7 @@
             "level_var;correctLogic;0",
             "inc_game_var;ChapterFlag",
             "add_tag;123;NoVariant",
-            "for;EnemyGender;[unit.nid for unit in game.get_enemy_units() if unit.generic == True and 'NoVariant' not in unit.tags]",
+            "for;EnemyGender;[unit.nid for unit in game.get_enemy_units() if unit.generic == True and 'NoVariant' not in unit.tags and not in game.level.unit_groups.get('Circ').units]",
             "trigger_script;Global RandomGender;{EnemyGender}",
             "endf",
             "autolevel_to;Cole;8;fixed",
@@ -22641,9 +22644,9 @@
             "center_cursor;Krista",
             "transition;open",
             "end_skip",
-            "speak;;In this chapter, the green units will escape to the yellow-roofed houses.;center;;hint",
+            "speak;;In this chapter, the green units will escape to the yellow-roofed houses.;StyleNid=hint",
             "speak;;Player units will be unable to visit them.;StyleNid=hint;NumLines=2;no_sound",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "11 Intro"
     },
@@ -22796,7 +22799,7 @@
             "center_cursor;Krista",
             "transition;open",
             "end_skip",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "12 Intro"
     },
@@ -22996,9 +22999,9 @@
             "autolevel_to;Haruki;13;fixed",
             "add_talk;Krista;Haruki",
             "if;game.get_unit('Ryuuji').team == 'player'",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.",
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
             "end"
         ],
         "nid": "13 Intro"
@@ -23183,7 +23186,7 @@
             "transition;open",
             "end_skip",
             "unlock_support_rank;Keisha;Locke;A+",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "14 Intro"
     },
@@ -23352,7 +23355,7 @@
             "add_talk;Krista;Rembrandt",
             "add_talk;Marina;Rembrandt",
             "speak;;For this chapter, you will get rewards based on how many crates end up on the drop-off point.;StyleNid=hint;no_sound",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "14b Intro"
     },
@@ -23375,6 +23378,20 @@
             "inc_game_var;ChapterFlag",
             "for;EnemyGender;[unit.nid for unit in game.get_enemy_units() if unit.generic == True and 'NoVariant' not in unit.tags]",
             "trigger_script;Global RandomGender;{EnemyGender}",
+            "endf",
+            "for;greenUnits;[unit.nid for unit in game.get_other_units() if unit.generic == True]",
+            "level_var;GenderValue;game.get_random(0,3)",
+            "if;{v:GenderValue} == 1",
+            "level_var;VariantName;'Woman' + '{e:u('{greenUnits}').variant}'",
+            "set_variant;{greenUnits};{v:VariantName}",
+            "elif;{v:GenderValue} == 2",
+            "level_var;VariantName;'Boy' + '{e:u('{greenUnits}').variant}'",
+            "set_variant;{greenUnits};{v:VariantName}",
+            "elif;{v:GenderValue} == 3",
+            "level_var;VariantName;'Girl' + '{e:u('{greenUnits}').variant}'",
+            "set_variant;{greenUnits};{v:VariantName}",
+            "end",
+            "add_tag;{greenUnits};Tile",
             "endf",
             "remove_market_item;Master Seal",
             "add_market_item;Master Seal",
@@ -23407,9 +23424,6 @@
             "if;game.get_unit('Marina').klass == 'Dancer'",
             "add_tag;Marina;Blacklist",
             "end",
-            "for;greenUnits;[u for u in game.level.units if u.team == 'other']",
-            "add_tag;{greenUnits};Tile",
-            "endf",
             "###",
             "change_background;Town",
             "transition;open",
@@ -23479,7 +23493,9 @@
             "load_unit;Jake;other;None",
             "if;game.get_unit('Anna').team != 'player'",
             "add_unit;Anna;1,15;immediate;stack",
+            "add_tag;Anna;Protect",
             "add_unit;Jake;1,16;immediate;stack",
+            "add_tag;Jake;Protect",
             "if;has_item('GoldCard', party='Krista')",
             "make_generic;wall;Wall15;1;enemy;None;Wall",
             "add_unit;wall;4,16;immediate;stack",
@@ -23532,7 +23548,7 @@
             "speak;;Any units that fall <red>will revive</> at the end of the chapter.;StyleNid=hint;NumLines=3;no_sound",
             "speak;;If you have <red>less than 13 units</> to deploy, <red>generic NPC units</> will spawn on any empty deployment spaces.;center;200;hint;NumLines=3;no_sound",
             "speak;;Good luck!;StyleNid=hint;NumLines=1;no_sound",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "15 Intro"
     },
@@ -23630,7 +23646,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "16 Intro"
     },
@@ -23794,7 +23810,7 @@
             "transition;open",
             "add_talk;Krista;Khalid",
             "add_talk;Forrest;Reem",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "17 Intro"
     },
@@ -23939,7 +23955,7 @@
             "speak;Jake;I made them super easy to operate, so anyone can use them!|And we've got enchanted ammo for any magic casters on board.|You just gotta walk up to them and <red>Use</> them. Easy!",
             "remove_all_portraits",
             "music_clear",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "17x Intro"
     },
@@ -24259,7 +24275,7 @@
             "add_talk;Krista;Yukino",
             "add_talk;Forrest;Krista",
             "add_talk;Krista;Forrest",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "18 Intro"
     },
@@ -24436,7 +24452,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "19 Intro"
     },
@@ -24655,7 +24671,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "20 Intro"
     },
@@ -24752,7 +24768,7 @@
             "add_talk;Asuka;Tsubaki",
             "add_talk;Sumire;Tsubaki",
             "add_talk;Krista;Tsubaki",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "21 Intro"
     },
@@ -24924,7 +24940,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "22 Intro"
     },
@@ -25349,7 +25365,7 @@
             "speak;;Doors in this chapter can be locked <red>and</> unlocked by <red>Thieves</>, <red>Rogues</>, <red>Ninjas</>, and <red>Assassins</>.;;180;hint;NumLines=3;no_sound",
             "speak;;They may also be locked and unlocked by using a <red>Door Key</> or an <red>Unlock</> staff.;StyleNid=hint;no_sound",
             "speak;;Uses of Door Keys and Unlock staves will be <red>consumed</> each time a door is locked or unlocked.;;160;hint;no_sound",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "23 Intro"
     },
@@ -25610,7 +25626,7 @@
             "add_talk;Cole;Kiraz",
             "add_talk;Krista;Kiraz",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "24 Intro"
     },
@@ -25628,7 +25644,7 @@
             "###",
             "level_var;_minimum_deployment;17",
             "inc_game_var;ChapterFlag",
-            "for;EnemyGender;[unit.nid for unit in game.get_enemy_units() if unit.generic == True and 'NoVariant' not in unit.tags]",
+            "for;EnemyGender;[unit.nid for unit in game.get_enemy_units() if unit.generic == True and 'NoVariant' not in unit.tags and not in game.level.unit_groups.get('copy').units]",
             "trigger_script;Global RandomGender;{EnemyGender}",
             "endf",
             "add_tag;MiloCopy;Boss",
@@ -25675,7 +25691,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "25 Intro"
     },
@@ -25720,7 +25736,7 @@
             "speak;Vanguard;...",
             "speak;Milo;I can't absolutely guarantee it, of course.|I'm just making sure you're aware.",
             "speak;Vanguard;Is that all?",
-            "speak;Milo;Yup. I'm gonna touch base with Soromir and the rest.|{c:e;Milo;Smile}Catch you later!",
+            "speak;Milo;Yup. I'm gonna touch base with Soromir and the rest.|{c:e;Milo;RightWink,Smile}Catch you later!",
             "remove_all_portraits",
             "remove_unit;MiloCopy;warp;fade",
             "wait;1000",
@@ -25824,7 +25840,7 @@
             "add_talk;Forrest;Torgen",
             "add_talk;Kai;Torgen",
             "add_talk;Sam;Torgen",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "26 Intro"
     },
@@ -25996,7 +26012,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "7b Intro"
     },
@@ -26114,7 +26130,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "transition;open",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks."
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
         ],
         "nid": "7bb Intro"
     },
@@ -33074,6 +33090,8 @@
             "remove_tag;Lucy;Blacklist",
             "remove_tag;Azure;Blacklist",
             "remove_tag;Marina;Blacklist",
+            "remove_tag;Anna;Protect",
+            "remove_tag;Jake;Protect",
             "transition;close",
             "change_background;Town",
             "transition;open",
@@ -34045,84 +34063,30 @@
             "for;PartyMembers;[unit.nid for unit in game.get_player_units()]",
             "give_skill;{PartyMembers};ArenaDurability;no_banner",
             "endf",
-            "if;any_unit_in_region('New Region', team='player') == False",
-            "make_generic;;Halberdier;1;other;Ch15;Enemy;;Steel Lance",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
+            "level_var;WeaponDict;{'Sword':'Steel Sword','Lance':'Steel Lance','Axe':'Steel Axe','Bow':'Steel Bow','Anima':'Elfire','Light':'Shine','Dark':'Miasma'}",
+            "for;spawnGreen;game.get_open_formation_spots()",
+            "level_var;ArenaEnemyKlassList;[klass.nid for klass in DB.classes if 'ArenaIgnore' not in klass.tags and klass.tier < 3]",
+            "level_var;KlassRNG;game.get_random(0, len(game.level_vars['ArenaEnemyKlassList']) - 1)",
+            "level_var;ArenaEnemyKlass;game.level_vars['ArenaEnemyKlassList'][game.level_vars['KlassRNG']]",
+            "make_generic;;{v:ArenaEnemyKlass};1;other;Ch15;Enemy",
+            "if;DB.classes.get(u('{created_unit}').klass).tier == 2",
+            "autolevel_to;{created_unit};{e:game.get_random(1,5)};random",
+            "else",
+            "autolevel_to;{created_unit};{e:game.get_random(11,19)};random",
             "end",
-            "if;any_unit_in_region('New Region_1', team='player') == False",
-            "make_generic;;Bishop;1;other;Ch15;Enemy;;Divine",
             "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_1;immediate;stack",
+            "for;LoadItem;[w for w in DB.classes.get(u('{created_unit}').klass).wexp_gain if DB.classes.get(u('{created_unit}').klass).wexp_gain[w].usable == True]",
+            "set_wexp;{created_unit};{LoadItem};121;no_banner",
+            "give_item;{created_unit};{e:game.level_vars['WeaponDict']['{LoadItem}']};no_banner",
+            "endf",
+            "level_var;CurrentCarry;len(u('{created_unit}').items) - 1",
+            "for;RemoveInventory;range(0,{v:CurrentCarry})",
+            "level_var;ItemRemove;game.get_random(0,len(u('{created_unit}').items) - 1)",
+            "remove_item;{created_unit};{e:u('{created_unit}').items[{v:ItemRemove}]};no_banner",
+            "endf",
+            "add_unit;{created_unit};{spawnGreen};immediate;stack",
             "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_2', team='player') == False",
-            "make_generic;;Mage;15;other;Ch15;Enemy;;Fire",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_2;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_3', team='player') == False",
-            "make_generic;;Fighter;15;other;Ch15;Enemy;;Steel Axe",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_3;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_4', team='player') == False",
-            "make_generic;;Halberdier;1;other;Ch15;Enemy;;Steel Lance",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_4;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_5', team='player') == False",
-            "make_generic;;Soldier;15;other;Ch15;Enemy;;Steel Lance",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_5;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_6', team='player') == False",
-            "make_generic;;Halberdier;1;other;Ch15;Enemy;;Steel Lance",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_6;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_7', team='player') == False",
-            "make_generic;;Shaman;15;other;Ch15;Enemy;;Nosferatu",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_7;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_8', team='player') == False",
-            "make_generic;;Sage;1;other;Ch15;Enemy;;Elfire",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_8;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_9', team='player') == False",
-            "make_generic;;Mercenary;15;other;Ch15;Enemy;;Steel Sword",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_9;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_10', team='player') == False",
-            "make_generic;;Mercenary;15;other;Ch15;Enemy;;Steel Sword",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_10;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_11', team='player') == False",
-            "make_generic;;Sage;1;other;Ch15;Enemy;;Elfire",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_11;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end",
-            "if;any_unit_in_region('New Region_12', team='player') == False",
-            "make_generic;;Fighter;15;other;Ch15;Enemy;;Steel Axe",
-            "trigger_script;Global RandomGender;{created_unit}",
-            "add_unit;{created_unit};New Region_12;immediate;stack",
-            "give_skill;{created_unit};ArenaDurability;no_banner",
-            "end"
+            "endf"
         ],
         "nid": "15 Turn1"
     },
@@ -35969,9 +35933,11 @@
         "priority": 20,
         "_source": [
             "level_var;GenderValue;game.get_random(0,1)",
-            "if;{v:GenderValue} == 1",
+            "if;{v:GenderValue} == 1 and unit.variant != None",
             "level_var;VariantName;'Female' + '{e:game.get_unit('{unit}').variant}'",
             "set_variant;{unit};{v:VariantName}",
+            "elif;{v:GenderValue} == 1",
+            "set_variant;{unit};Female",
             "end"
         ],
         "nid": "Global RandomGender"
