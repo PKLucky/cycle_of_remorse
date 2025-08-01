@@ -7626,6 +7626,10 @@
         ],
         "palettes": [
             [
+                "ShieldAscend_GenericGreen",
+                "ShieldAscend_GenericGreen"
+            ],
+            [
                 "Joshua",
                 "ShieldAscend_Joshua"
             ],
@@ -7867,6 +7871,10 @@
             ]
         ],
         "palettes": [
+            [
+                "GenericGreen",
+                "ShieldHover_GenericGreen"
+            ],
             [
                 "Joshua",
                 "ShieldHover_Joshua"
@@ -8301,6 +8309,10 @@
             ]
         ],
         "palettes": [
+            [
+                "GenericGreen",
+                "ShieldDescend_GenericGreen"
+            ],
             [
                 "Joshua",
                 "ShieldDescend_Joshua"
