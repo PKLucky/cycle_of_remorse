@@ -394,5 +394,9 @@
     {
         "nid": "prep_gba_save_desc",
         "text": "Save any changes. Choose Restart Chapter to restart this chapter."
+    },
+    {
+        "nid": "Lucky_desc",
+        "text": "All units will get perfect level ups."
     }
 ]

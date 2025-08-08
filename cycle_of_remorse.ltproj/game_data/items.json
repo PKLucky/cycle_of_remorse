@@ -13045,7 +13045,7 @@
             ],
             [
                 "c_uses",
-                10
+                5
             ],
             [
                 "uses_options",
@@ -13120,7 +13120,7 @@
             ],
             [
                 "c_uses",
-                10
+                5
             ],
             [
                 "uses_options",
@@ -13195,7 +13195,7 @@
             ],
             [
                 "c_uses",
-                14
+                10
             ],
             [
                 "uses_options",
@@ -13262,7 +13262,7 @@
             ],
             [
                 "c_uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -13325,7 +13325,7 @@
             ],
             [
                 "c_uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -15902,7 +15902,7 @@
     {
         "nid": "Shove",
         "name": "Shove",
-        "desc": "If unit's CON > ally's CON, move ally one space away from unit.",
+        "desc": "If unit's CON + 2 > ally's CON, move ally one space away from unit.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -15942,7 +15942,7 @@
     {
         "nid": "LUCIAN",
         "name": "<white>Reposition</>",
-        "desc": "If unit's CON > ally's CON, move ally one space away from unit.",
+        "desc": "If unit's CON + 2 > ally's CON, move ally one space away from unit.",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -15972,6 +15972,10 @@
             [
                 "no_map_hp_display",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.get_stat('CON') + 2 >= target.get_stat('CON')"
             ]
         ]
     },
@@ -16205,8 +16209,8 @@
     },
     {
         "nid": "DAMIAN",
-        "name": "Ritual Summon",
-        "desc": "",
+        "name": "Summon",
+        "desc": "Summons a phantom in exchange for 1000G and an optional weapon from the unit's inventory. The phantom will wield the chosen weapon (or an Iron Axe if none chosen) and will be the same level as the unit. Only one phantom can be summoned at a time.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -16219,6 +16223,10 @@
             ],
             [
                 "spell",
+                null
+            ],
+            [
+                "target_tile",
                 null
             ],
             [
@@ -16242,12 +16250,20 @@
                 11
             ],
             [
-                "event_after_combat_even_miss",
+                "map_cast_pose",
+                null
+            ],
+            [
+                "hover_description",
+                "Summon a phantom in exchange for gold."
+            ],
+            [
+                "event_on_hit",
                 "Global RitualSummon"
             ],
             [
-                "map_cast_pose",
-                null
+                "eval_available",
+                "game.get_money() >= 1000 and (not u('Phantom') or game.check_dead('Phantom') == True)"
             ]
         ]
     },

@@ -19,7 +19,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 35,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -32,7 +32,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -45,7 +45,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 100,
                 "gate": "TruthPlot",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -78,7 +78,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -91,7 +91,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -104,7 +104,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 105,
+                "requirement": 115,
                 "gate": "CircPlot",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -137,7 +137,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -150,7 +150,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -163,7 +163,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 105,
+                "requirement": 115,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -196,7 +196,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -209,7 +209,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 80,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -242,7 +242,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -255,7 +255,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 80,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -268,7 +268,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 105,
+                "requirement": 115,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -301,7 +301,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -314,7 +314,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 110,
+                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -360,7 +360,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 100,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -381,98 +381,6 @@
             {
                 "support_rank": "C",
                 "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 100,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
-        "unit2": "Lucy",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 100,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
-        "unit2": "Felicity",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -508,10 +416,102 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Krista",
+        "unit2": "Lucy",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 55,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 85,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Krista",
+        "unit2": "Felicity",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 70,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
             },
             {
                 "support_rank": "S",
-                "requirement": 115,
+                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -557,7 +557,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 50,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -570,7 +570,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 75,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -616,7 +616,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 50,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -636,7 +636,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -649,7 +649,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -662,7 +662,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -675,7 +675,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 115,
+                "requirement": 105,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -691,183 +691,6 @@
     {
         "unit1": "Krista",
         "unit2": "Parker",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 40,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
-        "unit2": "Khalid",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 85,
-                "gate": "TruthPlot",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
-        "unit2": "Masashi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 40,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 90,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
-        "unit2": "Tsubaki",
         "one_way": false,
         "requirements": [
             {
@@ -898,7 +721,197 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 45,
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Krista",
+        "unit2": "Khalid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "requirement": 40,
+                "gate": "TruthPlot",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Krista",
+        "unit2": "Masashi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 35,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 55,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Krista",
+        "unit2": "Hikaru",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 35,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -918,7 +931,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -931,7 +944,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -959,12 +972,12 @@
     },
     {
         "unit1": "Krista",
-        "unit2": "Judah",
+        "unit2": "Tsubaki",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -977,7 +990,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 35,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -990,7 +1003,53 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 50,
+                "requirement": 35,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Krista",
+        "unit2": "Judah",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1069,7 +1128,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 4,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1082,7 +1141,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 8,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1095,7 +1154,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 35,
+                "requirement": 12,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1108,7 +1167,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 50,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1124,636 +1183,6 @@
     {
         "unit1": "Krista",
         "unit2": "Matthew",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 115,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Kai",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 125,
-                "gate": "CircPlot",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Trevor",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 130,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Chell",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 110,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Taylor",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 110,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Alex",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 110,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Lucy",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Michael",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 110,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Felicity",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Marina",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 125,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Jake",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Xiang",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
-        "unit2": "Yumi",
         "one_way": false,
         "requirements": [
             {
@@ -1794,12 +1223,445 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 85,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
             }
         ]
     },
     {
         "unit1": "Forrest",
-        "unit2": "Reem",
+        "unit2": "Kai",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 60,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 95,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 135,
+                "gate": "CircPlot",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Trevor",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 60,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 90,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Chell",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 100,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Taylor",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 100,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Alex",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 100,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Lucy",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Michael",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 60,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 105,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Felicity",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 85,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Marina",
         "one_way": false,
         "requirements": [
             {
@@ -1858,12 +1720,12 @@
     },
     {
         "unit1": "Forrest",
-        "unit2": "Nagisa",
+        "unit2": "Jake",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1876,7 +1738,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1889,7 +1751,204 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 55,
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Xiang",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 60,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 90,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Yumi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Reem",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 35,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Nagisa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 5,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1909,19 +1968,6 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
                 "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
@@ -1934,8 +1980,21 @@
                 "defense_speed": 0.0
             },
             {
+                "support_rank": "B",
+                "requirement": 35,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
                 "support_rank": "A",
-                "requirement": 40,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2001,7 +2060,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 10,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2014,7 +2073,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 25,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2027,7 +2086,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 40,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2060,7 +2119,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2073,7 +2132,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2086,7 +2145,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 125,
+                "requirement": 135,
                 "gate": "TruthPlot",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2119,7 +2178,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2132,7 +2191,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2165,7 +2224,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2178,7 +2237,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2198,7 +2257,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2211,7 +2270,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2224,7 +2283,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2237,7 +2296,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 115,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2303,6 +2362,216 @@
         "requirements": [
             {
                 "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 40,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "S",
+                "requirement": 60,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Kai",
+        "unit2": "Yumi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Kai",
+        "unit2": "Tsurugi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "requirement": 45,
+                "gate": "TruthPlot",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Kai",
+        "unit2": "Sumire",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 5,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Kai",
+        "unit2": "Asuka",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
                 "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
@@ -2329,7 +2598,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2342,7 +2611,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2357,7 +2626,7 @@
     },
     {
         "unit1": "Kai",
-        "unit2": "Yumi",
+        "unit2": "Tsubaki",
         "one_way": false,
         "requirements": [
             {
@@ -2375,7 +2644,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2403,222 +2672,12 @@
     },
     {
         "unit1": "Kai",
-        "unit2": "Tsurugi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 60,
-                "gate": "TruthPlot",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Kai",
-        "unit2": "Sumire",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Kai",
-        "unit2": "Asuka",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Kai",
-        "unit2": "Tsubaki",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Kai",
         "unit2": "Nagisa",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2631,7 +2690,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2644,7 +2703,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 45,
+                "requirement": 70,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2723,7 +2782,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2736,7 +2795,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2769,7 +2828,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2782,7 +2841,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 90,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2795,7 +2854,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 120,
+                "requirement": 135,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2815,7 +2874,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2828,7 +2887,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2841,7 +2900,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2907,7 +2966,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2920,7 +2979,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2933,7 +2992,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 90,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2953,7 +3012,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2966,7 +3025,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2979,7 +3038,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2992,7 +3051,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 95,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3012,7 +3071,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3025,7 +3084,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3038,7 +3097,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3051,7 +3110,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 95,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3071,7 +3130,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3084,7 +3143,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3097,7 +3156,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3248,7 +3307,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 35,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3261,7 +3320,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 55,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3274,7 +3333,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3294,7 +3353,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3320,7 +3379,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3333,7 +3392,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 110,
+                "requirement": 115,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3353,7 +3412,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3379,7 +3438,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3399,7 +3458,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3425,7 +3484,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3471,7 +3530,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3484,7 +3543,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 95,
+                "requirement": 110,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3602,7 +3661,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3622,53 +3681,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Chell",
-        "unit2": "Yumi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3694,7 +3707,53 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 70,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Chell",
+        "unit2": "Yumi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3753,7 +3812,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 75,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3773,7 +3832,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3786,7 +3845,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3799,7 +3858,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3891,7 +3950,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3937,7 +3996,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3996,53 +4055,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Sam",
-        "unit2": "Michael",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4062,7 +4075,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 35,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4075,7 +4088,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 70,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4088,7 +4101,53 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 105,
+                "requirement": 135,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sam",
+        "unit2": "Michael",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4154,7 +4213,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4167,7 +4226,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4180,7 +4239,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4195,53 +4254,7 @@
     },
     {
         "unit1": "Sam",
-        "unit2": "Yumi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 70,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Sam",
-        "unit2": "Lin",
+        "unit2": "Taiga",
         "one_way": false,
         "requirements": [
             {
@@ -4287,12 +4300,12 @@
     },
     {
         "unit1": "Sam",
-        "unit2": "Reem",
+        "unit2": "Yumi",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4305,7 +4318,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4318,7 +4331,99 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sam",
+        "unit2": "Lin",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 40,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Sam",
+        "unit2": "Reem",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4331,7 +4436,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 110,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4351,7 +4456,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4364,7 +4469,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4377,7 +4482,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4489,7 +4594,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4502,7 +4607,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4515,7 +4620,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 35,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4574,7 +4679,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 55,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4587,7 +4692,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 75,
+                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4633,7 +4738,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4679,66 +4784,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Anil",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 80,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 110,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4784,7 +4830,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4799,12 +4845,12 @@
     },
     {
         "unit1": "Aqua",
-        "unit2": "Michael",
+        "unit2": "Anil",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4842,8 +4888,67 @@
                 "defense_speed": 0.0
             },
             {
+                "support_rank": "A+",
+                "requirement": 115,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Aqua",
+        "unit2": "Michael",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
                 "support_rank": "S",
-                "requirement": 120,
+                "requirement": 110,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4863,7 +4968,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4876,7 +4981,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4889,7 +4994,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 45,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4902,7 +5007,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 60,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5027,7 +5132,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5040,7 +5145,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5053,7 +5158,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 45,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5191,7 +5296,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 65,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5204,7 +5309,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 100,
+                "requirement": 90,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5217,7 +5322,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 140,
+                "requirement": 120,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5263,7 +5368,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 45,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5276,7 +5381,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 60,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5355,7 +5460,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5368,7 +5473,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5381,7 +5486,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5394,7 +5499,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5532,7 +5637,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5545,7 +5650,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5565,7 +5670,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 30,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5578,7 +5683,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5591,7 +5696,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5611,7 +5716,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5624,7 +5729,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5637,7 +5742,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5657,7 +5762,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5801,7 +5906,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5880,53 +5985,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Taylor",
-        "unit2": "Taiga",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 40,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5949,10 +6008,56 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Taylor",
+        "unit2": "Taiga",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5972,7 +6077,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5985,7 +6090,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -5998,7 +6103,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6011,7 +6116,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6090,7 +6195,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6103,7 +6208,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6116,53 +6221,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Alex",
-        "unit2": "Anil",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
                 "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 95,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6195,7 +6254,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 60,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6208,7 +6267,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 95,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6223,58 +6282,12 @@
     },
     {
         "unit1": "Alex",
-        "unit2": "Michael",
+        "unit2": "Anil",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
                 "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 95,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Alex",
-        "unit2": "Viola",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6301,6 +6314,98 @@
             {
                 "support_rank": "A",
                 "requirement": 85,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alex",
+        "unit2": "Michael",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 75,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alex",
+        "unit2": "Viola",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 50,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 80,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6405,7 +6510,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6425,7 +6530,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6438,7 +6543,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6451,7 +6556,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6464,7 +6569,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 95,
+                "requirement": 70,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6484,7 +6589,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6497,7 +6602,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6510,7 +6615,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6602,7 +6707,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6622,7 +6727,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6635,7 +6740,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6648,7 +6753,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 90,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6661,7 +6766,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 125,
+                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6727,7 +6832,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6740,7 +6845,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6753,7 +6858,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6773,7 +6878,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6786,7 +6891,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6799,7 +6904,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6812,7 +6917,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 100,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6832,7 +6937,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6845,7 +6950,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6858,7 +6963,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6871,7 +6976,53 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 100,
+                "requirement": 65,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Lucy",
+        "unit2": "Yukino",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 5,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6976,7 +7127,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 85,
+                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6996,7 +7147,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7009,7 +7160,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7022,7 +7173,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7134,7 +7285,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7147,7 +7298,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7160,7 +7311,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7219,7 +7370,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7285,7 +7436,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7298,7 +7449,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7311,7 +7462,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7331,7 +7482,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7344,7 +7495,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7357,7 +7508,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7449,7 +7600,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7528,7 +7679,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7541,7 +7692,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7554,7 +7705,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7574,7 +7725,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7587,7 +7738,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7600,7 +7751,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7817,7 +7968,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7830,7 +7981,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7843,7 +7994,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7856,7 +8007,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 100,
+                "requirement": 85,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7876,7 +8027,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7889,7 +8040,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7902,7 +8053,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8073,7 +8224,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8086,7 +8237,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8099,7 +8250,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8112,7 +8263,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8132,7 +8283,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8145,7 +8296,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8158,7 +8309,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8171,7 +8322,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 90,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8191,7 +8342,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8204,7 +8355,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8217,7 +8368,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8230,7 +8381,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 85,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8296,7 +8447,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8309,7 +8460,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8322,7 +8473,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8335,7 +8486,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 90,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8355,7 +8506,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8368,7 +8519,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8381,7 +8532,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8506,7 +8657,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8519,7 +8670,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8532,7 +8683,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8552,7 +8703,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8565,7 +8716,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8578,7 +8729,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8860,7 +9011,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 60,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8880,7 +9031,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8893,7 +9044,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8906,7 +9057,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8926,7 +9077,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8939,7 +9090,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8952,7 +9103,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8965,7 +9116,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8985,7 +9136,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8998,7 +9149,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 45,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9011,7 +9162,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 70,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9024,7 +9175,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 100,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9044,7 +9195,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9057,7 +9208,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9070,7 +9221,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9090,7 +9241,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9103,7 +9254,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9116,7 +9267,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9313,7 +9464,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 15,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9563,7 +9714,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9576,7 +9727,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9589,7 +9740,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9602,7 +9753,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 85,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9622,7 +9773,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9635,7 +9786,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9648,7 +9799,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9773,7 +9924,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9786,7 +9937,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9799,7 +9950,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9812,7 +9963,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 110,
+                "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9878,7 +10029,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9891,7 +10042,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9904,7 +10055,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9917,7 +10068,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 90,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9996,7 +10147,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10009,7 +10160,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10022,7 +10173,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 80,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10035,7 +10186,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 110,
+                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10114,7 +10265,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10127,7 +10278,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10140,7 +10291,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10153,7 +10304,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10357,7 +10508,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10370,7 +10521,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10383,7 +10534,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10403,7 +10554,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10416,7 +10567,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 55,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10429,7 +10580,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 85,
+                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10449,7 +10600,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10462,7 +10613,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10475,7 +10626,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10488,7 +10639,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10508,7 +10659,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10521,7 +10672,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10534,7 +10685,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10547,7 +10698,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 90,
+                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10685,7 +10836,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10698,7 +10849,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10711,7 +10862,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10724,7 +10875,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10744,7 +10895,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10757,7 +10908,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10770,7 +10921,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10783,7 +10934,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10849,7 +11000,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10862,7 +11013,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10875,7 +11026,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 65,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10888,7 +11039,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 90,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10908,7 +11059,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 25,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10921,7 +11072,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 50,
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10934,7 +11085,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 75,
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10947,7 +11098,53 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 105,
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Lin",
+        "unit2": "Masashi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 5,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10967,7 +11164,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10980,7 +11177,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10993,7 +11190,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11006,7 +11203,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11085,7 +11282,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 20,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11098,7 +11295,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11111,7 +11308,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 60,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11124,7 +11321,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 80,
+                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11249,7 +11446,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11262,7 +11459,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11275,7 +11472,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 40,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11288,7 +11485,7 @@
             },
             {
                 "support_rank": "S",
-                "requirement": 50,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11308,7 +11505,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11321,7 +11518,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11334,7 +11531,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 40,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11354,7 +11551,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 15,
+                "requirement": 5,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11367,7 +11564,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 30,
+                "requirement": 10,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11380,7 +11577,7 @@
             },
             {
                 "support_rank": "A",
-                "requirement": 45,
+                "requirement": 15,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -11393,7 +11590,7 @@
             },
             {
                 "support_rank": "A+",
-                "requirement": 65,
+                "requirement": 25,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,

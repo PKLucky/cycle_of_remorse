@@ -8182,8 +8182,8 @@
         "fields": []
     },
     {
-        "nid": "Sorceror",
-        "name": "Sorceror",
+        "nid": "Sorcerer",
+        "name": "Sorcerer",
         "desc": "Masters of the dark arts and staff utility.",
         "tier": 2,
         "movement_group": "Mages",
@@ -9396,7 +9396,7 @@
         "movement_group": "Fliers",
         "promotes_from": "GriffonRider",
         "turns_into": [
-            "Arbalest"
+            "Axex"
         ],
         "tags": [
             "Mounted",
@@ -9522,8 +9522,8 @@
         "fields": []
     },
     {
-        "nid": "Arbalest",
-        "name": "Arbalest",
+        "nid": "Axex",
+        "name": "Axex",
         "desc": "A griffon rider who has mastered the art of aerial combat.",
         "tier": 3,
         "movement_group": "Fliers",
@@ -9649,7 +9649,7 @@
             0
         ],
         "map_sprite_nid": "Arbalest",
-        "combat_anim_nid": "Arbalest",
+        "combat_anim_nid": "Axex",
         "fields": []
     },
     {
@@ -11937,42 +11937,42 @@
         ],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 0,
                 251
             ],
             "Lance": [
-                true,
+                false,
                 0,
                 251
             ],
             "Axe": [
-                true,
+                false,
                 0,
                 251
             ],
             "Bow": [
-                true,
+                false,
                 0,
                 251
             ],
             "Staff": [
-                true,
+                false,
                 0,
                 251
             ],
             "Light": [
-                true,
+                false,
                 0,
                 251
             ],
             "Anima": [
-                true,
+                false,
                 0,
                 251
             ],
             "Dark": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -12324,42 +12324,42 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                0,
+                491,
                 null
             ],
             "Lance": [
                 true,
-                0,
+                491,
                 null
             ],
             "Axe": [
                 true,
-                0,
+                491,
                 null
             ],
             "Bow": [
                 true,
-                0,
+                491,
                 null
             ],
             "Staff": [
                 true,
-                0,
+                491,
                 null
             ],
             "Light": [
                 true,
-                0,
+                491,
                 null
             ],
             "Anima": [
                 true,
-                0,
+                491,
                 null
             ],
             "Dark": [
                 true,
-                0,
+                491,
                 null
             ],
             "Default": [

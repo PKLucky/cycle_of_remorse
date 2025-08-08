@@ -4598,6 +4598,22 @@
                 "generic": false
             },
             {
+                "nid": "FerrachCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Trickster",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "101",
                 "variant": "Sword",
                 "level": 5,
@@ -18881,7 +18897,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Arena</>",
+                "sub_nid": "Arena",
                 "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
@@ -34312,7 +34328,7 @@
                 "nid": "124",
                 "variant": null,
                 "level": 3,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ",
                 "starting_items": [
                     [
@@ -34436,7 +34452,7 @@
                 "nid": "129",
                 "variant": null,
                 "level": 3,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Merinas",
                 "starting_items": [
                     [
@@ -37489,7 +37505,7 @@
                 "nid": "112",
                 "variant": null,
                 "level": 4,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -37901,7 +37917,7 @@
                 "nid": "130",
                 "variant": null,
                 "level": 4,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -39677,7 +39693,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 5,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -39965,7 +39981,7 @@
                 "nid": "129",
                 "variant": null,
                 "level": 5,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -40285,7 +40301,7 @@
                 "nid": "141",
                 "variant": null,
                 "level": 5,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -41460,7 +41476,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 5,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -41676,7 +41692,7 @@
                 "nid": "129",
                 "variant": null,
                 "level": 5,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
                 "starting_items": [
                     [
@@ -42165,6 +42181,22 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "MiloCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Assassin",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             },
             {
                 "nid": "snag1",
@@ -42664,7 +42696,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 6,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -42904,7 +42936,7 @@
                 "nid": "128",
                 "variant": null,
                 "level": 7,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -43240,7 +43272,7 @@
                 "nid": "142",
                 "variant": null,
                 "level": 7,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -43814,7 +43846,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 1,
-                "klass": "Sorceror",
+                "klass": "Sorcerer",
                 "faction": "Knight",
                 "starting_items": [
                     [
@@ -43863,10 +43895,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -43929,10 +43958,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    14,
-                    6
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44032,10 +44058,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    14,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44165,7 +44188,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    10,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44298,7 +44324,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44365,8 +44394,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    8
+                    10,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -44438,7 +44467,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<white>Chest</>",
+                "sub_nid": "Chest",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,

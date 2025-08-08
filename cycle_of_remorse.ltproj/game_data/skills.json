@@ -3468,7 +3468,7 @@
     {
         "nid": "DAMIEN",
         "name": "Ritual Summon",
-        "desc": "Summons a phantom in exchange for Gold and an optional item from the unit's inventory.",
+        "desc": "Summons a phantom in exchange for 1000G and an optional weapon from the unit's inventory. The phantom will wield the chosen weapon (or an Iron Axe if none chosen) and will be the same level as the unit. Only one phantom can be summoned at a time.",
         "icon_nid": "Skills",
         "icon_index": [
             15,

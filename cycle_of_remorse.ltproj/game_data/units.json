@@ -147,7 +147,7 @@
         "nid": "Forrest",
         "name": "Forrest",
         "desc": "Krista's retainer.\nDevoted to his kingdom and liege.",
-        "variant": "Forrest",
+        "variant": "",
         "level": 1,
         "klass": "Mage Knight",
         "tags": [
@@ -291,7 +291,7 @@
         "nid": "Kai",
         "name": "Kai",
         "desc": "Studious sellsword from Merinas.\nKrista's tactician.",
-        "variant": "Kai",
+        "variant": "",
         "level": 1,
         "klass": "Mercenary",
         "tags": [
@@ -5700,7 +5700,7 @@
         "desc": "A young girl from Coral Desert.\nOptimistic and a hard-worker.",
         "variant": "Female",
         "level": 1,
-        "klass": "Sorceror",
+        "klass": "Sorcerer",
         "tags": [
             "Female",
             "Dark",
@@ -6751,16 +6751,16 @@
         "klass": "Drake",
         "tags": [],
         "bases": {
-            "HP": 15,
-            "STR": 1,
-            "MAG": 4,
-            "SKL": 3,
-            "SPD": 4,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 5,
-            "CON": 1,
-            "MOV": 0
+            "HP": 45,
+            "STR": 24,
+            "MAG": 27,
+            "SKL": 26,
+            "SPD": 29,
+            "LCK": 23,
+            "DEF": 26,
+            "RES": 25,
+            "CON": 8,
+            "MOV": 7
         },
         "growths": {
             "HP": 65,
@@ -6771,7 +6771,7 @@
             "LCK": 25,
             "DEF": 25,
             "RES": 55,
-            "CON": 0,
+            "CON": 10,
             "MOV": 0
         },
         "stat_cap_modifiers": {
