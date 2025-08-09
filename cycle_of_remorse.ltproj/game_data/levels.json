@@ -19039,7 +19039,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Water"
+        ],
         "units": [
             {
                 "nid": "Krista",
@@ -21878,7 +21880,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Water"
+        ],
         "units": [
             {
                 "nid": "Krista",
@@ -26351,7 +26355,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Water"
+        ],
         "units": [
             {
                 "nid": "Krista",
@@ -27997,7 +28003,8 @@
         "go_to_overworld": false,
         "should_record": true,
         "tags": [
-            "MapGaiden"
+            "MapGaiden",
+            "Water"
         ],
         "units": [
             {
@@ -33601,7 +33608,9 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "tags": [],
+        "tags": [
+            "Water"
+        ],
         "units": [
             {
                 "nid": "Krista",
