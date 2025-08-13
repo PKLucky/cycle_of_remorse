@@ -9396,7 +9396,7 @@
         "movement_group": "Fliers",
         "promotes_from": "GriffonRider",
         "turns_into": [
-            "Axex"
+            "AxexFighter"
         ],
         "tags": [
             "Mounted",
@@ -9522,8 +9522,8 @@
         "fields": []
     },
     {
-        "nid": "Axex",
-        "name": "Axex",
+        "nid": "AxexFighter",
+        "name": "Axex Fighter",
         "desc": "A griffon rider who has mastered the art of aerial combat.",
         "tier": 3,
         "movement_group": "Fliers",
@@ -9649,7 +9649,7 @@
             0
         ],
         "map_sprite_nid": "Arbalest",
-        "combat_anim_nid": "Axex",
+        "combat_anim_nid": "AxexFighter",
         "fields": []
     },
     {

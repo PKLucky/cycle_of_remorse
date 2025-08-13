@@ -29,7 +29,7 @@
             ],
             [
                 "EldritchAbomination, Raspberry, Ayr",
-                "Arbalest"
+                "Axex Fighter"
             ],
             [
                 "Keks_Krebs, Beccarte, SD9K",
@@ -358,7 +358,7 @@
                 "Map Design"
             ],
             [
-                "PKLucky, Berserker Sam, BladeofLight12",
+                "PKLucky, Berserker Sam, BladeofLight12, StarPlush",
                 "Support Conversations"
             ],
             [
@@ -2802,7 +2802,7 @@
         ]
     },
     {
-        "nid": "Map_Arbalest",
+        "nid": "Map_AxexFighter",
         "sub_nid": "Arbalest",
         "credit_type": 8,
         "category": "Graphics",

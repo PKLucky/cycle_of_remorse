@@ -6061,7 +6061,15 @@
             "#give_item;Tsubaki;Amaterasu",
             "#kill;Haruki",
             "#kill;Michael",
-            "#prep;t;gba"
+            "#prep;t;gba",
+            "#lvar;Test;1",
+            "#for;TestLevel;[unit for unit in game.get_player_units()]",
+            "#speak;;{e:u('{TestLevel}').nid} {e:u('{TestLevel}').get_internal_level()}",
+            "#if;u('{TestLevel}').get_internal_level() > {v:Test}",
+            "#lvar;Test;{TestLevel}",
+            "#end",
+            "#endf",
+            "#speak;;{e:max(1,v('Test'))}"
         ],
         "nid": "DEBUG Intro"
     },
