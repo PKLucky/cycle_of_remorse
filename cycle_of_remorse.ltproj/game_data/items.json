@@ -7737,10 +7737,6 @@
             [
                 "equation_heal",
                 "HEAL"
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -7842,10 +7838,6 @@
                 [
                     "Foliaga"
                 ]
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -7929,10 +7921,6 @@
             [
                 "equation_heal",
                 "MEND"
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8016,10 +8004,6 @@
             [
                 "battle_animation_music",
                 "Curing"
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8124,8 +8108,8 @@
                 "HEAL"
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Restores an ally's HP from afar."
             ]
         ]
     },
@@ -8213,10 +8197,6 @@
             [
                 "equation_heal",
                 "MEND"
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8300,10 +8280,6 @@
             [
                 "wexp",
                 5
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8373,8 +8349,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Restores HP to all allies within range."
             ]
         ]
     },
@@ -8464,12 +8440,12 @@
                 "v('_fog_of_war')"
             ],
             [
-                "map_cast_pose",
-                null
-            ],
-            [
                 "eval_target_restrict_2",
                 "not game.get_region_under_pos(target_pos, 'vision')"
+            ],
+            [
+                "hover_description",
+                "Lights an area."
             ]
         ]
     },
@@ -8535,8 +8511,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Opens locks."
             ]
         ]
     },
@@ -8620,10 +8596,6 @@
             [
                 "map_hit_sfx",
                 "DebuffRecover"
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8699,17 +8671,6 @@
             [
                 "hit",
                 30
-            ],
-            [
-                "eval_ai_priority",
-                {
-                    "condition": "True",
-                    "priority": "1"
-                }
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8781,17 +8742,6 @@
             [
                 "hit",
                 30
-            ],
-            [
-                "eval_ai_priority",
-                {
-                    "condition": "True",
-                    "priority": "1"
-                }
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8863,17 +8813,6 @@
             [
                 "hit",
                 30
-            ],
-            [
-                "eval_ai_priority",
-                {
-                    "condition": "True",
-                    "priority": "1"
-                }
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -8959,8 +8898,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Trade items with a distant allied unit."
             ]
         ]
     },
@@ -9032,17 +8971,6 @@
             [
                 "hit",
                 30
-            ],
-            [
-                "eval_ai_priority",
-                {
-                    "condition": "True",
-                    "priority": "1"
-                }
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -9164,8 +9092,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Repair an item to full uses."
             ]
         ]
     },
@@ -9241,17 +9169,6 @@
             [
                 "battle_animation_music",
                 "Healing"
-            ],
-            [
-                "eval_ai_priority",
-                {
-                    "condition": "True",
-                    "priority": "1"
-                }
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -9332,8 +9249,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Bring an ally to a space adjacent to the user."
             ]
         ]
     },
@@ -9482,8 +9399,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Move an ally to another square."
             ]
         ]
     },
@@ -9613,8 +9530,8 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Restores HP and condition of all allied units."
             ]
         ]
     },
@@ -9722,8 +9639,8 @@
                 ]
             ],
             [
-                "map_cast_pose",
-                null
+                "hover_description",
+                "Revives one dead unit."
             ]
         ]
     },
@@ -13528,11 +13445,11 @@
                 null
             ],
             [
-                "map_cast_pose",
+                "no_map_hp_display",
                 null
             ],
             [
-                "no_map_hp_display",
+                "map_cast_pose",
                 null
             ]
         ]
@@ -13595,11 +13512,11 @@
                 null
             ],
             [
-                "map_cast_pose",
+                "no_map_hp_display",
                 null
             ],
             [
-                "no_map_hp_display",
+                "map_cast_pose",
                 null
             ]
         ]
@@ -13940,11 +13857,11 @@
                 "v('_fog_of_war')"
             ],
             [
-                "map_cast_pose",
+                "no_map_hp_display",
                 null
             ],
             [
-                "no_map_hp_display",
+                "map_cast_pose",
                 null
             ]
         ]
@@ -14718,10 +14635,6 @@
                 "unit.level >= 10"
             ],
             [
-                "map_cast_pose",
-                null
-            ],
-            [
                 "no_map_hp_display",
                 null
             ]
@@ -14776,10 +14689,6 @@
             ],
             [
                 "no_map_hp_display",
-                null
-            ],
-            [
-                "map_cast_pose",
                 null
             ]
         ]
@@ -14840,10 +14749,6 @@
             [
                 "no_map_hp_display",
                 null
-            ],
-            [
-                "map_cast_pose",
-                null
             ]
         ]
     },
@@ -14896,10 +14801,6 @@
             ],
             [
                 "no_map_hp_display",
-                null
-            ],
-            [
-                "map_cast_pose",
                 null
             ]
         ]
@@ -15380,10 +15281,6 @@
                 null
             ],
             [
-                "map_cast_pose",
-                null
-            ],
-            [
                 "eval_target_restrict_2",
                 "not (game.get_region_under_pos(target_pos, 'terrain') or game.get_region_under_pos(target_pos, 'event'))"
             ]
@@ -15599,10 +15496,6 @@
             ],
             [
                 "no_map_hp_display",
-                null
-            ],
-            [
-                "map_cast_pose",
                 null
             ]
         ]
@@ -16250,10 +16143,6 @@
                 11
             ],
             [
-                "map_cast_pose",
-                null
-            ],
-            [
                 "hover_description",
                 "Summon a phantom in exchange for gold."
             ],
@@ -16299,10 +16188,6 @@
             ],
             [
                 "no_map_hp_display",
-                null
-            ],
-            [
-                "map_cast_pose",
                 null
             ]
         ]

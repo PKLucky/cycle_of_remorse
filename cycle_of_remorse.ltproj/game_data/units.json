@@ -2321,9 +2321,9 @@
         "klass": "Mercenary",
         "tags": [],
         "bases": {
-            "HP": 20,
+            "HP": 23,
             "STR": 9,
-            "MAG": 5,
+            "MAG": 2,
             "SKL": 6,
             "SPD": 5,
             "LCK": 4,
@@ -2430,7 +2430,7 @@
             ],
             [
                 "PromoStatCap3",
-                "HP,1,STR,8,SKL,6,SPD,2,DEF,14"
+                "HP,4,STR,8,SKL,6,SPD,2,DEF,14"
             ]
         ]
     },
@@ -5597,21 +5597,21 @@
         "desc": "A villager from Coral Desert.\nSerious, but has a soft side.",
         "variant": "Female",
         "level": 1,
-        "klass": "Sage",
+        "klass": "Sniper",
         "tags": [
             "Female"
         ],
         "bases": {
             "SPD": 22,
-            "RES": 15,
+            "RES": 11,
             "LCK": 13,
             "HP": 32,
             "CON": 6,
             "SKL": 23,
             "MOV": 6,
-            "DEF": 12,
-            "STR": 0,
-            "MAG": 15
+            "DEF": 11,
+            "STR": 15,
+            "MAG": 5
         },
         "growths": {
             "SPD": 50,
@@ -5622,8 +5622,8 @@
             "SKL": 55,
             "MOV": 0,
             "DEF": 25,
-            "STR": 0,
-            "MAG": 50
+            "STR": 40,
+            "MAG": 10
         },
         "stat_cap_modifiers": {
             "SPD": 3,
@@ -5639,11 +5639,7 @@
         },
         "starting_items": [
             [
-                "Elwind",
-                false
-            ],
-            [
-                "Gleam",
+                "BroadheadBow",
                 false
             ],
             [
@@ -5665,12 +5661,12 @@
         "wexp_gain": {
             "Bow": [
                 false,
-                0,
+                241,
                 null
             ],
             "Light": [
                 false,
-                131,
+                0,
                 null
             ],
             "Dark": [
@@ -5680,7 +5676,7 @@
             ],
             "Anima": [
                 false,
-                241,
+                0,
                 null
             ]
         },
@@ -5792,113 +5788,6 @@
                 "HP,2,SKL,3"
             ]
         ]
-    },
-    {
-        "nid": "Ervan",
-        "name": "Ervan",
-        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
-        "variant": "",
-        "level": 1,
-        "klass": "BowLord",
-        "tags": [
-            "Fueg",
-            "Canon"
-        ],
-        "bases": {
-            "HP": 35,
-            "STR": 25,
-            "MAG": 10,
-            "SKL": 23,
-            "SPD": 21,
-            "LCK": 10,
-            "DEF": 17,
-            "RES": 19,
-            "CON": 7,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 85,
-            "STR": 55,
-            "MAG": 5,
-            "SKL": 45,
-            "SPD": 45,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 30,
-            "CON": 15,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "DEF": 0,
-            "STR": 1,
-            "SKL": 0,
-            "SPD": 0,
-            "HP": 0,
-            "MOV": 0,
-            "CON": 0,
-            "RES": 0,
-            "MAG": 0,
-            "LCK": 0
-        },
-        "starting_items": [],
-        "learned_skills": [
-            [
-                1,
-                "ERVAN"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                131,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                241,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Ervan",
-        "affinity": "Anima",
-        "fields": []
     },
     {
         "nid": "Torgen",
@@ -7220,6 +7109,113 @@
                 "Arion{tgm}..."
             ]
         ]
+    },
+    {
+        "nid": "Ervan",
+        "name": "Ervan",
+        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
+        "variant": "",
+        "level": 1,
+        "klass": "BowLord",
+        "tags": [
+            "Fueg",
+            "Canon"
+        ],
+        "bases": {
+            "HP": 35,
+            "STR": 25,
+            "MAG": 10,
+            "SKL": 23,
+            "SPD": 21,
+            "LCK": 10,
+            "DEF": 17,
+            "RES": 19,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 55,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 30,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "STR": 1,
+            "SKL": 0,
+            "SPD": 0,
+            "HP": 0,
+            "MOV": 0,
+            "CON": 0,
+            "RES": 0,
+            "MAG": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "ERVAN"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                131,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                241,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ervan",
+        "affinity": "Anima",
+        "fields": []
     },
     {
         "nid": "Gordon",

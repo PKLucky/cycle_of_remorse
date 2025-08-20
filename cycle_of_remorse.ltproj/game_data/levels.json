@@ -6541,7 +6541,7 @@
             },
             {
                 "nid": "123",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -6589,7 +6589,7 @@
             },
             {
                 "nid": "126",
-                "variant": "Female",
+                "variant": "",
                 "level": 5,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -6637,7 +6637,7 @@
             },
             {
                 "nid": "128",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -6685,7 +6685,7 @@
             },
             {
                 "nid": "130",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -6709,7 +6709,7 @@
             },
             {
                 "nid": "131",
-                "variant": "Female",
+                "variant": "",
                 "level": 6,
                 "klass": "Archer",
                 "faction": "Knight",
@@ -7302,7 +7302,7 @@
         },
         "objective": {
             "simple": "Escape",
-            "win": "Escape",
+            "win": "Escape,Defeat boss",
             "loss": "Krista dies"
         },
         "roam": false,
@@ -44408,6 +44408,25 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "wall",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall10",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

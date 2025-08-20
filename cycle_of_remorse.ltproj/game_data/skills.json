@@ -1323,12 +1323,7 @@
             7,
             28
         ],
-        "components": [
-            [
-                "devil_axe_gba",
-                "Affect attacks done by unit"
-            ]
-        ]
+        "components": []
     },
     {
         "nid": "ArenaDurability",
