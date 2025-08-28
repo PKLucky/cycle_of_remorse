@@ -631,65 +631,6 @@
     },
     {
         "unit1": "Krista",
-        "unit2": "Xiang",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 105,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
         "unit2": "Parker",
         "one_way": false,
         "requirements": [
@@ -849,19 +790,6 @@
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
             }
         ]
     },
@@ -958,52 +886,6 @@
             {
                 "support_rank": "A",
                 "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Krista",
-        "unit2": "Tsubaki",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1284,7 +1166,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "S",
+                "support_rank": "A+",
                 "requirement": 135,
                 "gate": "CircPlot",
                 "damage": 0.0,
@@ -1437,19 +1319,6 @@
             {
                 "support_rank": "A",
                 "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 100,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -1615,52 +1484,6 @@
     },
     {
         "unit1": "Forrest",
-        "unit2": "Felicity",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Forrest",
         "unit2": "Marina",
         "one_way": false,
         "requirements": [
@@ -1812,6 +1635,52 @@
     },
     {
         "unit1": "Forrest",
+        "unit2": "Cole",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 25,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 55,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 85,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
         "unit2": "Yumi",
         "one_way": false,
         "requirements": [
@@ -1903,6 +1772,52 @@
             {
                 "support_rank": "S",
                 "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Forrest",
+        "unit2": "Masashi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 5,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 20,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2206,11 +2121,24 @@
     },
     {
         "unit1": "Kai",
-        "unit2": "Alex",
+        "unit2": "Joshua",
         "one_way": false,
         "requirements": [
             {
                 "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
                 "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
@@ -2223,21 +2151,8 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "B",
-                "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
                 "support_rank": "A",
-                "requirement": 95,
+                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2252,66 +2167,7 @@
     },
     {
         "unit1": "Kai",
-        "unit2": "Felicity",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 40,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 95,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Kai",
-        "unit2": "Joshua",
+        "unit2": "Marina",
         "one_way": false,
         "requirements": [
             {
@@ -2402,6 +2258,52 @@
             {
                 "support_rank": "S",
                 "requirement": 60,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Kai",
+        "unit2": "Taiga",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 50,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -2610,7 +2512,7 @@
                 "defense_speed": 0.0
             },
             {
-                "support_rank": "S",
+                "support_rank": "A+",
                 "requirement": 75,
                 "gate": "",
                 "damage": 0.0,
@@ -2704,52 +2606,6 @@
             {
                 "support_rank": "A",
                 "requirement": 70,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Kai",
-        "unit2": "Damien",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3453,7 +3309,7 @@
     },
     {
         "unit1": "Chell",
-        "unit2": "Lucy",
+        "unit2": "Ecco",
         "one_way": false,
         "requirements": [
             {
@@ -3485,65 +3341,6 @@
             {
                 "support_rank": "A",
                 "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Chell",
-        "unit2": "Michael",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 110,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -3617,6 +3414,52 @@
     },
     {
         "unit1": "Chell",
+        "unit2": "Marina",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Chell",
         "unit2": "Joshua",
         "one_way": false,
         "requirements": [
@@ -3676,53 +3519,7 @@
     },
     {
         "unit1": "Chell",
-        "unit2": "Celeste",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 70,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Chell",
-        "unit2": "Yumi",
+        "unit2": "Taiga",
         "one_way": false,
         "requirements": [
             {
@@ -3813,98 +3610,6 @@
             {
                 "support_rank": "A+",
                 "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Chell",
-        "unit2": "Masashi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Chell",
-        "unit2": "Thundra",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 35,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -4799,111 +4504,6 @@
     },
     {
         "unit1": "Aqua",
-        "unit2": "Ecco",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Anil",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 115,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
         "unit2": "Michael",
         "one_way": false,
         "requirements": [
@@ -5008,262 +4608,6 @@
             {
                 "support_rank": "A+",
                 "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Xiang",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 100,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Celeste",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Hikaru",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Tsubaki",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Aqua",
-        "unit2": "Peter",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 40,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6282,52 +5626,6 @@
     },
     {
         "unit1": "Alex",
-        "unit2": "Anil",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 55,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Alex",
         "unit2": "Michael",
         "one_way": false,
         "requirements": [
@@ -6360,52 +5658,6 @@
             {
                 "support_rank": "A",
                 "requirement": 75,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Alex",
-        "unit2": "Viola",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 80,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6525,65 +5777,6 @@
     },
     {
         "unit1": "Alex",
-        "unit2": "Ryuuji",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 70,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Alex",
         "unit2": "Masashi",
         "one_way": false,
         "requirements": [
@@ -6616,52 +5809,6 @@
             {
                 "support_rank": "A",
                 "requirement": 25,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Alex",
-        "unit2": "Tsubaki",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6767,98 +5914,6 @@
             {
                 "support_rank": "S",
                 "requirement": 100,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Lucy",
-        "unit2": "Marina",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Lucy",
-        "unit2": "Celeste",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7023,52 +6078,6 @@
             {
                 "support_rank": "A",
                 "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Lucy",
-        "unit2": "Kiraz",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 55,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7280,52 +6289,6 @@
     },
     {
         "unit1": "Ecco",
-        "unit2": "Felicity",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 40,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Ecco",
         "unit2": "Joshua",
         "one_way": false,
         "requirements": [
@@ -7371,98 +6334,6 @@
             {
                 "support_rank": "S",
                 "requirement": 65,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Ecco",
-        "unit2": "Anna",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Ecco",
-        "unit2": "Yumi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -7917,52 +6788,6 @@
     },
     {
         "unit1": "Felicity",
-        "unit2": "Rembrandt",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Felicity",
         "unit2": "Xiang",
         "one_way": false,
         "requirements": [
@@ -8008,203 +6833,6 @@
             {
                 "support_rank": "S",
                 "requirement": 85,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Felicity",
-        "unit2": "Masashi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Felicity",
-        "unit2": "Asuka",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Felicity",
-        "unit2": "Kiraz",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Felicity",
-        "unit2": "Damien",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 10,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 20,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -8967,6 +7595,52 @@
     },
     {
         "unit1": "Marina",
+        "unit2": "Xiang",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 30,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Marina",
         "unit2": "Parker",
         "one_way": false,
         "requirements": [
@@ -9176,6 +7850,98 @@
             {
                 "support_rank": "S",
                 "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Joshua",
+        "unit2": "Rembrandt",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 15,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 45,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Joshua",
+        "unit2": "Masashi",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "C",
+                "requirement": 10,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "B",
+                "requirement": 20,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A",
+                "requirement": 30,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -9524,144 +8290,6 @@
         ]
     },
     {
-        "unit1": "Anna",
-        "unit2": "Yumi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Anna",
-        "unit2": "Masashi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Anna",
-        "unit2": "Tsurugi",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
         "unit1": "Jake",
         "unit2": "Tsurugi",
         "one_way": false,
@@ -9741,19 +8369,6 @@
             {
                 "support_rank": "A",
                 "requirement": 35,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10023,52 +8638,6 @@
         ]
     },
     {
-        "unit1": "Celeste",
-        "unit2": "Kiraz",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
         "unit1": "Parker",
         "unit2": "Cole",
         "one_way": false,
@@ -10174,65 +8743,6 @@
             {
                 "support_rank": "S",
                 "requirement": 60,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Cole",
-        "unit2": "Haruki",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A+",
-                "requirement": 65,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -10804,65 +9314,6 @@
             {
                 "support_rank": "S",
                 "requirement": 50,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ]
-    },
-    {
-        "unit1": "Haruki",
-        "unit2": "Kiraz",
-        "one_way": false,
-        "requirements": [
-            {
-                "support_rank": "C",
-                "requirement": 15,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "requirement": 30,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "requirement": 45,
-                "gate": "",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 0.0,
-                "avoid": 0.0,
-                "crit": 0.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "S",
-                "requirement": 60,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,

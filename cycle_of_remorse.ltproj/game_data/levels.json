@@ -43711,26 +43711,23 @@
                 "nid": "106",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Fighter",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "BallistaManned",
-                        false
-                    ],
-                    [
-                        "Iron Bow",
+                        "Iron Axe",
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "BallistaUse"
-                ],
+                "starting_skills": [],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    5,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -43764,9 +43761,9 @@
             },
             {
                 "nid": "110",
-                "variant": null,
+                "variant": "Sword",
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Cavalier",
                 "faction": "Knight",
                 "starting_items": [
                     [

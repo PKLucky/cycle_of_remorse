@@ -102,7 +102,7 @@
         "name": "Escape",
         "title": "Escape",
         "category": "Win Cond.",
-        "text": "The chapter will end once Krista escapes the map. Any units that are still on the map will be left behind and will <red>no longer be usable</>.{br}Some units may stay due to their importance to the story."
+        "text": "The chapter will end once Krista escapes the map. Any units that are still on the map will be left behind and will <red>no longer be usable</>.{br}Some units may stay due to their importance to the story.\n<blue>Infinite higher-tiered reinforcements</> spawn after many turns have passed.{br}These powerful reinforcements have <red>Void Curse</> which prevents player units from gaining EXP and WEXP."
     },
     {
         "nid": "Seize",
