@@ -719,6 +719,14 @@
                     126,
                     32
                 ]
+            ],
+            [
+                "combat_flickering_tint",
+                [
+                    49,
+                    126,
+                    32
+                ]
             ]
         ]
     },
@@ -1178,7 +1186,7 @@
     {
         "nid": "Void Curse",
         "name": "Void Curse",
-        "desc": "No EXP or WEXP gained for attacking this unit.",
+        "desc": "No EXP gained for attacking this unit.",
         "icon_nid": "Skills",
         "icon_index": [
             12,
@@ -3249,12 +3257,12 @@
     },
     {
         "nid": "SHULA",
-        "name": "Thin Air",
-        "desc": "When using Wind magic, unit ignores target's Res, but negates the attack's Brave effect.",
+        "name": "Hunter's Mark",
+        "desc": "A chosen enemy within 1 to Skl/2 spaces will be inflicted with Hit -20 if not targeting the unit for three turns. (Usable once per turn. Unit may attack, but may not move after use.)",
         "icon_nid": "Skills",
         "icon_index": [
-            8,
-            32
+            11,
+            10
         ],
         "components": [
             [
@@ -3262,12 +3270,44 @@
                 null
             ],
             [
-                "condition",
-                "'Wind' in unit.get_weapon().tags"
+                "charges_per_turn",
+                1
             ],
             [
-                "item_override",
+                "ability",
                 "SHULA"
+            ]
+        ]
+    },
+    {
+        "nid": "SHULA_STATUS",
+        "name": "Marked <blue>(Shula)</>",
+        "desc": "Hit - 20 when not targeting Shula.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            10
+        ],
+        "components": [
+            [
+                "hit",
+                -20
+            ],
+            [
+                "time",
+                3
+            ],
+            [
+                "combat_condition",
+                "unit2.nid != 'Shula'"
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    238,
+                    6,
+                    6
+                ]
             ]
         ]
     },

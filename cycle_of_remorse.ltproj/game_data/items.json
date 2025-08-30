@@ -14623,10 +14623,6 @@
                 ]
             ],
             [
-                "event_after_combat_on_hit",
-                "Global Promote2"
-            ],
-            [
                 "promote",
                 null
             ],
@@ -16066,20 +16062,32 @@
     },
     {
         "nid": "SHULA",
-        "name": "SHULA",
-        "desc": "Reduces an enemy's defenses to 0 when Luna is used",
+        "name": "Hunter's Mark",
+        "desc": "Inflicts Hit -20 on an enemy.",
         "icon_nid": "Skills",
         "icon_index": [
-            8,
-            32
+            11,
+            10
         ],
         "components": [
             [
-                "alternate_resist_formula",
-                "ZERO"
+                "status_after_combat_on_hit",
+                "SHULA_STATUS"
             ],
             [
-                "no_double",
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "CRIT_HIT"
+            ],
+            [
+                "attack_after_combat",
                 null
             ]
         ]
