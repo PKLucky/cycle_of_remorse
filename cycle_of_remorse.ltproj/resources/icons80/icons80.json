@@ -310,5 +310,9 @@
     {
         "nid": "Horse {L95}",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Villager (U) {Ghast}",
+        "subicon_dict": {}
     }
 ]

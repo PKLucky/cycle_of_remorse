@@ -1510,6 +1510,78 @@
         ]
     },
     {
+        "nid": "LightOverride",
+        "name": "LightOverride",
+        "desc": "(Lets the Light Brand count as Light magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "item_override",
+                "LightOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "AnimaOverride",
+        "name": "AnimaOverride",
+        "desc": "(Lets Anima magic swords count as Anima magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "item_override",
+                "AnimaOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "DarkOverride",
+        "name": "DarkOverride",
+        "desc": "(Lets Anima magic swords count as Anima magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "item_override",
+                "DarkOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "KRISTA",
         "name": "Inspiration",
         "desc": "Allies within three spaces deal Dmg +2 and take 2 less Dmg.",

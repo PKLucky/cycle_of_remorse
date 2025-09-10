@@ -416,22 +416,6 @@
         ]
     },
     {
-        "nid": "Yumi",
-        "sub_nid": "Yumi",
-        "credit_type": 4,
-        "category": "Graphics",
-        "icon_index": [
-            0,
-            0
-        ],
-        "contrib": [
-            [
-                "PKLucky, JeyTheCount",
-                "Yumi"
-            ]
-        ]
-    },
-    {
         "nid": "Altena",
         "sub_nid": "Altena",
         "credit_type": 4,
@@ -2157,6 +2141,22 @@
         ]
     },
     {
+        "nid": "RainbowTonic",
+        "sub_nid": "Boosters",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            16
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Rainbow Tonic"
+            ]
+        ]
+    },
+    {
         "nid": "MasterCrown",
         "sub_nid": "Boosters",
         "credit_type": 1,
@@ -3576,6 +3576,22 @@
         ]
     },
     {
+        "nid": "Citizen",
+        "sub_nid": "Villager (U) {Ghast}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Ghast",
+                "Citizen"
+            ]
+        ]
+    },
+    {
         "nid": "Library_BG",
         "sub_nid": "Library",
         "credit_type": 6,
@@ -3776,6 +3792,18 @@
             [
                 "Final Fantasy VIII, Crappy Blue",
                 "Squall Goes to the Water Aisle"
+            ],
+            [
+                "Avalon Code (unofficial track titles)",
+                "Grana Plains, Romantic Feelings"
+            ],
+            [
+                "The Legend of Zelda: Oracle of Seasons",
+                "A Date With Rosa"
+            ],
+            [
+                "Pokemon Ranger: Shadows of Almia",
+                "Vien Forest"
             ]
         ]
     },

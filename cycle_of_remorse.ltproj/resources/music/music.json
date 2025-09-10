@@ -10,17 +10,7 @@
         false
     ],
     [
-        "Precious Things",
-        false,
-        false
-    ],
-    [
         "Grasp at Victory",
-        false,
-        false
-    ],
-    [
-        "Distant Roads",
         false,
         false
     ],
@@ -487,6 +477,26 @@
     [
         "Squall Goes to the Water Aisle",
         true,
+        false
+    ],
+    [
+        "Grana Plains",
+        false,
+        false
+    ],
+    [
+        "Romantic Feelings",
+        false,
+        false
+    ],
+    [
+        "A Date With Rosa",
+        false,
+        false
+    ],
+    [
+        "Vien Forest",
+        false,
         false
     ]
 ]

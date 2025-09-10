@@ -1380,7 +1380,7 @@
     {
         "nid": "Light Brand",
         "name": "Light Brand",
-        "desc": "Uses Mag to determine damage at range.\nGrants Mag +3 when equipped.",
+        "desc": "Calculated as Light Magic damage at range.\nGrants Mag +3 when equipped.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1460,13 +1460,17 @@
                 [
                     "MagicSword"
                 ]
+            ],
+            [
+                "status_on_equip",
+                "LightOverride"
             ]
         ]
     },
     {
         "nid": "Flamberge",
         "name": "Flamberge",
-        "desc": "Uses Mag to determine damage at range.",
+        "desc": "Calculated as Anima Magic damage at range.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1537,13 +1541,17 @@
                 [
                     "MagicSword"
                 ]
+            ],
+            [
+                "status_on_equip",
+                "AnimaOverride"
             ]
         ]
     },
     {
         "nid": "WindSword",
         "name": "Wind Sword",
-        "desc": "Uses Mag to determine damage at range. Effective against fliers. Allows 2 consecutive hits.",
+        "desc": "Calculated as Anima Magic damage at range.\nEffective against fliers. Allows 2 consecutive hits.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1630,13 +1638,17 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "status_on_equip",
+                "AnimaOverride"
             ]
         ]
     },
     {
         "nid": "Runesword",
         "name": "Runesword",
-        "desc": "Uses Mag to determine damage. Drains HP from enemy.",
+        "desc": "Calculated as Dark Magic damage at range.\nDrains HP from enemy.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1708,13 +1720,17 @@
             ],
             [
                 "battle_cast_anim",
-                "FluxRune"
+                "Nosferatu"
             ],
             [
                 "item_tags",
                 [
                     "MagicSword"
                 ]
+            ],
+            [
+                "status_on_equip",
+                "DarkOverride"
             ]
         ]
     },
@@ -8424,10 +8440,6 @@
                 "Global TorchStaff"
             ],
             [
-                "ignore_fog_of_war",
-                null
-            ],
-            [
                 "unsplashable",
                 null
             ],
@@ -8446,6 +8458,10 @@
             [
                 "hover_description",
                 "Lights an area."
+            ],
+            [
+                "target_fog_of_war",
+                null
             ]
         ]
     },
@@ -16281,6 +16297,54 @@
             [
                 "no_map_hp_display",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "LightOverride",
+        "name": "LightOverride",
+        "desc": "(Lets the Light Brand count as Light magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Light"
+            ]
+        ]
+    },
+    {
+        "nid": "AnimaOverride",
+        "name": "AnimaOverride",
+        "desc": "(Lets the Flamberge, Wind Sword, and Susano'o count as Anima magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Anima"
+            ]
+        ]
+    },
+    {
+        "nid": "DarkOverride",
+        "name": "DarkOverride",
+        "desc": "(Lets the Rune Sword count as Dark magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Dark"
             ]
         ]
     }

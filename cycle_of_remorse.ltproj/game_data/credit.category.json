@@ -32,6 +32,7 @@
     "Celik": "Portraits",
     "Charm": "Item Icons/Staff",
     "CircsSpine": "Item Icons/Bow",
+    "Citizen": "Class Cards",
     "CleaveBow": "Item Icons/Bow",
     "Crates_Card": "Class Cards",
     "Daigo": "Portraits/Bosses",
@@ -168,6 +169,7 @@
     "Pikeman_Card": "Class Cards",
     "Pirate": "Portraits/NPCs",
     "Priest": "Portraits/NPCs",
+    "RainbowTonic": "Item Icons",
     "RangeRing": "Item Icons",
     "Reaver_Card": "Class Cards",
     "RepairKit": "Item Icons",
@@ -211,6 +213,5 @@
     "Wye": "Portraits/Player Character",
     "WyrmfangAxe": "Item Icons/Axe",
     "Yuma": "Portraits/Bosses",
-    "Yumi": "Portraits/Player Character",
     "Zeke": "Portraits/Bosses"
 }

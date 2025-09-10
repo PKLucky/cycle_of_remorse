@@ -1239,11 +1239,23 @@
         "nid": "Yumi",
         "blinking_offset": [
             24,
-            32
+            24
         ],
         "smiling_offset": [
             24,
-            48
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "YumiShirtless",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
         ],
         "info_offset": 0
     },

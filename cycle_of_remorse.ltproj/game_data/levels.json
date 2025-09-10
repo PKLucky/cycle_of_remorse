@@ -6,7 +6,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Precious Things",
+            "player_phase": "Grana Plains",
             "enemy_phase": "Enemies Appear",
             "other_phase": null,
             "enemy2_phase": null,
@@ -441,7 +441,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Precious Things",
+            "player_phase": "Grana Plains",
             "enemy_phase": "Enemies Appear",
             "other_phase": null,
             "player_battle": "Strike",
@@ -917,7 +917,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Precious Things",
+            "player_phase": "Grana Plains",
             "enemy_phase": "Enemies Appear",
             "other_phase": "Binding Ties",
             "player_battle": "Strike",
@@ -1773,7 +1773,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Precious Things",
+            "player_phase": "Grana Plains",
             "enemy_phase": "Enemies Appear",
             "other_phase": null,
             "enemy2_phase": null,
@@ -1957,7 +1957,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -1976,7 +1976,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -1995,7 +1995,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -2014,7 +2014,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -2753,7 +2753,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Precious Things",
+            "player_phase": "Grana Plains",
             "enemy_phase": "Enemies Appear",
             "other_phase": "Binding Ties",
             "enemy2_phase": null,
@@ -2850,9 +2850,9 @@
             {
                 "nid": "Anil",
                 "team": "other",
-                "ai": "Attack",
+                "ai": "FollowLord",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     3,
                     7
@@ -2863,9 +2863,9 @@
             {
                 "nid": "Ecco",
                 "team": "other",
-                "ai": "Attack",
+                "ai": "FollowLord",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     3,
                     8
@@ -3869,15 +3869,16 @@
     },
     {
         "nid": "4x",
-        "name": "Chapter 4x: Rescue Mission",
+        "name": "Ch. 4x: Rescue Mission",
         "tilemap": "Ch4x",
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Precious Things",
+            "player_phase": "Grana Plains",
             "enemy_phase": "Enemies Appear",
             "player_battle": "Strike",
-            "enemy_battle": "Safeguard"
+            "enemy_battle": "Safeguard",
+            "boss_battle": "Victory Now!"
         },
         "objective": {
             "simple": "Escape",
@@ -4493,12 +4494,7 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "5",
@@ -4507,7 +4503,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
             "player_battle": "Strike",
             "enemy_battle": "Safeguard",
@@ -5387,7 +5383,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -5406,7 +5402,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -6792,7 +6788,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -6811,7 +6807,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -6830,7 +6826,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -6849,7 +6845,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -6868,7 +6864,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -7297,7 +7293,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
             "other_phase": "Binding Ties",
             "player_battle": "Strike",
@@ -8752,7 +8748,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
             "player_battle": "Strike",
             "enemy_battle": "Safeguard"
@@ -9681,7 +9677,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Pirate Otter Hideout",
             "player_battle": "Strike",
             "enemy_battle": "Safeguard",
@@ -9708,7 +9704,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -9727,7 +9723,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -9746,7 +9742,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -9765,7 +9761,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -10906,7 +10902,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Pirate Otter Hideout",
             "other_phase": "Route 111",
             "player_battle": "Strike",
@@ -11683,7 +11679,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11702,7 +11698,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11721,7 +11717,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11740,7 +11736,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11759,7 +11755,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11778,7 +11774,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11797,7 +11793,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11816,7 +11812,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -11835,7 +11831,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -12209,7 +12205,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Enemies Appear",
             "other_phase": null,
             "player_battle": "Strike",
@@ -13316,7 +13312,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
             "other_phase": "Binding Ties",
             "player_battle": "Strike",
@@ -14634,7 +14630,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
             "player_battle": "Strike",
             "enemy_battle": "Safeguard",
@@ -16121,7 +16117,7 @@
             "player_phase": "Inescapable Fate",
             "enemy_phase": "Butterfly Emerges from Chrysalis",
             "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
+            "enemy_battle": null,
             "boss_battle": "Softly with Grace",
             "enemy2_phase": "Butterfly Emerges from Chrysalis"
         },
@@ -26398,7 +26394,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -26417,7 +26413,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -26436,7 +26432,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -26455,7 +26451,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -35039,7 +35035,7 @@
             "enemy_phase": "Butterfly Emerges from Chrysalis",
             "other_phase": "Past Light",
             "boss_battle": "Fighting Battle",
-            "enemy_battle": "Poison Battle",
+            "enemy_battle": null,
             "player_battle": "Master Battle",
             "other_battle": "Master Battle",
             "enemy2_phase": "Water Battle"
@@ -36760,7 +36756,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -36779,7 +36775,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -36798,7 +36794,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -36817,7 +36813,7 @@
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -41188,7 +41184,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41212,7 +41208,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41236,7 +41232,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41260,7 +41256,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41284,7 +41280,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41308,7 +41304,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41332,7 +41328,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -41356,7 +41352,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -42158,7 +42154,11 @@
         "tilemap": "Ch26",
         "bg_tilemap": null,
         "party": "Krista",
-        "music": {},
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Strike",
+            "enemy_battle": "Enemies Appear"
+        },
         "objective": {
             "simple": "Defeat boss",
             "win": "Defeat boss",
@@ -42220,7 +42220,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -42239,7 +42239,7 @@
                 "faction": "Snag",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy2",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -43716,16 +43716,16 @@
                 "nid": "106",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Shaman",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Flux",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "player",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -43759,7 +43759,7 @@
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    5
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43786,8 +43786,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    4
+                    0,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43795,39 +43795,23 @@
             {
                 "nid": "101",
                 "variant": "",
-                "level": 10,
-                "klass": "Saint",
+                "level": 1,
+                "klass": "Fighter",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "TorchStaff",
-                        false
-                    ],
-                    [
-                        "LightRune",
-                        false
-                    ],
-                    [
-                        "LightRune",
-                        false
-                    ],
-                    [
-                        "Mine",
-                        false
-                    ],
-                    [
-                        "Mine",
+                        "Iron Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "player",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    9
+                    4,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43857,11 +43841,11 @@
                 "nid": "103",
                 "variant": null,
                 "level": 1,
-                "klass": "Sorcerer",
+                "klass": "Myrmidon",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "TorchStaff",
+                        "Light Brand",
                         false
                     ]
                 ],
@@ -43871,8 +43855,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    7
+                    4,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43906,7 +43890,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    10,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44016,10 +44003,13 @@
             {
                 "nid": "Ecco",
                 "team": "player",
-                "ai": "None",
+                "ai": "FollowLord",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    14
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44199,10 +44189,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44399,7 +44386,7 @@
                 "generic": false
             },
             {
-                "nid": "Ferrach",
+                "nid": "Milo",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

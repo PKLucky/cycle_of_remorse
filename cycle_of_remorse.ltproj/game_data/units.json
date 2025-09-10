@@ -6222,107 +6222,6 @@
         "fields": []
     },
     {
-        "nid": "Thundra",
-        "name": "Thundra",
-        "desc": "",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Berserker",
-        "tags": [
-            "Female"
-        ],
-        "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                491
-            ],
-            "Lance": [
-                false,
-                0,
-                491
-            ],
-            "Axe": [
-                false,
-                0,
-                491
-            ],
-            "Bow": [
-                false,
-                0,
-                491
-            ],
-            "Staff": [
-                false,
-                0,
-                491
-            ],
-            "Light": [
-                false,
-                0,
-                491
-            ],
-            "Anima": [
-                false,
-                0,
-                491
-            ],
-            "Dark": [
-                false,
-                0,
-                491
-            ],
-            "Default": [
-                false,
-                0,
-                491
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Woman2",
-        "affinity": "Fire",
-        "fields": []
-    },
-    {
         "nid": "Lucian",
         "name": "Lucian",
         "desc": "Knight of House Valoria.",
@@ -6432,105 +6331,6 @@
                 "Milord{tgm}...{tgm} Forgive me{tgm}..."
             ]
         ]
-    },
-    {
-        "nid": "Max",
-        "name": "Max",
-        "desc": "",
-        "variant": "",
-        "level": 1,
-        "klass": "Sage",
-        "tags": [],
-        "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                491
-            ],
-            "Lance": [
-                false,
-                0,
-                491
-            ],
-            "Axe": [
-                false,
-                0,
-                491
-            ],
-            "Bow": [
-                false,
-                0,
-                491
-            ],
-            "Staff": [
-                false,
-                0,
-                491
-            ],
-            "Light": [
-                false,
-                0,
-                491
-            ],
-            "Anima": [
-                false,
-                0,
-                491
-            ],
-            "Dark": [
-                false,
-                0,
-                491
-            ],
-            "Default": [
-                false,
-                0,
-                491
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Man3",
-        "affinity": "Thunder",
-        "fields": []
     },
     {
         "nid": "Santiago",
@@ -6744,137 +6544,6 @@
                 "Ha{tgm}...{tgm} It was only a matter of time{tgm}..."
             ]
         ]
-    },
-    {
-        "nid": "Bryant",
-        "name": "Bryant",
-        "desc": "King of Medeas.\nA ruler with a strong sense of righteousness.",
-        "variant": "",
-        "level": 1,
-        "klass": "DreadFighter",
-        "tags": [
-            "Medean",
-            "Medea"
-        ],
-        "bases": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "growths": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "stat_cap_modifiers": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                361,
-                null
-            ],
-            "Axe": [
-                false,
-                241,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Bryant",
-        "affinity": "Fire",
-        "fields": []
-    },
-    {
-        "nid": "Thalia",
-        "name": "Thalia",
-        "desc": "Queen of Merinas.\nA ruler with an aura of serenity and grace.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Saint",
-        "tags": [],
-        "bases": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "growths": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "stat_cap_modifiers": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Staff": [
-                false,
-                241,
-                null
-            ],
-            "Light": [
-                false,
-                361,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Thalia",
-        "affinity": "Light",
-        "fields": []
     },
     {
         "nid": "Matthew",
@@ -8756,11 +8425,20 @@
         },
         "starting_items": [
             [
+                "Divine",
+                false
+            ],
+            [
                 "FoliasStaff",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "CharmedAzalea"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -8867,7 +8545,20 @@
             "HP": 5,
             "CON": 15
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Eclipse",
+                false
+            ],
+            [
+                "Assault",
+                false
+            ],
+            [
+                "MasterCrown",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -8927,34 +8618,34 @@
         "name": "Shinobu",
         "desc": "Pirate of the Wyrmfang Pirates.\nProud to a fault.",
         "variant": "Female",
-        "level": 15,
+        "level": 1,
         "klass": "Pirate",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "HP": 27,
-            "STR": 17,
-            "MAG": 6,
-            "SKL": 11,
-            "SPD": 12,
-            "LCK": 6,
-            "DEF": 10,
-            "RES": 12,
-            "CON": 10,
+            "HP": 16,
+            "STR": 8,
+            "MAG": 1,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 0,
+            "DEF": 4,
+            "RES": 4,
+            "CON": 8,
             "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 75,
+            "STR": 65,
+            "MAG": 35,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 45,
+            "RES": 55,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -9044,33 +8735,33 @@
         "desc": "Captain of the Skullreaver Pirates.\nArrogant and crude.",
         "variant": "",
         "level": 1,
-        "klass": "Warrior",
+        "klass": "Fighter",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "HP": 34,
-            "STR": 28,
+            "HP": 18,
+            "STR": 9,
             "MAG": 0,
-            "SKL": 17,
-            "SPD": 15,
-            "LCK": 7,
-            "DEF": 18,
-            "RES": 11,
-            "CON": 13,
-            "MOV": 6
+            "SKL": 9,
+            "SPD": 10,
+            "LCK": 5,
+            "DEF": 5,
+            "RES": 5,
+            "CON": 9,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 90,
+            "STR": 80,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "SKL": 40,
+            "SPD": 55,
+            "LCK": 40,
+            "DEF": 70,
+            "RES": 25,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -9078,7 +8769,7 @@
             "SKL": 0,
             "RES": 0,
             "DEF": 0,
-            "STR": 0,
+            "STR": 8,
             "HP": 0,
             "MOV": 0,
             "CON": 0,
@@ -9160,33 +8851,33 @@
         "desc": "Co-Captain of the Scourge Sisters.\nGreedy and an opportunist.",
         "variant": "Female",
         "level": 1,
-        "klass": "Berserker",
+        "klass": "Pirate",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "HP": 27,
-            "STR": 24,
-            "MAG": 6,
-            "SKL": 15,
-            "SPD": 12,
-            "LCK": 11,
-            "DEF": 12,
-            "RES": 19,
-            "CON": 12,
-            "MOV": 6
+            "HP": 12,
+            "STR": 11,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 5,
+            "LCK": 7,
+            "DEF": 4,
+            "RES": 9,
+            "CON": 9,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 75,
+            "STR": 65,
+            "MAG": 35,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 45,
+            "RES": 55,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -9276,33 +8967,33 @@
         "desc": "Co-Captain of the Scourge Sisters.\nPatient and cold.",
         "variant": "Female",
         "level": 1,
-        "klass": "Berserker",
+        "klass": "Pirate",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "HP": 29,
-            "STR": 23,
-            "MAG": 10,
-            "SKL": 16,
-            "SPD": 11,
-            "LCK": 8,
-            "DEF": 10,
-            "RES": 18,
-            "CON": 12,
-            "MOV": 6
+            "HP": 14,
+            "STR": 11,
+            "MAG": 4,
+            "SKL": 9,
+            "SPD": 4,
+            "LCK": 3,
+            "DEF": 2,
+            "RES": 8,
+            "CON": 9,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 75,
+            "STR": 65,
+            "MAG": 35,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 45,
+            "RES": 55,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -9391,35 +9082,35 @@
         "name": "Yuma",
         "desc": "Leader of the Crimson Owls.\nSnarky and condescending.",
         "variant": "",
-        "level": 2,
-        "klass": "Sage",
+        "level": 1,
+        "klass": "Mage",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "MOV": 6,
+            "MOV": 5,
             "STR": 0,
-            "MAG": 22,
-            "CON": 7,
-            "DEF": 13,
-            "SKL": 14,
-            "RES": 15,
-            "SPD": 17,
-            "LCK": 10,
-            "HP": 29
+            "MAG": 10,
+            "CON": 5,
+            "DEF": 6,
+            "SKL": 4,
+            "RES": 2,
+            "SPD": 5,
+            "LCK": 0,
+            "HP": 19
         },
         "growths": {
             "MOV": 0,
             "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "MAG": 70,
+            "CON": 10,
+            "DEF": 30,
+            "SKL": 60,
+            "RES": 65,
+            "SPD": 65,
+            "LCK": 65,
+            "HP": 40
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -9464,37 +9155,37 @@
         "desc": "Captain of the Crossblade Pirates.\nConfident, but looks down on the weak.",
         "variant": "",
         "level": 1,
-        "klass": "Rogue",
+        "klass": "Thief",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "HP": 27,
-            "STR": 21,
-            "MAG": 23,
-            "SKL": 22,
-            "SPD": 21,
-            "LCK": 10,
-            "DEF": 12,
-            "RES": 10,
-            "CON": 6,
-            "MOV": 7
+            "HP": 16,
+            "STR": 13,
+            "MAG": 15,
+            "SKL": 10,
+            "SPD": 10,
+            "LCK": 4,
+            "DEF": 6,
+            "RES": 3,
+            "CON": 4,
+            "MOV": 6
         },
         "growths": {
             "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 50,
+            "MAG": 35,
+            "CON": 10,
+            "DEF": 30,
+            "SKL": 65,
+            "RES": 35,
+            "SPD": 65,
+            "LCK": 55,
+            "HP": 65
         },
         "stat_cap_modifiers": {
-            "MAG": 1,
+            "MAG": 0,
             "STR": 0,
             "DEF": 0,
             "MOV": 0,
@@ -9539,35 +9230,35 @@
         "name": "Shigeo",
         "desc": "Leader of the Wailing Zephyrs.\nTactful and merciless.",
         "variant": "",
-        "level": 2,
-        "klass": "WyvernKnight",
+        "level": 1,
+        "klass": "WyvernRider",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "MOV": 7,
-            "STR": 19,
+            "MOV": 6,
+            "STR": 6,
             "MAG": 0,
-            "CON": 8,
-            "DEF": 21,
-            "SKL": 16,
-            "RES": 7,
-            "SPD": 14,
-            "LCK": 8,
-            "HP": 35
+            "CON": 5,
+            "DEF": 9,
+            "SKL": 7,
+            "RES": 0,
+            "SPD": 6,
+            "LCK": 0,
+            "HP": 15
         },
         "growths": {
             "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 60,
+            "MAG": 35,
+            "CON": 15,
+            "DEF": 60,
+            "SKL": 50,
+            "RES": 35,
+            "SPD": 40,
+            "LCK": 45,
+            "HP": 75
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -9620,7 +9311,7 @@
         "name": "Saburo",
         "desc": "Leader of the Riptide Pirates.\nHeadstrong and ruthless.",
         "variant": "",
-        "level": 2,
+        "level": 1,
         "klass": "Fleet",
         "tags": [
             "Boss",
@@ -9628,27 +9319,27 @@
         ],
         "bases": {
             "MOV": 3,
-            "STR": 19,
+            "STR": 18,
             "MAG": 0,
             "CON": 20,
             "DEF": 17,
-            "SKL": 20,
+            "SKL": 19,
             "RES": 15,
-            "SPD": 21,
+            "SPD": 20,
             "LCK": 13,
-            "HP": 31
+            "HP": 30
         },
         "growths": {
             "MOV": 0,
-            "STR": 0,
+            "STR": 50,
             "MAG": 0,
             "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "DEF": 30,
+            "SKL": 55,
+            "RES": 30,
+            "SPD": 50,
+            "LCK": 40,
+            "HP": 95
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -9696,35 +9387,35 @@
         "name": "Hayato",
         "desc": "Leader of the Shirotori Bandits.\nWill do anything for a bit of coin.",
         "variant": "",
-        "level": 2,
-        "klass": "Sniper",
+        "level": 1,
+        "klass": "Archer",
         "tags": [
             "Boss",
             "Bandit"
         ],
         "bases": {
-            "MOV": 6,
-            "STR": 23,
-            "MAG": 21,
-            "CON": 8,
-            "DEF": 17,
-            "SKL": 22,
-            "RES": 10,
-            "SPD": 19,
-            "LCK": 5,
-            "HP": 32
+            "MOV": 5,
+            "STR": 11,
+            "MAG": 11,
+            "CON": 6,
+            "DEF": 9,
+            "SKL": 12,
+            "RES": 2,
+            "SPD": 8,
+            "LCK": 0,
+            "HP": 17
         },
         "growths": {
             "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 55,
+            "MAG": 40,
+            "CON": 10,
+            "DEF": 45,
+            "SKL": 50,
+            "RES": 35,
+            "SPD": 55,
+            "LCK": 50,
+            "HP": 70
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -9769,37 +9460,37 @@
         "desc": "Emperor of Merinas.\nIs currently under the control of dark forces.",
         "variant": "",
         "level": 1,
-        "klass": "Marshall",
+        "klass": "Knight",
         "tags": [
             "Boss",
             "Merin"
         ],
         "bases": {
-            "HP": 42,
-            "STR": 24,
-            "MAG": 22,
-            "SKL": 17,
-            "SPD": 16,
-            "LCK": 15,
-            "DEF": 25,
-            "RES": 13,
-            "CON": 12,
-            "MOV": 7
+            "HP": 7,
+            "STR": 0,
+            "MAG": 9,
+            "SKL": 0,
+            "SPD": 2,
+            "LCK": 3,
+            "DEF": 1,
+            "RES": 0,
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 75,
+            "STR": 65,
+            "MAG": 35,
+            "SKL": 50,
+            "SPD": 35,
+            "LCK": 35,
+            "DEF": 65,
+            "RES": 40,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "MAG": 3,
+            "MAG": 0,
             "HP": 0,
             "STR": 0,
             "SKL": 0,
@@ -9810,8 +9501,22 @@
             "MOV": 0,
             "CON": 0
         },
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "Susanoo",
+                false
+            ],
+            [
+                "MerinsShell",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "CharmedAzalea"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -9876,23 +9581,23 @@
         "desc": "Martial artist of unknown origin.\nSoft-spoken, but hides a hidden strength.",
         "variant": "Female",
         "level": 1,
-        "klass": "DreadFighter",
+        "klass": "Mercenary",
         "tags": [
             "Boss",
             "Merin",
             "Circ"
         ],
         "bases": {
-            "HP": 37,
-            "STR": 36,
-            "MAG": 18,
-            "SKL": 27,
-            "SPD": 20,
-            "LCK": 15,
-            "DEF": 26,
-            "RES": 24,
-            "CON": 8,
-            "MOV": 7
+            "HP": 10,
+            "STR": 16,
+            "MAG": 6,
+            "SKL": 11,
+            "SPD": 2,
+            "LCK": 5,
+            "DEF": 9,
+            "RES": 7,
+            "CON": 1,
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -9918,7 +9623,16 @@
             "HP": 0,
             "CON": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Brave Sword",
+                false
+            ],
+            [
+                "MasterCrown",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -9978,34 +9692,34 @@
         "name": "Alim",
         "desc": "A rogue of unknown origin.\nHas a mysterious aura about him.",
         "variant": "",
-        "level": 5,
-        "klass": "Rogue",
+        "level": 1,
+        "klass": "Thief",
         "tags": [
             "Boss"
         ],
         "bases": {
             "MOV": 6,
-            "STR": 10,
-            "MAG": 0,
-            "CON": 9,
-            "DEF": 17,
-            "SKL": 27,
-            "RES": 18,
-            "SPD": 29,
-            "LCK": 24,
-            "HP": 39
+            "STR": 0,
+            "MAG": 3,
+            "CON": 7,
+            "DEF": 10,
+            "SKL": 11,
+            "RES": 10,
+            "SPD": 11,
+            "LCK": 12,
+            "HP": 18
         },
         "growths": {
             "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 50,
+            "MAG": 35,
+            "CON": 10,
+            "DEF": 30,
+            "SKL": 65,
+            "RES": 35,
+            "SPD": 65,
+            "LCK": 55,
+            "HP": 65
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -10062,34 +9776,34 @@
         "name": "Solmaz",
         "desc": "A former bishop of Fueg.\nDenounced her faith to become a follower of Circ.",
         "variant": "Female",
-        "level": 5,
-        "klass": "Bishop",
+        "level": 1,
+        "klass": "Monk",
         "tags": [
             "Boss",
             "Female"
         ],
         "bases": {
-            "HP": 41,
+            "HP": 25,
             "STR": 0,
-            "MAG": 28,
-            "SKL": 20,
-            "SPD": 18,
-            "LCK": 2,
-            "DEF": 16,
-            "RES": 25,
-            "CON": 8,
-            "MOV": 6
+            "MAG": 12,
+            "SKL": 9,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 7,
+            "RES": 12,
+            "CON": 6,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
+            "HP": 65,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "MAG": 80,
+            "SKL": 50,
+            "SPD": 55,
+            "LCK": 5,
+            "DEF": 35,
+            "RES": 60,
+            "CON": 10,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -10153,33 +9867,33 @@
         "name": "Jamal",
         "desc": "A noble of Fuegsol.\nEntitled and arrogant.",
         "variant": "",
-        "level": 6,
-        "klass": "General",
+        "level": 1,
+        "klass": "Knight",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 43,
-            "STR": 23,
-            "MAG": 12,
-            "SKL": 17,
-            "SPD": 13,
-            "LCK": 8,
-            "DEF": 22,
-            "RES": 10,
-            "CON": 8,
+            "HP": 22,
+            "STR": 8,
+            "MAG": 4,
+            "SKL": 5,
+            "SPD": 3,
+            "LCK": 1,
+            "DEF": 8,
+            "RES": 1,
+            "CON": 4,
             "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 75,
+            "STR": 65,
+            "MAG": 35,
+            "SKL": 50,
+            "SPD": 35,
+            "LCK": 35,
+            "DEF": 65,
+            "RES": 40,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -10251,35 +9965,35 @@
     {
         "nid": "Gunnar",
         "name": "Gunnar",
-        "desc": "Leader of the Cragwood Bandits.\nA cruel brigand who shows no mercy.",
+        "desc": "Leader of the Crag Claw Bandits.\nA cruel brigand who shows no mercy.",
         "variant": "",
-        "level": 6,
-        "klass": "Berserker",
+        "level": 1,
+        "klass": "Brigand",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 45,
-            "STR": 26,
-            "MAG": 9,
-            "SKL": 19,
-            "SPD": 16,
-            "LCK": 10,
-            "DEF": 19,
-            "RES": 7,
-            "CON": 16,
-            "MOV": 6
+            "HP": 22,
+            "STR": 11,
+            "MAG": 3,
+            "SKL": 11,
+            "SPD": 7,
+            "LCK": 4,
+            "DEF": 3,
+            "RES": 0,
+            "CON": 12,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 95,
+            "STR": 75,
+            "MAG": 25,
+            "SKL": 35,
+            "SPD": 40,
+            "LCK": 30,
+            "DEF": 70,
+            "RES": 30,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -10359,23 +10073,23 @@
         "desc": "A mysterious assassin who sticks to the shadows.",
         "variant": "",
         "level": 1,
-        "klass": "Assassin",
+        "klass": "Thief",
         "tags": [
             "Boss",
             "Fueg",
             "Circ"
         ],
         "bases": {
-            "HP": 33,
-            "STR": 30,
-            "MAG": 27,
-            "SKL": 33,
-            "SPD": 38,
-            "LCK": 26,
-            "DEF": 18,
-            "RES": 19,
-            "CON": 7,
-            "MOV": 8
+            "HP": 10,
+            "STR": 16,
+            "MAG": 17,
+            "SKL": 11,
+            "SPD": 18,
+            "LCK": 10,
+            "DEF": 4,
+            "RES": 5,
+            "CON": 1,
+            "MOV": 6
         },
         "growths": {
             "HP": 65,
@@ -10462,23 +10176,23 @@
         "desc": "A golem from ancient times.\nProtective of those he feels indebted to.",
         "variant": "",
         "level": 1,
-        "klass": "Marshall",
+        "klass": "Knight",
         "tags": [
             "Boss",
             "Oreg",
             "Circ"
         ],
         "bases": {
-            "HP": 33,
-            "STR": 42,
-            "MAG": 19,
-            "SKL": 34,
-            "SPD": 34,
-            "LCK": 16,
-            "DEF": 42,
-            "RES": 24,
-            "CON": 14,
-            "MOV": 7
+            "HP": 1,
+            "STR": 19,
+            "MAG": 7,
+            "SKL": 19,
+            "SPD": 20,
+            "LCK": 8,
+            "DEF": 20,
+            "RES": 6,
+            "CON": 10,
+            "MOV": 5
         },
         "growths": {
             "HP": 75,
@@ -10564,34 +10278,34 @@
         "name": "Sven",
         "desc": "Soromir's subordinate.\nCunning and loyal to his liege.",
         "variant": "",
-        "level": 8,
-        "klass": "Assassin",
+        "level": 1,
+        "klass": "Thief",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "MOV": 7,
-            "STR": 20,
+            "MOV": 6,
+            "STR": 10,
             "MAG": 0,
-            "CON": 10,
-            "DEF": 21,
-            "SKL": 37,
-            "RES": 20,
-            "SPD": 37,
-            "LCK": 28,
-            "HP": 44
+            "CON": 6,
+            "DEF": 9,
+            "SKL": 1,
+            "RES": 6,
+            "SPD": 9,
+            "LCK": 6,
+            "HP": 20
         },
         "growths": {
             "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 50,
+            "MAG": 35,
+            "CON": 10,
+            "DEF": 30,
+            "SKL": 65,
+            "RES": 35,
+            "SPD": 65,
+            "LCK": 55,
+            "HP": 65
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -10636,23 +10350,23 @@
         "desc": "Head of Circ's Talons.",
         "variant": "Female",
         "level": 1,
-        "klass": "Archsage",
+        "klass": "Mage",
         "tags": [
             "Boss",
             "Female",
             "Circ"
         ],
         "bases": {
-            "HP": 32,
+            "HP": 7,
             "STR": 0,
-            "MAG": 34,
-            "SKL": 30,
-            "SPD": 29,
-            "LCK": 15,
-            "DEF": 26,
-            "RES": 35,
-            "CON": 7,
-            "MOV": 7
+            "MAG": 13,
+            "SKL": 10,
+            "SPD": 10,
+            "LCK": 3,
+            "DEF": 12,
+            "RES": 13,
+            "CON": 1,
+            "MOV": 5
         },
         "growths": {
             "HP": 65,
@@ -11026,5 +10740,136 @@
                 "Ah{tgm}... N-No{tgm}..."
             ]
         ]
+    },
+    {
+        "nid": "Bryant",
+        "name": "Bryant",
+        "desc": "King of Medeas.\nA ruler with a strong sense of righteousness.",
+        "variant": "",
+        "level": 1,
+        "klass": "DreadFighter",
+        "tags": [
+            "Medean",
+            "Medea"
+        ],
+        "bases": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                361,
+                null
+            ],
+            "Axe": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Bryant",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Thalia",
+        "name": "Thalia",
+        "desc": "Queen of Merinas.\nA ruler with an aura of serenity and grace.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Saint",
+        "tags": [],
+        "bases": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                241,
+                null
+            ],
+            "Light": [
+                false,
+                361,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Thalia",
+        "affinity": "Light",
+        "fields": []
     }
 ]
