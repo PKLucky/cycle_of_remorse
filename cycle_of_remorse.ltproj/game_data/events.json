@@ -6165,11 +6165,7 @@
             "#if;u('{TestLevel}').get_internal_level() > {v:Test}",
             "#lvar;Test;{TestLevel}",
             "#end",
-            "#endf",
-            "lvar;Test;{'Test1':{'TestTest':True}}",
-            "s;;{e:v('Test')['Test1']['TestTest']}",
-            "mlvar;Test;it.update({'Test1':{'TestTest':False}})",
-            "s;;{e:v('Test')['Test1']['TestTest']}"
+            "#endf"
         ],
         "nid": "DEBUG Intro"
     },
