@@ -397,10 +397,18 @@
     },
     {
         "nid": "Lucky_desc",
-        "text": "Units will get perfect level ups."
+        "text": "Units will get perfect level ups.{br}(UNTESTED)"
     },
     {
         "nid": "Bexp_desc",
         "text": "At least three stats will increase per level up."
+    },
+    {
+        "nid": "Normal_desc",
+        "text": "Similar difficulty to FE7 and FE8. 2RN{br}The intended difficulty level."
+    },
+    {
+        "nid": "Hard_desc",
+        "text": "Enemies and bosses get +50% in all growth rates. 1RN (UNTESTED)"
     }
 ]

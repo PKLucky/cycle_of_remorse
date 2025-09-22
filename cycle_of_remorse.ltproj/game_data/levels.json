@@ -7,15 +7,15 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Enemies Appear",
+            "enemy_phase": "Tough Guy Alert!",
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "RO SHAM BO!",
             "other_battle": null,
             "enemy2_battle": null,
             "base": null,
-            "boss_battle": "Victory Now!"
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat boss",
@@ -442,13 +442,13 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Enemies Appear",
+            "enemy_phase": "Tough Guy Alert!",
             "other_phase": null,
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "RO SHAM BO!",
             "other_battle": null,
             "base": null,
-            "boss_battle": "Victory Now!"
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat boss",
@@ -918,13 +918,13 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Enemies Appear",
-            "other_phase": "Binding Ties",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "other_battle": "Strike",
+            "enemy_phase": "Tough Guy Alert!",
+            "other_phase": "Flower Power!",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "RO SHAM BO!",
+            "other_battle": "Dokapon Normal Battle",
             "base": null,
-            "boss_battle": "Victory Now!"
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat enemy,Left {e:len(game.get_enemy_units())}",
@@ -1774,15 +1774,15 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Enemies Appear",
+            "enemy_phase": "Tough Guy Alert!",
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "RO SHAM BO!",
             "other_battle": null,
             "enemy2_battle": null,
             "base": null,
-            "boss_battle": "Victory Now!"
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Survive,{e:game.turncount}/7 turn(s)",
@@ -2754,15 +2754,15 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Enemies Appear",
-            "other_phase": "Binding Ties",
+            "enemy_phase": "Tough Guy Alert!",
+            "other_phase": "Flower Power!",
             "enemy2_phase": null,
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "other_battle": "Strike",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "RO SHAM BO!",
+            "other_battle": "Dokapon Normal Battle",
             "enemy2_battle": null,
             "base": null,
-            "boss_battle": "Victory Now!"
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Escape",
@@ -3875,10 +3875,10 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Enemies Appear",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "boss_battle": "Victory Now!"
+            "enemy_phase": "Tough Guy Alert!",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "RO SHAM BO!",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Escape",
@@ -4505,9 +4505,9 @@
         "music": {
             "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "boss_battle": "Victory Now!"
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat Boss",
@@ -5956,9 +5956,9 @@
         "music": {
             "player_phase": "Fantasy 08",
             "enemy_phase": "Verdane Army",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "boss_battle": "Victory Now!"
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat boss",
@@ -7295,11 +7295,11 @@
         "music": {
             "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
-            "other_phase": "Binding Ties",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "other_battle": "Strike",
-            "boss_battle": "Victory Now!"
+            "other_phase": "Flower Power!",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "other_battle": "Dokapon Normal Battle",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Escape",
@@ -8750,8 +8750,9 @@
         "music": {
             "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard"
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Escape",
@@ -9679,11 +9680,11 @@
         "music": {
             "player_phase": "Vien Forest",
             "enemy_phase": "Pirate Otter Hideout",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "boss_battle": "Victory Now!",
-            "other_battle": "Strike",
-            "other_phase": "Binding Ties"
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "boss_battle": "Scout Battle",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
         },
         "objective": {
             "simple": "Survive,{eval:game.turncount}/7 turn(s)",
@@ -10905,10 +10906,10 @@
             "player_phase": "Vien Forest",
             "enemy_phase": "Pirate Otter Hideout",
             "other_phase": "Route 111",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "other_battle": "Strike",
-            "boss_battle": "Victory Now!"
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "other_battle": "Dokapon Normal Battle",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat boss",
@@ -12206,12 +12207,12 @@
         "party": "Krista",
         "music": {
             "player_phase": "Vien Forest",
-            "enemy_phase": "Enemies Appear",
+            "enemy_phase": "Verdane Army",
             "other_phase": null,
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
             "other_battle": null,
-            "boss_battle": "Victory Now!"
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Seize the forts,{eval:game.level_vars['fortsSeized']}/5 seized",
@@ -13314,11 +13315,11 @@
         "music": {
             "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
-            "other_phase": "Binding Ties",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "other_battle": "Strike",
-            "boss_battle": "Victory Now!"
+            "other_phase": "Flower Power!",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "other_battle": "Dokapon Normal Battle",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Seize the exit",
@@ -14632,13 +14633,13 @@
         "music": {
             "player_phase": "Vien Forest",
             "enemy_phase": "Verdane Army",
-            "player_battle": "Strike",
-            "enemy_battle": "Safeguard",
-            "boss_battle": "Victory Now!",
-            "other_phase": "Binding Ties",
-            "other_battle": "Strike",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Resolute",
+            "boss_battle": "Scout Battle",
+            "other_phase": "Flower Power!",
+            "other_battle": "Dokapon Normal Battle",
             "enemy2_phase": "Verdane Army",
-            "enemy2_battle": "Safeguard"
+            "enemy2_battle": "Resolute"
         },
         "objective": {
             "simple": "Seize the gate",
@@ -16116,7 +16117,7 @@
         "music": {
             "player_phase": "Inescapable Fate",
             "enemy_phase": "Butterfly Emerges from Chrysalis",
-            "player_battle": "Strike",
+            "player_battle": "Dokapon Normal Battle",
             "enemy_battle": null,
             "boss_battle": "Softly with Grace",
             "enemy2_phase": "Butterfly Emerges from Chrysalis"
@@ -17624,16 +17625,16 @@
         "nid": "11",
         "name": "Ch. 11: Port Assault",
         "tilemap": "Chapter 11",
-        "bg_tilemap": "Ch11 Scene BG",
+        "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Companions",
+            "player_phase": "Colin's Theme",
             "enemy_phase": "Pirate Otter Battle",
             "boss_battle": "Normal Battle",
             "enemy_battle": "Poison Battle",
-            "player_battle": "Strike",
+            "player_battle": "Dokapon Normal Battle",
             "other_battle": null,
-            "other_phase": "Binding Ties"
+            "other_phase": "Flower Power!"
         },
         "objective": {
             "simple": "Defend the town,{eval:game.turncount}/7 turn(s)",
@@ -19000,7 +19001,8 @@
                     "127",
                     "128",
                     "129",
-                    "130"
+                    "130",
+                    "Shinobu"
                 ],
                 "positions": {}
             },
@@ -21865,10 +21867,10 @@
         "music": {
             "player_phase": "Bug Battle",
             "enemy_phase": "Big Bad Burnin' Buddha",
-            "other_phase": "Binding Ties",
+            "other_phase": "Flower Power!",
             "boss_battle": "Normal Battle",
             "player_battle": "Master Battle",
-            "other_battle": "Strike",
+            "other_battle": "Master Battle",
             "enemy2_battle": null,
             "enemy_battle": "Poison Battle"
         },
@@ -22874,7 +22876,7 @@
         },
         "objective": {
             "simple": "Place crates,Left {eval:6 - len(get_units_in_region('cratedrop', team='other', tag='ArenaIgnore')) - v('cratesDead')}",
-            "win": "Place crates on drop-off,point or defeat boss",
+            "win": "Place crates on drop-off,point or route enemy",
             "loss": "Krista dies,or all supplies destroyed"
         },
         "roam": false,
@@ -23544,24 +23546,6 @@
         ],
         "regions": [
             {
-                "nid": "cratedrop",
-                "region_type": "event",
-                "position": [
-                    7,
-                    4
-                ],
-                "size": [
-                    2,
-                    3
-                ],
-                "sub_nid": "Escape",
-                "condition": "False",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
                 "nid": "New Region",
                 "region_type": "formation",
                 "position": [
@@ -23787,14 +23771,14 @@
         "party": "Krista",
         "music": {
             "player_phase": "FE5 Arena Battle",
-            "enemy_phase": "Water Battle",
+            "enemy_phase": "VS Marnie",
             "enemy2_phase": null,
             "player_battle": "Master Battle",
-            "enemy_battle": "Poison Battle",
+            "enemy_battle": null,
             "enemy2_battle": null,
             "boss_battle": "Normal Battle",
-            "other_battle": "Master Battle",
-            "other_phase": "Past Light"
+            "other_battle": null,
+            "other_phase": "VS Marnie"
         },
         "objective": {
             "simple": "Complete all bouts",
@@ -23816,284 +23800,6 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 15,
-                "klass": "Soldier",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 15,
-                "klass": "Archer",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": "Sword",
-                "level": 15,
-                "klass": "Cavalier",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 15,
-                "klass": "Mage",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": "Axe",
-                "level": 15,
-                "klass": "Knight",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 15,
-                "klass": "Pirate",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 15,
-                "klass": "PegasusKnight",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "ArenaDurability"
-                ],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 1,
-                "klass": "Sniper",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 1,
-                "klass": "Druid",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Miasma",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
-                "variant": null,
-                "level": 1,
-                "klass": "Bishop",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Shine",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 1,
-                "klass": "Swordmaster",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Ch15",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
             },
             {
                 "nid": "113",
@@ -29035,7 +28741,7 @@
         "music": {
             "player_phase": "Bug Battle",
             "enemy_phase": null,
-            "other_phase": "Past Light",
+            "other_phase": "Yellow Comet Theme",
             "player_battle": "Master Battle",
             "enemy_battle": null,
             "other_battle": "Master Battle",
@@ -29950,6 +29656,86 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "mayor",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "1",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "2",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "3",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "4",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -30493,6 +30279,33 @@
                     "snag3"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "cutscene",
+                "units": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "positions": {
+                    "1": [
+                        4,
+                        5
+                    ],
+                    "2": [
+                        3,
+                        2
+                    ],
+                    "3": [
+                        13,
+                        4
+                    ],
+                    "4": [
+                        11,
+                        8
+                    ]
+                }
             }
         ],
         "ai_groups": []
@@ -33598,7 +33411,8 @@
             "player_battle": "Master Battle",
             "boss_battle": "Normal Battle",
             "enemy_phase": "Water Battle",
-            "enemy_battle": "Poison Battle"
+            "enemy_battle": "Poison Battle",
+            "other_phase": "Past Light"
         },
         "objective": {
             "simple": "Defeat Tsubaki",
@@ -33653,19 +33467,6 @@
                 "generic": false
             },
             {
-                "nid": "Tsubaki",
-                "team": "enemy",
-                "ai": "Tsubaki",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Nagisa",
                 "team": "enemy",
                 "ai": "Defend",
@@ -33674,6 +33475,19 @@
                 "starting_position": [
                     24,
                     10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Tsubaki",
+                "team": "enemy",
+                "ai": "Tsubaki",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -42156,8 +41970,10 @@
         "party": "Krista",
         "music": {
             "player_phase": "Grana Plains",
-            "enemy_phase": "Strike",
-            "enemy_battle": "Enemies Appear"
+            "enemy_phase": "Starsign Battle",
+            "enemy_battle": "Tournament",
+            "player_battle": "Dokapon Normal Battle",
+            "boss_battle": "Scout Battle"
         },
         "objective": {
             "simple": "Defeat boss",
@@ -42186,7 +42002,7 @@
             {
                 "nid": "Gunnar",
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -42201,6 +42017,22 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Assassin",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "VanguardCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Marshall",
                 "faction": "Knight",
                 "starting_items": [],
                 "starting_skills": [],
@@ -43464,7 +43296,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Ch26",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -43675,7 +43507,7 @@
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
-            "player_phase": "Distant Roads",
+            "player_phase": null,
             "enemy_phase": null,
             "other_phase": null,
             "player_battle": null,
@@ -43841,11 +43673,27 @@
                 "nid": "103",
                 "variant": null,
                 "level": 1,
-                "klass": "Myrmidon",
+                "klass": "Cleric",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Light Brand",
+                        "Silence",
+                        false
+                    ],
+                    [
+                        "Sleep",
+                        false
+                    ],
+                    [
+                        "Stun",
+                        false
+                    ],
+                    [
+                        "Barrier",
+                        false
+                    ],
+                    [
+                        "Warp",
                         false
                     ]
                 ],

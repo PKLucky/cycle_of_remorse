@@ -1,13 +1,1 @@
-[
-    {
-        "nid": "DeadUnits",
-        "dtype": "list",
-        "svalue": "",
-        "kvvalue": [],
-        "oattrs": [
-            "nid",
-            "index"
-        ],
-        "lovalue": []
-    }
-]
+[]

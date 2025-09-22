@@ -3,7 +3,7 @@
         "nid": "0",
         "name": "Yondo",
         "tilemap": "Overworld",
-        "music": "Distant Roads",
+        "music": "Vien Forest",
         "overworld_nodes": [
             {
                 "nid": "1",
@@ -50,7 +50,7 @@
                 "menu_options": [
                     {
                         "nid": "New Event",
-                        "event": null,
+                        "event": "Intro",
                         "option_name": "",
                         "visible": false,
                         "enabled": false

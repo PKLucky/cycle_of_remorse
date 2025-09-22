@@ -10,16 +10,6 @@
         false
     ],
     [
-        "Grasp at Victory",
-        false,
-        false
-    ],
-    [
-        "Enemies Appear",
-        false,
-        false
-    ],
-    [
         "Verdane Army",
         true,
         false
@@ -41,16 +31,6 @@
     ],
     [
         "_Arena Victory",
-        false,
-        false
-    ],
-    [
-        "Strike",
-        false,
-        false
-    ],
-    [
-        "Safeguard",
         false,
         false
     ],
@@ -241,11 +221,6 @@
     ],
     [
         "Inescapable Fate",
-        false,
-        false
-    ],
-    [
-        "Companions",
         false,
         false
     ],
@@ -455,21 +430,6 @@
         false
     ],
     [
-        "_Route 111 Intro",
-        false,
-        false
-    ],
-    [
-        "_The Steel Samurai Intro",
-        false,
-        false
-    ],
-    [
-        "_Verdane Army Intro",
-        false,
-        false
-    ],
-    [
         "Goodbye ESAKA - KOF XV",
         true,
         false
@@ -497,6 +457,66 @@
     [
         "Vien Forest",
         false,
+        false
+    ],
+    [
+        "VS Marnie",
+        true,
+        false
+    ],
+    [
+        "Dokapon Normal Battle",
+        false,
+        false
+    ],
+    [
+        "Scout Battle",
+        false,
+        false
+    ],
+    [
+        "Tournament",
+        false,
+        false
+    ],
+    [
+        "RO SHAM BO!",
+        true,
+        false
+    ],
+    [
+        "Tough Guy Alert!",
+        true,
+        false
+    ],
+    [
+        "Starsign Battle",
+        true,
+        false
+    ],
+    [
+        "Tag Power!",
+        true,
+        false
+    ],
+    [
+        "Colin's Theme",
+        true,
+        false
+    ],
+    [
+        "Flower Power!",
+        true,
+        false
+    ],
+    [
+        "Yellow Comet Theme",
+        false,
+        false
+    ],
+    [
+        "Resolute",
+        true,
         false
     ]
 ]

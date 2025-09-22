@@ -8682,7 +8682,7 @@
             ],
             [
                 "eval_target_restrict_2",
-                "unit.wexp['Light'] or unit.wexp['Anima'] or unit.wexp['Dark'] or unit.wexp['Staff']"
+                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
             ],
             [
                 "hit",
@@ -8758,6 +8758,10 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags"
             ]
         ]
     },
@@ -8829,6 +8833,10 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags"
             ]
         ]
     },
@@ -8987,6 +8995,10 @@
             [
                 "hit",
                 30
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags"
             ]
         ]
     },
@@ -11247,7 +11259,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "map_hit_add_blend",
@@ -16162,7 +16174,7 @@
     },
     {
         "nid": "SHULA",
-        "name": "Hunter's Mark",
+        "name": "Prey Mark",
         "desc": "Inflicts Hit -20 on an enemy.",
         "icon_nid": "Skills",
         "icon_index": [

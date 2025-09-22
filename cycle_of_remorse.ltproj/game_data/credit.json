@@ -3707,7 +3707,7 @@
             ],
             [
                 "Magical Starsign",
-                "Pirate Otter Battle, Pirate Otter Hideout"
+                "Pirate Otter Battle, Pirate Otter Hideout, Starsign Battle"
             ],
             [
                 "Paper Mario (N64)",
@@ -3735,7 +3735,7 @@
             ],
             [
                 "Super Smash Bros. Melee",
-                "Together We Ride"
+                "Together We Ride, Tournament"
             ],
             [
                 "Viewtiful Joe: Red Hot Rumble",
@@ -3774,10 +3774,6 @@
                 "For Your Own Good, Was This Love"
             ],
             [
-                "PKLucky, The King of Fighters",
-                "Midosuji"
-            ],
-            [
                 "PKLucky",
                 "Lullabye of a Loyal Knight"
             ],
@@ -3798,12 +3794,36 @@
                 "Grana Plains, Romantic Feelings"
             ],
             [
-                "The Legend of Zelda: Oracle of Seasons",
+                "The Legend of Zelda: Oracle of Seasons, PKLucky",
                 "A Date With Rosa"
             ],
             [
                 "Pokemon Ranger: Shadows of Almia",
                 "Vien Forest"
+            ],
+            [
+                "Pokemon Sword/Shield",
+                "VS Marnie"
+            ],
+            [
+                "Dragon Quest Monsters Joker",
+                "Scout Battle"
+            ],
+            [
+                "Dokapon Kingdom",
+                "Dokapon Normal Battle"
+            ],
+            [
+                "Mario and Luigi: Bowser's Inside Story",
+                "Tough Guy Alert!"
+            ],
+            [
+                "Advance Wars: Dual Strike",
+                "Colin's Theme, Flower Power!, Tag Power!"
+            ],
+            [
+                "Red Earth",
+                "Resolute"
             ]
         ]
     },

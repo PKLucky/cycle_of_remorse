@@ -149,7 +149,7 @@
         "desc": "Krista's retainer.\nDevoted to his kingdom and liege.",
         "variant": "",
         "level": 1,
-        "klass": "Mage Knight",
+        "klass": "Cavalier",
         "tags": [
             "Lord",
             "Medean",
@@ -157,16 +157,16 @@
             "Canon"
         ],
         "bases": {
-            "HP": 33,
-            "STR": 21,
-            "MAG": 18,
-            "SKL": 15,
-            "SPD": 17,
-            "LCK": 10,
-            "DEF": 21,
-            "RES": 8,
-            "CON": 9,
-            "MOV": 8
+            "HP": 20,
+            "STR": 12,
+            "MAG": 9,
+            "SKL": 10,
+            "SPD": 11,
+            "LCK": 7,
+            "DEF": 11,
+            "RES": 2,
+            "CON": 3,
+            "MOV": 7
         },
         "growths": {
             "HP": 65,
@@ -183,10 +183,10 @@
         "stat_cap_modifiers": {
             "SPD": 0,
             "HP": 0,
-            "STR": 5,
+            "STR": 0,
             "MAG": 0,
             "SKL": 0,
-            "DEF": 6,
+            "DEF": 0,
             "RES": 0,
             "LCK": 0,
             "MOV": 0,
@@ -284,6 +284,10 @@
             [
                 "PromoStatCap3",
                 "STR,5,DEF,7"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,5,DEF,6"
             ]
         ]
     },
@@ -2935,7 +2939,6 @@
         "klass": "Shaman",
         "tags": [
             "Female",
-            "Dark",
             "Shifter"
         ],
         "bases": {
@@ -3210,22 +3213,22 @@
         "desc": "Medean nobleman and Krista's cousin.\nSerious and studious.",
         "variant": "",
         "level": 1,
-        "klass": "Mage Knight",
+        "klass": "Mage",
         "tags": [
             "Medean",
             "Canon"
         ],
         "bases": {
-            "HP": 33,
-            "STR": 21,
-            "MAG": 25,
-            "SKL": 17,
-            "SPD": 22,
-            "LCK": 8,
-            "DEF": 11,
-            "RES": 18,
-            "CON": 7,
-            "MOV": 8
+            "HP": 21,
+            "STR": 14,
+            "MAG": 14,
+            "SKL": 11,
+            "SPD": 15,
+            "LCK": 4,
+            "DEF": 4,
+            "RES": 10,
+            "CON": 2,
+            "MOV": 5
         },
         "growths": {
             "HP": 60,
@@ -3240,14 +3243,14 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 4,
+            "SPD": 0,
             "LCK": 0,
             "SKL": 0,
             "MOV": 0,
-            "STR": 2,
+            "STR": 0,
             "DEF": 0,
-            "RES": 1,
-            "MAG": 8,
+            "RES": 0,
+            "MAG": 0,
             "HP": 0,
             "CON": 0
         },
@@ -3330,6 +3333,10 @@
             [
                 "PromoStatCap3",
                 "STR,1,MAG,16,SKL,2,SPD,5,RES,5"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2,MAG,8,SPD,4,RES,1"
             ]
         ]
     },
@@ -3477,21 +3484,21 @@
         "desc": "Captain of the Wyrmfang Pirates.\nFatherly, but crude.",
         "variant": "",
         "level": 1,
-        "klass": "Berserker",
+        "klass": "Pirate",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 48,
-            "STR": 33,
-            "MAG": 5,
-            "SKL": 19,
-            "SPD": 17,
-            "LCK": 10,
-            "DEF": 11,
-            "RES": 12,
-            "CON": 12,
-            "MOV": 6
+            "HP": 29,
+            "STR": 12,
+            "MAG": 3,
+            "SKL": 12,
+            "SPD": 14,
+            "LCK": 11,
+            "DEF": 7,
+            "RES": 9,
+            "CON": 9,
+            "MOV": 5
         },
         "growths": {
             "HP": 75,
@@ -3508,13 +3515,13 @@
         "stat_cap_modifiers": {
             "SPD": 0,
             "LCK": 0,
-            "SKL": 3,
+            "SKL": 0,
             "MOV": 0,
-            "STR": 14,
+            "STR": 0,
             "DEF": 0,
             "RES": 0,
             "MAG": 0,
-            "HP": 6,
+            "HP": 0,
             "CON": 0
         },
         "starting_items": [
@@ -3591,7 +3598,11 @@
             ],
             [
                 "PromoStatCap3",
-                "HP,19,STR,18,SKL,7,SPD,5"
+                "HP,15,STR,7,SKL,7,SPD,9"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,2,STR,3,SKL,3"
             ]
         ]
     },
@@ -3986,22 +3997,22 @@
         "desc": "Arena fighter from Gintoki City.\nEnergetic and charismatic.",
         "variant": "Female",
         "level": 1,
-        "klass": "Rogue",
+        "klass": "Thief",
         "tags": [
             "Boss",
             "Female"
         ],
         "bases": {
-            "HP": 26,
-            "STR": 18,
-            "MAG": 14,
-            "SKL": 17,
-            "SPD": 22,
-            "LCK": 9,
-            "DEF": 15,
-            "RES": 17,
-            "CON": 5,
-            "MOV": 7
+            "HP": 15,
+            "STR": 11,
+            "MAG": 9,
+            "SKL": 8,
+            "SPD": 12,
+            "LCK": 4,
+            "DEF": 9,
+            "RES": 13,
+            "CON": 3,
+            "MOV": 6
         },
         "growths": {
             "HP": 65,
@@ -4017,10 +4028,10 @@
         },
         "stat_cap_modifiers": {
             "HP": 0,
-            "STR": 2,
+            "STR": 0,
             "MAG": 0,
             "SKL": 0,
-            "SPD": 2,
+            "SPD": 0,
             "LCK": 0,
             "DEF": 0,
             "RES": 0,
@@ -4098,6 +4109,10 @@
             [
                 "PromoStatCap3",
                 "STR,4,SKL,1,SPD,14"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2,SPD,2"
             ]
         ]
     },
@@ -4107,22 +4122,22 @@
         "desc": "Mercenary and former member of the Medean Army.\nCold and quiet.",
         "variant": "",
         "level": 1,
-        "klass": "Falcoknight",
+        "klass": "PegasusKnight",
         "tags": [
             "Female",
             "Medean"
         ],
         "bases": {
-            "HP": 35,
-            "STR": 19,
-            "MAG": 16,
-            "SKL": 15,
-            "SPD": 24,
-            "LCK": 14,
-            "DEF": 10,
-            "RES": 15,
-            "CON": 5,
-            "MOV": 8
+            "HP": 21,
+            "STR": 12,
+            "MAG": 11,
+            "SKL": 8,
+            "SPD": 13,
+            "LCK": 11,
+            "DEF": 5,
+            "RES": 7,
+            "CON": 2,
+            "MOV": 7
         },
         "growths": {
             "HP": 65,
@@ -4137,11 +4152,11 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 5,
+            "SPD": 0,
             "LCK": 0,
             "SKL": 0,
             "MOV": 0,
-            "STR": 1,
+            "STR": 0,
             "DEF": 0,
             "RES": 0,
             "MAG": 0,
@@ -4226,7 +4241,11 @@
             ],
             [
                 "PromoStatCap3",
-                "SPD,7"
+                "SPD,5"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,1,SPD,3"
             ]
         ]
     },
@@ -4368,22 +4387,22 @@
         "desc": "Crown prince of Fuegsol.\nLoud-mouthed and cocky.",
         "variant": "",
         "level": 1,
-        "klass": "WyvernKnight",
+        "klass": "WyvernRider",
         "tags": [
             "Fueg",
             "Canon"
         ],
         "bases": {
-            "HP": 36,
-            "STR": 28,
-            "MAG": 19,
-            "SKL": 19,
-            "SPD": 15,
-            "LCK": 11,
-            "DEF": 19,
-            "RES": 8,
-            "CON": 8,
-            "MOV": 7
+            "HP": 21,
+            "STR": 12,
+            "MAG": 14,
+            "SKL": 14,
+            "SPD": 9,
+            "LCK": 9,
+            "DEF": 7,
+            "RES": 7,
+            "CON": 4,
+            "MOV": 6
         },
         "growths": {
             "HP": 70,
@@ -4398,9 +4417,9 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "STR": 7,
-            "MAG": 1,
-            "SKL": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
             "SPD": 0,
             "LCK": 0,
             "HP": 0,
@@ -4483,7 +4502,11 @@
             ],
             [
                 "PromoStatCap3",
-                "STR,12"
+                "STR,8"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,3,MAG,1,SKL,1"
             ]
         ]
     },
@@ -4621,22 +4644,22 @@
         "desc": "A skilled swordswoman from the Shirotori mountains.\nDistrustful of men.",
         "variant": "Female",
         "level": 1,
-        "klass": "Swordmaster",
+        "klass": "Myrmidon",
         "tags": [
             "Boss",
             "Bandit",
             "Female"
         ],
         "bases": {
-            "HP": 28,
-            "STR": 24,
-            "MAG": 10,
-            "SKL": 24,
-            "SPD": 25,
-            "LCK": 19,
-            "DEF": 12,
-            "RES": 16,
-            "CON": 6,
+            "HP": 13,
+            "STR": 14,
+            "MAG": 7,
+            "SKL": 13,
+            "SPD": 13,
+            "LCK": 16,
+            "DEF": 7,
+            "RES": 11,
+            "CON": 3,
             "MOV": 6
         },
         "growths": {
@@ -4652,11 +4675,11 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 6,
-            "LCK": 1,
-            "SKL": 7,
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
             "MOV": 0,
-            "STR": 3,
+            "STR": 0,
             "DEF": 0,
             "RES": 0,
             "MAG": 0,
@@ -4733,7 +4756,11 @@
             ],
             [
                 "PromoStatCap3",
-                "STR,4,SKL,13,SPD,12"
+                "STR,2,SKL,13,SPD,11"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,1,SKL,7,SPD,5,LCK,2"
             ]
         ]
     },
@@ -4743,21 +4770,21 @@
         "desc": "Nobleman of Merinas.\nFlirtatious and haughty.",
         "variant": "",
         "level": 1,
-        "klass": "Sniper",
+        "klass": "Archer",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 36,
-            "STR": 26,
-            "MAG": 14,
-            "SKL": 18,
-            "SPD": 14,
-            "LCK": 13,
-            "DEF": 18,
-            "RES": 12,
-            "CON": 9,
-            "MOV": 6
+            "HP": 23,
+            "STR": 14,
+            "MAG": 11,
+            "SKL": 10,
+            "SPD": 6,
+            "LCK": 10,
+            "DEF": 11,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {
             "HP": 65,
@@ -4776,8 +4803,8 @@
             "LCK": 0,
             "SKL": 0,
             "MOV": 0,
-            "STR": 5,
-            "DEF": 2,
+            "STR": 0,
+            "DEF": 0,
             "RES": 0,
             "MAG": 0,
             "HP": 0,
@@ -4785,7 +4812,7 @@
         },
         "starting_items": [
             [
-                "IronLongbow",
+                "SteelLongbow",
                 false
             ]
         ],
@@ -4850,6 +4877,10 @@
             [
                 "PromoStatCap3",
                 "HP,2,STR,9,SKL,3,DEF,6"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,5,DEF,2"
             ]
         ]
     },
@@ -4859,21 +4890,21 @@
         "desc": "Masashi's retainer.\nA dedicated scholar of theology.",
         "variant": "",
         "level": 1,
-        "klass": "Bishop",
+        "klass": "Monk",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 34,
+            "HP": 24,
             "STR": 0,
-            "MAG": 18,
-            "SKL": 26,
-            "SPD": 20,
-            "LCK": 18,
-            "DEF": 17,
-            "RES": 21,
-            "CON": 6,
-            "MOV": 6
+            "MAG": 9,
+            "SKL": 12,
+            "SPD": 14,
+            "LCK": 13,
+            "DEF": 11,
+            "RES": 13,
+            "CON": 4,
+            "MOV": 5
         },
         "growths": {
             "HP": 60,
@@ -4891,12 +4922,12 @@
             "MAG": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 2,
-            "LCK": 2,
-            "SPD": 3,
+            "RES": 0,
+            "LCK": 0,
+            "SPD": 0,
             "HP": 0,
             "DEF": 0,
-            "SKL": 11,
+            "SKL": 0,
             "STR": 0
         },
         "starting_items": [
@@ -4973,7 +5004,11 @@
             ],
             [
                 "PromoStatCap3",
-                "SKL,17,SPD,3,LCK,6,RES,7"
+                "SKL,13,SPD,4,LCK,7,RES,8"
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,7,SPD,4,LCK,3,RES,3"
             ]
         ]
     },
@@ -4983,22 +5018,22 @@
         "desc": "A knight under service of Emperor Samegoro.\nTakes naps often.",
         "variant": "",
         "level": 1,
-        "klass": "General",
+        "klass": "Knight",
         "tags": [
             "Boss",
             "Female"
         ],
         "bases": {
-            "HP": 40,
-            "STR": 27,
-            "MAG": 15,
-            "SKL": 15,
-            "SPD": 5,
-            "LCK": 5,
-            "DEF": 23,
-            "RES": 27,
-            "CON": 8,
-            "MOV": 6
+            "HP": 24,
+            "STR": 14,
+            "MAG": 13,
+            "SKL": 11,
+            "SPD": 1,
+            "LCK": 2,
+            "DEF": 14,
+            "RES": 14,
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -5017,9 +5052,9 @@
             "LCK": 0,
             "SKL": 0,
             "MOV": 0,
-            "STR": 5,
+            "STR": 0,
             "DEF": 0,
-            "RES": 11,
+            "RES": 0,
             "MAG": 0,
             "HP": 0,
             "CON": 0
@@ -5099,6 +5134,10 @@
             [
                 "PromoStatCap3",
                 "HP,4,STR,4,DEF,8,RES,18"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,5,RES,11"
             ]
         ]
     },
@@ -5108,22 +5147,22 @@
         "desc": "Emperor Samegoro's retainer.\nLoyal to the royal family.",
         "variant": "Female",
         "level": 1,
-        "klass": "Ninja",
+        "klass": "Thief",
         "tags": [
             "Boss",
             "Female"
         ],
         "bases": {
-            "HP": 28,
-            "STR": 16,
-            "MAG": 21,
-            "SKL": 22,
-            "SPD": 24,
-            "LCK": 21,
-            "DEF": 10,
-            "RES": 16,
-            "CON": 5,
-            "MOV": 7
+            "HP": 17,
+            "STR": 10,
+            "MAG": 14,
+            "SKL": 11,
+            "SPD": 12,
+            "LCK": 17,
+            "DEF": 7,
+            "RES": 13,
+            "CON": 3,
+            "MOV": 6
         },
         "growths": {
             "HP": 65,
@@ -5138,14 +5177,14 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 7,
-            "LCK": 1,
-            "SKL": 5,
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
             "MOV": 0,
             "STR": 0,
             "DEF": 0,
             "RES": 0,
-            "MAG": 5,
+            "MAG": 0,
             "HP": 0,
             "CON": 0
         },
@@ -5220,6 +5259,10 @@
             [
                 "PromoStatCap3",
                 "MAG,7,SKL,8,SPD,13"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,5,SKL,5,SPD,7,LCK,1"
             ]
         ]
     },
@@ -5229,22 +5272,22 @@
         "desc": "Tsubaki's retainer.\nStubborn and blunt.",
         "variant": "Female",
         "level": 1,
-        "klass": "Halberdier",
+        "klass": "Lancer",
         "tags": [
             "Boss",
             "Female"
         ],
         "bases": {
-            "HP": 39,
-            "STR": 23,
+            "HP": 24,
+            "STR": 14,
             "MAG": 0,
-            "SKL": 15,
-            "SPD": 17,
-            "LCK": 19,
-            "DEF": 17,
-            "RES": 17,
-            "CON": 7,
-            "MOV": 6
+            "SKL": 7,
+            "SPD": 10,
+            "LCK": 13,
+            "DEF": 7,
+            "RES": 10,
+            "CON": 3,
+            "MOV": 5
         },
         "growths": {
             "HP": 75,
@@ -5260,10 +5303,10 @@
         },
         "stat_cap_modifiers": {
             "SPD": 0,
-            "LCK": 4,
+            "LCK": 0,
             "SKL": 0,
             "MOV": 0,
-            "STR": 1,
+            "STR": 0,
             "DEF": 0,
             "RES": 0,
             "MAG": 0,
@@ -5337,6 +5380,10 @@
             [
                 "PromoStatCap3",
                 "HP,4,STR,4,SPD,3,LCK,4"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,1,LCK,4"
             ]
         ]
     },
@@ -5346,7 +5393,7 @@
         "desc": "Princess of Merinas.\nSoft-spoken and peaceful.",
         "variant": "",
         "level": 1,
-        "klass": "Valkyrie",
+        "klass": "Troubadour",
         "tags": [
             "Boss",
             "Female",
@@ -5354,16 +5401,16 @@
             "Canon"
         ],
         "bases": {
-            "HP": 31,
-            "STR": 16,
-            "MAG": 26,
-            "SKL": 25,
-            "SPD": 20,
-            "LCK": 10,
-            "DEF": 10,
-            "RES": 22,
-            "CON": 4,
-            "MOV": 8
+            "HP": 20,
+            "STR": 11,
+            "MAG": 14,
+            "SKL": 15,
+            "SPD": 12,
+            "LCK": 12,
+            "DEF": 4,
+            "RES": 13,
+            "CON": 1,
+            "MOV": 7
         },
         "growths": {
             "HP": 60,
@@ -5378,14 +5425,14 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 3,
+            "SPD": 0,
             "LCK": 0,
-            "SKL": 7,
+            "SKL": 0,
             "MOV": 0,
             "STR": 0,
             "DEF": 0,
-            "RES": 1,
-            "MAG": 4,
+            "RES": 0,
+            "MAG": 0,
             "HP": 0,
             "CON": 0
         },
@@ -5460,6 +5507,10 @@
             [
                 "PromoStatCap3",
                 "MAG,16,SKL,7,SPD,3,RES,4"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,4,SKL,7,SPD,3,RES,1"
             ]
         ]
     },
@@ -5469,21 +5520,21 @@
         "desc": "Ervan's former retainer.\nStrict and disciplined.",
         "variant": "",
         "level": 1,
-        "klass": "Hero",
+        "klass": "Mercenary",
         "tags": [
             "Canon"
         ],
         "bases": {
-            "HP": 35,
-            "STR": 27,
-            "MAG": 9,
-            "SKL": 18,
-            "SPD": 17,
+            "HP": 29,
+            "STR": 17,
+            "MAG": 8,
+            "SKL": 16,
+            "SPD": 15,
             "LCK": 14,
-            "DEF": 20,
-            "RES": 15,
-            "CON": 8,
-            "MOV": 6
+            "DEF": 17,
+            "RES": 13,
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -5499,10 +5550,10 @@
         },
         "stat_cap_modifiers": {
             "MOV": 0,
-            "STR": 5,
+            "STR": 0,
             "MAG": 0,
             "CON": 0,
-            "DEF": 3,
+            "DEF": 0,
             "SKL": 0,
             "RES": 0,
             "SPD": 0,
@@ -5519,7 +5570,7 @@
                 false
             ],
             [
-                "DoorKey5",
+                "Door Key",
                 false
             ]
         ],
@@ -5588,6 +5639,10 @@
             [
                 "PromoStatCap3",
                 "HP,4,STR,14,SKL,9,SPD,9,DEF,12"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2"
             ]
         ]
     },
@@ -5597,21 +5652,21 @@
         "desc": "A villager from Coral Desert.\nSerious, but has a soft side.",
         "variant": "Female",
         "level": 1,
-        "klass": "Sniper",
+        "klass": "Archer",
         "tags": [
             "Female"
         ],
         "bases": {
-            "SPD": 22,
-            "RES": 11,
-            "LCK": 13,
-            "HP": 32,
-            "CON": 6,
-            "SKL": 23,
-            "MOV": 6,
-            "DEF": 11,
-            "STR": 15,
-            "MAG": 5
+            "SPD": 13,
+            "RES": 3,
+            "LCK": 9,
+            "HP": 18,
+            "CON": 3,
+            "SKL": 12,
+            "MOV": 5,
+            "DEF": 5,
+            "STR": 6,
+            "MAG": 3
         },
         "growths": {
             "SPD": 50,
@@ -5626,12 +5681,12 @@
             "MAG": 10
         },
         "stat_cap_modifiers": {
-            "SPD": 3,
+            "SPD": 0,
             "RES": 0,
             "LCK": 0,
             "HP": 0,
             "CON": 0,
-            "SKL": 8,
+            "SKL": 0,
             "MOV": 0,
             "DEF": 0,
             "STR": 0,
@@ -5687,6 +5742,10 @@
             [
                 "DeathQuote",
                 "D-Dammit{tgm}...!{tgm} Not like this{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "SKL,8,SPD,3"
             ]
         ]
     },
@@ -5696,23 +5755,22 @@
         "desc": "A young girl from Coral Desert.\nOptimistic and a hard-worker.",
         "variant": "Female",
         "level": 1,
-        "klass": "Sorcerer",
+        "klass": "Shaman",
         "tags": [
             "Female",
-            "Dark",
             "Shifter"
         ],
         "bases": {
-            "HP": 36,
-            "STR": 10,
-            "MAG": 25,
-            "SKL": 20,
-            "SPD": 15,
-            "LCK": 12,
-            "DEF": 17,
-            "RES": 15,
-            "CON": 5,
-            "MOV": 6
+            "HP": 22,
+            "STR": 8,
+            "MAG": 12,
+            "SKL": 12,
+            "SPD": 6,
+            "LCK": 8,
+            "DEF": 10,
+            "RES": 8,
+            "CON": 2,
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -5730,9 +5788,9 @@
             "SPD": 0,
             "RES": 0,
             "LCK": 0,
-            "HP": 3,
+            "HP": 0,
             "CON": 0,
-            "SKL": 2,
+            "SKL": 0,
             "MOV": 0,
             "DEF": 0,
             "STR": 0,
@@ -5786,8 +5844,119 @@
             [
                 "PromoStatCap3",
                 "HP,2,SKL,3"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,3,SKL,2"
             ]
         ]
+    },
+    {
+        "nid": "Ervan",
+        "name": "Ervan",
+        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
+        "variant": "",
+        "level": 1,
+        "klass": "BowLord",
+        "tags": [
+            "Fueg",
+            "Canon"
+        ],
+        "bases": {
+            "HP": 35,
+            "STR": 25,
+            "MAG": 10,
+            "SKL": 23,
+            "SPD": 21,
+            "LCK": 10,
+            "DEF": 17,
+            "RES": 19,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 55,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 30,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "STR": 1,
+            "SKL": 0,
+            "SPD": 0,
+            "HP": 0,
+            "MOV": 0,
+            "CON": 0,
+            "RES": 0,
+            "MAG": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "ERVAN"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                131,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                241,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ervan",
+        "affinity": "Anima",
+        "fields": []
     },
     {
         "nid": "Torgen",
@@ -5795,21 +5964,21 @@
         "desc": "A bandit from Oregot.\nRough, but has a good heart.",
         "variant": "",
         "level": 1,
-        "klass": "GriffonKnight",
+        "klass": "GriffonRider",
         "tags": [
             "Bandit"
         ],
         "bases": {
-            "HP": 37,
-            "STR": 25,
-            "MAG": 13,
-            "SKL": 17,
-            "SPD": 16,
-            "LCK": 10,
-            "DEF": 17,
-            "RES": 16,
-            "CON": 7,
-            "MOV": 7
+            "HP": 21,
+            "STR": 12,
+            "MAG": 11,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 7,
+            "DEF": 11,
+            "RES": 11,
+            "CON": 3,
+            "MOV": 6
         },
         "growths": {
             "HP": 80,
@@ -5825,8 +5994,8 @@
         },
         "stat_cap_modifiers": {
             "DEF": 0,
-            "STR": 7,
-            "SKL": 2,
+            "STR": 0,
+            "SKL": 0,
             "SPD": 0,
             "HP": 0,
             "MOV": 0,
@@ -5906,39 +6075,47 @@
             [
                 "DeathQuote",
                 "Just when{tgm}...{tgm} things got better{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,7,SKL,2"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,3,STR,9,SKL,6,SPD,2"
             ]
         ]
     },
     {
         "nid": "Peter",
         "name": "Peter",
-        "desc": "",
+        "desc": "A hermit who lives deep in Oregot's mountains.",
         "variant": "",
         "level": 1,
-        "klass": "Berserker",
+        "klass": "Brigand",
         "tags": [],
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "HP": 25,
+            "STR": 11,
+            "MAG": 8,
+            "SKL": 8,
+            "SPD": 7,
+            "LCK": 10,
+            "DEF": 12,
+            "RES": 7,
+            "CON": 13,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 75,
+            "STR": 65,
+            "MAG": 15,
+            "SKL": 45,
+            "SPD": 30,
+            "LCK": 35,
+            "DEF": 55,
+            "RES": 25,
+            "CON": 10,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -5953,8 +6130,18 @@
             "HP": 0,
             "CON": 0
         },
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "ShortAxe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "PETER"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -5969,7 +6156,7 @@
             ],
             "Axe": [
                 false,
-                0,
+                241,
                 251
             ],
             "Bow": [
@@ -6006,7 +6193,16 @@
         "alternate_classes": [],
         "portrait_nid": "Man3",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "PromoStatCap2",
+                "HP,1,STR,6,DEF,9"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,6,STR,9,DEF,12"
+            ]
+        ]
     },
     {
         "nid": "Tora",
@@ -6778,113 +6974,6 @@
                 "Arion{tgm}..."
             ]
         ]
-    },
-    {
-        "nid": "Ervan",
-        "name": "Ervan",
-        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
-        "variant": "",
-        "level": 1,
-        "klass": "BowLord",
-        "tags": [
-            "Fueg",
-            "Canon"
-        ],
-        "bases": {
-            "HP": 35,
-            "STR": 25,
-            "MAG": 10,
-            "SKL": 23,
-            "SPD": 21,
-            "LCK": 10,
-            "DEF": 17,
-            "RES": 19,
-            "CON": 7,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 85,
-            "STR": 55,
-            "MAG": 5,
-            "SKL": 45,
-            "SPD": 45,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 30,
-            "CON": 15,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "DEF": 0,
-            "STR": 1,
-            "SKL": 0,
-            "SPD": 0,
-            "HP": 0,
-            "MOV": 0,
-            "CON": 0,
-            "RES": 0,
-            "MAG": 0,
-            "LCK": 0
-        },
-        "starting_items": [],
-        "learned_skills": [
-            [
-                1,
-                "ERVAN"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                131,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                241,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Ervan",
-        "affinity": "Anima",
-        "fields": []
     },
     {
         "nid": "Gordon",
@@ -10567,36 +10656,36 @@
         "name": "Gerolt",
         "desc": "King of Fuegsol.",
         "variant": "",
-        "level": 7,
-        "klass": "Hero",
+        "level": 1,
+        "klass": "Mercenary",
         "tags": [],
         "bases": {
-            "HP": 36,
-            "STR": 27,
-            "MAG": 14,
-            "SKL": 21,
-            "SPD": 19,
-            "LCK": 15,
-            "DEF": 24,
-            "RES": 13,
-            "CON": 8,
-            "MOV": 6
+            "HP": 26,
+            "STR": 17,
+            "MAG": 9,
+            "SKL": 16,
+            "SPD": 14,
+            "LCK": 14,
+            "DEF": 18,
+            "RES": 9,
+            "CON": 4,
+            "MOV": 5
         },
         "growths": {
-            "SPD": 0,
-            "RES": 0,
-            "LCK": 0,
-            "HP": 0,
-            "CON": 0,
-            "SKL": 0,
+            "SPD": 50,
+            "RES": 25,
+            "LCK": 30,
+            "HP": 80,
+            "CON": 15,
+            "SKL": 45,
             "MOV": 0,
-            "DEF": 0,
-            "STR": 0,
-            "MAG": 0
+            "DEF": 50,
+            "STR": 75,
+            "MAG": 45
         },
         "stat_cap_modifiers": {
             "MAG": 0,
-            "LCK": 1,
+            "LCK": 0,
             "SPD": 0,
             "RES": 0,
             "CON": 0,
@@ -10650,38 +10739,38 @@
         "name": "Leeann",
         "desc": "Queen of Fuegsol.",
         "variant": "Female",
-        "level": 7,
-        "klass": "WyvernKnight",
+        "level": 1,
+        "klass": "WyvernRider",
         "tags": [
             "Female",
             "Fueg"
         ],
         "bases": {
-            "HP": 42,
-            "STR": 24,
-            "MAG": 9,
-            "SKL": 20,
-            "SPD": 17,
-            "LCK": 18,
-            "DEF": 24,
-            "RES": 9,
-            "CON": 12,
-            "MOV": 8
+            "HP": 31,
+            "STR": 16,
+            "MAG": 6,
+            "SKL": 15,
+            "SPD": 11,
+            "LCK": 14,
+            "DEF": 17,
+            "RES": 6,
+            "CON": 9,
+            "MOV": 7
         },
         "growths": {
-            "SPD": 0,
-            "RES": 0,
-            "LCK": 0,
-            "HP": 0,
-            "CON": 0,
-            "SKL": 0,
+            "SPD": 40,
+            "RES": 35,
+            "LCK": 45,
+            "HP": 75,
+            "CON": 15,
+            "SKL": 50,
             "MOV": 0,
-            "DEF": 0,
-            "STR": 0,
-            "MAG": 0
+            "DEF": 60,
+            "STR": 60,
+            "MAG": 35
         },
         "stat_cap_modifiers": {
-            "LCK": 2,
+            "LCK": 0,
             "SPD": 0,
             "RES": 0,
             "HP": 0,

@@ -18,7 +18,7 @@
         "name": "Arena",
         "title": "Arena",
         "category": "Mechanics",
-        "text": "A unit who lands on an Arena tile may battle against a random opponent to earn money.{br}The higher the wager, the tougher the enemy is.\nUnits can equip themselves with any weapon in their inventory prior to entering."
+        "text": "A unit who lands on an Arena tile may battle against a random opponent to earn money.{br}The higher the wager, the tougher the enemy is.\nUnits will use their <blue>currently equipped weapon</> in the arena.{br}Weapon durability <blue>does not</> decrease in the arena."
     },
     {
         "nid": "AllyRetrieval",
@@ -74,7 +74,7 @@
         "name": "Supports",
         "title": "Supports",
         "category": "Mechanics",
-        "text": "Pairs of units raise their Support levels by <blue>being deployed on the same map</>. One Support point is gained <blue>per turn</> no matter where the units are on the map.\nUnits have <blue>no limit</> on how many support partners they can have. However, only the top <blue>three</> pairings within <blue>three spaces</> will give them bonuses.\nUnits also may only have either one <blue>S</> Rank support or one <blue>A+</> Rank support.{br}S Rank and A+ Rank supports indicate which pairs have a <blue>paired ending</>."
+        "text": "Pairs of units raise their Support levels by <blue>being deployed on the same map</>.\nUnits have <blue>no limit</> on how many support partners they can have. However, only the top <blue>three</> pairings within <blue>three spaces</> will give them bonuses.\nUnits also may only have either one <blue>S</> Rank support or one <blue>A+</> Rank support.{br}S Rank and A+ Rank supports indicate which pairs have a <blue>paired ending</>."
     },
     {
         "nid": "HitAvo",

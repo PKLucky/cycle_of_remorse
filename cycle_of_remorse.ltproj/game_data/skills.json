@@ -3329,8 +3329,8 @@
     },
     {
         "nid": "SHULA",
-        "name": "Hunter's Mark",
-        "desc": "A chosen enemy within 1 to Skl/2 spaces will be inflicted with Hit -20 if not targeting the unit for three turns. (Usable once per turn. Unit may attack, but may not move after use.)",
+        "name": "Prey Mark",
+        "desc": "A chosen enemy within 1 to Skl/2 spaces will be inflicted with Hit -20 if not in combat with the unit for three turns. (Usable once per turn. Unit may attack, but may not move after use.)",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -3354,7 +3354,7 @@
     {
         "nid": "SHULA_STATUS",
         "name": "Marked <blue>(Shula)</>",
-        "desc": "Hit - 20 when not targeting Shula.",
+        "desc": "Hit - 20 when not in combat with Shula.",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -3569,6 +3569,26 @@
             [
                 "combat_condition",
                 "'Flying' not in target.tags"
+            ]
+        ]
+    },
+    {
+        "nid": "PETER",
+        "name": "Long Stride",
+        "desc": "All accessible terrain has a movement cost of 1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Acrobat"
             ]
         ]
     },

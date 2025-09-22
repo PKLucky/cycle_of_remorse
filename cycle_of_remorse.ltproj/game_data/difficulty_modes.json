@@ -167,6 +167,6 @@
         "enemy_autolevels": 0,
         "boss_autolevels": 0,
         "promoted_autolevels_fraction": 0.75,
-        "start_locked": true
+        "start_locked": false
     }
 ]

@@ -119,7 +119,7 @@
                 251
             ]
         },
-        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_nid": "Villager (U) {Ghast}",
         "icon_index": [
             0,
             0
@@ -3267,7 +3267,7 @@
                 251
             ],
             "Lance": [
-                2,
+                true,
                 40,
                 491
             ],
@@ -3455,13 +3455,15 @@
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Halberdier"
+        ],
         "tags": [],
         "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 7,
-            "MAG": 1,
+            "MAG": 0,
             "SKL": 4,
             "SPD": 7,
             "LCK": 1,
