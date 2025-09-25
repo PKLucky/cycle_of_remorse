@@ -4124,10 +4124,33 @@
             "remove_talk;Kai;Torgen",
             "remove_talk;Sam;Torgen",
             "remove_talk;Torgen;Krista",
+            "remove_talk;Krista;Torgen",
             "change_ai;Torgen;None",
             "mf"
         ],
         "nid": "26 TalkKristaTorgen"
+    },
+    {
+        "name": "TalkKristaPeter",
+        "trigger": "on_talk",
+        "level_nid": "26",
+        "condition": "check_pair('Krista','Peter')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Right;Peter;Left",
+            "s;Peter;PLACEHOLDER",
+            "s;Krista;PLACEHOLDER",
+            "rrr",
+            "change_team;Peter;player",
+            "remove_talk;Krista;Peter",
+            "remove_talk;Peter;Krista",
+            "change_ai;Peter;None",
+            "mf"
+        ],
+        "nid": "26 TalkKristaPeter"
     },
     {
         "name": "TalkTsubakiKai",
@@ -26588,6 +26611,8 @@
             "add_tag;MiloCopy;Boss",
             "add_tag;VanguardCopy;Boss",
             "###",
+            "add_base_convo;Behind the Back",
+            "###",
             "m;What Comes from Darkness",
             "uu;Vanguard;Left;Milo;Right",
             "e;Milo;Smile",
@@ -26606,7 +26631,7 @@
             "s;Vanguard;Yes?",
             "s;Milo;A subordinate of mine reported that there's a Shifter within their ranks.|And judging by the description, sounds like you know 'em.",
             "s;Vanguard;...",
-            "s;Milo;I can't absolutely guarantee it, of course.|I'm just making sure you're aware.",
+            "s;Milo;I can't absolutely guarantee it, of course.|I'm just giving you a heads up.",
             "s;Vanguard;Is that all?",
             "s;Milo;Yup. I'm gonna touch base with Soromir and the rest.|{c:e;Milo;NearWink,Smile}Catch you later!",
             "rrr",
@@ -26697,7 +26722,7 @@
             "s;Ervan;Krista{tgm}...?{tgm} Is that you?",
             "s;Krista;E-Ervan!",
             "e;Ervan;HalfCloseEyes",
-            "s;Ervan;Krista, I{tgm}...{tgm} I'm sorry.|{c:e;Ervan;CloseEyes}My head feels{tgm}...{tgm} It's all so foggy.|{c:e;Ervan;HalfCloseEyes}Ah, did you cut your hair recently{tgm}...?|{c:e;Ervan;HalfCloseEyes,Smile}{tgm}You still look cute{tgm}...",
+            "s;Ervan;Krista, I{tgm}...{tgm} I'm sorry.|{c:e;Ervan;CloseEyes}My head feels{tgm}...{tgm} It's all so foggy.|{c:e;Ervan;HalfCloseEyes}Ah, did you cut your hair recently{tgm}...?|{c:e;Ervan;HalfCloseEyes,Smile}{tgm}You still look cute.",
             "e;Krista;HalfCloseEyes",
             "s;Krista;Ervan, do you not remember--",
             "e;Krista;NormalBlink",
@@ -26707,6 +26732,11 @@
             "bop;Khalid",
             "e;Khalid;Smile",
             "s;Khalid;Ervan! You're awake!",
+            "s;Ervan;Ah, Khalid, you're here too{tgm}...",
+            "s;Krista;Hey, uh, Khalid? We should probably let Ervan rest a bit more.",
+            "e;Khalid;NoSmile",
+            "s;Khalid;Huh? But--",
+            "s;Krista;He just woke up and",
             "rrr",
             "###",
             "music_clear",
@@ -26744,6 +26774,8 @@
             "arrange_formation",
             "center_cursor;Krista",
             "add_talk;Krista;Torgen",
+            "add_talk;Krista;Peter",
+            "add_talk;Peter;Krista",
             "add_talk;Torgen;Krista",
             "add_talk;Forrest;Torgen",
             "add_talk;Kai;Torgen",
@@ -35118,6 +35150,35 @@
         "nid": "23 BaseConvo_Secret Stock"
     },
     {
+        "name": "BaseConvo_Behind the Back",
+        "trigger": "on_base_convo",
+        "level_nid": "26",
+        "condition": "base_convo == 'Secret Stock'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;Bedroom",
+            "m;Respite in Battle",
+            "uu;Khalid;Right;Ervan;Left",
+            "e;Khalid;Smile",
+            "s;Khalid;Yo, Ervan! How're you holding up?",
+            "e;Ervan;Smile",
+            "s;Ervan;Oh, Khalid. I'm doing well.",
+            "s;Khalid;Nice! All good in the head?",
+            "e;Ervan;NoSmile",
+            "s;Ervan;Er, I think?{c:e;Ervan;HalfCloseEyes} S-Sorry, ",
+            "if;game.check_alive('Khalid') == True",
+            "sound;Item",
+            "alert;Khalid gained some EXP!",
+            "give_exp;Khalid;10",
+            "end",
+            "remove_base_convo;Behind the Back",
+            "b"
+        ],
+        "nid": "26 BaseConvo_Behind the Back"
+    },
+    {
         "name": "BaseConvo_Like Old Times",
         "trigger": "on_base_convo",
         "level_nid": "23",
@@ -36289,6 +36350,24 @@
             "rrr"
         ],
         "nid": "26 SpawnTorgen"
+    },
+    {
+        "name": "SpawnPeter",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "move_cursor;PeterHouse",
+            "add;Peter;PeterHouse;fade;stack;fade",
+            "move;Peter;PeterHouse;normal;closest",
+            "flicker_cursor;Peter",
+            "u;Peter;Right",
+            "rrr"
+        ],
+        "nid": "26 SpawnPeter"
     },
     {
         "name": "BaseConvo_A Miracle Trigger",

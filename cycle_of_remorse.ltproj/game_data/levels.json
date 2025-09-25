@@ -43366,8 +43366,8 @@
                 "nid": "house2",
                 "region_type": "event",
                 "position": [
-                    12,
-                    1
+                    15,
+                    23
                 ],
                 "size": [
                     1,
@@ -43381,11 +43381,11 @@
                 "hide_time": false
             },
             {
-                "nid": "house3",
+                "nid": "PeterHouse",
                 "region_type": "event",
                 "position": [
-                    15,
-                    23
+                    12,
+                    1
                 ],
                 "size": [
                     1,
@@ -43409,7 +43409,7 @@
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
