@@ -23,5 +23,10 @@
         "nid": "DeadLords",
         "name": "DeadLords",
         "leader": "Krista"
+    },
+    {
+        "nid": "TorgenGroup",
+        "name": "TorgenGroup",
+        "leader": "Torgen"
     }
 ]

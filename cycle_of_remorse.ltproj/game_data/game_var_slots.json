@@ -5,11 +5,11 @@
     },
     {
         "nid": "TruthPlot",
-        "desc": "Toggles to True after a certain point in the plot"
+        "desc": "Toggles to True after the reveal of Ervan's death"
     },
     {
         "nid": "CircPlot",
-        "desc": "Toggles to True after a certain point in the plot"
+        "desc": "Toggles to True after revealing who are Shifters"
     },
     {
         "nid": "ChapterFlag",

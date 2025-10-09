@@ -5506,6 +5506,24 @@
                 "hide_time": false
             },
             {
+                "nid": "HouseNE2",
+                "region_type": "event",
+                "position": [
+                    18,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "HouseSE",
                 "region_type": "event",
                 "position": [
@@ -12215,8 +12233,8 @@
             "boss_battle": "Scout Battle"
         },
         "objective": {
-            "simple": "Seize the forts,{eval:game.level_vars['fortsSeized']}/5 seized",
-            "win": "Seize the forts",
+            "simple": "Seize all forts,{e:v('fortsSeizedTotal')}/5 seized",
+            "win": "Seize all forts",
             "loss": "Anna{comma} Jake{comma} or,Krista dies"
         },
         "roam": false,
@@ -13151,14 +13169,32 @@
                     1
                 ],
                 "sub_nid": "Seize",
-                "condition": "True",
+                "condition": "unit.team == 'player' and v('fortsSeized')['Fort'] == False",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
             {
                 "nid": "Fort_1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.team == 'enemy' and v('fortsSeized')['Fort'] == True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort1",
                 "region_type": "event",
                 "position": [
                     14,
@@ -13169,14 +13205,32 @@
                     1
                 ],
                 "sub_nid": "Seize",
-                "condition": "True",
+                "condition": "unit.team == 'player' and v('fortsSeized')['Fort1'] == False",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
             {
-                "nid": "Fort_2",
+                "nid": "Fort1_1",
+                "region_type": "event",
+                "position": [
+                    14,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.team == 'enemy' and v('fortsSeized')['Fort1'] == True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort2",
                 "region_type": "event",
                 "position": [
                     2,
@@ -13187,14 +13241,32 @@
                     1
                 ],
                 "sub_nid": "Seize",
-                "condition": "True",
+                "condition": "unit.team == 'player' and v('fortsSeized')['Fort2'] == False",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
             {
-                "nid": "Fort_3",
+                "nid": "Fort2_1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.team == 'enemy' and v('fortsSeized')['Fort2'] == True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort3",
                 "region_type": "event",
                 "position": [
                     15,
@@ -13205,14 +13277,32 @@
                     1
                 ],
                 "sub_nid": "Seize",
-                "condition": "True",
+                "condition": "unit.team == 'player' and v('fortsSeized')['Fort3'] == False",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
             {
-                "nid": "Fort_4",
+                "nid": "Fort3_1",
+                "region_type": "event",
+                "position": [
+                    15,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.team == 'enemy' and v('fortsSeized')['Fort3'] == True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort4",
                 "region_type": "event",
                 "position": [
                     8,
@@ -13223,9 +13313,27 @@
                     1
                 ],
                 "sub_nid": "Seize",
-                "condition": "True",
+                "condition": "unit.team == 'player' and v('fortsSeized')['Fort4'] == False",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort4_1",
+                "region_type": "event",
+                "position": [
+                    8,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.team == 'enemy' and v('fortsSeized')['Fort4'] == True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
@@ -22877,7 +22985,7 @@
         "objective": {
             "simple": "Place crates,Left {eval:6 - len(get_units_in_region('cratedrop', team='other', tag='ArenaIgnore')) - v('cratesDead')}",
             "win": "Place crates on drop-off,point or route enemy",
-            "loss": "Krista dies,or all supplies destroyed"
+            "loss": "Krista dies,or all supplies destroyed`"
         },
         "roam": false,
         "roam_unit": null,
@@ -28808,19 +28916,6 @@
                 "generic": false
             },
             {
-                "nid": "Yukino",
-                "team": "enemy_1",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Hayato",
                 "team": "enemy2_1",
                 "ai": "Guard",
@@ -30163,7 +30258,6 @@
             {
                 "nid": "yukino1",
                 "units": [
-                    "Yukino",
                     "118",
                     "119",
                     "120",
@@ -30171,10 +30265,6 @@
                     "122"
                 ],
                 "positions": {
-                    "Yukino": [
-                        4,
-                        8
-                    ],
                     "118": [
                         4,
                         8
@@ -30614,9 +30704,7 @@
                         true
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -30640,9 +30728,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -30690,9 +30776,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -30716,9 +30800,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Heal",
                 "roam_ai": null,
@@ -30746,9 +30828,7 @@
                         true
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -30868,9 +30948,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -30922,9 +31000,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Heal",
                 "roam_ai": null,
@@ -30939,21 +31015,13 @@
             {
                 "nid": "117",
                 "variant": "Female",
-                "level": 1,
-                "klass": "Bard",
+                "level": 20,
+                "klass": "Dancer",
                 "faction": "Merinas",
-                "starting_items": [
-                    [
-                        "Shine",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "PhilandererCh18",
-                    "Refresh"
-                ],
+                "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
-                "ai": "HealAttack",
+                "ai": "Ch19",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -30979,9 +31047,7 @@
                         true
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31029,9 +31095,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31055,9 +31119,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31105,9 +31167,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31131,9 +31191,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31157,9 +31215,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31207,9 +31263,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18_Child"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Heal",
                 "roam_ai": null,
@@ -31261,9 +31315,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -31335,9 +31387,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Heal",
                 "roam_ai": null,
@@ -31361,9 +31411,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "PhilandererCh18"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -38958,32 +39006,6 @@
                 "generic": false
             },
             {
-                "nid": "Shula",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    25
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Kiraz",
-                "team": "other",
-                "ai": "Kiraz",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "1",
                 "variant": "Boy",
                 "level": 20,
@@ -39073,6 +39095,25 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "6",
+                "variant": "Girl",
+                "level": 20,
+                "klass": "Citizen",
+                "faction": "Fuegsol",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
                     1
                 ],
                 "starting_traveler": null,
@@ -40011,12 +40052,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    4
+                    20,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -40356,11 +40397,11 @@
                 "region_type": "event",
                 "position": [
                     14,
-                    2
+                    4
                 ],
                 "size": [
                     1,
-                    3
+                    1
                 ],
                 "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
@@ -40573,8 +40614,7 @@
                 "nid": "player",
                 "units": [
                     "Krista",
-                    "Khalid",
-                    "Shula"
+                    "Khalid"
                 ],
                 "positions": {
                     "Krista": [
@@ -40582,10 +40622,6 @@
                         27
                     ],
                     "Khalid": [
-                        0,
-                        27
-                    ],
-                    "Shula": [
                         0,
                         27
                     ]
@@ -40632,7 +40668,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    3,
+                    23
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -40642,7 +40681,36 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    3,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shula",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Kiraz",
+                "team": "other",
+                "ai": "Kiraz",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    11
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -40816,25 +40884,6 @@
                 "ai_group": "",
                 "starting_position": [
                     27,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "204",
-                "variant": "Girl",
-                "level": 20,
-                "klass": "Citizen",
-                "faction": "Fuegsol",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    27,
                     13
                 ],
                 "starting_traveler": null,
@@ -40930,7 +40979,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
+                    24,
                     11
                 ],
                 "starting_traveler": null,
@@ -41958,6 +42007,28 @@
                     "JamalCopy"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "player",
+                "units": [
+                    "Krista",
+                    "Khalid",
+                    "Shula"
+                ],
+                "positions": {
+                    "Krista": [
+                        0,
+                        25
+                    ],
+                    "Khalid": [
+                        0,
+                        25
+                    ],
+                    "Shula": [
+                        0,
+                        25
+                    ]
+                }
             }
         ],
         "ai_groups": []
@@ -42000,7 +42071,7 @@
                 "generic": false
             },
             {
-                "nid": "Gunnar",
+                "nid": "Reid",
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -42187,7 +42258,7 @@
                 "starting_items": [
                     [
                         "ShortAxe",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -42340,7 +42411,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
+                    14,
                     2
                 ],
                 "starting_traveler": null,
@@ -43496,8 +43567,1581 @@
                         24
                     ]
                 }
+            },
+            {
+                "nid": "player",
+                "units": [
+                    "Krista"
+                ],
+                "positions": {
+                    "Krista": [
+                        26,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "enemynw",
+                "units": [
+                    "101",
+                    "102",
+                    "104",
+                    "105",
+                    "107"
+                ],
+                "positions": {
+                    "101": [
+                        0,
+                        0
+                    ],
+                    "102": [
+                        0,
+                        0
+                    ],
+                    "104": [
+                        0,
+                        0
+                    ],
+                    "105": [
+                        0,
+                        0
+                    ],
+                    "107": [
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "nid": "enemyn",
+                "units": [
+                    "103",
+                    "108",
+                    "109",
+                    "113",
+                    "115"
+                ],
+                "positions": {
+                    "103": [
+                        15,
+                        0
+                    ],
+                    "108": [
+                        16,
+                        0
+                    ],
+                    "109": [
+                        15,
+                        0
+                    ],
+                    "113": [
+                        16,
+                        0
+                    ],
+                    "115": [
+                        15,
+                        0
+                    ]
+                }
+            },
+            {
+                "nid": "enemyne",
+                "units": [
+                    "106",
+                    "110",
+                    "111",
+                    "114",
+                    "117",
+                    "119"
+                ],
+                "positions": {
+                    "110": [
+                        26,
+                        2
+                    ],
+                    "111": [
+                        26,
+                        2
+                    ],
+                    "114": [
+                        26,
+                        2
+                    ],
+                    "117": [
+                        26,
+                        2
+                    ],
+                    "119": [
+                        26,
+                        2
+                    ]
+                }
+            },
+            {
+                "nid": "enemyboss",
+                "units": [
+                    "112",
+                    "116",
+                    "118",
+                    "120",
+                    "121"
+                ],
+                "positions": {
+                    "112": [
+                        0,
+                        6
+                    ],
+                    "116": [
+                        0,
+                        7
+                    ],
+                    "118": [
+                        0,
+                        8
+                    ],
+                    "120": [
+                        0,
+                        6
+                    ],
+                    "121": [
+                        0,
+                        7
+                    ],
+                    "124": [
+                        0,
+                        8
+                    ]
+                }
+            },
+            {
+                "nid": "enemyfort",
+                "units": [
+                    "124",
+                    "125",
+                    "126",
+                    "128"
+                ],
+                "positions": {
+                    "124": [
+                        8,
+                        13
+                    ],
+                    "125": [
+                        8,
+                        13
+                    ],
+                    "126": [
+                        8,
+                        13
+                    ],
+                    "128": [
+                        8,
+                        13
+                    ]
+                }
+            },
+            {
+                "nid": "enemysw",
+                "units": [
+                    "127",
+                    "129",
+                    "149",
+                    "130",
+                    "133",
+                    "134",
+                    "135",
+                    "137",
+                    "140",
+                    "141",
+                    "144",
+                    "146"
+                ],
+                "positions": {
+                    "127": [
+                        0,
+                        17
+                    ],
+                    "129": [
+                        0,
+                        18
+                    ],
+                    "149": [
+                        0,
+                        17
+                    ],
+                    "130": [
+                        0,
+                        18
+                    ],
+                    "133": [
+                        0,
+                        17
+                    ],
+                    "134": [
+                        0,
+                        17
+                    ],
+                    "135": [
+                        0,
+                        18
+                    ],
+                    "137": [
+                        0,
+                        17
+                    ],
+                    "140": [
+                        0,
+                        17
+                    ],
+                    "141": [
+                        0,
+                        18
+                    ],
+                    "144": [
+                        2,
+                        24
+                    ],
+                    "146": [
+                        3,
+                        24
+                    ]
+                }
+            },
+            {
+                "nid": "enemyse",
+                "units": [
+                    "131",
+                    "132",
+                    "136",
+                    "138",
+                    "139",
+                    "142",
+                    "147",
+                    "143",
+                    "145",
+                    "148"
+                ],
+                "positions": {
+                    "131": [
+                        16,
+                        24
+                    ],
+                    "132": [
+                        16,
+                        24
+                    ],
+                    "136": [
+                        16,
+                        24
+                    ],
+                    "138": [
+                        16,
+                        24
+                    ],
+                    "139": [
+                        16,
+                        24
+                    ],
+                    "142": [
+                        16,
+                        24
+                    ],
+                    "147": [
+                        16,
+                        24
+                    ],
+                    "143": [
+                        26,
+                        24
+                    ],
+                    "145": [
+                        26,
+                        24
+                    ],
+                    "148": [
+                        26,
+                        24
+                    ]
+                }
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "27",
+        "name": "Ch. 27: Chasing the Past",
+        "tilemap": "Ch27",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sven",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "27b",
+        "name": "Ch. 27B: ",
+        "tilemap": "Ch27b",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Escape",
+            "win": "Escape or,Rout enemy",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "28",
+        "name": "Ch. 28: Traitor",
+        "tilemap": "Ch28",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defend,{e:game.turncount}/7 turn(s)",
+            "win": "Defend,{e:game.turncount}/7 turn(s)",
+            "loss": "All gates are seized,or Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sven",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "28x",
+        "name": "Ch. 28x: Protection Services",
+        "tilemap": "Ch28x",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Merchants Escape",
+            "win": "Merchants Escapexxxh",
+            "loss": "All merchants die,Anna{comma} Jake{comma},or Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [
+            "MapGaiden"
+        ],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "29",
+        "name": "Ch. 29: Doubts Increase",
+        "tilemap": "Ch29",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "30",
+        "name": "Ch. 30: Oregotian Council",
+        "tilemap": "Ch30",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defeat the Council",
+            "win": "Defeat the Council",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "31",
+        "name": "Ch. 31: Siege on Medeas",
+        "tilemap": "Ch31",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Colin's Theme",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": "Tournament",
+            "other_battle": "Dokapon Normal Battle",
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "32_1",
+        "name": "Ch. 32: Pursue the Truth",
+        "tilemap": "Ch32_1",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "boss_battle": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "???",
+            "win": "???",
+            "loss": "???"
+        },
+        "roam": true,
+        "roam_unit": "Krista",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "32",
+        "name": "Ch. 32: Pursue the Truth",
+        "tilemap": "Ch32",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "boss_battle": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Rescue Krista",
+            "win": "Rescue Krista",
+            "loss": "Forrest dies"
+        },
+        "roam": false,
+        "roam_unit": "Krista",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "33",
+        "name": "Ch. 33: Undead Obstacles",
+        "tilemap": "Ch33",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "boss_battle": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defeat bosses",
+            "win": "Defeat bosses",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": "Krista",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Undead",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [],
+        "unit_groups": [
+            {
+                "nid": "generic",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118",
+                    "119",
+                    "120",
+                    "121",
+                    "122",
+                    "123",
+                    "124",
+                    "125",
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136",
+                    "137",
+                    "138"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    },
+    {
+        "nid": "34",
+        "name": "Ch. 34: Closure",
+        "tilemap": "Ch34",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "boss_battle": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": "Krista",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    },
+    {
+        "nid": "35",
+        "name": "Final: Circ's Talons",
+        "tilemap": "Ch35",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "boss_battle": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Defeat bosses",
+            "win": "Defeat bosses",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": "Krista",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gunnar",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     },
     {
@@ -43550,20 +45194,17 @@
                 "level": 1,
                 "klass": "Shaman",
                 "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
+                "starting_items": [],
+                "starting_skills": [
+                    "RefreshEnemy"
                 ],
-                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    5
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43590,8 +45231,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    0
+                    7,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43613,13 +45254,13 @@
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
+                "team": "other",
+                "ai": "WallAllyDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    0
+                    5,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43642,8 +45283,32 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    5
+                    1,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "",
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43851,12 +45516,12 @@
             {
                 "nid": "Ecco",
                 "team": "player",
-                "ai": "FollowLord",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    14
+                    5,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -44107,7 +45772,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    3,
+                    13
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -44199,13 +45867,13 @@
             },
             {
                 "nid": "Shula",
-                "team": "player",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    6
+                    2,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -44234,7 +45902,7 @@
                 "generic": false
             },
             {
-                "nid": "Milo",
+                "nid": "Matthew",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -44254,7 +45922,7 @@
                 "faction": "Knight",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",

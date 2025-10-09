@@ -225,7 +225,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                361,
+                0,
                 251
             ],
             "Lance": [
@@ -255,7 +255,7 @@
             ],
             "Anima": [
                 false,
-                1,
+                0,
                 251
             ],
             "Dark": [
@@ -2444,7 +2444,7 @@
         "desc": "Dancer from Foliaga.\nElegant and fair.",
         "variant": "",
         "level": 1,
-        "klass": "Dancer",
+        "klass": "DracoLordKrista",
         "tags": [],
         "bases": {
             "HP": 13,
@@ -3299,12 +3299,12 @@
             ],
             "Light": [
                 false,
-                31,
+                0,
                 251
             ],
             "Anima": [
                 false,
-                131,
+                0,
                 251
             ],
             "Dark": [
@@ -3550,7 +3550,7 @@
             ],
             "Axe": [
                 false,
-                131,
+                0,
                 251
             ],
             "Bow": [
@@ -4058,7 +4058,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                131,
+                0,
                 491
             ],
             "Lance": [
@@ -4187,12 +4187,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                131,
+                0,
                 251
             ],
             "Lance": [
                 true,
-                31,
+                0,
                 251
             ],
             "Axe": [
@@ -4453,12 +4453,12 @@
             ],
             "Lance": [
                 false,
-                131,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                31,
+                0,
                 251
             ],
             "Bow": [
@@ -4702,7 +4702,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                131,
+                0,
                 251
             ],
             "Lance": [
@@ -4814,6 +4814,10 @@
             [
                 "SteelLongbow",
                 false
+            ],
+            [
+                "Short Bow",
+                false
             ]
         ],
         "learned_skills": [
@@ -4841,7 +4845,7 @@
             ],
             "Bow": [
                 false,
-                131,
+                0,
                 251
             ],
             "Staff": [
@@ -4970,12 +4974,12 @@
             ],
             "Staff": [
                 false,
-                131,
+                0,
                 971
             ],
             "Light": [
                 false,
-                131,
+                0,
                 971
             ],
             "Anima": [
@@ -5084,12 +5088,12 @@
             ],
             "Lance": [
                 false,
-                131,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                131,
+                0,
                 251
             ],
             "Bow": [
@@ -5204,7 +5208,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                131,
+                0,
                 251
             ],
             "Lance": [
@@ -5334,7 +5338,7 @@
             ],
             "Lance": [
                 false,
-                131,
+                0,
                 251
             ],
             "Axe": [
@@ -5476,7 +5480,7 @@
             ],
             "Staff": [
                 false,
-                241,
+                0,
                 251
             ],
             "Light": [
@@ -5486,7 +5490,7 @@
             ],
             "Anima": [
                 false,
-                131,
+                0,
                 251
             ],
             "Dark": [
@@ -5584,7 +5588,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                241,
+                0,
                 491
             ],
             "Lance": [
@@ -5594,7 +5598,7 @@
             ],
             "Axe": [
                 false,
-                131,
+                0,
                 491
             ],
             "Bow": [
@@ -5740,10 +5744,6 @@
         "affinity": "Wind",
         "fields": [
             [
-                "DeathQuote",
-                "D-Dammit{tgm}...!{tgm} Not like this{tgm}..."
-            ],
-            [
                 "PromoStatCap2",
                 "SKL,8,SPD,3"
             ]
@@ -5850,113 +5850,6 @@
                 "HP,3,SKL,2"
             ]
         ]
-    },
-    {
-        "nid": "Ervan",
-        "name": "Ervan",
-        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
-        "variant": "",
-        "level": 1,
-        "klass": "BowLord",
-        "tags": [
-            "Fueg",
-            "Canon"
-        ],
-        "bases": {
-            "HP": 35,
-            "STR": 25,
-            "MAG": 10,
-            "SKL": 23,
-            "SPD": 21,
-            "LCK": 10,
-            "DEF": 17,
-            "RES": 19,
-            "CON": 7,
-            "MOV": 6
-        },
-        "growths": {
-            "HP": 85,
-            "STR": 55,
-            "MAG": 5,
-            "SKL": 45,
-            "SPD": 45,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 30,
-            "CON": 15,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "DEF": 0,
-            "STR": 1,
-            "SKL": 0,
-            "SPD": 0,
-            "HP": 0,
-            "MOV": 0,
-            "CON": 0,
-            "RES": 0,
-            "MAG": 0,
-            "LCK": 0
-        },
-        "starting_items": [],
-        "learned_skills": [
-            [
-                1,
-                "ERVAN"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                131,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                241,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Ervan",
-        "affinity": "Anima",
-        "fields": []
     },
     {
         "nid": "Torgen",
@@ -6205,15 +6098,226 @@
         ]
     },
     {
+        "nid": "Ervan",
+        "name": "Ervan",
+        "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
+        "variant": "",
+        "level": 1,
+        "klass": "BowLord",
+        "tags": [
+            "Fueg",
+            "Canon"
+        ],
+        "bases": {
+            "HP": 35,
+            "STR": 25,
+            "MAG": 10,
+            "SKL": 23,
+            "SPD": 21,
+            "LCK": 10,
+            "DEF": 17,
+            "RES": 19,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 55,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 30,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "STR": 1,
+            "SKL": 0,
+            "SPD": 0,
+            "HP": 0,
+            "MOV": 0,
+            "CON": 0,
+            "RES": 0,
+            "MAG": 0,
+            "LCK": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "ERVAN"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                131,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                241,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ervan",
+        "affinity": "Anima",
+        "fields": []
+    },
+    {
+        "nid": "Santiago",
+        "name": "Santiago",
+        "desc": "A bishop of the Order of Oreg.",
+        "variant": "",
+        "level": 1,
+        "klass": "Bishop",
+        "tags": [],
+        "bases": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "SANTIAGO"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                491
+            ],
+            "Lance": [
+                false,
+                0,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                491
+            ],
+            "Bow": [
+                false,
+                0,
+                491
+            ],
+            "Staff": [
+                false,
+                0,
+                491
+            ],
+            "Light": [
+                false,
+                0,
+                491
+            ],
+            "Anima": [
+                false,
+                0,
+                491
+            ],
+            "Dark": [
+                false,
+                0,
+                491
+            ],
+            "Default": [
+                false,
+                0,
+                491
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Man3",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
         "nid": "Tora",
         "name": "Tora",
-        "desc": "A tiger shifter.\nStrong and boisterous.",
+        "desc": "A tiger Shifter.\nStrong and boisterous.",
         "variant": "",
         "level": 1,
         "klass": "Feline",
         "tags": [],
         "bases": {
-            "HP": 0,
+            "HP": 1,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
@@ -6254,7 +6358,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "TORA"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -6317,7 +6426,7 @@
         "klass": "General",
         "tags": [],
         "bases": {
-            "HP": 0,
+            "HP": 1,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
@@ -6420,7 +6529,7 @@
     {
         "nid": "Lucian",
         "name": "Lucian",
-        "desc": "Knight of House Valoria.",
+        "desc": "Knight of House Valoria.\nLoyal to a fault.",
         "variant": "",
         "level": 1,
         "klass": "Marshall",
@@ -6463,7 +6572,20 @@
             "SKL": 0,
             "STR": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Silver Blade",
+                false
+            ],
+            [
+                "Short Spear",
+                false
+            ],
+            [
+                "SteelPoleax",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,
@@ -6529,15 +6651,18 @@
         ]
     },
     {
-        "nid": "Santiago",
-        "name": "Santiago",
-        "desc": "A bishop of the Order of Oreg.",
+        "nid": "Melanie",
+        "name": "Melanie",
+        "desc": "Knight of House Valoria.",
         "variant": "",
         "level": 1,
-        "klass": "Bishop",
-        "tags": [],
+        "klass": "Trueblade",
+        "tags": [
+            "Female",
+            "Medean"
+        ],
         "bases": {
-            "HP": 0,
+            "HP": 10,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
@@ -6561,71 +6686,86 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "MOV": 0,
-            "STR": 0,
             "MAG": 0,
             "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "LCK": 0,
+            "SPD": 0,
+            "HP": 0,
             "DEF": 0,
             "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 0
         },
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "MELANIE"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
-                491
+                361,
+                971
             ],
             "Lance": [
                 false,
                 0,
-                491
+                971
             ],
             "Axe": [
                 false,
                 0,
-                491
+                971
             ],
             "Bow": [
                 false,
                 0,
-                491
+                971
             ],
             "Staff": [
                 false,
                 0,
-                491
+                971
             ],
             "Light": [
                 false,
                 0,
-                491
+                971
             ],
             "Anima": [
                 false,
                 0,
-                491
+                971
             ],
             "Dark": [
                 false,
                 0,
-                491
+                971
             ],
             "Default": [
                 false,
                 0,
-                491
+                971
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man3",
+        "portrait_nid": "Woman3",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "No{tgm}...{tgm} Not like this{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Damien",
@@ -6674,6 +6814,10 @@
         "starting_items": [
             [
                 "Fenrir",
+                false
+            ],
+            [
+                "Flux",
                 false
             ]
         ],
@@ -6747,19 +6891,19 @@
         "desc": "Mysterious wanderer from a foreign continent.\nCheerful and sly.",
         "variant": "",
         "level": 1,
-        "klass": "Assassin",
+        "klass": "Thief",
         "tags": [],
         "bases": {
-            "HP": 39,
-            "STR": 33,
-            "MAG": 18,
-            "SKL": 28,
-            "SPD": 34,
-            "LCK": 20,
-            "DEF": 23,
-            "RES": 20,
-            "CON": 7,
-            "MOV": 8
+            "HP": 14,
+            "STR": 14,
+            "MAG": 9,
+            "SKL": 11,
+            "SPD": 7,
+            "LCK": 5,
+            "DEF": 11,
+            "RES": 9,
+            "CON": 3,
+            "MOV": 6
         },
         "growths": {
             "HP": 70,
@@ -6774,11 +6918,11 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 7,
+            "SPD": 0,
             "LCK": 0,
             "SKL": 0,
             "MOV": 0,
-            "STR": 5,
+            "STR": 0,
             "DEF": 0,
             "RES": 0,
             "MAG": 0,
@@ -6801,7 +6945,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                361,
+                0,
                 251
             ],
             "Lance": [
@@ -6816,7 +6960,7 @@
             ],
             "Bow": [
                 false,
-                1,
+                0,
                 251
             ],
             "Staff": [
@@ -6856,6 +7000,14 @@
             [
                 "DeathQuoteCh15",
                 "Heh, never was one for the arena anyway."
+            ],
+            [
+                "PromoStatCap3",
+                "STR,5,SPD,7"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2,SKL,2,SPD,5,LCK,3"
             ]
         ]
     },
@@ -6865,21 +7017,21 @@
         "desc": "Mysterious wyvern rider from a foreign continent.\nHonorable and dutiful.",
         "variant": "Altena",
         "level": 1,
-        "klass": "WyvernLord",
+        "klass": "WyvernRider",
         "tags": [
             "Female"
         ],
         "bases": {
-            "HP": 49,
-            "STR": 37,
-            "MAG": 14,
-            "SKL": 18,
-            "SPD": 30,
-            "LCK": 15,
-            "DEF": 40,
-            "RES": 12,
-            "CON": 8,
-            "MOV": 8
+            "HP": 15,
+            "STR": 12,
+            "MAG": 11,
+            "SKL": 5,
+            "SPD": 7,
+            "LCK": 8,
+            "DEF": 13,
+            "RES": 4,
+            "CON": 0,
+            "MOV": 6
         },
         "growths": {
             "HP": 95,
@@ -6894,12 +7046,12 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "SPD": 5,
+            "SPD": 0,
             "LCK": 0,
             "SKL": 0,
             "MOV": 0,
             "STR": 0,
-            "DEF": 2,
+            "DEF": 0,
             "RES": 0,
             "MAG": 0,
             "HP": 0,
@@ -6972,8 +7124,120 @@
             [
                 "DeathQuote",
                 "Arion{tgm}..."
+            ],
+            [
+                "PromoStatCap3",
+                "SPD,5,DEF,2"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,4,SPD,4,DEF,3"
             ]
         ]
+    },
+    {
+        "nid": "Gregor",
+        "name": "Gregor",
+        "desc": "Mysterious traveller from a foreign continent.\nLaid-back and kindhearted.",
+        "variant": "",
+        "level": 1,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "HP": 61,
+            "STR": 30,
+            "MAG": 4,
+            "SKL": 34,
+            "SPD": 23,
+            "LCK": 20,
+            "DEF": 28,
+            "RES": 8,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 60,
+            "MAG": 5,
+            "CON": 15,
+            "DEF": 45,
+            "SKL": 65,
+            "RES": 10,
+            "SPD": 50,
+            "LCK": 40,
+            "HP": 105
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "GREGOR"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                491
+            ],
+            "Lance": [
+                false,
+                0,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                491
+            ],
+            "Bow": [
+                false,
+                0,
+                491
+            ],
+            "Staff": [
+                false,
+                0,
+                491
+            ],
+            "Light": [
+                false,
+                0,
+                491
+            ],
+            "Anima": [
+                false,
+                0,
+                491
+            ],
+            "Dark": [
+                false,
+                0,
+                491
+            ],
+            "Default": [
+                false,
+                0,
+                491
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Gregor",
+        "affinity": "Anima",
+        "fields": []
     },
     {
         "nid": "Gordon",
@@ -10052,9 +10316,114 @@
         ]
     },
     {
+        "nid": "Reid",
+        "name": "Reid",
+        "desc": "Leader of the Crag Claw Bandits.\nA bandit desperate for riches and glory.",
+        "variant": "",
+        "level": 1,
+        "klass": "Brigand",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 23,
+            "STR": 7,
+            "MAG": 3,
+            "SKL": 8,
+            "SPD": 8,
+            "LCK": 5,
+            "DEF": 5,
+            "RES": 2,
+            "CON": 12,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 75,
+            "MAG": 25,
+            "SKL": 35,
+            "SPD": 40,
+            "LCK": 30,
+            "DEF": 70,
+            "RES": 30,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Halberd",
+                false
+            ],
+            [
+                "Dragon Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Reid",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "B-Blood{tgm}...?{tgm} N-No way{tgm}...!"
+            ]
+        ]
+    },
+    {
         "nid": "Gunnar",
         "name": "Gunnar",
-        "desc": "Leader of the Crag Claw Bandits.\nA cruel brigand who shows no mercy.",
+        "desc": "Leader of the Valley Marauders.\nA cruel brigand who shows no mercy.",
         "variant": "",
         "level": 1,
         "klass": "Brigand",
@@ -10155,6 +10524,211 @@
                 "B-Blood{tgm}...?{tgm} N-No way{tgm}...!"
             ]
         ]
+    },
+    {
+        "nid": "Sven",
+        "name": "Sven",
+        "desc": "Soromir's subordinate.\nCunning and loyal to his liege.",
+        "variant": "",
+        "level": 1,
+        "klass": "Thief",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "MOV": 6,
+            "STR": 10,
+            "MAG": 0,
+            "CON": 6,
+            "DEF": 9,
+            "SKL": 1,
+            "RES": 6,
+            "SPD": 9,
+            "LCK": 6,
+            "HP": 20
+        },
+        "growths": {
+            "MOV": 0,
+            "STR": 50,
+            "MAG": 35,
+            "CON": 10,
+            "DEF": 30,
+            "SKL": 65,
+            "RES": 35,
+            "SPD": 65,
+            "LCK": 55,
+            "HP": 65
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                361,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Sven",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "DeathQuote",
+                "Lady Soromir{tgm}..."
+            ]
+        ]
+    },
+    {
+        "nid": "Celik",
+        "name": "Celik",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "GriffonRider",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "SilverPoleax",
+                false
+            ],
+            [
+                "Spear",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                361,
+                null
+            ],
+            "Lance": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Celik",
+        "affinity": "Fire",
+        "fields": []
+    },
+    {
+        "nid": "Silvia",
+        "name": "Silvia",
+        "desc": "",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Myrmidon",
+        "tags": [
+            "Boss",
+            "Female"
+        ],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                361,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Silvia",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Demir",
+        "name": "Demir",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Cleric",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Aura",
+                false
+            ],
+            [
+                "Silence",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                361,
+                null
+            ],
+            "Light": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Demir",
+        "affinity": "Dark",
+        "fields": []
     },
     {
         "nid": "Milo",
@@ -10361,77 +10935,6 @@
         "portrait_nid": "Vanguard",
         "affinity": "Thunder",
         "fields": []
-    },
-    {
-        "nid": "Sven",
-        "name": "Sven",
-        "desc": "Soromir's subordinate.\nCunning and loyal to his liege.",
-        "variant": "",
-        "level": 1,
-        "klass": "Thief",
-        "tags": [
-            "Boss"
-        ],
-        "bases": {
-            "MOV": 6,
-            "STR": 10,
-            "MAG": 0,
-            "CON": 6,
-            "DEF": 9,
-            "SKL": 1,
-            "RES": 6,
-            "SPD": 9,
-            "LCK": 6,
-            "HP": 20
-        },
-        "growths": {
-            "MOV": 0,
-            "STR": 50,
-            "MAG": 35,
-            "CON": 10,
-            "DEF": 30,
-            "SKL": 65,
-            "RES": 35,
-            "SPD": 65,
-            "LCK": 55,
-            "HP": 65
-        },
-        "stat_cap_modifiers": {
-            "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Lance": [
-                false,
-                0,
-                null
-            ],
-            "Sword": [
-                false,
-                361,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Sven",
-        "affinity": "Dark",
-        "fields": [
-            [
-                "DeathQuote",
-                "Lady Soromir{tgm}..."
-            ]
-        ]
     },
     {
         "nid": "Soromir",

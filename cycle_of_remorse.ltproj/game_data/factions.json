@@ -130,6 +130,16 @@
         ]
     },
     {
+        "nid": "Undead",
+        "name": "Undead",
+        "desc": "A reanimated corpse.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Medeas",
         "name": "Medeas",
         "desc": "A citizen of Medeas.",

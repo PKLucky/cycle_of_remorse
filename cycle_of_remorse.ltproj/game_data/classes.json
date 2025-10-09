@@ -869,7 +869,12 @@
             "CON": 20,
             "MOV": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "RefreshEnemy"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

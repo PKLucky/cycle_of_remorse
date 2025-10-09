@@ -15730,7 +15730,7 @@
     },
     {
         "nid": "Refresh",
-        "name": "<white>Refresh</>",
+        "name": "Refresh",
         "desc": "An adjacent unit can move again.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -15760,7 +15760,7 @@
             ],
             [
                 "map_cast_anim",
-                "AOE_Rally"
+                "MapFlying"
             ],
             [
                 "map_hit_sfx",
@@ -15781,8 +15781,64 @@
         ]
     },
     {
+        "nid": "RefreshEnemy",
+        "name": "Refresh",
+        "desc": "An adjacent unit can move again.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            33
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "MapFlying"
+            ],
+            [
+                "map_hit_sfx",
+                "RefreshDanceMap"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.team == 'enemy'"
+            ],
+            [
+                "status_on_hit",
+                "EclipseHelper"
+            ],
+            [
+                "target_unit",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "AZURE_DANCE",
-        "name": "<white>Refresh</>",
+        "name": "Refresh",
         "desc": "Adjacent units can move again and gain +2 to all stats except HP and Mov.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -15842,7 +15898,7 @@
     },
     {
         "nid": "MARINA_DANCE",
-        "name": "<white>Refresh</>",
+        "name": "Refresh",
         "desc": "Adjacent units can move again and gain Mov +1.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -15942,8 +15998,8 @@
     },
     {
         "nid": "LUCIAN",
-        "name": "<white>Reposition</>",
-        "desc": "If unit's CON + 2 > ally's CON, move ally one space away from unit.",
+        "name": "Reposition",
+        "desc": "Move ally behind the unit.",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -15975,14 +16031,14 @@
                 null
             ],
             [
-                "eval_target_restrict_2",
-                "unit.get_stat('CON') + 2 >= target.get_stat('CON')"
+                "self_status_on_hit",
+                "LUCIAN_STATUS"
             ]
         ]
     },
     {
         "nid": "LUCY_RALLY",
-        "name": "<white>Rally</>",
+        "name": "Rally",
         "desc": "Grant Def +3 to all adjacent allies for 1 turn.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -16050,7 +16106,7 @@
     },
     {
         "nid": "TSUBAKI_RALLY",
-        "name": "<white>Rally</>",
+        "name": "Rally",
         "desc": "Grant Str +3 to all adjacent allies for 1 turn.",
         "icon_nid": "Skills",
         "icon_index": [
