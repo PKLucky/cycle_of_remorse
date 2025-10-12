@@ -6876,7 +6876,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man4",
+        "portrait_nid": "Damien",
         "affinity": "Thunder",
         "fields": [
             [
@@ -8853,7 +8853,7 @@
     {
         "nid": "Ferrach",
         "name": "Ferrach",
-        "desc": "Mysterious bard of unknown origin.",
+        "desc": "Mysterious bard of unknown origin.\nArrogant and charismatic.",
         "variant": "",
         "level": 1,
         "klass": "Dancer",
@@ -10416,7 +10416,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "B-Blood{tgm}...?{tgm} N-No way{tgm}...!"
+                "That{tgm}...{tgm} can't be it{tgm}...!"
             ]
         ]
     },
@@ -10604,7 +10604,7 @@
     {
         "nid": "Celik",
         "name": "Celik",
-        "desc": "",
+        "desc": "Head of the Oregotian Council.",
         "variant": "",
         "level": 1,
         "klass": "GriffonRider",
@@ -10653,7 +10653,7 @@
     {
         "nid": "Silvia",
         "name": "Silvia",
-        "desc": "",
+        "desc": "Member of the Oregotian Council.",
         "variant": "Female",
         "level": 1,
         "klass": "Myrmidon",
@@ -10689,7 +10689,7 @@
     {
         "nid": "Demir",
         "name": "Demir",
-        "desc": "",
+        "desc": "Member of the Oregotian Council.",
         "variant": "",
         "level": 1,
         "klass": "Cleric",
@@ -10733,7 +10733,7 @@
     {
         "nid": "Milo",
         "name": "Milo",
-        "desc": "A mysterious assassin who sticks to the shadows.",
+        "desc": "Member of Circ's Talons.\nA sly assassin with a lax personality.",
         "variant": "",
         "level": 1,
         "klass": "Thief",
@@ -10778,7 +10778,12 @@
             "DEF": 6,
             "LCK": 10
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "AssassinEdge",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

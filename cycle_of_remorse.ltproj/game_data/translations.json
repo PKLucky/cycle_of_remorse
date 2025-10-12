@@ -410,5 +410,49 @@
     {
         "nid": "Hard_desc",
         "text": "Enemies and bosses get +50% in all growth rates. 1RN (UNTESTED)"
+    },
+    {
+        "nid": "damien_opener",
+        "text": "Begin alchemy!"
+    },
+    {
+        "nid": "damien_buy",
+        "text": "What to make?"
+    },
+    {
+        "nid": "damien_back",
+        "text": "Anything else?"
+    },
+    {
+        "nid": "damien_leave",
+        "text": "Finished alchemy!"
+    },
+    {
+        "nid": "damien_max",
+        "text": "No room to carry more!"
+    },
+    {
+        "nid": "damien_buy_again",
+        "text": "Make more?"
+    },
+    {
+        "nid": "damien_sell",
+        "text": "Transmute to gold?"
+    },
+    {
+        "nid": "damien_sell_again",
+        "text": "More gold?"
+    },
+    {
+        "nid": "damien_no_money",
+        "text": "Not enough gold!"
+    },
+    {
+        "nid": "damien_no_value",
+        "text": "Cannot transmute!"
+    },
+    {
+        "nid": "damien_again",
+        "text": "More to do?"
     }
 ]

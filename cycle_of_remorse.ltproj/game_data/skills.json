@@ -3588,14 +3588,105 @@
     },
     {
         "nid": "SANTIAGO",
-        "name": "SANTIAGO",
-        "desc": "",
+        "name": "Grapple",
+        "desc": "Both the unit and the target cannot act for two turns. The target loses -20% HP each turn they are grabbed.",
         "icon_nid": "Skills",
         "icon_index": [
-            6,
-            16
+            5,
+            50
         ],
-        "components": []
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "SANTIAGO"
+            ]
+        ]
+    },
+    {
+        "nid": "SANTIAGO_SELF",
+        "name": "Grappling",
+        "desc": "Unit is grappling the target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": [
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "grounded",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    },
+    {
+        "nid": "SANTIAGO_TARGET",
+        "name": "Grappled <blue>Santiago</>",
+        "desc": "Unit is being grappled.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": [
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "degeneration",
+                0.2
+            ],
+            [
+                "grounded",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
     },
     {
         "nid": "TORA",
@@ -3796,6 +3887,46 @@
     },
     {
         "nid": "DAMIEN",
+        "name": "Alchemy",
+        "desc": "Opens a \"shop\" menu to exchange gold for E rank weapons, Vulneraries, or stat boosters.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "DAMIAN"
+            ]
+        ]
+    },
+    {
+        "nid": "DAMIEN_PRICE",
+        "name": "Alchemy",
+        "desc": "Increases price of alchemy \"shop\" items.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            47
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "change_buy_price",
+                1.5
+            ]
+        ]
+    },
+    {
+        "nid": "DAMIEN_1",
         "name": "Ritual Summon",
         "desc": "Summons a phantom in exchange for 1000G and an optional weapon from the unit's inventory. The phantom will wield the chosen weapon (or an Iron Axe if none chosen) and will be the same level as the unit. Only one phantom can be summoned at a time.",
         "icon_nid": "Skills",
