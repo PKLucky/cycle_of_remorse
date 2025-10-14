@@ -520,17 +520,22 @@
         false
     ],
     [
-        "That Popular Subrosian Dance",
-        false,
-        false
-    ],
-    [
         "Emphasis on Scat",
         false,
         false
     ],
     [
         "Kecleon Shop",
+        false,
+        false
+    ],
+    [
+        "Death Mountain",
+        true,
+        false
+    ],
+    [
+        "Acrophobia",
         false,
         false
     ]

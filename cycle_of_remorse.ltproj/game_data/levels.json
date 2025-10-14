@@ -534,11 +534,11 @@
                 "generic": false
             },
             {
-                "nid": "Beli",
+                "nid": "Alfonso",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     15,
                     5
@@ -1913,11 +1913,11 @@
                 "generic": false
             },
             {
-                "nid": "Alfonso",
+                "nid": "Beli",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     12,
                     14
@@ -2624,7 +2624,7 @@
             {
                 "nid": "EnemyS",
                 "units": [
-                    "Alfonso",
+                    "Beli",
                     "101",
                     "117",
                     "116",
@@ -2647,10 +2647,6 @@
                         0,
                         9
                     ],
-                    "Alfonso": [
-                        15,
-                        14
-                    ],
                     "101": [
                         15,
                         14
@@ -2672,6 +2668,10 @@
                         14
                     ],
                     "117": [
+                        15,
+                        14
+                    ],
+                    "Beli": [
                         15,
                         14
                     ]
@@ -31039,7 +31039,7 @@
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch19",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -42089,6 +42089,19 @@
                 "generic": false
             },
             {
+                "nid": "Forrest",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Reid",
                 "team": "enemy",
                 "ai": "Defend",
@@ -43607,10 +43620,15 @@
             {
                 "nid": "player",
                 "units": [
-                    "Krista"
+                    "Krista",
+                    "Forrest"
                 ],
                 "positions": {
                     "Krista": [
+                        26,
+                        15
+                    ],
+                    "Forrest": [
                         26,
                         15
                     ]
@@ -43708,6 +43726,10 @@
                         2
                     ],
                     "119": [
+                        26,
+                        2
+                    ],
+                    "106": [
                         26,
                         2
                     ]
@@ -45113,16 +45135,6 @@
                 "generic": false
             },
             {
-                "nid": "Estoc",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Sven",
                 "team": "enemy",
                 "ai": "None",
@@ -45310,9 +45322,14 @@
                 "nid": "101",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45329,9 +45346,14 @@
                 "nid": "102",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45348,9 +45370,14 @@
                 "nid": "103",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45367,9 +45394,14 @@
                 "nid": "104",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "SteelLongbow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45386,9 +45418,14 @@
                 "nid": "105",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45405,12 +45442,17 @@
                 "nid": "106",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch28",
+                "ai": "Heal",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -45424,9 +45466,14 @@
                 "nid": "107",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45443,9 +45490,14 @@
                 "nid": "108",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Warrior",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45462,9 +45514,14 @@
                 "nid": "109",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45481,9 +45538,14 @@
                 "nid": "110",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elice",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45500,12 +45562,17 @@
                 "nid": "111",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Barrier",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch28",
+                "ai": "Heal",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -45519,9 +45586,14 @@
                 "nid": "112",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45538,9 +45610,14 @@
                 "nid": "113",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "WindSword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45557,9 +45634,14 @@
                 "nid": "114",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45576,9 +45658,14 @@
                 "nid": "115",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Distort",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45595,9 +45682,14 @@
                 "nid": "116",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Miasma",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45614,9 +45706,14 @@
                 "nid": "117",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Flamberge",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45633,9 +45730,14 @@
                 "nid": "118",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45652,9 +45754,14 @@
                 "nid": "119",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45671,12 +45778,21 @@
                 "nid": "120",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Restore",
+                        false
+                    ],
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch28",
+                "ai": "HealAttack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -45690,9 +45806,14 @@
                 "nid": "121",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45709,9 +45830,14 @@
                 "nid": "122",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45728,9 +45854,14 @@
                 "nid": "123",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45747,9 +45878,14 @@
                 "nid": "124",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Berserker",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "SteelPoleax",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45766,9 +45902,14 @@
                 "nid": "125",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Warrior",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45785,9 +45926,14 @@
                 "nid": "126",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "CleaveBow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45804,12 +45950,17 @@
                 "nid": "127",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Ice",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch28",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -45823,9 +45974,14 @@
                 "nid": "128",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45842,9 +45998,14 @@
                 "nid": "129",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Berserker",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45861,9 +46022,14 @@
                 "nid": "130",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45880,9 +46046,14 @@
                 "nid": "131",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "SteelGreatlance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45897,11 +46068,16 @@
             },
             {
                 "nid": "132",
-                "variant": null,
+                "variant": "",
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45918,9 +46094,14 @@
                 "nid": "133",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sorcerer",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Assault",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45937,9 +46118,14 @@
                 "nid": "134",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Runesword",
+                        true
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45956,9 +46142,14 @@
                 "nid": "135",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45975,9 +46166,14 @@
                 "nid": "136",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Flamberge",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -45994,9 +46190,14 @@
                 "nid": "137",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -46013,9 +46214,14 @@
                 "nid": "138",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elice",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -46032,9 +46238,14 @@
                 "nid": "139",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -46051,9 +46262,14 @@
                 "nid": "140",
                 "variant": null,
                 "level": 7,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Distort",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Ch28",
@@ -46645,12 +46861,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "28x",
@@ -47905,22 +48116,6 @@
         ],
         "units": [
             {
-                "nid": "107",
-                "variant": null,
-                "level": 1,
-                "klass": "Mage",
-                "faction": "Knight",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "106",
                 "variant": null,
                 "level": 1,
@@ -47973,162 +48168,21 @@
                 "generic": true
             },
             {
-                "nid": "110",
-                "variant": "Sword",
-                "level": 1,
-                "klass": "Cavalier",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ],
-                    [
-                        "Sake",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "WallAllyDefend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "101",
-                "variant": "",
-                "level": 1,
-                "klass": "Fighter",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": "",
-                "level": 1,
-                "klass": "Fighter",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
+                "nid": "wall",
                 "variant": null,
                 "level": 1,
-                "klass": "Falcoknight",
+                "klass": "Wall10",
                 "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Cleric",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Silence",
-                        false
-                    ],
-                    [
-                        "Sleep",
-                        false
-                    ],
-                    [
-                        "Stun",
-                        false
-                    ],
-                    [
-                        "Barrier",
-                        false
-                    ],
-                    [
-                        "Warp",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "player",
+                "team": "enemy2_1",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    6
+                    3
                 ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "PegasusKnight",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Fort"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -48432,7 +48486,7 @@
                 "generic": false
             },
             {
-                "nid": "Lucian",
+                "nid": "Taichi",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -48545,19 +48599,6 @@
                 "generic": false
             },
             {
-                "nid": "Tsubaki",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Nagisa",
                 "team": "player",
                 "ai": "None",
@@ -48568,14 +48609,14 @@
                 "generic": false
             },
             {
-                "nid": "Damien",
+                "nid": "Tsubaki",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    8
+                    13,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -48591,18 +48632,8 @@
                 "generic": false
             },
             {
-                "nid": "Altena",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Shula",
-                "team": "enemy",
+                "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -48627,6 +48658,26 @@
                 "generic": false
             },
             {
+                "nid": "Torgen",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Peter",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Santiago",
                 "team": "player",
                 "ai": "None",
@@ -48634,6 +48685,59 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Tora",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Estoc",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lucian",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Melanie",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Damien",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
                     8
                 ],
                 "starting_traveler": null,
@@ -48653,23 +48757,24 @@
                 "generic": false
             },
             {
-                "nid": "wall",
-                "variant": null,
-                "level": 1,
-                "klass": "Wall10",
-                "faction": "Knight",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy2_1",
+                "nid": "Altena",
+                "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
-                "generic": true
+                "generic": false
+            },
+            {
+                "nid": "Gregor",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -48803,20 +48908,8 @@
         "unit_groups": [
             {
                 "nid": "test",
-                "units": [
-                    "101",
-                    "105"
-                ],
-                "positions": {
-                    "105": [
-                        6,
-                        10
-                    ],
-                    "101": [
-                        5,
-                        7
-                    ]
-                }
+                "units": [],
+                "positions": {}
             }
         ],
         "ai_groups": []
