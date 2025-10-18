@@ -48119,22 +48119,46 @@
                 "nid": "106",
                 "variant": null,
                 "level": 1,
-                "klass": "General",
+                "klass": "Cleric",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Recover",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     5,
                     8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Recover",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -48193,8 +48217,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    8
+                    7,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -48381,7 +48405,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    5,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -48683,10 +48710,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -48750,7 +48774,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
+                    5,
                     7
                 ],
                 "starting_traveler": null,

@@ -8012,7 +8012,7 @@
     {
         "nid": "Recover",
         "name": "Recover",
-        "desc": "Fully restore's an ally's HP",
+        "desc": "Fully restore's an ally's HP and HP of allies surrounding the target.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -8033,7 +8033,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "magic",
@@ -8072,7 +8072,7 @@
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
                 "map_hit_add_blend",
@@ -8089,6 +8089,10 @@
             [
                 "battle_animation_music",
                 "Curing"
+            ],
+            [
+                "ally_blast_aoe",
+                1
             ]
         ]
     },
@@ -15956,12 +15960,12 @@
                 null
             ],
             [
-                "ally_blast_except_self_aoe",
-                1
-            ],
-            [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "ally_equation_blast_aoe",
+                "ONE"
             ]
         ]
     },
@@ -16016,12 +16020,12 @@
                 null
             ],
             [
-                "ally_blast_except_self_aoe",
-                1
-            ],
-            [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "ally_equation_blast_aoe",
+                "ONE"
             ]
         ]
     },
@@ -16164,12 +16168,12 @@
                 null
             ],
             [
-                "ally_blast_except_self_aoe",
-                1
-            ],
-            [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "ally_equation_blast_aoe",
+                "ONE"
             ]
         ]
     },
@@ -16232,12 +16236,12 @@
                 null
             ],
             [
-                "ally_blast_except_self_aoe",
-                1
-            ],
-            [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "ally_equation_blast_aoe",
+                "ONE"
             ]
         ]
     },
