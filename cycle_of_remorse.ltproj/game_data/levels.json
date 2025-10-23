@@ -536,7 +536,7 @@
             {
                 "nid": "Alfonso",
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -46979,7 +46979,7 @@
     },
     {
         "nid": "30",
-        "name": "Ch. 30: Oregotian Council",
+        "name": "Ch. 30: The Oregotian Council",
         "tilemap": "Ch30",
         "bg_tilemap": null,
         "party": "Krista",
@@ -47076,7 +47076,7 @@
         "objective": {
             "simple": "Defeat boss",
             "win": "Defeat boss",
-            "loss": "Krista dies"
+            "loss": "Bryant{comma} Thalia{comma},or Krista dies"
         },
         "roam": false,
         "roam_unit": null,

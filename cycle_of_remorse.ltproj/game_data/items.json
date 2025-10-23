@@ -1470,7 +1470,7 @@
     {
         "nid": "Flamberge",
         "name": "Flamberge",
-        "desc": "Calculated as Anima Magic damage at range.",
+        "desc": "Calculated as Anima (Fire) Magic damage at range.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1543,15 +1543,18 @@
                 ]
             ],
             [
-                "status_on_equip",
-                "AnimaOverride"
+                "multi_status_on_equip",
+                [
+                    "AnimaOverride",
+                    "FireOverride"
+                ]
             ]
         ]
     },
     {
         "nid": "WindSword",
         "name": "Wind Sword",
-        "desc": "Calculated as Anima Magic damage at range.\nEffective against fliers. Allows 2 consecutive hits.",
+        "desc": "Calculated as Anima (Wind) Magic damage at range.\nEffective against fliers. Allows 2 consecutive hits.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -2074,7 +2077,7 @@
     {
         "nid": "Susanoo",
         "name": "Susano'o",
-        "desc": "Uses Mag to determine damage at range. Effective against fliers.",
+        "desc": "Calculated as Anima (Wind) Magic damage at range. Effective against fliers.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -2161,6 +2164,10 @@
             [
                 "undiscardable",
                 null
+            ],
+            [
+                "status_on_equip",
+                "AnimaOverride"
             ]
         ]
     },
@@ -2492,7 +2499,7 @@
     },
     {
         "nid": "SlashySlash",
-        "name": "Slashy Slash",
+        "name": "<blue>Slashy Slash</>",
         "desc": "Gregor only.",
         "icon_nid": "Sword",
         "icon_index": [
@@ -8012,7 +8019,7 @@
     {
         "nid": "Recover",
         "name": "Recover",
-        "desc": "Fully restore's an ally's HP and HP of allies surrounding the target.",
+        "desc": "Fully restore's an ally's HP and HP of allies adjacent to the target.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -8033,7 +8040,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "C"
             ],
             [
                 "magic",
@@ -10872,12 +10879,6 @@
                 600
             ],
             [
-                "item_tags",
-                [
-                    "Wind"
-                ]
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -11244,12 +11245,6 @@
             [
                 "value",
                 1200
-            ],
-            [
-                "item_tags",
-                [
-                    "Wind"
-                ]
             ],
             [
                 "effective_damage",
@@ -11685,12 +11680,6 @@
             [
                 "brave",
                 null
-            ],
-            [
-                "item_tags",
-                [
-                    "Wind"
-                ]
             ],
             [
                 "effective_damage",
@@ -16510,6 +16499,24 @@
             [
                 "weapon_triangle_override",
                 "Anima"
+            ]
+        ]
+    },
+    {
+        "nid": "FireOverride",
+        "name": "FireOverride",
+        "desc": "(Lets the Flamberge count as Fire magic damage at range.)",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
             ]
         ]
     },

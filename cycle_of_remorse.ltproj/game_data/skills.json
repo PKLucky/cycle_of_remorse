@@ -1575,6 +1575,30 @@
         ]
     },
     {
+        "nid": "FireOverride",
+        "name": "FireOverride",
+        "desc": "(Lets Fire magic swords count as Fire magic damage at range.)",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "item_override",
+                "FireOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "DarkOverride",
         "name": "DarkOverride",
         "desc": "(Lets Anima magic swords count as Anima magic damage at range.)",
