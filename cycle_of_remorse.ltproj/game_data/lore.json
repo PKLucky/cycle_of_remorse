@@ -81,7 +81,7 @@
         "name": "Supports",
         "title": "Supports",
         "category": "Mechanics",
-        "text": "Pairs of units raise their Support levels by <blue>being deployed on the same map</>.\nUnits have <blue>no limit</> on how many support partners they can have. However, only the top <blue>three</> pairings within <blue>three spaces</> will give them bonuses.\nUnits also may only have either one <blue>S</> Rank support or one <blue>A+</> Rank support.{br}S Rank and A+ Rank supports indicate which pairs have a <blue>paired ending</>."
+        "text": "Pairs of units raise their Support levels by <blue>being deployed on the same map</>.\nUnits have <blue>no limit</> on how many support partners they can have. However, only the top <blue>three</> pairings within <blue>three spaces</> will give them bonuses.\nUnits also may only have either one <blue>S</> Rank support or one <blue>A+</> Rank support.{br}S Rank and A+ Rank supports indicate which pairs have a <blue>paired ending</>.\nCertain S/A+ Rank supports are locked behind story progression. These supports will get unlocked after either <blue>Chapter 28: Traitor</> or <blue>Chapter 32: Pursue the Truth</>."
     },
     {
         "nid": "HitAvo",

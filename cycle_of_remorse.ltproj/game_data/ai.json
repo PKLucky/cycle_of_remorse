@@ -1862,6 +1862,50 @@
         "roam_ai": false
     },
     {
+        "nid": "Nagisa",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Friendly"
+                ],
+                "view_range": -2,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Name",
+                    "Kai"
+                ],
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
         "nid": "Tsubaki",
         "behaviours": [
             {
@@ -1878,8 +1922,8 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": [
-                    "Name",
-                    "Nagisa"
+                    "Tag",
+                    "Wind"
                 ],
                 "view_range": -1,
                 "invert_targeting": true,

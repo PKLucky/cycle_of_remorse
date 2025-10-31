@@ -33535,7 +33535,7 @@
             {
                 "nid": "Nagisa",
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Nagisa",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -36592,9 +36592,9 @@
             "boss_battle": "Raid Ethnic"
         },
         "objective": {
-            "simple": "Stop Alim,{e:game.turncount}/20 turn(s)",
-            "win": "Stop Alim in 20 turns,or Defeat Alim",
-            "loss": "Sven escapes,Gerolt{comma} Leeann{comma} or,Krista dies"
+            "simple": "Stop Alim,{e:game.turncount}/15 turn(s)",
+            "win": "Stop Alim in 15 turns,or Defeat Alim",
+            "loss": "Alim escapes,Gerolt{comma} Leeann{comma} or,Krista dies"
         },
         "roam": false,
         "roam_unit": "Krista",
@@ -36627,6 +36627,86 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "FerrachCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Trickster",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AgronaCopy",
+                "variant": "Female",
+                "level": 1,
+                "klass": "DreadFighter",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "SoromirCopy",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Archsage",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "MiloCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Assassin",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "VanguardCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Marshall",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             },
             {
                 "nid": "wall1",
@@ -36944,6 +37024,10 @@
                 "starting_items": [
                     [
                         "Mend",
+                        false
+                    ],
+                    [
+                        "Divine",
                         false
                     ]
                 ],
@@ -38967,6 +39051,58 @@
                     "138"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "green",
+                "units": [
+                    "Gerolt",
+                    "Leeann",
+                    "201",
+                    "202",
+                    "203",
+                    "204",
+                    "205",
+                    "206",
+                    "207",
+                    "208",
+                    "209",
+                    "210",
+                    "211",
+                    "212",
+                    "213",
+                    "214",
+                    "215",
+                    "216"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "talons",
+                "units": [
+                    "FerrachCopy",
+                    "AgronaCopy",
+                    "SoromirCopy",
+                    "MiloCopy",
+                    "VanguardCopy"
+                ],
+                "positions": {
+                    "SoromirCopy": [
+                        8,
+                        5
+                    ],
+                    "VanguardCopy": [
+                        4,
+                        4
+                    ],
+                    "FerrachCopy": [
+                        11,
+                        4
+                    ],
+                    "MiloCopy": [
+                        8,
+                        8
+                    ]
+                }
             }
         ],
         "ai_groups": []
@@ -46879,8 +47015,8 @@
             "other_phase": "Flower Power!"
         },
         "objective": {
-            "simple": "Merchants Escape",
-            "win": "Merchants Escapexxxh",
+            "simple": "Merchants Escape,Left {e:len(game.level.unit_groups.get('merchants').units)}",
+            "win": "Merchants Escape",
             "loss": "All merchants die,Anna{comma} Jake{comma},or Krista dies"
         },
         "roam": false,
@@ -46920,10 +47056,98 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "merchants",
+                "units": [
+                    "101"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": []
     },
     {
