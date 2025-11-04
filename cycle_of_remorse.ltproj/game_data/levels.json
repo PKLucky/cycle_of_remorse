@@ -48343,11 +48343,19 @@
                 "nid": "106",
                 "variant": null,
                 "level": 1,
-                "klass": "Cleric",
+                "klass": "Bishop",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Recover",
+                        "Silence",
+                        false
+                    ],
+                    [
+                        "Lightning",
+                        false
+                    ],
+                    [
+                        "Assault",
                         false
                     ]
                 ],
@@ -48390,27 +48398,71 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 1,
-                "klass": "Thief",
+                "level": 5,
+                "klass": "Monk",
                 "faction": "Knight",
                 "starting_items": [
                     [
                         "Lightning",
                         false
-                    ],
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Knight",
+                "starting_items": [
                     [
-                        "Silence",
+                        "Fire",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Thief",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    2
+                    5,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true

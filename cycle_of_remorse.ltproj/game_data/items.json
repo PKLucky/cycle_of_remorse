@@ -8766,7 +8766,15 @@
             ],
             [
                 "hit",
-                30
+                0
+            ],
+            [
+                "alternate_accuracy_formula",
+                "STATUS_STAFF_HIT"
+            ],
+            [
+                "alternate_avoid_formula",
+                "STATUS_STAFF_AVOID"
             ]
         ]
     },
@@ -8837,11 +8845,19 @@
             ],
             [
                 "hit",
-                30
+                0
             ],
             [
                 "eval_target_restrict_2",
                 "'Tile' not in target.tags"
+            ],
+            [
+                "alternate_accuracy_formula",
+                "STATUS_STAFF_HIT"
+            ],
+            [
+                "alternate_avoid_formula",
+                "STATUS_STAFF_AVOID"
             ]
         ]
     },
@@ -8912,11 +8928,146 @@
             ],
             [
                 "hit",
-                30
+                0
             ],
             [
                 "eval_target_restrict_2",
                 "'Tile' not in target.tags"
+            ],
+            [
+                "alternate_accuracy_formula",
+                "STATUS_STAFF_HIT"
+            ],
+            [
+                "alternate_avoid_formula",
+                "STATUS_STAFF_AVOID"
+            ]
+        ]
+    },
+    {
+        "nid": "Berserk",
+        "name": "Berserk",
+        "desc": "Enemy becomes berserk.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Berserk"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags"
+            ],
+            [
+                "alternate_accuracy_formula",
+                "STATUS_STAFF_HIT"
+            ],
+            [
+                "alternate_avoid_formula",
+                "STATUS_STAFF_AVOID"
+            ]
+        ]
+    },
+    {
+        "nid": "Charm",
+        "name": "Charm",
+        "desc": "(For cutscene purposes only)",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "hit",
+                100
             ]
         ]
     },
@@ -9004,125 +9155,6 @@
             [
                 "hover_description",
                 "Trade items with a distant allied unit."
-            ]
-        ]
-    },
-    {
-        "nid": "Berserk",
-        "name": "Berserk",
-        "desc": "Enemy becomes berserk.",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            8
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "wexp",
-                5
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "value",
-                1800
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "status_on_hit",
-                "Berserk"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "hit",
-                30
-            ],
-            [
-                "eval_target_restrict_2",
-                "'Tile' not in target.tags"
-            ]
-        ]
-    },
-    {
-        "nid": "Charm",
-        "name": "Charm",
-        "desc": "(For cutscene purposes only)",
-        "icon_nid": "Staff",
-        "icon_index": [
-            0,
-            17
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "E"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "hit",
-                100
             ]
         ]
     },

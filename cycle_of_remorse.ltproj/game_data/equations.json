@@ -130,5 +130,13 @@
     {
         "nid": "ONE",
         "expression": "1"
+    },
+    {
+        "nid": "STATUS_STAFF_HIT",
+        "expression": "30 + SKL + MAG*5"
+    },
+    {
+        "nid": "STATUS_STAFF_AVOID",
+        "expression": "RES*5"
     }
 ]

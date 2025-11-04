@@ -1623,6 +1623,22 @@
         ]
     },
     {
+        "nid": "DistanceDebuff",
+        "name": "DistanceDebuff",
+        "desc": "Decreases accuracy of status staves based on distance between unit and target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            8
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "-2 * utils.calculate_distance(unit.position, unit2.position) if unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1) else 0"
+            ]
+        ]
+    },
+    {
         "nid": "KRISTA",
         "name": "Inspiration",
         "desc": "Allies within three spaces deal Dmg +2 and take 2 less Dmg.",
