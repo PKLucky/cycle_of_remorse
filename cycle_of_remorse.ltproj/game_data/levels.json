@@ -48340,62 +48340,6 @@
         ],
         "units": [
             {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Bishop",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Silence",
-                        false
-                    ],
-                    [
-                        "Lightning",
-                        false
-                    ],
-                    [
-                        "Assault",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 1,
-                "klass": "Cleric",
-                "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Recover",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "109",
                 "variant": null,
                 "level": 5,
@@ -49212,6 +49156,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -8775,6 +8775,10 @@
             [
                 "alternate_avoid_formula",
                 "STATUS_STAFF_AVOID"
+            ],
+            [
+                "status_on_hold",
+                "DistanceDebuff"
             ]
         ]
     },
@@ -8858,6 +8862,10 @@
             [
                 "alternate_avoid_formula",
                 "STATUS_STAFF_AVOID"
+            ],
+            [
+                "status_on_hold",
+                "DistanceDebuff"
             ]
         ]
     },
@@ -8941,6 +8949,10 @@
             [
                 "alternate_avoid_formula",
                 "STATUS_STAFF_AVOID"
+            ],
+            [
+                "status_on_hold",
+                "DistanceDebuff"
             ]
         ]
     },
@@ -9024,6 +9036,10 @@
             [
                 "alternate_avoid_formula",
                 "STATUS_STAFF_AVOID"
+            ],
+            [
+                "status_on_hold",
+                "DistanceDebuff"
             ]
         ]
     },

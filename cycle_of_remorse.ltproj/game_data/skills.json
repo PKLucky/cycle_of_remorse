@@ -1633,8 +1633,16 @@
         ],
         "components": [
             [
+                "hidden",
+                null
+            ],
+            [
                 "dynamic_accuracy",
-                "-2 * utils.calculate_distance(unit.position, unit2.position) if unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1) else 0"
+                "utils.calculate_distance(unit.position, unit2.position) * -2 if unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1) else 0"
+            ],
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Staff' and unit.get_weapon().nid != 'Assault'"
             ]
         ]
     },
@@ -3124,12 +3132,12 @@
                 null
             ],
             [
-                "allowed_weapons",
-                "item_system.weapon_type(unit, item) == 'Staff'"
-            ],
-            [
                 "smart_oversplash",
                 1
+            ],
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Staff'"
             ]
         ]
     },
