@@ -33365,7 +33365,7 @@
             "linc;fortsSeizedTotal",
             "if;region.nid == 'Fort'",
             "show_layer;FortNW",
-            "lvar;fortsSeized;it.update({'Fort':True})",
+            "mlvar;fortsSeized;it.update({'Fort':True})",
             "elif;region.nid == 'Fort1'",
             "mlvar;fortsSeized;it.update({'Fort1':True})",
             "show_layer;FortNE",
