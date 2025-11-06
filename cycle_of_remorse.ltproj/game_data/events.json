@@ -1533,10 +1533,55 @@
         "nid": "0 Defeat Boss"
     },
     {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "25",
+        "condition": "unit.nid == 'Jamal' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "25 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "26",
+        "condition": "unit.nid == 'Reid' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "26 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "27",
+        "condition": "((unit.nid == 'Reid' and game.check_dead('Sven') == True) or (unit.nid == 'Sven' and game.check_dead('Gunnar') == True))and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "27 Defeat Boss Poison"
+    },
+    {
         "name": "Defeat Boss",
         "trigger": "combat_end",
         "level_nid": "25",
-        "condition": "game.check_dead('Milo') == True",
+        "condition": "game.check_dead('Jamal') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -1549,9 +1594,54 @@
     },
     {
         "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "26",
+        "condition": "game.check_dead('Reid') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "26 Defeat Boss"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "27",
+        "condition": "game.check_dead('Gunnar') == True and game.check_dead('Sven') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "27 Defeat Boss"
+    },
+    {
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
         "level_nid": "12",
-        "condition": "unit.nid == 'Ryuuji'",
+        "condition": "unit.nid == 'Ryuuji' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "12 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "12",
+        "condition": "game.check_dead('Ryuuji') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9235,9 +9325,9 @@
     },
     {
         "name": "Defeat Boss",
-        "trigger": "unit_death",
+        "trigger": "combat_end",
         "level_nid": "17x",
-        "condition": "unit.nid == 'Saburo'",
+        "condition": "game.check_dead('Saburo') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9249,10 +9339,25 @@
         "nid": "17x Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
+        "level_nid": "17x",
+        "condition": "unit.nid == 'Saburo' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "17x Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "18",
-        "condition": "(unit.nid == 'Hayato' and (game.check_dead('Yukino') == True or u('Yukino').team == 'player') or (unit.nid == 'Yukino' and game.check_dead('Hayato') == True)",
+        "condition": "game.check_dead('Hayato') == True and (game.check_dead('Yukino') == True or u('Yukino').team == 'player')",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9264,10 +9369,25 @@
         "nid": "18 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
+        "level_nid": "18",
+        "condition": "unit2.nid == None and ((unit.nid == 'Hayato' and (game.check_dead('Yukino') == True or u('Yukino').team == 'player') or (unit.nid == 'Yukino' and game.check_dead('Hayato') == True))",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "18 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "19",
-        "condition": "unit.nid == 'Masashi'",
+        "condition": "game.check_dead('Masashi') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9279,10 +9399,25 @@
         "nid": "19 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
+        "level_nid": "19",
+        "condition": "unit.nid == 'Masashi' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "19 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "20",
-        "condition": "(unit.nid == 'Asuka' and (game.check_dead('Sumire') == True or u('Sumire').team == 'player') or (unit.nid == 'Sumire' and game.check_dead('Asuka') == True)",
+        "condition": "game.check_dead('Asuka') == True and (game.check_dead('Sumire') == True or u('Sumire').team == 'player')",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9292,6 +9427,21 @@
             "win_game"
         ],
         "nid": "20 Defeat Boss"
+    },
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "20",
+        "condition": "unit2.nid == None and ((unit.nid == 'Asuka' and (game.check_dead('Sumire') == True or u('Sumire').team == 'player') or (unit.nid == 'Sumire' and game.check_dead('Asuka') == True))",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "20 Defeat Boss Poison"
     },
     {
         "name": "Defeat Boss",
@@ -9324,10 +9474,25 @@
         "nid": "7bb Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
         "level_nid": "10",
-        "condition": "unit.nid == 'Azalea'",
+        "condition": "unit.nid == 'Azalea' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "10 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "10",
+        "condition": "game.check_dead('Azalea') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9339,10 +9504,25 @@
         "nid": "10 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
         "level_nid": "11",
-        "condition": "unit.nid == 'Shinobu'",
+        "condition": "unit.nid == 'Shinobu' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "11 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "11",
+        "condition": "game.check_dead('Shinobu') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9354,10 +9534,25 @@
         "nid": "11 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
         "level_nid": "13",
-        "condition": "unit.nid == 'Daigo'",
+        "condition": "unit.nid == 'Daigo' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "13 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "13",
+        "condition": "game.check_dead('Daigo') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9370,9 +9565,9 @@
     },
     {
         "name": "Defeat Boss",
-        "trigger": "unit_death",
+        "trigger": "combat_end",
         "level_nid": "14",
-        "condition": "(unit.nid == 'Keisha' and game.check_dead('Locke') == True) or (unit.nid == 'Locke' and game.check_dead('Keisha') == True)",
+        "condition": "game.check_dead('Keisha') == True and game.check_dead('Locke') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -9382,6 +9577,21 @@
             "win_game"
         ],
         "nid": "14 Defeat Boss"
+    },
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "14",
+        "condition": "unit2.nid == None and ((unit.nid == 'Keisha' and game.check_dead('Locke') == True) or (unit.nid == 'Locke' and game.check_dead('Keisha') == True))",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "14 Defeat Boss Poison"
     },
     {
         "name": "Defeat Boss",
@@ -9959,8 +10169,37 @@
         "nid": "15 GameOver"
     },
     {
-        "name": "WinConditionAndDeath",
+        "name": "WinConditionAndDeathPoison",
         "trigger": "unit_death",
+        "level_nid": "15",
+        "condition": "unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.team == 'player'",
+            "resurrect;{unit}",
+            "sound;Death",
+            "remove;{unit};fade",
+            "end",
+            "if;unit.nid == 'wall'",
+            "map_anim;Snag;{position}",
+            "sound;Wall Attack",
+            "show_layer;wall",
+            "else",
+            "linc;boutCounter",
+            "if;{v:boutCounter} == 13",
+            "music_clear",
+            "victory_screen",
+            "win_game",
+            "end",
+            "end"
+        ],
+        "nid": "15 WinConditionAndDeathPoison"
+    },
+    {
+        "name": "WinConditionAndDeath",
+        "trigger": "combat_end",
         "level_nid": "15",
         "condition": "True",
         "commands": [],
@@ -23621,6 +23860,7 @@
             "music_clear",
             "m;A Hint of Things to Come",
             "overworld_cinematic;0",
+            "reveal_overworld_node;8;immediate",
             "if;u('Anna').team == 'player'",
             "set_overworld_position;Krista;7x;no_animate",
             "reveal_overworld_road;7x;8;immediate",
@@ -23631,7 +23871,6 @@
             "elif;'{v:LunarisVergrande}' == 'Lake Lunaris'",
             "set_overworld_position;Krista;7a;no_animate",
             "toggle_narration_mode;open",
-            "reveal_overworld_node;8;immediate",
             "reveal_overworld_road;7a;8;immediate",
             "center_cursor;7a",
             "omove;Krista;8;no_block",
@@ -29568,7 +29807,7 @@
         "name": "BaseShop",
         "trigger": "level_start",
         "level_nid": null,
-        "condition": "True",
+        "condition": "v('ChapterFlag') >= 5",
         "commands": [],
         "only_once": false,
         "priority": 21,
@@ -34845,7 +35084,7 @@
         "name": "OutroSemiDeath",
         "trigger": "level_end",
         "level_nid": "Global",
-        "condition": "game.check_dead('Semi') == True and (game.level.nid in ['3', '4', '5', '6', '8'] or game.level.nid == '7a' or game.level.nid == '7b' or game.level.nid == '7bb' or game.level.nid == '7x')",
+        "condition": "u('Semi') and game.check_dead('Semi') == True and (game.level.nid in ['3', '4', '5', '6', '8'] or game.level.nid == '7a' or game.level.nid == '7b' or game.level.nid == '7bb' or game.level.nid == '7x')",
         "commands": [],
         "only_once": true,
         "priority": 19,
@@ -34927,7 +35166,7 @@
         "name": "OutroFelicityDeath",
         "trigger": "level_end",
         "level_nid": null,
-        "condition": "game.check_dead('Felicity') == True and game.level.nid != '15'",
+        "condition": "u('Felicity') and game.check_dead('Felicity') == True and game.level.nid != '15'",
         "commands": [],
         "only_once": true,
         "priority": 19,
@@ -35052,7 +35291,7 @@
         "name": "OutroKhalidDeath",
         "trigger": "level_end",
         "level_nid": null,
-        "condition": "game.check_dead('Khalid') == True and u('Khalid').team == 'player'",
+        "condition": "u('Khalid') and game.check_dead('Khalid') == True and u('Khalid').team == 'player'",
         "commands": [],
         "only_once": true,
         "priority": 19,
@@ -35100,7 +35339,7 @@
         "name": "OutroTsubakiDeath",
         "trigger": "level_end",
         "level_nid": null,
-        "condition": "game.check_dead('Tsubaki') == True and u('Tsubaki').team == 'player'",
+        "condition": "u('Tsubaki') and game.check_dead('Tsubaki') == True and u('Tsubaki').team == 'player'",
         "commands": [],
         "only_once": true,
         "priority": 19,
@@ -35135,7 +35374,7 @@
         "name": "OutroAquaDeath",
         "trigger": "level_end",
         "level_nid": null,
-        "condition": "game.check_dead('Aqua') == True and (game.level.nid in ['3', '4', '5', '6', '8', '9'] or game.level.nid == '7a' or game.level.nid == '7b' or game.level.nid == '7bb' or game.level.nid == '7x')",
+        "condition": "u('Aqua') and game.check_dead('Aqua') == True and (game.level.nid in ['3', '4', '5', '6', '8', '9'] or game.level.nid == '7a' or game.level.nid == '7b' or game.level.nid == '7bb' or game.level.nid == '7x')",
         "commands": [],
         "only_once": true,
         "priority": 19,
@@ -36404,7 +36643,7 @@
         "name": "Defeat Boss_Poison",
         "trigger": "unit_death",
         "level_nid": "16",
-        "condition": "unit.nid == 'Akira'",
+        "condition": "unit.nid == 'Akira' and unit2.nid == None",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -36417,9 +36656,24 @@
     },
     {
         "name": "Defeat Boss",
-        "trigger": "unit_death",
+        "trigger": "combat_end",
+        "level_nid": "16",
+        "condition": "game.check_dead('Akira') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "16 Defeat Boss"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "17",
-        "condition": "unit.nid == 'Shigeo'",
+        "condition": "game.check_dead('Shigeo') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -36431,10 +36685,25 @@
         "nid": "17 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
+        "level_nid": "17",
+        "condition": "unit.nid == 'Shigeo' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "17 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "21",
-        "condition": "unit.nid == 'Tsubaki'",
+        "condition": "game.check_dead('Tsubaki') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -36446,10 +36715,25 @@
         "nid": "21 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
+        "level_nid": "21",
+        "condition": "unit.nid == 'Tsubaki' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "21 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "22",
-        "condition": "unit.nid == 'Samegoro'",
+        "condition": "game.check_dead('Samegoro') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -36461,10 +36745,25 @@
         "nid": "22 Defeat Boss"
     },
     {
-        "name": "Defeat Boss",
+        "name": "Defeat Boss Poison",
         "trigger": "unit_death",
+        "level_nid": "22",
+        "condition": "unit.nid == 'Samegoro' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "22 Defeat Boss Poison"
+    },
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
         "level_nid": "23",
-        "condition": "unit.nid == 'Alim'",
+        "condition": "game.check_dead('Alim') == True",
         "commands": [],
         "only_once": false,
         "priority": 19,
@@ -36474,6 +36773,21 @@
             "win_game"
         ],
         "nid": "23 Defeat Boss"
+    },
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "23",
+        "condition": "unit.nid == 'Alim' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "23 Defeat Boss Poison"
     },
     {
         "name": "Light Rune",
@@ -36534,7 +36848,7 @@
         "name": "Light Rune Remove",
         "trigger": "time_region_complete",
         "level_nid": null,
-        "condition": "v('runeRegion') > 0",
+        "condition": "v('runeRegion1') > 0",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -37643,7 +37957,7 @@
         "name": "KirazSkillCheck",
         "trigger": "turn_change",
         "level_nid": null,
-        "condition": "u('Kiraz').position != None and ({v:ChapterFlag} >= 24 or game.level.nid == 'DEBUG')",
+        "condition": "u('Kiraz') and u('Kiraz').position",
         "commands": [],
         "only_once": false,
         "priority": 20,
