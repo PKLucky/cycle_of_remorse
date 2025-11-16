@@ -3372,7 +3372,7 @@
     {
         "nid": "SHULA_1",
         "name": "Prey Mark",
-        "desc": "A chosen enemy within 1 to Skl/2 spaces will be inflicted with Hit -20 if not in combat with the unit for three turns. (Usable once per turn. Unit may attack, but may not move after use.)",
+        "desc": "For three turns, a chosen enemy within 1 to Skl/2 spaces will be inflicted with Hit -20 if not in combat with the unit. (Usable once per turn. Unit may attack but not move after use.)",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -3390,6 +3390,10 @@
             [
                 "ability",
                 "SHULA"
+            ],
+            [
+                "death_tether",
+                null
             ]
         ]
     },
@@ -3637,7 +3641,7 @@
     {
         "nid": "SANTIAGO",
         "name": "Grapple",
-        "desc": "Both the unit and the target cannot act for two turns. The target loses -20% HP each turn they are grabbed.",
+        "desc": "Both the unit and the target cannot act for two turns. The target loses -20% HP each turn they are grappled.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -3651,6 +3655,10 @@
             [
                 "ability",
                 "SANTIAGO"
+            ],
+            [
+                "death_tether",
+                null
             ]
         ]
     },
@@ -3738,14 +3746,27 @@
     },
     {
         "nid": "TORA",
-        "name": "TORA",
-        "desc": "",
+        "name": "Domination",
+        "desc": "Unit deals Dmg +5 if unit's Str <= target's Str.",
         "icon_nid": "Skills",
         "icon_index": [
-            6,
-            16
+            13,
+            50
         ],
-        "components": []
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('STR') <= target.get_stat('STR')"
+            ],
+            [
+                "damage",
+                5
+            ]
+        ]
     },
     {
         "nid": "ESTOC",
@@ -3800,88 +3821,9 @@
         ]
     },
     {
-        "nid": "GREGOR",
-        "name": "Bow Stance",
-        "desc": "On enemy phase, grants Hit/Avo +10. Grants an additional Hit/Avo +50 if foe is equipped with a bow.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            28
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "multi_skill",
-                [
-                    "GREGOR_PATIENCE",
-                    "GREGOR_BOWBREAKER"
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "GREGOR_PATIENCE",
-        "name": "Bow Stance",
-        "desc": "On enemy phase, grants Hit/Avo +10. Grants Hit/Avo +50 if foe is equipped with a bow.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            28
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "combat_condition",
-                "mode == 'defense'"
-            ],
-            [
-                "hit",
-                10
-            ],
-            [
-                "avoid",
-                10
-            ]
-        ]
-    },
-    {
-        "nid": "GREGOR_BOWBREAKER",
-        "name": "Bow Stance",
-        "desc": "Grants +50 Avo and +50 Hit when against foes wielding bows.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            28
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "hit",
-                50
-            ],
-            [
-                "avoid",
-                50
-            ],
-            [
-                "combat_condition",
-                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Bow'"
-            ]
-        ]
-    },
-    {
         "nid": "LUCIAN",
         "name": "Behind Me!",
-        "desc": "Shifts the target to the empty tile behind the unit. After shifting the target, enemies are more likely to attack this unit for one turn.",
+        "desc": "If unit's CON + 2 >= ally's CON, shifts an ally to the empty tile behind the unit. After shifting the target, enemies are more likely to attack this unit for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -3900,7 +3842,7 @@
     },
     {
         "nid": "LUCIAN_STATUS",
-        "name": "Behind Me! (Effect)",
+        "name": "Behind Me! <blue>(Effect)</>",
         "desc": "Enemies are more likely to attack this unit.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3924,19 +3866,52 @@
     },
     {
         "nid": "MELANIE",
-        "name": "MELANIE",
-        "desc": "",
+        "name": "Forward!",
+        "desc": "If unit's CON + 2 >= ally's CON, move ally one space away from unit. Grants Dmg dealt +5 and Dmg taken -5 for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
-            6,
-            16
+            11,
+            50
         ],
-        "components": []
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "MELANIE"
+            ]
+        ]
+    },
+    {
+        "nid": "MELANIE_STATUS",
+        "name": "Forward! <blue>(Melanie)</>",
+        "desc": "Grants Dmg dealt +5 and Dmg taken -5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            50
+        ],
+        "components": [
+            [
+                "damage",
+                5
+            ],
+            [
+                "resist",
+                5
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ]
+        ]
     },
     {
         "nid": "DAMIEN",
         "name": "Alchemy",
-        "desc": "Opens a \"shop\" menu to exchange gold for E rank weapons, Vulneraries, or stat boosters.",
+        "desc": "Opens a \"shop\" menu to exchange gold for stat boosters and Vulneraries.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -4086,6 +4061,85 @@
         ]
     },
     {
+        "nid": "GREGOR",
+        "name": "Bow Stance",
+        "desc": "Grants an additional Hit/Avo +50 if foe is equipped with a bow. On enemy phase, grants Hit/Avo +10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            28
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "GREGOR_PATIENCE",
+                    "GREGOR_BOWBREAKER"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "GREGOR_PATIENCE",
+        "name": "Bow Stance",
+        "desc": "On enemy phase, grants Hit/Avo +10. Grants Hit/Avo +50 if foe is equipped with a bow.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            28
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "mode == 'defense'"
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
+        "nid": "GREGOR_BOWBREAKER",
+        "name": "Bow Stance",
+        "desc": "Grants +50 Avo and +50 Hit when against foes wielding bows.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            28
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                50
+            ],
+            [
+                "avoid",
+                50
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Bow'"
+            ]
+        ]
+    },
+    {
         "nid": "Rescue",
         "name": "Rescue",
         "desc": "Unit is weighed down with a traveler.",
@@ -4194,7 +4248,7 @@
             ],
             [
                 "condition",
-                "unit.team == 'player'"
+                "unit.team == 'player' and unit.nid != 'Melanie'"
             ],
             [
                 "hidden_if_inactive",

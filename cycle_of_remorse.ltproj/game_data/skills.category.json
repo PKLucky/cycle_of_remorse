@@ -99,6 +99,7 @@
     "MATTHEW": "Personal Skills/MATTHEW",
     "MATTHEW_PROC": "Personal Skills/MATTHEW",
     "MELANIE": "Personal Skills",
+    "MELANIE_STATUS": "Personal Skills",
     "MICHAEL": "Personal Skills",
     "MerinsShell": "Miscellaneous",
     "Mountain": "Terrain Bonuses",
@@ -175,5 +176,6 @@
     "YUKINO": "Personal Skills/YUKINO",
     "YUKINO_CHILD": "Personal Skills/YUKINO",
     "YUMI": "Personal Skills/YUMI",
-    "YUMI_CHILD": "Personal Skills/YUMI"
+    "YUMI_CHILD": "Personal Skills/YUMI",
+    "new": "Debug Status"
 }

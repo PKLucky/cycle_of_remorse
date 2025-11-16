@@ -5806,7 +5806,7 @@
                 false
             ],
             [
-                "ShinyGem",
+                "ShinyStone",
                 false
             ]
         ],
@@ -7246,7 +7246,12 @@
         "alternate_classes": [],
         "portrait_nid": "Gregor",
         "affinity": "Anima",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Easy come{tgm}...{tgm} easy go{tgm}...{tgm} It was{tgm}...{tgm} a good ride{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Gordon",

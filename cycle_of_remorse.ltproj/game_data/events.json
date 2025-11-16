@@ -1126,6 +1126,14 @@
             "t;close",
             "remove_all_units",
             "###",
+            "lvar;otherUnits;0",
+            "for;GreenAlive;[u for u in game.level.unit_groups.get('merchants').units if game.check_dead(u) == False]",
+            "linc;otherUnits",
+            "endf",
+            "if;v('otherUnits') == 5",
+            "elif;v('otherUnits') < 5",
+            "elif;v('otherUnits') < 2",
+            "end",
             "###",
             "t;close",
             "for;outro;v('deployedUnits')",
@@ -1454,11 +1462,17 @@
             "t;close",
             "remove_all_units",
             "t;open",
+            "music_clear",
+            "m;Loyalty",
+            "uu;Krista;Right;Forrest;Left",
+            "rrr",
             "###",
             "if;u('Torgen').team == 'player' and check_alive('Torgen') == True",
             "t;close",
             "b;Hill",
             "t;open",
+            "end_skip",
+            "music_clear",
             "m;Guildmaster Wigglytuff",
             "u;Torgen;Right;mirror;no_block",
             "uu;Bandit1;MidLeft;Bandit2;FarLeft",
@@ -4009,7 +4023,7 @@
             "remove_group;Players;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "2 Intro"
     },
@@ -6654,14 +6668,6 @@
             "#trigger_script;Trigger",
             "clear_achievements",
             "##",
-            "if;game.current_mode.growths == 'Lucky'",
-            "autolevel_to;Ryuuji;15;lucky",
-            "autolevel_to;Taiga;14;lucky",
-            "else",
-            "autolevel_to;Ryuuji;15;fixed",
-            "autolevel_to;Taiga;14;fixed",
-            "end",
-            "promote;Ryuuji;silent",
             "base;Hill",
             "#for;Test;[unit for unit in game.get_player_units_and_travelers()]",
             "#autolevel_to;{Test};20",
@@ -6670,7 +6676,7 @@
             "#give_item;Tsubaki;Amaterasu",
             "#kill;Haruki",
             "#kill;Michael",
-            "#prep;t;gba",
+            "#prep;t;gba;no_chap_disp",
             "#lvar;Test;1",
             "#for;TestLevel;[unit for unit in game.get_player_units()]",
             "#speak;;{e:u('{TestLevel}').nid} {e:u('{TestLevel}').get_internal_level()}",
@@ -6849,7 +6855,7 @@
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "4 Intro"
     },
@@ -6926,7 +6932,7 @@
             "remove;Krista;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "4x Intro"
     },
@@ -7026,7 +7032,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "enable_supports;False",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "7ab Intro"
     },
@@ -7594,7 +7600,7 @@
             "add_talk;Michael;Aqua",
             "lvar;houseDestroy;0",
             "lvar;houseVisit;0",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "5 Intro"
     },
@@ -10140,6 +10146,24 @@
     {
         "name": "Rout",
         "trigger": "combat_end",
+        "level_nid": "27b",
+        "condition": "len(game.get_enemy_units()) == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;PartyUnits;[unit.nid for unit in game.get_player_units()]",
+            "change_party;{PartyUnits};Krista",
+            "endf",
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "27b Rout"
+    },
+    {
+        "name": "Rout",
+        "trigger": "combat_end",
         "level_nid": "7ab",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [],
@@ -10300,12 +10324,49 @@
     {
         "name": "Escape",
         "trigger": "Escape",
+        "level_nid": "27b",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;{unit};Right",
+            "if;unit.nid == 'Krista'",
+            "s;Krista;Everyone's okay, right? Let's go!",
+            "elif;unit.nid == 'Trevor'",
+            "s;Trevor;Let us never do that again.",
+            "elif;unit.nid == 'Aqua'",
+            "s;Aqua;Phew, that was close.",
+            "elif;unit.nid == 'Semi'",
+            "s;Semi;Finally.",
+            "else",
+            "s;{unit};{e:unit.get_field('EscapeQuote')}",
+            "end",
+            "r;{unit}",
+            "change_party;{unit};Krista",
+            "remove;{unit}",
+            "wait;400",
+            "if;u('Krista').position == None and (game.get_rescuer(u('Krista')) == None or (game.get_rescuer(u('Krista')) != None and game.get_rescuers_position(u('Krista')) == None))",
+            "for;LeftBehind;[unit.nid for unit in game.get_player_units_and_travelers() if 'Canon' not in unit.tags]",
+            "change_party;{LeftBehind};Prisoners",
+            "endf",
+            "music_clear",
+            "victory_screen",
+            "win_game",
+            "end"
+        ],
+        "nid": "27b Escape"
+    },
+    {
+        "name": "Escape",
+        "trigger": "Escape",
         "level_nid": "7ab",
         "condition": "unit.team == 'player'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
+            "if;unit.team == 'player'",
             "u;{unit};Right",
             "if;unit.nid == 'Krista'",
             "s;Krista;And we're outta here!",
@@ -10332,23 +10393,13 @@
             "music_clear",
             "victory_screen",
             "win_game",
+            "end",
+            "else",
+            "remove;{unit}",
+            "wait;400",
             "end"
         ],
         "nid": "7ab Escape"
-    },
-    {
-        "name": "Escape_1",
-        "trigger": "Escape",
-        "level_nid": "7ab",
-        "condition": "unit.team == 'enemy'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "remove;{unit}",
-            "wait;400"
-        ],
-        "nid": "7ab Escape_1"
     },
     {
         "name": "Escape",
@@ -22343,9 +22394,9 @@
             "add_talk;Sam;Kai",
             "if;{v:EnemyThievesLore} != True",
             "add_lore;EnemyThieves",
-            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;false;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "else",
-            "prep;false;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;false;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "3 Intro"
@@ -23517,7 +23568,7 @@
             "add_talk;Felicity;Krista",
             "add_talk;Chell;Viola",
             "add_talk;Viola;Chell",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "6 Intro"
     },
@@ -23692,7 +23743,7 @@
             "add_talk;Forrest;Marina",
             "add_talk;Krista;Marina",
             "add_talk;Marina;Forrest",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "7a Intro"
     },
@@ -23843,7 +23894,7 @@
             "unlock_support_rank;Anna;Jake;C",
             "unlock_support_rank;Anna;Jake;B",
             "unlock_support_rank;Anna;Jake;A",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "7x Intro"
     },
@@ -24055,7 +24106,7 @@
             "add_talk;Felicity;Xiang",
             "add_talk;Krista;Xiang",
             "add_talk;Xiang;Felicity",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "8 Intro"
     },
@@ -24156,9 +24207,9 @@
             "arrange_formation",
             "center_cursor;Krista",
             "if;'{v:LunarisVergrande}' == 'Lake Lunaris'",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "9 Intro"
@@ -24292,7 +24343,7 @@
             "remove_group;Player;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "10 Intro"
     },
@@ -24741,7 +24792,7 @@
             "remove_group;Player;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "11 Intro"
     },
@@ -24913,7 +24964,7 @@
             "center_cursor;Krista",
             "add_talk;Krista;Ryuuji",
             "add_talk;Kai;Ryuuji",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "12 Intro"
     },
@@ -25130,9 +25181,9 @@
             "center_cursor;Krista",
             "add_talk;Krista;Haruki",
             "if;u('Ryuuji').team == 'player'",
-            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;<green>Guide</>;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "13 Intro"
@@ -25346,7 +25397,7 @@
             "arrange_formation",
             "center_cursor;Krista",
             "unlock_support_rank;Keisha;Locke;A+",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "14 Intro"
     },
@@ -25539,7 +25590,7 @@
             "center_cursor;Krista",
             "add_talk;Krista;Rembrandt",
             "add_talk;Marina;Rembrandt",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "14b Intro"
     },
@@ -25796,7 +25847,7 @@
             "t;close",
             "remove_group;Player;immediate",
             "center_cursor;12,15",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "15 Intro"
     },
@@ -25917,7 +25968,7 @@
             "add_talk;Chell;Lin",
             "add_talk;Viola;Lin",
             "add_talk;Krista;Lin",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "16 Intro"
     },
@@ -26108,7 +26159,7 @@
             "center_cursor;Krista",
             "add_talk;Krista;Khalid",
             "add_talk;Forrest;Reem",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "17 Intro"
     },
@@ -26273,7 +26324,7 @@
             "s;Jake;I made them super easy to operate, so anyone can use them!|And we've got enchanted ammo for any magic casters on board.|You just gotta walk up to them and <red>Use</> them. Easy!",
             "rrr",
             "t;close",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "17x Intro"
     },
@@ -26623,7 +26674,7 @@
             "add_talk;Krista;Yukino",
             "add_talk;Forrest;Krista",
             "add_talk;Krista;Forrest",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "18 Intro"
     },
@@ -26830,7 +26881,7 @@
             "add_talk;Yukino;Masashi",
             "add_talk;Krista;Masashi",
             "add_talk;Felicity;Masashi",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "19 Intro"
     },
@@ -27077,7 +27128,7 @@
             "remove_group;player;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "20 Intro"
     },
@@ -27205,7 +27256,7 @@
             "add_talk;Asuka;Tsubaki",
             "add_talk;Sumire;Tsubaki",
             "add_talk;Krista;Tsubaki",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "21 Intro"
     },
@@ -27398,7 +27449,7 @@
             "remove_group;player;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "22 Intro"
     },
@@ -27891,7 +27942,7 @@
             "unlock_support_rank;Gerolt;Leeann;S",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "23 Intro"
     },
@@ -28173,7 +28224,7 @@
             "autolevel_to;Shula;5;fixed",
             "autolevel_to;Solmaz;5;fixed",
             "end",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "24 Intro"
     },
@@ -28288,7 +28339,7 @@
             "add_talk;Krista;Kiraz",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "25 Intro"
     },
@@ -28308,15 +28359,15 @@
             "center_cursor;24",
             "toggle_narration_mode;open",
             "omove;Krista;23;no_block",
-            "s;;Venturing deeper into the prison hidden in Coral Desert,|Krista and friends find Ervan deep within it.|Many questions fill our heroes' minds as they trek back to Fuegsol Castle with|the presumed dead prince in tow.;StyleNid=overworld_narration",
+            "s;;Venturing deeper into the prison hidden in Coral Desert,|Krista and friends find Ervan deep within it.|Many questions fill our heroes' minds as they trek back to Fuegsol Castle with|the previously presumed dead prince in tow.;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch26;reload",
-            "#show_layer;cutscene;immediate",
+            "show_layer;cutscene;immediate",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "trigger_script;BanditTag",
             "move_cursor;0,0;immediate",
             "remove_all_units",
-            "music_clear",
-            "chapter_title;_Chapter Sound",
             "###",
             "lvar;_minimum_deployment;17",
             "ginc;ChapterFlag",
@@ -28346,23 +28397,21 @@
             "e;Milo;NormalBlink,NoSmile",
             "s;Milo;Anyway, Vanny, I've got intel that might interest you.",
             "s;Vanguard;Yes?",
-            "s;Milo;A subordinate of mine reported that there's a Shifter within their ranks.|And judging by the description, sounds like you know 'em.",
-            "s;Vanguard;Do not toy with my feelings like this, Milo.",
-            "s;Milo;Hey, don't shoot the messanger here, Vanguard. I'm just passing along info here.",
-            "s;Vanguard;...",
-            "s;Milo;I can't verify how accurate it is, of course.|I'm just giving you a heads up.",
-            "s;Vanguard;Is that all?",
+            "s;Milo;A subordinate of mine reported that there's a Shifter within their ranks.",
+            "s;Vanguard;A Shifter... Fascinating.",
+            "s;Milo;Don't get too sentimental on me here.|They're still an enemy.",
+            "s;Vanguard;Of course. Is that all?",
             "s;Milo;Yup.{c:e;Milo;Smile} Anyway, I'm gonna touch base with Soromir and the rest.|{c:e;Milo;NearWink,Smile}Catch you later!",
             "rrr",
             "remove;MiloCopy;warp;fade",
             "wait;1000",
             "u;Vanguard;Left",
-            "s;Vanguard;A frivolous one as always.|Hm... That Shifter... It must be her. But...|No. I cannot let anything less than a guarantee distract me.|Preparations must be made.",
+            "s;Vanguard;This goes against my initial purpose.|But if I must turn my blade on their kind, then so be it.",
             "r;Vanguard",
             "remove_unit;VanguardCopy;warp;fade",
             "wait;1000",
             "t;close",
-            "#hide_layer;cutscene",
+            "hide_layer;cutscene",
             "b;BlackBackground",
             "t;open",
             "s;;Back at Fuegsol Castle...;;140;hint;NumLines=1;no_sound",
@@ -28535,7 +28584,7 @@
             "t;close",
             "base;Gate;Castle 03",
             "music_clear",
-            "load_unit;Torgen;enemy2;Ch26",
+            "load_unit;Torgen;enemy2;FollowLord",
             "load_unit;Peter;other;FollowLord",
             "###",
             "if;game.current_mode.growths == 'Lucky'",
@@ -28630,6 +28679,8 @@
             "move_group;enemyse;starting;normal;stack",
             "center_cursor;26,15",
             "end_skip",
+            "music_clear",
+            "m;Guildmaster Wigglytuff",
             "add_group;player;player;;stack",
             "move_group;player;starting;normal;stack",
             "flicker_cursor;Krista",
@@ -28642,7 +28693,8 @@
             "s;Krista;I knew that there'd be bandits out here, but not this many at the border already.",
             "e;Forrest;NormalBlink",
             "s;Forrest;Do you think they were expecting us?",
-            "s;Krista;It's possible. Still, we gotta power through.|{c:e;Krista;Smile}Not that'll be a tough job for us. Just another Oregot adventure!",
+            "e;Krista;CloseEyes",
+            "s;Krista;With how Circ's Talons have been putting the Holy Knights and pirates under their command,|I wouldn't be surprised.|Still, we gotta power through.|{c:e;Krista;Smile}Not that'll be a tough job for us. Just another Oregot adventure!",
             "e;Forrest;CloseEyes",
             "s;Forrest;That's one way to put it.",
             "rrr",
@@ -28660,7 +28712,7 @@
             "add_talk;Torgen;Kai",
             "add_talk;Forrest;Torgen",
             "add_talk;Torgen;Forrest",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "26 Intro"
     },
@@ -28863,7 +28915,7 @@
             "add;Iris;8,4;immediate;stack",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "7b Intro"
     },
@@ -28999,7 +29051,7 @@
             "remove_group;Player;immediate",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "7bb Intro"
     },
@@ -29017,7 +29069,7 @@
             "t;open",
             "music_clear",
             "m;Lyn's Desire",
-            "gvar;CharacterEpitaphs;{'Krista':'Krista, Exiled Princess','Forrest':'Forrest, Devoted Knight','Kai':'Kai, Wandering Ninja','Trevor':'Trevor, Talkative Mage','Chell':'Chell, Motherly Flier','Sam':'Sam, Prowling Tiger','Aqua':'Aqua, Kind Priestess','Semi':'','Taylor':'','Alex':'','Lucy':'','Ecco':'','Anil':'','Michael':'Michael, True Holy Knight','Felicity':'Felicity, Playful Maid','Viola':'','Marina':'','Joshua':'','Azure':'','Rembrandt':'','Anna':'','Jake':'','Xiang':'','Celeste':'Celeste, Righteous Warrior','Parker':'','Cole':'','Ryuuji':'Ryuuji, Dragon Claw','Taiga':'Taiga, Tiger Fang','Haruki':'','Taichi':'','Yumi':'','Lin':'Lin, Soaring Mercenary','Tsurugi':'','Khalid':'Khalid, Fiery Prince','Reem':'Reem, Passionate Heart','Yukino':'Yukino, Gentle as Snow','Masashi':'','Hikaru':'','Sumire':'','Asuka':'','Nagisa':'','Tsubaki':'','Judah':'','Shula':'','Kiraz':'','Torgen':'Torgen, Heart of Gold','Peter':'','Santiago':'','Tora':'Tora, Prideful Tiger','Estoc':'Estoc, Sword and Shield','Lucian':'Lucian, Zealous Protector','Melanie':'','Damien':'Damien, Clumsy Alchemist','Matthew':'Matthew, Faithful Spy','Altena':'Altena, Luminous Rider','Gregor':'Gregor, Swell Sword'}",
+            "lvar;CharacterEpitaphs;{'Krista':'Krista, Exiled Princess','Forrest':'Forrest, Devoted Knight','Kai':'Kai, Wandering Ninja','Trevor':'Trevor, Talkative Mage','Chell':'Chell, Motherly Flier','Sam':'Sam, Prowling Tiger','Aqua':'Aqua, Kind Priestess','Semi':'Semi, ','Taylor':'Taylor, ','Alex':'Alex, ','Lucy':'Lucy, ','Ecco':'Ecco, ','Anil':'Anil, Silent Sniper','Michael':'Michael, True Holy Knight','Felicity':'Felicity, Playful Maid','Viola':'Viola, ','Marina':'Marina, ','Joshua':'Joshua, ','Azure':'Azure, ','Rembrandt':'Rembrandt, Desert Wanderer','Anna':'Anna, ','Jake':'Jake, ','Xiang':'Xiang, ','Celeste':'Celeste, Righteous Warrior','Parker':'Parker, ','Cole':'Cole, ','Ryuuji':'Ryuuji, Dragon Claw','Taiga':'Taiga, Tiger Fang','Haruki':'Haruki, ','Taichi':'Taichi, ','Yumi':'Yumi, ','Lin':'Lin, Soaring Mercenary','Tsurugi':'Tsurugi, ','Khalid':'Khalid, Fiery Prince','Reem':'Reem, Passionate Heart','Yukino':'Yukino, Gentle as Snow','Masashi':'Masashi, ','Hikaru':'Hikaru, ','Sumire':'Sumire, Restful Shield','Asuka':'Asuka, ','Nagisa':'Nagisa, ','Tsubaki':'Tsubaki, ','Judah':'Judah, ','Shula':'Shula, ','Kiraz':'Kiraz, ','Torgen':'Torgen, Heart of Gold','Peter':'Peter, Peaceful Hermit','Santiago':'Santiago, ','Tora':'Tora, Prideful Tiger','Estoc':'Estoc, Sword and Shield','Lucian':'Lucian, Zealous Protector','Melanie':'Melanie, ','Damien':'Damien, Clumsy Alchemist','Matthew':'Matthew, Faithful Spy','Altena':'Altena, Luminous Rider','Gregor':'Gregor, Swell Sword'}",
             "# Kai's endings",
             "if;get_support_rank('Kai','Trevor') == 'S'",
             "    # Kai/Trevor",
@@ -29027,14 +29079,14 @@
             "    # Kai/Tsurugi",
             "elif;get_support_rank('Kai','Asuka') == 'A+'",
             "    # Kai/Asuka",
-            "else",
+            "elif;get_support_rank('Krista','Kai') != 'A+' and get_support_rank('Forrest','Kai') != 'A+'",
             "    # Kai unpaired",
             "    ending;Kai;{e:v('CharacterEpitaphs')['Kai']};Kai wandered the earth evading arrest for his treason of Merinas.{br}No one knows where he ended up.",
             "end",
             "pop_dialog",
             "# Trevor's endings",
             "if;get_support_rank('Trevor','Anil') == 'S'",
-            "else",
+            "elif;get_support_rank('Krista','Trevor') != 'S'",
             "    # Trevor unpaired",
             "    ending;Trevor;{e:v('CharacterEpitaphs')['Trevor']};Trevor, now under service of Parker, serves his new employer with unwavering loyalty. Although, he misses his days being by Krista's side.",
             "end",
@@ -35059,28 +35111,6 @@
         "nid": "Global OutroKaiDeath"
     },
     {
-        "name": "Outro2",
-        "trigger": "level_end",
-        "level_nid": "4x",
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 18,
-        "_source": [
-            "overworld_cinematic;0",
-            "set_overworld_position;Krista;4;no_animate",
-            "center_cursor;4",
-            "toggle_narration_mode;open",
-            "reveal_overworld_node;MedeasCastle;immediate",
-            "reveal_overworld_road;4;MedeasCastle;immediate",
-            "m;A Hint of Things to Come",
-            "omove;Krista;MedeasCastle;no_block",
-            "s;;Krista and friends cross the Oregot-Medeas border and escape the bandit fortress.|They head back to Medeas Castle to recuperate and plan for the mission ahead.;StyleNid=overworld_narration",
-            "toggle_narration_mode;close"
-        ],
-        "nid": "4x Outro2"
-    },
-    {
         "name": "OutroSemiDeath",
         "trigger": "level_end",
         "level_nid": "Global",
@@ -37439,7 +37469,7 @@
             "e;Judah;NormalBlink",
             "bop;Judah",
             "s;Judah;Sh-Shut it! You have no idea what I'm going through!",
-            "s;Krista;Then tell me!|I know we're not on the best terms.{c:wait;200}{c:e;Krista;CloseEyes} Never were, to be honest.|{c:e;Krista;NormalBlink}But can we try to put our differences aside? At least just for now?",
+            "s;Krista;Then tell me!|I know we're not on the best terms.{c:e;Krista;CloseEyes} Never were, to be honest.|{c:e;Krista;NormalBlink}But can we try to put our differences aside? At least just for now?",
             "e;Judah;CloseEyes",
             "s;Judah;Hmph.",
             "s;Krista;If there's anyone out there who'll understand, it's me.|{c:e;Krista;HalfCloseEyes}We both loved him, Judah.{c:wait;200}{c:e;Krista;CloseEyes} So, please.{c:e;Krista;HalfCloseEyes} I think we both need this right now.",
@@ -37449,11 +37479,15 @@
             "s;Krista;I don't think Ervan would see it that way.|You're his retainer, Judah. One of his most trusted people.|He wouldn't hate you for this.",
             "e;Judah;NormalBlink",
             "s;Judah;How can you be so confident about that?",
-            "s;Krista;Because that's the type of person he is.|He's trusting and sees the best in people.|It wouldn't be any different with you.{c:wait;200} Especially not you.",
+            "s;Krista;Because that's the type of person he is.|He's trusting and sees the best in people.|It wouldn't be any different with you. Especially not you.",
             "e;Judah;CloseEyes",
-            "s;Judah;*sigh* I hate that you're right.|{c:e;Judah;NormalBlink}I'll go see him. I will need time to mentally prepare myself, though.|And, hey.",
-            "s;Krista;Yeah?",
-            "s;Judah;Take your own words to heart.|Ervan still loves you too.{c:wait;200} We both know that.",
+            "s;Judah;*sigh* I hate that you're right.|{c:e;Judah;NormalBlink}I'll go see him. I will need time to mentally prepare myself, though.",
+            "e;Krista;Smile",
+            "s;Krista;There you go.",
+            "s;Judah;And, hey.",
+            "e;Krista;NoSmile",
+            "s;Krista;Hm?",
+            "s;Judah;Take your own words to heart.|Ervan still loves you too. We both know that.",
             "s;Krista;Judah{tgm}...",
             "sound;Item",
             "if;game.check_alive('Judah') == True",
@@ -38860,6 +38894,8 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch27;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "trigger_script;BanditTag",
             "lvar;_minimum_deployment;17",
             "#The party continues to head northward to the capital of Oregot. They are stopped by Gunnar, the bandit who kidnapped Krista eight years ago. Circ's forces come to back up Gunnar's group and the party has to escape their pursuit.",
@@ -38882,13 +38918,19 @@
             "autolevel_to;Gunnar;9;fixed",
             "end",
             "###",
+            "center_cursor;Gunnar",
+            "flicker_cursor;Gunnar",
+            "uu;Gunnar;Left;Sven;Right",
+            "rrr",
+            "###",
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
+            "lvar;TorgenRecruit;True",
             "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player' and check_alive('Torgen') == True",
-            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,True;AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba",
+            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,{v:TorgenRecruit};AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "27 Intro"
@@ -38911,6 +38953,8 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch27b;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "trigger_script;BanditTag",
             "lvar;_minimum_deployment;17",
             "enable_supports;False",
@@ -38933,15 +38977,110 @@
             "toggle_narration_mode;open",
             "m;A Hint of Things to Come",
             "omove;Krista;27;no_block",
-            "s;;PLACEHOLDER;StyleNid=overworld_narration",
+            "s;;Escaping from Gunnar's forces, Krista and friends flee deeper into Oregot.|Felicity leads the party to a hidden underground settlement to keep|them away from the enemy's sights.;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch28;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "show_layer;foreground;immediate",
             "lvar;_minimum_deployment;17",
             "lvar;fortDestroy;0",
             "gvar;CircPlot;True",
+            "add_base_convo;Out of Hiding",
             "add_base_convo;Her Guardian",
             "#Felicity guides the party to an underground settlement to seek shelter. Circ's forces find them and now the party has to defend the settlement. Suspicion arises in the party as they start to realize that there may be a traitor in their midst",
+            "###",
+            "b;WhiteTemple",
+            "end_skip",
+            "music_clear",
+            "m;The Archsage Athos",
+            "uu;Felicity;Left;Krista;Right",
+            "s;Felicity;There is another reason I brought you all here, Your Highness.|Follow me.",
+            "rrr",
+            "t;close",
+            "b;StoneChamber",
+            "t;open",
+            "uu;Felicity;Left;Krista;Right",
+            "s;Krista;Woah{tgm}...",
+            "rrr",
+            "t;close",
+            "b;BlackBackground",
+            "#b;Ch28Cutscene1",
+            "t;open",
+            "end_skip",
+            "s;Krista;Felicity, what is all this?",
+            "s;Felicity;This mural depicts The War of Divides.{c:wait;200}{br}What truly happened, that is.",
+            "s;Krista;What do you mean?",
+            "s;Felicity;Tell me, Your Highness, what do you know of The War of Divides?",
+            "s;Krista;Humans and Shifters fought due to rising tensions between the two groups.|It started when the humans captured Shifters and used them as slaves.",
+            "s;Felicity;What else?",
+            "s;Krista;Hm... The Great Beasts except for Medea passed on at some point.|The rest of the timeline is pretty vague.|Records from before the start of the war were lost.",
+            "s;Felicity;I see.{w} Your Highness, look up there.",
+            "t;close",
+            "b;BlackBackground",
+            "#b;Ch28Cutscene2",
+            "t;open",
+            "s;Krista;The Great Beasts? Wait, they're--",
+            "s;Felicity;Mercilessly slain by their little brother Medea.",
+            "s;Krista;But that can't be right. The Great Beasts all got along.|The eldest siblings just... grew too old.",
+            "s;Felicity;Lies. All of it.",
+            "s;Krista;...{w} Felicity, where does Circ fit into all of this?",
+            "s;Felicity;Where do you you think the Great Beasts came from? Who birthed them?",
+            "s;Krista;You don't mean...? No way...",
+            "s;Felicity;They came from the Beast of Cycles.{br}The Beast of Death.{w} The Beast of Life.|The Father Drake Circ.",
+            "s;Krista;\"The Father Drake\"...{w} None of the history books ever mentioned Circ.|At least, not the most circulated ones.|What was written in that book I lent to Ervan must have been|one of the few surviving records of Circ's existence.",
+            "s;Felicity;That seems to be the case.|It's a miracle it ended up in the Medean Castle's archives to begin with.",
+            "s;Krista;Felicity, what happened to Circ?",
+            "s;Felicity;See for yourself. There.",
+            "t;close",
+            "b;BlackBackground",
+            "#b;Ch28Cutscene3",
+            "t;open",
+            "s;Krista;I shouldn't be surprised considering what he did to his siblings. Still...",
+            "s;Felicity;Circ was the first that Medea struck down.|After that, the other Great Beasts retaliated.|And so began The War of Divides.",
+            "s;Krista;I know you wouldn't lie to me, Felicity.{br}We've known each other for years.|At the same time, how would you know all this to begin with?|The only way you could is if--",
+            "t;close",
+            "b;BlackBackground",
+            "#b;FelicityNoHat",
+            "t;open",
+            "end_skip",
+            "music_clear",
+            "m;Wish4",
+            "s;Felicity;This should prove my credentials enough, wouldn't you say?",
+            "s;Krista;Whoa, wait! All this time, y-you... You were...?!",
+            "s;Felicity;A Shifter, yes.{w} You understand why I had to hide this, don't you?",
+            "t;close",
+            "b;StoneChamber",
+            "t;open",
+            "end_skip",
+            "uu;Felicity;Left;Krista;Right",
+            "#uu;FelicityNoHat;Left;Krista;Right",
+            "s;Krista;Felicity, this all is{tgm}...|{c:e;Krista;CloseEyes}{tgm}Dear Medea, I don't even know where to begin.",
+            "s;Felicity;I will say I'm still loyal to you, Your Highness. I always have been.|{c:e;Felicity;CloseEyes}But that's not important right now.|{c:e;Felicity;HalfCloseEyes}History has been obfuscated to the point where|what's taught to the humans now is a perversion of the truth.|{c:e;Felicity;CloseEyes}All to make Medea himself perceived as the hero of the story.",
+            "e;Krista;NormalBlink",
+            "s;Krista;Huh.{w}{c:e;Krista;HalfCloseEyes} Somehow, I feel{tgm}...{c:wait;200}{c:e;Krista;NormalBlink}{tgm} relieved.",
+            "e;Felicity;NormalBlink",
+            "s;Felicity;Relieved?",
+            "s;Krista;Medea truly made humans in his image.|{c:e;Krista;HalfCloseEyes}Cruel. Underhanded. Selfish.|{c:e;Krista;CloseEyes}All this time as a descendant of Medea's bloodline,|I was always taught to live up to his image of modesty and chivalry.|{c:e;Krista;NormalBlink}So, yeah. It is a relief to know none of that is true.|{c:e;Krista;HalfCloseEyes,Smile}He's an absolute dastard. I think I can handle living up to those standards.",
+            "s;Felicity;Your Highness{tgm}...",
+            "e;Krista;CloseEyes,Smile",
+            "s;Krista;Thanks, Felicity. I needed to hear this.{w}{c:e;Krista;NormalBlink,NoSmile} But on a more serious note,|that does give us a better idea of what Circ's Talons are trying to do.",
+            "s;Felicity;Figured it out, then?",
+            "s;Krista;Yeah. They're trying to revive him, aren't they?",
+            "e;Felicity;CloseEyes",
+            "s;Felicity;All the signs point to that conclusion.|{c:e;Felicity;NormalBlink}I had realized it myself a long time ago,|but I'm sure you understand why I couldn't share my thoughts.",
+            "e;Krista;CloseEyes",
+            "s;Krista;There definitely would've been a lot to unpack without all this context.|{c:e;Krista;HalfCloseEyes}But now{tgm}...",
+            "e;Felicity;HalfCloseEyes",
+            "s;Felicity;You're questioning if our cause is a just one.",
+            "e;Krista;CloseEyes",
+            "s;Krista;Y-Yeah.",
+            "e;Felicity;CloseEyes",
+            "s;Felicity;That is something for you to decide, Your Highness.|{c:e;Felicity;NormalBlink}Fight for your initial goals and leave the truth buried forever,|or fight for truth and upset the status quo?|{c:e;Felicity;CloseEyes}There is no simple answer, Your Highness.{w}{c:e;Felicity;NormalBlink} No matter which path you take,|you must be prepared for the consequences that come with it.",
+            "e;Krista;NormalBlink",
+            "s;Krista;Of course.",
+            "rrr",
+            "###",
             "base;WhiteTemple;Death Mountain",
             "###",
             "enable_fog_of_war;true",
@@ -38950,10 +39089,11 @@
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player'",
-            "prep;true;Prepare to Charge;Guide,Recruit;True,True;AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba",
+            "lvar;TorgenRecruit;True",
+            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player' and check_alive('Torgen') == True",
+            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,{v:TorgenRecruit};AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "28 Intro"
@@ -38976,15 +39116,18 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch28x;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
             "#Anna and Jake gaiden. They need help fending off a local bandit group who has been ambushing merchants on this trade route. The party has to make sure all merchant carts make it from one side of the map to the other.",
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player'",
-            "prep;true;Prepare to Charge;Guide,Recruit;True,True;AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba",
+            "lvar;TorgenRecruit;True",
+            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player' and check_alive('Torgen') == True",
+            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,{v:TorgenRecruit};AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "28x Intro"
@@ -39007,16 +39150,19 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch29;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "trigger_script;BanditTag",
             "lvar;_minimum_deployment;17",
             "#The party stops by a local village to rest and defend the locals from a bandit attack.",
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player'",
-            "prep;true;Prepare to Charge;Guide,Recruit;True,True;AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba",
+            "lvar;TorgenRecruit;True",
+            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player' and check_alive('Torgen') == True",
+            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,{v:TorgenRecruit};AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "29 Intro"
@@ -39039,15 +39185,18 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch30;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
             "#The party eventually makes it to Oregot's capital where they confront the Oregotian Council and Vanguard.",
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player'",
-            "prep;true;Prepare to Charge;Guide,Recruit;True,True;AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba",
+            "lvar;TorgenRecruit;True",
+            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player' and check_alive('Torgen') == True",
+            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,{v:TorgenRecruit};AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "30 Intro"
@@ -39070,13 +39219,17 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch31;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
             "#The party returns to Medeas Castle as they plan out a full-on counterattack against Circ's forces. Before a plan could be fully drafted, Circ's forces invade the castle",
             "###",
             "t;close",
             "b;Gate",
             "t;open",
-            "music;The Archsage Athos",
+            "end_skip",
+            "music_clear",
+            "m;The Archsage Athos",
             "uu;Krista;Left;Bryant;Right",
             "s;Bryant;Krista, the situation in Yondo has gone dire.|For that reason, I believe it is time to inherit your birthright.",
             "s;Krista;Father, you mean{tgm}...?",
@@ -39113,7 +39266,10 @@
             "add_portrait;Bryant;Right",
             "s;Bryant;And may Medea grant these boons upon you, Krista.",
             "e;Krista;NormalBlink",
-            "s;Krista;Thank you, Father.",
+            "s;Krista;Thank you, Father.|{c:e;Krista;HalfCloseEyes}{tgm}...",
+            "s;Bryant;Is there something wrong, Krista?",
+            "e;Krista;NormalBlink",
+            "s;Krista;Ah, no. It's nothing.|I{tgm}...{tgm} I will do my best as Medea's child. I will lead our people to victory.",
             "give_item;Krista;MedeasTooth",
             "###",
             "increment_support_points;Trevor;Lucian;1",
@@ -39123,10 +39279,11 @@
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player'",
-            "prep;true;Prepare to Charge;Guide,Recruit;True,True;AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba",
+            "lvar;TorgenRecruit;True",
+            "if;len(game.get_units_in_party('TorgenGroup')) > 0 and len(game.get_units_in_party('Krista')) < {v:_minimum_deployment} and u('Torgen').team == 'player' and check_alive('Torgen') == True",
+            "prep;true;Prepare to Charge;<green>Guide</>,Recruit;True,{v:TorgenRecruit};AccessLibrary,RecruitTorgenGroup;Access the guide for tips and tricks.,Choose a bandit to join the party.;gba;no_chap_disp",
             "else",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba",
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp",
             "end"
         ],
         "nid": "31 Intro"
@@ -39143,6 +39300,7 @@
             "choice;TorgenRecruitChoice;Recruit which unit?;{e:','.join([unit.nid for unit in game.get_units_in_party('TorgenGroup')])};;horizontal;center;;;type_unit;4,2;center;backable",
             "if;'{v:TorgenRecruitChoice}' != 'BACK'",
             "change_party;{e:u('{v:TorgenRecruitChoice}').nid};Krista",
+            "lvar;TorgenRecruit;False",
             "end"
         ],
         "nid": "Global RecruitTorgenGroup"
@@ -39162,9 +39320,11 @@
             "toggle_narration_mode;open",
             "m;A Hint of Things to Come",
             "omove;Krista;27;no_block",
-            "s;;PLACEHOLDER;StyleNid=overworld_narration",
+            "s;;The Talons' ambush on Medeas Castle failed;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch32_1;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "resurrect;Ervan",
             "for;ErvanItems;[item for item in u('Ervan').items]",
             "remove_item;Ervan;{ErvanItems};no_banner",
@@ -39274,10 +39434,26 @@
             "rrr",
             "remove_unit;Krista;fade;east",
             "rescue;Krista;Ervan",
-            "wait;1000",
+            "wait;500",
             "# Ervan begins to move off-screen. Forrest, Kai, and Felicity come on screen to prevent Ervan from taking Krista.",
+            "uu;Forrest;Left;Ervan;Right",
+            "s;Forrest;Krista, what--",
+            "bop;Forrest",
+            "s;Forrest;Ervan? Let her go!",
+            "s;Ervan;I'm afraid I can't do that, Forrest. I'm sure you understand.|The Talons are ready for the final step, and Krista is the key to that.|Farewell.",
+            "rrr",
             "remove;Ervan;warp",
             "wait;1000",
+            "# Forrest rushes forward.",
+            "u;Forrest;Right;mirror;no_block",
+            "uu;Kai;MidLeft;Felicity;FarLeft",
+            "s;Forrest;Krista, no!{c:e;Forrest;CloseEyes} Damn it!",
+            "e;Kai;HalfCloseEyes",
+            "s;Kai;So, he was the traitor all along.|{c:e;Kai;CloseEyes}I was suspicious of him from the start,|but all I had to go off of was a feeling.|{c:e;Kai;NormalBlink}But why is he on their side? That's the one thing that doesn't add up.",
+            "s;Felicity;We can worry about that later. Right now, Her Highness needs our help!",
+            "mirror;Forrest",
+            "s;Forrest;Felicity is right.",
+            "rrr",
             "t;close",
             "drop;Ervan",
             "add;Krista;6,3",
@@ -39328,6 +39504,8 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch33;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
             "###",
             "###",
@@ -39336,7 +39514,7 @@
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "33 Intro"
     },
@@ -39358,7 +39536,17 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch34;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
+            "if;u('Ervan').klass == 'BowLord'",
+            "if;u('Ervan').level < 15",
+            "autolevel_to;Ervan;15",
+            "end",
+            "promote;Ervan;silent",
+            "elif;u('Ervan').level < 5",
+            "autolevel_to;Ervan;5",
+            "end",
             "###",
             "###",
             "end_skip",
@@ -39367,7 +39555,7 @@
             "change_unit_desc;Ervan;Former crown prince of Fuegsol.{br}Consumed with bitterness and a betrayed heart.",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "34 Intro"
     },
@@ -39389,6 +39577,8 @@
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch35;reload",
+            "music_clear",
+            "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
             "###",
             "resurrect;Ferrach",
@@ -39403,7 +39593,7 @@
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
-            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba"
+            "prep;true;Prepare to Charge;Guide;True;AccessLibrary;Access the guide for tips and tricks.;gba;no_chap_disp"
         ],
         "nid": "35 Intro"
     },
@@ -39418,7 +39608,7 @@
         "_source": [
             "enable_convoy;False",
             "give_skill;Damien;DAMIEN_PRICE;no_banner",
-            "shop;Damien;Angelic Robe,Energy Ring,Secret Book,Speedwing,Goddess Icon,Dragonshield,Talisman,Elixir,Vulnerary;damien;1,1,1,1,1,1,1,1,-1",
+            "shop;Damien;Angelic Robe,Energy Ring,Secret Book,Speedwing,Goddess Icon,Dragonshield,Talisman,Elixir;damien;1,1,1,1,1,1,1,-1",
             "remove_skill;Damien;DAMIEN_PRICE;no_banner",
             "enable_convoy;True"
         ],
@@ -39454,6 +39644,56 @@
         "nid": "28 BaseConvo_Her Guardian"
     },
     {
+        "name": "BaseConvo_Out of Hiding",
+        "trigger": "on_base_convo",
+        "level_nid": "28",
+        "condition": "base_convo == 'Out of Hiding'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;WhiteTemple",
+            "m;The Archsage Athos",
+            "if;check_alive('Felicity')",
+            "for;PartyMembers;[unit.nid for unit in game.get_player_units() if get_item(unit,'OldRock')]",
+            "remove_item;{PartyMembers};OldRock;no_banner",
+            "endf",
+            "remove_item;convoy;OldRock;no_banner",
+            "give_item;Felicity;FelicitysStone;no_banner",
+            "sound;Item",
+            "alert;Old Rock changed to Felicity's Stone!;FelicitysStone",
+            "end",
+            "if;check_alive('Xiang') and u('Xiang').team == 'player'",
+            "for;PartyMembers;[unit.nid for unit in game.get_player_units() if get_item(unit,'WornStone')]",
+            "remove_item;{PartyMembers};WornStone;no_banner",
+            "endf",
+            "remove_item;convoy;WornStone;no_banner",
+            "give_item;Xiang;XiangsStone;no_banner",
+            "sound;Item",
+            "alert;Worn Stone changed to Xiang's Stone!;XiangsStone",
+            "end",
+            "if;check_alive('Tsurugi') and u('Tsurugi').team == 'player'",
+            "for;PartyMembers;[unit.nid for unit in game.get_player_units() if get_item(unit,'PreciousStone')]",
+            "remove_item;{PartyMembers};PreciousStone;no_banner",
+            "endf",
+            "remove_item;convoy;PreciousStone;no_banner",
+            "give_item;Tsurugi;TsurugisStone;no_banner",
+            "sound;Item",
+            "alert;Precious Stone changed to Tsurugi's Stone!;TsurugisStone",
+            "end",
+            "if;check_alive('Kiraz') and u('Kiraz').team == 'player'",
+            "for;PartyMembers;[unit.nid for unit in game.get_player_units() if get_item(unit,'ShinyStone')]",
+            "remove_item;{PartyMembers};ShinyStone;no_banner",
+            "endf",
+            "remove_item;convoy;ShinyStone;no_banner",
+            "give_item;Kiraz;KirazsStone;no_banner",
+            "sound;Item",
+            "alert;Shiny Stone changed to Kiraz's Stone!;KirazsStone",
+            "end"
+        ],
+        "nid": "28 BaseConvo_Out of Hiding"
+    },
+    {
         "name": "FightFelicityVanguard",
         "trigger": "combat_start",
         "level_nid": "30",
@@ -39464,19 +39704,13 @@
         "_source": [
             "hide_combat_ui",
             "u;Felicity;RightCorner",
-            "s;Felicity;To think a golem was amongst our enemies{tgm}...{tgm}|I shouldn't be surprised, but{tgm}...;StyleNid=boss_convo_right;MessageTail=None",
+            "s;Felicity;To think a golem was amongst our enemies{tgm}...|{c:e;Felicity;HalfCloseEyes}{tgm}I shouldn't be surprised, but it feels wrong.;StyleNid=boss_convo_right;MessageTail=None",
             "r;Felicity",
             "u;Vanguard;LeftCorner",
-            "s;Vanguard;Wait, you are{tgm}...{tgm}|It IS you! You are Mistress{br}Lenora's{tgm}...!;StyleNid=boss_convo_left;MessageTail=None",
-            "r;Vanguard",
-            "u;Felicity;RightCorner",
-            "s;Felicity;Wait, \"Lenora\"? Then,{br}you're{tgm}...{tgm} Vanguard?;StyleNid=boss_convo_right;MessageTail=None",
-            "r;Felicity",
-            "u;Vanguard;LeftCorner",
-            "s;Vanguard;Miss Felicity, I apologize.|We are now enemies,{br}therefore{tgm}...;StyleNid=boss_convo_left;MessageTail=None",
+            "s;Vanguard;You are that Shifter I was informed of.|A Cat Shifter no less.|I was made to protect you and your people, but now{tgm}...;StyleNid=boss_convo_left;MessageTail=None",
             "r;Vanguard",
             "u;Felicity;RightCorner;;CloseEyes",
-            "s;Felicity;No, I understand.|{c:e;Felicity;NormalBlink}Don't hold anything back, Vanguard.|We both have a cause to fight for.;StyleNid=boss_convo_right;MessageTail=None",
+            "s;Felicity;I don't want to do this either, but we can't avoid it.|{c:e;Felicity;NormalBlink}We both have a cause to fight for.;StyleNid=boss_convo_right;MessageTail=None",
             "r;Felicity",
             "show_combat_ui"
         ],
