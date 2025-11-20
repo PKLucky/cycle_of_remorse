@@ -27337,6 +27337,24 @@
                 "hide_time": false
             },
             {
+                "nid": "house3",
+                "region_type": "event",
+                "position": [
+                    12,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "vendor",
                 "region_type": "event",
                 "position": [
@@ -33298,6 +33316,24 @@
                 "position": [
                     18,
                     27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house5",
+                "region_type": "event",
+                "position": [
+                    18,
+                    21
                 ],
                 "size": [
                     1,
@@ -42333,8 +42369,8 @@
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Attack",
+                "team": "enemy2_1",
+                "ai": "TorgenAlly",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -42357,8 +42393,8 @@
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Attack",
+                "team": "enemy2_1",
+                "ai": "TorgenAlly",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -44059,12 +44095,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "27",
@@ -46625,7 +46656,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_8",
+                "nid": "torch",
                 "region_type": "vision",
                 "position": [
                     3,
@@ -46643,7 +46674,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_9",
+                "nid": "torch_1",
                 "region_type": "vision",
                 "position": [
                     8,
@@ -46661,7 +46692,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_10",
+                "nid": "torch_2",
                 "region_type": "vision",
                 "position": [
                     18,
@@ -46679,7 +46710,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_11",
+                "nid": "torch_3",
                 "region_type": "vision",
                 "position": [
                     26,
@@ -46697,7 +46728,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_12",
+                "nid": "torch_4",
                 "region_type": "vision",
                 "position": [
                     10,
@@ -46715,7 +46746,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_13",
+                "nid": "torch_5",
                 "region_type": "vision",
                 "position": [
                     13,
@@ -46733,7 +46764,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_14",
+                "nid": "torch_6",
                 "region_type": "vision",
                 "position": [
                     2,
@@ -46751,7 +46782,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_15",
+                "nid": "torch_7",
                 "region_type": "vision",
                 "position": [
                     25,
@@ -46769,7 +46800,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_16",
+                "nid": "torch_8",
                 "region_type": "vision",
                 "position": [
                     1,
@@ -46787,7 +46818,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_17",
+                "nid": "torch_9",
                 "region_type": "vision",
                 "position": [
                     5,
@@ -46805,7 +46836,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_18",
+                "nid": "torch_10",
                 "region_type": "vision",
                 "position": [
                     18,
@@ -46823,7 +46854,7 @@
                 "hide_time": false
             },
             {
-                "nid": "New Region_19",
+                "nid": "torch_11",
                 "region_type": "vision",
                 "position": [
                     25,

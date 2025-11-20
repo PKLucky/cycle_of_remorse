@@ -5899,11 +5899,15 @@
         },
         "starting_items": [
             [
-                "SteelPoleax",
+                "ShortAxe",
                 false
             ],
             [
                 "Steel Blade",
+                false
+            ],
+            [
+                "Elixir",
                 false
             ]
         ],
@@ -10102,7 +10106,7 @@
         },
         "starting_items": [
             [
-                "Killing Edge",
+                "Shamshir",
                 false
             ],
             [
@@ -10545,7 +10549,7 @@
         "desc": "Soromir's subordinate.\nCunning and loyal to his liege.",
         "variant": "",
         "level": 1,
-        "klass": "Thief",
+        "klass": "Myrmidon",
         "tags": [
             "Boss"
         ],
@@ -10745,6 +10749,109 @@
         "fields": []
     },
     {
+        "nid": "Vanguard",
+        "name": "Vanguard",
+        "desc": "Member of Circ's Talons.\nProtective of those he feels indebted to.",
+        "variant": "",
+        "level": 1,
+        "klass": "Knight",
+        "tags": [
+            "Boss",
+            "Oreg",
+            "Circ"
+        ],
+        "bases": {
+            "HP": 1,
+            "STR": 19,
+            "MAG": 7,
+            "SKL": 19,
+            "SPD": 20,
+            "LCK": 8,
+            "DEF": 20,
+            "RES": 6,
+            "CON": 10,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 55,
+            "MAG": 35,
+            "SKL": 45,
+            "SPD": 35,
+            "LCK": 30,
+            "DEF": 60,
+            "RES": 45,
+            "CON": 10,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": -22,
+            "MAG": 7,
+            "CON": 0,
+            "MOV": 0,
+            "SPD": 21,
+            "RES": 9,
+            "STR": 14,
+            "SKL": 18,
+            "DEF": 13,
+            "LCK": 5
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                971
+            ],
+            "Lance": [
+                false,
+                491,
+                971
+            ],
+            "Axe": [
+                false,
+                241,
+                971
+            ],
+            "Bow": [
+                false,
+                0,
+                971
+            ],
+            "Staff": [
+                false,
+                0,
+                971
+            ],
+            "Light": [
+                false,
+                0,
+                971
+            ],
+            "Anima": [
+                false,
+                0,
+                971
+            ],
+            "Dark": [
+                false,
+                0,
+                971
+            ],
+            "Default": [
+                false,
+                0,
+                971
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Vanguard",
+        "affinity": "Thunder",
+        "fields": []
+    },
+    {
         "nid": "Milo",
         "name": "Milo",
         "desc": "Member of Circ's Talons.\nA sly assassin with a lax personality.",
@@ -10850,109 +10957,6 @@
         "alternate_classes": [],
         "portrait_nid": "Milo",
         "affinity": "Wind",
-        "fields": []
-    },
-    {
-        "nid": "Vanguard",
-        "name": "Vanguard",
-        "desc": "A golem from ancient times.\nProtective of those he feels indebted to.",
-        "variant": "",
-        "level": 1,
-        "klass": "Knight",
-        "tags": [
-            "Boss",
-            "Oreg",
-            "Circ"
-        ],
-        "bases": {
-            "HP": 1,
-            "STR": 19,
-            "MAG": 7,
-            "SKL": 19,
-            "SPD": 20,
-            "LCK": 8,
-            "DEF": 20,
-            "RES": 6,
-            "CON": 10,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 75,
-            "STR": 55,
-            "MAG": 35,
-            "SKL": 45,
-            "SPD": 35,
-            "LCK": 30,
-            "DEF": 60,
-            "RES": 45,
-            "CON": 10,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "HP": -22,
-            "MAG": 7,
-            "CON": 0,
-            "MOV": 0,
-            "SPD": 21,
-            "RES": 9,
-            "STR": 14,
-            "SKL": 18,
-            "DEF": 13,
-            "LCK": 5
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                971
-            ],
-            "Lance": [
-                false,
-                491,
-                971
-            ],
-            "Axe": [
-                false,
-                241,
-                971
-            ],
-            "Bow": [
-                false,
-                0,
-                971
-            ],
-            "Staff": [
-                false,
-                0,
-                971
-            ],
-            "Light": [
-                false,
-                0,
-                971
-            ],
-            "Anima": [
-                false,
-                0,
-                971
-            ],
-            "Dark": [
-                false,
-                0,
-                971
-            ],
-            "Default": [
-                false,
-                0,
-                971
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Vanguard",
-        "affinity": "Thunder",
         "fields": []
     },
     {

@@ -211,7 +211,7 @@
     ],
     [
         "Master Battle",
-        false,
+        true,
         false
     ],
     [
@@ -241,7 +241,7 @@
     ],
     [
         "Big Bad Burnin' Buddha",
-        false,
+        true,
         false
     ],
     [
@@ -256,12 +256,12 @@
     ],
     [
         "Moustafa",
-        false,
+        true,
         false
     ],
     [
         "Normal Battle",
-        false,
+        true,
         false
     ],
     [
