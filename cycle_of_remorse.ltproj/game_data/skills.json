@@ -3867,7 +3867,7 @@
     {
         "nid": "MELANIE",
         "name": "Forward!",
-        "desc": "If unit's CON + 2 >= ally's CON, move ally one space away from unit. Grants Dmg dealt +5 and Dmg taken -5 for one turn.",
+        "desc": "If unit's CON + 2 >= ally's CON, move ally one space away from unit. Grants Dmg dealt +5 and Dmg taken -5 to target for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             11,

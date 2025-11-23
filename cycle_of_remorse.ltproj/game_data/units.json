@@ -7160,28 +7160,28 @@
             "MOV": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 105,
+            "STR": 60,
+            "MAG": 5,
+            "SKL": 65,
+            "SPD": 50,
+            "LCK": 40,
+            "DEF": 45,
+            "RES": 10,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
             "MOV": 0,
-            "STR": 60,
-            "MAG": 5,
-            "CON": 15,
-            "DEF": 45,
-            "SKL": 65,
-            "RES": 10,
-            "SPD": 50,
-            "LCK": 40,
-            "HP": 105
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
         },
         "starting_items": [
             [

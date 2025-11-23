@@ -6720,7 +6720,7 @@
         "requirements": [
             {
                 "support_rank": "C",
-                "requirement": 1,
+                "requirement": 2,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6733,7 +6733,7 @@
             },
             {
                 "support_rank": "B",
-                "requirement": 3,
+                "requirement": 4,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -6747,6 +6747,19 @@
             {
                 "support_rank": "A",
                 "requirement": 6,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            },
+            {
+                "support_rank": "A+",
+                "requirement": 8,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
