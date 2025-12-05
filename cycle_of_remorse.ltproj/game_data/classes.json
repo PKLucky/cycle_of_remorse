@@ -528,6 +528,95 @@
         "fields": []
     },
     {
+        "nid": "ErvanLord",
+        "name": "Lord",
+        "desc": "Crown prince of Fuegsol.\nA studious youth.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "BowLord"
+        ],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 1
+        },
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {
+            "HP": 40,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 10
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                true,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                true,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": null,
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
         "nid": "BowLord",
         "name": "Bow Lord",
         "desc": "Crown prince of Fuegsol.\nMaster of the bow.",

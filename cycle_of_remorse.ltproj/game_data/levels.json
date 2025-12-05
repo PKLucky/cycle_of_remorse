@@ -37434,7 +37434,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    21
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37533,8 +37533,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    24
+                    0,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37931,12 +37931,12 @@
                 "faction": "Circ1",
                 "starting_items": [
                     [
-                        "Sleep",
+                        "Luna",
                         false
                     ],
                     [
-                        "Luna",
-                        false
+                        "TorchStaff",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -37945,8 +37945,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    15
+                    24,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38042,7 +38042,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    25
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -38974,6 +38974,330 @@
                 ],
                 "sub_nid": "Stairs",
                 "condition": "not any_unit_in_region('stairs7') and game.level_vars['StairsCheck'] != True and unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch1')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act1_1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((18,4))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act2",
+                "region_type": "event",
+                "position": [
+                    8,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch2')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act2_1",
+                "region_type": "event",
+                "position": [
+                    8,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((8,8))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act3",
+                "region_type": "event",
+                "position": [
+                    13,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch3')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act3_1",
+                "region_type": "event",
+                "position": [
+                    13,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((13,8))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act4",
+                "region_type": "event",
+                "position": [
+                    6,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch4')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act4_1",
+                "region_type": "event",
+                "position": [
+                    6,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((6,13))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act5",
+                "region_type": "event",
+                "position": [
+                    19,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch5')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act5_1",
+                "region_type": "event",
+                "position": [
+                    19,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((19,15))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act6",
+                "region_type": "event",
+                "position": [
+                    17,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch6')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act6_1",
+                "region_type": "event",
+                "position": [
+                    17,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((17,19))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act7",
+                "region_type": "event",
+                "position": [
+                    1,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch7')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act7_1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((1,10))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act8",
+                "region_type": "event",
+                "position": [
+                    7,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch8')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act8_1",
+                "region_type": "event",
+                "position": [
+                    7,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((7,19))",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act9",
+                "region_type": "event",
+                "position": [
+                    21,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'player' and not game.get_region('torch9')",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "act9_1",
+                "region_type": "event",
+                "position": [
+                    21,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Activate",
+                "condition": "unit.team == 'enemy' and game.get_region_under_pos((21,19))",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -42590,8 +42914,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    3
+                    13,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -42758,8 +43082,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    14,
-                    5
+                    11,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43094,8 +43418,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    17
+                    1,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43190,8 +43514,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    19
+                    3,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43214,8 +43538,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    19
+                    3,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43238,8 +43562,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    20
+                    10,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43358,7 +43682,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
+                    11,
                     22
                 ],
                 "starting_traveler": null,
@@ -43382,8 +43706,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    22
+                    5,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -43642,24 +43966,6 @@
                 "position": [
                     15,
                     23
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "PeterHouse",
-                "region_type": "event",
-                "position": [
-                    12,
-                    1
                 ],
                 "size": [
                     1,
@@ -45173,6 +45479,24 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "PeterHouse",
+                "region_type": "event",
+                "position": [
+                    2,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
                 "interrupt_move": false,
                 "hide_time": false
             }
@@ -48448,8 +48772,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    8
+                    0,
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -48458,22 +48782,17 @@
                 "nid": "110",
                 "variant": null,
                 "level": 10,
-                "klass": "Mage",
+                "klass": "Dancer",
                 "faction": "Knight",
-                "starting_items": [
-                    [
-                        "Fire",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
+                "team": "player",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    5
+                    4,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -48496,8 +48815,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    8
+                    11,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -48514,10 +48833,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },

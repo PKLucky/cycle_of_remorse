@@ -5576,6 +5576,10 @@
             [
                 "Door Key",
                 false
+            ],
+            [
+                "Torch",
+                false
             ]
         ],
         "learned_skills": [
@@ -5986,7 +5990,7 @@
     {
         "nid": "Peter",
         "name": "Peter",
-        "desc": "A hermit who lives deep in Oregot's mountains.",
+        "desc": "A hermit who lives deep in Oregot's mountains.\nA lover of nature and the simple things in life.",
         "variant": "",
         "level": 1,
         "klass": "Brigand",
@@ -5997,9 +6001,9 @@
             "MAG": 8,
             "SKL": 8,
             "SPD": 7,
-            "LCK": 10,
-            "DEF": 12,
-            "RES": 7,
+            "LCK": 11,
+            "DEF": 9,
+            "RES": 9,
             "CON": 13,
             "MOV": 5
         },
@@ -6657,7 +6661,7 @@
     {
         "nid": "Melanie",
         "name": "Melanie",
-        "desc": "Knight of House Valoria.",
+        "desc": "Knight of House Valoria.\nA go-getter who doesn't back down.",
         "variant": "",
         "level": 1,
         "klass": "Trueblade",
@@ -6774,7 +6778,7 @@
     {
         "nid": "Damien",
         "name": "Damien",
-        "desc": "Scholar who is an expert on the Great Beasts.\nCurious, but surprisingly clumsy.",
+        "desc": "A scholar who is an expert on the Great Beasts.\nWell-read, but surprisingly clumsy.",
         "variant": "",
         "level": 1,
         "klass": "Drake",

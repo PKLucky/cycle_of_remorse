@@ -8485,7 +8485,7 @@
     {
         "nid": "TorchStaff",
         "name": "Torch",
-        "desc": "Lights an area. The light lasts for 5 turns.\n(Not affected by Prayer.)",
+        "desc": "Lights an area. The light lasts for 5 turns and decreases per turn.\n(Not affected by Prayer.)",
         "icon_nid": "Staff",
         "icon_index": [
             0,

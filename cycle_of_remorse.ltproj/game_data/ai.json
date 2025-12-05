@@ -1233,6 +1233,16 @@
             {
                 "action": "Interact",
                 "target": "Event",
+                "target_spec": "Activate",
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
                 "target_spec": "Door",
                 "view_range": -4,
                 "invert_targeting": false,
@@ -2176,8 +2186,18 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Door",
+                "target_spec": "Activate",
                 "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Door",
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
