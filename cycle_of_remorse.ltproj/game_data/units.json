@@ -2,7 +2,7 @@
     {
         "nid": "Krista",
         "name": "Krista",
-        "desc": "Princess of the Medeas.\nIdealistic, but rash.",
+        "desc": "Princess of Medeas.\nIdealistic, but rash.",
         "variant": "",
         "level": 1,
         "klass": "Lord",
@@ -6111,7 +6111,7 @@
         "desc": "Crown prince of Fuegsol.\nHighly curious and kindhearted.",
         "variant": "",
         "level": 1,
-        "klass": "BowLord",
+        "klass": "ErvanLord",
         "tags": [
             "Fueg",
             "Canon"
@@ -6213,15 +6213,142 @@
         "fields": []
     },
     {
-        "nid": "Santiago",
-        "name": "Santiago",
-        "desc": "A bishop of the Order of Oreg.",
+        "nid": "Lucian",
+        "name": "Lucian",
+        "desc": "Knight of House Valoria.\nLoyal to a fault.",
         "variant": "",
         "level": 1,
-        "klass": "Bishop",
-        "tags": [],
+        "klass": "General",
+        "tags": [
+            "Medean"
+        ],
         "bases": {
-            "HP": 1,
+            "HP": 10,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 13,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MAG": 0,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "LCK": 0,
+            "SPD": 0,
+            "HP": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "STR": 0
+        },
+        "starting_items": [
+            [
+                "Steel Blade",
+                false
+            ],
+            [
+                "Short Spear",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "LUCIAN"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                241,
+                971
+            ],
+            "Lance": [
+                false,
+                131,
+                971
+            ],
+            "Axe": [
+                false,
+                0,
+                971
+            ],
+            "Bow": [
+                false,
+                0,
+                971
+            ],
+            "Staff": [
+                false,
+                0,
+                971
+            ],
+            "Light": [
+                false,
+                0,
+                971
+            ],
+            "Anima": [
+                false,
+                0,
+                971
+            ],
+            "Dark": [
+                false,
+                0,
+                971
+            ],
+            "Default": [
+                false,
+                0,
+                971
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Man4",
+        "affinity": "Thunder",
+        "fields": [
+            [
+                "DeathQuote",
+                "Milord{tgm}...{tgm} Forgive me{tgm}..."
+            ]
+        ]
+    },
+    {
+        "nid": "Melanie",
+        "name": "Melanie",
+        "desc": "Knight of House Valoria.\nA go-getter who doesn't back down.",
+        "variant": "",
+        "level": 1,
+        "klass": "Swordmaster",
+        "tags": [
+            "Female",
+            "Medean"
+        ],
+        "bases": {
+            "HP": 10,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
@@ -6245,76 +6372,90 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "MOV": 0,
-            "STR": 0,
             "MAG": 0,
             "CON": 0,
+            "MOV": 0,
+            "RES": 0,
+            "LCK": 0,
+            "SPD": 0,
+            "HP": 0,
             "DEF": 0,
             "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
+            "STR": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,
-                "SANTIAGO"
+                "MELANIE"
             ]
         ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
-                491
+                241,
+                971
             ],
             "Lance": [
                 false,
                 0,
-                491
+                971
             ],
             "Axe": [
                 false,
                 0,
-                491
+                971
             ],
             "Bow": [
                 false,
                 0,
-                491
+                971
             ],
             "Staff": [
                 false,
                 0,
-                491
+                971
             ],
             "Light": [
                 false,
                 0,
-                491
+                971
             ],
             "Anima": [
                 false,
                 0,
-                491
+                971
             ],
             "Dark": [
                 false,
                 0,
-                491
+                971
             ],
             "Default": [
                 false,
                 0,
-                491
+                971
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man3",
+        "portrait_nid": "Woman3",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "No{tgm}...{tgm} Not like this{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Tora",
@@ -6322,30 +6463,32 @@
         "desc": "A tiger Shifter.\nStrong and boisterous.",
         "variant": "",
         "level": 1,
-        "klass": "Feline",
-        "tags": [],
+        "klass": "Shaman",
+        "tags": [
+            "Shifter"
+        ],
         "bases": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "HP": 16,
+            "STR": 8,
+            "MAG": 3,
+            "SKL": 4,
+            "SPD": 10,
+            "LCK": 8,
+            "DEF": 3,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 80,
+            "STR": 55,
+            "MAG": 15,
+            "SKL": 40,
+            "SPD": 25,
+            "LCK": 20,
+            "DEF": 45,
+            "RES": 25,
+            "CON": 20,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -6428,11 +6571,13 @@
     {
         "nid": "Estoc",
         "name": "Estoc",
-        "desc": "A golem from a bygone era.",
+        "desc": "A golem from a bygone era.\nOnce a warrior, now a guardian.",
         "variant": "",
         "level": 1,
-        "klass": "General",
-        "tags": [],
+        "klass": "Knight",
+        "tags": [
+            "Circ"
+        ],
         "bases": {
             "HP": 1,
             "STR": 0,
@@ -6535,17 +6680,15 @@
         "fields": []
     },
     {
-        "nid": "Lucian",
-        "name": "Lucian",
-        "desc": "Knight of House Valoria.\nLoyal to a fault.",
+        "nid": "Santiago",
+        "name": "Santiago",
+        "desc": "A bishop of the Order of Oreg.\nA stern, quiet individual.",
         "variant": "",
         "level": 1,
-        "klass": "Marshall",
-        "tags": [
-            "Medean"
-        ],
+        "klass": "Bishop",
+        "tags": [],
         "bases": {
-            "HP": 10,
+            "HP": 1,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
@@ -6553,51 +6696,150 @@
             "LCK": 0,
             "DEF": 0,
             "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "CON": 14,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 65,
+            "STR": 35,
+            "MAG": 50,
+            "SKL": 45,
+            "SPD": 30,
+            "LCK": 40,
+            "DEF": 40,
+            "RES": 40,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 0,
             "MAG": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LCK": 0,
-            "SPD": 0,
-            "HP": 0,
             "DEF": 0,
             "SKL": 0,
-            "STR": 0
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "SANTIAGO"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                491
+            ],
+            "Lance": [
+                false,
+                0,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                491
+            ],
+            "Bow": [
+                false,
+                0,
+                491
+            ],
+            "Staff": [
+                false,
+                0,
+                491
+            ],
+            "Light": [
+                false,
+                0,
+                491
+            ],
+            "Anima": [
+                false,
+                0,
+                491
+            ],
+            "Dark": [
+                false,
+                0,
+                491
+            ],
+            "Default": [
+                false,
+                0,
+                491
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Man3",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Bryant",
+        "name": "Bryant",
+        "desc": "King of Medeas.\nA ruler with a strong sense of righteousness.",
+        "variant": "",
+        "level": 1,
+        "klass": "DreadFighter",
+        "tags": [
+            "Medean",
+            "Medea"
+        ],
+        "bases": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 1
+        },
+        "growths": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
         },
         "starting_items": [
             [
-                "Silver Blade",
-                false
-            ],
-            [
-                "Short Spear",
-                false
-            ],
-            [
-                "SteelPoleax",
+                "MedeasTooth",
                 false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "LUCIAN"
+                "BRYANT"
             ]
         ],
         "unit_notes": [],
@@ -6605,175 +6847,97 @@
             "Sword": [
                 false,
                 361,
-                971
-            ],
-            "Lance": [
-                false,
-                131,
-                971
+                null
             ],
             "Axe": [
                 false,
                 241,
-                971
-            ],
-            "Bow": [
-                false,
-                0,
-                971
-            ],
-            "Staff": [
-                false,
-                0,
-                971
-            ],
-            "Light": [
-                false,
-                0,
-                971
-            ],
-            "Anima": [
-                false,
-                0,
-                971
-            ],
-            "Dark": [
-                false,
-                0,
-                971
-            ],
-            "Default": [
-                false,
-                0,
-                971
+                null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man4",
-        "affinity": "Thunder",
-        "fields": [
-            [
-                "DeathQuote",
-                "Milord{tgm}...{tgm} Forgive me{tgm}..."
-            ]
-        ]
+        "portrait_nid": "Bryant",
+        "affinity": "Fire",
+        "fields": []
     },
     {
-        "nid": "Melanie",
-        "name": "Melanie",
-        "desc": "Knight of House Valoria.\nA go-getter who doesn't back down.",
-        "variant": "",
+        "nid": "Thalia",
+        "name": "Thalia",
+        "desc": "Queen of Merinas.\nA ruler with an aura of serenity and grace.",
+        "variant": "Female",
         "level": 1,
-        "klass": "Trueblade",
-        "tags": [
-            "Female",
-            "Medean"
-        ],
+        "klass": "HolyKnight",
+        "tags": [],
         "bases": {
-            "HP": 10,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
             "SPD": 0,
-            "LCK": 0,
             "DEF": 0,
+            "MAG": 0,
             "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
             "CON": 0,
-            "MOV": 0
+            "HP": 1
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
             "SPD": 0,
-            "LCK": 0,
             "DEF": 0,
+            "MAG": 0,
             "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
             "CON": 0,
-            "MOV": 0
+            "HP": 0
         },
         "stat_cap_modifiers": {
-            "MAG": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LCK": 0,
             "SPD": 0,
-            "HP": 0,
             "DEF": 0,
+            "MAG": 0,
+            "RES": 0,
+            "MOV": 0,
+            "LCK": 0,
             "SKL": 0,
-            "STR": 0
+            "STR": 0,
+            "CON": 0,
+            "HP": 0
         },
         "starting_items": [
             [
-                "Silver Sword",
+                "Aura",
                 false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "MELANIE"
+                "THALIA"
             ]
         ],
         "unit_notes": [],
         "wexp_gain": {
-            "Sword": [
-                false,
-                361,
-                971
-            ],
-            "Lance": [
-                false,
-                0,
-                971
-            ],
-            "Axe": [
-                false,
-                0,
-                971
-            ],
-            "Bow": [
-                false,
-                0,
-                971
-            ],
             "Staff": [
                 false,
-                0,
-                971
+                241,
+                null
             ],
             "Light": [
                 false,
-                0,
-                971
+                361,
+                null
             ],
-            "Anima": [
+            "Sword": [
                 false,
-                0,
-                971
-            ],
-            "Dark": [
-                false,
-                0,
-                971
-            ],
-            "Default": [
-                false,
-                0,
-                971
+                131,
+                null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Woman3",
-        "affinity": "Ice",
-        "fields": [
-            [
-                "DeathQuote",
-                "No{tgm}...{tgm} Not like this{tgm}..."
-            ]
-        ]
+        "portrait_nid": "Thalia",
+        "affinity": "Light",
+        "fields": []
     },
     {
         "nid": "Damien",
@@ -6782,7 +6946,9 @@
         "variant": "",
         "level": 1,
         "klass": "Drake",
-        "tags": [],
+        "tags": [
+            "Shifter"
+        ],
         "bases": {
             "HP": 45,
             "STR": 24,
@@ -8760,7 +8926,7 @@
         "klass": "Cleric",
         "tags": [
             "Boss",
-            "Foliaga"
+            "Folia"
         ],
         "bases": {
             "HP": 17,
@@ -8881,7 +9047,7 @@
         "klass": "Dancer",
         "tags": [
             "Boss",
-            "Foliaga",
+            "Folia",
             "Circ"
         ],
         "bases": {
@@ -10490,12 +10656,12 @@
         },
         "starting_items": [
             [
-                "Swordslayer",
+                "ShortAxe",
                 false
             ],
             [
-                "ShortAxe",
-                false
+                "Swordslayer",
+                true
             ]
         ],
         "learned_skills": [],
@@ -10624,6 +10790,42 @@
         ]
     },
     {
+        "nid": "Lev",
+        "name": "Lev",
+        "desc": "A subordinant of Circ's Talons.\nSneaky and analytical.",
+        "variant": null,
+        "level": 1,
+        "klass": "Shaman",
+        "tags": [],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "CatFang",
+                false
+            ],
+            [
+                "LeopardFang",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Lev",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "DeathQuote",
+                "Commander Vanguard{tgm}...{tgm} I{tgm}..."
+            ]
+        ]
+    },
+    {
         "nid": "Celik",
         "name": "Celik",
         "desc": "Head of the Oregotian Council.",
@@ -10631,7 +10833,8 @@
         "level": 1,
         "klass": "GriffonRider",
         "tags": [
-            "Boss"
+            "Boss",
+            "Oreg"
         ],
         "bases": {
             "HP": 1
@@ -10640,7 +10843,7 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "SilverPoleax",
+                "Devil Axe",
                 false
             ],
             [
@@ -11359,136 +11562,5 @@
                 "Ah{tgm}... N-No{tgm}..."
             ]
         ]
-    },
-    {
-        "nid": "Bryant",
-        "name": "Bryant",
-        "desc": "King of Medeas.\nA ruler with a strong sense of righteousness.",
-        "variant": "",
-        "level": 1,
-        "klass": "DreadFighter",
-        "tags": [
-            "Medean",
-            "Medea"
-        ],
-        "bases": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "growths": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "stat_cap_modifiers": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                361,
-                null
-            ],
-            "Axe": [
-                false,
-                241,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Bryant",
-        "affinity": "Fire",
-        "fields": []
-    },
-    {
-        "nid": "Thalia",
-        "name": "Thalia",
-        "desc": "Queen of Merinas.\nA ruler with an aura of serenity and grace.",
-        "variant": "Female",
-        "level": 1,
-        "klass": "Saint",
-        "tags": [],
-        "bases": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "growths": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "stat_cap_modifiers": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
-            "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
-        },
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Staff": [
-                false,
-                241,
-                null
-            ],
-            "Light": [
-                false,
-                361,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Thalia",
-        "affinity": "Light",
-        "fields": []
     }
 ]

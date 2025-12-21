@@ -1978,5 +1978,53 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "BSFE",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CircFollower",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "CircFollower1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lev",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
     }
 ]

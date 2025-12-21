@@ -518,8 +518,8 @@
     },
     {
         "nid": "Astra",
-        "name": "Astra <red>(Class)</>",
-        "desc": "When activated, strikes five times consecutively.\nUsable 3 times per chapter.",
+        "name": "Astra",
+        "desc": "<blue>(Combat art)</> Strikes five times consecutively.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -562,8 +562,8 @@
     },
     {
         "nid": "Sol",
-        "name": "Sol <red>(Class)</>",
-        "desc": "When activated, heals half damage dealt.\nUsable 3 times per chapter.",
+        "name": "Sol",
+        "desc": "<blue>(Combat art)</> Heals half damage dealt.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -603,7 +603,7 @@
     {
         "nid": "Impale",
         "name": "Impale <red>(Class)</>",
-        "desc": "When activated, quadruples damage dealt.\nUsable 3 times per chapter.",
+        "desc": "<blue>(Combat art)</> Quadruples damage dealt.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -643,7 +643,7 @@
     {
         "nid": "Colossus",
         "name": "Colossus <red>(Class)</>",
-        "desc": "When activated, adds Con to damage dealt.\nUsable 3 times per chapter.",
+        "desc": "<blue>(Combat art)</> Adds Con to damage dealt.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1234,7 +1234,7 @@
     {
         "nid": "RaisedMorale",
         "name": "Raised Morale",
-        "desc": "Grants +2 to all stats except HP until the end of the chapter.",
+        "desc": "Grants +2 to all stats except HP, Con, and Mov until the end of the chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -1649,7 +1649,7 @@
     {
         "nid": "KRISTA",
         "name": "Inspiration",
-        "desc": "Allies within three spaces deal Dmg +2 and take 2 less Dmg.",
+        "desc": "<blue>(Aura)</> Grants Dmg dealt +2 and Dmg taken -2.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -1671,6 +1671,12 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "AURA_DESC"
+                ]
             ]
         ]
     },
@@ -1697,7 +1703,7 @@
     {
         "nid": "FORREST",
         "name": "Instructor's Assist",
-        "desc": "Grants Def +3 to allies within three spaces. Allows unit to use Mercy.",
+        "desc": "<blue>(Aura)</> Grants Def +3.\nAllows unit to use <blue>Mercy</>.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -1725,6 +1731,13 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "AURA_DESC",
+                    "FORREST2"
+                ]
             ]
         ]
     },
@@ -1751,8 +1764,8 @@
     },
     {
         "nid": "FORREST2",
-        "name": "<white>Mercy</>",
-        "desc": "Leaves the target with 1 HP if the user's attack would kill the target.",
+        "name": "Mercy",
+        "desc": "<blue>(Combat art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1878,7 +1891,7 @@
     {
         "nid": "CHELL",
         "name": "Swift Aura",
-        "desc": "Grants Skl/Spd +3 to allies within three spaces.",
+        "desc": "<blue>(Aura)</> Grants Skl/Spd +3.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -1931,7 +1944,7 @@
     {
         "nid": "SAM",
         "name": "Strength Aura",
-        "desc": "Grants Str +5 to allies within three spaces.",
+        "desc": "<blue>(Aura)</> Grants Str +5.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -2236,7 +2249,7 @@
     {
         "nid": "VIOLA",
         "name": "Fortress Aura",
-        "desc": "Grants Def/Res +3 to allies within three spaces.",
+        "desc": "<blue>(Aura)</> Grants Def/Res +3.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -2492,7 +2505,7 @@
     {
         "nid": "JAKE",
         "name": "Immobilize",
-        "desc": "When activated, inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
+        "desc": "<blue>Combat Art</> Inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -2510,13 +2523,19 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "CA_DESC"
+                ]
             ]
         ]
     },
     {
         "nid": "JAKE_CHILD",
         "name": "Immobilize",
-        "desc": "When activated, gives Hit -10 to unit and stuns the target for one turn on hit.",
+        "desc": "Gives Hit -10 to unit and stuns the target for one turn on hit.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -2628,7 +2647,7 @@
     {
         "nid": "RYUUJI",
         "name": "Charisma",
-        "desc": "Grants allies within three spaces Hit/Avo +15.",
+        "desc": "<blue>(Aura)</> Grants Hit/Avo +15.",
         "icon_nid": "Skills",
         "icon_index": [
             6,
@@ -2676,7 +2695,7 @@
     {
         "nid": "TAIGA",
         "name": "Gamble",
-        "desc": "When activated, grants Crit +20 and Hit -10 to unit for one round of combat.",
+        "desc": "<blue>Combat Art</> Grants Crit +20 and Hit -10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2694,6 +2713,12 @@
             [
                 "allowed_weapons",
                 "item_system.weapon_type(unit, item) != None"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "CA_DESC"
+                ]
             ]
         ]
     },
@@ -2749,7 +2774,7 @@
     {
         "nid": "TAICHI",
         "name": "Heroism",
-        "desc": "If unit defeats a ruffian or Dark magic user on player phase, unit can act again. Activates once per turn.",
+        "desc": "If unit initiates combat and defeats a ruffian or Dark magic user, unit can act again. Activates once per turn.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -2797,7 +2822,7 @@
     {
         "nid": "LIN",
         "name": "Strike Aura",
-        "desc": "Grants Str/Mag +3 to allies within three spaces.",
+        "desc": "<blue>(Aura)</> Grants Str/Mag +3.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -2850,7 +2875,7 @@
     {
         "nid": "TSURUGI",
         "name": "Magic Aura",
-        "desc": "Grants Mag +5 to allies within three spaces.",
+        "desc": "<blue>(Aura)</> Grants Mag +5.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -2899,7 +2924,7 @@
     {
         "nid": "YUMI",
         "name": "Allure",
-        "desc": "Male allies within 3 spaces deal Dmg +3.",
+        "desc": "<blue>(Aura, male allies only)</> Grants Dmg dealt +3.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -3040,7 +3065,7 @@
     {
         "nid": "YUKINO",
         "name": "Rose Guard",
-        "desc": "Female allies within 3 spaces of unit take 3 less damage.",
+        "desc": "<blue>(Aura, female allies only)</> Grants Dmg taken -3.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3068,7 +3093,7 @@
     {
         "nid": "YUKINO_CHILD",
         "name": "Guarded <blue>(Yukino)</>",
-        "desc": "Takes 3 less damage.",
+        "desc": "Dmg taken -3.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3172,7 +3197,7 @@
     {
         "nid": "ASUKA",
         "name": "Disarm",
-        "desc": "When activated, grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
+        "desc": "<blue>Combat Art</> Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3365,67 +3390,7 @@
             ],
             [
                 "dynamic_damage",
-                "5 if unit.position and (utils.calculate_distance(unit.position, target.position) < target.get_weapon().min_range.value or utils.calculate_distance(unit.position, target.position) > target.get_weapon().max_range.value) else 0"
-            ]
-        ]
-    },
-    {
-        "nid": "SHULA_1",
-        "name": "Prey Mark",
-        "desc": "For three turns, a chosen enemy within 1 to Skl/2 spaces will be inflicted with Hit -20 if not in combat with the unit. (Usable once per turn. Unit may attack but not move after use.)",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            10
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "charges_per_turn",
-                1
-            ],
-            [
-                "ability",
-                "SHULA"
-            ],
-            [
-                "death_tether",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "SHULA_STATUS",
-        "name": "Marked <blue>(Shula)</>",
-        "desc": "Hit - 20 when not in combat with Shula.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            10
-        ],
-        "components": [
-            [
-                "hit",
-                -20
-            ],
-            [
-                "time",
-                3
-            ],
-            [
-                "combat_condition",
-                "unit2.nid != 'Shula'"
-            ],
-            [
-                "unit_flickering_tint",
-                [
-                    238,
-                    6,
-                    6
-                ]
+                "5 if not combat_calcs.can_counterattack(unit, unit.get_weapon(), unit2, unit2.get_weapon()) else 0"
             ]
         ]
     },
@@ -3448,41 +3413,41 @@
                 [
                     [
                         "MAG",
-                        "5 if game.level_vars['kirazSkill'] == 0 else 0"
+                        "5 if v('kirazSkill') == 0 else 0"
                     ],
                     [
                         "SKL",
-                        "5 if game.level_vars['kirazSkill'] == 1 else 0"
+                        "5 if v('kirazSkill') == 1 else 0"
                     ],
                     [
                         "SPD",
-                        "5 if game.level_vars['kirazSkill'] == 2 else 0"
+                        "5 if v('kirazSkill') == 2 else 0"
                     ],
                     [
                         "LCK",
-                        "5 if game.level_vars['kirazSkill'] == 3 else 0"
+                        "5 if v('kirazSkill') == 3 else 0"
                     ],
                     [
                         "DEF",
-                        "5 if game.level_vars['kirazSkill'] == 4 else 0"
+                        "5 if v('kirazSkill') == 4 else 0"
                     ],
                     [
                         "RES",
-                        "5 if game.level_vars['kirazSkill'] == 5 else 0"
+                        "5 if v('kirazSkill') == 5 else 0"
                     ]
                 ]
             ],
             [
                 "eval_hit",
-                "10 if game.level_vars['kirazSkill'] == 6 else 0"
+                "10 if v('kirazSkill') == 6 else 0"
             ],
             [
                 "eval_avoid",
-                "10 if game.level_vars['kirazSkill'] == 7 else 0"
+                "10 if v('kirazSkill') == 7 else 0"
             ],
             [
                 "eval_crit",
-                "10 if game.level_vars['kirazSkill'] == 8 else 0"
+                "10 if v('kirazSkill') == 8 else 0"
             ]
         ]
     },
@@ -3529,7 +3494,7 @@
     {
         "nid": "ERVAN_AURA",
         "name": "Authority",
-        "desc": "Hit/Avo +5",
+        "desc": "Hit/Avo +5 per stack.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -3639,9 +3604,103 @@
         ]
     },
     {
+        "nid": "LUCIAN",
+        "name": "Behind Me!",
+        "desc": "If unit's Con + 2 >= ally's Con, shifts an ally to the empty tile behind the unit. After shifting the target, unit gains <blue>Provoke</> for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "LUCIAN"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "LUCIAN_STATUS"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "LUCIAN_STATUS",
+        "name": "Provoke",
+        "desc": "Enemies are more likely to attack this unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            46
+        ],
+        "components": [
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "modify_ai_priority",
+                2.0
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    },
+    {
+        "nid": "MELANIE",
+        "name": "Forward!",
+        "desc": "If unit's Con + 2 >= ally's Con, move ally one space away from unit. Grants Dmg dealt +5 and Dmg taken -5 to target for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "MELANIE"
+            ]
+        ]
+    },
+    {
+        "nid": "MELANIE_STATUS",
+        "name": "Forward! <blue>(Melanie)</>",
+        "desc": "Grants Dmg dealt +5 and Dmg taken -5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            50
+        ],
+        "components": [
+            [
+                "damage",
+                5
+            ],
+            [
+                "resist",
+                5
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "SANTIAGO",
         "name": "Grapple",
-        "desc": "Both the unit and the target cannot act for two turns. The target loses -20% HP each turn they are grappled.",
+        "desc": "Both the unit and the target cannot act for two turns. The target loses 20% HP each turn they are grappled. Target has a <blue>Break</>% chance of freeing themselves.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -3659,8 +3718,25 @@
             [
                 "death_tether",
                 null
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "SANTIAGO_EQUATION_DESC"
+                ]
             ]
         ]
+    },
+    {
+        "nid": "SANTIAGO_EQUATION_DESC",
+        "name": "<blue>Break</>",
+        "desc": "90 - 7 * (unit's Con - target's Con)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": []
     },
     {
         "nid": "SANTIAGO_SELF",
@@ -3701,7 +3777,7 @@
     },
     {
         "nid": "SANTIAGO_TARGET",
-        "name": "Grappled <blue>Santiago</>",
+        "name": "Grappled <blue>(Santiago)</>",
         "desc": "Unit is being grappled.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3716,10 +3792,6 @@
             [
                 "time",
                 2
-            ],
-            [
-                "degeneration",
-                0.2
             ],
             [
                 "grounded",
@@ -3741,13 +3813,25 @@
             [
                 "negative",
                 null
+            ],
+            [
+                "degeneration",
+                0.2
+            ],
+            [
+                "upkeep_event",
+                "Global CheckGrapple"
+            ],
+            [
+                "event_on_remove",
+                "Global RemoveGrapple"
             ]
         ]
     },
     {
         "nid": "TORA",
         "name": "Domination",
-        "desc": "Unit deals Dmg +5 if unit's Str <= target's Str.",
+        "desc": "Unit deals Dmg +5 if unit's Str >= target's Str.",
         "icon_nid": "Skills",
         "icon_index": [
             13,
@@ -3760,7 +3844,7 @@
             ],
             [
                 "combat_condition",
-                "unit.get_stat('STR') <= target.get_stat('STR')"
+                "unit.get_stat('STR') >= target.get_stat('STR')"
             ],
             [
                 "damage",
@@ -3771,7 +3855,7 @@
     {
         "nid": "ESTOC",
         "name": "Rampart",
-        "desc": "Allies at or below 50% Max HP and within three spaces of the unit take 10 less damage.",
+        "desc": "<blue>(Aura, allies at 50% or less HP)</> Grants Dmg taken -10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -3821,13 +3905,13 @@
         ]
     },
     {
-        "nid": "LUCIAN",
-        "name": "Behind Me!",
-        "desc": "If unit's CON + 2 >= ally's CON, shifts an ally to the empty tile behind the unit. After shifting the target, enemies are more likely to attack this unit for one turn.",
+        "nid": "BRYANT",
+        "name": "War Cry",
+        "desc": "If unit initiates combat and kills the target, grants Dmg dealt +5 to all adjacent allies for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
-            14,
-            46
+            8,
+            19
         ],
         "components": [
             [
@@ -3835,75 +3919,43 @@
                 null
             ],
             [
-                "ability",
-                "LUCIAN"
+                "ally_gain_skill_after_active_kill",
+                "BRYANT_STATUS"
             ]
         ]
     },
     {
-        "nid": "LUCIAN_STATUS",
-        "name": "Behind Me! <blue>(Effect)</>",
-        "desc": "Enemies are more likely to attack this unit.",
+        "nid": "BRYANT_STATUS",
+        "name": "War Cry <blue>Bryant</>",
+        "desc": "Dmg dealt +5.",
         "icon_nid": "Skills",
         "icon_index": [
-            14,
-            46
+            8,
+            19
         ],
         "components": [
             [
                 "lost_on_upkeep",
                 null
             ],
-            [
-                "modify_ai_priority",
-                2.0
-            ],
-            [
-                "unit_anim",
-                "MapProvoke"
-            ]
-        ]
-    },
-    {
-        "nid": "MELANIE",
-        "name": "Forward!",
-        "desc": "If unit's CON + 2 >= ally's CON, move ally one space away from unit. Grants Dmg dealt +5 and Dmg taken -5 to target for one turn.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            50
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "ability",
-                "MELANIE"
-            ]
-        ]
-    },
-    {
-        "nid": "MELANIE_STATUS",
-        "name": "Forward! <blue>(Melanie)</>",
-        "desc": "Grants Dmg dealt +5 and Dmg taken -5.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            11,
-            50
-        ],
-        "components": [
             [
                 "damage",
                 5
-            ],
+            ]
+        ]
+    },
+    {
+        "nid": "THALIA",
+        "name": "Mutual Support",
+        "desc": "<blue>(Aura)</> If unit is equipping a sword, grants Dmg taken -5. If unit is equipping magic, grants Dmg dealt +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            19
+        ],
+        "components": [
             [
-                "resist",
-                5
-            ],
-            [
-                "lost_on_upkeep",
+                "class_skill",
                 null
             ]
         ]
@@ -3945,26 +3997,6 @@
             [
                 "change_buy_price",
                 1.5
-            ]
-        ]
-    },
-    {
-        "nid": "DAMIEN_1",
-        "name": "Ritual Summon",
-        "desc": "Summons a phantom in exchange for 1000G and an optional weapon from the unit's inventory. The phantom will wield the chosen weapon (or an Iron Axe if none chosen) and will be the same level as the unit. Only one phantom can be summoned at a time.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            15,
-            51
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "ability",
-                "DAMIAN"
             ]
         ]
     },
@@ -4227,7 +4259,7 @@
     {
         "nid": "Shove",
         "name": "Shove",
-        "desc": "If unit's CON + 2 >= ally's CON, move ally one space away from unit.",
+        "desc": "If unit's Con + 2 >= ally's Con, move ally one space away from unit.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -4259,7 +4291,7 @@
     {
         "nid": "JusticeSquad",
         "name": "Justice Squad",
-        "desc": "If within 3 spaces of another ally with this skill, grants unit +20 Hit/Avo. (Does not stack.)",
+        "desc": "<blue>(Aura, allies with same skill only)</> Grants unit +20 Hit/Avo. (Does not stack.)",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -4457,6 +4489,78 @@
         ]
     },
     {
+        "nid": "SwordImmunity",
+        "name": "SwordImmunity",
+        "desc": "(Target is immune to non-sword damage)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) != 'Sword'"
+            ],
+            [
+                "resist",
+                999
+            ]
+        ]
+    },
+    {
+        "nid": "LanceImmunity",
+        "name": "LanceImmunity",
+        "desc": "(Target is immune to non-lance damage)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) != 'Lance'"
+            ],
+            [
+                "resist",
+                999
+            ]
+        ]
+    },
+    {
+        "nid": "AxeImmunity",
+        "name": "AxeImmunity",
+        "desc": "(Target is immune to non-axe damage)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) != 'Axe'"
+            ],
+            [
+                "resist",
+                999
+            ]
+        ]
+    },
+    {
         "nid": "DEBUG",
         "name": "DEBUG",
         "desc": "DEBUG",
@@ -4579,5 +4683,27 @@
                 1000
             ]
         ]
+    },
+    {
+        "nid": "AURA_DESC",
+        "name": "Aura",
+        "desc": "Grants the listed buff to allies within three spaces of the unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": []
+    },
+    {
+        "nid": "CA_DESC",
+        "name": "Combat Art",
+        "desc": "An activated skill whose listed effect lasts for one round of combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": []
     }
 ]

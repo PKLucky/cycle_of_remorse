@@ -612,7 +612,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Citizen",
         "combat_anim_nid": null,
         "fields": []
     },
@@ -12103,14 +12103,14 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 40,
+            "HP": 50,
             "STR": 0,
             "MAG": 0,
-            "SKL": 10,
-            "SPD": 15,
-            "LCK": 10,
-            "DEF": 15,
-            "RES": 10,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 15,
+            "DEF": 20,
+            "RES": 15,
             "CON": 10,
             "MOV": 7
         },
@@ -12151,7 +12151,7 @@
             "MOV": 0
         },
         "max_stats": {
-            "HP": 40,
+            "HP": 50,
             "STR": 20,
             "MAG": 20,
             "SKL": 20,

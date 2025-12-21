@@ -5392,7 +5392,7 @@
     {
         "nid": "Devil Axe",
         "name": "Devil Axe",
-        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%\n{e:'This unit is immune to backfire.' if 'Medea' in unit.tags or 'Foliaga' in unit.tags or 'Merin' in unit.tags or 'Fueg' in unit.tags or 'Oreg' in unit.tags or 'Circ' in unit.tags or 'Shifter' in unit.tags else ''}",
+        "desc": "User may damage themselves.\nBackfire Proc: (36 - Luk)%\n{e:'This unit is immune to backfire.' if 'Medea' in unit.tags or 'Folia' in unit.tags or 'Merin' in unit.tags or 'Fueg' in unit.tags or 'Oreg' in unit.tags or 'Circ' in unit.tags or 'Shifter' in unit.tags else ''}",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -7256,6 +7256,75 @@
         ]
     },
     {
+        "nid": "ShootyShoot",
+        "name": "Shooty Shoot",
+        "desc": "Gregor only.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            18
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "prf_unit",
+                [
+                    "Gregor"
+                ]
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Ballistae",
         "name": "Ballistae",
         "desc": "Fire a ballista. Uses refresh per chapter.",
@@ -7932,7 +8001,7 @@
             [
                 "prf_tags",
                 [
-                    "Foliaga"
+                    "Folia"
                 ]
             ],
             [
@@ -8806,7 +8875,7 @@
             ],
             [
                 "eval_target_restrict_2",
-                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
+                "(target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']) and not has_skill(target,'Silence')"
             ],
             [
                 "hit",
@@ -10563,7 +10632,7 @@
     {
         "nid": "Ivaldi",
         "name": "Ivaldi",
-        "desc": "Defense +5. Effective against monsters",
+        "desc": "Defense +5.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -13342,7 +13411,7 @@
             ],
             [
                 "c_uses",
-                10
+                8
             ],
             [
                 "uses_options",
@@ -16230,10 +16299,6 @@
                 1
             ],
             [
-                "shove",
-                -2
-            ],
-            [
                 "eval_target_restrict_2",
                 "unit.get_stat('CON') + 2 >= target.get_stat('CON')"
             ],
@@ -16244,6 +16309,10 @@
             [
                 "self_status_on_hit",
                 "LUCIAN_STATUS"
+            ],
+            [
+                "shove",
+                -2
             ]
         ]
     },
@@ -16495,7 +16564,7 @@
         "components": [
             [
                 "status_after_combat_on_hit",
-                "SHULA_STATUS"
+                "Fort"
             ],
             [
                 "target_enemy",

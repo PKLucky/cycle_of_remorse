@@ -992,6 +992,22 @@
         ]
     },
     {
+        "nid": "Lev",
+        "sub_nid": "Lev",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "VelvetKitsune",
+                "Lev"
+            ]
+        ]
+    },
+    {
         "nid": "BanditFemale1",
         "sub_nid": "BanditFemale1",
         "credit_type": 4,
@@ -1212,6 +1228,22 @@
             [
                 "LaurentLacroix",
                 "Armored Man"
+            ]
+        ]
+    },
+    {
+        "nid": "CircFollower",
+        "sub_nid": "CircFollower",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "UltraFenix",
+                "Circ Follower"
             ]
         ]
     },
