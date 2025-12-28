@@ -14,13 +14,6 @@
         "text": "The <blue>debug</> menu can be enabled by pressing <blue>UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT</> while on the map menu. (Menu with the options Unit, Objective, Suspend, etc.)\nLT-Maker event commands can be executed one at a time through this menu. To exit, press the <blue>ENTER</> key."
     },
     {
-        "nid": "Arena",
-        "name": "Arena",
-        "title": "Arena",
-        "category": "Mechanics",
-        "text": "A unit who lands on an Arena tile may battle against a random opponent to earn money.{br}The higher the wager, the tougher the enemy is.\nUnits will use their <blue>currently equipped weapon</> in the arena.{br}Weapon durability <blue>does not</> decrease in the arena."
-    },
-    {
         "nid": "AllyRetrieval",
         "name": "Ally Retrieval",
         "title": "Ally Retrieval",
@@ -28,25 +21,32 @@
         "text": "After a chapter with <blue>Escape</> as a win condition, there will be an opportunity to regain allies that were left behind.\nThese maps function similarly to a regular <blue>Escape</> map. Having Krista leave the map will cause any other allied unit on the map to be <red>left behind</>.\nDo not take this second chance lightly. This will be <red>the only time</> you will be able to get your lost allies back.\nThese maps may also be completed by <blue>routing the enemy</>. All allies would then be rescued."
     },
     {
+        "nid": "Arena",
+        "name": "Arena",
+        "title": "Arena",
+        "category": "Mechanics",
+        "text": "A unit who lands on an Arena tile may battle against a random opponent to earn money.{br}The higher the wager, the tougher the enemy is.\nUnits will use their <blue>currently equipped weapon</> in the arena.{br}Weapon durability <blue>does not</> decrease in the arena."
+    },
+    {
+        "nid": "Aura",
+        "name": "Aura",
+        "title": "Aura",
+        "category": "Mechanics",
+        "text": "Grants the listed buff to allies within three spaces of the unit."
+    },
+    {
+        "nid": "CombatArt",
+        "name": "Combat Art",
+        "title": "Combat Art",
+        "category": "Mechanics",
+        "text": "An activated skill whose listed effect lasts for one round of combat."
+    },
+    {
         "nid": "Crew",
         "name": "Wyrmfang",
         "title": "Wyrmfang Pirates",
         "category": "Mechanics",
         "text": "Once per chapter (<red>except</> for <blue>Ch. 15</>) until <blue>Ch. 21</>, one member of the <blue>Wyrmfang Pirates</> will join the party if the number of party members is less than that chapter's number of deployment slots.\nThey are all <blue>Pirates</> with growth rates and base stats similar to <blue>generic enemy Pirates</>."
-    },
-    {
-        "nid": "TorgenGroup",
-        "name": "Bandits",
-        "title": "Torgen's Bandit Group",
-        "category": "Mechanics",
-        "text": "Once per chapter until <blue>Ch. 31</>, you will have the option in the Preparations menu to recruit one member of <blue>Torgen's bandit group</> to the party if the number of party members is less than that chapter's number of deployment slots.\nTheir classes vary and there are a <blue>limited number</> of units available per class. They will have growth rates and base stats similar to <blue>generic enemy units</>."
-    },
-    {
-        "nid": "EnemyThieves",
-        "name": "Thieves",
-        "title": "Enemy Thieves",
-        "category": "Mechanics",
-        "text": "Enemy thieves, rogues, and assassins will prioritize (in order) opening doors, opening chests, stealing from player units, then escaping from the map.\nEscape points for enemy thieves are <blue>marked on the map</>."
     },
     {
         "nid": "Houses",
@@ -82,6 +82,20 @@
         "title": "Supports",
         "category": "Mechanics",
         "text": "Pairs of units raise their Support levels by <blue>being deployed on the same map</>.\nUnits have <blue>no limit</> on how many support partners they can have. However, only the top <blue>three</> pairings within <blue>three spaces</> will give them bonuses.\nUnits also may only have either one <blue>S</> Rank support or one <blue>A+</> Rank support.{br}S Rank and A+ Rank supports indicate which pairs have a <blue>paired ending</>.\nCertain S/A+ Rank supports are locked behind story progression. These supports will get unlocked after either <blue>Chapter 28: Traitor</> or <blue>Chapter 32: Pursue the Truth</>."
+    },
+    {
+        "nid": "TorgenGroup",
+        "name": "Bandits",
+        "title": "Torgen's Bandit Group",
+        "category": "Mechanics",
+        "text": "Once per chapter until <blue>Ch. 31</>, you will have the option in the Preparations menu to recruit one member of <blue>Torgen's bandit group</> to the party if the number of party members is less than that chapter's number of deployment slots.\nTheir classes vary and there are a <blue>limited number</> of units available per class. They will have growth rates and base stats similar to <blue>generic enemy units</>."
+    },
+    {
+        "nid": "EnemyThieves",
+        "name": "Thieves",
+        "title": "Enemy Thieves",
+        "category": "Mechanics",
+        "text": "Enemy thieves, rogues, and assassins will prioritize (in order) opening doors, opening chests, stealing from player units, then escaping from the map.\nEscape points for enemy thieves are <blue>marked on the map</>."
     },
     {
         "nid": "HitAvo",

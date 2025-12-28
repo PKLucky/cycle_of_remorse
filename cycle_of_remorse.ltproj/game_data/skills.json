@@ -1647,6 +1647,30 @@
         ]
     },
     {
+        "nid": "PoisonWeapon",
+        "name": "Poisoned Weapon",
+        "desc": "All weapons inflict Poison.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            30
+        ],
+        "components": [
+            [
+                "time",
+                3
+            ],
+            [
+                "combat_condition",
+                "unit.get_weapon().weapon_type.value != None"
+            ],
+            [
+                "item_override",
+                "PoisonOverride"
+            ]
+        ]
+    },
+    {
         "nid": "KRISTA",
         "name": "Inspiration",
         "desc": "<blue>(Aura)</> Grants Dmg dealt +2 and Dmg taken -2.",
@@ -1673,9 +1697,9 @@
                 null
             ],
             [
-                "multi_desc_skill",
+                "multi_desc_lore",
                 [
-                    "AURA_DESC"
+                    "Aura"
                 ]
             ]
         ]
@@ -1733,9 +1757,14 @@
                 "ally"
             ],
             [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ],
+            [
                 "multi_desc_skill",
                 [
-                    "AURA_DESC",
                     "FORREST2"
                 ]
             ]
@@ -1765,7 +1794,7 @@
     {
         "nid": "FORREST2",
         "name": "Mercy",
-        "desc": "<blue>(Combat art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
+        "desc": "<blue>(Combat Art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1783,6 +1812,12 @@
             [
                 "hidden",
                 null
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "CombatArt"
+                ]
             ]
         ]
     },
@@ -1913,6 +1948,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -1966,6 +2007,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -2271,6 +2318,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -2505,7 +2558,7 @@
     {
         "nid": "JAKE",
         "name": "Immobilize",
-        "desc": "<blue>Combat Art</> Inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
+        "desc": "<blue>(Combat Art)</> Inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -2525,9 +2578,9 @@
                 null
             ],
             [
-                "multi_desc_skill",
+                "multi_desc_lore",
                 [
-                    "CA_DESC"
+                    "CombatArt"
                 ]
             ]
         ]
@@ -2669,6 +2722,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -2695,7 +2754,7 @@
     {
         "nid": "TAIGA",
         "name": "Gamble",
-        "desc": "<blue>Combat Art</> Grants Crit +20 and Hit -10.",
+        "desc": "<blue>(Combat Art)</> Grants Crit +20 and Hit -10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2715,9 +2774,9 @@
                 "item_system.weapon_type(unit, item) != None"
             ],
             [
-                "multi_desc_skill",
+                "multi_desc_lore",
                 [
-                    "CA_DESC"
+                    "CombatArt"
                 ]
             ]
         ]
@@ -2790,7 +2849,7 @@
                 1
             ],
             [
-                "galeforce",
+                "modern_galeforce",
                 null
             ],
             [
@@ -2844,6 +2903,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -2897,6 +2962,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -2946,6 +3017,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -3087,6 +3164,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -3197,7 +3280,7 @@
     {
         "nid": "ASUKA",
         "name": "Disarm",
-        "desc": "<blue>Combat Art</> Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
+        "desc": "<blue>(Combat Art)</> Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3211,6 +3294,12 @@
             [
                 "combat_art",
                 "ASUKA_CHILD"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "CombatArt"
+                ]
             ]
         ]
     },
@@ -3604,7 +3693,7 @@
         ]
     },
     {
-        "nid": "LUCIAN",
+        "nid": "ROMAN",
         "name": "Behind Me!",
         "desc": "If unit's Con + 2 >= ally's Con, shifts an ally to the empty tile behind the unit. After shifting the target, unit gains <blue>Provoke</> for one turn.",
         "icon_nid": "Skills",
@@ -3618,19 +3707,19 @@
                 null
             ],
             [
-                "ability",
-                "LUCIAN"
-            ],
-            [
                 "multi_desc_skill",
                 [
-                    "LUCIAN_STATUS"
+                    "ROMAN_STATUS"
                 ]
+            ],
+            [
+                "ability",
+                "ROMAN"
             ]
         ]
     },
     {
-        "nid": "LUCIAN_STATUS",
+        "nid": "ROMAN_STATUS",
         "name": "Provoke",
         "desc": "Enemies are more likely to attack this unit.",
         "icon_nid": "Skills",
@@ -3654,7 +3743,7 @@
         ]
     },
     {
-        "nid": "MELANIE",
+        "nid": "ELLA",
         "name": "Forward!",
         "desc": "If unit's Con + 2 >= ally's Con, move ally one space away from unit. Grants Dmg dealt +5 and Dmg taken -5 to target for one turn.",
         "icon_nid": "Skills",
@@ -3669,12 +3758,12 @@
             ],
             [
                 "ability",
-                "MELANIE"
+                "ELLA"
             ]
         ]
     },
     {
-        "nid": "MELANIE_STATUS",
+        "nid": "ELLA_STATUS",
         "name": "Forward! <blue>(Melanie)</>",
         "desc": "Grants Dmg dealt +5 and Dmg taken -5.",
         "icon_nid": "Skills",
@@ -3877,6 +3966,12 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
             ]
         ]
     },
@@ -3957,6 +4052,131 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "multi_skill",
+                [
+                    "THALIA_SWORD",
+                    "THALIA_MAGIC"
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "THALIA_SWORD",
+        "name": "Mutual Support",
+        "desc": "<blue>(Aura)</> Grants Dmg taken -5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            19
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "aura",
+                "THALIA_SWORDCHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "condition",
+                "unit.get_weapon().weapon_type.value == 'Sword'"
+            ]
+        ]
+    },
+    {
+        "nid": "THALIA_SWORDCHILD",
+        "name": "Mutual Support <blue>(Thalia)</>",
+        "desc": "Grants Dmg taken -5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            19
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "resist",
+                5
+            ],
+            [
+                "condition",
+                "u('Thalia').get_weapon().weapon_type.value == 'Sword'"
+            ]
+        ]
+    },
+    {
+        "nid": "THALIA_MAGIC",
+        "name": "Mutual Support",
+        "desc": "<blue>(Aura)</> Grants Dmg dealt +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            19
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "aura",
+                "THALIA_MAGICCHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "condition",
+                "unit.get_weapon().weapon_type.value == 'Light'"
+            ]
+        ]
+    },
+    {
+        "nid": "THALIA_MAGICCHILD",
+        "name": "Mutual Support <blue>(Thalia)</>",
+        "desc": "Grants Dmg dealt +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            19
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "condition",
+                "u('Thalia').get_weapon().weapon_type.value == 'Light'"
             ]
         ]
     },
@@ -4683,27 +4903,5 @@
                 1000
             ]
         ]
-    },
-    {
-        "nid": "AURA_DESC",
-        "name": "Aura",
-        "desc": "Grants the listed buff to allies within three spaces of the unit.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            6,
-            16
-        ],
-        "components": []
-    },
-    {
-        "nid": "CA_DESC",
-        "name": "Combat Art",
-        "desc": "An activated skill whose listed effect lasts for one round of combat.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            6,
-            16
-        ],
-        "components": []
     }
 ]

@@ -6213,8 +6213,8 @@
         "fields": []
     },
     {
-        "nid": "Lucian",
-        "name": "Lucian",
+        "nid": "Roman",
+        "name": "Roman",
         "desc": "Knight of House Valoria.\nLoyal to a fault.",
         "variant": "",
         "level": 1,
@@ -6232,7 +6232,7 @@
             "DEF": 0,
             "RES": 0,
             "CON": 13,
-            "MOV": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 0,
@@ -6275,7 +6275,7 @@
         "learned_skills": [
             [
                 1,
-                "LUCIAN"
+                "ROMAN"
             ]
         ],
         "unit_notes": [],
@@ -6337,8 +6337,8 @@
         ]
     },
     {
-        "nid": "Melanie",
-        "name": "Melanie",
+        "nid": "Ella",
+        "name": "Ella",
         "desc": "Knight of House Valoria.\nA go-getter who doesn't back down.",
         "variant": "",
         "level": 1,
@@ -6396,7 +6396,7 @@
         "learned_skills": [
             [
                 1,
-                "MELANIE"
+                "ELLA"
             ]
         ],
         "unit_notes": [],
@@ -6675,7 +6675,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man2",
+        "portrait_nid": "Estoc",
         "affinity": "Light",
         "fields": []
     },
@@ -6907,6 +6907,10 @@
         "starting_items": [
             [
                 "Aura",
+                false
+            ],
+            [
+                "Rapier",
                 false
             ]
         ],
@@ -10796,9 +10800,20 @@
         "variant": null,
         "level": 1,
         "klass": "Shaman",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
-            "HP": 1
+            "HP": 23,
+            "STR": 15,
+            "MAG": 16,
+            "SKL": 18,
+            "SPD": 18,
+            "LCK": 12,
+            "DEF": 10,
+            "RES": 13,
+            "CON": 5,
+            "MOV": 5
         },
         "growths": {},
         "stat_cap_modifiers": {},
