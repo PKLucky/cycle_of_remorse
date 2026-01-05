@@ -380,8 +380,8 @@
                 "nid": "27",
                 "name": "Ch 27",
                 "pos": [
-                    7,
-                    12
+                    6,
+                    11
                 ],
                 "icon": "map_node",
                 "level": null,
@@ -421,17 +421,6 @@
                 "menu_options": []
             },
             {
-                "nid": "27b",
-                "name": "New Location",
-                "pos": [
-                    6,
-                    11
-                ],
-                "icon": "fort",
-                "level": null,
-                "menu_options": []
-            },
-            {
                 "nid": "35",
                 "name": "Ch35",
                 "pos": [
@@ -440,6 +429,17 @@
                 ],
                 "icon": "map_node",
                 "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "26b",
+                "name": "Ch 26b",
+                "pos": [
+                    7,
+                    12
+                ],
+                "icon": "fort",
+                "level": "26b",
                 "menu_options": []
             }
         ],
