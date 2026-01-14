@@ -28,20 +28,6 @@
         "text": "A unit who lands on an Arena tile may battle against a random opponent to earn money.{br}The higher the wager, the tougher the enemy is.\nUnits will use their <blue>currently equipped weapon</> in the arena.{br}Weapon durability <blue>does not</> decrease in the arena."
     },
     {
-        "nid": "Aura",
-        "name": "Aura",
-        "title": "Aura",
-        "category": "Mechanics",
-        "text": "Grants the listed buff to allies within three spaces of the unit."
-    },
-    {
-        "nid": "CombatArt",
-        "name": "Combat Art",
-        "title": "Combat Art",
-        "category": "Mechanics",
-        "text": "An activated skill whose listed effect lasts for one round of combat."
-    },
-    {
         "nid": "Crew",
         "name": "Wyrmfang",
         "title": "Wyrmfang Pirates",
@@ -124,5 +110,26 @@
         "title": "Seize",
         "category": "Win Cond.",
         "text": "<blue>Any unit</> may stand on a Seize tile to clear a Seize map."
+    },
+    {
+        "nid": "Aura",
+        "name": "Aura",
+        "title": "Aura",
+        "category": "Desc",
+        "text": "Grants the listed buff to allies within three spaces of the unit."
+    },
+    {
+        "nid": "Locktouch",
+        "name": "Locktouch",
+        "title": "Locktouch",
+        "category": "Desc",
+        "text": "Unit can unlock doors and chests without using keys."
+    },
+    {
+        "nid": "CombatArt",
+        "name": "Combat Art",
+        "title": "Combat Art",
+        "category": "Desc",
+        "text": "An activated skill whose listed effect lasts for one round of combat."
     }
 ]

@@ -60,7 +60,6 @@
     "Elwind": "Anima",
     "Energy Ring": "Consumable",
     "Excalibur": "Anima",
-    "FelicitysStone": "Consumable",
     "Fenrir": "Dark",
     "Fetid Claw": "Claw",
     "Fimbulvetr": "Anima",
@@ -108,7 +107,6 @@
     "Killer Bow": "Bows",
     "Killer Lance": "Lances",
     "Killing Edge": "Swords",
-    "KirazsStone": "Consumable",
     "Kodachi": "Swords",
     "LUCY_RALLY": "Skills",
     "Lancebuster": "Swords",
@@ -217,7 +215,6 @@
     "TorchStaff": "Staves",
     "Toxin Lance": "Lances",
     "Trade": "Staves",
-    "TsurugisStone": "Consumable",
     "Unlock": "Staves",
     "Vulnerary": "Consumable",
     "Warp": "Staves",
@@ -232,6 +229,5 @@
     "WyrmfangAxe": "Axes",
     "Wyrmslayer": "Swords",
     "WyvernWhip": "Consumable",
-    "XiangsStone": "Consumable",
     "Zanbato": "Swords"
 }

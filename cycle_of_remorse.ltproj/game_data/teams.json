@@ -45,12 +45,12 @@
     ],
     [
         [
-            "other",
-            "player"
-        ],
-        [
             "enemy_1",
             "other"
+        ],
+        [
+            "other",
+            "player"
         ],
         [
             "enemy",

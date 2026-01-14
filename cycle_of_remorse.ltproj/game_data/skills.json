@@ -267,7 +267,7 @@
     {
         "nid": "Steal",
         "name": "Steal",
-        "desc": "Can steal items from enemies with lower speed.",
+        "desc": "Can steal items from slower enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             12,
@@ -295,7 +295,7 @@
     {
         "nid": "StealPlus",
         "name": "Steal+",
-        "desc": "Can steal items and unequipped weapons from enemies with lower speed.",
+        "desc": "Can steal items and unequipped weapons from slower enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             12,
@@ -319,7 +319,7 @@
     {
         "nid": "ThiefsExpertise",
         "name": "Thief's Expertise",
-        "desc": "Can steal items from enemies with lower speed, unlock doors and chests without keys, see more in Fog of War, and gain more EXP when visiting houses and villages.",
+        "desc": "Can use <red>Steal</> and <red>Locktouch</>. Can see more in Fog of War and gain more EXP when Visiting.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -337,6 +337,22 @@
             [
                 "sight_range_bonus",
                 3
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "Steal"
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Locktouch"
+                ]
+            ],
+            [
+                "item_override",
+                "EffWallOverride"
             ]
         ]
     },
@@ -519,7 +535,7 @@
     {
         "nid": "Astra",
         "name": "Astra",
-        "desc": "<blue>(Combat art)</> Strikes five times consecutively.\nUsable 3 times per chapter.",
+        "desc": "<red>(Combat art)</> Strikes five times consecutively.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -563,7 +579,7 @@
     {
         "nid": "Sol",
         "name": "Sol",
-        "desc": "<blue>(Combat art)</> Heals half damage dealt.\nUsable 3 times per chapter.",
+        "desc": "<red>(Combat art)</> Heals half damage dealt.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -602,8 +618,8 @@
     },
     {
         "nid": "Impale",
-        "name": "Impale <red>(Class)</>",
-        "desc": "<blue>(Combat art)</> Quadruples damage dealt.\nUsable 3 times per chapter.",
+        "name": "Impale",
+        "desc": "<red>(Combat art)</> Quadruples damage dealt.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -642,8 +658,8 @@
     },
     {
         "nid": "Colossus",
-        "name": "Colossus <red>(Class)</>",
-        "desc": "<blue>(Combat art)</> Adds Con to damage dealt.\nUsable 3 times per chapter.",
+        "name": "Colossus",
+        "desc": "<red>(Combat art)</> Adds Con to damage dealt.\nUsable 3 times per chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1673,7 +1689,7 @@
     {
         "nid": "KRISTA",
         "name": "Inspiration",
-        "desc": "<blue>(Aura)</> Grants Dmg dealt +2 and Dmg taken -2.",
+        "desc": "<red>(Aura)</> Grants Dmg dealt +2 and Dmg taken -2.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -1706,7 +1722,7 @@
     },
     {
         "nid": "KRISTA_CHILD",
-        "name": "Inspired <blue>(Krista)</>",
+        "name": "Inspired <red>(Krista)</>",
         "desc": "Deals Dmg +2 and takes Dmg -2.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -1727,7 +1743,7 @@
     {
         "nid": "FORREST",
         "name": "Instructor's Assist",
-        "desc": "<blue>(Aura)</> Grants Def +3.\nAllows unit to use <blue>Mercy</>.",
+        "desc": "<red>(Aura)</> Grants Def +3.\nAllows unit to use <red>Mercy</>.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -1772,7 +1788,7 @@
     },
     {
         "nid": "FORREST_CHILD",
-        "name": "Assisted <blue>(Forrest)</>",
+        "name": "Assisted <red>(Forrest)</>",
         "desc": "Grants Def +3.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -1794,7 +1810,7 @@
     {
         "nid": "FORREST2",
         "name": "Mercy",
-        "desc": "<blue>(Combat Art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
+        "desc": "<red>(Combat Art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1926,7 +1942,7 @@
     {
         "nid": "CHELL",
         "name": "Swift Aura",
-        "desc": "<blue>(Aura)</> Grants Skl/Spd +3.",
+        "desc": "<red>(Aura)</> Grants Skl/Spd +3.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -1959,7 +1975,7 @@
     },
     {
         "nid": "CHELL_CHILD",
-        "name": "Swift Aura <blue>(Chell)</>",
+        "name": "Swift Aura <red>(Chell)</>",
         "desc": "Grants Skl/Spd +3.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -1985,7 +2001,7 @@
     {
         "nid": "SAM",
         "name": "Strength Aura",
-        "desc": "<blue>(Aura)</> Grants Str +5.",
+        "desc": "<red>(Aura)</> Grants Str +5.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -2018,7 +2034,7 @@
     },
     {
         "nid": "SAM_CHILD",
-        "name": "Strength Aura <blue>(Sam)</>",
+        "name": "Strength Aura <red>(Sam)</>",
         "desc": "Grants Str +5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2099,7 +2115,7 @@
     },
     {
         "nid": "TAYLOR_EFFECT",
-        "name": "Striketaker <blue>(Status)</>",
+        "name": "Striketaker <red>(Status)</>",
         "desc": "Deal Dmg +2 per stack.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2159,7 +2175,7 @@
     },
     {
         "nid": "ALEX_CHILD",
-        "name": "Defended <blue>(Alex)</>",
+        "name": "Defended <red>(Alex)</>",
         "desc": "Takes Dmg -2 for each ally adjacent to Alex.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2195,7 +2211,7 @@
     },
     {
         "nid": "LUCY_CHILD",
-        "name": "Rallied <blue>(Lucy)</>",
+        "name": "Rallied <red>(Lucy)</>",
         "desc": "Takes 5 less damage.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2296,7 +2312,7 @@
     {
         "nid": "VIOLA",
         "name": "Fortress Aura",
-        "desc": "<blue>(Aura)</> Grants Def/Res +3.",
+        "desc": "<red>(Aura)</> Grants Def/Res +3.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -2329,7 +2345,7 @@
     },
     {
         "nid": "VIOLA_CHILD",
-        "name": "Fortress Aura <blue>(Viola)</>",
+        "name": "Fortress Aura <red>(Viola)</>",
         "desc": "Grants Def/Res +3.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2374,7 +2390,7 @@
     },
     {
         "nid": "MARINA_CHILD",
-        "name": "Hastened <blue>(Marina)</>",
+        "name": "Hastened <red>(Marina)</>",
         "desc": "Grants +1 Mov for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2439,7 +2455,7 @@
     },
     {
         "nid": "AZURE_CHILD",
-        "name": "Spectrum <blue>(Azure)</>",
+        "name": "Spectrum <red>(Azure)</>",
         "desc": "Grants +2 in all stats except HP and Mov for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2558,7 +2574,7 @@
     {
         "nid": "JAKE",
         "name": "Immobilize",
-        "desc": "<blue>(Combat Art)</> Inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
+        "desc": "<red>(Combat Art)</> Inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -2700,7 +2716,7 @@
     {
         "nid": "RYUUJI",
         "name": "Charisma",
-        "desc": "<blue>(Aura)</> Grants Hit/Avo +15.",
+        "desc": "<red>(Aura)</> Grants Hit/Avo +15.",
         "icon_nid": "Skills",
         "icon_index": [
             6,
@@ -2733,7 +2749,7 @@
     },
     {
         "nid": "RYUUJI_CHILD",
-        "name": "Charisma <blue>(Ryuuji)</>",
+        "name": "Charisma <red>(Ryuuji)</>",
         "desc": "Grants Hit/Avo +15",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2754,7 +2770,7 @@
     {
         "nid": "TAIGA",
         "name": "Gamble",
-        "desc": "<blue>(Combat Art)</> Grants Crit +20 and Hit -10.",
+        "desc": "<red>(Combat Art)</> Grants Crit +20 and Hit -10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2881,7 +2897,7 @@
     {
         "nid": "LIN",
         "name": "Strike Aura",
-        "desc": "<blue>(Aura)</> Grants Str/Mag +3.",
+        "desc": "<red>(Aura)</> Grants Str/Mag +3.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -2914,7 +2930,7 @@
     },
     {
         "nid": "LIN_CHILD",
-        "name": "Strike Aura <blue>(Lin)</>",
+        "name": "Strike Aura <red>(Lin)</>",
         "desc": "Grants Str/Mag +3.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2940,7 +2956,7 @@
     {
         "nid": "TSURUGI",
         "name": "Magic Aura",
-        "desc": "<blue>(Aura)</> Grants Mag +5.",
+        "desc": "<red>(Aura)</> Grants Mag +5.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -2973,7 +2989,7 @@
     },
     {
         "nid": "TSURUGI_CHILD",
-        "name": "Magic Aura <blue>(Tsurugi)</>",
+        "name": "Magic Aura <red>(Tsurugi)</>",
         "desc": "Grants Mag +5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -2995,7 +3011,7 @@
     {
         "nid": "YUMI",
         "name": "Allure",
-        "desc": "<blue>(Aura, male allies only)</> Grants Dmg dealt +3.",
+        "desc": "<red>(Aura, male allies only)</> Grants Dmg dealt +3.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -3028,7 +3044,7 @@
     },
     {
         "nid": "YUMI_CHILD",
-        "name": "Allured  <blue>(Yumi)</>",
+        "name": "Allured  <red>(Yumi)</>",
         "desc": "Deals Dmg +3.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3142,7 +3158,7 @@
     {
         "nid": "YUKINO",
         "name": "Rose Guard",
-        "desc": "<blue>(Aura, female allies only)</> Grants Dmg taken -3.",
+        "desc": "<red>(Aura, female allies only)</> Grants Dmg taken -3.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3175,7 +3191,7 @@
     },
     {
         "nid": "YUKINO_CHILD",
-        "name": "Guarded <blue>(Yukino)</>",
+        "name": "Guarded <red>(Yukino)</>",
         "desc": "Dmg taken -3.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3280,7 +3296,7 @@
     {
         "nid": "ASUKA",
         "name": "Disarm",
-        "desc": "<blue>(Combat Art)</> Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
+        "desc": "<red>(Combat Art)</> Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3337,7 +3353,7 @@
     },
     {
         "nid": "ASUKA_EFFECT",
-        "name": "Disarmed <blue>(Asuka)</>",
+        "name": "Disarmed <red>(Asuka)</>",
         "desc": "Unit cannot use items.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3401,7 +3417,7 @@
     },
     {
         "nid": "TSUBAKI_CHILD",
-        "name": "Rallied <blue>(Tsubaki)</>",
+        "name": "Rallied <red>(Tsubaki)</>",
         "desc": "Grants Dmg +5",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3449,7 +3465,7 @@
     },
     {
         "nid": "JUDAH_CHILD",
-        "name": "Intimidated <blue>(Judah)</>",
+        "name": "Intimidated <red>(Judah)</>",
         "desc": "Hit -15.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3622,7 +3638,7 @@
     },
     {
         "nid": "ERVAN_CHILD",
-        "name": "Authority <blue>(Ervan)</>",
+        "name": "Authority <red>(Ervan)</>",
         "desc": "Hit/Avo +5 per stack.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3695,7 +3711,7 @@
     {
         "nid": "ROMAN",
         "name": "Behind Me!",
-        "desc": "If unit's Con + 2 >= ally's Con, shifts an ally to the empty tile behind the unit. After shifting the target, unit gains <blue>Provoke</> for one turn.",
+        "desc": "If unit's Con + 2 >= ally's Con, shifts an ally to the empty tile behind the unit. After shifting the target, unit gains <red>Provoke</> for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             14,
@@ -3764,7 +3780,7 @@
     },
     {
         "nid": "ELLA_STATUS",
-        "name": "Forward! <blue>(Melanie)</>",
+        "name": "Forward! <red>(Melanie)</>",
         "desc": "Grants Dmg dealt +5 and Dmg taken -5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3789,7 +3805,7 @@
     {
         "nid": "SANTIAGO",
         "name": "Grapple",
-        "desc": "Both the unit and the target cannot act for two turns. The target loses 20% HP each turn they are grappled. Target has a <blue>Break</>% chance of freeing themselves.",
+        "desc": "Both the unit and the target cannot act for two turns. The target loses 20% HP each turn they are grappled. Target has a <red>Break</>% chance of freeing themselves.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -3818,7 +3834,7 @@
     },
     {
         "nid": "SANTIAGO_EQUATION_DESC",
-        "name": "<blue>Break</>",
+        "name": "<red>Break</>",
         "desc": "90 - 7 * (unit's Con - target's Con)",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3866,7 +3882,7 @@
     },
     {
         "nid": "SANTIAGO_TARGET",
-        "name": "Grappled <blue>(Santiago)</>",
+        "name": "Grappled <red>(Santiago)</>",
         "desc": "Unit is being grappled.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3944,7 +3960,7 @@
     {
         "nid": "ESTOC",
         "name": "Rampart",
-        "desc": "<blue>(Aura, allies at 50% or less HP)</> Grants Dmg taken -10.",
+        "desc": "<red>(Aura, allies at 50% or less HP)</> Grants Dmg taken -10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -3977,7 +3993,7 @@
     },
     {
         "nid": "ESTOC_CHILD",
-        "name": "Rampart <blue>(Estoc)</>",
+        "name": "Rampart <red>(Estoc)</>",
         "desc": "Takes Dmg -10.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -4021,7 +4037,7 @@
     },
     {
         "nid": "BRYANT_STATUS",
-        "name": "War Cry <blue>Bryant</>",
+        "name": "War Cry <red>Bryant</>",
         "desc": "Dmg dealt +5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -4042,7 +4058,7 @@
     {
         "nid": "THALIA",
         "name": "Mutual Support",
-        "desc": "<blue>(Aura)</> If unit is equipping a sword, grants Dmg taken -5. If unit is equipping magic, grants Dmg dealt +5.",
+        "desc": "<red>(Aura)</> If unit is equipping a sword, grants Dmg taken -5. If unit is equipping magic, grants Dmg dealt +5.",
         "icon_nid": "Skills",
         "icon_index": [
             12,
@@ -4071,7 +4087,7 @@
     {
         "nid": "THALIA_SWORD",
         "name": "Mutual Support",
-        "desc": "<blue>(Aura)</> Grants Dmg taken -5.",
+        "desc": "<red>(Aura)</> Grants Dmg taken -5.",
         "icon_nid": "Skills",
         "icon_index": [
             12,
@@ -4102,7 +4118,7 @@
     },
     {
         "nid": "THALIA_SWORDCHILD",
-        "name": "Mutual Support <blue>(Thalia)</>",
+        "name": "Mutual Support <red>(Thalia)</>",
         "desc": "Grants Dmg taken -5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -4127,7 +4143,7 @@
     {
         "nid": "THALIA_MAGIC",
         "name": "Mutual Support",
-        "desc": "<blue>(Aura)</> Grants Dmg dealt +5.",
+        "desc": "<red>(Aura)</> Grants Dmg dealt +5.",
         "icon_nid": "Skills",
         "icon_index": [
             12,
@@ -4158,7 +4174,7 @@
     },
     {
         "nid": "THALIA_MAGICCHILD",
-        "name": "Mutual Support <blue>(Thalia)</>",
+        "name": "Mutual Support <red>(Thalia)</>",
         "desc": "Grants Dmg dealt +5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -4511,7 +4527,7 @@
     {
         "nid": "JusticeSquad",
         "name": "Justice Squad",
-        "desc": "<blue>(Aura, allies with same skill only)</> Grants unit +20 Hit/Avo. (Does not stack.)",
+        "desc": "<red>(Aura, allies with same skill only)</> Grants unit +20 Hit/Avo. (Does not stack.)",
         "icon_nid": "Skills",
         "icon_index": [
             9,

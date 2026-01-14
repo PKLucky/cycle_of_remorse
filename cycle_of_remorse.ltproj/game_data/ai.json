@@ -466,8 +466,8 @@
                 "action": "Move_to",
                 "target": "Position",
                 "target_spec": [
-                    4,
-                    6
+                    7,
+                    4
                 ],
                 "view_range": -3,
                 "invert_targeting": true,

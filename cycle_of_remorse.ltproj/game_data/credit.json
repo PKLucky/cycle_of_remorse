@@ -608,6 +608,102 @@
         ]
     },
     {
+        "nid": "Amber",
+        "sub_nid": "Amber",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Armory",
+                "Amber"
+            ]
+        ]
+    },
+    {
+        "nid": "Jasper",
+        "sub_nid": "Jasper",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "CapibaraInSpace, CherryBaer",
+                "Jasper"
+            ]
+        ]
+    },
+    {
+        "nid": "Topaz",
+        "sub_nid": "Topaz",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Relic",
+                "Topaz"
+            ]
+        ]
+    },
+    {
+        "nid": "Sphene",
+        "sub_nid": "Sphene",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "CaringCarrot",
+                "Sphene"
+            ]
+        ]
+    },
+    {
+        "nid": "Larimar",
+        "sub_nid": "Larimar",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "AmBrosiac",
+                "Larimar"
+            ]
+        ]
+    },
+    {
+        "nid": "Amethyst",
+        "sub_nid": "Amethyst",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Its Just Jay",
+                "Amethyst"
+            ]
+        ]
+    },
+    {
         "nid": "Beli",
         "sub_nid": "Beli",
         "credit_type": 4,

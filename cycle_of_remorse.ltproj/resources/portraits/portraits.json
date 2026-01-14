@@ -2038,5 +2038,77 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Amber",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Jasper",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Topaz",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sphene",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Larimar",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Amethyst",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
     }
 ]

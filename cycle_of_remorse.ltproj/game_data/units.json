@@ -10698,6 +10698,10 @@
             [
                 "Dragon Axe",
                 false
+            ],
+            [
+                "GreatShield",
+                true
             ]
         ],
         "learned_skills": [],
@@ -10802,7 +10806,7 @@
             ],
             [
                 "Swordslayer",
-                true
+                false
             ]
         ],
         "learned_skills": [],
@@ -10902,7 +10906,7 @@
         },
         "starting_items": [
             [
-                "Silver Sword",
+                "Shamshir",
                 false
             ]
         ],
@@ -10999,11 +11003,16 @@
                 false
             ],
             [
-                "Spear",
+                "SilverLongbow",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "CharmedAzalea"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -11018,6 +11027,11 @@
             ],
             "Lance": [
                 false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
                 241,
                 null
             ]
@@ -11030,7 +11044,7 @@
     {
         "nid": "Silvia",
         "name": "Silvia",
-        "desc": "Member of the Oregotian Council.",
+        "desc": "Head of Domestic Affairs of the Oregotian Council.",
         "variant": "Female",
         "level": 1,
         "klass": "Myrmidon",
@@ -11066,7 +11080,7 @@
     {
         "nid": "Demir",
         "name": "Demir",
-        "desc": "Member of the Oregotian Council.",
+        "desc": "Treasurer of the Oregotian Council.",
         "variant": "",
         "level": 1,
         "klass": "Cleric",
@@ -11080,7 +11094,11 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Aura",
+                "Divine",
+                false
+            ],
+            [
+                "Elthunder",
                 false
             ],
             [
@@ -11120,14 +11138,14 @@
             "Circ"
         ],
         "bases": {
-            "HP": 1,
+            "HP": 8,
             "STR": 19,
-            "MAG": 7,
+            "MAG": 10,
             "SKL": 19,
-            "SPD": 20,
-            "LCK": 8,
+            "SPD": 8,
+            "LCK": 9,
             "DEF": 20,
-            "RES": 6,
+            "RES": 7,
             "CON": 10,
             "MOV": 5
         },
@@ -11144,18 +11162,23 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {
-            "HP": -22,
-            "MAG": 7,
+            "HP": -15,
+            "MAG": 10,
             "CON": 0,
             "MOV": 0,
-            "SPD": 21,
-            "RES": 9,
+            "SPD": 11,
+            "RES": 10,
             "STR": 14,
             "SKL": 18,
             "DEF": 13,
-            "LCK": 5
+            "LCK": 6
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Brave Lance",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
