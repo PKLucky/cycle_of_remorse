@@ -25,7 +25,6 @@
     "BRYANT_STATUS": "Personal Skills/BRYANT",
     "BallistaUse": "Weapon Status",
     "Berserk": "Status Effects",
-    "BreakWeakWall": "Class Skills",
     "CELESTE": "Personal Skills",
     "CHELL": "Personal Skills/CHELL",
     "CHELL_CHILD": "Personal Skills/CHELL",
@@ -186,5 +185,7 @@
     "YUKINO": "Personal Skills/YUKINO",
     "YUKINO_CHILD": "Personal Skills/YUKINO",
     "YUMI": "Personal Skills/YUMI",
-    "YUMI_CHILD": "Personal Skills/YUMI"
+    "YUMI_CHILD": "Personal Skills/YUMI",
+    "new": "Debug Status",
+    "new_1": "Debug Status"
 }

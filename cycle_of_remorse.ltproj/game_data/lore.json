@@ -35,6 +35,13 @@
         "text": "Once per chapter (<red>except</> for <blue>Ch. 15</>) until <blue>Ch. 21</>, one member of the <blue>Wyrmfang Pirates</> will join the party if the number of party members is less than that chapter's number of deployment slots.\nThey are all <blue>Pirates</> with growth rates and base stats similar to <blue>generic enemy Pirates</>."
     },
     {
+        "nid": "TorgenGroup",
+        "name": "Torgen",
+        "title": "Torgen's Gang",
+        "category": "Mechanics",
+        "text": "Once per chapter until <blue>Ch. 31</>, one member of <blue>Torgen's gang</> will join the party if the number of party members is less than that chapter's number of deployment slots.\nTheir classes vary and have growth rates and base stats similar to <blue>generic enemy units</> of their respective classes."
+    },
+    {
         "nid": "Houses",
         "name": "Houses",
         "title": "All About Houses",

@@ -525,11 +525,6 @@
         false
     ],
     [
-        "Death Mountain",
-        true,
-        false
-    ],
-    [
         "Esaka!!",
         false,
         false
@@ -541,6 +536,11 @@
     ],
     [
         "Orchestra 19",
+        false,
+        false
+    ],
+    [
+        "Mount Snowpeak",
         false,
         false
     ]

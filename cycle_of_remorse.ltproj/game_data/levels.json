@@ -51205,57 +51205,6 @@
     },
     {
         "nid": "34",
-        "name": "Ch. 34: Closure",
-        "tilemap": "Ch34",
-        "bg_tilemap": null,
-        "party": "Krista",
-        "music": {
-            "player_phase": null,
-            "enemy_phase": null,
-            "boss_battle": null,
-            "player_battle": null,
-            "enemy_battle": null,
-            "other_battle": null,
-            "other_phase": "Flower Power!"
-        },
-        "objective": {
-            "simple": "Defeat boss",
-            "win": "Defeat boss",
-            "loss": "Krista dies"
-        },
-        "roam": false,
-        "roam_unit": "Krista",
-        "go_to_overworld": false,
-        "should_record": false,
-        "tags": [],
-        "units": [
-            {
-                "nid": "Krista",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Ervan",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
-        "regions": [],
-        "unit_groups": [],
-        "ai_groups": []
-    },
-    {
-        "nid": "35",
         "name": "Final: Circ's Talons",
         "tilemap": "Ch35",
         "bg_tilemap": null,
@@ -52075,6 +52024,16 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Ferrach",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

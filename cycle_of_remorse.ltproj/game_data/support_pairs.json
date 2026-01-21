@@ -2600,7 +2600,7 @@
     },
     {
         "unit1": "Trevor",
-        "unit2": "Lucian",
+        "unit2": "Roman",
         "one_way": false,
         "requirements": [
             {
@@ -2659,7 +2659,7 @@
     },
     {
         "unit1": "Trevor",
-        "unit2": "Melanie",
+        "unit2": "Ella",
         "one_way": false,
         "requirements": [
             {
@@ -7632,8 +7632,8 @@
         ]
     },
     {
-        "unit1": "Lucian",
-        "unit2": "Melanie",
+        "unit1": "Roman",
+        "unit2": "Ella",
         "one_way": false,
         "requirements": [
             {
