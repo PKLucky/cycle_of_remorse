@@ -7261,7 +7261,7 @@
     },
     {
         "nid": "ShootyShoot",
-        "name": "Shooty Shoot",
+        "name": "<blue>Shooty Shoot</>",
         "desc": "Gregor only.",
         "icon_nid": "Bow",
         "icon_index": [
@@ -7291,23 +7291,19 @@
             ],
             [
                 "hit",
-                95
+                90
             ],
             [
                 "damage",
-                8
+                17
             ],
             [
                 "crit",
-                0
+                6
             ],
             [
                 "weight",
-                4
-            ],
-            [
-                "wexp",
-                2
+                7
             ],
             [
                 "prf_unit",
@@ -7317,7 +7313,7 @@
             ],
             [
                 "uses",
-                50
+                20
             ],
             [
                 "uses_options",

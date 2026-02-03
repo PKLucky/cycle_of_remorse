@@ -6233,16 +6233,16 @@
             "Canon"
         ],
         "bases": {
-            "HP": 35,
-            "STR": 25,
-            "MAG": 10,
-            "SKL": 23,
-            "SPD": 21,
-            "LCK": 10,
-            "DEF": 17,
-            "RES": 19,
-            "CON": 7,
-            "MOV": 6
+            "HP": 20,
+            "STR": 12,
+            "MAG": 8,
+            "SKL": 14,
+            "SPD": 14,
+            "LCK": 8,
+            "DEF": 13,
+            "RES": 15,
+            "CON": 4,
+            "MOV": 5
         },
         "growths": {
             "HP": 85,
@@ -6258,7 +6258,7 @@
         },
         "stat_cap_modifiers": {
             "DEF": 0,
-            "STR": 1,
+            "STR": 0,
             "SKL": 0,
             "SPD": 0,
             "HP": 0,
@@ -6330,6 +6330,10 @@
             [
                 "EscapeQuote",
                 "Alright, made it."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,1"
             ]
         ]
     },
@@ -7453,7 +7457,7 @@
     {
         "nid": "Gregor",
         "name": "Gregor",
-        "desc": "Mysterious traveller from a foreign continent.\nLaid-back and kindhearted.",
+        "desc": "Mysterious mercenary from a foreign continent.\nLaid-back and kindhearted.",
         "variant": "",
         "level": 1,
         "klass": "Mercenary",
@@ -11737,5 +11741,47 @@
                 "Ah{tgm}... N-No{tgm}..."
             ]
         ]
+    },
+    {
+        "nid": "KristaDream",
+        "name": "Krista",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "Princess",
+        "tags": [],
+        "bases": {
+            "HP": 15,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 2,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 4,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                1,
+                null
+            ],
+            "Bow": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "KristaPast",
+        "affinity": "Anima",
+        "fields": []
     }
 ]

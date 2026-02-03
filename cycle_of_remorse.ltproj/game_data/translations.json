@@ -454,5 +454,9 @@
     {
         "nid": "damien_again",
         "text": "More to do?"
+    },
+    {
+        "nid": "shop_preview",
+        "text": "Here's what we have in stock."
     }
 ]

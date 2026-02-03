@@ -2,546 +2,655 @@
     [
         "_Chapter Sound",
         false,
-        false
+        false,
+        0
     ],
     [
         "Fire Emblem Theme",
         false,
-        false
+        false,
+        0
     ],
     [
         "Verdane Army",
         true,
-        false
+        false,
+        0
     ],
     [
         "Binding Ties",
         false,
-        false
+        false,
+        0
     ],
     [
         "Arena Entrance",
         false,
-        false
+        false,
+        0
     ],
     [
         "Arena Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "_Arena Victory",
         false,
-        false
+        false,
+        0
     ],
     [
         "Victory Now!",
         false,
-        false
+        false,
+        0
     ],
     [
         "Softly with Grace",
         false,
-        false
+        false,
+        0
     ],
     [
         "Healing",
         false,
-        false
+        false,
+        0
     ],
     [
         "Curing",
         false,
-        false
+        false,
+        0
     ],
     [
         "Shops",
         false,
-        false
+        false,
+        0
     ],
     [
         "Armory",
         false,
-        false
+        false,
+        0
     ],
     [
         "Together We Ride",
         false,
-        false
+        false,
+        0
     ],
     [
         "A Knight's Oath",
         false,
-        false
+        false,
+        0
     ],
     [
         "Prepare to Charge",
         false,
-        false
+        false,
+        0
     ],
     [
         "Game Over",
         false,
-        false
+        false,
+        0
     ],
     [
         "Loyalty",
         false,
-        false
+        false,
+        0
     ],
     [
         "Girl of the Plains",
         false,
-        false
+        false,
+        0
     ],
     [
         "Ships and Homes",
         false,
-        false
+        false,
+        0
     ],
     [
         "Raid",
         false,
-        false
+        false,
+        0
     ],
     [
         "The Messenger",
         false,
-        false
+        false,
+        0
     ],
     [
         "The Kingdom of Bern",
         false,
-        false
+        false,
+        0
     ],
     [
         "An Unexpected Caller",
         false,
-        false
+        false,
+        0
     ],
     [
         "A Hint of Things to Come",
         false,
-        false
+        false,
+        0
     ],
     [
         "Silent Ground",
         false,
-        false
+        false,
+        0
     ],
     [
         "Lyn's Desire",
         false,
-        false
+        false,
+        0
     ],
     [
         "The Archsage Athos",
         false,
-        false
+        false,
+        0
     ],
     [
         "Within Sadness",
         false,
-        false
+        false,
+        0
     ],
     [
         "To the Heights",
         false,
-        false
+        false,
+        0
     ],
     [
         "Requiem",
         false,
-        false
+        false,
+        0
     ],
     [
         "What Comes from Darkness",
         false,
-        false
+        false,
+        0
     ],
     [
         "When the Rush Comes",
         false,
-        false
+        false,
+        0
     ],
     [
         "Respite in Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Into the Shadow of Triumph",
         false,
-        false
+        false,
+        0
     ],
     [
         "Was This Love",
         false,
-        false
+        false,
+        0
     ],
     [
         "For Your Own Good",
         false,
-        false
+        false,
+        0
     ],
     [
         "MoonForest",
         false,
-        false
+        false,
+        0
     ],
     [
         "MoonForest - Marina",
         false,
-        false
+        false,
+        0
     ],
     [
         "MoonForest - Duet",
         false,
-        false
+        false,
+        0
     ],
     [
         "Alight",
         false,
-        false
+        false,
+        0
     ],
     [
         "Far Dawn",
         false,
-        false
+        false,
+        0
     ],
     [
         "Master Battle",
         true,
-        false
+        false,
+        0
     ],
     [
         "Commence the Psychological Analysis",
         false,
-        false
+        false,
+        0
     ],
     [
         "Inescapable Fate",
         false,
-        false
+        false,
+        0
     ],
     [
         "Pirate Otter Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Pirate Otter Hideout",
         false,
-        false
+        false,
+        0
     ],
     [
         "Route 111",
         true,
-        false
+        false,
+        0
     ],
     [
         "Big Bad Burnin' Buddha",
         true,
-        false
+        false,
+        0
     ],
     [
         "FE5 Arena Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "The Steel Samurai",
         true,
-        false
+        false,
+        0
     ],
     [
         "Moustafa",
         true,
-        false
+        false,
+        0
     ],
     [
         "Normal Battle",
         true,
-        false
+        false,
+        0
     ],
     [
         "Poison Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Water Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Land of Swirling Sands",
         false,
-        false
+        false,
+        0
     ],
     [
         "Bug Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Past Light",
         false,
-        false
+        false,
+        0
     ],
     [
         "Event Theme 4",
         false,
-        false
+        false,
+        0
     ],
     [
         "Shizima4",
         false,
-        false
+        false,
+        0
     ],
     [
         "Fantasy 09",
         false,
-        false
+        false,
+        0
     ],
     [
         "Sand town",
         false,
-        false
+        false,
+        0
     ],
     [
         "Lullaby of a Loyal Knight",
         false,
-        false
+        false,
+        0
     ],
     [
         "Fighting Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Ethnic 08",
         false,
-        false
+        false,
+        0
     ],
     [
         "Ethnic 15",
         false,
-        false
+        false,
+        0
     ],
     [
         "Dazed Desert Walk",
         false,
-        false
+        false,
+        0
     ],
     [
         "Raid Ethnic",
         false,
-        false
+        false,
+        0
     ],
     [
         "Folk Arabian",
         false,
-        false
+        false,
+        0
     ],
     [
         "Doppel",
         false,
-        false
+        false,
+        0
     ],
     [
         "Doppel - Vocal",
         false,
-        false
+        false,
+        0
     ],
     [
         "Guildmaster Wigglytuff",
         false,
-        false
+        false,
+        0
     ],
     [
         "Fantasy 08",
         false,
-        false
+        false,
+        0
     ],
     [
         "Castle 03",
         false,
-        false
+        false,
+        0
     ],
     [
         "Spring City",
         false,
-        false
+        false,
+        0
     ],
     [
         "Market",
         false,
-        false
+        false,
+        0
     ],
     [
         "Wish4",
         false,
-        false
+        false,
+        0
     ],
     [
         "RetroRoman Koharu",
         false,
-        false
+        false,
+        0
     ],
     [
         "Windmill Village",
         false,
-        false
+        false,
+        0
     ],
     [
         "Otogi3",
         false,
-        false
+        false,
+        0
     ],
     [
         "Ohayashi",
         false,
-        false
+        false,
+        0
     ],
     [
         "Sakuya3",
         false,
-        false
+        false,
+        0
     ],
     [
         "Kagaribi no Oyado",
         false,
-        false
+        false,
+        0
     ],
     [
         "The Grieving Heart",
         false,
-        false
+        false,
+        0
     ],
     [
         "_Lullaby_of_a_Loyal_Knight_Vocal",
         false,
-        false
+        false,
+        0
     ],
     [
         "Butterfly Emerges from Chrysalis",
         false,
-        false
+        false,
+        0
     ],
     [
         "Squall Goes to the Water Aisle",
         true,
-        false
+        false,
+        0
     ],
     [
         "Grana Plains",
         false,
-        false
+        false,
+        0
     ],
     [
         "Romantic Feelings",
         false,
-        false
+        false,
+        0
     ],
     [
         "A Date With Rosa",
         false,
-        false
+        false,
+        0
     ],
     [
         "Vien Forest",
         false,
-        false
+        false,
+        0
     ],
     [
         "VS Marnie",
         true,
-        false
+        false,
+        0
     ],
     [
         "Dokapon Normal Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Scout Battle",
         false,
-        false
+        false,
+        0
     ],
     [
         "Tournament",
         false,
-        false
+        false,
+        0
     ],
     [
         "RO SHAM BO!",
         false,
-        false
+        false,
+        0
     ],
     [
         "Tough Guy Alert!",
         true,
-        false
+        false,
+        0
     ],
     [
         "Starsign Battle",
         true,
-        false
+        false,
+        0
     ],
     [
         "Tag Power!",
         true,
-        false
+        false,
+        0
     ],
     [
         "Colin's Theme",
         true,
-        false
+        false,
+        0
     ],
     [
         "Flower Power!",
         true,
-        false
+        false,
+        0
     ],
     [
         "Yellow Comet Theme",
         false,
-        false
+        false,
+        0
     ],
     [
         "Resolute",
         true,
-        false
+        false,
+        0
     ],
     [
         "Emphasis on Scat",
         false,
-        false
+        false,
+        0
     ],
     [
         "Kecleon Shop",
         false,
-        false
+        false,
+        0
     ],
     [
         "Esaka!!",
         false,
-        false
+        false,
+        0
     ],
     [
         "Healing 12b",
         false,
-        false
+        false,
+        0
     ],
     [
         "Orchestra 19",
         false,
-        false
+        false,
+        0
     ],
     [
         "Mount Snowpeak",
         false,
-        false
+        false,
+        0
     ]
 ]
