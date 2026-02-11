@@ -1034,7 +1034,7 @@
         ],
         "contrib": [
             [
-                "GabrielKnight",
+                "GabrielKnight, PKLucky",
                 "Solmaz"
             ]
         ]
@@ -1100,6 +1100,54 @@
             [
                 "VelvetKitsune",
                 "Lev"
+            ]
+        ]
+    },
+    {
+        "nid": "Archie",
+        "sub_nid": "Archie",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Zelkami, Armory",
+                "Archie"
+            ]
+        ]
+    },
+    {
+        "nid": "Alpin",
+        "sub_nid": "Alpin",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Trybel",
+                "Alpin"
+            ]
+        ]
+    },
+    {
+        "nid": "Narcisse",
+        "sub_nid": "Narcisse",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "WAve, PKLucky",
+                "Narcisse"
             ]
         ]
     },

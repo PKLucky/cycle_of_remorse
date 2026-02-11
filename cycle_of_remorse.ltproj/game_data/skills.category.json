@@ -186,5 +186,7 @@
     "YUKINO_CHILD": "Personal Skills/YUKINO",
     "YUMI": "Personal Skills/YUMI",
     "YUMI_CHILD": "Personal Skills/YUMI",
-    "check": "Debug Status"
+    "deb": "Debug Status",
+    "new": "Debug Status",
+    "stack": "Debug Status"
 }

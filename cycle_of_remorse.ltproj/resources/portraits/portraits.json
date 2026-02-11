@@ -2110,5 +2110,53 @@
             48
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Archie",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Narcisse",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Alpin",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "JudahShirtless",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

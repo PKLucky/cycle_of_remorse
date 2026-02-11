@@ -2195,7 +2195,7 @@
         "desc": "All adjacent allies take 5 less damage for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
-            15,
+            12,
             24
         ],
         "components": [
@@ -2215,7 +2215,7 @@
         "desc": "Takes 5 less damage.",
         "icon_nid": "Skills",
         "icon_index": [
-            15,
+            12,
             24
         ],
         "components": [
@@ -2371,7 +2371,7 @@
     {
         "nid": "MARINA",
         "name": "Hastening Dance",
-        "desc": "Let all adjacent allies act again and grants them +1 Mov for one turn.",
+        "desc": "<red>(Refresh all adjacent)</> Grants targets +1 Mov for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -2385,6 +2385,12 @@
             [
                 "ability",
                 "MARINA_DANCE"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "Refresh"
+                ]
             ]
         ]
     },
@@ -2436,7 +2442,7 @@
     {
         "nid": "AZURE",
         "name": "Spectrum Dance",
-        "desc": "Let all adjacent allies act again and grants them +2 to all stats except HP, Con, and Mov for one turn.",
+        "desc": "<red>(Refresh all adjacent)</> Grants targets +2 to all <red>major stats</> for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2450,13 +2456,25 @@
             [
                 "ability",
                 "AZURE_DANCE"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "Refresh"
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "MajorStats"
+                ]
             ]
         ]
     },
     {
         "nid": "AZURE_CHILD",
         "name": "Spectrum <red>(Azure)</>",
-        "desc": "Grants +2 in all stats except HP and Mov for one turn.",
+        "desc": "Grants +2 in all <red>major stats</> for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2498,6 +2516,12 @@
                         "RES",
                         2
                     ]
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "MajorStats"
                 ]
             ]
         ]
@@ -4018,7 +4042,7 @@
     {
         "nid": "BRYANT",
         "name": "War Cry",
-        "desc": "If unit initiates combat and kills the target, grants Dmg dealt +5 to all adjacent allies for one turn.",
+        "desc": "If unit initiates combat and defeats the target, grants Dmg dealt +5 to all adjacent allies for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -4037,7 +4061,7 @@
     },
     {
         "nid": "BRYANT_STATUS",
-        "name": "War Cry <red>Bryant</>",
+        "name": "War Cry <red>(Bryant)</>",
         "desc": "Dmg dealt +5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -4837,26 +4861,6 @@
             [
                 "lost_on_end_chapter",
                 null
-            ]
-        ]
-    },
-    {
-        "nid": "check",
-        "name": "check",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "hidden_if_inactive",
-                null
-            ],
-            [
-                "condition",
-                "has_item('Iron Sword',unit.nid)"
             ]
         ]
     },

@@ -7128,7 +7128,7 @@
                 false
             ],
             [
-                "Flux",
+                "Rotten Claw",
                 false
             ]
         ],
@@ -9888,7 +9888,7 @@
                 false
             ],
             [
-                "Mine",
+                "CursedDice",
                 false
             ]
         ],
@@ -10512,6 +10512,10 @@
             [
                 "Silence",
                 false
+            ],
+            [
+                "FalseIdol",
+                false
             ]
         ],
         "learned_skills": [],
@@ -10811,6 +10815,10 @@
             [
                 "Swordslayer",
                 false
+            ],
+            [
+                "Dragonshield",
+                false
             ]
         ],
         "learned_skills": [],
@@ -10912,6 +10920,10 @@
             [
                 "Shamshir",
                 false
+            ],
+            [
+                "Boots",
+                false
             ]
         ],
         "learned_skills": [],
@@ -10939,28 +10951,131 @@
         ]
     },
     {
+        "nid": "Archie",
+        "name": "Archie",
+        "desc": "Leader of the Ravine Raiders.\nAn underhanded lout.",
+        "variant": "",
+        "level": 1,
+        "klass": "Fighter",
+        "tags": [],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 65,
+            "MAG": 0,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 40,
+            "DEF": 65,
+            "RES": 40,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Tomahawk",
+                false
+            ],
+            [
+                "SteelLongbow",
+                false
+            ],
+            [
+                "White Gem",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Archie",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
+        "nid": "Narcisse",
+        "name": "Narcisse",
+        "desc": "A merchant from Oregot.\nHaughty and cunning.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Mage",
+        "tags": [],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 0,
+            "MAG": 75,
+            "SKL": 55,
+            "SPD": 70,
+            "LCK": 55,
+            "DEF": 35,
+            "RES": 50,
+            "CON": 10,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Elice",
+                false
+            ],
+            [
+                "Elthunder",
+                false
+            ],
+            [
+                "RainbowTonic",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Narcisse",
+        "affinity": "Thunder",
+        "fields": []
+    },
+    {
         "nid": "Lev",
         "name": "Lev",
         "desc": "A subordinant of Circ's Talons.\nSneaky and analytical.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Shaman",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 23,
-            "STR": 15,
-            "MAG": 16,
-            "SKL": 18,
-            "SPD": 18,
-            "LCK": 12,
-            "DEF": 10,
-            "RES": 13,
+            "HP": 20,
+            "STR": 12,
+            "MAG": 13,
+            "SKL": 15,
+            "SPD": 15,
+            "LCK": 9,
+            "DEF": 7,
+            "RES": 10,
             "CON": 5,
             "MOV": 5
         },
-        "growths": {},
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 70,
+            "SKL": 65,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 15,
+            "MOV": 0
+        },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
@@ -10970,6 +11085,10 @@
             [
                 "LeopardFang",
                 false
+            ],
+            [
+                "Secret Book",
+                true
             ]
         ],
         "learned_skills": [],
@@ -10984,6 +11103,48 @@
                 "Commander Vanguard{tgm}...{tgm} I{tgm}..."
             ]
         ]
+    },
+    {
+        "nid": "Alpin",
+        "name": "Alpin",
+        "desc": "A noble of Oregot.\n[]",
+        "variant": "",
+        "level": 1,
+        "klass": "Sage",
+        "tags": [],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 0,
+            "MAG": 75,
+            "SKL": 55,
+            "SPD": 70,
+            "LCK": 55,
+            "DEF": 35,
+            "RES": 50,
+            "CON": 10,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Divine",
+                false
+            ],
+            [
+                "Talisman",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Alpin",
+        "affinity": "Dark",
+        "fields": []
     },
     {
         "nid": "Celik",
@@ -11741,47 +11902,5 @@
                 "Ah{tgm}... N-No{tgm}..."
             ]
         ]
-    },
-    {
-        "nid": "KristaDream",
-        "name": "Krista",
-        "desc": "",
-        "variant": "",
-        "level": 1,
-        "klass": "Princess",
-        "tags": [],
-        "bases": {
-            "HP": 15,
-            "STR": 5,
-            "MAG": 2,
-            "SKL": 2,
-            "SPD": 5,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 4,
-            "CON": 5,
-            "MOV": 5
-        },
-        "growths": {},
-        "stat_cap_modifiers": {},
-        "starting_items": [],
-        "learned_skills": [],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                1,
-                null
-            ],
-            "Bow": [
-                false,
-                1,
-                null
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "KristaPast",
-        "affinity": "Anima",
-        "fields": []
     }
 ]

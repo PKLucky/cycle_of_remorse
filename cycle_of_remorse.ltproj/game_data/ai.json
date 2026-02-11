@@ -460,6 +460,44 @@
         "roam_ai": false
     },
     {
+        "nid": "Escape28x",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Event",
+                "target_spec": "escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Event",
+                "target_spec": "Seize",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
         "nid": "Ch0",
         "behaviours": [
             {
@@ -1417,18 +1455,62 @@
         "roam_ai": false
     },
     {
-        "nid": "Marina",
+        "nid": "MarinaA",
         "behaviours": [
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<white>Door</>",
+                "target_spec": "Door",
                 "view_range": -3,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": "game.level.nid == '7a'"
+                "condition": ""
             },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() <= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Forrest"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Krista"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "MarinaB",
+        "behaviours": [
             {
                 "action": "Support",
                 "target": "Ally",

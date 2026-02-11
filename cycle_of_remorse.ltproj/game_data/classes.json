@@ -270,7 +270,8 @@
             "DracoLordKrista"
         ],
         "tags": [
-            "ArenaIgnore"
+            "ArenaIgnore",
+            "Bow"
         ],
         "max_level": 20,
         "bases": {
@@ -3037,7 +3038,7 @@
     {
         "nid": "Soldier",
         "name": "Soldier",
-        "desc": "Average soldiers possessing\nno special abilities.",
+        "desc": "Average soldiers possessing no special abilities.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
@@ -5287,7 +5288,7 @@
     {
         "nid": "Fighter",
         "name": "Fighter",
-        "desc": "Ruffians with great strength but\npoor defense.",
+        "desc": "A well-rounded axe wielder.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
@@ -5423,7 +5424,9 @@
         "turns_into": [
             "Gladiator"
         ],
-        "tags": [],
+        "tags": [
+            "Bow"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 19,
@@ -5808,7 +5811,7 @@
     {
         "nid": "Brigand",
         "name": "Brigand",
-        "desc": "Ruffians with a strong offense but poor defense.",
+        "desc": "Ruffians with a strong offense but poor resistance.",
         "tier": 1,
         "movement_group": "Bandits",
         "promotes_from": null,
@@ -6351,7 +6354,9 @@
         "turns_into": [
             "Sniper"
         ],
-        "tags": [],
+        "tags": [
+            "Bow"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 22,
@@ -6473,14 +6478,16 @@
     {
         "nid": "Sniper",
         "name": "Sniper",
-        "desc": "Devotees of the bow. Possess incredible range.",
+        "desc": "Devotees of the bow. Possess incredible accuracy.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Archer",
         "turns_into": [
             "Ranger"
         ],
-        "tags": [],
+        "tags": [
+            "Bow"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 21,
@@ -7002,7 +7009,7 @@
     {
         "nid": "Bishop",
         "name": "Bishop",
-        "desc": "Mages gifted with visions of the future.",
+        "desc": "Mages gifted with the power of Light magic.",
         "tier": 2,
         "movement_group": "Mages",
         "promotes_from": "Monk",
@@ -8022,7 +8029,7 @@
                 251
             ]
         },
-        "icon_nid": null,
+        "icon_nid": "Generic_Portrait_Citizen",
         "icon_index": [
             0,
             0
@@ -8034,7 +8041,7 @@
     {
         "nid": "Shaman",
         "name": "Shaman",
-        "desc": "Impulsive mages with a tenous grasp on their magic.",
+        "desc": "Practicioners of long-forgotten arts.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -12108,7 +12115,7 @@
         "name": "Cart",
         "desc": "A horse-drawn carriage.",
         "tier": 1,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Light Cav",
         "promotes_from": null,
         "turns_into": [],
         "tags": [
@@ -12237,279 +12244,6 @@
             0
         ],
         "map_sprite_nid": "Supplier",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Tent",
-        "name": "Tent",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [
-            "Tile",
-            "ArenaIgnore"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 30,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 80,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 30,
-            "MAG": 30,
-            "SKL": 30,
-            "SPD": 80,
-            "LCK": 30,
-            "DEF": 30,
-            "RES": 30,
-            "CON": 20,
-            "MOV": 10
-        },
-        "learned_skills": [
-            [
-                1,
-                "NoAvoid"
-            ],
-            [
-                1,
-                "Void Curse"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                251
-            ],
-            "Lance": [
-                false,
-                0,
-                251
-            ],
-            "Axe": [
-                false,
-                0,
-                251
-            ],
-            "Bow": [
-                false,
-                0,
-                251
-            ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
-                false,
-                0,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Tent",
-        "combat_anim_nid": null,
-        "fields": []
-    },
-    {
-        "nid": "Phantom",
-        "name": "Phantom",
-        "desc": "A phantom summoned with dark magic.",
-        "tier": 1,
-        "movement_group": "Regular",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [
-            "ArenaIgnore"
-        ],
-        "max_level": 20,
-        "bases": {
-            "HP": 1,
-            "STR": 5,
-            "MAG": 5,
-            "SKL": 7,
-            "SPD": 4,
-            "LCK": 0,
-            "DEF": 7,
-            "RES": 7,
-            "CON": 10,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 0,
-            "CON": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "STR": 0,
-            "MOV": 0,
-            "MAG": 0,
-            "RES": 0,
-            "SPD": 0,
-            "SKL": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "CON": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "STR": 0,
-            "MOV": 0,
-            "MAG": 0,
-            "RES": 0,
-            "SPD": 0,
-            "SKL": 0
-        },
-        "promotion": {
-            "STR": 45,
-            "MAG": 45,
-            "SKL": 50,
-            "SPD": 35,
-            "LCK": 25,
-            "DEF": 50,
-            "RES": 50,
-            "CON": 10,
-            "MOV": 0,
-            "HP": 0
-        },
-        "max_stats": {
-            "HP": 1,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
-            "MOV": 15
-        },
-        "learned_skills": [
-            [
-                1,
-                "NoTrade"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                true,
-                491,
-                null
-            ],
-            "Lance": [
-                true,
-                491,
-                null
-            ],
-            "Axe": [
-                true,
-                491,
-                null
-            ],
-            "Bow": [
-                true,
-                491,
-                null
-            ],
-            "Staff": [
-                true,
-                491,
-                null
-            ],
-            "Light": [
-                true,
-                491,
-                null
-            ],
-            "Anima": [
-                true,
-                491,
-                null
-            ],
-            "Dark": [
-                true,
-                491,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                null
-            ]
-        },
-        "icon_nid": "Phantom (U) Axe {IS}",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Phantom",
         "combat_anim_nid": null,
         "fields": []
     },

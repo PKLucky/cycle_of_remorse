@@ -6492,8 +6492,8 @@
     },
     {
         "nid": "BroadheadBow",
-        "name": "Broadhead Bow",
-        "desc": "Effective against horseback units",
+        "name": "Hunter Bow",
+        "desc": "Effective against animals",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -6564,7 +6564,8 @@
                 {
                     "effective_tags": [
                         "Flying",
-                        "Horse"
+                        "Horse",
+                        "Shifter"
                     ],
                     "effective_multiplier": 3,
                     "effective_bonus_damage": 0,
@@ -14570,6 +14571,414 @@
         ]
     },
     {
+        "nid": "RageGauntlets",
+        "name": "Rage Gauntlets",
+        "desc": "Permanently raises Strength by 4 points and decreases Defense and Resistance by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            21
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        -2
+                    ],
+                    [
+                        "RES",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "FalseIdol",
+        "name": "False Idol",
+        "desc": "Permanently raises Magic by 4 points and decreases Luck and Resistance by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            22
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "LCK",
+                        -2
+                    ],
+                    [
+                        "RES",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "StrangeScroll",
+        "name": "Strange Scroll",
+        "desc": "Permanently raises Skill by 4 points and decreases Strength and Luck by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            23
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "SKL",
+                        4
+                    ],
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "LCK",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ZephyrBoots",
+        "name": "Zephyr Boots",
+        "desc": "Permanently raises Speed by 4 points and decreases Strength and Defense by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            24
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "SPD",
+                        4
+                    ],
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "DEF",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "CursedDice",
+        "name": "Cursed Dice",
+        "desc": "Permanently raises Luck by 4 points and decreases Magic and Skill by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            26
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "LCK",
+                        4
+                    ],
+                    [
+                        "MAG",
+                        -2
+                    ],
+                    [
+                        "SKL",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "TowerShield",
+        "name": "Tower Shield",
+        "desc": "Permanently raises Defense by 4 points and decreases Magic and Speed by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            25
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "DEF",
+                        4
+                    ],
+                    [
+                        "MAG",
+                        -2
+                    ],
+                    [
+                        "SPD",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                9000
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Sake",
         "name": "Sake",
         "desc": "Permanently raises Resistance by 4 points and decreases Skill and Speed by 2 points.",
@@ -14640,7 +15049,7 @@
     {
         "nid": "RainbowTonic",
         "name": "Rainbow tonic",
-        "desc": "Permanently raises all of the user's stats except HP, CON, and MOV by 1.",
+        "desc": "Permanently raises all of the user's <red>major stats</> by 1.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -14717,6 +15126,12 @@
                         "RES",
                         1
                     ]
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "MajorStats"
                 ]
             ]
         ]
@@ -15712,9 +16127,9 @@
         ]
     },
     {
-        "nid": "2000G",
-        "name": "2000G",
-        "desc": "2000 Gold",
+        "nid": "Gold",
+        "name": "Gold",
+        "desc": "",
         "icon_nid": "Valuable",
         "icon_index": [
             0,
@@ -15723,39 +16138,7 @@
         "components": [
             [
                 "value",
-                4000
-            ]
-        ]
-    },
-    {
-        "nid": "5000G",
-        "name": "5000G",
-        "desc": "5000 Gold",
-        "icon_nid": "Valuable",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "value",
-                10000
-            ]
-        ]
-    },
-    {
-        "nid": "7000G",
-        "name": "7000G",
-        "desc": "7000 Gold",
-        "icon_nid": "Valuable",
-        "icon_index": [
-            0,
-            3
-        ],
-        "components": [
-            [
-                "value",
-                14000
+                1
             ]
         ]
     },
@@ -16344,7 +16727,7 @@
         "desc": "Grant Def +3 to all adjacent allies for 1 turn.",
         "icon_nid": "Skills",
         "icon_index": [
-            15,
+            12,
             24
         ],
         "components": [
@@ -16579,65 +16962,9 @@
         ]
     },
     {
-        "nid": "DAMIAN_1",
-        "name": "Summon",
-        "desc": "Summons a phantom in exchange for 1000G and an optional weapon from the unit's inventory. The phantom will wield the chosen weapon (or an Iron Axe if none chosen) and will be the same level as the unit. Only one phantom can be summoned at a time.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            15,
-            51
-        ],
-        "components": [
-            [
-                "no_map_hp_display",
-                null
-            ],
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_tile",
-                null
-            ],
-            [
-                "empty_tile_target_restrict",
-                null
-            ],
-            [
-                "traversable_tile_target_restrict",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "exp",
-                11
-            ],
-            [
-                "hover_description",
-                "Summon a phantom in exchange for gold."
-            ],
-            [
-                "event_on_hit",
-                "Global RitualSummon"
-            ],
-            [
-                "eval_available",
-                "game.get_money() >= 1000 and (not u('Phantom') or game.check_dead('Phantom') == True)"
-            ]
-        ]
-    },
-    {
         "nid": "SANTIAGO",
         "name": "Grapple",
-        "desc": "Immobilizes both the unit and target. Target gets damaged each turn they're grappled.",
+        "desc": "Immobilizes both the unit and target. Target gets damaged each turn they're grappled.\n(Does not work on bosses.)",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -16662,7 +16989,7 @@
             ],
             [
                 "eval_target_restrict_2",
-                "'Tile' not in target.tags"
+                "'Tile' not in target.tags and 'Boss' not in target.tags"
             ],
             [
                 "exp",
