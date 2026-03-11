@@ -185,7 +185,7 @@
     ],
     [
         "battle_platforms",
-        true
+        false
     ],
     [
         "roam_hide_hp",
@@ -212,12 +212,16 @@
         true
     ],
     [
+        "enable_rating",
+        false
+    ],
+    [
         "show_abilities",
         false
     ],
     [
         "info_menu_blink",
-        true
+        false
     ],
     [
         "convoy_on_death",
@@ -297,7 +301,7 @@
     ],
     [
         "music_game_over",
-        "Game Over"
+        "Within Sadness"
     ],
     [
         "restart_phase_music",

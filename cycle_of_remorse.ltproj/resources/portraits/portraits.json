@@ -780,6 +780,18 @@
         "info_offset": 0
     },
     {
+        "nid": "TaylorShirtless",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Alex",
         "blinking_offset": [
             24,
@@ -798,7 +810,7 @@
             32
         ],
         "smiling_offset": [
-            16,
+            24,
             48
         ],
         "info_offset": 0
@@ -865,6 +877,18 @@
     },
     {
         "nid": "FelicityDream",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "FelicityNoHat",
         "blinking_offset": [
             24,
             32
@@ -1010,11 +1034,11 @@
     {
         "nid": "Cole",
         "blinking_offset": [
-            32,
+            24,
             32
         ],
         "smiling_offset": [
-            32,
+            24,
             48
         ],
         "info_offset": 0
@@ -1290,7 +1314,7 @@
             24
         ],
         "smiling_offset": [
-            16,
+            24,
             40
         ],
         "info_offset": 0
@@ -1302,7 +1326,19 @@
             24
         ],
         "smiling_offset": [
-            16,
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ErvanShirtless",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
             40
         ],
         "info_offset": 0
@@ -2149,6 +2185,42 @@
     },
     {
         "nid": "JudahShirtless",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolfgang",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Undine",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Shula",
         "blinking_offset": [
             24,
             24

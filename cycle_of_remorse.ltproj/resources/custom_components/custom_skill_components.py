@@ -45,21 +45,6 @@ class Degeneration(SkillComponent):
         actions.append(action.ChangeHP(unit, -hp_change))
         # Playback
         playback.append(pb.DamageNumbers(unit, hp_change))
-
-class EvalResist(SkillComponent):
-    nid = 'eval_resist'
-    desc = "Gives +X damage resist solved using evaluate"
-    tag = SkillTags.CUSTOM
-
-    expose = ComponentType.String
-
-    def modify_resist(self, unit, item_to_avoid):
-        from app.engine import evaluate
-        try:
-            return int(evaluate.evaluate(self.value, unit, local_args={'item_to_avoid': item_to_avoid}))
-        except Exception as e:
-            logging.error("Couldn't evaluate %s conditional (%s)", self.value, e)
-        return 0
     
 class AllyGainSkillAfterActiveKill(SkillComponent):
     nid = 'ally_gain_skill_after_active_kill'

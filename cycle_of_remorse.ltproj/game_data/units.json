@@ -140,6 +140,10 @@
             [
                 "DeathQuoteCh15",
                 "Aw, dammit. I thought I had that!"
+            ],
+            [
+                "Epitaph",
+                "Krista, Exiled Princess"
             ]
         ]
     },
@@ -288,6 +292,14 @@
             [
                 "PromoStatCap2",
                 "STR,5,DEF,6"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Forrest, Devoted Knight"
             ]
         ]
     },
@@ -437,6 +449,14 @@
             [
                 "PromoStatCap3",
                 "HP,1,STR,2,SKL,10,SPD,13,LCK,5"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Kai, Ninja on the Run"
             ]
         ]
     },
@@ -565,6 +585,14 @@
             [
                 "DeathQuoteCh15",
                 "That could have gone better."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Trevor, Verbose Mage"
             ]
         ]
     },
@@ -702,6 +730,14 @@
             [
                 "PromoStatCap3",
                 "HP,3,STR,18,SKL,3,SPD,5,DEF,6"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Chell, Motherly Flier"
             ]
         ]
     },
@@ -712,9 +748,7 @@
         "variant": "",
         "level": 1,
         "klass": "Brigand",
-        "tags": [
-            "Medean"
-        ],
+        "tags": [],
         "bases": {
             "HP": 30,
             "STR": 9,
@@ -838,6 +872,14 @@
             [
                 "PromoStatCap3",
                 "HP,20,STR,10,SKL,6,SPD,9"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Sam, Prowling Tiger"
             ]
         ]
     },
@@ -968,6 +1010,14 @@
             [
                 "PromoStatCap3",
                 "MAG,8,SKL,2,SPD,3,LCK,8,RES,13"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Aqua, Kind Priestess"
             ]
         ]
     },
@@ -1098,6 +1148,14 @@
             [
                 "PromoStatCap3",
                 "SKL,6,SPD,11,LCK,5"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Semi, Reformed Thief"
             ]
         ]
     },
@@ -1230,6 +1288,14 @@
             [
                 "PromoStatCap3",
                 "STR,11,SKL,2,SPD,11"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Taylor, Hearty Fighter"
             ]
         ]
     },
@@ -1367,6 +1433,14 @@
             [
                 "PromoStatCap3",
                 "STR,3,SKL,5,DEF,8,RES,12"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Alex, Curious Mind"
             ]
         ]
     },
@@ -1500,6 +1574,14 @@
             [
                 "PromoStatCap3",
                 "MAG,8,SPD,4,LCK,3,RES,2"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Lucy, Healing Light"
             ]
         ]
     },
@@ -1636,6 +1718,14 @@
             [
                 "PromoStatCap3",
                 "HP,4,MAG,13,SPD,3,DEF,19,RES,2"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Ecco, All That Glitters"
             ]
         ]
     },
@@ -1774,6 +1864,14 @@
             [
                 "PromoStatCap3",
                 "STR,8,SKL,1,SPD,5,RES,13"
+            ],
+            [
+                "EndQuote",
+                "{c:e;Anil;CloseEyes}.....{br}{c:e;Anil;NormalBlink}...!!"
+            ],
+            [
+                "Epitaph",
+                "Anil, Silent Sniper"
             ]
         ]
     },
@@ -1904,6 +2002,14 @@
             [
                 "PromoStatCap3",
                 "STR,7,SKL,5,DEF,11"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Michael, True Holy Knight"
             ]
         ]
     },
@@ -2043,6 +2149,14 @@
             [
                 "EscapeQuote",
                 "Heh, too easy."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Felicity, Playful Maid"
             ]
         ]
     },
@@ -2180,6 +2294,14 @@
             [
                 "PromoStatCap3",
                 "STR,9,RES,13"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Viola, Head in the Clouds"
             ]
         ]
     },
@@ -2313,6 +2435,14 @@
             [
                 "PromoStatCap3",
                 "MAG,9,SKL,5,SPD,5,RES,7"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Marina, Moon Maiden"
             ]
         ]
     },
@@ -2435,6 +2565,14 @@
             [
                 "PromoStatCap3",
                 "HP,4,STR,8,SKL,6,SPD,2,DEF,14"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Joshua, Hulking Gladiator"
             ]
         ]
     },
@@ -2570,6 +2708,14 @@
             [
                 "EscapeQuote",
                 "Exit stage left! Heh."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Azure, Graceful Step"
             ]
         ]
     },
@@ -2700,6 +2846,14 @@
             [
                 "EscapeQuote",
                 "Onwards to safety."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Rembrandt, Desert Wanderer"
             ]
         ]
     },
@@ -2822,6 +2976,14 @@
             [
                 "EscapeQuote",
                 "Hustle, hustle, let's go!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Anna, Expert in Arms"
             ]
         ]
     },
@@ -2943,6 +3105,14 @@
             [
                 "EscapeQuote",
                 "No lollygagging on my end!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Jake, Keen Eye"
             ]
         ]
     },
@@ -3088,6 +3258,14 @@
             [
                 "EscapeQuote",
                 "Let us depart."
+            ],
+            [
+                "EndQuote",
+                "Today, this finally ends."
+            ],
+            [
+                "Epitaph",
+                "Xiang, Draconic Oracle"
             ]
         ]
     },
@@ -3228,6 +3406,14 @@
             [
                 "EscapeQuote",
                 "And we're outta here!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Celeste, Righteous Warrior"
             ]
         ]
     },
@@ -3365,6 +3551,14 @@
             [
                 "EscapeQuote",
                 "Time to go."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Parker, Guiding Star"
             ]
         ]
     },
@@ -3507,6 +3701,14 @@
             [
                 "EscapeQuote",
                 "I'm on my way!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Cole, Ignited Flame"
             ]
         ]
     },
@@ -3639,6 +3841,14 @@
             [
                 "EscapeQuote",
                 "Come on, get a move on!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Ryuuji, Dragon Claw"
             ]
         ]
     },
@@ -3772,6 +3982,14 @@
             [
                 "EscapeQuote",
                 "I'm comin', guys!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Taiga, Tiger Fang"
             ]
         ]
     },
@@ -3902,6 +4120,14 @@
             [
                 "EscapeQuote",
                 "Don't leave me behind!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Haruki, Spearheading Youth"
             ]
         ]
     },
@@ -4036,6 +4262,14 @@
             [
                 "EscapeQuote",
                 "Yeesh, that was intense."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Taichi, Hometown Hero"
             ]
         ]
     },
@@ -4165,6 +4399,14 @@
             [
                 "EscapeQuote",
                 "Don't miss me too much~"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Yumi, Bouncy Promoter"
             ]
         ]
     },
@@ -4302,6 +4544,14 @@
             [
                 "EscapeQuote",
                 "Mission accomplished."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Lin, Soaring Mercenary"
             ]
         ]
     },
@@ -4438,6 +4688,14 @@
             [
                 "EscapeQuote",
                 "{c:e;Tsurugi;CloseEyes}*huff huff*{c:e;Tsurugi;HalfCloseEyes} Never again{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Tsurugi, Sentimental Soul"
             ]
         ]
     },
@@ -4571,6 +4829,14 @@
             [
                 "EscapeQuote",
                 "Wish we could've stuck around to kick more ass. Oh, well."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Khalid, Fiery Prince"
             ]
         ]
     },
@@ -4703,6 +4969,14 @@
             [
                 "EscapeQuote",
                 "No problems here. Let's go."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Reem, Passionate Heart"
             ]
         ]
     },
@@ -4833,6 +5107,14 @@
             [
                 "EscapeQuote",
                 "All in one piece."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Yukino, Gentle as Snow"
             ]
         ]
     },
@@ -4961,6 +5243,14 @@
             [
                 "EscapeQuote",
                 "A successful escape!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Masashi, Shot Through the Heart"
             ]
         ]
     },
@@ -5093,6 +5383,14 @@
             [
                 "EscapeQuote",
                 "O Great Merin, continue to bless us on our journey."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Hikaru, Pious Advisor"
             ]
         ]
     },
@@ -5116,7 +5414,7 @@
             "LCK": 2,
             "DEF": 14,
             "RES": 14,
-            "CON": 5,
+            "CON": 8,
             "MOV": 5
         },
         "growths": {
@@ -5226,6 +5524,14 @@
             [
                 "EscapeQuote",
                 "Final stretch? Good. Lemme rest up a bit."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Sumire, Restful Shield"
             ]
         ]
     },
@@ -5355,6 +5661,14 @@
             [
                 "EscapeQuote",
                 "And so I live another day."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Asuka, Emperor's Shadow"
             ]
         ]
     },
@@ -5480,6 +5794,14 @@
             [
                 "EscapeQuote",
                 "Move out!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Nagisa, Restless Tide"
             ]
         ]
     },
@@ -5611,6 +5933,14 @@
             [
                 "EscapeQuote",
                 "Oh, my{tgm}...{tgm} Thank goodness that's over."
+            ],
+            [
+                "EndQuote",
+                "{c:e;Tsubaki;CloseEyes}Father, everyone{tgm}...{c:e;Tsubaki;NormalBlink}{tgm} I'll end this suffering you've endured!"
+            ],
+            [
+                "Epitaph",
+                "Tsubaki, Budding Camellia"
             ]
         ]
     },
@@ -5625,14 +5955,14 @@
             "Canon"
         ],
         "bases": {
-            "HP": 29,
-            "STR": 17,
-            "MAG": 8,
-            "SKL": 16,
+            "HP": 30,
+            "STR": 14,
+            "MAG": 11,
+            "SKL": 15,
             "SPD": 15,
-            "LCK": 14,
-            "DEF": 17,
-            "RES": 13,
+            "LCK": 16,
+            "DEF": 14,
+            "RES": 14,
             "CON": 5,
             "MOV": 5
         },
@@ -5742,22 +6072,30 @@
             ],
             [
                 "PromoStatCap3",
-                "HP,4,STR,14,SKL,9,SPD,9,DEF,12"
+                "HP,11,SKL,7,SPD,7,DEF,10"
             ],
             [
                 "PromoStatCap2",
-                "STR,2"
+                "HP,8,SKL,6,SPD,5,DEF,8"
             ],
             [
                 "EscapeQuote",
                 "Come on! Move it!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Judah, Man of Duty"
             ]
         ]
     },
     {
         "nid": "Shula",
         "name": "Shula",
-        "desc": "A villager from Coral Desert.\nSerious, but has a soft side.",
+        "desc": "Villager from Coral Desert.\nSerious, but has a soft side.",
         "variant": "Female",
         "level": 1,
         "klass": "Archer",
@@ -5784,7 +6122,7 @@
             "CON": 15,
             "SKL": 55,
             "MOV": 0,
-            "DEF": 25,
+            "DEF": 20,
             "STR": 40,
             "MAG": 10
         },
@@ -5824,7 +6162,7 @@
         "wexp_gain": {
             "Bow": [
                 false,
-                241,
+                0,
                 null
             ],
             "Light": [
@@ -5844,23 +6182,35 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Woman2",
+        "portrait_nid": "Shula",
         "affinity": "Wind",
         "fields": [
             [
                 "PromoStatCap2",
-                "SKL,8,SPD,3"
+                "SKL,7,SPD,6"
             ],
             [
                 "EscapeQuote",
                 "Out of here!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Shula, Blazing Arrow"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,1,SKL,10,SPD,7"
             ]
         ]
     },
     {
         "nid": "Kiraz",
         "name": "Kiraz",
-        "desc": "A young girl from Coral Desert.\nOptimistic and a hard-worker.",
+        "desc": "Young girl from Coral Desert.\nOptimistic and a hard-worker.",
         "variant": "Female",
         "level": 1,
         "klass": "Shaman",
@@ -5882,13 +6232,13 @@
         },
         "growths": {
             "HP": 70,
-            "STR": 30,
+            "STR": 25,
             "MAG": 55,
-            "SKL": 45,
-            "SPD": 45,
-            "LCK": 30,
-            "DEF": 35,
-            "RES": 35,
+            "SKL": 40,
+            "SPD": 40,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 30,
             "CON": 15,
             "MOV": 0
         },
@@ -5932,12 +6282,12 @@
         "wexp_gain": {
             "Staff": [
                 false,
-                241,
+                0,
                 null
             ],
             "Dark": [
                 false,
-                241,
+                0,
                 null
             ]
         },
@@ -5951,15 +6301,23 @@
             ],
             [
                 "PromoStatCap3",
-                "HP,2,SKL,3"
+                "HP,7,SKL,3"
             ],
             [
                 "PromoStatCap2",
-                "HP,3,SKL,2"
+                "HP,2,SKL,3"
             ],
             [
                 "EscapeQuote",
                 "Come on, everyone! Let's go!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Kiraz, Wings of Fate"
             ]
         ]
     },
@@ -5991,9 +6349,9 @@
             "MAG": 5,
             "SKL": 50,
             "SPD": 45,
-            "LCK": 20,
+            "LCK": 15,
             "DEF": 40,
-            "RES": 30,
+            "RES": 25,
             "CON": 20,
             "MOV": 0
         },
@@ -6033,7 +6391,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                131,
+                0,
                 491
             ],
             "Lance": [
@@ -6043,7 +6401,7 @@
             ],
             "Axe": [
                 false,
-                241,
+                0,
                 491
             ],
             "Bow": [
@@ -6087,15 +6445,23 @@
             ],
             [
                 "PromoStatCap2",
-                "STR,7,SKL,2"
+                "STR,6,SKL,5,SPD,2,DEF,2"
             ],
             [
                 "PromoStatCap3",
-                "HP,3,STR,9,SKL,6,SPD,2"
+                "HP,4,STR,10,SKL,6,SPD,2,DEF,1"
             ],
             [
                 "EscapeQuote",
                 "Going, going, gone!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Torgen, Heart of Gold"
             ]
         ]
     },
@@ -6169,7 +6535,7 @@
             ],
             "Axe": [
                 false,
-                241,
+                0,
                 251
             ],
             "Bow": [
@@ -6209,15 +6575,23 @@
         "fields": [
             [
                 "PromoStatCap2",
-                "HP,1,STR,6,DEF,9"
+                "HP,1,STR,7,SKL,1,DEF,6"
             ],
             [
                 "PromoStatCap3",
-                "HP,6,STR,9,DEF,12"
+                "HP,7,STR,10,DEF,10"
             ],
             [
                 "EscapeQuote",
                 "*sigh* What a hassle{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Peter, Peaceful Hermit"
             ]
         ]
     },
@@ -6284,7 +6658,7 @@
             ],
             "Lance": [
                 false,
-                131,
+                0,
                 251
             ],
             "Axe": [
@@ -6294,7 +6668,7 @@
             ],
             "Bow": [
                 false,
-                241,
+                0,
                 251
             ],
             "Staff": [
@@ -6332,8 +6706,8 @@
                 "Alright, made it."
             ],
             [
-                "PromoStatCap2",
-                "STR,1"
+                "Epitaph",
+                "Ervan, In Mortis, Veritas"
             ]
         ]
     },
@@ -6343,32 +6717,32 @@
         "desc": "Knight of House Valoria.\nLoyal to a fault.",
         "variant": "",
         "level": 1,
-        "klass": "General",
+        "klass": "Knight",
         "tags": [
             "Medean"
         ],
         "bases": {
-            "HP": 10,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 13,
+            "HP": 25,
+            "STR": 9,
+            "MAG": 10,
+            "SKL": 13,
+            "SPD": 9,
+            "LCK": 9,
+            "DEF": 10,
+            "RES": 8,
+            "CON": 10,
             "MOV": 6
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 80,
+            "STR": 65,
+            "MAG": 10,
+            "SKL": 40,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 55,
+            "RES": 15,
+            "CON": 20,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -6407,12 +6781,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                241,
+                0,
                 971
             ],
             "Lance": [
                 false,
-                131,
+                0,
                 971
             ],
             "Axe": [
@@ -6462,6 +6836,22 @@
             [
                 "EscapeQuote",
                 "Sir Roman, reporting in! Escape successful!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Roman, Zealous Protector"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,1,STR,6,SKL,5"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,6,STR,9,SKL,4,DEF,3"
             ]
         ]
     },
@@ -6469,35 +6859,35 @@
         "nid": "Ella",
         "name": "Ella",
         "desc": "Knight of House Valoria.\nA go-getter who doesn't back down.",
-        "variant": "",
+        "variant": "Female",
         "level": 1,
-        "klass": "Swordmaster",
+        "klass": "Myrmidon",
         "tags": [
             "Female",
             "Medean"
         ],
         "bases": {
-            "HP": 10,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "HP": 19,
+            "STR": 10,
+            "MAG": 3,
+            "SKL": 12,
+            "SPD": 13,
+            "LCK": 10,
+            "DEF": 9,
+            "RES": 11,
+            "CON": 6,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "HP": 60,
+            "STR": 55,
+            "MAG": 25,
+            "SKL": 50,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 10,
+            "RES": 30,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -6532,7 +6922,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                241,
+                0,
                 971
             ],
             "Lance": [
@@ -6587,6 +6977,154 @@
             [
                 "EscapeQuote",
                 "Lady Ella, reporting in! Time to move!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Ella, Pushy Motivator"
+            ]
+        ]
+    },
+    {
+        "nid": "Aspis",
+        "name": "Aspis",
+        "desc": "A golem from a bygone era.\nOnce a guardian, now a warrior.",
+        "variant": "",
+        "level": 1,
+        "klass": "Knight",
+        "tags": [
+            "Circ"
+        ],
+        "bases": {
+            "HP": 14,
+            "STR": 9,
+            "MAG": 5,
+            "SKL": 7,
+            "SPD": 7,
+            "LCK": 5,
+            "DEF": 10,
+            "RES": 4,
+            "CON": 11,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 75,
+            "MAG": 50,
+            "SKL": 45,
+            "SPD": 25,
+            "LCK": 20,
+            "DEF": 40,
+            "RES": 15,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "WindSword",
+                false
+            ],
+            [
+                "Devil Axe",
+                false
+            ],
+            [
+                "GreatShield",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "ASPIS"
+            ],
+            [
+                1,
+                "Discipline"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                491
+            ],
+            "Lance": [
+                false,
+                0,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                491
+            ],
+            "Bow": [
+                false,
+                0,
+                491
+            ],
+            "Staff": [
+                false,
+                0,
+                491
+            ],
+            "Light": [
+                false,
+                0,
+                491
+            ],
+            "Anima": [
+                false,
+                0,
+                491
+            ],
+            "Dark": [
+                false,
+                0,
+                491
+            ],
+            "Default": [
+                false,
+                0,
+                491
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Estoc",
+        "affinity": "Light",
+        "fields": [
+            [
+                "DeathQuote",
+                "Losing{tgm}...{tgm} power{tgm}...."
+            ],
+            [
+                "EndQuote",
+                "I pray this will be the last time I will have to take up arms."
+            ],
+            [
+                "Epitaph",
+                "Aspis, Sword and Shield"
+            ],
+            [
+                "EscapeQuote",
+                "[HIGH-SPEED ESCAPE SEQUENCE ACTIVATED]"
             ]
         ]
     },
@@ -6601,26 +7139,26 @@
             "Shifter"
         ],
         "bases": {
-            "HP": 16,
-            "STR": 8,
-            "MAG": 3,
-            "SKL": 4,
+            "HP": 22,
+            "STR": 3,
+            "MAG": 9,
+            "SKL": 11,
             "SPD": 10,
-            "LCK": 8,
-            "DEF": 3,
-            "RES": 5,
+            "LCK": 12,
+            "DEF": 11,
+            "RES": 11,
             "CON": 5,
             "MOV": 5
         },
         "growths": {
             "HP": 80,
-            "STR": 55,
+            "STR": 60,
             "MAG": 15,
             "SKL": 40,
             "SPD": 25,
             "LCK": 20,
             "DEF": 45,
-            "RES": 25,
+            "RES": 30,
             "CON": 20,
             "MOV": 0
         },
@@ -6687,7 +7225,7 @@
             ],
             "Dark": [
                 false,
-                131,
+                0,
                 491
             ],
             "Default": [
@@ -6699,40 +7237,59 @@
         "alternate_classes": [],
         "portrait_nid": "Man2",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "I ain't{tgm}...{tgm} dying like this{tgm}...!"
+            ],
+            [
+                "EndQuote",
+                "I'm fired up now! Let's beat these guys to a pulp!"
+            ],
+            [
+                "Epitaph",
+                "Tora, Prideful Tiger"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,5,STR,1,SKL,2,DEF,4"
+            ],
+            [
+                "EscapeQuote",
+                "Man, do we gotta retreat? Alright, alright."
+            ]
+        ]
     },
     {
-        "nid": "Estoc",
-        "name": "Estoc",
-        "desc": "A golem from a bygone era.\nOnce a warrior, now a guardian.",
+        "nid": "Santiago",
+        "name": "Santiago",
+        "desc": "A bishop of the Order of Oreg.\nA stern, quiet individual.",
         "variant": "",
         "level": 1,
-        "klass": "Knight",
-        "tags": [
-            "Circ"
-        ],
+        "klass": "Cleric",
+        "tags": [],
         "bases": {
-            "HP": 1,
+            "HP": 21,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "MAG": 13,
+            "SKL": 10,
+            "SPD": 7,
+            "LCK": 12,
+            "DEF": 5,
+            "RES": 4,
+            "CON": 7,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
+            "HP": 80,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
+            "MAG": 45,
+            "SKL": 45,
+            "SPD": 30,
+            "LCK": 50,
+            "DEF": 40,
+            "RES": 25,
+            "CON": 15,
             "MOV": 0
         },
         "stat_cap_modifiers": {
@@ -6749,114 +7306,18 @@
         },
         "starting_items": [
             [
-                "Brave Sword",
+                "Divine",
+                false
+            ],
+            [
+                "Recover",
+                false
+            ],
+            [
+                "Goddess Icon",
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "ESTOC"
-            ]
-        ],
-        "unit_notes": [],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                131,
-                491
-            ],
-            "Lance": [
-                false,
-                0,
-                491
-            ],
-            "Axe": [
-                false,
-                1,
-                491
-            ],
-            "Bow": [
-                false,
-                0,
-                491
-            ],
-            "Staff": [
-                false,
-                0,
-                491
-            ],
-            "Light": [
-                false,
-                0,
-                491
-            ],
-            "Anima": [
-                false,
-                0,
-                491
-            ],
-            "Dark": [
-                false,
-                0,
-                491
-            ],
-            "Default": [
-                false,
-                0,
-                491
-            ]
-        },
-        "alternate_classes": [],
-        "portrait_nid": "Estoc",
-        "affinity": "Light",
-        "fields": []
-    },
-    {
-        "nid": "Santiago",
-        "name": "Santiago",
-        "desc": "A bishop of the Order of Oreg.\nA stern, quiet individual.",
-        "variant": "",
-        "level": 1,
-        "klass": "Bishop",
-        "tags": [],
-        "bases": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 14,
-            "MOV": 5
-        },
-        "growths": {
-            "HP": 65,
-            "STR": 35,
-            "MAG": 50,
-            "SKL": 45,
-            "SPD": 30,
-            "LCK": 40,
-            "DEF": 40,
-            "RES": 40,
-            "CON": 15,
-            "MOV": 0
-        },
-        "stat_cap_modifiers": {
-            "MOV": 0,
-            "STR": 0,
-            "MAG": 0,
-            "CON": 0,
-            "DEF": 0,
-            "SKL": 0,
-            "RES": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "HP": 0
-        },
-        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -6914,7 +7375,32 @@
         "alternate_classes": [],
         "portrait_nid": "Man3",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Great Oreg, have mercy on this humble soul{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Santiago, Iron Grip"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,1,SKL,2,LCK,5"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,9,SKL,3,LCK,4"
+            ],
+            [
+                "EscapeQuote",
+                "May the Great Oreg grant us safety."
+            ]
+        ]
     },
     {
         "nid": "Bryant",
@@ -6922,50 +7408,55 @@
         "desc": "King of Medeas.\nA ruler with a strong sense of righteousness.",
         "variant": "",
         "level": 1,
-        "klass": "DreadFighter",
+        "klass": "Mercenary",
         "tags": [
             "Medean",
-            "Medea"
+            "Medea",
+            "Canon"
         ],
         "bases": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
+            "SPD": 11,
+            "DEF": 13,
+            "MAG": 7,
+            "RES": 9,
             "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
+            "LCK": 8,
+            "SKL": 13,
+            "STR": 5,
             "CON": 0,
-            "HP": 1
+            "HP": 23
         },
         "growths": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
+            "SPD": 40,
+            "DEF": 35,
+            "MAG": 10,
+            "RES": 15,
             "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
+            "LCK": 45,
+            "SKL": 35,
+            "STR": 50,
+            "CON": 15,
+            "HP": 70
         },
         "stat_cap_modifiers": {
-            "SPD": 0,
-            "DEF": 0,
+            "SPD": 3,
+            "DEF": 1,
             "MAG": 0,
             "RES": 0,
             "MOV": 0,
             "LCK": 0,
-            "SKL": 0,
+            "SKL": 2,
             "STR": 0,
             "CON": 0,
-            "HP": 0
+            "HP": 4
         },
         "starting_items": [
             [
-                "MedeasTooth",
+                "Silver Blade",
+                false
+            ],
+            [
+                "Hammer",
                 false
             ]
         ],
@@ -6979,61 +7470,85 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                361,
+                0,
                 null
             ],
             "Axe": [
                 false,
-                241,
+                0,
                 null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Bryant",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Argh, no{tgm}...!{tgm} I have to fall back!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Bryant, Golden Monarch"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,1,SKL2,SPD,1,DEF,1"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,4,SKL,2,SPD,3,DEF,1"
+            ]
+        ]
     },
     {
         "nid": "Thalia",
         "name": "Thalia",
-        "desc": "Queen of Merinas.\nA ruler with an aura of serenity and grace.",
+        "desc": "Queen of Medeas.\nA ruler with an aura of serenity and grace.",
         "variant": "Female",
         "level": 1,
-        "klass": "HolyKnight",
-        "tags": [],
+        "klass": "Troubadour",
+        "tags": [
+            "Female",
+            "Canon"
+        ],
         "bases": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
+            "SPD": 11,
+            "DEF": 9,
+            "MAG": 13,
+            "RES": 11,
             "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
+            "LCK": 15,
+            "SKL": 12,
+            "STR": 10,
             "CON": 0,
-            "HP": 1
+            "HP": 20
         },
         "growths": {
-            "SPD": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "RES": 0,
+            "SPD": 35,
+            "DEF": 15,
+            "MAG": 45,
+            "RES": 30,
             "MOV": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "CON": 0,
-            "HP": 0
+            "LCK": 35,
+            "SKL": 40,
+            "STR": 40,
+            "CON": 10,
+            "HP": 60
         },
         "stat_cap_modifiers": {
-            "SPD": 0,
+            "SPD": 2,
             "DEF": 0,
-            "MAG": 0,
+            "MAG": 2,
             "RES": 0,
             "MOV": 0,
             "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
+            "SKL": 2,
+            "STR": 4,
             "CON": 0,
             "HP": 0
         },
@@ -7044,6 +7559,10 @@
             ],
             [
                 "Rapier",
+                false
+            ],
+            [
+                "Fortify",
                 false
             ]
         ],
@@ -7057,24 +7576,45 @@
         "wexp_gain": {
             "Staff": [
                 false,
-                241,
+                0,
                 null
             ],
             "Light": [
                 false,
-                361,
+                0,
                 null
             ],
             "Sword": [
                 false,
-                131,
+                0,
                 null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Thalia",
         "affinity": "Light",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "I apologize{tgm}...{tgm} I must withdraw{tgm}...!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Thalia, Light Bearer"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,1,SKL,3,SPD,1,LCK,3"
+            ],
+            [
+                "PromoStatCap3",
+                "STR,4,MAG,2,SKL,2,SPD,2,LCK,0"
+            ]
+        ]
     },
     {
         "nid": "Damien",
@@ -7082,31 +7622,31 @@
         "desc": "A scholar who is an expert on the Great Beasts.\nWell-read, but surprisingly clumsy.",
         "variant": "",
         "level": 1,
-        "klass": "Drake",
+        "klass": "Shaman",
         "tags": [
             "Shifter"
         ],
         "bases": {
-            "HP": 45,
-            "STR": 24,
-            "MAG": 27,
-            "SKL": 26,
-            "SPD": 29,
-            "LCK": 23,
-            "DEF": 26,
-            "RES": 25,
+            "HP": 29,
+            "STR": 17,
+            "MAG": 11,
+            "SKL": 7,
+            "SPD": 8,
+            "LCK": 9,
+            "DEF": 16,
+            "RES": 10,
             "CON": 8,
-            "MOV": 7
+            "MOV": 5
         },
         "growths": {
-            "HP": 65,
-            "STR": 20,
-            "MAG": 65,
-            "SKL": 45,
-            "SPD": 40,
-            "LCK": 25,
-            "DEF": 25,
-            "RES": 55,
+            "HP": 60,
+            "STR": 15,
+            "MAG": 60,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 50,
             "CON": 10,
             "MOV": 0
         },
@@ -7124,11 +7664,11 @@
         },
         "starting_items": [
             [
-                "Fenrir",
+                "Faust",
                 false
             ],
             [
-                "Rotten Claw",
+                "Elixir",
                 false
             ]
         ],
@@ -7177,7 +7717,7 @@
             ],
             "Dark": [
                 false,
-                361,
+                0,
                 251
             ],
             "Default": [
@@ -7193,6 +7733,26 @@
             [
                 "DeathQuote",
                 "Ha{tgm}...{tgm} It was only a matter of time{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "May we see victory today, friends. The world depends on it!"
+            ],
+            [
+                "Epitaph",
+                "Damien, Clumsy Alchemist"
+            ],
+            [
+                "EscapeQuote",
+                "You all actually waited for me?{c:e;Damien;CloseEyes,Smile} What a blessing{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "HP,5,RES,6"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,8,RES,6"
             ]
         ]
     },
@@ -7323,6 +7883,14 @@
             [
                 "EscapeQuote",
                 "Let's just slip on through here{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Matthew, Faithful Spy"
             ]
         ]
     },
@@ -7388,17 +7956,17 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                131,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                361,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                31,
+                0,
                 251
             ],
             "Bow": [
@@ -7451,6 +8019,14 @@
             [
                 "EscapeQuote",
                 "Forward, everyone!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Altena, Luminous Rider"
             ]
         ]
     },
@@ -7463,16 +8039,16 @@
         "klass": "Mercenary",
         "tags": [],
         "bases": {
-            "HP": 61,
-            "STR": 30,
-            "MAG": 4,
-            "SKL": 34,
-            "SPD": 23,
-            "LCK": 20,
-            "DEF": 28,
-            "RES": 8,
-            "CON": 0,
-            "MOV": 0
+            "HP": 18,
+            "STR": 12,
+            "MAG": 8,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 9,
+            "DEF": 12,
+            "RES": 10,
+            "CON": 6,
+            "MOV": 5
         },
         "growths": {
             "HP": 105,
@@ -7569,6 +8145,18 @@
             [
                 "DeathQuote",
                 "Easy come{tgm}...{tgm} easy go{tgm}...{tgm} It was{tgm}...{tgm} a good ride{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Gregor, Swell Sword"
+            ],
+            [
+                "EscapeQuote",
+                "New Value"
             ]
         ]
     },
@@ -10506,7 +11094,7 @@
         },
         "starting_items": [
             [
-                "Purge",
+                "Gleam",
                 false
             ],
             [
@@ -10658,7 +11246,7 @@
         "desc": "Leader of the Crag Claw Bandits.\nA bandit desperate for riches and glory.",
         "variant": "",
         "level": 1,
-        "klass": "Brigand",
+        "klass": "GriffonRider",
         "tags": [
             "Boss"
         ],
@@ -10708,7 +11296,7 @@
                 false
             ],
             [
-                "GreatShield",
+                "WingShield",
                 true
             ]
         ],
@@ -10817,7 +11405,7 @@
                 false
             ],
             [
-                "Dragonshield",
+                "MasterCrown",
                 false
             ]
         ],
@@ -10856,7 +11444,7 @@
             ],
             "Axe": [
                 false,
-                241,
+                0,
                 null
             ]
         },
@@ -10873,7 +11461,7 @@
     {
         "nid": "Sven",
         "name": "Sven",
-        "desc": "Soromir's subordinate.\nCunning and loyal to his liege.",
+        "desc": "A follower of Circ.\nCunning and loyal to Circ's Talons.",
         "variant": "",
         "level": 1,
         "klass": "Myrmidon",
@@ -10936,19 +11524,14 @@
             ],
             "Sword": [
                 false,
-                361,
+                0,
                 null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Sven",
         "affinity": "Dark",
-        "fields": [
-            [
-                "DeathQuote",
-                "Lady Soromir{tgm}..."
-            ]
-        ]
+        "fields": []
     },
     {
         "nid": "Archie",
@@ -10957,7 +11540,9 @@
         "variant": "",
         "level": 1,
         "klass": "Fighter",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 1
         },
@@ -10999,11 +11584,13 @@
     {
         "nid": "Narcisse",
         "name": "Narcisse",
-        "desc": "A merchant from Oregot.\nHaughty and cunning.",
+        "desc": "A merchant from Oregot.\nSharp-tongued and haughty.",
         "variant": "Female",
         "level": 1,
         "klass": "Mage",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 1
         },
@@ -11110,10 +11697,14 @@
         "desc": "A noble of Oregot.\n[]",
         "variant": "",
         "level": 1,
-        "klass": "Sage",
-        "tags": [],
+        "klass": "Mage",
+        "tags": [
+            "Boss"
+        ],
         "bases": {
-            "HP": 1
+            "HP": 1,
+            "MOV": 5,
+            "CON": 6
         },
         "growths": {
             "HP": 80,
@@ -11130,7 +11721,11 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Divine",
+                "Purge",
+                false
+            ],
+            [
+                "Elwind",
                 false
             ],
             [
@@ -11143,13 +11738,59 @@
         "wexp_gain": {},
         "alternate_classes": [],
         "portrait_nid": "Alpin",
-        "affinity": "Dark",
+        "affinity": "Wind",
+        "fields": []
+    },
+    {
+        "nid": "Wolfgang",
+        "name": "Wolfgang",
+        "desc": "Leader of the Tigerfang Gang.\n[]",
+        "variant": "",
+        "level": 1,
+        "klass": "Fighter",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 1,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 65,
+            "MAG": 0,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 40,
+            "DEF": 65,
+            "RES": 40,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Killer Axe",
+                false
+            ],
+            [
+                "Energy Ring",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Wolfgang",
+        "affinity": "Fire",
         "fields": []
     },
     {
         "nid": "Celik",
         "name": "Celik",
-        "desc": "Head of the Oregotian Council.",
+        "desc": "Head of the Oregotian Council.\nRighteous but hot-headed.",
         "variant": "",
         "level": 1,
         "klass": "GriffonRider",
@@ -11158,9 +11799,22 @@
             "Oreg"
         ],
         "bases": {
-            "HP": 1
+            "HP": 1,
+            "MOV": 7,
+            "CON": 7
         },
-        "growths": {},
+        "growths": {
+            "HP": 80,
+            "STR": 55,
+            "MAG": 50,
+            "SKL": 55,
+            "SPD": 55,
+            "LCK": 25,
+            "DEF": 45,
+            "RES": 45,
+            "CON": 20,
+            "MOV": 0
+        },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
@@ -11209,7 +11863,7 @@
     {
         "nid": "Silvia",
         "name": "Silvia",
-        "desc": "Head of Domestic Affairs of the Oregotian Council.",
+        "desc": "Head of Domestic Affairs of the Oregotian Council.\nLoyal to those she holds dear.",
         "variant": "Female",
         "level": 1,
         "klass": "Myrmidon",
@@ -11218,9 +11872,22 @@
             "Female"
         ],
         "bases": {
-            "HP": 1
+            "HP": 1,
+            "CON": 6,
+            "MOV": 5
         },
-        "growths": {},
+        "growths": {
+            "HP": 80,
+            "STR": 60,
+            "MAG": 40,
+            "SKL": 50,
+            "SPD": 55,
+            "LCK": 40,
+            "DEF": 45,
+            "RES": 40,
+            "CON": 15,
+            "MOV": 0
+        },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
@@ -11245,7 +11912,7 @@
     {
         "nid": "Demir",
         "name": "Demir",
-        "desc": "Treasurer of the Oregotian Council.",
+        "desc": "Treasurer of the Oregotian Council.\nA prudent man.",
         "variant": "",
         "level": 1,
         "klass": "Cleric",
@@ -11253,9 +11920,22 @@
             "Boss"
         ],
         "bases": {
-            "HP": 1
+            "HP": 1,
+            "CON": 6,
+            "MOV": 5
         },
-        "growths": {},
+        "growths": {
+            "HP": 65,
+            "STR": 0,
+            "MAG": 60,
+            "SKL": 45,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 55,
+            "CON": 15,
+            "MOV": 0
+        },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
@@ -11340,8 +12020,12 @@
         },
         "starting_items": [
             [
-                "Brave Lance",
+                "Spear",
                 false
+            ],
+            [
+                "MasterCrown",
+                true
             ]
         ],
         "learned_skills": [],
@@ -11399,6 +12083,51 @@
         "fields": []
     },
     {
+        "nid": "Undine",
+        "name": "Undine",
+        "desc": "A follower of Circ.\n[]",
+        "variant": "",
+        "level": 1,
+        "klass": "Shaman",
+        "tags": [
+            "Boss",
+            "Female"
+        ],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 70,
+            "SKL": 65,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Luna",
+                false
+            ],
+            [
+                "Bolting",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Undine",
+        "affinity": "Ice",
+        "fields": []
+    },
+    {
         "nid": "Milo",
         "name": "Milo",
         "desc": "Member of Circ's Talons.\nA sly assassin with a lax personality.",
@@ -11450,6 +12179,10 @@
             [
                 "AssassinEdge",
                 false
+            ],
+            [
+                "SilverLongbow",
+                false
             ]
         ],
         "learned_skills": [],
@@ -11472,7 +12205,7 @@
             ],
             "Bow": [
                 false,
-                131,
+                361,
                 971
             ],
             "Staff": [
@@ -11509,7 +12242,7 @@
     {
         "nid": "Soromir",
         "name": "Soromir",
-        "desc": "Head of Circ's Talons.",
+        "desc": "Head of Circ's Talons.\nA intellectual woman with ambitious goals.",
         "variant": "Female",
         "level": 1,
         "klass": "Mage",
@@ -11554,7 +12287,20 @@
             "DEF": 14,
             "LCK": 2
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Fenrir",
+                false
+            ],
+            [
+                "Fimbulvetr",
+                false
+            ],
+            [
+                "Berserk",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -11580,7 +12326,7 @@
             ],
             "Staff": [
                 false,
-                131,
+                241,
                 971
             ],
             "Light": [

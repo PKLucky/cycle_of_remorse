@@ -386,7 +386,7 @@
                 "condition": ""
             }
         ],
-        "priority": 21,
+        "priority": 19,
         "offense_bias": 2.0,
         "roam_ai": false
     },
@@ -2302,7 +2302,7 @@
                     "Tag",
                     "Tile"
                 ],
-                "view_range": -2,
+                "view_range": -3,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -2363,6 +2363,47 @@
         ],
         "priority": 20,
         "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Ch32Pursue",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Name",
+                    "Damien"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount < 4"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "game.turncount < 4"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
         "roam_ai": false
     }
 ]

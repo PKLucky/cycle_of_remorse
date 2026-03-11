@@ -24,7 +24,7 @@
         ],
         "minimap": "Wall",
         "platform": "Wall",
-        "background": "battleDesert",
+        "background": "battleVillage",
         "mtype": "Fence",
         "opaque": false,
         "status": null
@@ -354,7 +354,7 @@
         ],
         "minimap": "Shop",
         "platform": "Arena",
-        "background": "Arena",
+        "background": "combat_arena",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"

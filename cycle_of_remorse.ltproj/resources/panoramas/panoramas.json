@@ -240,7 +240,7 @@
         1
     ],
     [
-        "Arena",
+        "combat_arena",
         1
     ],
     [
@@ -453,6 +453,10 @@
     ],
     [
         "ArenaStands",
+        1
+    ],
+    [
+        "GradoCastleNight",
         1
     ]
 ]

@@ -429,42 +429,6 @@
         ]
     },
     {
-        "nid": "NoTrade",
-        "name": "NoTrade",
-        "desc": "Cannot trade with this unit.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            6,
-            16
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "cannot_trade",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Transform",
-        "name": "Transform",
-        "desc": "Shift between anthropomorphic and bestial forms.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            9,
-            31
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ]
-        ]
-    },
-    {
         "nid": "Shrapnel",
         "name": "Shrapnel",
         "desc": "When using a Ballista, all enemies adjacent to the target also take damage.",
@@ -527,8 +491,32 @@
                 "unit.get_hp() < unit.get_max_hp()"
             ],
             [
-                "eval_resist",
-                "unit.get_max_hp() * 0.1"
+                "resist_multiplier",
+                0.9
+            ]
+        ]
+    },
+    {
+        "nid": "WindResistance",
+        "name": "Wind Resistance",
+        "desc": "Unit takes half damage from Wind magic.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            27
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "combat_condition",
+                "'Wind' in target.get_weapon().tags"
             ]
         ]
     },
@@ -821,72 +809,6 @@
         ]
     },
     {
-        "nid": "Transformed",
-        "name": "Transformed",
-        "desc": "Grants STR +12, SKL +12, DEF +15, RES +20.",
-        "icon_nid": "Neutral",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        12
-                    ],
-                    [
-                        "SKL",
-                        12
-                    ],
-                    [
-                        "DEF",
-                        15
-                    ],
-                    [
-                        "RES",
-                        20
-                    ]
-                ]
-            ],
-            [
-                "hidden",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Stoneskin",
-        "name": "Stoneskin",
-        "desc": "Take half damage but inflicts -2 SPD.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            1,
-            53
-        ],
-        "components": [
-            [
-                "time",
-                4
-            ],
-            [
-                "resist_multiplier",
-                0.5
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "SPD",
-                        -4
-                    ]
-                ]
-            ]
-        ]
-    },
-    {
         "nid": "Stunned",
         "name": "Stunned",
         "desc": "Unit cannot act.",
@@ -934,6 +856,14 @@
             [
                 "end_time",
                 1
+            ],
+            [
+                "combat_flickering_tint",
+                [
+                    255,
+                    255,
+                    255
+                ]
             ]
         ]
     },
@@ -989,64 +919,13 @@
                     104,
                     163
                 ]
-            ]
-        ]
-    },
-    {
-        "nid": "Petrify",
-        "name": "Petrify",
-        "desc": "Unit is petrified. Cannot avoid enemy attacks and suffers Avo -30.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            53
-        ],
-        "components": [
-            [
-                "time",
-                5
             ],
             [
-                "unselectable",
-                null
-            ],
-            [
-                "stat_change",
+                "combat_flickering_tint",
                 [
-                    [
-                        "MOV",
-                        -99
-                    ]
-                ]
-            ],
-            [
-                "cannot_use_items",
-                null
-            ],
-            [
-                "negative",
-                null
-            ],
-            [
-                "avoid",
-                -1000
-            ],
-            [
-                "crit_avoid",
-                -30
-            ],
-            [
-                "unit_flickering_tint",
-                [
-                    65,
-                    65,
-                    65
-                ]
-            ],
-            [
-                "has_tags",
-                [
-                    "Negative"
+                    77,
+                    104,
+                    163
                 ]
             ]
         ]
@@ -1085,6 +964,14 @@
             ],
             [
                 "unit_flickering_tint",
+                [
+                    141,
+                    56,
+                    141
+                ]
+            ],
+            [
+                "combat_flickering_tint",
                 [
                     141,
                     56,
@@ -1131,6 +1018,14 @@
                 "has_tags",
                 [
                     "Negative"
+                ]
+            ],
+            [
+                "combat_flickering_tint",
+                [
+                    241,
+                    16,
+                    16
                 ]
             ]
         ]
@@ -1194,7 +1089,7 @@
     {
         "nid": "Torch",
         "name": "Torch",
-        "desc": "Grants increased sight range in fog of war. Bonus sight range decreases per turn.",
+        "desc": "Grants increased sight range in Fog of War. Bonus sight range decreases per turn.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -1250,7 +1145,7 @@
     {
         "nid": "RaisedMorale",
         "name": "Raised Morale",
-        "desc": "Grants +2 to all stats except HP, Con, and Mov until the end of the chapter.",
+        "desc": "Grants +2 to all <red>major stats</> until the end of the chapter.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -1292,6 +1187,12 @@
                         "RES",
                         2
                     ]
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "MajorStats"
                 ]
             ]
         ]
@@ -1342,7 +1243,7 @@
             ],
             [
                 "condition",
-                "'Medea' not in unit.tags and 'Foliaga' not in unit.tags and 'Merin' not in unit.tags and 'Fueg' not in unit.tags and 'Oreg' not in unit.tags and 'Circ' not in unit.tags and 'Shifter' not in unit.tags"
+                "('Medea' not in unit.tags and 'Foliaga' not in unit.tags and 'Merin' not in unit.tags and 'Fueg' not in unit.tags and 'Oreg' not in unit.tags and 'Circ' not in unit.tags and 'Shifter' not in unit.tags) and unit.faction not in ['Circ','Circ1']"
             ],
             [
                 "hidden",
@@ -1603,6 +1504,54 @@
             [
                 "item_override",
                 "FireOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "ThunderOverride",
+        "name": "ThunderOverride",
+        "desc": "(Lets Thunder magic swords count as Thunder magic damage at range.)",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_override",
+                "ThunderOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "WindOverride",
+        "name": "WindOverride",
+        "desc": "(Lets Wind magic swords count as Wind magic damage at range.)",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "item_override",
+                "WindOverride"
             ],
             [
                 "combat_condition",
@@ -2152,10 +2101,6 @@
                 null
             ],
             [
-                "eval_resist",
-                "2 * unit_funcs.check_focus(unit,1)"
-            ],
-            [
                 "aura",
                 "ALEX_CHILD"
             ],
@@ -2182,12 +2127,7 @@
             12,
             52
         ],
-        "components": [
-            [
-                "eval_resist",
-                "2 * unit_funcs.check_focus(u('Alex'),1)"
-            ]
-        ]
+        "components": []
     },
     {
         "nid": "LUCY",
@@ -2371,7 +2311,7 @@
     {
         "nid": "MARINA",
         "name": "Hastening Dance",
-        "desc": "<red>(Refresh all adjacent)</> Grants targets +1 Mov for one turn.",
+        "desc": "<red>Refresh</> all adjacent allies and grants targets +1 Mov for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -2442,7 +2382,7 @@
     {
         "nid": "AZURE",
         "name": "Spectrum Dance",
-        "desc": "<red>(Refresh all adjacent)</> Grants targets +2 to all <red>major stats</> for one turn.",
+        "desc": "<red>Refresh</> all adjacent allies and grants targets +2 to all <red>major stats</> for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2474,7 +2414,7 @@
     {
         "nid": "AZURE_CHILD",
         "name": "Spectrum <red>(Azure)</>",
-        "desc": "Grants +2 in all <red>major stats</> for one turn.",
+        "desc": "Grants +2 to all <red>major stats</> for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -2824,7 +2764,7 @@
     {
         "nid": "TAIGA_CHILD",
         "name": "Gamble",
-        "desc": "When activated, grants Crit +20 and Hit -10 to unit for one round of combat.",
+        "desc": "Grants Crit +20 and Hit -10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -3392,6 +3332,16 @@
             [
                 "end_time",
                 1
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Negative"
+                ]
             ]
         ]
     },
@@ -3526,7 +3476,7 @@
     {
         "nid": "KIRAZ",
         "name": "Wild Magic",
-        "desc": "Grants +5 to either Mag, Skl, Spd, Luk, Def, or Res or +10 to either Hit, Avo, or Crit at the start of each turn.",
+        "desc": "Grants +5 to any <red>major stat</> or +10 to Hit, Avo, or Crit at the start of each turn.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3577,6 +3527,12 @@
             [
                 "eval_crit",
                 "10 if v('kirazSkill') == 8 else 0"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "MajorStats"
+                ]
             ]
         ]
     },
@@ -3591,19 +3547,15 @@
         ],
         "components": [
             [
-                "hidden_if_inactive",
-                null
-            ],
-            [
                 "condition",
-                "game.level_vars['kirazSkill'] >= 0 and game.turncount > 0"
+                "v('kirazSkill') >= 0"
             ]
         ]
     },
     {
         "nid": "ERVAN",
         "name": "Authority",
-        "desc": "Grants all allied units Hit/Avo +5 for each enemy this unit kills. (Max. Hit/Avo +25)",
+        "desc": "After defeating a foe, grants all allied units Hit/Avo +5. (Max. Hit/Avo +25)",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -3612,50 +3564,6 @@
         "components": [
             [
                 "class_skill",
-                null
-            ],
-            [
-                "gain_skill_after_kill",
-                "ERVAN_AURA"
-            ]
-        ]
-    },
-    {
-        "nid": "ERVAN_AURA",
-        "name": "Authority",
-        "desc": "Hit/Avo +5 per stack.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            7,
-            45
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "stack",
-                5
-            ],
-            [
-                "aura",
-                "ERVAN_CHILD"
-            ],
-            [
-                "aura_range",
-                99
-            ],
-            [
-                "aura_target",
-                "ally"
-            ],
-            [
-                "lost_on_end_chapter",
-                null
-            ],
-            [
-                "hide_aura",
                 null
             ]
         ]
@@ -3760,7 +3668,7 @@
     },
     {
         "nid": "ROMAN_STATUS",
-        "name": "Provoke",
+        "name": "Provoke <red>(Status)</>",
         "desc": "Enemies are more likely to attack this unit.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3804,7 +3712,7 @@
     },
     {
         "nid": "ELLA_STATUS",
-        "name": "Forward! <red>(Melanie)</>",
+        "name": "Forward! <red>(Ella)</>",
         "desc": "Grants Dmg dealt +5 and Dmg taken -5.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3823,6 +3731,88 @@
             [
                 "lost_on_upkeep",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "TORA",
+        "name": "Domination",
+        "desc": "Unit deals Dmg +5 if unit's Str >= target's Str.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            13,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('STR') >= target.get_stat('STR')"
+            ],
+            [
+                "damage",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "ASPIS",
+        "name": "Rampart",
+        "desc": "<red>(Aura, allies at 50% or less HP)</> Grants Dmg taken -10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            22
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "ASPIS_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "ASPIS_CHILD",
+        "name": "Rampart <red>(Aspis)</>",
+        "desc": "Takes Dmg -10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            22
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_hp() <= unit.get_max_hp() // 2"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "resist",
+                10
             ]
         ]
     },
@@ -3869,7 +3859,7 @@
     },
     {
         "nid": "SANTIAGO_SELF",
-        "name": "Grappling",
+        "name": "Grappling <red>(Status)</>",
         "desc": "Unit is grappling the target.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3954,88 +3944,12 @@
             [
                 "event_on_remove",
                 "Global RemoveGrapple"
-            ]
-        ]
-    },
-    {
-        "nid": "TORA",
-        "name": "Domination",
-        "desc": "Unit deals Dmg +5 if unit's Str >= target's Str.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            13,
-            50
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
             ],
             [
-                "combat_condition",
-                "unit.get_stat('STR') >= target.get_stat('STR')"
-            ],
-            [
-                "damage",
-                5
-            ]
-        ]
-    },
-    {
-        "nid": "ESTOC",
-        "name": "Rampart",
-        "desc": "<red>(Aura, allies at 50% or less HP)</> Grants Dmg taken -10.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            15,
-            22
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "aura",
-                "ESTOC_CHILD"
-            ],
-            [
-                "aura_range",
-                3
-            ],
-            [
-                "aura_target",
-                "ally"
-            ],
-            [
-                "multi_desc_lore",
+                "has_tags",
                 [
-                    "Aura"
+                    "Negative"
                 ]
-            ]
-        ]
-    },
-    {
-        "nid": "ESTOC_CHILD",
-        "name": "Rampart <red>(Estoc)</>",
-        "desc": "Takes Dmg -10.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            15,
-            22
-        ],
-        "components": [
-            [
-                "condition",
-                "unit.get_hp() <= unit.get_max_hp() // 2"
-            ],
-            [
-                "hidden_if_inactive",
-                null
-            ],
-            [
-                "resist",
-                10
             ]
         ]
     },
@@ -4378,7 +4292,7 @@
     {
         "nid": "GREGOR_PATIENCE",
         "name": "Bow Stance",
-        "desc": "On enemy phase, grants Hit/Avo +10. Grants Hit/Avo +50 if foe is equipped with a bow.",
+        "desc": "On enemy phase, grants Hit/Avo +10.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -4513,6 +4427,26 @@
             [
                 "class_skill",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Discipline",
+        "name": "Discipline",
+        "desc": "Doubles Weapon EXP earned.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "wexp_multiplier",
+                2.0
             ]
         ]
     },
@@ -4727,7 +4661,7 @@
     {
         "nid": "FullForce",
         "name": "Full Force",
-        "desc": "If unit's HP == 100%, grants Dmg +10.",
+        "desc": "If unit's HP = 100%, grants Dmg +10.",
         "icon_nid": "Skills",
         "icon_index": [
             15,
@@ -4821,9 +4755,54 @@
         ]
     },
     {
+        "nid": "Dismounted",
+        "name": "Dismounted",
+        "desc": "Unit is off their mount.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            31
+        ],
+        "components": [
+            [
+                "negate_tags",
+                [
+                    "Mounted",
+                    "Dragon",
+                    "Horse"
+                ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -2
+                    ],
+                    [
+                        "SPD",
+                        -5
+                    ],
+                    [
+                        "DEF",
+                        -5
+                    ],
+                    [
+                        "RES",
+                        -5
+                    ]
+                ]
+            ],
+            [
+                "change_variant",
+                "Dismount"
+            ]
+        ]
+    },
+    {
         "nid": "DEBUG",
         "name": "DEBUG",
-        "desc": "DEBUG",
+        "desc": "Skill for debugging parts of the game. Unit is immune to all negative status effects, cannot take damage, and one-shots all enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             6,
@@ -4905,6 +4884,10 @@
             [
                 "hit",
                 100
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -4941,6 +4924,26 @@
             [
                 "avoid",
                 1000
+            ]
+        ]
+    },
+    {
+        "nid": "Sight",
+        "name": "Sight",
+        "desc": "Allows unit to see everything in Fog of War.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            38
+        ],
+        "components": [
+            [
+                "sight_range_bonus",
+                99
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     }

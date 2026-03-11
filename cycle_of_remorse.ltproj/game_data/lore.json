@@ -145,5 +145,12 @@
         "title": "Major Stats",
         "category": "Desc",
         "text": "Strength, Magic, Skill, Speed, Luck, Defense, and Resistance."
+    },
+    {
+        "nid": "LightSword",
+        "name": "Light Sword Users",
+        "title": "Light Sword Users",
+        "category": "Desc",
+        "text": "Myrmidons, Swordmasters, Trueblades, Thieves, Rogues, Ninjas, and Assassins."
     }
 ]

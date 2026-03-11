@@ -218,5 +218,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Forrest",
+        "name": "Forrest",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

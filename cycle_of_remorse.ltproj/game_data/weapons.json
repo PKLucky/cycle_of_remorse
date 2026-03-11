@@ -4,6 +4,7 @@
         "name": "Sword",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -44,6 +45,7 @@
         "name": "Lance",
         "force_melee_anim": true,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -84,6 +86,7 @@
         "name": "Axe",
         "force_melee_anim": true,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -124,6 +127,7 @@
         "name": "Bow",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -138,6 +142,7 @@
         "name": "Staff",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
@@ -152,6 +157,7 @@
         "name": "Light",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -192,6 +198,7 @@
         "name": "Anima",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -232,6 +239,7 @@
         "name": "Dark",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [
             {
@@ -272,6 +280,7 @@
         "name": "Consumable",
         "force_melee_anim": false,
         "hide_from_display": false,
+        "hide_from_convoy": false,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
