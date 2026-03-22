@@ -53407,7 +53407,7 @@
                 "ai_group": "",
                 "starting_position": [
                     15,
-                    2
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -55726,7 +55726,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55762,7 +55762,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55798,7 +55798,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55834,7 +55834,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55870,7 +55870,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55906,7 +55906,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55942,7 +55942,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -55978,7 +55978,7 @@
                     1
                 ],
                 "sub_nid": "Activate",
-                "condition": "True",
+                "condition": "not unit.has_attacked",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -57370,7 +57370,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    25
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -57380,9 +57383,297 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "201",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "202",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "203",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "204",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "205",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "206",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "207",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "208",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "209",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "210",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "211",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "212",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "213",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "214",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "215",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Medeas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
             },
             {
                 "nid": "101",
@@ -57993,7 +58284,62 @@
                 "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    25
+                ],
+                "size": [
+                    5,
+                    3
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    13,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "generic",
@@ -58038,6 +58384,27 @@
                     "138"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "green",
+                "units": [
+                    "201",
+                    "202",
+                    "203",
+                    "204",
+                    "205",
+                    "206",
+                    "207",
+                    "208",
+                    "209",
+                    "210",
+                    "211",
+                    "212",
+                    "213",
+                    "214",
+                    "215"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []
@@ -58045,7 +58412,7 @@
     {
         "nid": "34",
         "name": "Final: Circ's Talons",
-        "tilemap": "Ch35",
+        "tilemap": "Ch34",
         "bg_tilemap": null,
         "party": "Krista",
         "music": {
@@ -58081,10 +58448,13 @@
             {
                 "nid": "Soromir",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    17,
+                    16
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -58094,7 +58464,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    29,
+                    15
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -58104,7 +58477,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    17,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -58114,22 +58490,83 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    5,
+                    16
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "Milo",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    17,
+                    28
+                ],
                 "starting_traveler": null,
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    27,
+                    27
+                ],
+                "size": [
+                    5,
+                    3
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    28,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    30,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     },
@@ -58753,7 +59190,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    11,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
