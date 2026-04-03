@@ -2331,6 +2331,10 @@
                 [
                     "Refresh"
                 ]
+            ],
+            [
+                "condition",
+                "unit.team == 'player' and unit.ai == 'None'"
             ]
         ]
     },
@@ -2408,6 +2412,10 @@
                 [
                     "MajorStats"
                 ]
+            ],
+            [
+                "condition",
+                "unit.team == 'player' and unit.ai == 'None'"
             ]
         ]
     },
