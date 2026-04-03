@@ -288,6 +288,10 @@
         true
     ],
     [
+        "title_full_support",
+        false
+    ],
+    [
         "music_main",
         "Fire Emblem Theme"
     ],
