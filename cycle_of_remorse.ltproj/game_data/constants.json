@@ -288,6 +288,10 @@
         true
     ],
     [
+        "title_credits",
+        true
+    ],
+    [
         "title_full_support",
         false
     ],

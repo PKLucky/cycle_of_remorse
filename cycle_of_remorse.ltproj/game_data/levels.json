@@ -57983,10 +57983,15 @@
             {
                 "nid": "201",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "General",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -57994,7 +57999,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -58002,10 +58007,15 @@
             {
                 "nid": "202",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Falcoknight",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58021,10 +58031,15 @@
             {
                 "nid": "203",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Bishop",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Divine",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58040,10 +58055,15 @@
             {
                 "nid": "204",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Bishop",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Divine",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58059,10 +58079,15 @@
             {
                 "nid": "205",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Falcoknight",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58078,10 +58103,15 @@
             {
                 "nid": "206",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "General",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58089,7 +58119,7 @@
                 "ai_group": "",
                 "starting_position": [
                     15,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -58097,10 +58127,15 @@
             {
                 "nid": "207",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Warrior",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58116,10 +58151,15 @@
             {
                 "nid": "208",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Sage",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58135,10 +58175,15 @@
             {
                 "nid": "209",
                 "variant": null,
-                "level": 1,
-                "klass": "Citizen",
+                "level": 13,
+                "klass": "Warrior",
                 "faction": "Medeas",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "Attack",
@@ -58148,614 +58193,6 @@
                     13,
                     17
                 ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "113",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "117",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "120",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "121",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "122",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "123",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "124",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "125",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "126",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "128",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "129",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "131",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "132",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "134",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "135",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "136",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "137",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "138",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Undead",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -58817,53 +58254,731 @@
                 "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
+            },
+            {
+                "nid": "enemy1",
+                "region_type": "normal",
+                "position": [
+                    10,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy2",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy3",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy4",
+                "region_type": "normal",
+                "position": [
+                    10,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy5",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy6",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy7",
+                "region_type": "normal",
+                "position": [
+                    8,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy8",
+                "region_type": "normal",
+                "position": [
+                    16,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy9",
+                "region_type": "normal",
+                "position": [
+                    10,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy10",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy11",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy12",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy13",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy14",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy15",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy16",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy17",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy18",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy19",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy20",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy21",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy22",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy23",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy24",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy25",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy26",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy27",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy28",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy29",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy30",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy31",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy32",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy33",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy34",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy35",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy36",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy37",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy38",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [
-            {
-                "nid": "generic",
-                "units": [
-                    "101",
-                    "102",
-                    "103",
-                    "104",
-                    "105",
-                    "106",
-                    "107",
-                    "108",
-                    "109",
-                    "110",
-                    "111",
-                    "112",
-                    "113",
-                    "114",
-                    "115",
-                    "116",
-                    "117",
-                    "118",
-                    "119",
-                    "120",
-                    "121",
-                    "122",
-                    "123",
-                    "124",
-                    "125",
-                    "126",
-                    "127",
-                    "128",
-                    "129",
-                    "130",
-                    "131",
-                    "132",
-                    "133",
-                    "134",
-                    "135",
-                    "136",
-                    "137",
-                    "138"
-                ],
-                "positions": {}
-            },
             {
                 "nid": "green",
                 "units": [
@@ -58914,7 +59029,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    29,
+                    27
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -58996,7 +59114,7 @@
                     5,
                     3
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "highlight": null,
                 "condition": "True",
                 "time_left": null,

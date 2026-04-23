@@ -2453,7 +2453,9 @@
         "variant": "",
         "level": 1,
         "klass": "Mercenary",
-        "tags": [],
+        "tags": [
+            "Recruit"
+        ],
         "bases": {
             "HP": 23,
             "STR": 9,
@@ -3720,7 +3722,8 @@
         "level": 1,
         "klass": "Pirate",
         "tags": [
-            "Boss"
+            "Boss",
+            "Recruit"
         ],
         "bases": {
             "HP": 29,
@@ -3861,7 +3864,8 @@
         "klass": "Pirate",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "Recruit"
         ],
         "bases": {
             "HP": 20,
@@ -4282,7 +4286,8 @@
         "klass": "Thief",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "Recruit"
         ],
         "bases": {
             "HP": 15,
@@ -4990,7 +4995,8 @@
         "tags": [
             "Boss",
             "Bandit",
-            "Female"
+            "Female",
+            "Recruit"
         ],
         "bases": {
             "HP": 13,
@@ -5126,7 +5132,8 @@
         "level": 1,
         "klass": "Archer",
         "tags": [
-            "Boss"
+            "Boss",
+            "Recruit"
         ],
         "bases": {
             "HP": 23,
@@ -5262,7 +5269,8 @@
         "level": 1,
         "klass": "Monk",
         "tags": [
-            "Boss"
+            "Boss",
+            "Recruit"
         ],
         "bases": {
             "HP": 24,
@@ -5403,7 +5411,8 @@
         "klass": "Knight",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "Recruit"
         ],
         "bases": {
             "HP": 24,
@@ -5544,7 +5553,8 @@
         "klass": "Thief",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "Recruit"
         ],
         "bases": {
             "HP": 17,
@@ -5681,7 +5691,8 @@
         "klass": "Lancer",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "Recruit"
         ],
         "bases": {
             "HP": 24,
@@ -5816,7 +5827,8 @@
             "Boss",
             "Female",
             "Merin",
-            "Canon"
+            "Canon",
+            "Recruit"
         ],
         "bases": {
             "HP": 20,
