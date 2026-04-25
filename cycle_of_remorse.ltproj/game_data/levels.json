@@ -59314,12 +59314,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Escape28x",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    10
+                    0,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59475,7 +59475,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    7
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59527,19 +59527,6 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Marina",
-                "team": "player",
-                "ai": "MarinaB",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    8
-                ],
                 "starting_traveler": null,
                 "generic": false
             },
