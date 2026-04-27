@@ -50923,6 +50923,15 @@
                         32
                     ]
                 }
+            },
+            {
+                "nid": "player",
+                "units": [
+                    "Krista",
+                    "Anna",
+                    "Jake"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": []
