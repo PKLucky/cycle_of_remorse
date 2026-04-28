@@ -40831,44 +40831,6 @@
                 "hide_time": false
             },
             {
-                "nid": "Door8",
-                "region_type": "event",
-                "position": [
-                    22,
-                    14
-                ],
-                "size": [
-                    2,
-                    3
-                ],
-                "sub_nid": "Door",
-                "highlight": null,
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "seize",
-                "region_type": "event",
-                "position": [
-                    25,
-                    5
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize",
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
                 "nid": "treasure1",
                 "region_type": "normal",
                 "position": [
@@ -40920,6 +40882,63 @@
                 "sub_nid": "",
                 "highlight": null,
                 "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Door8",
+                "region_type": "event",
+                "position": [
+                    22,
+                    14
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "seize",
+                "region_type": "event",
+                "position": [
+                    25,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "secret",
+                "region_type": "event",
+                "position": [
+                    13,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Secret",
+                "highlight": null,
+                "condition": "has_item('GoldCard', unit.nid) and u('Anna').team != 'player'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -45735,6 +45754,1668 @@
         "ai_groups": []
     },
     {
+        "nid": "26x",
+        "name": "Ch. 26x: Protection Services",
+        "tilemap": "Ch28x",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "Starsign Battle",
+            "boss_battle": "Scout Battle",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": "Flower Power!"
+        },
+        "objective": {
+            "simple": "Merchants Escape,Left {e:len(game.level.unit_groups.get('merchants').units)}",
+            "win": "Merchants Escape",
+            "loss": "All merchants die,Anna{comma} Jake{comma},or Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [
+            "MapGaiden"
+        ],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Anna",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Jake",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Archie",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Narcisse",
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "201",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape28x",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "202",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape28x",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "203",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape28x",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "204",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape28x",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "205",
+                "variant": null,
+                "level": 1,
+                "klass": "Cart",
+                "faction": "Oregot",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Escape28x",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 8,
+                "klass": "GriffonKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 8,
+                "klass": "Druid",
+                "faction": "Circ1",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 8,
+                "klass": "GriffonKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Halberd",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 8,
+                "klass": "Marauder",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "ShortAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 8,
+                "klass": "Swordmaster",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Shamshir",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 8,
+                "klass": "Sorcerer",
+                "faction": "Circ1",
+                "starting_items": [
+                    [
+                        "Physic",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 8,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Killer Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Dragon Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Dragon Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 8,
+                "klass": "Swordmaster",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 8,
+                "klass": "Warrior",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 8,
+                "klass": "Hero",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 8,
+                "klass": "Swordmaster",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 8,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 8,
+                "klass": "WyvernKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "ShortAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 8,
+                "klass": "WyvernKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Elice",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "SteelPoleax",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 8,
+                "klass": "Druid",
+                "faction": "Circ1",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 8,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 8,
+                "klass": "Marauder",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "ShortAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 8,
+                "klass": "WyvernKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Dragon Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 8,
+                "klass": "WyvernKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 8,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "SteelLongbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 8,
+                "klass": "Hero",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 8,
+                "klass": "GriffonKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 8,
+                "klass": "Halberdier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 8,
+                "klass": "Hero",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "SteelPoleax",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "ShortAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "guard2",
+                "variant": null,
+                "level": 8,
+                "klass": "Warrior",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Battle Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 8,
+                "klass": "Halberdier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 8,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 8,
+                "klass": "Druid",
+                "faction": "Circ1",
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "guard1",
+                "variant": null,
+                "level": 8,
+                "klass": "Halberdier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "301",
+                "variant": null,
+                "level": 10,
+                "klass": "Sage",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "302",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "303",
+                "variant": null,
+                "level": 10,
+                "klass": "Sage",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "Elice",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "304",
+                "variant": null,
+                "level": 10,
+                "klass": "Paladin",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "305",
+                "variant": null,
+                "level": 10,
+                "klass": "Paladin",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "306",
+                "variant": null,
+                "level": 10,
+                "klass": "Falcoknight",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "307",
+                "variant": null,
+                "level": 10,
+                "klass": "Falcoknight",
+                "faction": "Oregot",
+                "starting_items": [
+                    [
+                        "WindSword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    30
+                ],
+                "size": [
+                    5,
+                    3
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    8,
+                    29
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    31
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "escape",
+                "region_type": "event",
+                "position": [
+                    12,
+                    0
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "highlight": null,
+                "condition": "unit.team == 'other'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "escape_1",
+                "region_type": "event",
+                "position": [
+                    17,
+                    28
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "escape",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "escape_2",
+                "region_type": "event",
+                "position": [
+                    22,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "escape",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "gate1",
+                "region_type": "event",
+                "position": [
+                    8,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "gate2",
+                "region_type": "event",
+                "position": [
+                    13,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "merchants",
+                "units": [
+                    "201",
+                    "202",
+                    "203",
+                    "204",
+                    "205"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "rivals",
+                "units": [
+                    "Narcisse",
+                    "301",
+                    "302",
+                    "303",
+                    "304",
+                    "305",
+                    "306",
+                    "307"
+                ],
+                "positions": {
+                    "301": [
+                        8,
+                        31
+                    ],
+                    "302": [
+                        9,
+                        31
+                    ],
+                    "303": [
+                        10,
+                        31
+                    ],
+                    "304": [
+                        8,
+                        32
+                    ],
+                    "305": [
+                        10,
+                        32
+                    ],
+                    "Narcisse": [
+                        9,
+                        30
+                    ],
+                    "306": [
+                        7,
+                        32
+                    ],
+                    "307": [
+                        11,
+                        32
+                    ]
+                }
+            },
+            {
+                "nid": "player",
+                "units": [
+                    "Krista",
+                    "Anna",
+                    "Jake"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    },
+    {
         "nid": "27",
         "name": "Ch. 27: Chasing the Past",
         "tilemap": "Ch27",
@@ -45940,6 +47621,10 @@
                     [
                         "SilverLongbow",
                         false
+                    ],
+                    [
+                        "White Gem",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -46984,25 +48669,6 @@
             }
         ],
         "regions": [
-            {
-                "nid": "secret",
-                "region_type": "event",
-                "position": [
-                    9,
-                    17
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Secret",
-                "highlight": null,
-                "condition": "has_item('GoldCard', unit.nid) and u('Anna').team != 'player'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
             {
                 "nid": "New Region",
                 "region_type": "formation",
@@ -49268,1668 +50934,6 @@
                     "wall7",
                     "wall8",
                     "wall9"
-                ],
-                "positions": {}
-            }
-        ],
-        "ai_groups": []
-    },
-    {
-        "nid": "28x",
-        "name": "Ch. 28x: Protection Services",
-        "tilemap": "Ch28x",
-        "bg_tilemap": null,
-        "party": "Krista",
-        "music": {
-            "player_phase": "Grana Plains",
-            "enemy_phase": "Starsign Battle",
-            "boss_battle": "Scout Battle",
-            "player_battle": "Dokapon Normal Battle",
-            "enemy_battle": null,
-            "other_battle": null,
-            "other_phase": "Flower Power!"
-        },
-        "objective": {
-            "simple": "Merchants Escape,Left {e:len(game.level.unit_groups.get('merchants').units)}",
-            "win": "Merchants Escape",
-            "loss": "All merchants die,Anna{comma} Jake{comma},or Krista dies"
-        },
-        "roam": false,
-        "roam_unit": null,
-        "go_to_overworld": false,
-        "should_record": true,
-        "tags": [
-            "MapGaiden"
-        ],
-        "units": [
-            {
-                "nid": "Krista",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Anna",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Jake",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Archie",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Narcisse",
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "201",
-                "variant": null,
-                "level": 1,
-                "klass": "Cart",
-                "faction": "Oregot",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape28x",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "202",
-                "variant": null,
-                "level": 1,
-                "klass": "Cart",
-                "faction": "Oregot",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape28x",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "203",
-                "variant": null,
-                "level": 1,
-                "klass": "Cart",
-                "faction": "Oregot",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape28x",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "204",
-                "variant": null,
-                "level": 1,
-                "klass": "Cart",
-                "faction": "Oregot",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape28x",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "205",
-                "variant": null,
-                "level": 1,
-                "klass": "Cart",
-                "faction": "Oregot",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape28x",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 8,
-                "klass": "GriffonKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 8,
-                "klass": "Druid",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Nosferatu",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 8,
-                "klass": "GriffonKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Halberd",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 8,
-                "klass": "Marauder",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "ShortAxe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 8,
-                "klass": "Swordmaster",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Shamshir",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 8,
-                "klass": "Sorcerer",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Physic",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Heal",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 8,
-                "klass": "Sniper",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Killer Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    20,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Dragon Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Dragon Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 8,
-                "klass": "Swordmaster",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Silver Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "113",
-                "variant": null,
-                "level": 8,
-                "klass": "Warrior",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
-                "variant": null,
-                "level": 8,
-                "klass": "Hero",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 8,
-                "klass": "Swordmaster",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    25
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "117",
-                "variant": null,
-                "level": 8,
-                "klass": "Sniper",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 8,
-                "klass": "WyvernKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "ShortAxe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 8,
-                "klass": "WyvernKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Short Spear",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "120",
-                "variant": null,
-                "level": 8,
-                "klass": "Sage",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Elice",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "121",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "SteelPoleax",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "122",
-                "variant": null,
-                "level": 8,
-                "klass": "Sage",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Elthunder",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "123",
-                "variant": null,
-                "level": 8,
-                "klass": "Sage",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "124",
-                "variant": null,
-                "level": 8,
-                "klass": "Druid",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Nosferatu",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "125",
-                "variant": null,
-                "level": 8,
-                "klass": "Sniper",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "126",
-                "variant": null,
-                "level": 8,
-                "klass": "Marauder",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "ShortAxe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    22,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
-                "variant": null,
-                "level": 8,
-                "klass": "WyvernKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Dragon Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "128",
-                "variant": null,
-                "level": 8,
-                "klass": "WyvernKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Killer Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "129",
-                "variant": null,
-                "level": 8,
-                "klass": "Sniper",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "SteelLongbow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 8,
-                "klass": "Sage",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "131",
-                "variant": null,
-                "level": 8,
-                "klass": "Hero",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "132",
-                "variant": null,
-                "level": 8,
-                "klass": "GriffonKnight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Lancereaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
-                "variant": null,
-                "level": 8,
-                "klass": "Halberdier",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "134",
-                "variant": null,
-                "level": 8,
-                "klass": "Hero",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "135",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "SteelPoleax",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    27
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "136",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    25
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "137",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "ShortAxe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "138",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "guard2",
-                "variant": null,
-                "level": 8,
-                "klass": "Warrior",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Battle Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    22,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "140",
-                "variant": null,
-                "level": 8,
-                "klass": "Halberdier",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "141",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    25
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "142",
-                "variant": null,
-                "level": 8,
-                "klass": "Sage",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "143",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    30
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "144",
-                "variant": null,
-                "level": 8,
-                "klass": "Berserker",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Swordreaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    19,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "145",
-                "variant": null,
-                "level": 8,
-                "klass": "Druid",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Luna",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    27
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "guard1",
-                "variant": null,
-                "level": 8,
-                "klass": "Halberdier",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Killer Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    28
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "301",
-                "variant": null,
-                "level": 10,
-                "klass": "Sage",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "Elthunder",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "302",
-                "variant": null,
-                "level": 10,
-                "klass": "General",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "Steel Blade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "303",
-                "variant": null,
-                "level": 10,
-                "klass": "Sage",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "Elice",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "304",
-                "variant": null,
-                "level": 10,
-                "klass": "Paladin",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "Axereaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "305",
-                "variant": null,
-                "level": 10,
-                "klass": "Paladin",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "Killer Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "306",
-                "variant": null,
-                "level": 10,
-                "klass": "Falcoknight",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "Short Spear",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "307",
-                "variant": null,
-                "level": 10,
-                "klass": "Falcoknight",
-                "faction": "Oregot",
-                "starting_items": [
-                    [
-                        "WindSword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            }
-        ],
-        "regions": [
-            {
-                "nid": "New Region",
-                "region_type": "formation",
-                "position": [
-                    6,
-                    30
-                ],
-                "size": [
-                    5,
-                    3
-                ],
-                "sub_nid": "",
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "New Region_1",
-                "region_type": "formation",
-                "position": [
-                    8,
-                    29
-                ],
-                "size": [
-                    2,
-                    1
-                ],
-                "sub_nid": null,
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "New Region_2",
-                "region_type": "formation",
-                "position": [
-                    11,
-                    31
-                ],
-                "size": [
-                    1,
-                    2
-                ],
-                "sub_nid": null,
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "escape",
-                "region_type": "event",
-                "position": [
-                    12,
-                    0
-                ],
-                "size": [
-                    4,
-                    1
-                ],
-                "sub_nid": "Escape",
-                "highlight": null,
-                "condition": "unit.team == 'other'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "escape_1",
-                "region_type": "event",
-                "position": [
-                    17,
-                    28
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "escape",
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "escape_2",
-                "region_type": "event",
-                "position": [
-                    22,
-                    21
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "escape",
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "gate1",
-                "region_type": "event",
-                "position": [
-                    8,
-                    5
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize",
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "gate2",
-                "region_type": "event",
-                "position": [
-                    13,
-                    13
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize",
-                "highlight": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
-            }
-        ],
-        "unit_groups": [
-            {
-                "nid": "merchants",
-                "units": [
-                    "201",
-                    "202",
-                    "203",
-                    "204",
-                    "205"
-                ],
-                "positions": {}
-            },
-            {
-                "nid": "rivals",
-                "units": [
-                    "Narcisse",
-                    "301",
-                    "302",
-                    "303",
-                    "304",
-                    "305",
-                    "306",
-                    "307"
-                ],
-                "positions": {
-                    "301": [
-                        8,
-                        31
-                    ],
-                    "302": [
-                        9,
-                        31
-                    ],
-                    "303": [
-                        10,
-                        31
-                    ],
-                    "304": [
-                        8,
-                        32
-                    ],
-                    "305": [
-                        10,
-                        32
-                    ],
-                    "Narcisse": [
-                        9,
-                        30
-                    ],
-                    "306": [
-                        7,
-                        32
-                    ],
-                    "307": [
-                        11,
-                        32
-                    ]
-                }
-            },
-            {
-                "nid": "player",
-                "units": [
-                    "Krista",
-                    "Anna",
-                    "Jake"
                 ],
                 "positions": {}
             }
