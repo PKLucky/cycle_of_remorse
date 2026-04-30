@@ -59218,13 +59218,16 @@
                     ]
                 ],
                 "starting_skills": [
-                    "WindResistance"
+                    "Test"
                 ],
                 "team": "player",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    5,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -59341,7 +59344,7 @@
                 "nid": "114",
                 "variant": null,
                 "level": 10,
-                "klass": "SkyKnight",
+                "klass": "Dancer",
                 "faction": "Knight",
                 "starting_items": [
                     [
@@ -59384,8 +59387,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    3
+                    6,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59780,8 +59783,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    8
+                    6,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59853,8 +59856,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    6
+                    4,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59997,7 +60000,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    8
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false

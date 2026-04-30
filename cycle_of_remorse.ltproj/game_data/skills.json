@@ -2115,6 +2115,10 @@
             [
                 "hide_aura",
                 null
+            ],
+            [
+                "dynamic_resist",
+                "2 * unit_funcs.check_focus(unit,1)"
             ]
         ]
     },
@@ -2127,7 +2131,12 @@
             12,
             52
         ],
-        "components": []
+        "components": [
+            [
+                "dynamic_resist",
+                "2 * unit_funcs.check_focus(u('Alex'),1)"
+            ]
+        ]
     },
     {
         "nid": "LUCY",
@@ -4952,6 +4961,27 @@
             [
                 "hidden",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Test",
+        "name": "Test",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "STR",
+                        "len([u for u in game.get_player_units() if utils.calculate_distance(unit.position, u.position) <= 3 and 'Female' in u.tags])"
+                    ]
+                ]
             ]
         ]
     }
