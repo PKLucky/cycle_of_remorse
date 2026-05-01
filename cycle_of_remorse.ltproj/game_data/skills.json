@@ -4979,7 +4979,7 @@
                 [
                     [
                         "STR",
-                        "len([u for u in game.get_player_units() if utils.calculate_distance(unit.position, u.position) <= 3 and 'Female' in u.tags])"
+                        "len([u for u in game.get_all_units() if utils.calculate_distance(unit.position, u.position) <= 3 and 'Female' in u.tags])"
                     ]
                 ]
             ]
