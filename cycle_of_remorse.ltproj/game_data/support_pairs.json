@@ -7874,7 +7874,7 @@
         "requirements": [
             {
                 "support_rank": "S",
-                "requirement": 0,
+                "requirement": 1,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,

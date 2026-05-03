@@ -444,6 +444,48 @@
         "nid": "Global DeathAgrona"
     },
     {
+        "name": "DeathSolmaz",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Solmaz'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Solmaz;FarLeft",
+            "if;game.level.nid == '24'",
+            "  s;Solmaz;N-No{tgm}...!{tgm} I'll retreat for now.|Lord Milo needs to know about this.;StyleNid=boss_convo_left;MessageTail=None",
+            "else",
+            "  s;Solmaz;Was this{tgm}...{tgm} a mistake{tgm}...?|Fueg, forgive me{tgm}...;StyleNid=boss_convo_left;MessageTail=None",
+            "  e;Solmaz;CloseEyes",
+            "end",
+            "r;Solmaz",
+            "show_combat_ui"
+        ],
+        "nid": "Global DeathSolmaz"
+    },
+    {
+        "name": "DeathSolmaz_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Solmaz' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Solmaz;FarLeft",
+            "if;game.level.nid == '24'",
+            "  s;Solmaz;N-No{tgm}...!{tgm} I'll retreat for now.|Lord Milo needs to know about this.;StyleNid=boss_convo_left;MessageTail=None",
+            "else",
+            "  s;Solmaz;Was this{tgm}...{tgm} a mistake{tgm}...?|Fueg, forgive me{tgm}...;StyleNid=boss_convo_left;MessageTail=None",
+            "  e;Solmaz;CloseEyes",
+            "end",
+            "r;Solmaz"
+        ],
+        "nid": "Global DeathSolmaz_Poison"
+    },
+    {
         "name": "DeathErvan",
         "trigger": "combat_death",
         "level_nid": null,
@@ -2724,6 +2766,117 @@
             "show_combat_ui"
         ],
         "nid": "27 FightGunnar"
+    },
+    {
+        "name": "FightLev",
+        "trigger": "combat_start",
+        "level_nid": "28",
+        "condition": "check_default('Lev',['Felicity','Tora'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Lev;LeftCorner",
+            "s;Lev;Surrender yourselves to the almighty Circ!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Lev",
+            "show_combat_ui"
+        ],
+        "nid": "28 FightLev"
+    },
+    {
+        "name": "FightAlpin",
+        "trigger": "combat_start",
+        "level_nid": "29",
+        "condition": "check_default('Alpin',['Anna','Jake','Santiago'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alpin;LeftCorner",
+            "s;Alpin;You shall not proceed!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alpin",
+            "show_combat_ui"
+        ],
+        "nid": "29 FightAlpin"
+    },
+    {
+        "name": "FightAlpinSantiago",
+        "trigger": "combat_start",
+        "level_nid": "29",
+        "condition": "check_pair('Alpin','Santiago')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alpin;LeftCorner",
+            "s;Alpin;Father Santiago? What are you{tgm}...?!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alpin",
+            "u;Santiago;RightCorner;;CloseEyes",
+            "s;Santiago;Great Oreg, I beg for forgiveness.|Not for myself, but for the man who stands before me.|{c:e;Santiago;HalfCloseEyes}May he find peace in your embrace.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Santiago",
+            "show_combat_ui"
+        ],
+        "nid": "29 FightAlpinSantiago"
+    },
+    {
+        "name": "FightAlpinAnna",
+        "trigger": "combat_start",
+        "level_nid": "29",
+        "condition": "check_pair('Alpin','Anna')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alpin;LeftCorner",
+            "s;Alpin;Anna?! Where have you been? You abandoned us!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alpin",
+            "u;Anna;RightCorner;;Smile",
+            "s;Anna;No, you all abandoned Oregot by siding with those fiends.|I won't forgive any of you!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Anna",
+            "show_combat_ui"
+        ],
+        "nid": "29 FightAlpinAnna"
+    },
+    {
+        "name": "FightAlpinJake",
+        "trigger": "combat_start",
+        "level_nid": "29",
+        "condition": "check_pair('Alpin','Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alpin;LeftCorner",
+            "s;Alpin;Jake?! Where have you been? You abandoned us!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alpin",
+            "u;Jake;RightCorner",
+            "s;Jake;Us? No, you guys left all of Oregot in the dust!|Anna and I are here to set things right!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Jake",
+            "show_combat_ui"
+        ],
+        "nid": "29 FightAlpinJake"
+    },
+    {
+        "name": "FightWolfgang",
+        "trigger": "combat_start",
+        "level_nid": "29",
+        "condition": "check_default('Wolfgang',[])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Wolfgang;LeftCorner",
+            "s;Wolfgang;Tryin' to get in our way, huh?|Yer just askin' fer trouble!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Wolfgang",
+            "show_combat_ui"
+        ],
+        "nid": "29 FightWolfgang"
     },
     {
         "name": "FightGunnarTorgen",
@@ -7454,25 +7607,9 @@
             "promote;Gregor;Ranger;silent",
             "end",
             "endf",
-            "base;default_background;Castle 03",
-            "#for;Test;[unit for unit in game.get_player_units_and_travelers()]",
-            "#autolevel_to;{Test};20",
-            "#endf",
-            "set_wexp;Tsubaki;Staff;500;no_banner",
-            "give_item;Tsubaki;Amaterasu;no_banner",
-            "kill;Haruki;immediate",
-            "kill;Michael;immediate",
-            "#prep;t;gba;no_chap_disp",
-            "#lvar;Test;1",
-            "#for;TestLevel;[unit for unit in game.get_player_units()]",
-            "#speak;;{e:u('{TestLevel}').nid} {e:u('{TestLevel}').get_internal_level()}",
-            "#if;u('{TestLevel}').get_internal_level() > {v:Test}",
-            "#lvar;Test;{TestLevel}",
-            "#end",
-            "#endf",
-            "give_money;1100;no_banner",
-            "promote;Marina;silent",
-            "#give_item;Marina;Shine;no_banner"
+            "increment_support_points;Ferrach;Agrona;1",
+            "unlock_support_rank;Ferrach;Agrona;S",
+            "base;default_background;Castle 03"
         ],
         "nid": "DEBUG Intro"
     },
@@ -12490,7 +12627,7 @@
             "gvar;ParkerColeC;True",
             "end",
             "unlock_support_rank;Parker;Cole;C",
-            "# Original script by Blade of Light 12 and PKLucky #",
+            "# Original script by Onomelogva and PKLucky #",
             "elif;support_rank_nid == 'B'",
             "b;Library",
             "t;open",
@@ -12531,7 +12668,7 @@
             "gvar;ParkerColeB;True",
             "end",
             "unlock_support_rank;Parker;Cole;B",
-            "# Original script by Blade of Light 12 and PKLucky #",
+            "# Original script by Onomelogva and PKLucky #",
             "elif;support_rank_nid == 'A+'",
             "unlock_support_rank;Parker;Cole;A+",
             "disable_support_rank;Parker;Krista;A+",
@@ -13004,7 +13141,7 @@
             "bop;Tsubaki",
             "s;Tsubaki;Ah, wait!|{tgm}{c:e;Tsubaki;CloseEyes}...{tgm} Lord Masashi, what happened to you{tgm}...?",
             "unlock_support_rank;Masashi;Tsubaki;B",
-            "# Original script by Blade of Light 12 and PKLucky #",
+            "# Original script by Onomelogva and PKLucky #",
             "end",
             "mf",
             "t;close",
@@ -20010,7 +20147,7 @@
             "s;Michael;Ah, Celeste, wait!",
             "move_portrait;Michael;OffscreenLeft",
             "unlock_support_rank;Michael;Celeste;C",
-            "# Original script by Blade of Light 12 #",
+            "# Original script by Onomelogva #",
             "elif;support_rank_nid == 'B'",
             "b;Plains",
             "t;open",
@@ -20050,7 +20187,7 @@
             "e;Celeste;NoSmile,HalfCloseEyes",
             "s;Celeste;I hope he's really fine in all that armor.|I wouldn't want him to strain himself.",
             "unlock_support_rank;Michael;Celeste;B",
-            "# Original script by Blade of Light 12",
+            "# Original script by Onomelogva",
             "elif;support_rank_nid == 'A'",
             "b;Shore",
             "u;Celeste;Left;mirror;no_block",
@@ -20091,7 +20228,7 @@
             "s;Celeste;No use in dwelling on something we can't control.|{c:e;Celeste;Smile}So, come on! Let's have some fun!",
             "s;Michael;Er, alright.",
             "unlock_support_rank;Michael;Celeste;A",
-            "# Original script by Blade of Light 12 #",
+            "# Original script by Onomelogva #",
             "elif;support_rank_nid == 'S'",
             "b;DeepForest",
             "t;open",
@@ -20156,7 +20293,7 @@
             "e;Michael;NormalBlink,Smile",
             "s;Michael;That'd be great. Thanks, Celeste.",
             "unlock_support_rank;Michael;Celeste;S",
-            "# Original script by Blade of Light 12 #",
+            "# Original script by Onomelogva #",
             "disable_support_rank;Michael;Aqua;S",
             "disable_support_rank;Celeste;Taichi;S",
             "end",
@@ -20234,7 +20371,7 @@
             "e;Taichi;CloseEyes",
             "s;Taichi;Well, it seems like I'm watching two kids now.",
             "unlock_support_rank;Celeste;Taichi;C",
-            "# Original Script by Blade of Light 12 #",
+            "# Original Script by Onomelogva #",
             "elif;support_rank_nid == 'B'",
             "b;Plains",
             "t;open",
@@ -20285,7 +20422,7 @@
             "s;Taichi;Alright, I think that's enough wood. Let's get back to base.|{c:e;Taichi;Smile}I'll be sure to practice up for that duel.",
             "s;Celeste;You better!",
             "unlock_support_rank;Celeste;Taichi;B",
-            "# Original Script by Blade of Light 12 #",
+            "# Original Script by Onomelogva #",
             "elif;support_rank_nid == 'A'",
             "b;Plains",
             "t;open",
@@ -20340,7 +20477,7 @@
             "e;Taichi;Smile",
             "s;Taichi;Well, there was that time when I was two and tried lifting my mom's axe.|My dad was laughing so hard and{tgm}...",
             "unlock_support_rank;Celeste;Taichi;A",
-            "# Original script by Blade of Light 12 #",
+            "# Original script by Onomelogva #",
             "elif;support_rank_nid == 'S'",
             "b;CastleBack",
             "t;open",
@@ -20398,7 +20535,7 @@
             "disable_support_rank;Celeste;Michael;S",
             "disable_support_rank;Taichi;Haruki;A+",
             "disable_support_rank;Taichi;Lin;S",
-            "# Original script by Blade of Light 12 #",
+            "# Original script by Onomelogva #",
             "end",
             "mf",
             "t;close",
@@ -20853,7 +20990,7 @@
             "e;Yukino;NormalBlink,NoSmile",
             "s;Yukino;He's interesting{tgm}...|{tgm}I hope he's not as bad as he presents himself.",
             "unlock_support_rank;Yukino;Masashi;C",
-            "# Original script by Blade of Light 12 #",
+            "# Original script by Onomelogva #",
             "elif;support_rank_nid == 'B'",
             "b;Plains",
             "t;open",
@@ -20930,7 +21067,7 @@
             "e;Yukino;CloseEyes,Smile",
             "s;Yukino;Certainly better than how HE was.",
             "unlock_support_rank;Yukino;Masashi;B",
-            "# Original script by Blade of Light 12 and PKLucky #",
+            "# Original script by Onomelogva and PKLucky #",
             "elif;support_rank_nid == 'S'",
             "unlock_support_rank;Yukino;Masashi;S",
             "disable_support_rank;Masashi;Krista;A+",
@@ -41936,6 +42073,7 @@
             "unlock_support_rank;Bryant;Thalia;A",
             "unlock_support_rank;Bryant;Thalia;S",
             "remove_lore;TorgenGroup",
+            "remove_tag;Solmaz;NotDeadLord",
             "#The party returns to Medeas Castle as they plan out a full-on counterattack against Circ's forces. Before a plan could be fully drafted, Circ's forces invade the castle",
             "###",
             "t;close",
@@ -42703,7 +42841,7 @@
         "nid": "28 BaseConvo_Out of Hiding"
     },
     {
-        "name": "FightFelicityVanguard",
+        "name": "FightVanguardFelicity",
         "trigger": "combat_start",
         "level_nid": "30",
         "condition": "check_pair('Vanguard','Felicity')",
@@ -42713,14 +42851,48 @@
         "_source": [
             "hide_combat_ui",
             "u;Vanguard;LeftCorner",
-            "s;Vanguard;You are that Shifter I was informed of.|Now that I'm looking at you{tgm}...|{tgm}Why do you feel so familiar?;StyleNid=boss_convo_left;MessageTail=None",
+            "s;Vanguard;You are that Shifter I was informed of.|Now that I'm looking at you{tgm}...{w}{tgm} Why do you feel so familiar?;StyleNid=boss_convo_left;MessageTail=None",
             "r;Vanguard",
             "u;Felicity;RightCorner",
-            "s;Felicity;Huh? I don't know what you could be talking about.|{c:e;Felicity;CloseEyes}But, now that you mention it,|I sense some familiarity towards you too.|{c:e;Felicity;NormalBlink}Please forgive me, friend.|You have your reasons to fight, and so do I.;StyleNid=boss_convo_right;MessageTail=None",
+            "s;Felicity;Huh? I don't know what you could be talking about.|{c:e;Felicity;CloseEyes}But, now that you mention it,|I also feel a sense of familiarity.|{c:e;Felicity;NormalBlink}Please forgive me, friend.|You have your reasons to fight, and so do I.;StyleNid=boss_convo_right;MessageTail=None",
             "r;Felicity",
             "show_combat_ui"
         ],
-        "nid": "30 FightFelicityVanguard"
+        "nid": "30 FightVanguardFelicity"
+    },
+    {
+        "name": "FightVanguard",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_default('Vanguard','Felicity')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Vanguard;LeftCorner",
+            "s;Vanguard;If this is how you choose to spend your last moments,|then so be it.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Vanguard",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightVanguard"
+    },
+    {
+        "name": "FightUndine",
+        "trigger": "combat_start",
+        "level_nid": "31",
+        "condition": "check_default('Undine',[])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Undine;LeftCorner",
+            "s;Undine;Broke through my troops, did you?|Hmph! Well, there's no way you can defeat me!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Undine",
+            "show_combat_ui"
+        ],
+        "nid": "31 FightUndine"
     },
     {
         "name": "FightFelicityVanguard",
@@ -45053,5 +45225,18 @@
             "add_tag;{unit};DeadLord"
         ],
         "nid": "Global Dead Lord Add"
+    },
+    {
+        "name": "TestSupport",
+        "trigger": "on_support",
+        "level_nid": null,
+        "condition": "check_pair('Ferrach','Agrona')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "s;;Test"
+        ],
+        "nid": "Global TestSupport"
     }
 ]

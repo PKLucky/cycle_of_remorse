@@ -2454,7 +2454,7 @@
         "level": 1,
         "klass": "Mercenary",
         "tags": [
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 23,
@@ -3723,7 +3723,7 @@
         "klass": "Pirate",
         "tags": [
             "Boss",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 29,
@@ -3865,7 +3865,7 @@
         "tags": [
             "Boss",
             "Female",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 20,
@@ -4287,7 +4287,7 @@
         "tags": [
             "Boss",
             "Female",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 15,
@@ -4996,7 +4996,7 @@
             "Boss",
             "Bandit",
             "Female",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 13,
@@ -5133,7 +5133,7 @@
         "klass": "Archer",
         "tags": [
             "Boss",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 23,
@@ -5270,7 +5270,7 @@
         "klass": "Monk",
         "tags": [
             "Boss",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 24,
@@ -5412,7 +5412,7 @@
         "tags": [
             "Boss",
             "Female",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 24,
@@ -5554,7 +5554,7 @@
         "tags": [
             "Boss",
             "Female",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 17,
@@ -5692,7 +5692,7 @@
         "tags": [
             "Boss",
             "Female",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 24,
@@ -5828,7 +5828,7 @@
             "Female",
             "Merin",
             "Canon",
-            "Recruit"
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 20,
@@ -7279,7 +7279,10 @@
         "variant": "",
         "level": 1,
         "klass": "Cleric",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "NotDeadLord"
+        ],
         "bases": {
             "HP": 21,
             "STR": 0,
@@ -9671,7 +9674,8 @@
         "klass": "Cleric",
         "tags": [
             "Boss",
-            "Folia"
+            "Folia",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 17,
@@ -9793,7 +9797,8 @@
         "tags": [
             "Boss",
             "Folia",
-            "Circ"
+            "Circ",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 9,
@@ -10749,7 +10754,8 @@
         "klass": "Knight",
         "tags": [
             "Boss",
-            "Merin"
+            "Merin",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 7,
@@ -10871,7 +10877,8 @@
         "tags": [
             "Boss",
             "Merin",
-            "Circ"
+            "Circ",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 10,
@@ -11066,7 +11073,8 @@
         "klass": "Monk",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 25,
@@ -11145,12 +11153,7 @@
         "alternate_classes": [],
         "portrait_nid": "Solmaz",
         "affinity": "Anima",
-        "fields": [
-            [
-                "DeathQuote",
-                "N-No{tgm}...!{tgm} I'll retreat for now.|Lord Milo needs to know about this."
-            ]
-        ]
+        "fields": []
     },
     {
         "nid": "Jamal",
@@ -11478,7 +11481,8 @@
         "level": 1,
         "klass": "Myrmidon",
         "tags": [
-            "Boss"
+            "Boss",
+            "NotDeadLord"
         ],
         "bases": {
             "MOV": 6,
@@ -11808,7 +11812,8 @@
         "klass": "GriffonRider",
         "tags": [
             "Boss",
-            "Oreg"
+            "Oreg",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 1,
@@ -11881,7 +11886,8 @@
         "klass": "Myrmidon",
         "tags": [
             "Boss",
-            "Female"
+            "Female",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 1,
@@ -11929,7 +11935,8 @@
         "level": 1,
         "klass": "Cleric",
         "tags": [
-            "Boss"
+            "Boss",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 1,
@@ -11992,7 +11999,8 @@
         "tags": [
             "Boss",
             "Oreg",
-            "Circ"
+            "Circ",
+            "NotDeadLord"
         ],
         "bases": {
             "HP": 8,
