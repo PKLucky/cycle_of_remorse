@@ -42878,6 +42878,125 @@
         "nid": "30 FightVanguard"
     },
     {
+        "name": "FightCelik",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_default('Celik',['Anna','Jake'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Celik;LeftCorner",
+            "s;Celik;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Celik",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightCelik"
+    },
+    {
+        "name": "FightDemir",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_default('Demir','Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Demir;LeftCorner",
+            "s;Demir;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Demir",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightDemir"
+    },
+    {
+        "name": "FightDemirJake",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_pair('Demir','Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Demir;LeftCorner",
+            "s;Demir;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Demir",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightDemirJake"
+    },
+    {
+        "name": "FightSilvia",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_default('Silvia','Anna')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Silvia;LeftCorner",
+            "s;Silvia;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Silvia",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightSilvia"
+    },
+    {
+        "name": "FightSilviaAnna",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_pair('Silvia','Anna')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Silvia;LeftCorner",
+            "s;Silvia;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Silvia",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightSilviaAnna"
+    },
+    {
+        "name": "FightCelikAnna",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_pair('Celik','Anna')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Celik;LeftCorner",
+            "s;Celik;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Celik",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightCelikAnna"
+    },
+    {
+        "name": "FightCelikJake",
+        "trigger": "combat_start",
+        "level_nid": "30",
+        "condition": "check_pair('Celik','Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Celik;LeftCorner",
+            "s;Celik;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Celik",
+            "show_combat_ui"
+        ],
+        "nid": "30 FightCelikJake"
+    },
+    {
         "name": "FightUndine",
         "trigger": "combat_start",
         "level_nid": "31",
@@ -42893,6 +43012,142 @@
             "show_combat_ui"
         ],
         "nid": "31 FightUndine"
+    },
+    {
+        "name": "FightSven",
+        "trigger": "combat_start",
+        "level_nid": "32",
+        "condition": "check_default('Sven',['Forrest','Krista','Damien'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Sven;LeftCorner",
+            "s;Sven;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Sven",
+            "show_combat_ui"
+        ],
+        "nid": "32 FightSven"
+    },
+    {
+        "name": "FightSvenForrest",
+        "trigger": "combat_start",
+        "level_nid": "32",
+        "condition": "check_pair('Sven','Forrest')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Sven;LeftCorner",
+            "s;Sven;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Sven",
+            "show_combat_ui"
+        ],
+        "nid": "32 FightSvenForrest"
+    },
+    {
+        "name": "FightSvenKrista",
+        "trigger": "combat_start",
+        "level_nid": "32",
+        "condition": "check_pair('Sven','Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Sven;LeftCorner",
+            "s;Sven;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Sven",
+            "show_combat_ui"
+        ],
+        "nid": "32 FightSvenKrista"
+    },
+    {
+        "name": "FightSvenDamien",
+        "trigger": "combat_start",
+        "level_nid": "32",
+        "condition": "check_pair('Sven','Damien')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Sven;LeftCorner",
+            "s;Sven;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Sven",
+            "show_combat_ui"
+        ],
+        "nid": "32 FightSvenDamien"
+    },
+    {
+        "name": "FightSolmaz",
+        "trigger": "combat_start",
+        "level_nid": "31",
+        "condition": "check_default('Solmaz',['Shula','Kiraz','Krista'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Solmaz;LeftCorner",
+            "s;Solmaz;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Solmaz",
+            "show_combat_ui"
+        ],
+        "nid": "31 FightSolmaz"
+    },
+    {
+        "name": "FightSolmazShula",
+        "trigger": "combat_start",
+        "level_nid": "31",
+        "condition": "check_pair('Solmaz','Shula')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Solmaz;LeftCorner",
+            "s;Solmaz;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Solmaz",
+            "show_combat_ui"
+        ],
+        "nid": "31 FightSolmazShula"
+    },
+    {
+        "name": "FightSolmazKiraz",
+        "trigger": "combat_start",
+        "level_nid": "31",
+        "condition": "check_pair('Solmaz','Kiraz')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Solmaz;LeftCorner",
+            "s;Solmaz;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Solmaz",
+            "show_combat_ui"
+        ],
+        "nid": "31 FightSolmazKiraz"
+    },
+    {
+        "name": "FightSolmazKrista",
+        "trigger": "combat_start",
+        "level_nid": "31",
+        "condition": "check_pair('Solmaz','Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Solmaz;LeftCorner",
+            "s;Solmaz;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Solmaz",
+            "show_combat_ui"
+        ],
+        "nid": "31 FightSolmazKrista"
     },
     {
         "name": "FightFelicityVanguard",
@@ -42915,10 +43170,44 @@
         "nid": "34 FightFelicityVanguard"
     },
     {
+        "name": "FightVanguard",
+        "trigger": "combat_start",
+        "level_nid": "34",
+        "condition": "check_default('Vanguard','Felicity')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Vanguard;LeftCorner",
+            "s;Vanguard;Our final battle commences. Enguarde!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Vanguard",
+            "show_combat_ui"
+        ],
+        "nid": "34 FightVanguard"
+    },
+    {
         "name": "FightKhalidMilo",
         "trigger": "combat_start",
         "level_nid": "34",
         "condition": "check_pair('Milo','Khalid')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Milo;LeftCorner;;CloseEyes",
+            "s;Milo;Man, I really didn't wanna go one-on-one with any of you.|{c:e;Milo;NormalBlink}Guess I gotta play with the hand I've been dealt.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Milo",
+            "show_combat_ui"
+        ],
+        "nid": "34 FightKhalidMilo"
+    },
+    {
+        "name": "FightMilo",
+        "trigger": "combat_start",
+        "level_nid": "34",
+        "condition": "check_default('Milo','Khalid')",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -42932,7 +43221,7 @@
             "r;Milo",
             "show_combat_ui"
         ],
-        "nid": "34 FightKhalidMilo"
+        "nid": "34 FightMilo"
     },
     {
         "name": "FightKaiAgrona",
@@ -42953,6 +43242,23 @@
             "show_combat_ui"
         ],
         "nid": "34 FightKaiAgrona"
+    },
+    {
+        "name": "FightAgrona",
+        "trigger": "combat_start",
+        "level_nid": "34",
+        "condition": "check_default('Agrona','Kai')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Agrona;LeftCorner",
+            "s;Agrona;This battle is a monumental moment.|May we both be able to live with the consequences|once it is over.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Agrona",
+            "show_combat_ui"
+        ],
+        "nid": "34 FightAgrona"
     },
     {
         "name": "FightForrestFerrach",
@@ -42997,6 +43303,23 @@
             "show_combat_ui"
         ],
         "nid": "34 FightForrestFerrach"
+    },
+    {
+        "name": "FightFerrach",
+        "trigger": "combat_start",
+        "level_nid": "34",
+        "condition": "check_default('Ferrach','Forrest')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ferrach;LeftCorner;;CloseEyes,Smile",
+            "s;Ferrach;And so the final act draws near.|{c:e;Ferrach;NormalBlink,NoSmile}I refuse to fall without a fight!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ferrach",
+            "show_combat_ui"
+        ],
+        "nid": "34 FightFerrach"
     },
     {
         "name": "FightJamalKiraz",
@@ -43521,6 +43844,60 @@
             "show_combat_ui"
         ],
         "nid": "33 FightKristaErvan"
+    },
+    {
+        "name": "FightErvanKhalid",
+        "trigger": "combat_start",
+        "level_nid": "33",
+        "condition": "check_pair('Ervan','Khalid')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ervan;LeftCorner",
+            "s;Ervan;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ervan",
+            "show_combat_ui"
+        ],
+        "nid": "33 FightErvanKhalid"
+    },
+    {
+        "name": "FightErvanJudah",
+        "trigger": "combat_start",
+        "level_nid": "33",
+        "condition": "check_pair('Ervan','Judah')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ervan;LeftCorner",
+            "s;Ervan;Judah, you've always been so loyal.|Do you have the heart to kill me, friend?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ervan",
+            "u;Judah;RightCorner",
+            "s;Judah;I've always been prepared for such a task, my prince.|{c:e;Judah;CloseEyes}Now is no different.|{c:e;Judah;NormalBlink}All I ask is that you face death with dignity.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Judah",
+            "show_combat_ui"
+        ],
+        "nid": "33 FightErvanJudah"
+    },
+    {
+        "name": "FightErvan",
+        "trigger": "combat_start",
+        "level_nid": "33",
+        "condition": "check_default('Ervan',['Krista','Khalid','Judah'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ervan;LeftCorner",
+            "s;Ervan;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ervan",
+            "show_combat_ui"
+        ],
+        "nid": "33 FightErvan"
     },
     {
         "name": "Armory",
