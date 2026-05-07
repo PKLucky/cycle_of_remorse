@@ -59043,8 +59043,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    29,
-                    27
+                    39,
+                    39
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59056,8 +59056,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    16
+                    23,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59069,8 +59069,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    29,
-                    15
+                    41,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59082,8 +59082,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    5
+                    23,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59095,8 +59095,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    16
+                    7,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59108,8 +59108,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    28
+                    23,
+                    41
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59120,8 +59120,8 @@
                 "nid": "New Region",
                 "region_type": "formation",
                 "position": [
-                    27,
-                    27
+                    37,
+                    39
                 ],
                 "size": [
                     5,
@@ -59139,8 +59139,8 @@
                 "nid": "New Region_1",
                 "region_type": "formation",
                 "position": [
-                    28,
-                    26
+                    38,
+                    38
                 ],
                 "size": [
                     1,
@@ -59158,8 +59158,8 @@
                 "nid": "New Region_2",
                 "region_type": "formation",
                 "position": [
-                    30,
-                    26
+                    40,
+                    38
                 ],
                 "size": [
                     1,
