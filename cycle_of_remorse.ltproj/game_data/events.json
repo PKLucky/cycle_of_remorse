@@ -45618,5 +45618,19 @@
             "s;;Test"
         ],
         "nid": "Global TestSupport"
+    },
+    {
+        "name": "Defeat Ferrach",
+        "trigger": "unit_death",
+        "level_nid": "34",
+        "condition": "game.check_dead('Ferrach') == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 18,
+        "_source": [
+            "show_layer;merinas",
+            "add_group;agrona;starting;immediate"
+        ],
+        "nid": "34 Defeat Ferrach"
     }
 ]
