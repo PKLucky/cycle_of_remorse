@@ -2366,6 +2366,81 @@
         ]
     },
     {
+        "nid": "AssassinEdge_1",
+        "name": "Assassin Edge",
+        "desc": "Drains HP from enemy...?",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            24
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "undiscardable",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "SpysDagger",
         "name": "Spy's Dagger",
         "desc": "Matthew only. Effective against units afflicted with negative status effects. Grants Def/Res +3 on self and inflicts Def/Res -3 on target for one turn after combat.",

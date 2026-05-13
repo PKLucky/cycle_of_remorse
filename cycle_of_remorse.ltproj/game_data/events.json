@@ -2734,6 +2734,40 @@
         "nid": "25 FightJamal"
     },
     {
+        "name": "FightArchie",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_default('Archie', ['Anna','Jake'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Archie;LeftCorner",
+            "s;Archie;Hey! Who the hell d'ya think you are?!|I ain't lettin' ya pass through!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Archie",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightArchie"
+    },
+    {
+        "name": "FightArchieAnna",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_pair('Archie', 'Anna')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Archie;LeftCorner",
+            "s;Archie;You again? Not running away this time?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Archie",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightArchieAnna"
+    },
+    {
         "name": "FightReid",
         "trigger": "combat_start",
         "level_nid": "26",
@@ -41770,7 +41804,7 @@
             "toggle_narration_mode;open",
             "m;A Hint of Things to Come",
             "omove;Krista;26x;no_block",
-            "s;;Agreeing to help Anna and Jake,|Krista and friends head northwards with a handful of merchant carts at their side.|Danger lurks around the corner, eager to steal their valuables right under their noses.;StyleNid=overworld_narration",
+            "s;;Agreeing to help Anna and Jake,|Krista and friends head northwards the mercantile town of Weissel.|Danger lurks around the corner, eager to steal their wards' valuables from under their noses.;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
             "change_tilemap;Ch28x;reload",
             "music_clear",
@@ -41815,15 +41849,42 @@
             "center_cursor;8,32",
             "spawn_group;player;south;starting;normal;stack",
             "uu;Jake;FarLeft;Anna;MidLeft;Krista;Right",
+            "s;Anna;Here we are!",
+            "e;Jake;Smile",
+            "s;Jake;Looks like the convoy made it here safe and sound too.|Let's go touch base with them, Your Highness.",
+            "e;Krista;Smile",
+            "s;Krista;Sure thing.",
             "rrr",
             "move;Krista;6,31;normal;stack;no_block",
             "move;Anna;6,32;normal;stack",
             "uu;Man2;Left;Krista;MidRight;Anna;Right",
+            "s;Man2;I must thank you for agreeing to help us, Your Highness.",
+            "e;Krista;Smile",
+            "s;Krista;Don't mention it!{c:e;Krista;NoSmile} Besides, we gotta actually get you all to town safely first.",
+            "s;Man2;Of course.",
+            "s;Anna;Once we hit that path up north, we should be in the clear.",
             "rrr",
             "center_cursor;13,0",
             "flicker_cursor;13,0",
-            "u;Anna;Left",
+            "u;Anna;Right;;Smile",
+            "s;Anna;The obvious obstacle, of course, would be those gates up ahead.",
             "r;Anna",
+            "center_cursor;gate2",
+            "flicker_cursor;gate2",
+            "center_cursor;gate1",
+            "flicker_cursor;gate1",
+            "u;Anna;Right",
+            "s;Anna;Once we get rid of the guards, we can go through those gates!",
+            "r;Anna",
+            "center_cursor;Krista",
+            "uu;Anna;MidLeft;Jake;FarLeft;Krista;Right",
+            "s;Jake;The Ravine Raiders set those up a while back.|We've been having to either pay their toll,|or take a longer route to get to Weissel.",
+            "e;Krista;Smile",
+            "s;Krista;Well, that ends today!|With us by your side, we'll get everyone to Weissel in no time!",
+            "e;Anna;Smile",
+            "s;Anna;Another thing, Your Highness.|Other merchants may come along to cause trouble too.|{c:e;Anna;CloseEyes,Smile}Steal our merch, wreck our wagons, you name it.|{c:e;Anna;NormalBlink,Smile}So, keep a look out for them, alright?",
+            "s;Krista;Will do!",
+            "rrr",
             "t;close",
             "arrange_formation",
             "center_cursor;Krista",
@@ -42571,7 +42632,7 @@
             "m;A Hint of Things to Come",
             "s;;PLACEHOLDER;StyleNid=overworld_narration",
             "toggle_narration_mode;close",
-            "change_tilemap;Ch35;reload",
+            "change_tilemap;Ch34;reload",
             "music_clear",
             "chapter_title;_Chapter Sound",
             "lvar;_minimum_deployment;17",
@@ -45032,7 +45093,7 @@
         "nid": "26x Seize"
     },
     {
-        "name": "New Event",
+        "name": "Remove Checkpoints",
         "trigger": "unit_death",
         "level_nid": "26x",
         "condition": "unit.nid in ['guard1','guard2']",
@@ -45046,7 +45107,7 @@
             "  remove_region;escape_2",
             "end"
         ],
-        "nid": "26x New Event"
+        "nid": "26x Remove Checkpoints"
     },
     {
         "name": "TalkKristaSantiago",
@@ -45632,5 +45693,36 @@
             "add_group;agrona;starting;immediate"
         ],
         "nid": "34 Defeat Ferrach"
+    },
+    {
+        "name": "Defeat Agrona",
+        "trigger": "unit_death",
+        "level_nid": "34",
+        "condition": "game.check_dead('Agrona') == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 18,
+        "_source": [
+            "show_layer;fuegsol",
+            "add;Milo;23,38;immediate;stack",
+            "center_cursor;Milo",
+            "flicker_cursor;Milo",
+            "u;Milo;Left",
+            "s;Milo;Damn, it's up to me now, huh? Figures.|{c:e;Milo;Smile}Well, time to do what I do best.{c:e;Milo;FarWink,Smile} Stick to the shadows.",
+            "r;Milo",
+            "remove;Milo;swoosh",
+            "add_region;fueg_fog;16,33;15,11;fog",
+            "for;UnitSetup;[u for u in game.level.unit_groups.get('milo').units]",
+            "  if;u('{UnitSetup}').generic == True",
+            "    change_portrait;{UnitSetup};Milo",
+            "    change_affinity;{UnitSetup};Wind",
+            "    add_tag;{UnitSetup};Boss",
+            "  end",
+            "endf",
+            "u;Milo;Left;;Smile",
+            "s;Milo;Just try and find me now!{w}{c:e;Milo;FarWink,Smile} I'm not making it easy~",
+            "r;Milo"
+        ],
+        "nid": "34 Defeat Agrona"
     }
 ]
