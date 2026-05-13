@@ -2879,6 +2879,23 @@
         "nid": "28 FightLev"
     },
     {
+        "name": "FightLevFelicity",
+        "trigger": "combat_start",
+        "level_nid": "28",
+        "condition": "check_pair('Lev','Felicity')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Lev;LeftCorner",
+            "s;Lev;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Lev",
+            "show_combat_ui"
+        ],
+        "nid": "28 FightLevFelicity"
+    },
+    {
         "name": "FightAlpin",
         "trigger": "combat_start",
         "level_nid": "29",
@@ -2983,8 +3000,11 @@
         "_source": [
             "hide_combat_ui",
             "u;Gunnar;LeftCorner",
-            "s;Gunnar;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "s;Gunnar;Hey, if it isn't the little runt.|Come crawlin' back to ol' Gunnar?;StyleNid=boss_convo_left;MessageTail=None",
             "r;Gunnar",
+            "u;Torgen;RightCorner",
+            "s;Torgen;Not even close. You're dying here, Gunnar.|You won't be hurting anyone else anymore.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Torgen",
             "show_combat_ui"
         ],
         "nid": "27 FightGunnarTorgen"
@@ -2999,8 +3019,10 @@
         "priority": 20,
         "_source": [
             "hide_combat_ui",
+            "u;Sam;RightCorner",
+            "s;Sam;!!{w}{c:e;Sam;CloseEyes}Finally{tgm}...{tgm} After all this time, I've found you!|{c:e;Sam;NormalBlink}You're a dead man, Gunnar!",
             "u;Gunnar;LeftCorner",
-            "s;Gunnar;PLACEHOLDER;StyleNid=boss_convo_left;MessageTail=None",
+            "s;Gunnar;Huh? Do I know you?|Hah, whatever. Just another idiot that's in my way.;StyleNid=boss_convo_left;MessageTail=None",
             "r;Gunnar",
             "show_combat_ui"
         ],
@@ -10923,7 +10945,7 @@
             "  if;'Medea' in unit.tags or 'Fueg' in unit.tags or 'Merin' in unit.tags 'Folia' in unit.tags or 'Oreg' in unit.tags or 'Shifter' in unit.tags",
             "    s;LakeSpirit;Child of divine blood, I bestow upon thee a weapon of great might.|May it bless thee in thine prospects.",
             "  else",
-            "    s;LakeSpirit;You born of Medea's hands, you of cursed blood, take this artifact of power.|Be wise in wielding it, and may the Beasts have mercy upon thee.",
+            "    s;LakeSpirit;You born of Medea's will, you of cursed blood, take this artifact of power.|Be wise in wielding it, and may the Beasts have mercy upon thee.",
             "  end",
             "  rrr",
             "  if;unit.nid == 'wall1'",
@@ -45128,7 +45150,12 @@
         "priority": 20,
         "_source": [
             "remove;{unit}",
-            "wait;400"
+            "wait;400",
+            "if;len(game.get_other_units()) == 0",
+            "  music_clear",
+            "  victory_screen",
+            "  win_game",
+            "end"
         ],
         "nid": "26x Escape"
     },
