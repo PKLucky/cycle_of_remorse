@@ -2737,7 +2737,7 @@
         "name": "FightArchie",
         "trigger": "combat_start",
         "level_nid": "26x",
-        "condition": "check_default('Archie', ['Anna','Jake'])",
+        "condition": "check_default('Archie', ['Anna','Jake']) and 'player' in [unit.team,unit2.team]",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -2749,6 +2749,43 @@
             "show_combat_ui"
         ],
         "nid": "26x FightArchie"
+    },
+    {
+        "name": "FightNarcisse",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_default('Narcisse', 'Krista') and 'player' in [unit.team,unit2.team]",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Narcisse;LeftCorner",
+            "s;Narcisse;A lowly bodyguard like you stands no chance|against someone like myself!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Narcisse",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightNarcisse"
+    },
+    {
+        "name": "FightNarcisseKrista",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_pair('Narcisse', 'Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Krista;RightCorner",
+            "s;Krista;Another bandit!|Wait, no, you look way too fancy to be one.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "u;Narcisse;LeftCorner",
+            "s;Narcisse;How dare you!|{c:e;Narcisse;CloseEyes}Thinking for even a second that I'm with these ruffians{tgm}...|{c:e;Narcisse;NormalBlink}{tgm}Have at you!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Narcisse",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightNarcisseKrista"
     },
     {
         "name": "FightArchieAnna",
@@ -2763,9 +2800,32 @@
             "u;Archie;LeftCorner",
             "s;Archie;You again? Not running away this time?;StyleNid=boss_convo_left;MessageTail=None",
             "r;Archie",
+            "u;Anna;RightCorner;;FarWink",
+            "s;Anna;I prefer the term \"tactical retreat\".|{c:e;Anna;NormalBlink}Besides, we've got the advantage this time.|{c:e;Anna;Smile}You're outta here, buddy!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Anna",
             "show_combat_ui"
         ],
         "nid": "26x FightArchieAnna"
+    },
+    {
+        "name": "FightArchieJake",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_pair('Archie', 'Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Archie;LeftCorner",
+            "s;Archie;Oh, I remember you. No running this time!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Archie",
+            "u;Jake;RightCorner",
+            "s;Jake;Wouldn't dream of it!|Time for you and your gang to skedaddle!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Jake",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightArchieJake"
     },
     {
         "name": "FightReid",
@@ -45041,7 +45101,7 @@
         "nid": "34 Outro"
     },
     {
-        "name": "SpawnSubBoss",
+        "name": "SpawnNarcisse",
         "trigger": "turn_change",
         "level_nid": "26x",
         "condition": "game.turncount == 4",
@@ -45053,10 +45113,10 @@
             "spawn_group;rivals;south;rivals;normal;closest",
             "flicker_cursor;Narcisse",
             "u;Narcisse;Right",
-            "s;Narcisse;PLACEHOLDER",
+            "s;Narcisse;More suckers are trying to get past the Ravine Raiders, huh?|{c:e;Narcisse;Smile}Perfect! Everyone, time to strike!",
             "r;Narcisse"
         ],
-        "nid": "26x SpawnSubBoss"
+        "nid": "26x SpawnNarcisse"
     },
     {
         "name": "Escape",

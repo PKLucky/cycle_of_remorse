@@ -11595,7 +11595,12 @@
         "alternate_classes": [],
         "portrait_nid": "Archie",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "I ain't{tgm}...{tgm} dyin' like this{tgm}...!"
+            ]
+        ]
     },
     {
         "nid": "Narcisse",
@@ -11643,7 +11648,12 @@
         "alternate_classes": [],
         "portrait_nid": "Narcisse",
         "affinity": "Thunder",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Scoundrel{tgm}...!{tgm} H-How dare you{tgm}...!"
+            ]
+        ]
     },
     {
         "nid": "Lev",
@@ -11801,7 +11811,12 @@
         "alternate_classes": [],
         "portrait_nid": "Wolfgang",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "This was supposed to be easy pickings{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Celik",
@@ -11875,7 +11890,12 @@
         "alternate_classes": [],
         "portrait_nid": "Celik",
         "affinity": "Fire",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Medea{tgm}...{tgm} You little brat{tgm}...{tgm}!"
+            ]
+        ]
     },
     {
         "nid": "Silvia",
@@ -11925,7 +11945,12 @@
         "alternate_classes": [],
         "portrait_nid": "Silvia",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "I'll accept defeat{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Demir",
@@ -11987,7 +12012,12 @@
         "alternate_classes": [],
         "portrait_nid": "Demir",
         "affinity": "Dark",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Perhaps unwise decisions were made{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Vanguard",
@@ -12105,7 +12135,7 @@
     {
         "nid": "Undine",
         "name": "Undine",
-        "desc": "A follower of Circ.\n[]",
+        "desc": "A follower of Circ.\nSeemingly flighty, but hides an inner strength.",
         "variant": "",
         "level": 1,
         "klass": "Shaman",
@@ -12141,11 +12171,27 @@
         ],
         "learned_skills": [],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Dark": [
+                false,
+                131,
+                null
+            ],
+            "Anima": [
+                false,
+                241,
+                null
+            ]
+        },
         "alternate_classes": [],
         "portrait_nid": "Undine",
         "affinity": "Ice",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Oooh, I've really done it now{tgm}..."
+            ]
+        ]
     },
     {
         "nid": "Milo",
@@ -12198,10 +12244,6 @@
         "starting_items": [
             [
                 "AssassinEdge",
-                false
-            ],
-            [
-                "SilverLongbow",
                 false
             ]
         ],
