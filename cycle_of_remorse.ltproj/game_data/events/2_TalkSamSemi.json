@@ -1,0 +1,35 @@
+[
+    {
+        "name": "TalkSamSemi",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Sam','Semi') and u('Semi').team == 'other'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Sam;Left;Semi;Right",
+            "s;Sam;Come on and face me like a man, bandit scum!",
+            "s;Semi;Don't point that thing at me! I'm not with these guys.|I'm trying to break me and my friend out of here.",
+            "s;Sam;Hm{tgm}...",
+            "s;Semi;It's true! My friend, Aqua, was in the cell next to mine.|I've been trying to clear a way for us to escape.",
+            "if;u('Aqua').team == 'player'",
+            "  s;Sam;Oh! No need to worry about her! We already got her out.",
+            "  s;Semi;You{tgm}...?{tgm} Th-Thank you.",
+            "else",
+            "  s;Sam;Alright, alright. I believe ya.|You said Aqua was in another cell? We'll get her out!",
+            "  s;Semi;You better.",
+            "end",
+            "rrr",
+            "change_team;Semi;player",
+            "remove_tag;Semi;Protect",
+            "remove_talk;Krista;Semi",
+            "remove_talk;Aqua;Semi",
+            "remove_talk;Sam;Semi",
+            "change_ai;Semi;None",
+            "mf"
+        ],
+        "nid": "2 TalkSamSemi"
+    }
+]

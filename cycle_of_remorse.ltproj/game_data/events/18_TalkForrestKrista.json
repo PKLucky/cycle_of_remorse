@@ -1,0 +1,38 @@
+[
+    {
+        "name": "TalkForrestKrista",
+        "trigger": "on_talk",
+        "level_nid": "18",
+        "condition": "check_pair('Krista','Forrest')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "uu;Forrest;Left;Krista;Right",
+            "s;Forrest;Your Highness!",
+            "e;Krista;Smile",
+            "s;Krista;Forrest!|{c:e;Krista;CloseEyes,Smile}My hero has come to save me once again~",
+            "e;Forrest;CloseEyes",
+            "s;Forrest;*sigh*|{c:e;Forrest;NormalBlink}In all seriousness, I am glad that this plan of yours actually worked, Krista.",
+            "e;Krista;NormalBlink,Smile",
+            "s;Krista;It pays to get captured by bandits on purpose.",
+            "e;Forrest;CloseEyes",
+            "s;Forrest;That should NOT be the takeaway from this.",
+            "if;u('Yukino').team == 'player'",
+            "s;Krista;By the way, turns out our \"ghost\" isn't a ghost after all!",
+            "e;Forrest;NormalBlink",
+            "s;Forrest;We had figured as much, but then, who is she exactly?",
+            "s;Krista;Her name's Yukino and she's with us now.|Turns out we got a whole other bandit group kidnapping girls.",
+            "s;Forrest;Is that so? Well, there's only one thing to do in this situation.",
+            "s;Krista;You know it! Time to kick some bandit butt!",
+            "else",
+            "s;Krista;Anyway, time to save the girls and kick some bandit butt!",
+            "end",
+            "rrr",
+            "increment_support_points;Krista;Forrest;1",
+            "remove_talk;Krista;Forrest",
+            "remove_talk;Forrest;Krista"
+        ],
+        "nid": "18 TalkForrestKrista"
+    }
+]

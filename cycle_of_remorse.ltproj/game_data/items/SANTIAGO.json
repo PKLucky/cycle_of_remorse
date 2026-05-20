@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "SANTIAGO",
+        "name": "Grapple",
+        "desc": "Immobilizes both the unit and target. Target gets damaged each turn they're grappled.\n(Does not work on bosses.)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags and 'Boss' not in target.tags"
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "status_on_hit",
+                "SANTIAGO_TARGET"
+            ],
+            [
+                "self_status_on_hit",
+                "SANTIAGO_SELF"
+            ]
+        ]
+    }
+]

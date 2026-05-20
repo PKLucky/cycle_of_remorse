@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "23",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Alim;Right",
+            "s;Alim;Alright, men! We have the book!{br}Retreat!",
+            "r;Alim",
+            "remove;{unit}",
+            "wait;400",
+            "lose_game"
+        ],
+        "nid": "23 Escape"
+    }
+]

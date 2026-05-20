@@ -1,0 +1,27 @@
+[
+    {
+        "name": "TalkKristaFelicity",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "check_pair('Krista','Felicity')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;A Knight's Oath",
+            "uu;Krista;Left;Felicity;Right",
+            "e;Felicity;Smile",
+            "s;Felicity;Oh, Your Highness~!",
+            "s;Krista;What the--? Felicity?!|{c:e;Krista;HalfCloseEyes}Why am I not surprised.",
+            "s;Felicity;Viola and I are here to help!",
+            "e;Krista;NormalBlink",
+            "s;Krista;You and Viola, huh? So that's how you got here so fast.|{c:e;Krista;CloseEyes}*sigh* Guess it can't be helped.|{c:e;Krista;NormalBlink}Don't be reckless out there, alright? I don't wanna lose my favorite maid.",
+            "s;Felicity;Of course, Your Highness!",
+            "rrr",
+            "increment_support_points;Krista;Felicity;1",
+            "remove_talk;Krista;Felicity",
+            "remove_talk;Felicity;Krista"
+        ],
+        "nid": "6 TalkKristaFelicity"
+    }
+]

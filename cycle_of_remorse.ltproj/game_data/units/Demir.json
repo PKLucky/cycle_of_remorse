@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Demir",
+        "name": "Demir",
+        "desc": "Treasurer of the Oregotian Council.\nA prudent man.",
+        "variant": "",
+        "level": 1,
+        "klass": "Cleric",
+        "tags": [
+            "Boss",
+            "NotDeadLord"
+        ],
+        "bases": {
+            "HP": 1,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 0,
+            "MAG": 60,
+            "SKL": 45,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 55,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Divine",
+                false
+            ],
+            [
+                "Elthunder",
+                false
+            ],
+            [
+                "Silence",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                361,
+                null
+            ],
+            "Light": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Demir",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "DeathQuote",
+                "Perhaps unwise decisions were made{tgm}..."
+            ]
+        ]
+    }
+]

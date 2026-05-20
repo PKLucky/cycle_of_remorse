@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "20",
+        "condition": "unit2.nid == None and ((unit.nid == 'Asuka' and (game.check_dead('Sumire') == True or u('Sumire').team == 'player') or (unit.nid == 'Sumire' and game.check_dead('Asuka') == True))",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "20 Defeat Boss Poison"
+    }
+]

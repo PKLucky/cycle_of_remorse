@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "MerinsShell",
+        "sub_nid": "Boosters",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "Zarg",
+                "Merin's Shell"
+            ]
+        ]
+    }
+]

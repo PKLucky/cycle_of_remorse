@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "28",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Torgen').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Swordmaster;9;player;None;Bandit;Female;Steel Sword",
+            "add_tag;{created_unit};Female",
+            "recruit_generic;{created_unit};Topaz;Topaz",
+            "u;Topaz;Right;;Smile",
+            "s;Topaz;Hey, hey! I'm here to help, Krista.|My sword hand is yours!",
+            "sound;Item",
+            "alert;Topaz joined the party!",
+            "r;Topaz"
+        ],
+        "nid": "28 DeploymentCheck"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "SouthGateWarning",
+        "trigger": "turn_change",
+        "level_nid": "7a",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;Lorelei",
+            "flicker_cursor;Lorelei",
+            "u;Lorelei;Left",
+            "s;Lorelei;They're escaping! Prepare to close the gates!",
+            "r;Lorelei",
+            "center_cursor;4,16",
+            "flicker_cursor;4,16",
+            "center_cursor;12,15",
+            "flicker_cursor;12,15",
+            "u;Krista;Left",
+            "s;Krista;Let's get on the other side of those gates before they close!",
+            "r;Krista"
+        ],
+        "nid": "7a SouthGateWarning"
+    }
+]

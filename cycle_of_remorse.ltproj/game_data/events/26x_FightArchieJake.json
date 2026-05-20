@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightArchieJake",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_pair('Archie', 'Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Archie;LeftCorner",
+            "s;Archie;Oh, I remember you. No running this time!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Archie",
+            "u;Jake;RightCorner",
+            "s;Jake;Wouldn't dream of it!|Time for you and your gang to skedaddle!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Jake",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightArchieJake"
+    }
+]

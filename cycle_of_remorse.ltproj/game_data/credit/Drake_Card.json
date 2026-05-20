@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Drake_Card",
+        "sub_nid": "Dragon (U) Magic {L95}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Drake"
+            ]
+        ]
+    }
+]

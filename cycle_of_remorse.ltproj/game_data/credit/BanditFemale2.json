@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "BanditFemale2",
+        "sub_nid": "BanditFemale2",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "MaxTUS",
+                "Female Pirate 2"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "FightSumireKai",
+        "trigger": "combat_start",
+        "level_nid": "20",
+        "condition": "check_pair('Sumire','Kai')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "if;has_skill('Sumire', 'Sleep') == True",
+            "  u;Kai;RightCorner",
+            "  s;Kai;Is that Sumire? Looks like she's asleep.|{c:e;Kai;CloseEyes}Sorry about this, but you're in the way here.;StyleNid=boss_convo_right;MessageTail=None",
+            "  r;Kai",
+            "else",
+            "  u;Sumire;LeftCorner",
+            "  s;Sumire;Kai, is that you?!;StyleNid=boss_convo_left;MessageTail=None",
+            "  r;Sumire",
+            "  u;Kai;RightCorner",
+            "  s;Kai;Sumire{tgm}...{tgm} Sorry about this, but you're in the way.;StyleNid=boss_convo_right;MessageTail=None",
+            "  r;Kai",
+            "  u;Sumire;LeftCorner",
+            "  s;Sumire;K-Kai? {tgm}...{tgm} Fine. If that's how it is, you're going down!;StyleNid=boss_convo_left;MessageTail=None",
+            "  r;Sumire",
+            "end",
+            "show_combat_ui"
+        ],
+        "nid": "20 FightSumireKai"
+    }
+]

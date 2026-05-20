@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LUCY_CHILD",
+        "name": "Rallied <red>(Lucy)</>",
+        "desc": "Takes 5 less damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            24
+        ],
+        "components": [
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "resist",
+                5
+            ]
+        ]
+    }
+]

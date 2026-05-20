@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ECCO",
+        "name": "Close and Personal",
+        "desc": "If attacking at melee range, unit deals Dmg +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            50
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "5 if unit.position and (utils.calculate_distance(unit.position, unit2.position) == 1) else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

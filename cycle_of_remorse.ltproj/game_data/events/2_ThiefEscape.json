@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ThiefEscape",
+        "trigger": "escape",
+        "level_nid": "2",
+        "condition": "len(game.get_enemy_units()) == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "2 ThiefEscape"
+    }
+]

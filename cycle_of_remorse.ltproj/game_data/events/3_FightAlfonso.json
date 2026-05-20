@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightAlfonso",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_default('Alfonso','Sam')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Beli;LeftCorner",
+            "s;Beli;How did you get through my men?|Dammit, I'll take care of you myself!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Beli",
+            "show_combat_ui"
+        ],
+        "nid": "3 FightAlfonso"
+    }
+]

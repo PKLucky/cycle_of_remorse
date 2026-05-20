@@ -1,0 +1,113 @@
+[
+    {
+        "nid": "Irving",
+        "name": "Irving",
+        "desc": "Captain of the south-eastern division of Foliaga's holy knights.\nDutiful and stern.",
+        "variant": "",
+        "level": 1,
+        "klass": "Knight",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 20,
+            "STR": 10,
+            "MAG": 2,
+            "SKL": 5,
+            "SPD": 3,
+            "LCK": 2,
+            "DEF": 11,
+            "RES": 7,
+            "CON": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 65,
+            "MAG": 35,
+            "SKL": 50,
+            "SPD": 35,
+            "LCK": 35,
+            "DEF": 65,
+            "RES": 40,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "Short Spear",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                131,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Irving",
+        "affinity": "Thunder",
+        "fields": [
+            [
+                "DeathQuote",
+                "You{tgm}...{tgm} heretics{tgm}..."
+            ]
+        ]
+    }
+]

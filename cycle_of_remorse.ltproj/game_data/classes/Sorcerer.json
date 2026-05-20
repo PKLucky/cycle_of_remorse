@@ -1,0 +1,133 @@
+[
+    {
+        "nid": "Sorcerer",
+        "name": "Sorcerer",
+        "desc": "Masters of the dark arts and staff utility.",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": "Shaman",
+        "turns_into": [
+            "Avian"
+        ],
+        "tags": [
+            "Dark"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 21,
+            "STR": 2,
+            "MAG": 7,
+            "SKL": 6,
+            "SPD": 2,
+            "LCK": 2,
+            "DEF": 4,
+            "RES": 2,
+            "CON": 6,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 20,
+            "MAG": 65,
+            "SKL": 45,
+            "SPD": 55,
+            "LCK": 25,
+            "DEF": 35,
+            "RES": 40,
+            "CON": 15,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 1,
+            "MAG": 2,
+            "SKL": 2,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 1,
+            "MOV": 1
+        },
+        "max_stats": {
+            "HP": 45,
+            "STR": 25,
+            "MAG": 46,
+            "SKL": 27,
+            "SPD": 43,
+            "LCK": 25,
+            "DEF": 25,
+            "RES": 27,
+            "CON": 20,
+            "MOV": 10
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                131,
+                491
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                true,
+                40,
+                491
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Tactician (M) Staff {Aruka, Yggdra, Pushwall}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Sorceror",
+        "combat_anim_nid": "Sorceror",
+        "fields": []
+    }
+]

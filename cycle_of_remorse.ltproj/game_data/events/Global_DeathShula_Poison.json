@@ -1,0 +1,24 @@
+[
+    {
+        "name": "DeathShula_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Shula' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "u;Shula;FarRight",
+            "if;game.level.nid == '24'",
+            "  s;Shula;Dammit{tgm}...!{tgm} I gotta retreat!;StyleNid=boss_convo_right;MessageTail=None",
+            "else",
+            "  s;Shula;D-Dammit{tgm}...!{tgm} Not like this{tgm}...;StyleNid=boss_convo_right;MessageTail=None",
+            "  e;Shula;CloseEyes",
+            "end",
+            "r;Shula",
+            "mf"
+        ],
+        "nid": "Global DeathShula_Poison"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "JUDAH_CHILD",
+        "name": "Intimidated <red>(Judah)</>",
+        "desc": "Hit -15.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            13,
+            35
+        ],
+        "components": [
+            [
+                "hit",
+                -15
+            ]
+        ]
+    }
+]

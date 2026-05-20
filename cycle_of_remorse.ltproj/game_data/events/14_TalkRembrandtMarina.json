@@ -1,0 +1,38 @@
+[
+    {
+        "name": "TalkRembrandtMarina",
+        "trigger": "on_talk",
+        "level_nid": "14",
+        "condition": "unit.nid == 'Rembrandt' and unit2.nid == 'Marina'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Rembrandt;Right;Marina;Left",
+            "s;Rembrandt;What{tgm}...{tgm} It's you!",
+            "e;Marina;Smile",
+            "s;Marina;Well, isn't this a pleasant surprise? Rembrandt, wasn't it?",
+            "s;Rembrandt;Yes. And you're{tgm}...{tgm} Miss Marina, correct?",
+            "s;Marina;How sweet of you to remember.|{c:e;Marina;Smile,CloseEyes}If anything, I'm more surprised you remember little ol' me.",
+            "s;Rembrandt;Well, I{tgm}...{c:e;Rembrandt;CloseEyes}{tgm} Ahem.|{c:e;Rembrandt;NormalBlink}We can discuss more of that later. More importantly, are you alright?|I doubt you're on this pirate ship out of your own free will.",
+            "e;Marina;NormalBlink,NoSmile",
+            "s;Marina;And you'd be right.|The brutes raided town and ran off with whoever they could get their hands on.",
+            "s;Rembrandt;How horrible. But worry not, Miss Marina. You're in safe hands now.|Just come along with us and you'll be fine.",
+            "s;Marina;\"Us\"?",
+            "s;Rembrandt;I've been recruited into the Medean princess's army. It's{tgm}...{tgm} a long story.",
+            "e;Marina;Smile",
+            "s;Marina;And you'll tell it to me once this is all over, won't you?|Perhaps over a drink or two?",
+            "e;Rembrandt;Smile",
+            "s;Rembrandt;Consider it done.",
+            "rrr",
+            "change_team;Marina;player",
+            "remove_talk;Krista;Marina",
+            "remove_talk;Forrest;Marina",
+            "remove_talk;Rembrandt;Marina",
+            "change_ai;Marina;None",
+            "mf"
+        ],
+        "nid": "14 TalkRembrandtMarina"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "BaseConvo_Too Many Ears",
+        "trigger": "on_base_convo",
+        "level_nid": "13",
+        "condition": "base_convo == 'Too Many Ears'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;Village",
+            "m;Girl of the Plains",
+            "uu;Ryuuji;Right;Taiga;Left",
+            "s;Taiga;You've been actin' all weird since we joined up with the Medeans, Cap.|What's up?",
+            "s;Ryuuji;No business of yours, Taiga. Or anyone's, really.|Got too many ears around to openly talk about it.",
+            "s;Taiga;You're making no sense at all!{br}You tell me about everything.|{c:e;Taiga;CloseEyes,Smile}Like that one time it was blackjack night with the boys and you--",
+            "e;Ryuuji;CloseEyes",
+            "s;Ryuuji;Too many ears around for that too, Taiga.|{c:e;Ryuuji;NormalBlink}It's gotta do with the past, alright?",
+            "e;Taiga;NormalBlink,NoSmile",
+            "s;Taiga;Ohhhh. Got it. So, back when you weren't \"Ryuuji\", huh?",
+            "e;Ryuuji;HalfCloseEyes",
+            "s;Ryuuji;Taiga.",
+            "s;Taiga;What? At least I didn't say that your real name was K--",
+            "e;Ryuuji;NormalBlink",
+            "s;Ryuuji;Taiga!",
+            "s;Taiga;What?! I didn't say anything!",
+            "e;Ryuuji;CloseEyes",
+            "s;Ryuuji;Please just stop talking.",
+            "increment_support_points;Ryuuji;Taiga;1",
+            "sound;Item",
+            "alert;Ryuuji and Taiga grew closer!",
+            "remove_base_convo;Too Many Ears",
+            "b",
+            "mf"
+        ],
+        "nid": "13 BaseConvo_Too Many Ears"
+    }
+]

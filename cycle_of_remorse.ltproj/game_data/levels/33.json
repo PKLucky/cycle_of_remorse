@@ -1,0 +1,1071 @@
+[
+    {
+        "nid": "33",
+        "name": "Ch. 33: 'Til Death Do Us Part",
+        "tilemap": "Ch33",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "For Your Own Good",
+            "enemy_phase": "Butterfly Emerges from Chrysalis",
+            "boss_battle": "Softly with Grace",
+            "player_battle": "Resolute",
+            "enemy_battle": null,
+            "other_battle": null,
+            "other_phase": null
+        },
+        "objective": {
+            "simple": "Defeat Ervan",
+            "win": "Defeat Ervan",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": "Krista",
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ervan",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "201",
+                "variant": null,
+                "level": 13,
+                "klass": "General",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "202",
+                "variant": null,
+                "level": 13,
+                "klass": "Falcoknight",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "203",
+                "variant": null,
+                "level": 13,
+                "klass": "Bishop",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Divine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "204",
+                "variant": null,
+                "level": 13,
+                "klass": "Bishop",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Divine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "205",
+                "variant": null,
+                "level": 13,
+                "klass": "Falcoknight",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "206",
+                "variant": null,
+                "level": 13,
+                "klass": "General",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "207",
+                "variant": null,
+                "level": 13,
+                "klass": "Warrior",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "208",
+                "variant": null,
+                "level": 13,
+                "klass": "Sage",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "209",
+                "variant": null,
+                "level": 13,
+                "klass": "Warrior",
+                "faction": "Medeas",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    25
+                ],
+                "size": [
+                    5,
+                    3
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    13,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy1",
+                "region_type": "normal",
+                "position": [
+                    10,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy2",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy3",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy4",
+                "region_type": "normal",
+                "position": [
+                    10,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy5",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy6",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy7",
+                "region_type": "normal",
+                "position": [
+                    8,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy8",
+                "region_type": "normal",
+                "position": [
+                    16,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy9",
+                "region_type": "normal",
+                "position": [
+                    10,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy10",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy11",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy12",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy13",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy14",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy15",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy16",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy17",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy18",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy19",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy20",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy21",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy22",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy23",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy24",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy25",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy26",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy27",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy28",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy29",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy30",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy31",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy32",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy33",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy34",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy35",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy36",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy37",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "enemy38",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "green",
+                "units": [
+                    "201",
+                    "202",
+                    "203",
+                    "204",
+                    "205",
+                    "206",
+                    "207",
+                    "208",
+                    "209"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    }
+]

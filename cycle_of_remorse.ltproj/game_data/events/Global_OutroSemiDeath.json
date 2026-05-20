@@ -1,0 +1,42 @@
+[
+    {
+        "name": "OutroSemiDeath",
+        "trigger": "level_end",
+        "level_nid": "Global",
+        "condition": "u('Semi') and game.check_dead('Semi') == True and (game.level.nid in ['3', '4', '5', '6', '8'] or game.level.nid == '7a' or game.level.nid == '7b' or game.level.nid == '7bb' or game.level.nid == '7x')",
+        "commands": [],
+        "only_once": true,
+        "priority": 19,
+        "_source": [
+            "t;close",
+            "b;Tent",
+            "t;open",
+            "music_clear",
+            "m;Within Sadness",
+            "uu;Semi;Left;Krista;Right",
+            "e;Semi;CloseEyes",
+            "s;Semi;Agh, dammit{tgm}...!",
+            "bop;Krista",
+            "s;Krista;Hey, take it easy!|{c:e;Krista;HalfCloseEyes}Man, your hand looks real bad, Semi{tgm}...",
+            "e;Krista;NormalBlink",
+            "if;game.level.nid == '7b'",
+            "  s;Krista;We'd better leave you here at the monestary until you recover--",
+            "  gvar;SemiDeathTime;'Foliaga'",
+            "elif;v('LunarisVergrande') != 'Lake Lunaris' and v('ChapterFlag') >= 7 and v('ChapterFlag') <= 9",
+            "  s;Krista;We'd better take you back to Vergrande Monestary to recover--",
+            "  gvar;SemiDeathTime;'Foliaga'",
+            "else",
+            "  s;Krista;We'd better take you back to the castle to recover--",
+            "  gvar;SemiDeathTime;'Medeas'",
+            "end",
+            "e;Semi;NormalBlink",
+            "s;Semi;Screw that.{br}I can still help.|{c:e;Semi;CloseEyes}Besides, I promised Aqua I would do whatever it takes to bring peace to Foliaga.|{c:e;Semi;NormalBlink}I'm not giving up just because of a broken hand.",
+            "s;Krista;Semi{tgm}...|{c:e;Krista;Smile}{tgm}Alright! Just don't push yourself too hard.",
+            "s;Semi;Yeah, yeah.",
+            "rrr",
+            "music_clear",
+            "t;close"
+        ],
+        "nid": "Global OutroSemiDeath"
+    }
+]

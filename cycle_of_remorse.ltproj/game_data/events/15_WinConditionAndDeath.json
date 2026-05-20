@@ -1,0 +1,26 @@
+[
+    {
+        "name": "WinConditionAndDeath",
+        "trigger": "combat_death",
+        "level_nid": "15",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == 'wall'",
+            "  map_anim;Snag;{position}",
+            "  sound;Wall Attack",
+            "  show_layer;wall",
+            "else",
+            "  linc;boutCounter",
+            "  if;v('boutCounter') == 13",
+            "    music_clear",
+            "    victory_screen",
+            "    win_game",
+            "  end",
+            "end"
+        ],
+        "nid": "15 WinConditionAndDeath"
+    }
+]

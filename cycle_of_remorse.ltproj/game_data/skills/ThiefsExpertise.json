@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "ThiefsExpertise",
+        "name": "Thief's Expertise",
+        "desc": "Can use <red>Steal</> and <red>Locktouch</>. Can see more in Fog of War and gain more EXP when Visiting.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "locktouch",
+                null
+            ],
+            [
+                "sight_range_bonus",
+                3
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "Steal"
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Locktouch"
+                ]
+            ],
+            [
+                "item_override",
+                "EffWallOverride"
+            ]
+        ]
+    }
+]

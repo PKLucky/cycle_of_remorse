@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Celik",
+        "name": "Celik",
+        "desc": "Head of the Oregotian Council.\nRighteous but hot-headed.",
+        "variant": "",
+        "level": 1,
+        "klass": "GriffonRider",
+        "tags": [
+            "Boss",
+            "Oreg",
+            "NotDeadLord"
+        ],
+        "bases": {
+            "HP": 1,
+            "MOV": 7,
+            "CON": 7
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 55,
+            "MAG": 50,
+            "SKL": 55,
+            "SPD": 55,
+            "LCK": 25,
+            "DEF": 45,
+            "RES": 45,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Devil Axe",
+                false
+            ],
+            [
+                "SilverLongbow",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "CharmedAzalea"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                361,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Celik",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "Medea{tgm}...{tgm} You little brat{tgm}...{tgm}!"
+            ]
+        ]
+    }
+]

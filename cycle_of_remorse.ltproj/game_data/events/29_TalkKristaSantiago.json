@@ -1,0 +1,30 @@
+[
+    {
+        "name": "TalkKristaSantiago",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "check_pair('Krista','Santiago')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Right;Santiago;Left",
+            "rrr",
+            "remove_tag;Santiago;Boss",
+            "change_team;Santiago;player",
+            "change_ai;Santiago;None",
+            "change_objective_win;Defeat Alpin",
+            "change_objective_simple;Defeat Alpin",
+            "if;game.check_dead('Alpin') == True",
+            "music_clear",
+            "victory_screen",
+            "win_game",
+            "else",
+            "remove_talk;Krista;Santiago",
+            "mf",
+            "end"
+        ],
+        "nid": "29 TalkKristaSantiago"
+    }
+]

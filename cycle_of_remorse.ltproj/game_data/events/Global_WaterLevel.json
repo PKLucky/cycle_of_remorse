@@ -1,0 +1,23 @@
+[
+    {
+        "name": "WaterLevel",
+        "trigger": "enemy_turn_change",
+        "level_nid": null,
+        "condition": "'Water' in game.level.tags",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.get_random(0,99) == 99",
+            "  change_music;enemy_phase;Squall Goes to the Water Aisle",
+            "elif;game.level.nid == '12'",
+            "  change_music;enemy_phase;Pirate Otter Battle",
+            "elif;game.level.nid == '14'",
+            "  change_music;enemy_phase;Big Bad Burnin' Buddha",
+            "else",
+            "  change_music;enemy_phase;Poison Battle",
+            "end"
+        ],
+        "nid": "Global WaterLevel"
+    }
+]

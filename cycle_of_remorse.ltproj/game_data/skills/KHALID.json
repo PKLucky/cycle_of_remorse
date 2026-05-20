@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "KHALID",
+        "name": "Flame Cutter",
+        "desc": "When fully charged, unit deals Dmg +10 and targets lowest of the target's Def/Res for one round of combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "build_charge",
+                5
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ],
+            [
+                "combat_charge_increase",
+                1
+            ],
+            [
+                "combat_art",
+                "KHALID_COMBATART"
+            ]
+        ]
+    }
+]

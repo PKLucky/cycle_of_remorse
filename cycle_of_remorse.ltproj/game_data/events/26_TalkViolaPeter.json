@@ -1,0 +1,43 @@
+[
+    {
+        "name": "TalkViolaPeter",
+        "trigger": "on_talk",
+        "level_nid": "26",
+        "condition": "check_pair('Viola','Peter')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Viola;Right;Peter;Left",
+            "e;Viola;Smile",
+            "s;Viola;Hi, there, mister! You doing okay?",
+            "e;Peter;CloseEyes",
+            "s;Peter;*sigh* Could be better.|{c:e;Peter;NormalBlink}More importantly, what is a young lady such as yourself doing here?|You and your pegasus are obviously not from around these parts.",
+            "s;Viola;I'm with the Medean army!|We're trying to get to the capital and save the world and stuff.",
+            "s;Peter;I beg your pardon?",
+            "e;Viola;NoSmile",
+            "s;Viola;Yeah, a bunch of bad guys are messing up everything and we're gonna stop them!",
+            "e;Peter;CloseEyes",
+            "s;Peter;Hm{tgm}...{tgm} I wonder if that has anything to do with the rise in bandit raids{tgm}...|{tgm}If it does, then{tgm}...",
+            "s;Viola;What is it, mister?",
+            "e;Peter;NormalBlink",
+            "s;Peter;I wish to join you, if you don't mind.|There has been nothing but chaos and turmoil in this area for the past year.|I want my peace and quiet back,{br}so our goals may align.",
+            "e;Viola;Smile",
+            "s;Viola;That would be great, mister! My name's Viola, by the way. What's yours?",
+            "s;Peter;My name is Peter. Now, let us take care of these ruffians.",
+            "rrr",
+            "change_team;Peter;player",
+            "remove_talk;Krista;Peter",
+            "remove_talk;Peter;Krista",
+            "remove_talk;Tsurugi;Peter",
+            "remove_talk;Peter;Tsurugi",
+            "remove_talk;Viola;Peter",
+            "remove_talk;Peter;Viola",
+            "change_ai;Peter;None",
+            "mlvar;deployedUnits;it.append('Peter')",
+            "mf"
+        ],
+        "nid": "26 TalkViolaPeter"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "29",
+        "condition": "unit.nid == 'Alpin' and unit2.nid == None and (game.check_dead('Santiago') == True or u('Santiago').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "29 Defeat Boss Poison"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "18",
+        "condition": "unit2.nid == None and ((unit.nid == 'Hayato' and (game.check_dead('Yukino') == True or u('Yukino').team == 'player') or (unit.nid == 'Yukino' and game.check_dead('Hayato') == True))",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "18 Defeat Boss Poison"
+    }
+]

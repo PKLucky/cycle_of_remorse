@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "14b",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;chest",
+            "if;unit.team == 'player'",
+            "  give_money;5000",
+            "else",
+            "  give_item;{unit};Gold;no_banner",
+            "  change_item_name;{unit};Gold;5000G",
+            "  change_item_desc;{item};Gold;5000 Gold",
+            "  modify_item_component;{unit};Gold;value;10000",
+            "  sound;Item",
+            "  alert;<blue>{e:u('{unit}').faction}</> got <blue>5000G</>.<icon>Valuable 0, 3</>",
+            "end"
+        ],
+        "nid": "14b Chest"
+    }
+]

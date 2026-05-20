@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "JOSHUA",
+        "name": "Heavy Hitter",
+        "desc": "Adds weapon Wt/2 to Dmg.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            25
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_weapon().weight.value * 0.5"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

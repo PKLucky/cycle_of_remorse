@@ -1,0 +1,19 @@
+[
+    {
+        "name": "PrepMarketTutorial",
+        "trigger": "on_prep_start",
+        "level_nid": null,
+        "condition": "'MapGaiden' in game.level.tags",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "uu;Anna;Right;Jake;Left",
+            "e;Jake;Smile",
+            "s;Jake;Oh hey, since we're here, you can buy stuff from us when you <red>Prepare</> for battle.|Just let us know when you have to manage your <red>Items</>.|We'll set up a <red>Market</> for you guys to shop through.|Pretty convenient having a couple of merchants around, huh?",
+            "s;Anna;And don't worry. Even if we get hurt real bad out there,|you can always depend on us to supply you with merchandise.",
+            "rrr"
+        ],
+        "nid": "Global PrepMarketTutorial"
+    }
+]

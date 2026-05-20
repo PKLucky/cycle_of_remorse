@@ -1,0 +1,25 @@
+[
+    {
+        "name": "FightAgronaKrista",
+        "trigger": "combat_start",
+        "level_nid": "22",
+        "condition": "check_pair('Agrona', 'Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Agrona;LeftCorner",
+            "s;Agrona;You have it made it all the way here.|Perhaps we have underestimated you.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Agrona",
+            "u;Krista;RightCorner",
+            "s;Krista;Who are you guys? Why are you doing this?|What the hell is Circ?;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "u;Agrona;LeftCorner",
+            "s;Agrona;Don't ask questions you're not prepared|to hear the answer to.|You may not like what you discover.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Agrona",
+            "show_combat_ui"
+        ],
+        "nid": "22 FightAgronaKrista"
+    }
+]

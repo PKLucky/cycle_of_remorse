@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Remove Checkpoints",
+        "trigger": "unit_death",
+        "level_nid": "26x",
+        "condition": "unit.nid in ['guard1','guard2']",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == 'guard1'",
+            "  remove_region;escape_1",
+            "elif;unit.nid == 'guard2'",
+            "  remove_region;escape_2",
+            "end"
+        ],
+        "nid": "26x Remove Checkpoints"
+    }
+]

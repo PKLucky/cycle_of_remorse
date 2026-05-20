@@ -1,0 +1,32 @@
+[
+    {
+        "name": "TalkNagisaAsuka",
+        "trigger": "on_talk",
+        "level_nid": "21",
+        "condition": "check_pair('Asuka','Nagisa')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;The Steel Samurai",
+            "uu;Asuka;Right;Nagisa;Left",
+            "s;Nagisa;Miss Asuka?! How are you here?|I thought the Medeans{tgm}...",
+            "s;Asuka;I am alive and well, Nagisa.|On that note, I thought you would be with Lady Tsubaki.|{c:e;Asuka;CloseEyes}Although, that is not important right now.|{c:e;Asuka;NormalBlink}The Medeans are here, yes, but they do not mean to harm the emperor.",
+            "s;Nagisa;What?",
+            "s;Asuka;They seek to bring him back to his senses.|If we join forces with them, we may be able to do just that.",
+            "e;Nagisa;CloseEyes",
+            "s;Nagisa;I see{tgm}...|{c:e;Nagisa;HalfCloseEyes}{tgm}Since they kept you alive, perhaps they want a peaceful solution after all.|{c:e;Nagisa;NormalBlink}I will report this development to Lady Tsubaki.",
+            "rrr",
+            "change_team;Nagisa;player",
+            "remove_tag;Nagisa;Boss",
+            "remove_talk;Ryuuji;Nagisa",
+            "remove_talk;Sumire;Nagisa",
+            "remove_talk;Asuka;Nagisa",
+            "add_talk;Nagisa;Tsubaki",
+            "change_ai;Nagisa;None",
+            "add_tag;Nagisa;Friendly",
+            "mf"
+        ],
+        "nid": "21 TalkNagisaAsuka"
+    }
+]

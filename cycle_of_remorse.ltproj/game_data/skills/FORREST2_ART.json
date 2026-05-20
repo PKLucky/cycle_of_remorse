@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FORREST2_ART",
+        "name": "Mercy",
+        "desc": "Leaves the target with 1 HP if the user's attack would kill the target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            53
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "FORREST2_EFFECT",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ]
+        ]
+    }
+]

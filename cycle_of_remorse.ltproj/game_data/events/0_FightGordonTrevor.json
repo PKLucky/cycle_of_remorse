@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightGordonTrevor",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Gordon', 'Trevor')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Gordon;LeftCorner",
+            "s;Gordon;Try and attack me!{br}I dare you!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Gordon",
+            "u;Trevor;RightCorner;;CloseEyes",
+            "s;Trevor;I{tgm}...{tgm} I can do this.|{c:e;Trevor;NormalBlink}Don't worry, Your Highness! We're coming!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Trevor",
+            "show_combat_ui"
+        ],
+        "nid": "0 FightGordonTrevor"
+    }
+]

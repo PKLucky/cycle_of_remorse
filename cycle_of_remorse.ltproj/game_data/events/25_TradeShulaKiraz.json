@@ -1,0 +1,37 @@
+[
+    {
+        "name": "TradeShulaKiraz",
+        "trigger": "other_turn_change",
+        "level_nid": "25",
+        "condition": "has_item('Distort','Shula') == True and len(get_units_within_distance((14,1),u('Kiraz').get_stat('MAG')//2,'Shula')) > 0 and u('Kiraz').team != 'player'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;Moustafa",
+            "center_cursor;Kiraz",
+            "flicker_cursor;Kiraz",
+            "u;Kiraz;Right",
+            "bop;Kiraz",
+            "e;Kiraz;Smile",
+            "s;Kiraz;Alright, Miss Shula's close by.{c:e;Kiraz;CloseEyes,NoSmile} So, I'll just{tgm}...",
+            "sound;Quintessence",
+            "map_anim;MapFlying;{e:u('Kiraz').position}",
+            "r;Kiraz",
+            "center_cursor;Shula",
+            "sound;Quintessence",
+            "map_anim;MapFlying;{e:u('Shula').position}",
+            "move_item;Shula;Kiraz;Distort",
+            "center_cursor;Kiraz",
+            "sound;Item",
+            "alert;Kiraz received Distort!;Distort",
+            "set_item_uses;Kiraz;Trade;-1;additive",
+            "u;Kiraz;Right;;Smile",
+            "s;Kiraz;Yes! Now I can help too.|{c:e;Kiraz;NoSmile}If only I could find a way out of here.",
+            "r;Kiraz",
+            "has_traded;Kiraz",
+            "mf"
+        ],
+        "nid": "25 TradeShulaKiraz"
+    }
+]

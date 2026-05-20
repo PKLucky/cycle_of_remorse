@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ThiefEscape",
+        "trigger": "escape",
+        "level_nid": null,
+        "condition": "game.level.nid != '10' and unit.team in ['enemy','enemy_1','enemy2','enemy2_1']",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove;{unit}",
+            "wait;400",
+            "if;len([unit for unit in game.get_enemy_units() if unit.generic == True and has_skill(unit,'ThiefsExpertise')]) == 0",
+            "  remove_map_anim;ThiefEscape;{position}",
+            "end"
+        ],
+        "nid": "Global ThiefEscape"
+    }
+]

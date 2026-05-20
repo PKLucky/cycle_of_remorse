@@ -1,0 +1,1578 @@
+[
+    {
+        "nid": "19",
+        "name": "Ch. 19: A Noble's Lament",
+        "tilemap": "Chapter 19",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Far Dawn",
+            "enemy_phase": "Poison Battle",
+            "player_battle": "Master Battle",
+            "enemy_battle": null,
+            "boss_battle": "Normal Battle"
+        },
+        "objective": {
+            "simple": "Defeat Masashi",
+            "win": "Defeat Masashi",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ForrestCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Mage Knight",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "KaiCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "FelicityCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Maid",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Masashi",
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Hikaru",
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "AgronaCopy",
+                "variant": "Female",
+                "level": 1,
+                "klass": "DreadFighter",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "SamegoroCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Marshall",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "TsubakiCopy",
+                "variant": "",
+                "level": 1,
+                "klass": "Valkyrie",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "wall1",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall15",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "wall2",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall15",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "wall3",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall15",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "wall4",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall15",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "wall5",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall15",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Sniper",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "IronLongbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Sniper",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "IronLongbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Sniper",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "IronLongbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104a",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Soldier",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ],
+                    [
+                        "Door Key",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 2,
+                "klass": "Hero",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Sniper",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "BroadheadBow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Cleric",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109b",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Swordmaster",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ],
+                    [
+                        "Door Key",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Warrior",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 2,
+                "klass": "Halberdier",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 2,
+                "klass": "General",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 2,
+                "klass": "Sage",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 2,
+                "klass": "Falcoknight",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Hero",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 2,
+                "klass": "Valkyrie",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Physic",
+                        false
+                    ],
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Dancer",
+                "faction": "Merinas",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118c",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Lancer",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Short Spear",
+                        false
+                    ],
+                    [
+                        "Door Key",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 2,
+                "klass": "Halberdier",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Mage",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Elwind",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Myrmidon",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 2,
+                "klass": "General",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Zanbato",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Bishop",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Divine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Swordmaster",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Sniper",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "CleaveBow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 2,
+                "klass": "Berserker",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Cleric",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128d",
+                "variant": null,
+                "level": 2,
+                "klass": "Hero",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "IronPoleax",
+                        false
+                    ],
+                    [
+                        "Door Key",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Druid",
+                "faction": "Circ",
+                "starting_items": [
+                    [
+                        "Miasma",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 1,
+                "klass": "Warrior",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 2,
+                "klass": "General",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": "Female",
+                "level": 20,
+                "klass": "Cleric",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": "Female",
+                "level": 2,
+                "klass": "Sniper",
+                "faction": "Merinas",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Door1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    14
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Door2",
+                "region_type": "event",
+                "position": [
+                    8,
+                    12
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Door3",
+                "region_type": "event",
+                "position": [
+                    15,
+                    16
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Door4",
+                "region_type": "event",
+                "position": [
+                    21,
+                    13
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New_Region",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    2
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New_Region_1",
+                "region_type": "formation",
+                "position": [
+                    13,
+                    2
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New_Region_2",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    3
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New_Region_3",
+                "region_type": "formation",
+                "position": [
+                    5,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New_Region_4",
+                "region_type": "formation",
+                "position": [
+                    15,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Chest1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Chest2",
+                "region_type": "event",
+                "position": [
+                    21,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "krista",
+                "units": [
+                    "Krista",
+                    "ForrestCopy",
+                    "KaiCopy",
+                    "FelicityCopy"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "archers",
+                "units": [
+                    "101",
+                    "102",
+                    "103"
+                ],
+                "positions": {
+                    "101": [
+                        4,
+                        7
+                    ],
+                    "102": [
+                        11,
+                        7
+                    ],
+                    "103": [
+                        19,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "masashi",
+                "units": [
+                    "Masashi",
+                    "Hikaru"
+                ],
+                "positions": {
+                    "Masashi": [
+                        8,
+                        18
+                    ],
+                    "Hikaru": [
+                        9,
+                        18
+                    ]
+                }
+            },
+            {
+                "nid": "enemy1",
+                "units": [
+                    "104a",
+                    "105",
+                    "106",
+                    "107",
+                    "108"
+                ],
+                "positions": {
+                    "105": [
+                        2,
+                        17
+                    ],
+                    "106": [
+                        2,
+                        17
+                    ],
+                    "107": [
+                        2,
+                        17
+                    ],
+                    "108": [
+                        2,
+                        17
+                    ],
+                    "104a": [
+                        2,
+                        17
+                    ]
+                }
+            },
+            {
+                "nid": "enemy2",
+                "units": [
+                    "109b",
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "117"
+                ],
+                "positions": {
+                    "110": [
+                        10,
+                        15
+                    ],
+                    "111": [
+                        7,
+                        15
+                    ],
+                    "112": [
+                        10,
+                        15
+                    ],
+                    "113": [
+                        7,
+                        15
+                    ],
+                    "114": [
+                        10,
+                        15
+                    ],
+                    "115": [
+                        10,
+                        15
+                    ],
+                    "116": [
+                        7,
+                        15
+                    ],
+                    "117": [
+                        10,
+                        15
+                    ],
+                    "109b": [
+                        7,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "enemy3",
+                "units": [
+                    "118c",
+                    "119",
+                    "120",
+                    "121",
+                    "122",
+                    "123",
+                    "124",
+                    "125",
+                    "126",
+                    "127"
+                ],
+                "positions": {
+                    "118c": [
+                        14,
+                        19
+                    ],
+                    "119": [
+                        17,
+                        19
+                    ],
+                    "120": [
+                        14,
+                        19
+                    ],
+                    "121": [
+                        17,
+                        19
+                    ],
+                    "122": [
+                        14,
+                        19
+                    ],
+                    "123": [
+                        17,
+                        19
+                    ],
+                    "124": [
+                        14,
+                        19
+                    ],
+                    "125": [
+                        17,
+                        19
+                    ],
+                    "126": [
+                        14,
+                        19
+                    ],
+                    "127": [
+                        17,
+                        19
+                    ]
+                }
+            },
+            {
+                "nid": "enemy4",
+                "units": [
+                    "128d",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133"
+                ],
+                "positions": {
+                    "128d": [
+                        21,
+                        16
+                    ],
+                    "129": [
+                        21,
+                        16
+                    ],
+                    "130": [
+                        21,
+                        16
+                    ],
+                    "131": [
+                        21,
+                        16
+                    ],
+                    "132": [
+                        21,
+                        16
+                    ],
+                    "133": [
+                        21,
+                        16
+                    ]
+                }
+            },
+            {
+                "nid": "walls",
+                "units": [
+                    "wall1",
+                    "wall2",
+                    "wall3",
+                    "wall4",
+                    "wall5"
+                ],
+                "positions": {
+                    "wall1": [
+                        5,
+                        14
+                    ],
+                    "wall2": [
+                        5,
+                        18
+                    ],
+                    "wall3": [
+                        12,
+                        19
+                    ],
+                    "wall4": [
+                        19,
+                        15
+                    ],
+                    "wall5": [
+                        19,
+                        19
+                    ]
+                }
+            },
+            {
+                "nid": "female",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104a",
+                    "105",
+                    "107",
+                    "108",
+                    "109b",
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118c",
+                    "120",
+                    "121",
+                    "123",
+                    "124",
+                    "125",
+                    "127",
+                    "129",
+                    "132",
+                    "133"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    }
+]

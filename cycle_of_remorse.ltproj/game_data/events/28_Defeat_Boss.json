@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "28",
+        "condition": "game.check_dead('Lev') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "28 Defeat Boss"
+    }
+]

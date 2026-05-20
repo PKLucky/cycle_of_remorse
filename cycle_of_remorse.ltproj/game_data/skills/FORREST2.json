@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "FORREST2",
+        "name": "Mercy",
+        "desc": "<red>(Combat Art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            53
+        ],
+        "components": [
+            [
+                "combat_art",
+                "FORREST2_ART"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) != None"
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "CombatArt"
+                ]
+            ]
+        ]
+    }
+]

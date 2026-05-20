@@ -1,0 +1,18 @@
+[
+    {
+        "name": "ReinforceWarning",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;Krista",
+            "u;Krista;Left",
+            "s;Krista;I think I hear footsteps coming from the basement.|We'd better wrap things up soon.",
+            "r;Krista"
+        ],
+        "nid": "2 ReinforceWarning"
+    }
+]

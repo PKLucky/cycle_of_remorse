@@ -1,0 +1,21 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "26x",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Torgen').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;GriffonKnight;9;player;None;Bandit;;Steel Sword",
+            "recruit_generic;{created_unit};Sphene;Sphene",
+            "u;Sphene;Right;;Smile",
+            "s;Sphene;Yo, Krista! I'm ready to roll!",
+            "sound;Item",
+            "alert;Sphene joined the party!",
+            "r;Sphene"
+        ],
+        "nid": "26x DeploymentCheck"
+    }
+]

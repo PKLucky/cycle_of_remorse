@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ArbalestBow",
+        "sub_nid": "Arbalest (F) Bow {EldritchAbomination, N426, Jj09}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "EldritchAbomination, N426, Jj09",
+                "Arbalest (F) Bow"
+            ]
+        ]
+    }
+]

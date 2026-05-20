@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "KAI",
+        "name": "Underhanded",
+        "desc": "When against an injured foe, unit gains Avo +15 and unit attacks first.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            43
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_hp() < target.get_max_hp()"
+            ],
+            [
+                "avoid",
+                15
+            ],
+            [
+                "vantage",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Snags",
+        "trigger": "unit_death",
+        "level_nid": "7bb",
+        "condition": "unit.nid in game.level.unit_groups.get('Snags').units",
+        "commands": [],
+        "only_once": false,
+        "priority": 10,
+        "_source": [
+            "# Show destruction anim",
+            "map_anim;Snag;{position}",
+            "sound;Wall Attack",
+            "# Show the new layer",
+            "if;unit.nid == 'sLo1'",
+            "  show_layer;SnagLo1",
+            "elif;unit.nid == 'sLo2'",
+            "  show_layer;SnagLo2",
+            "elif;unit.nid == 'sLo3'",
+            "  show_layer;SnagLo3",
+            "elif;unit.nid == 'sLo4'",
+            "  show_layer;SnagLo4",
+            "elif;unit.nid == 'sLo5'",
+            "  show_layer;SnagLo5",
+            "elif;unit.nid == 'sMid1'",
+            "  show_layer;SnagMid1",
+            "elif;unit.nid == 'sMid2'",
+            "  show_layer;SnagMid2",
+            "elif;unit.nid == 'sUp1'",
+            "  show_layer;SnagUp1",
+            "elif;unit.nid == 'sUp2'",
+            "  show_layer;SnagUp2",
+            "end"
+        ],
+        "nid": "7bb Snags"
+    }
+]

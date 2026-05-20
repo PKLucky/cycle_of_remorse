@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "7b",
+        "condition": "game.check_dead('Zeke') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "7b Defeat Boss"
+    }
+]

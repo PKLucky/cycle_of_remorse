@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "DevilAxe",
+        "name": "DevilAxe",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            28
+        ],
+        "components": [
+            [
+                "attack_proc",
+                "DevilAxe_Proc"
+            ],
+            [
+                "proc_rate",
+                "DEVIL_AXE"
+            ],
+            [
+                "condition",
+                "('Medea' not in unit.tags and 'Foliaga' not in unit.tags and 'Merin' not in unit.tags and 'Fueg' not in unit.tags and 'Oreg' not in unit.tags and 'Circ' not in unit.tags and 'Shifter' not in unit.tags) and unit.faction not in ['Circ','Circ1']"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

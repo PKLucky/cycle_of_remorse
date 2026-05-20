@@ -1,0 +1,41 @@
+[
+    {
+        "nid": "Door Key",
+        "name": "Door Key",
+        "desc": "Opens doors.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "value",
+                50
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "can_unlock",
+                "region.nid.startswith('Door') or region.nid.startswith('door')"
+            ],
+            [
+                "no_alert_on_break",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ]
+        ]
+    }
+]

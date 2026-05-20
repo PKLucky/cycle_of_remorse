@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Sol",
+        "name": "Sol",
+        "desc": "<red>(Combat art)</> Heals half damage dealt.\nUsable 3 times per chapter.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "drain_charge",
+                3
+            ],
+            [
+                "combat_art",
+                "Sol_CHILD"
+            ]
+        ]
+    }
+]

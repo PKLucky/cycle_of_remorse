@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Trade",
+        "name": "Trade",
+        "desc": "Trade items with a distant allied unit.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            23
+        ],
+        "components": [
+            [
+                "value",
+                1300
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "trade",
+                null
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "MapFlying"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    234,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "Quintessence"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "hover_description",
+                "Trade items with a distant allied unit."
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    }
+]

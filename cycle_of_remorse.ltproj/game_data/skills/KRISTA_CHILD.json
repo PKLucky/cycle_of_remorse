@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "KRISTA_CHILD",
+        "name": "Inspired <red>(Krista)</>",
+        "desc": "Deals Dmg +2 and takes Dmg -2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            52
+        ],
+        "components": [
+            [
+                "damage",
+                2
+            ],
+            [
+                "resist",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DeathForrest_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Forrest' and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "u;Forrest;FarRight",
+            "s;Forrest;I apologize, Your Highness{tgm}...{tgm}|I will have to withdraw{tgm}...!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Forrest",
+            "mf"
+        ],
+        "nid": "Global DeathForrest_Poison"
+    }
+]

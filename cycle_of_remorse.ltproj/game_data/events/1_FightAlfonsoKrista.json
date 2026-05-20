@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightAlfonsoKrista",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('Alfonso', 'Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alfonso;LeftCorner",
+            "s;Alfonso;Just come quietly, brat.{br}I ain't gonna hurt ya.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alfonso",
+            "u;Krista;RightCorner;;HalfCloseEyes,Smile",
+            "s;Krista;Bold of you to assume you're not the one getting get hurt.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "show_combat_ui"
+        ],
+        "nid": "1 FightAlfonsoKrista"
+    }
+]

@@ -1,0 +1,1206 @@
+[
+    {
+        "nid": "6",
+        "name": "Ch 6: Dark Woods",
+        "tilemap": "Chapter 6",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Fantasy 08",
+            "enemy_phase": "Verdane Army",
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": null,
+            "boss_battle": "Scout Battle"
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    11,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ForrestCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage Knight",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "KaiCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AquaCopy",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Adler",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    18,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": "",
+                "level": 5,
+                "klass": "Soldier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": "",
+                "level": 5,
+                "klass": "Soldier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "",
+                "level": 6,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "Axe",
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Axe",
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": "",
+                "level": 5,
+                "klass": "Monk",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Lightning",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": "Axe",
+                "level": 6,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": "",
+                "level": 5,
+                "klass": "Monk",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Shine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": "",
+                "level": 6,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": "Sword",
+                "level": 6,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": "Sword",
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": "Sword",
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Zanbato",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": "Sword",
+                "level": 6,
+                "klass": "Knight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Armorslayer",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": "",
+                "level": 5,
+                "klass": "Mage",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": "",
+                "level": 5,
+                "klass": "Mage",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": "Sword",
+                "level": 6,
+                "klass": "Templar",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": "",
+                "level": 6,
+                "klass": "Templar",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": "",
+                "level": 5,
+                "klass": "Templar",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": "",
+                "level": 6,
+                "klass": "Templar",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": "Axe",
+                "level": 6,
+                "klass": "Knight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": "Axe",
+                "level": 6,
+                "klass": "Knight",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": "",
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": "",
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": "",
+                "level": 6,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 5,
+                "klass": "Soldier",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": "",
+                "level": 6,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": "",
+                "level": 6,
+                "klass": "Archer",
+                "faction": "Knight",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "t1",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall10",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "t2",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall10",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "t3",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall10",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snag1",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snag2",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snag3",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snag4",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "snag5",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New Region",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    9
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    11
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    8
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Secret",
+                "region_type": "event",
+                "position": [
+                    1,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Secret",
+                "highlight": null,
+                "condition": "has_item('GoldCard', unit.nid)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Player",
+                "units": [
+                    "Krista",
+                    "ForrestCopy",
+                    "KaiCopy",
+                    "AquaCopy"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "EnemyNE",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104"
+                ],
+                "positions": {
+                    "105": [
+                        17,
+                        0
+                    ],
+                    "106": [
+                        16,
+                        0
+                    ],
+                    "108": [
+                        15,
+                        0
+                    ],
+                    "111": [
+                        0,
+                        8
+                    ],
+                    "112": [
+                        0,
+                        10
+                    ],
+                    "113": [
+                        5,
+                        0
+                    ],
+                    "114": [
+                        0,
+                        15
+                    ],
+                    "115": [
+                        0,
+                        11
+                    ],
+                    "116": [
+                        0,
+                        14
+                    ],
+                    "117": [
+                        0,
+                        17
+                    ],
+                    "118": [
+                        0,
+                        14
+                    ],
+                    "120": [
+                        4,
+                        0
+                    ],
+                    "121": [
+                        0,
+                        9
+                    ],
+                    "122": [
+                        0,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyN",
+                "units": [
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "EnemyNW",
+                "units": [
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116"
+                ],
+                "positions": {
+                    "117": [
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "nid": "EnemySW",
+                "units": [
+                    "117",
+                    "118",
+                    "120",
+                    "121",
+                    "122"
+                ],
+                "positions": {
+                    "116": [
+                        0,
+                        19
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyS",
+                "units": [
+                    "123",
+                    "125",
+                    "126",
+                    "127"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "EnemyE",
+                "units": [
+                    "128",
+                    "129",
+                    "130",
+                    "131"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "Tents",
+                "units": [
+                    "t1",
+                    "t2",
+                    "t3"
+                ],
+                "positions": {
+                    "t1": [
+                        11,
+                        9
+                    ],
+                    "t2": [
+                        8,
+                        8
+                    ],
+                    "t3": [
+                        8,
+                        12
+                    ]
+                }
+            },
+            {
+                "nid": "Snag",
+                "units": [
+                    "snag1",
+                    "snag2",
+                    "snag3",
+                    "snag4",
+                    "snag5"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    }
+]

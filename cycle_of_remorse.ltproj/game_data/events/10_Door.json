@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Door",
+        "trigger": "Door",
+        "level_nid": "10",
+        "condition": "region.nid == 'Door'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;door"
+        ],
+        "nid": "10 Door"
+    }
+]

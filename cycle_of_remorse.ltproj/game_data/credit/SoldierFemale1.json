@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SoldierFemale1",
+        "sub_nid": "SoldierGreenFemale",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Kyrads",
+                "Female Soldier 1"
+            ]
+        ]
+    }
+]

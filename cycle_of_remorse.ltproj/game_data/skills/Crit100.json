@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Crit100",
+        "name": "Crit100",
+        "desc": "DEBUG",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            14
+        ],
+        "components": [
+            [
+                "crit",
+                100
+            ]
+        ]
+    }
+]

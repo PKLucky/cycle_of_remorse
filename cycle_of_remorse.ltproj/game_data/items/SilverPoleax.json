@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "SilverPoleax",
+        "name": "Silver Poleax",
+        "desc": "",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            21
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                30
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "wexp",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+[
+    {
+        "nid": "Masashi",
+        "name": "Masashi",
+        "desc": "Nobleman of Merinas.\nFlirtatious and haughty.",
+        "variant": "",
+        "level": 1,
+        "klass": "Archer",
+        "tags": [
+            "Boss",
+            "NotDeadLord"
+        ],
+        "bases": {
+            "HP": 23,
+            "STR": 14,
+            "MAG": 11,
+            "SKL": 10,
+            "SPD": 6,
+            "LCK": 10,
+            "DEF": 11,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 45,
+            "MAG": 15,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 35,
+            "DEF": 45,
+            "RES": 25,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "SteelLongbow",
+                false
+            ],
+            [
+                "Short Bow",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "MASASHI"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Masashi",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "PromoStatCap3",
+                "HP,2,STR,9,SKL,3,DEF,6"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,5,DEF,2"
+            ],
+            [
+                "EscapeQuote",
+                "A successful escape!"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Masashi, Shot Through the Heart"
+            ]
+        ]
+    }
+]

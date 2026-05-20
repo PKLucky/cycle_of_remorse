@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightIrvingMichael",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "check_pair('Irving', 'Michael')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Irving;LeftCorner",
+            "s;Irving;Michael?!{br}What are you doing?|You dare point your lance at your commander?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Irving",
+            "u;Michael;RightCorner",
+            "s;Michael;I'm{tgm}...{tgm} I'm sorry, sir.|I-I refuse to be a Holy Knight if this is what it leads to!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Michael",
+            "show_combat_ui"
+        ],
+        "nid": "5 FightIrvingMichael"
+    }
+]

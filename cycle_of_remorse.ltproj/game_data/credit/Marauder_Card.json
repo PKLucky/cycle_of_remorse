@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Marauder_Card",
+        "sub_nid": "Marauder (M) Axe {NoelWoodsoul}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "NoelWoodsoul",
+                "Marauder"
+            ]
+        ]
+    }
+]

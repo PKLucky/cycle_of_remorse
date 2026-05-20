@@ -1,0 +1,26 @@
+[
+    {
+        "name": "DeathYumi_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Yumi' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.level.nid == '15'",
+            "  u;Yumi;FarLeft;;Smile",
+            "  s;Yumi;Haha! Not bad! You really are strong!;StyleNid=boss_convo_left;MessageTail=None",
+            "  r;Yumi",
+            "elif;unit.team == 'player'",
+            "  m;Within Sadness",
+            "  u;Yumi;FarRight",
+            "  s;Yumi;Ah{tgm}...{tgm} That{tgm}...{tgm} hurt{tgm}...;StyleNid=boss_convo_right;MessageTail=None",
+            "  e;Yumi;CloseEyes",
+            "  r;Yumi",
+            "  mf",
+            "end"
+        ],
+        "nid": "Global DeathYumi_Poison"
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "Naginata",
+        "name": "Naginata",
+        "desc": "Nagisa only.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            18
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                18
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Nagisa"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "undiscardable",
+                null
+            ]
+        ]
+    }
+]

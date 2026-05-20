@@ -1,0 +1,25 @@
+[
+    {
+        "name": "DeathJake_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Jake' and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "u;Jake;FarRight",
+            "if;'MapGaiden' in game.level.tags",
+            "  s;Jake;A-Anna{tgm}...{tgm} I'm sorry{tgm}...;StyleNid=boss_convo_right;MessageTail=None",
+            "  e;Jake;CloseEyes",
+            "  r;Jake",
+            "else",
+            "  s;Jake;N-No{tgm}...{tgm} I gotta fall back!;StyleNid=boss_convo_right;MessageTail=None",
+            "  r;Jake",
+            "mf",
+            "end"
+        ],
+        "nid": "Global DeathJake_Poison"
+    }
+]

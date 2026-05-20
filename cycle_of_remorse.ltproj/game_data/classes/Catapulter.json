@@ -1,0 +1,136 @@
+[
+    {
+        "nid": "Catapulter",
+        "name": "Catapulter",
+        "desc": "Expert marksmen with heavy artillery.",
+        "tier": 3,
+        "movement_group": "Armors",
+        "promotes_from": "Artillerist",
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 29,
+            "STR": 17,
+            "MAG": 0,
+            "SKL": 19,
+            "SPD": 6,
+            "LCK": 11,
+            "DEF": 20,
+            "RES": 11,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 60,
+            "MAG": 0,
+            "SKL": 70,
+            "SPD": 35,
+            "LCK": 40,
+            "DEF": 75,
+            "RES": 45,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 5,
+            "STR": 3,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 1,
+            "CON": 1,
+            "MOV": 1
+        },
+        "max_stats": {
+            "HP": 67,
+            "STR": 46,
+            "MAG": 30,
+            "SKL": 52,
+            "SPD": 30,
+            "LCK": 32,
+            "DEF": 52,
+            "RES": 33,
+            "CON": 20,
+            "MOV": 10
+        },
+        "learned_skills": [
+            [
+                1,
+                "Shrapnel"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                50,
+                491
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Catapulter",
+        "combat_anim_nid": "Catapulter",
+        "fields": []
+    }
+]

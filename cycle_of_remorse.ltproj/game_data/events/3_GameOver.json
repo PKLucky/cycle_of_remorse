@@ -1,0 +1,36 @@
+[
+    {
+        "name": "GameOver",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "len(get_units_in_region('danger',team='enemy')) >= 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "uu;Krista;Right;Sam;Left;Bandit1;OffscreenLeft;Bandit2;OffscreenRight",
+            "s;Sam;Argh, there's too many of them!",
+            "s;Krista;Sam, we gotta--",
+            "move_portrait;Sam;MidLeft;no_block",
+            "move_portrait;Bandit1;FarLeft",
+            "sound;Critical Hit 1",
+            "bop;Sam",
+            "e;Sam;CloseEyes",
+            "s;Sam;Augh{tgm}...!",
+            "sound;Death",
+            "r;Sam",
+            "move_portrait;Krista;MidRight",
+            "s;Krista;SAM, NO!",
+            "move_portrait;Bandit2;FarRight",
+            "sound;Critical Hit 1",
+            "bop;Krista",
+            "e;Krista;CloseEyes",
+            "s;Krista;A-Ah{tgm}...!",
+            "sound;Death",
+            "r;Krista",
+            "lose_game"
+        ],
+        "nid": "3 GameOver"
+    }
+]

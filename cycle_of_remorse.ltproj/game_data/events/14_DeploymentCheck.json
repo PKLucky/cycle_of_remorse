@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "14",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Ryuuji').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Pirate;15;player;None;Wyrmfang;Female;Steel Axe",
+            "add_tag;{created_unit};Female",
+            "recruit_generic;{created_unit};Watt;Watt",
+            "u;Watt;Right",
+            "s;Watt;Yo! Need help there? Looks like your army's lookin' pretty weak.|The captain said to step in if yer strugglin', so here I am!",
+            "sound;Item",
+            "alert;Watt joined the party!",
+            "r;Watt"
+        ],
+        "nid": "14 DeploymentCheck"
+    }
+]

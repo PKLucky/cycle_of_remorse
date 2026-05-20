@@ -1,0 +1,41 @@
+[
+    {
+        "name": "BaseConvo_Take the Load Off",
+        "trigger": "on_base_convo",
+        "level_nid": "5",
+        "condition": "base_convo == 'Take the Load Off'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;Fireplace",
+            "m;Guildmaster Wigglytuff",
+            "uu;Taylor;Left;Alex;Right",
+            "e;Taylor;CloseEyes,Smile",
+            "s;Taylor;Ah, finally back home.|{c:e;Taylor;NormalBlink,Smile}You know what this calls for, Alex?|A nice drink to celebrate another successful mission!",
+            "e;Alex;HalfCloseEyes",
+            "s;Alex;Please tell me you're referring to a nice cup of tea this time.",
+            "e;Taylor;CloseEyes,NoSmile",
+            "s;Taylor;I mean, if the weather were a little colder, sure.|{c:e;Taylor;NormalBlink,Smile}But nah. I'm talking about a nice pint of beer for the both of us!",
+            "e;Alex;NormalBlink",
+            "s;Alex;Well, at least it's not anything TOO strong.",
+            "s;Taylor;Of course not! We just got back to the castle.|Unless you want something stronger to take the load off.",
+            "e;Alex;CloseEyes",
+            "s;Alex;No, thank you.",
+            "s;Taylor;Alright, lemme just get these poured out.",
+            "e;Taylor;NoSmile",
+            "bop;Taylor",
+            "e;Taylor;Smile",
+            "s;Taylor;A toast to a successful rescue mission. Cheers!",
+            "e;Alex;Smile",
+            "s;Alex;Cheers.",
+            "increment_support_points;Taylor;Alex;1",
+            "sound;Item",
+            "alert;Taylor and Alex grew closer!",
+            "remove_base_convo;Take the Load Off",
+            "b",
+            "mf"
+        ],
+        "nid": "5 BaseConvo_Take the Load Off"
+    }
+]

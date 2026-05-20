@@ -1,0 +1,15 @@
+[
+    {
+        "name": "GameOver_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "game.check_dead('Krista') and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "lose_game"
+        ],
+        "nid": "Global GameOver_Poison"
+    }
+]

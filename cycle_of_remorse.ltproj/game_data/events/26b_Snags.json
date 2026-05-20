@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Snags",
+        "trigger": "unit_death",
+        "level_nid": "26b",
+        "condition": "unit.nid in game.level.unit_groups.get('snags').units",
+        "commands": [],
+        "only_once": false,
+        "priority": 10,
+        "_source": [
+            "# Show destruction anim",
+            "map_anim;Snag;{position}",
+            "sound;Wall Attack",
+            "# Show the new layer",
+            "if;unit.nid == 'snag1'",
+            "  show_layer;snag1",
+            "elif;unit.nid == 'snag2'",
+            "  show_layer;snag2",
+            "end"
+        ],
+        "nid": "26b Snags"
+    }
+]

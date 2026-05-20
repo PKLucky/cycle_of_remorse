@@ -1,0 +1,21 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "18",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Ryuuji').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Pirate;20;player;None;Wyrmfang;;Steel Axe",
+            "recruit_generic;{created_unit};Beekos;Beekos",
+            "u;Beekos;Right",
+            "s;Beekos;Yer army's lookin' scant here, eh?|Not to worry, Cap'n Ryuuji said to come in just in case somethin' like this happened.|We got yer back, Yer Highness!",
+            "sound;Item",
+            "alert;Beekos joined the party!",
+            "r;Beekos"
+        ],
+        "nid": "18 DeploymentCheck"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Assault",
+        "sub_nid": "Staff",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            21
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Assault"
+            ]
+        ]
+    }
+]

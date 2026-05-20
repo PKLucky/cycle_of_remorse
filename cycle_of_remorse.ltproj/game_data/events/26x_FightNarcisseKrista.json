@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightNarcisseKrista",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_pair('Narcisse', 'Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Krista;RightCorner",
+            "s;Krista;Another bandit!|Wait, no, you look way too fancy to be one.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "u;Narcisse;LeftCorner",
+            "s;Narcisse;How dare you!|{c:e;Narcisse;CloseEyes}Thinking for even a second that I'm with these ruffians{tgm}...|{c:e;Narcisse;NormalBlink}{tgm}Have at you!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Narcisse",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightNarcisseKrista"
+    }
+]

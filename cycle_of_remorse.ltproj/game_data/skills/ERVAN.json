@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ERVAN",
+        "name": "Authority",
+        "desc": "After defeating a foe, grants all allied units Hit/Avo +5. (Max. Hit/Avo +25)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

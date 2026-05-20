@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ROMAN_STATUS",
+        "name": "Provoke <red>(Status)</>",
+        "desc": "Enemies are more likely to attack this unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            46
+        ],
+        "components": [
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "modify_ai_priority",
+                2.0
+            ],
+            [
+                "unit_anim",
+                "MapProvoke"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightJamal",
+        "trigger": "combat_start",
+        "level_nid": "25",
+        "condition": "check_default('Jamal', ['Krista','Khalid','Kiraz'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Jamal;LeftCorner",
+            "s;Jamal;Utter fools. All of you.|You will fall to the might of the Great Circ!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Jamal",
+            "show_combat_ui"
+        ],
+        "nid": "25 FightJamal"
+    }
+]

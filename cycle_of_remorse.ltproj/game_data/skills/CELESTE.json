@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CELESTE",
+        "name": "Motivation",
+        "desc": "If within 3 spaces of an ally, grants +10 critical rate to unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            12
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "condition",
+                "unit_funcs.check_focus(unit, 3) > 0"
+            ]
+        ]
+    }
+]

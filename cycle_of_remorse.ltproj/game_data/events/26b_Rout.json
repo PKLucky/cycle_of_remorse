@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Rout",
+        "trigger": "combat_end",
+        "level_nid": "26b",
+        "condition": "len(game.get_enemy_units()) == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;PartyUnits;[unit.nid for unit in game.get_player_units_and_travelers()]",
+            "  change_party;{PartyUnits};Krista",
+            "endf",
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "26b Rout"
+    }
+]

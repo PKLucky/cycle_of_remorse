@@ -1,0 +1,15 @@
+[
+    {
+        "nid": "Map_Lord",
+        "sub_nid": "Lord",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "WiiSportsRemote",
+                null
+            ]
+        ]
+    }
+]

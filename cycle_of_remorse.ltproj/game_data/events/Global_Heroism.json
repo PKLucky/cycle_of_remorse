@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Heroism",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "u('Taichi') and unit2.nid == 'Taichi' and ('Bandit' in unit.tags or 'Dark' in unit.tags) and has_skill('Taichi', 'Heroism_Proc') == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 10,
+        "_source": [
+            "map_anim;MapSmallHealTrans;Taichi",
+            "sound;MapHeal",
+            "give_skill;Taichi;TAICHI_PROC;no_banner"
+        ],
+        "nid": "Global Heroism"
+    }
+]

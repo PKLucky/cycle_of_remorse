@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightTalbotRembrandt",
+        "trigger": "combat_start",
+        "level_nid": "7bb",
+        "condition": "check_pair('Talbot', 'Rembrandt')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Rembrandt;RightCorner",
+            "s;Rembrandt;I hear you lot are attacking innocent people|for petty revenge.|Is that true?;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Rembrandt",
+            "u;Talbot;LeftCorner",
+            "s;Talbot;Mind your own damn business! This is between us and them!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Talbot",
+            "show_combat_ui"
+        ],
+        "nid": "7bb FightTalbotRembrandt"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "YUMI",
+        "name": "Allure",
+        "desc": "<red>(Aura, male allies only)</> Grants Dmg dealt +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            24
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "YUMI_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    }
+]

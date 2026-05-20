@@ -1,0 +1,99 @@
+[
+    {
+        "nid": "SpysDagger",
+        "name": "Spy's Dagger",
+        "desc": "Matthew only. Effective against units afflicted with negative status effects. Grants Def/Res +3 on self and inflicts Def/Res -3 on target for one turn after combat.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            26
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Matthew"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "SpysDaggerSelf"
+            ],
+            [
+                "status_after_combat_on_hit",
+                "SpysDagger"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Negative"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "uses",
+                16
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "undiscardable",
+                null
+            ]
+        ]
+    }
+]

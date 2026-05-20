@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "32",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_tag;Kai;Required",
+            "remove_tag;Felicity;Required",
+            "if;v('Ch32ForrestDead') == True",
+            "  kill;Forrest;immediate",
+            "end",
+            "if;v('Ch32KaiDead') == True",
+            "  kill;Kai;immediate",
+            "end",
+            "if;v('Ch32FelicityDead') == True",
+            "  kill;Felicity;immediate",
+            "end",
+            "t;close",
+            "remove_all_units",
+            "###",
+            "###",
+            "t;close",
+            "for;outro;[u for u in v('deployedUnits')]",
+            "  if;u('{outro}').party == 'Krista'",
+            "    add;{outro};0,0;immediate;stack",
+            "  end",
+            "endf"
+        ],
+        "nid": "32 Outro"
+    }
+]

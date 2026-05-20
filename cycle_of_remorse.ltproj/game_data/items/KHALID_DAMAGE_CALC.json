@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "KHALID_DAMAGE_CALC",
+        "name": "LunaCalc",
+        "desc": "Uses the lower of Def/Res when calculating damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            45
+        ],
+        "components": [
+            [
+                "alternate_resist_formula",
+                "LOWER_TARGET"
+            ]
+        ]
+    }
+]

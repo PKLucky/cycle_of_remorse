@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Walls",
+        "trigger": "unit_death",
+        "level_nid": "5",
+        "condition": "unit.nid in game.level.unit_groups.get('Wall').units",
+        "commands": [],
+        "only_once": false,
+        "priority": 10,
+        "_source": [
+            "# Show destruction anim",
+            "map_anim;Snag;{position}",
+            "sound;Wall Attack",
+            "# Show the new layer",
+            "if;unit.nid == 'walln'",
+            "  show_layer;WallN",
+            "elif;unit.nid == 'walls'",
+            "  show_layer;WallS",
+            "end"
+        ],
+        "nid": "5 Walls"
+    }
+]

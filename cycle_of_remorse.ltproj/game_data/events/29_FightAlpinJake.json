@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightAlpinJake",
+        "trigger": "combat_start",
+        "level_nid": "29",
+        "condition": "check_pair('Alpin','Jake')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alpin;LeftCorner",
+            "s;Alpin;Jake?! Where have you been? You abandoned us!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alpin",
+            "u;Jake;RightCorner",
+            "s;Jake;Us? No, you guys left all of Oregot in the dust!|Anna and I are here to set things right!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Jake",
+            "show_combat_ui"
+        ],
+        "nid": "29 FightAlpinJake"
+    }
+]

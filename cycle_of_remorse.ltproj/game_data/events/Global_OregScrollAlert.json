@@ -1,0 +1,16 @@
+[
+    {
+        "name": "OregScrollAlert",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Item",
+            "alert;Growth rates increased!;OregsScroll"
+        ],
+        "nid": "Global OregScrollAlert"
+    }
+]

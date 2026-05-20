@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TSUBAKI_CHILD",
+        "name": "Rallied <red>(Tsubaki)</>",
+        "desc": "Grants Dmg +5",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            24
+        ],
+        "components": [
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "damage",
+                5
+            ]
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "SAM",
+        "name": "Strength Aura",
+        "desc": "<red>(Aura)</> Grants Str +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "SAM_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    }
+]

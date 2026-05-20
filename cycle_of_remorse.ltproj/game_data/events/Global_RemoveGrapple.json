@@ -1,0 +1,15 @@
+[
+    {
+        "name": "RemoveGrapple",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;Santiago;SANTIAGO_SELF;no_banner"
+        ],
+        "nid": "Global RemoveGrapple"
+    }
+]

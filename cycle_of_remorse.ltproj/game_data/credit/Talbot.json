@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Talbot",
+        "sub_nid": "Talbot",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Melia, RandomWizard",
+                "Talbot"
+            ]
+        ]
+    }
+]

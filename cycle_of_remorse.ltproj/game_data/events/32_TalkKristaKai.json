@@ -1,0 +1,27 @@
+[
+    {
+        "name": "TalkKristaKai",
+        "trigger": "on_talk",
+        "level_nid": "32",
+        "condition": "check_pair('Krista','Kai')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "uu;Krista;Right;Kai;Left",
+            "rrr",
+            "remove_talk;Krista;Kai",
+            "remove_talk;Kai;Krista",
+            "linc;Ch32Talk",
+            "if;v('Ch32Talk') == 2",
+            "  change_objective_win;Escape!",
+            "  change_objective_simple;Escape!",
+            "  add_region;escape;8,49;3,1;event;Escape",
+            "  region_condition;escape;True",
+            "  center_cursor;10,49",
+            "  flicker_cursor;10,49",
+            "end"
+        ],
+        "nid": "32 TalkKristaKai"
+    }
+]

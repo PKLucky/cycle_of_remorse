@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Vendor_preview",
+        "trigger": "preview",
+        "level_nid": "7a",
+        "condition": "region.nid == 'Vendor_preview'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "m;Shops",
+            "shop;{unit};Fire,Thunder,Lightning,Shine,Flux,Vulnerary,Heal,Mend;vendor;preview",
+            "t;open",
+            "mf"
+        ],
+        "nid": "7a Vendor_preview"
+    }
+]

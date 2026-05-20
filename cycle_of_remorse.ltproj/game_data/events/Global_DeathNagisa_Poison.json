@@ -1,0 +1,24 @@
+[
+    {
+        "name": "DeathNagisa_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Nagisa' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.team == 'player'",
+            "  m;Within Sadness",
+            "  u;Nagisa;FarRight",
+            "  s;Nagisa;L-Lady Tsubaki{tgm}...{tgm} I have to withdraw{tgm}...!;StyleNid=boss_convo_right;MessageTail=None",
+            "  mf",
+            "else",
+            "  u;Nagisa;FarLeft",
+            "  s;Nagisa;L-Lady Tsubaki{tgm}...{tgm} I have to withdraw{tgm}...!;StyleNid=boss_convo_right;MessageTail=None",
+            "end",
+            "r;Nagisa"
+        ],
+        "nid": "Global DeathNagisa_Poison"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "FightAlimXiang",
+        "trigger": "combat_start",
+        "level_nid": "23",
+        "condition": "check_pair('Alim', 'Xiang')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alim;LeftCorner",
+            "s;Alim;!! What the{tgm}...?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alim",
+            "u;Xiang;RightCorner",
+            "s;Xiang;Yes? You seemed so determined before you ran into me.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Xiang",
+            "u;Alim;LeftCorner",
+            "s;Alim;Y-You{tgm}...{tgm} You're strong, but can you hit me? Just try!|I{tgm}...{tgm} I'm not scared of you{tgm}...!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alim",
+            "show_combat_ui"
+        ],
+        "nid": "23 FightAlimXiang"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CircFollower",
+        "sub_nid": "CircFollower",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "UltraFenix",
+                "Circ Follower"
+            ]
+        ]
+    }
+]

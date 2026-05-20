@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FoliasGrace",
+        "name": "Folia's Grace",
+        "desc": "Heals 10% of Max HP each turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            23
+        ],
+        "components": [
+            [
+                "time",
+                5
+            ],
+            [
+                "regeneration",
+                0.1
+            ]
+        ]
+    }
+]

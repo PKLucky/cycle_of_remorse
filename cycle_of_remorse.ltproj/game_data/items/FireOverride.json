@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "FireOverride",
+        "name": "FireOverride",
+        "desc": "(Lets the Flamberge count as Fire magic damage at range.)",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
+            ]
+        ]
+    }
+]

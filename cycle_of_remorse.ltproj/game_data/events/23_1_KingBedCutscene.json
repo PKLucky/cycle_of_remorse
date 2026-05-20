@@ -1,0 +1,29 @@
+[
+    {
+        "name": "KingBedCutscene",
+        "trigger": "Exit",
+        "level_nid": "23_1",
+        "condition": "region.nid == 'transition_hall_kingbed' and v('KingBedCheck') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "add;bryant_copy;7,5;immediate;stack;fade",
+            "add;thalia_copy;8,5;fade;stack;fade",
+            "flicker_cursor;bryant_copy",
+            "uu;Bryant;MidLeft,Middle;Thalia;FarLeft,Middle",
+            "s;Bryant;Where will you go from here?;bottom;200;noir;MessageTail=None",
+            "s;Thalia;Can you move on?;bottom;200;noir;MessageTail=None",
+            "rrr",
+            "move;Krista;7,7;normal;stack",
+            "remove;bryant_copy;immediate;fade",
+            "remove;thalia_copy;fade",
+            "wait;500",
+            "u;Krista;Right,Middle",
+            "s;Krista;Mother{tgm}...{tgm} Father{tgm}...{w}{tgm}{c:e;Krista;HalfCloseEyes}{br}I-I{tgm}...;bottom;200;MessageTail=None",
+            "r;Krista",
+            "linc;AreaCounter"
+        ],
+        "nid": "23_1 KingBedCutscene"
+    }
+]

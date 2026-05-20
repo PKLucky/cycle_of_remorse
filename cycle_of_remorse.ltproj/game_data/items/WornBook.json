@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "WornBook",
+        "name": "Worn Book",
+        "desc": "A book that Krista loaned to Ervan.\n(Cannot be removed from unit's inventory.)",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "locked",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "JusticeSquad_Child",
+        "name": "Justice Squad <purple>Special</>",
+        "desc": "Grants +20 Hit/Avo.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            50
+        ],
+        "components": [
+            [
+                "condition",
+                "has_skill(unit,'JusticeSquad')"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "hit",
+                20
+            ]
+        ]
+    }
+]

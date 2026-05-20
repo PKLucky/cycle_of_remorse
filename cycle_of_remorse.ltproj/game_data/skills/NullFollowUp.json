@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "NullFollowUp",
+        "name": "Null Follow Up",
+        "desc": "Nullifies the ability to make follow-up attacks for both the unit and the target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            32
+        ],
+        "components": [
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
+                }
+            ]
+        ]
+    }
+]

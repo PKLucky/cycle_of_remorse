@@ -1,0 +1,30 @@
+[
+    {
+        "name": "SpawnXiang",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "load_unit;Xiang;other;Xiang",
+            "if;game.current_mode.growths == 'Lucky'",
+            "  autolevel_to;Xiang;9;lucky",
+            "else",
+            "  autolevel_to;Xiang;9;fixed",
+            "end",
+            "set_item_uses;Xiang;WornStone;0",
+            "add_talk;Felicity;Xiang",
+            "add_talk;Krista;Xiang",
+            "add_talk;Xiang;Felicity",
+            "center_cursor;13,15",
+            "add;Xiang;13,15;;closest;south",
+            "flicker_cursor;Xiang",
+            "u;Xiang;Right",
+            "s;Xiang;Medea's kin{tgm}...{tgm} I feel her approaching.{br}Just as was foretold.|I shall clear a path for her.",
+            "r;Xiang"
+        ],
+        "nid": "8 SpawnXiang"
+    }
+]

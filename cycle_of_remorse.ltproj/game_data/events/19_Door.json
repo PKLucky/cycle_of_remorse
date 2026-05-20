@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Door",
+        "trigger": "Door",
+        "level_nid": "19",
+        "condition": "region.nid in ['Door1','Door2','Door3','Door4']",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Door1'",
+            "  show_layer;door1",
+            "  lvar;door1Open;True",
+            "elif;region.nid == 'Door2'",
+            "  show_layer;door2",
+            "  lvar;door2Open;True",
+            "elif;region.nid == 'Door3'",
+            "  show_layer;door3",
+            "  lvar;door3Open;True",
+            "elif;region.nid == 'Door4'",
+            "  show_layer;door4",
+            "  lvar;door4Open;True",
+            "end"
+        ],
+        "nid": "19 Door"
+    }
+]

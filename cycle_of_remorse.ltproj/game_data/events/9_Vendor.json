@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Vendor",
+        "trigger": "Vendor",
+        "level_nid": "9",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "m;Shops",
+            "shop;{unit};Thunder,Shine,Flux,Heal,LightRune,Chest Key,Door Key;vendor",
+            "t;open",
+            "mf"
+        ],
+        "nid": "9 Vendor"
+    }
+]

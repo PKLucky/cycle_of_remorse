@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Shrapnel",
+        "name": "Shrapnel",
+        "desc": "When using a Ballista, all enemies adjacent to the target also take damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "enemy_oversplash",
+                1
+            ],
+            [
+                "condition",
+                "'Ballista' in unit.get_weapon().tags"
+            ]
+        ]
+    }
+]

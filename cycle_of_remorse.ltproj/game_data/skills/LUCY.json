@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LUCY",
+        "name": "Rally Guard",
+        "desc": "All adjacent allies take 5 less damage for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            24
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "LUCY_RALLY"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "nid": "Taichi",
+        "name": "Taichi",
+        "desc": "A young man from Aotani Village.\nIs protective of his family and neighbors.",
+        "variant": "",
+        "level": 1,
+        "klass": "Fighter",
+        "tags": [],
+        "bases": {
+            "HP": 21,
+            "STR": 6,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 4,
+            "LCK": 4,
+            "DEF": 8,
+            "RES": 3,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 75,
+            "MAG": 0,
+            "SKL": 50,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 45,
+            "RES": 60,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "Hatchet",
+                false
+            ],
+            [
+                "Iron Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "TAICHI"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                31,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Taichi",
+        "affinity": "Anima",
+        "fields": [
+            [
+                "DeathQuote",
+                "Sorry, Ma{tgm}...{tgm} I won't be coming home{tgm}..."
+            ],
+            [
+                "DeathQuoteCh15",
+                "*sigh* Looks like I've still got a long way to go."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,9,SKL,3,RES,6"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,10,STR,16,SKL,0,DEF,2,RES,8"
+            ],
+            [
+                "EscapeQuote",
+                "Yeesh, that was intense."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Taichi, Hometown Hero"
+            ]
+        ]
+    }
+]

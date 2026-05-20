@@ -1,0 +1,29 @@
+[
+    {
+        "name": "TalkKristaRembrandt",
+        "trigger": "on_talk",
+        "level_nid": "14b",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Rembrandt'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Moustafa",
+            "uu;Krista;Left;Rembrandt;Right",
+            "s;Rembrandt;Excuse me, young lady. Are you alright?",
+            "s;Krista;Could be better, could be worse. Who are you?",
+            "s;Rembrandt;My name is Rembrandt.|I just happened to be passing through this area and saw your wrecked vessel in the distance.|Knowing that there were survivors from the wreck is a relief.|{c:e;Rembrandt;CloseEyes}But these bandits aren't making things easy for you.",
+            "e;Krista;HalfCloseEyes",
+            "s;Krista;Yeah, we've got our hands full.|{c:e;Krista;NormalBlink}I know this is a lot to ask for since we just met and all,|but mind giving us a hand here?",
+            "e;Rembrandt;NormalBlink,Smile",
+            "s;Rembrandt;That's exactly what I came here for.|This is no trouble at all.",
+            "rrr",
+            "change_team;Rembrandt;player",
+            "remove_talk;Krista;Rembrandt",
+            "remove_talk;Rembrandt;Krista",
+            "change_ai;Rembrandt;None",
+            "mf"
+        ],
+        "nid": "14b TalkKristaRembrandt"
+    }
+]

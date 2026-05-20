@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "JUDAH",
+        "name": "Intimidation",
+        "desc": "Inflicts Hit -15 to all enemies within three spaces of unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            13,
+            35
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "JUDAH_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightKaiAgrona",
+        "trigger": "combat_start",
+        "level_nid": "34",
+        "condition": "check_pair('Agrona','Kai')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Agrona;LeftCorner",
+            "s;Agrona;You fight for truth and yet you still side with her.|She has deceived you this whole time.|Why do you continue to fight for a liar?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Agrona",
+            "u;Kai;RightCorner",
+            "s;Kai;Don't get me wrong.{br}I'm not fighting for her.|I'm fighting for myself and this world I happen to live in.|It's only by coincidence that our goals align.|{c:e;Kai;CloseEyes,Smile}So, I'd appreciate it if you let me do my thing.|I ain't changing sides{br}just for this.|{c:e;Kai;NormalBlink,Smile}I'm a mercenary by trade.{br}And she still needs to pay me.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Kai",
+            "show_combat_ui"
+        ],
+        "nid": "34 FightKaiAgrona"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss",
+        "trigger": "combat_end",
+        "level_nid": "17x",
+        "condition": "game.check_dead('Saburo') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "17x Defeat Boss"
+    }
+]

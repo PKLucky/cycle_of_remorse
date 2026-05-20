@@ -1,0 +1,131 @@
+[
+    {
+        "nid": "Pikeman",
+        "name": "Pikeman",
+        "desc": "Inexperienced spearmen who use brutish tactics.",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Bandit"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 24,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 4,
+            "SPD": 3,
+            "LCK": 1,
+            "DEF": 4,
+            "RES": 3,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 70,
+            "MAG": 0,
+            "SKL": 55,
+            "SPD": 45,
+            "LCK": 45,
+            "DEF": 55,
+            "RES": 50,
+            "CON": 15,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 40,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 10
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                1,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Militia (M) Deserter Lance {Rasdel}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Pikeman",
+        "combat_anim_nid": "Pikeman",
+        "fields": []
+    }
+]

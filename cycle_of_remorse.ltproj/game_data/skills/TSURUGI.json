@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "TSURUGI",
+        "name": "Magic Aura",
+        "desc": "<red>(Aura)</> Grants Mag +5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "TSURUGI_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    }
+]

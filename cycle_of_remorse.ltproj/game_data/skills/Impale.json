@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Impale",
+        "name": "Impale",
+        "desc": "<red>(Combat art)</> Quadruples damage dealt.\nUsable 3 times per chapter.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            40
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "drain_charge",
+                3
+            ],
+            [
+                "combat_art",
+                "Impale_CHILD"
+            ]
+        ]
+    }
+]

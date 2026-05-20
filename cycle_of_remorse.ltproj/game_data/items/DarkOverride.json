@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "DarkOverride",
+        "name": "DarkOverride",
+        "desc": "(Lets the Rune Sword count as Dark magic damage at range.)",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Dark"
+            ]
+        ]
+    }
+]

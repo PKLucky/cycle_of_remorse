@@ -1,0 +1,25 @@
+[
+    {
+        "name": "TalkChellSam",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Chell','Sam')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;A Knight's Oath",
+            "uu;Chell;Left;Sam;Right",
+            "s;Sam;What the--Chell?! Is that you?",
+            "s;Chell;Huh? How do you know who I am?",
+            "s;Sam;It's me! Sam!",
+            "s;Chell;Sam? By Medea, it IS you!{br}But, why are you here?",
+            "s;Sam;Never mind that for now. We'll catch up later!",
+            "rrr",
+            "remove_talk;Chell;Sam",
+            "remove_talk;Sam;Chell",
+            "mf"
+        ],
+        "nid": "1 TalkChellSam"
+    }
+]

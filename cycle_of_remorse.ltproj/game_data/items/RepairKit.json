@@ -1,0 +1,89 @@
+[
+    {
+        "nid": "RepairKit",
+        "name": "Repair Kit",
+        "desc": "Repair an item to full uses. Usable once per chapter.\nMerchants and Maids only.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "prf_unit",
+                [
+                    "Felicity",
+                    "Anna",
+                    "Tsurugi"
+                ]
+            ],
+            [
+                "undiscardable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "hover_description",
+                "Repair an item to full uses."
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "exp",
+                6
+            ],
+            [
+                "repair",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "MapSpiritbane"
+            ],
+            [
+                "map_hit_sfx",
+                "MapHeal"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "REEM",
+        "name": "Deliverer",
+        "desc": "Grants Mov +2 when rescuing another unit. Unit ignores rescue penalties.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.traveler != None"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "ignore_rescue_penalty",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "DeathSven",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Sven'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Sven;FarRight",
+            "if;game.level.nid == '27'",
+            "  s;Sven;I won't fall here{tgm}...|{tgm}I'll retreat for now{tgm}...!;StyleNid=boss_convo_left;MessageTail=None",
+            "else",
+            "  s;Sven;Lady Soromir{tgm}...;StyleNid=boss_convo_left;MessageTail=None",
+            "  e;Sven;CloseEyes",
+            "end",
+            "r;Sven",
+            "mf",
+            "show_combat_ui"
+        ],
+        "nid": "Global DeathSven"
+    }
+]

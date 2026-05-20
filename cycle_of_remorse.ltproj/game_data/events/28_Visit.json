@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Visit",
+        "trigger": "Visit",
+        "level_nid": "28",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;{position}",
+            "if;region.nid == 'fort1'",
+            "  show_layer;fort1",
+            "elif;region.nid == 'fort2'",
+            "  show_layer;fort2",
+            "elif;region.nid == 'fort3'",
+            "  show_layer;fort3",
+            "elif;region.nid == 'fort4'",
+            "  show_layer;fort4",
+            "elif;region.nid == 'fort5'",
+            "  show_layer;fort5",
+            "elif;region.nid == 'fort6'",
+            "  show_layer;fort6",
+            "end",
+            "sound;ItemBreak",
+            "linc;fortDestroy",
+            "if;v('fortDestroy') == 6",
+            "  u;Krista;Right",
+            "  s;Krista;No! They're breaching the gates!",
+            "  uu;CircFollower;Left;CircFollower1;FarRight",
+            "  s;CircFollower;Ha! We got you now!",
+            "  bop;Krista",
+            "  s;Krista;Huh?! N-No, stop! Let go of me! NO!!",
+            "  lose_game",
+            "end"
+        ],
+        "nid": "28 Visit"
+    }
+]

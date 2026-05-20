@@ -1,0 +1,146 @@
+[
+    {
+        "nid": "Ecco",
+        "name": "Ecco",
+        "desc": "Mercenary from Oregot.\nConfident, but obnoxious.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Monk",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 9,
+            "SKL": 4,
+            "SPD": 6,
+            "LCK": 3,
+            "DEF": 8,
+            "RES": 5,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 0,
+            "MAG": 65,
+            "SKL": 40,
+            "SPD": 55,
+            "LCK": 30,
+            "DEF": 70,
+            "RES": 40,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0
+        },
+        "starting_items": [
+            [
+                "Shine",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "ECCO"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                31,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ecco",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "No{tgm}...{tgm} I'm not ready yet{tgm}...!"
+            ],
+            [
+                "DeathQuoteCh15",
+                "I just had an off day, that's all."
+            ],
+            [
+                "EscapeQuote",
+                "A perfect escape!"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,6,SPD,2,DEF,14"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,4,MAG,13,SPD,3,DEF,19,RES,2"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Ecco, All That Glitters"
+            ]
+        ]
+    }
+]

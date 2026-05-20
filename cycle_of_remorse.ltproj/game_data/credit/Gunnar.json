@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Gunnar",
+        "sub_nid": "Gunnar",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Armory",
+                "Gunnar"
+            ]
+        ]
+    }
+]

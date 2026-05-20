@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Walls",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.nid in game.level.unit_groups.get('Walls').units",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Show destruction anim",
+            "map_anim;Snag;{position}",
+            "sound;Wall Attack",
+            "# Show the new layer",
+            "if;unit.nid == '102'",
+            "  show_layer;WallNorth",
+            "elif;unit.nid == '103'",
+            "  show_layer;WallNorthEast",
+            "elif;unit.nid == '104'",
+            "  show_layer;WallSouthEast",
+            "elif;unit.nid == '105'",
+            "  show_layer;WallWest",
+            "end"
+        ],
+        "nid": "3 Walls"
+    }
+]

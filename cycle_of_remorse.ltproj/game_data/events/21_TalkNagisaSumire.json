@@ -1,0 +1,34 @@
+[
+    {
+        "name": "TalkNagisaSumire",
+        "trigger": "on_talk",
+        "level_nid": "21",
+        "condition": "unit.nid == 'Sumire' and unit2.nid == 'Nagisa'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;The Steel Samurai",
+            "uu;Sumire;Right;Nagisa;Left",
+            "s;Sumire;Commander? Why are you--",
+            "bop;Sumire",
+            "s;Sumire;Actually, forget it. There's something I gotta report!",
+            "s;Nagisa;Sumire? With the Medeans inside the castle, I thought{tgm}...!",
+            "e;Sumire;Smile",
+            "s;Sumire;Still alive and well here, Commander!|And that's what I gotta talk to you about.|{c:e;Sumire;NoSmile}The Medeans know what's going with the emperor.|Looks like they can bring him back to his senses.",
+            "e;Nagisa;CloseEyes",
+            "s;Nagisa;Is that so{tgm}...|{c:e;Nagisa;NormalBlink}{tgm}Seeing that they kept you alive, perhaps they actually do want a peaceful solution.|Thank you for the report, Sumire. I'll inform Lady Tsubaki of this too.",
+            "rrr",
+            "change_team;Nagisa;player",
+            "remove_tag;Nagisa;Boss",
+            "remove_talk;Ryuuji;Nagisa",
+            "remove_talk;Sumire;Nagisa",
+            "remove_talk;Asuka;Nagisa",
+            "add_talk;Nagisa;Tsubaki",
+            "change_ai;Nagisa;None",
+            "add_tag;Nagisa;Friendly",
+            "mf"
+        ],
+        "nid": "21 TalkNagisaSumire"
+    }
+]

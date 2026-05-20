@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SkyKnight_Card",
+        "sub_nid": "Seraph Knight (F) Lance {CamusZekeSirius}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "CamusZekeSirius",
+                "Sky Knight"
+            ]
+        ]
+    }
+]

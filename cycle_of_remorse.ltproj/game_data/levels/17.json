@@ -1,0 +1,1690 @@
+[
+    {
+        "nid": "17",
+        "name": "Ch. 17: Wyverns on the Archipelago",
+        "tilemap": "Chapter17",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Far Dawn",
+            "player_battle": "Master Battle",
+            "enemy_phase": "Poison Battle",
+            "enemy_battle": null,
+            "other_phase": "Route 111",
+            "other_battle": null,
+            "boss_battle": "Normal Battle"
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [
+            "Water"
+        ],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shigeo",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "s1",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "s2",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "s3",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "s4",
+                "variant": null,
+                "level": 1,
+                "klass": "Snag15",
+                "faction": "Snag",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2_1",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Halberdier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Toxin Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 17,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ],
+                    [
+                        "Chest Key",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 17,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 17,
+                "klass": "Pirate",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "ShortAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 17,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Poison Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Halberdier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Poison Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 17,
+                "klass": "Soldier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 17,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 17,
+                "klass": "Soldier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "Halberdier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 17,
+                "klass": "Pirate",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 17,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 17,
+                "klass": "Pirate",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 1,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 17,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Poison Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 17,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 17,
+                "klass": "Pirate",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Poison Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 1,
+                "klass": "Druid",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 17,
+                "klass": "Soldier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Toxin Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 17,
+                "klass": "WyvernRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ],
+                    [
+                        "Chest Key",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 17,
+                "klass": "WyvernRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 17,
+                "klass": "WyvernRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Toxin Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 17,
+                "klass": "WyvernRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 17,
+                "klass": "WyvernRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 1,
+                "klass": "Falcoknight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 17,
+                "klass": "PegasusKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 17,
+                "klass": "PegasusKnight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Toxin Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 17,
+                "klass": "Pirate",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 17,
+                "klass": "Pirate",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Poison Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch17",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "New_Region",
+                "region_type": "formation",
+                "position": [
+                    12,
+                    12
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    12
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_2",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_3",
+                "region_type": "formation",
+                "position": [
+                    14,
+                    12
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "New Region_4",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    14
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Chest1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Chest2",
+                "region_type": "event",
+                "position": [
+                    2,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Secret",
+                "region_type": "event",
+                "position": [
+                    9,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Secret",
+                "highlight": null,
+                "condition": "has_item('GoldCard', unit.nid) and game.get_unit('Anna').team != 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "village1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "village2",
+                "region_type": "event",
+                "position": [
+                    20,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "village3",
+                "region_type": "event",
+                "position": [
+                    17,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house",
+                "region_type": "event",
+                "position": [
+                    15,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house2",
+                "region_type": "event",
+                "position": [
+                    3,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "house3",
+                "region_type": "event",
+                "position": [
+                    12,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "vendor",
+                "region_type": "event",
+                "position": [
+                    16,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Vendor",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "vendor_preview",
+                "region_type": "event",
+                "position": [
+                    16,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "preview",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "armory",
+                "region_type": "event",
+                "position": [
+                    17,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armory",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "armory_preview",
+                "region_type": "event",
+                "position": [
+                    17,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "preview",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort",
+                "region_type": "normal",
+                "position": [
+                    4,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_7",
+                "region_type": "normal",
+                "position": [
+                    11,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_6",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_5",
+                "region_type": "normal",
+                "position": [
+                    5,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_4",
+                "region_type": "normal",
+                "position": [
+                    21,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_3",
+                "region_type": "normal",
+                "position": [
+                    3,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_2",
+                "region_type": "normal",
+                "position": [
+                    19,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_1",
+                "region_type": "normal",
+                "position": [
+                    11,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Arena",
+                "region_type": "event",
+                "position": [
+                    20,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Arena",
+                "highlight": null,
+                "condition": "not unit.has_attacked",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "fort1",
+                "units": [
+                    "101",
+                    "102",
+                    "103"
+                ],
+                "positions": {
+                    "101": [
+                        4,
+                        5
+                    ],
+                    "102": [
+                        4,
+                        5
+                    ],
+                    "103": [
+                        4,
+                        5
+                    ]
+                }
+            },
+            {
+                "nid": "snags",
+                "units": [
+                    "s1",
+                    "s2",
+                    "s3",
+                    "s4"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "fort2",
+                "units": [
+                    "104",
+                    "105",
+                    "106",
+                    "107"
+                ],
+                "positions": {
+                    "104": [
+                        11,
+                        6
+                    ],
+                    "105": [
+                        11,
+                        6
+                    ],
+                    "106": [
+                        11,
+                        6
+                    ],
+                    "107": [
+                        11,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "fort3",
+                "units": [
+                    "108",
+                    "109",
+                    "110"
+                ],
+                "positions": {
+                    "108": [
+                        19,
+                        9
+                    ],
+                    "109": [
+                        19,
+                        9
+                    ],
+                    "110": [
+                        19,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "fort4",
+                "units": [
+                    "111",
+                    "112",
+                    "113",
+                    "114"
+                ],
+                "positions": {
+                    "111": [
+                        3,
+                        13
+                    ],
+                    "112": [
+                        3,
+                        13
+                    ],
+                    "113": [
+                        3,
+                        13
+                    ],
+                    "114": [
+                        3,
+                        13
+                    ]
+                }
+            },
+            {
+                "nid": "fort5",
+                "units": [
+                    "115",
+                    "116"
+                ],
+                "positions": {
+                    "115": [
+                        21,
+                        12
+                    ],
+                    "116": [
+                        21,
+                        12
+                    ]
+                }
+            },
+            {
+                "nid": "fort6",
+                "units": [
+                    "120",
+                    "121",
+                    "122"
+                ],
+                "positions": {
+                    "120": [
+                        5,
+                        19
+                    ],
+                    "121": [
+                        5,
+                        19
+                    ],
+                    "122": [
+                        5,
+                        19
+                    ]
+                }
+            },
+            {
+                "nid": "fort7",
+                "units": [
+                    "123",
+                    "124"
+                ],
+                "positions": {
+                    "123": [
+                        11,
+                        21
+                    ],
+                    "124": [
+                        11,
+                        21
+                    ]
+                }
+            },
+            {
+                "nid": "fort8",
+                "units": [
+                    "117",
+                    "118",
+                    "119"
+                ],
+                "positions": {
+                    "117": [
+                        22,
+                        18
+                    ],
+                    "118": [
+                        22,
+                        18
+                    ],
+                    "119": [
+                        22,
+                        18
+                    ]
+                }
+            },
+            {
+                "nid": "pegasi",
+                "units": [
+                    "131",
+                    "132"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "wyverns",
+                "units": [
+                    "125",
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "pirates",
+                "units": [
+                    "133",
+                    "134"
+                ],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    }
+]

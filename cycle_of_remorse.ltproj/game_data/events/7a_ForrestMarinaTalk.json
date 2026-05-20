@@ -1,0 +1,42 @@
+[
+    {
+        "name": "ForrestMarinaTalk",
+        "trigger": "on_talk",
+        "level_nid": "7a",
+        "condition": "unit.nid == 'Forrest' and unit2.nid == 'Marina'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Forrest;Left;Marina;Right",
+            "s;Marina;Excuse me! Sir!",
+            "s;Forrest;Yes?",
+            "s;Marina;Are you here to fight the Knights?",
+            "e;Forrest;HalfCloseEyes",
+            "s;Forrest;\"Fight\" would not be the term I would use at the moment.|{c:e;Forrest;NormalBlink}But, yes, they are against us.",
+            "s;Marina;Please let me help you, then!|The Holy Knights have been nothing but trouble for the past year.|I want Foliaga to know peace again.",
+            "s;Forrest;No disrespect, madam,|but you do not appear to have any combat experience.",
+            "s;Marina;That may be true, but I am a dancer.|My dances have magical properties that can help you all.",
+            "s;Forrest;Is that so? If that's the case, you may come along.|On the condition that you do not put yourself in unnecessary danger.",
+            "e;Marina;HalfCloseEyes,Smile",
+            "s;Marina;That should go without saying, sir knight.",
+            "e;Forrest;CloseEyes,Smile",
+            "s;Forrest;I only wished to give you a fair warning.|{c:e;Forrest;NormalBlink,NoSmile}From here on out, I will not be held accountable for your actions.|Now, may I ask for your name?",
+            "e;Marina;NormalBlink,Smile",
+            "s;Marina;Marina. And yours?",
+            "s;Forrest;Forrest. Now, keep my words in mind, Miss Marina.",
+            "e;Marina;NoSmile",
+            "s;Marina;Of course, Sir Forrest.",
+            "rrr",
+            "change_team;Marina;player",
+            "remove_talk;Krista;Marina",
+            "remove_talk;Forrest;Marina",
+            "remove_talk;Marina;Forrest",
+            "change_ai;Marina;None",
+            "mlvar;deployedUnits;it.append('Marina')",
+            "mf"
+        ],
+        "nid": "7a ForrestMarinaTalk"
+    }
+]

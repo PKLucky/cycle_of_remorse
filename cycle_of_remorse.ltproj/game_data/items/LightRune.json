@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "LightRune",
+        "name": "Light Rune",
+        "desc": "A useful item that creates a single-space magical barrier through which no one can pass.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "event_on_hit",
+                "Global Light Rune"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Lightning1"
+            ],
+            [
+                "map_cast_anim",
+                "LightRune"
+            ],
+            [
+                "no_alert_on_break",
+                null
+            ],
+            [
+                "ignore_fog_of_war",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "not (game.get_region_under_pos(target_pos, 'terrain') or game.get_region_under_pos(target_pos, 'event'))"
+            ]
+        ]
+    }
+]

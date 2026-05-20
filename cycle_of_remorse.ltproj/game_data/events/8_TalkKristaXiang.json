@@ -1,0 +1,30 @@
+[
+    {
+        "name": "TalkKristaXiang",
+        "trigger": "on_talk",
+        "level_nid": "8",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Xiang'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Left;Xiang;Right",
+            "s;Xiang;Daughter of Medea{tgm}...{tgm} you finally arrive.",
+            "s;Krista;Uh, I know Medea's an ancestor of mine and all,|but that's a bit much, don't you think?|More importantly, who are you?",
+            "s;Xiang;I am Xiang. I foresaw your arrival, daughter of Medea.",
+            "e;Krista;Smile",
+            "s;Krista;Nice to meet you.|{c:e;Krista;NoSmile}Now, let's drop the whole \"daughter of Medea\" thing, okay?|You can call me \"Your Highness\", \"Princess Krista\"{tgm}...|{tgm}Even just \"Krista\" is fine.",
+            "s;Xiang;As you wish, Just Krista.",
+            "s;Krista;{tgm}...{c:e;Krista;HalfCloseEyes}{tgm} We'll work on that later.",
+            "rrr",
+            "remove_talk;Krista;Xiang",
+            "remove_talk;Felicity;Xiang",
+            "remove_talk;Xiang;Felicity",
+            "change_team;Xiang;player",
+            "change_ai;Xiang;None",
+            "mf"
+        ],
+        "nid": "8 TalkKristaXiang"
+    }
+]

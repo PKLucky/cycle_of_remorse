@@ -1,0 +1,31 @@
+[
+    {
+        "name": "TalkKristaAnil",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Krista','Anil') and u('Anil').team == 'other'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Left;Anil;Right",
+            "s;Krista;Hey! You're not with these guys, right?",
+            "s;Anil;*shakes head*",
+            "s;Krista;Mind helping us out, then?|Things are getting pretty dicey.",
+            "s;Anil;*nods*",
+            "e;Krista;Smile",
+            "s;Krista;Okay, cool! Thanks!",
+            "change_team;Anil;player",
+            "change_team;Ecco;player",
+            "remove_talk;Krista;Anil",
+            "remove_talk;Krista;Ecco",
+            "remove_talk;Anil;Krista",
+            "remove_talk;Ecco;Krista",
+            "change_ai;Anil;None",
+            "change_ai;Ecco;None",
+            "mf"
+        ],
+        "nid": "4 TalkKristaAnil"
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "nid": "Santiago",
+        "name": "Santiago",
+        "desc": "A bishop of the Order of Oreg.\nA stern, quiet individual.",
+        "variant": "",
+        "level": 1,
+        "klass": "Cleric",
+        "tags": [
+            "Boss",
+            "NotDeadLord"
+        ],
+        "bases": {
+            "HP": 21,
+            "STR": 0,
+            "MAG": 13,
+            "SKL": 10,
+            "SPD": 7,
+            "LCK": 12,
+            "DEF": 5,
+            "RES": 4,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 0,
+            "MAG": 45,
+            "SKL": 45,
+            "SPD": 30,
+            "LCK": 50,
+            "DEF": 40,
+            "RES": 25,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "Divine",
+                false
+            ],
+            [
+                "Recover",
+                false
+            ],
+            [
+                "Goddess Icon",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "SANTIAGO"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                491
+            ],
+            "Lance": [
+                false,
+                0,
+                491
+            ],
+            "Axe": [
+                false,
+                0,
+                491
+            ],
+            "Bow": [
+                false,
+                0,
+                491
+            ],
+            "Staff": [
+                false,
+                0,
+                491
+            ],
+            "Light": [
+                false,
+                0,
+                491
+            ],
+            "Anima": [
+                false,
+                0,
+                491
+            ],
+            "Dark": [
+                false,
+                0,
+                491
+            ],
+            "Default": [
+                false,
+                0,
+                491
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Man3",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "DeathQuote",
+                "Great Oreg, have mercy on this humble soul{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Santiago, Iron Grip"
+            ],
+            [
+                "PromoStatCap2",
+                "HP,1,SKL,2,LCK,5"
+            ],
+            [
+                "PromoStatCap3",
+                "HP,9,SKL,3,LCK,4"
+            ],
+            [
+                "EscapeQuote",
+                "May the Great Oreg grant us safety."
+            ]
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Heal",
+        "name": "Heal",
+        "desc": "Restores (User's Mag + 10) HP.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                600
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                21
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Heal"
+            ],
+            [
+                "map_cast_anim",
+                "MapSmallHealTrans"
+            ],
+            [
+                "battle_animation_music",
+                "Curing"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "LIN_CHILD",
+        "name": "Strike Aura <red>(Lin)</>",
+        "desc": "Grants Str/Mag +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

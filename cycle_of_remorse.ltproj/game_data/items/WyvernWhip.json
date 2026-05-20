@@ -1,0 +1,63 @@
+[
+    {
+        "nid": "WyvernWhip",
+        "name": "Wyvern Whip",
+        "desc": "Ervan's old whip.\nPromotes Krista from Great Lord.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "GreatLord"
+                ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ],
+            [
+                "hover_description",
+                "Promotes Krista from Great Lord."
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    }
+]

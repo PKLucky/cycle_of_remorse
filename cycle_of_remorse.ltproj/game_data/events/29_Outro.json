@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lvar;deployedUnits;[]",
+            "for;PartyMembers;[unit.nid for unit in game.get_player_units_and_travelers()]",
+            "  mlvar;deployedUnits;it.append('{PartyMembers}')",
+            "endf",
+            "t;close",
+            "remove_all_units",
+            "b;ManseBack",
+            "t;open",
+            "music_clear",
+            "m;Loyalty",
+            "u;Krista;Right;;Smile",
+            "s;Krista;Great job, guys! Time to march in!|{c:e;Krista;CloseEyes,NoSmile}It'll all be over after this.{w}{c:e;Krista;HalfCloseEyes}At least I hope so.",
+            "r;Krista",
+            "###",
+            "t;close",
+            "for;outro;v('deployedUnits')",
+            "  add;{outro};0,0;immediate;stack",
+            "endf"
+        ],
+        "nid": "29 Outro"
+    }
+]

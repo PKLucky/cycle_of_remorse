@@ -1,0 +1,95 @@
+[
+    {
+        "nid": "Killer Ballista",
+        "name": "Killer Ballis",
+        "desc": "Ballisticians only.\nUses recover after each chapter.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "item_tags",
+                [
+                    "Ballista"
+                ]
+            ],
+            [
+                "no_alert_on_break",
+                null
+            ]
+        ]
+    }
+]

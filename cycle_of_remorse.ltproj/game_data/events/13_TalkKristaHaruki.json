@@ -1,0 +1,37 @@
+[
+    {
+        "name": "TalkKristaHaruki",
+        "trigger": "on_talk",
+        "level_nid": "13",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Haruki'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;The Steel Samurai",
+            "uu;Krista;Right;Haruki;Left",
+            "s;Krista;Hey, kid, get outta here! It's dangerous!",
+            "s;Haruki;No way, this is my home and I gotta protect it!",
+            "e;Krista;HalfCloseEyes",
+            "s;Krista;Great enthusiasm, but you really should leave it to the adults.",
+            "s;Haruki;Hey, I'm pretty good with a lance!|Don't underestimate me just 'cause I'm a kid.",
+            "e;Krista;CloseEyes,Smile",
+            "s;Krista;Heh, a real go-getter, ain't ya?|{c:e;Krista;NormalBlink}Alright, you can help. Just don't get in over your head, you hear?",
+            "e;Haruki;Smile",
+            "s;Haruki;Okay!|{c:e;Haruki;NoSmile}Oh, we should let my big bro know you guys are helping too.|Our house is the one with the red roof. He should be there.",
+            "e;Krista;Smile",
+            "if;u('Taichi').team == 'player'",
+            "  s;Krista;You mean, Taichi? He's already out there with us!",
+            "  s;Haruki;Ha! I knew he couldn't just stay inside.|We won't let ya down!",
+            "else",
+            "  s;Krista;Sounds good!",
+            "end",
+            "rrr",
+            "change_team;Haruki;player",
+            "remove_talk;Krista;Haruki",
+            "change_ai;Haruki;None",
+            "mf"
+        ],
+        "nid": "13 TalkKristaHaruki"
+    }
+]

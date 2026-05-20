@@ -1,0 +1,74 @@
+[
+    {
+        "nid": "Hayato",
+        "name": "Hayato",
+        "desc": "Leader of the Shirotori Bandits.\nWill do anything for a bit of coin.",
+        "variant": "",
+        "level": 1,
+        "klass": "Archer",
+        "tags": [
+            "Boss",
+            "Bandit"
+        ],
+        "bases": {
+            "MOV": 5,
+            "STR": 11,
+            "MAG": 11,
+            "CON": 6,
+            "DEF": 9,
+            "SKL": 12,
+            "RES": 2,
+            "SPD": 8,
+            "LCK": 0,
+            "HP": 17
+        },
+        "growths": {
+            "MOV": 0,
+            "STR": 55,
+            "MAG": 40,
+            "CON": 10,
+            "DEF": 45,
+            "SKL": 50,
+            "RES": 35,
+            "SPD": 55,
+            "LCK": 50,
+            "HP": 70
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "RES": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "Short Bow",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                131,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Hayato",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "Y-You'll pay for this{tgm}...!"
+            ]
+        ]
+    }
+]

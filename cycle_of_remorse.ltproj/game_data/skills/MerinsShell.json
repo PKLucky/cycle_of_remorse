@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "MerinsShell",
+        "name": "Merin's Shell",
+        "desc": "Immune to critical hits. Merin bloodline takes 5 less damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            13
+        ],
+        "components": [
+            [
+                "crit_avoid",
+                1000
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "5 if 'Merin' in unit.tags else 0"
+            ]
+        ]
+    }
+]

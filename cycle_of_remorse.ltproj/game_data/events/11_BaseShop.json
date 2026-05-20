@@ -1,0 +1,19 @@
+[
+    {
+        "name": "BaseShop",
+        "trigger": "level_start",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "gvar;_base_market;True",
+            "for;ItemSetup;['Steel Blade','Killing Edge','Wyrmslayer','Killer Lance','Dragonspear','ShortAxe','Killer Axe','Dragon Axe','SteelLongbow','Killer Bow','Elfire','Elthunder','Divine','Miasma','Nosferastu','Luna','Barrier','Restore','Antitoxin']",
+            "  add_market_item;{ItemSetup}",
+            "endf",
+            "add_lore;Promotions"
+        ],
+        "nid": "11 BaseShop"
+    }
+]

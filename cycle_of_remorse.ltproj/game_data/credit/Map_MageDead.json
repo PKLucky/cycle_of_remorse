@@ -1,0 +1,15 @@
+[
+    {
+        "nid": "Map_MageDead",
+        "sub_nid": "MageDead",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "PKLucky",
+                null
+            ]
+        ]
+    }
+]

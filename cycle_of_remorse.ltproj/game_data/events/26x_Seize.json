@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Seize",
+        "trigger": "Seize",
+        "level_nid": "26x",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'gate1'",
+            "  show_layer;gate1",
+            "elif;region.nid == 'gate2'",
+            "  show_layer;gate2",
+            "end",
+            "remove_region;escape_1",
+            "remove_region;escape_2"
+        ],
+        "nid": "26x Seize"
+    }
+]

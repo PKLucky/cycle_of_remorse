@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "Lev",
+        "name": "Lev",
+        "desc": "A subordinant of Circ's Talons.\nSneaky and analytical.",
+        "variant": "",
+        "level": 1,
+        "klass": "Shaman",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 20,
+            "STR": 12,
+            "MAG": 13,
+            "SKL": 15,
+            "SPD": 15,
+            "LCK": 9,
+            "DEF": 7,
+            "RES": 10,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 70,
+            "SKL": 65,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "CatFang",
+                false
+            ],
+            [
+                "LeopardFang",
+                false
+            ],
+            [
+                "Secret Book",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Lev",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "DeathQuote",
+                "Commander Vanguard{tgm}...{tgm} I{tgm}..."
+            ]
+        ]
+    }
+]

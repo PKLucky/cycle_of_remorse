@@ -1,0 +1,33 @@
+[
+    {
+        "name": "BaseConvo_Coral Orphanage",
+        "trigger": "on_base_convo",
+        "level_nid": "26",
+        "condition": "base_convo == 'Coral Village'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;CastleInterior",
+            "m;Loyalty",
+            "uu;Krista;Right;Shula;Left",
+            "s;Shula;Hey, Your Highness.|The kids back at the orphanage wanted to thank everyone for saving them.|This cost a lot so you better{br}appreciate it.",
+            "if;v('childrenSaved') >= 7",
+            "  give_item;convoy;MasterCrown",
+            "elif;v('childrenSaved') >= 4",
+            "  give_item;convoy;Goddess Icon",
+            "else",
+            "  give_item;convoy;Blue Gem",
+            "end",
+            "bop;Krista",
+            "s;Krista;Miss Shula, I really appreciate this, but--",
+            "e;Shula;CloseEyes",
+            "s;Shula;Don't even start, Princess.|{c:e;Shula;NormalBlink}I already gave that spiel to the kiddos, but they insisted on doing this.|{c:e;Shula;Smile}So go ahead and take it! I don't wanna tell them that you said no to their gift.",
+            "e;Krista;CloseEyes,Smile",
+            "s;Krista;Oh, you just HAD to pull the \"you'll make the children sad\" card, didn't you?|{c:e;Krista;NormalBlink,Smile}Alright, alright, I'll take it. Thanks a lot.",
+            "remove_base_convo;Coral Orphanage",
+            "b"
+        ],
+        "nid": "26 BaseConvo_Coral Orphanage"
+    }
+]

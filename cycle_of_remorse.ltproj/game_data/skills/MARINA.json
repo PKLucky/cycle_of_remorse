@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "MARINA",
+        "name": "Hastening Dance",
+        "desc": "<red>Refresh</> all adjacent allies and grants targets +1 Mov for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "MARINA_DANCE"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "Refresh"
+                ]
+            ],
+            [
+                "condition",
+                "unit.team == 'player' and unit.ai == 'None'"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DeathChell_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Chell' and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "u;Chell;FarRight",
+            "s;Chell;Viola{tgm}...{tgm} Lin{tgm}...{tgm}|Look out for each other{tgm}...;StyleNid=boss_convo_right;MessageTail=None",
+            "e;Chell;CloseEyes",
+            "r;Chell",
+            "mf"
+        ],
+        "nid": "Global DeathChell_Poison"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Armory_preview",
+        "trigger": "preview",
+        "level_nid": "9",
+        "condition": "region.nid == 'armory_preview'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "m;Armory",
+            "shop;Krista;Steel Sword,Iron Blade,Steel Lance,Javelin,Steel Axe,Hand Axe,Steel Bow;armory;preview",
+            "t;open",
+            "mf"
+        ],
+        "nid": "9 Armory_preview"
+    }
+]

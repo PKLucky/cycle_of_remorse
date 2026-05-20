@@ -1,0 +1,21 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "21",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Ryuuji').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Pirate;20;player;None;Wyrmfang;;Steel Axe",
+            "recruit_generic;{created_unit};Naturally;Gevadarn",
+            "u;Gevadarn;Right",
+            "s;Gevadarn;Captain Ryuuji said to join up with you all if things looked rough.|Let's crush these guys!",
+            "sound;Item",
+            "alert;Gevadarn joined the party!",
+            "r;Gevadarn"
+        ],
+        "nid": "21 DeploymentCheck"
+    }
+]

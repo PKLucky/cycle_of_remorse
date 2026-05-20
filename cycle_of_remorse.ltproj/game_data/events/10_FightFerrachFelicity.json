@@ -1,0 +1,25 @@
+[
+    {
+        "name": "FightFerrachFelicity",
+        "trigger": "combat_start",
+        "level_nid": "10",
+        "condition": "check_pair('Ferrach','Felicity')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ferrach;LeftCorner",
+            "s;Ferrach;Your power{tgm}...|{c:e;Ferrach;HalfCloseEyes,Smile}{tgm}How laughable!|To think someone like you would be allied with Medea's kin.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ferrach",
+            "u;Felicity;RightCorner;;HalfCloseEyes",
+            "s;Felicity;You{tgm}...|{c:e;Felicity;NormalBlink}{tgm}Just what is going on here? Why are you doing this?|Why now of all times?;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Felicity",
+            "u;Ferrach;LeftCorner",
+            "s;Ferrach;You have no business knowing that.|After all, you have chosen your side.|{c:e;Ferrach;HalfCloseEyes}My master has no patience for traitors.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ferrach",
+            "show_combat_ui"
+        ],
+        "nid": "10 FightFerrachFelicity"
+    }
+]

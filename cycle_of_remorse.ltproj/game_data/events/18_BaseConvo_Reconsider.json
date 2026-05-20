@@ -1,0 +1,39 @@
+[
+    {
+        "name": "BaseConvo_Reconsider",
+        "trigger": "on_base_convo",
+        "level_nid": "18",
+        "condition": "base_convo == 'Reconsider'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;House2",
+            "m;Respite in Battle",
+            "uu;Khalid;Left;Krista;Right",
+            "s;Khalid;Krista, just what the hell are you thinking?!",
+            "bop;Krista",
+            "s;Krista;Khalid?! Wha--",
+            "e;Khalid;CloseEyes",
+            "s;Khalid;Putting yourself in danger like this{tgm}...|{c:e;Khalid;NormalBlink}{tgm}There are better ways to help these people, you know.",
+            "e;Krista;CloseEyes",
+            "s;Krista;Come on, don't look at me like that.|{c:e;Krista;NormalBlink}You're really making me reconsider the plan here.",
+            "s;Khalid;And you should! Krista, are you listening to yourself?|You wouldn't do something like this! You{tgm}...|{c:e;Khalid;HalfCloseEyes}...{c:e;Khalid;CloseEyes}{tgm} *sigh*|{c:e;Khalid;NormalBlink}Look. I just{tgm}...{w}{tgm} I don't want to lose you too, y'know?",
+            "e;Krista;HalfCloseEyes",
+            "s;Krista;Khalid{tgm}...{c:e;Krista;NormalBlink}{tgm} I get it.{w} Really.|But you have to trust me on this.|{c:e;Krista;Smile}I'll come back alive.|I promise.",
+            "e;Khalid;HalfCloseEyes",
+            "s;Khalid;Please.",
+            "sound;Item",
+            "if;game.check_alive('Khalid') == True",
+            "  increment_support_points;Krista;Khalid;1",
+            "  alert;Krista and Khalid grew closer!",
+            "else",
+            "  alert;Krista gained 21 EXP!",
+            "  give_exp;Krista;21",
+            "end",
+            "remove_base_convo;Reconsider",
+            "b"
+        ],
+        "nid": "18 BaseConvo_Reconsider"
+    }
+]

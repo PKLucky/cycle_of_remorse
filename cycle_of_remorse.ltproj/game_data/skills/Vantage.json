@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "Allows unit to attack first.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            32
+        ],
+        "components": [
+            [
+                "vantage",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

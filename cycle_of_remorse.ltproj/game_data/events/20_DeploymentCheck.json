@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "20",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Ryuuji').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Pirate;20;player;None;Wyrmfang;Female;Steel Axe",
+            "add_tag;{created_unit};Female",
+            "recruit_generic;{created_unit};Tuhdei;Tuhdei",
+            "u;Tuhdei;Right",
+            "s;Tuhdei;Your Highness! Runnin' into trouble?|Captain Ryuuji said to join the team if things are looking rough.|Let's do our best!",
+            "sound;Item",
+            "alert;Tuhdei joined the party!",
+            "r;Tuhdei"
+        ],
+        "nid": "20 DeploymentCheck"
+    }
+]

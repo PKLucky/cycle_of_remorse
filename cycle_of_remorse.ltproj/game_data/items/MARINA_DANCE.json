@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "MARINA_DANCE",
+        "name": "Refresh",
+        "desc": "Refresh all adjacent allies and grant Mov +1.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            33
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "map_hit_sfx",
+                "RefreshDanceMap"
+            ],
+            [
+                "exp",
+                5
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "ally_blast_aoe",
+                1
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global RallyDance"
+            ]
+        ]
+    }
+]

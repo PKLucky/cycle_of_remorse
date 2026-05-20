@@ -1,0 +1,42 @@
+[
+    {
+        "name": "CourtyardCutscene",
+        "trigger": "Exit",
+        "level_nid": "23_1",
+        "condition": "region.nid == 'transition_hall_courtyard' and v('CourtyardCheck') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "add;krista_copy;5,4;immediate;stack;fade",
+            "add;ervan_copy;6,4;fade;stack;fade",
+            "flicker_cursor;krista_copy",
+            "uu;KristaPast;Left,Middle;Ervan;Right,Middle",
+            "e;KristaPast;Smile",
+            "s;KristaPast;...! ... .. .....? ...!!;bottom;200;MessageTail=None",
+            "e;Ervan;Smile",
+            "s;Ervan;.... ... ...? ....! .. .....;bottom;200;MessageTail=None",
+            "rrr",
+            "move;Krista;5,6;normal;stack",
+            "remove;krista_copy;immediate;fade",
+            "remove;ervan_copy;fade",
+            "wait;500",
+            "u;Krista;Right,Middle",
+            "s;Krista;Wh{tgm}... {tgm}What was{tgm}...?;bottom;200;MessageTail=None",
+            "r;Krista",
+            "add;kai_copy;5,8;fade;stack",
+            "flicker_cursor;kai_copy",
+            "u;KaiDream;Left,Middle",
+            "s;KaiDream;Was it all for nothing?;bottom;200;noir;MessageTail=None",
+            "r;KaiDream",
+            "remove;kai_copy;fade",
+            "wait;500",
+            "move;Krista;5,7;normal;stack",
+            "u;Krista;Right,Middle",
+            "s;Krista;...!{w}{c:e;Krista;HalfCloseEyes}{br}...;bottom;200;MessageTail=None;no_talk",
+            "r;Krista",
+            "linc;AreaCounter"
+        ],
+        "nid": "23_1 CourtyardCutscene"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "Charmed",
+        "name": "Charmed",
+        "desc": "Unit is confused. Will side with opposite team when cured.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            51
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "change_ai",
+                "BerserkCh9"
+            ],
+            [
+                "unit_anim",
+                "MapBerserk"
+            ],
+            [
+                "has_tags",
+                [
+                    "Negative"
+                ]
+            ]
+        ]
+    }
+]

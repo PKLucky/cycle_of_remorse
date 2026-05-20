@@ -1,0 +1,67 @@
+[
+    {
+        "nid": "ShinyStone",
+        "name": "Shiny Stone",
+        "desc": "A stone that shines in the sunlight.\n(Cannot be discarded or stolen.)",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "prf_class",
+                [
+                    "Sorcerer"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "undiscardable",
+                null
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "unrepairable",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "nid": "Map_PaladinSword",
+        "sub_nid": "PaladinSword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "RobertFPY",
+                null
+            ]
+        ]
+    }
+]

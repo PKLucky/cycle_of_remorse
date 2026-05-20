@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Shimmer",
+        "sub_nid": "Light",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            6
+        ],
+        "contrib": [
+            [
+                "Ereshkigal",
+                "Shimmer"
+            ]
+        ]
+    }
+]

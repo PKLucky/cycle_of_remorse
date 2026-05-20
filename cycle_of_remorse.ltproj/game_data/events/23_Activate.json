@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Activate",
+        "trigger": "Activate",
+        "level_nid": "23",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.team == 'player'",
+            "  sound;Torch",
+            "  map_anim;Torch;{e:u('{unit}').position[0]},{e:u('{unit}').position[1] - 1}",
+            "  for;TorchRegion;range(0,5)",
+            "    if;{TorchRegion} == 0",
+            "      add_region;{e:'torch' + region.nid[3]};{e:u('{unit}').position[0]},{e:u('{unit}').position[1] - 1};1,1;vision;1;4",
+            "    else",
+            "      add_region;{e:'torch' + region.nid[3] + '{TorchRegion}'};{e:u('{unit}').position[0]},{e:u('{unit}').position[1] - 1};1,1;vision;{TorchRegion};{e:5 - {TorchRegion}};True",
+            "    end",
+            "  endf",
+            "else",
+            "  sound;SilenceCrack",
+            "  map_anim;Swoosh;{e:u('{unit}').position[0]},{e:u('{unit}').position[1] - 1}",
+            "  for;TorchRegion;range(0,5)",
+            "    if;{TorchRegion} == 0",
+            "      remove_region;{e:'torch' + region.nid[3]}",
+            "    else",
+            "      remove_region;{e:'torch' + region.nid[3] + '{TorchRegion}'}",
+            "    end",
+            "  endf",
+            "end",
+            "has_attacked;{unit}"
+        ],
+        "nid": "23 Activate"
+    }
+]

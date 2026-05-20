@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Light Brand",
+        "name": "Light Brand",
+        "desc": "Calculated as Light Magic damage at range.\nGrants Mag +3 when equipped.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                25
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "value",
+                800
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "item_tags",
+                [
+                    "MagicSword"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "LightOverride"
+            ]
+        ]
+    }
+]

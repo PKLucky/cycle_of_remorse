@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Astra_CHILD",
+        "name": "Astra",
+        "desc": "Strikes five times consecutively.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            32
+        ],
+        "components": [
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 4,
+                    "damage_percent": 1.0,
+                    "show_proc_effects": true
+                }
+            ]
+        ]
+    }
+]

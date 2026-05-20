@@ -1,0 +1,32 @@
+[
+    {
+        "name": "TalkKaiSam",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Kai','Sam')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "uu;Kai;Right;Sam;Left",
+            "s;Kai;Sam, quick question.",
+            "e;Sam;HalfCloseEyes",
+            "s;Sam;Is now really the time?",
+            "e;Kai;Smile",
+            "s;Kai;I'll ask anyway.|{c:e;Kai;NoSmile}That bandit leader mentioned someone called the \"Prowling Tiger.\"|Know anything about that?",
+            "e;Sam;NormalBlink",
+            "s;Sam;Don't know, don't care.|We've got bigger problems here!",
+            "bop;Sam",
+            "s;Sam;Oh, no! The walls!!",
+            "move_portrait;Sam;OffscreenRight",
+            "mirror;Kai",
+            "e;Kai;CloseEyes",
+            "s;Kai;Hm{tgm}...{tgm} Still sounds important.|{c:e;Kai;Smile,NormalBlink}We'll just put a pin in that.",
+            "rrr",
+            "remove_talk;Kai;Sam",
+            "remove_talk;Sam;Kai",
+            "gvar;SamKaiCh3;True"
+        ],
+        "nid": "3 TalkKaiSam"
+    }
+]

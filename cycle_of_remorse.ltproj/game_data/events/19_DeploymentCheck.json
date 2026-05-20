@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "19",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Ryuuji').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Pirate;19;player;None;Wyrmfang;Female;Steel Axe",
+            "add_tag;{created_unit};Female",
+            "recruit_generic;{created_unit};Tamaruh;Tamaruh",
+            "u;Tamaruh;Right",
+            "s;Tamaruh;You guys havin' trouble? Don't worry, I'm here to help!|Captain Ryuuji's got your back!",
+            "sound;Item",
+            "alert;Tamaruh joined the party!",
+            "r;Tamaruh"
+        ],
+        "nid": "19 DeploymentCheck"
+    }
+]

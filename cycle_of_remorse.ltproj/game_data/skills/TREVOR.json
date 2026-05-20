@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "TREVOR",
+        "name": "White Lightning",
+        "desc": "Heals half damage dealt when using thunder magic.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Thunder' in unit.get_weapon().tags"
+            ],
+            [
+                "lifelink",
+                0.5
+            ]
+        ]
+    }
+]

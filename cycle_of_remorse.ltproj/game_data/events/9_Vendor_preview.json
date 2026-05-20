@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Vendor_preview",
+        "trigger": "preview",
+        "level_nid": "9",
+        "condition": "region.nid == 'vendor_preview'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "m;Shops",
+            "shop;Krista;Thunder,Shine,Flux,Heal,LightRune,Chest Key,Door Key;vendor;preview",
+            "t;open",
+            "mf"
+        ],
+        "nid": "9 Vendor_preview"
+    }
+]

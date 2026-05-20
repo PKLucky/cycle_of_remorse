@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "TAIGA",
+        "name": "Gamble",
+        "desc": "<red>(Combat Art)</> Grants Crit +20 and Hit -10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            52
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "TAIGA_CHILD"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) != None"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "CombatArt"
+                ]
+            ]
+        ]
+    }
+]

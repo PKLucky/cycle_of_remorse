@@ -1,0 +1,15 @@
+[
+    {
+        "nid": "Map_Crate",
+        "sub_nid": "Crate",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Primefusion",
+                null
+            ]
+        ]
+    }
+]

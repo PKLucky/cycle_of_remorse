@@ -1,0 +1,31 @@
+[
+    {
+        "name": "FightRyuujiKai",
+        "trigger": "combat_start",
+        "level_nid": "12",
+        "condition": "check_pair('Ryuuji', 'Kai')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Kai;RightCorner",
+            "s;Kai;Kenji?;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Kai",
+            "u;Ryuuji;LeftCorner",
+            "s;Ryuuji;How do you{tgm}...{tgm} Kai?!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ryuuji",
+            "u;Kai;RightCorner",
+            "s;Kai;So it IS you.|{c:e;Kai;CloseEyes}For five years I thought you were dead.|{c:e;Kai;NormalBlink}This is where you've been the whole time?!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Kai",
+            "u;Ryuuji;LeftCorner",
+            "s;Ryuuji;Kai, you don't understand--;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ryuuji",
+            "u;Kai;RightCorner;;CloseEyes,Smile",
+            "s;Kai;Heh. Obviously, I don't.|{c:e;Kai;HalfCloseEyes,NoSmile}Goodbye, Kenji.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Kai",
+            "show_combat_ui"
+        ],
+        "nid": "12 FightRyuujiKai"
+    }
+]

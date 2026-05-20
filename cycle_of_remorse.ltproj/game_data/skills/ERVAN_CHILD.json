@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "ERVAN_CHILD",
+        "name": "Authority <red>(Ervan)</>",
+        "desc": "Hit/Avo +5 per stack.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            45
+        ],
+        "components": [
+            [
+                "stack",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "avoid",
+                5
+            ]
+        ]
+    }
+]

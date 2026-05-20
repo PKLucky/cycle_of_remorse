@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Stairs",
+        "trigger": "Stairs",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};CantoStairs;no_banner",
+            "remove;{unit};fade;fade",
+            "if;region.nid == 'stairs1'",
+            "add;{unit};stairs2",
+            "elif;region.nid == 'stairs2'",
+            "add;{unit};stairs1",
+            "elif;region.nid == 'stairs3'",
+            "add;{unit};stairs4",
+            "elif;region.nid == 'stairs4'",
+            "add;{unit};stairs3",
+            "elif;region.nid == 'stairs5'",
+            "add;{unit};stairs6",
+            "elif;region.nid == 'stairs6'",
+            "add;{unit};stairs5",
+            "elif;region.nid == 'stairs7'",
+            "add;{unit};stairs8",
+            "elif;region.nid == 'stairs8'",
+            "add;{unit};stairs7",
+            "else",
+            "end",
+            "lvar;StairsCheck;True",
+            "has_attacked;{unit}"
+        ],
+        "nid": "DEBUG Stairs"
+    }
+]

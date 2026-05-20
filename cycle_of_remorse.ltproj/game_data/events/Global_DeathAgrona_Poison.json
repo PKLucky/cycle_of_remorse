@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DeathAgrona_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Agrona' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Agrona;FarLeft",
+            "if;game.level.nid == '22'",
+            "  s;Agrona;So your time in Foliaga was not a fluke after all.|I will have to retreat for now.;StyleNid=boss_convo_left;MessageTail=None",
+            "end",
+            "r;Agrona"
+        ],
+        "nid": "Global DeathAgrona_Poison"
+    }
+]

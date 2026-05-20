@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Light Rune",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lvar;runeRegion1;game.playtime",
+            "lvar;runeRegion2;game.get_random(0,999)",
+            "add_region;{e:\"LightRune\" + \"{v:runeRegion1}\" + {v:runRegion2}};{target_pos};1,1;terrain;LightRune;3",
+            "map_anim;LightRune;{target_pos};no_block;permanent",
+            "linc;runeRegion"
+        ],
+        "nid": "Global Light Rune"
+    }
+]

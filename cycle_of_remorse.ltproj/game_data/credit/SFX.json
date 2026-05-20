@@ -1,0 +1,19 @@
+[
+    {
+        "nid": "SFX",
+        "sub_nid": "Sound Effects",
+        "credit_type": "List",
+        "category": "Audio",
+        "icon_index": [],
+        "contrib": [
+            [
+                "On-Jin",
+                "crowd02"
+            ],
+            [
+                "Maoudamashii",
+                "magicwater06"
+            ]
+        ]
+    }
+]

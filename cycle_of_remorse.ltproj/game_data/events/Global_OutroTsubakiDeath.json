@@ -1,0 +1,37 @@
+[
+    {
+        "name": "OutroTsubakiDeath",
+        "trigger": "level_end",
+        "level_nid": null,
+        "condition": "u('Tsubaki') and game.check_dead('Tsubaki') == True and u('Tsubaki').team == 'player'",
+        "commands": [],
+        "only_once": true,
+        "priority": 19,
+        "_source": [
+            "t;close",
+            "b;Tent",
+            "t;open",
+            "music_clear",
+            "m;Within Sadness",
+            "uu;Tsubaki;Left;Krista;Right",
+            "e;Tsubaki;HalfCloseEyes",
+            "s;Tsubaki;Ah, Krista, I'm so sorry. I{tgm}...",
+            "s;Krista;There's no need to apologize, Tsubaki. How are you holding up?",
+            "e;Tsubaki;CloseEyes",
+            "s;Tsubaki;There's a sharp pain whenever I move my arm,|and I feel a bit lightheaded.",
+            "s;Krista;Say no more. We'll have the clerics tend to you when we can--",
+            "e;Tsubaki;NormalBlink",
+            "s;Tsubaki;W-Wait! I still wish to join you.",
+            "s;Krista;But, Tsubaki--",
+            "s;Tsubaki;I wish to help you bring peace back to Yondo.|I intend to follow through on this even if it means staying on the sidelines.",
+            "e;Krista;CloseEyes",
+            "s;Krista;Hm{tgm}...|{c:e;Krista;NormalBlink}{tgm}Alright. Just don't overexert yourself.",
+            "e;Tsubaki;Smile",
+            "s;Tsubaki;Thank you, Krista. I won't let you down!",
+            "rrr",
+            "music_clear",
+            "t;close"
+        ],
+        "nid": "Global OutroTsubakiDeath"
+    }
+]

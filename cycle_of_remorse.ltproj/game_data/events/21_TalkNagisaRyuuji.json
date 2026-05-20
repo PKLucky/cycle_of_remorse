@@ -1,0 +1,37 @@
+[
+    {
+        "name": "TalkNagisaRyuuji",
+        "trigger": "on_talk",
+        "level_nid": "21",
+        "condition": "unit.nid == 'Ryuuji' and unit2.nid == 'Nagisa'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;The Steel Samurai",
+            "uu;Ryuuji;Right;Nagisa;Left",
+            "e;Ryuuji;CloseEyes,Smile",
+            "s;Ryuuji;Heh, never imagined I'd be seeing you again,|but here we are.",
+            "s;Nagisa;What are you{tgm}...{tgm} Hold on. Kenji?",
+            "bop;Nagisa",
+            "s;Nagisa;Kenji! How are you here?|{c:e;Nagisa;CloseEyes}I thought{tgm}...{tgm} We all thought{tgm}...!",
+            "e;Ryuuji;NormalBlink,Smile",
+            "s;Ryuuji;That I died? Yeah, I've been getting that a lot lately.|{c:e;Ryuuji;NoSmile}But hey, that's not the point here. I've joined forces with the Medeans.|Looks like they know how to bring Samegoro back to normal.",
+            "e;Nagisa;NormalBlink",
+            "s;Nagisa;They what?",
+            "s;Ryuuji;Yup, they just need to confront him in the throne room to do it.|If you come with us, you might be able to help.",
+            "s;Nagisa;Got it! I'll let Lady Tsubaki know too!",
+            "rrr",
+            "change_team;Nagisa;player",
+            "remove_tag;Nagisa;Boss",
+            "remove_talk;Ryuuji;Nagisa",
+            "remove_talk;Sumire;Nagisa",
+            "remove_talk;Asuka;Nagisa",
+            "add_talk;Nagisa;Tsubaki",
+            "change_ai;Nagisa;None",
+            "add_tag;Nagisa;Friendly",
+            "mf"
+        ],
+        "nid": "21 TalkNagisaRyuuji"
+    }
+]

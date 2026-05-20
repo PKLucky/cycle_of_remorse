@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SilverPoleax",
+        "sub_nid": "Axe",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            21
+        ],
+        "contrib": [
+            [
+                "Batima",
+                "Silver Poleax"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "PEGASUS3",
+        "name": "Triangle Attack",
+        "desc": "If two other armed allies with this skill are the same distance as unit from the enemy and unit initiates combat, grants unit Hit/Crit +30. Activates once per turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            13,
+            33
+        ],
+        "components": [
+            [
+                "crit",
+                30
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack' and ((utils.calculate_distance(target.position, game.get_unit('Chell').position) == 1 and utils.calculate_distance(target.position, game.get_unit('Viola').position) == 1 and utils.calculate_distance(target.position, game.get_unit('Lin').position) == 1) or (utils.calculate_distance(target.position, game.get_unit('Chell').position) == 2 and utils.calculate_distance(target.position, game.get_unit('Viola').position) == 2 and utils.calculate_distance(target.position, game.get_unit('Lin').position) == 2)) and game.get_unit('Chell').get_weapon() and game.get_unit('Viola').get_weapon() and game.get_unit('Lin').get_weapon()"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "hit",
+                30
+            ]
+        ]
+    }
+]

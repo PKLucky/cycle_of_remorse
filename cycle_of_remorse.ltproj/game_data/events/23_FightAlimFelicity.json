@@ -1,0 +1,26 @@
+[
+    {
+        "name": "FightAlimFelicity",
+        "trigger": "combat_start",
+        "level_nid": "23",
+        "condition": "check_pair('Alim', 'Felicity')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alim;LeftCorner",
+            "s;Alim;Well, this is a surprise.|Why exactly is someone like you here?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alim",
+            "u;Felicity;RightCorner;;HalfCloseEyes",
+            "s;Felicity;Drop it. I don't need any judgement from you.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Felicity",
+            "u;Alim;LeftCorner;;CloseEyes,Smile",
+            "s;Alim;I'll keep my thoughts to myself, then.|{c:e;Alim;HalfCloseEyes,Smile}My actions will do the talking for me.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alim",
+            "show_combat_ui",
+            "lvar;FelicityAlim;True"
+        ],
+        "nid": "23 FightAlimFelicity"
+    }
+]

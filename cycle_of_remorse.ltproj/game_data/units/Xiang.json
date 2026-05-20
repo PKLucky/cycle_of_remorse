@@ -1,0 +1,155 @@
+[
+    {
+        "nid": "Xiang",
+        "name": "Xiang",
+        "desc": "Diviner who lives in Foliaga's underground tunnels.\nNot accustomed to social norms.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Shaman",
+        "tags": [
+            "Female",
+            "Shifter"
+        ],
+        "bases": {
+            "HP": 18,
+            "STR": 5,
+            "MAG": 9,
+            "SKL": 7,
+            "SPD": 6,
+            "LCK": 3,
+            "DEF": 5,
+            "RES": 7,
+            "CON": 4,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 35,
+            "MAG": 75,
+            "SKL": 35,
+            "SPD": 35,
+            "LCK": 35,
+            "DEF": 35,
+            "RES": 55,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "STR": 0
+        },
+        "starting_items": [
+            [
+                "Miasma",
+                false
+            ],
+            [
+                "Secret Book",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "WornStone",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "XIANG"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                31,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Xiang",
+        "affinity": "Thunder",
+        "fields": [
+            [
+                "DeathQuote",
+                "Perhaps{tgm}...{tgm} this was my time{tgm}..."
+            ],
+            [
+                "DeathQuoteCh15",
+                "What sort of entertainment do people get out of this{tgm}...?"
+            ],
+            [
+                "PromoStatCap2",
+                "MAG,10,SKL,2,SPD,3,DEF,1,RES,7"
+            ],
+            [
+                "PromoStatCap3",
+                "MAG,8,SPD,2,DEF,2,RES,8"
+            ],
+            [
+                "EscapeQuote",
+                "Let us depart."
+            ],
+            [
+                "EndQuote",
+                "Today, this finally ends."
+            ],
+            [
+                "Epitaph",
+                "Xiang, Draconic Oracle"
+            ]
+        ]
+    }
+]

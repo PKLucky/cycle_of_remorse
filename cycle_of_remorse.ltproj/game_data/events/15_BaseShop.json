@@ -1,0 +1,19 @@
+[
+    {
+        "name": "BaseShop",
+        "trigger": "level_start",
+        "level_nid": "15",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "for;ItemSetup;['Lancereaver','Axereaver','Swordreaver','Recover','Gleam','Elice','Distort']",
+            "  add_market_item;{ItemSetup}",
+            "endf",
+            "remove_market_item;Master Seal",
+            "add_market_item;Master Seal"
+        ],
+        "nid": "15 BaseShop"
+    }
+]

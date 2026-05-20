@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "MARINA_CHILD",
+        "name": "Hastened <red>(Marina)</>",
+        "desc": "Grants +1 Mov for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightArchieAnna",
+        "trigger": "combat_start",
+        "level_nid": "26x",
+        "condition": "check_pair('Archie', 'Anna')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Archie;LeftCorner",
+            "s;Archie;You again? Not running away this time?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Archie",
+            "u;Anna;RightCorner;;FarWink",
+            "s;Anna;I prefer the term \"tactical retreat\".|{c:e;Anna;NormalBlink}Besides, we've got the advantage this time.|{c:e;Anna;Smile}You're outta here, buddy!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Anna",
+            "show_combat_ui"
+        ],
+        "nid": "26x FightArchieAnna"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Halberdier_Card",
+        "sub_nid": "Halberdier (M) Dragoon Lance {Uncredited}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Uncredited",
+                "Halberdier"
+            ]
+        ]
+    }
+]

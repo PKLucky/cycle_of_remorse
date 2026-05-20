@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightAlfonsoChell",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('Alfonso', 'Chell')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Alfonso;LeftCorner",
+            "s;Alfonso;Hand over the girl, and no one gets hurt, got it?!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Alfonso",
+            "u;Chell;RightCorner;;HalfCloseEyes",
+            "s;Chell;You're{tgm}...{tgm} No, you're not{br}one of them either.|{c:e;Chell;NormalBlink}No matter. Your death{br}will be inevitable!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Chell",
+            "show_combat_ui"
+        ],
+        "nid": "1 FightAlfonsoChell"
+    }
+]

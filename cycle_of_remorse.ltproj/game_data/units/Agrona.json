@@ -1,0 +1,115 @@
+[
+    {
+        "nid": "Agrona",
+        "name": "Agrona",
+        "desc": "Martial artist of unknown origin.\nSoft-spoken, but hides a hidden strength.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Mercenary",
+        "tags": [
+            "Boss",
+            "Merin",
+            "Circ",
+            "NotDeadLord"
+        ],
+        "bases": {
+            "HP": 10,
+            "STR": 16,
+            "MAG": 6,
+            "SKL": 11,
+            "SPD": 2,
+            "LCK": 5,
+            "DEF": 9,
+            "RES": 7,
+            "CON": 1,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 55,
+            "MAG": 35,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 35,
+            "DEF": 50,
+            "RES": 45,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "LCK": 8,
+            "SKL": 7,
+            "MOV": 0,
+            "STR": 7,
+            "DEF": 6,
+            "RES": 11,
+            "MAG": 6,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "Brave Sword",
+                false
+            ],
+            [
+                "MasterCrown",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                491,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                241,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Agrona",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

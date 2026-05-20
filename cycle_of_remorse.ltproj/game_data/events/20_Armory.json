@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "20",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;Close",
+            "m;Armory",
+            "shop;{unit};Armorslayer,Zanbato,Heavy Spear,Horseslayer,Hammer,Halberd,CleaveBow,BroadheadBow;armory",
+            "t;Open",
+            "mf"
+        ],
+        "nid": "20 Armory"
+    }
+]

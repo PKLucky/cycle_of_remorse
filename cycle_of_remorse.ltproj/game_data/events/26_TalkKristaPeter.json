@@ -1,0 +1,36 @@
+[
+    {
+        "name": "TalkKristaPeter",
+        "trigger": "on_talk",
+        "level_nid": "26",
+        "condition": "check_pair('Krista','Peter')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Right;Peter;Left",
+            "s;Peter;Hello, young lady.{c:e;Peter;Smile} You don't look like a bandit.",
+            "e;Krista;CloseEyes,Smile",
+            "s;Krista;And you're too polite to be one yourself.|{c:e;Krista;NormalBlink,Smile}You out there fighting them off?",
+            "e;Peter;CloseEyes",
+            "s;Peter;*sighhhh*{w}{c:e;Peter;HalfCloseEyes} Unfortunately, yes. They're disturbing the peace usual.",
+            "s;Krista;Well, you're in luck! Me and my friends are up against them too.|Wanna rough up these ruffians together?",
+            "e;Peter;NormalBlink",
+            "s;Peter;Sure, just as long as they are gone.|Pardon me, I have not introduced myself. My name is Peter.|What may yours be?",
+            "s;Krista;I'm Krista, princess of Medeas. Let's do good together, Peter!",
+            "rrr",
+            "change_team;Peter;player",
+            "remove_talk;Krista;Peter",
+            "remove_talk;Peter;Krista",
+            "remove_talk;Tsurugi;Peter",
+            "remove_talk;Peter;Tsurugi",
+            "remove_talk;Viola;Peter",
+            "remove_talk;Peter;Viola",
+            "change_ai;Peter;None",
+            "mlvar;deployedUnits;it.append('Peter')",
+            "mf"
+        ],
+        "nid": "26 TalkKristaPeter"
+    }
+]

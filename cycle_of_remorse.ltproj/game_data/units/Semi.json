@@ -1,0 +1,140 @@
+[
+    {
+        "nid": "Semi",
+        "name": "Semi",
+        "desc": "Refugee from Medeas now living in Foliaga.\nHates the Medean royal family.",
+        "variant": "",
+        "level": 1,
+        "klass": "Thief",
+        "tags": [
+            "Medean",
+            "Protect",
+            "Canon"
+        ],
+        "bases": {
+            "HP": 17,
+            "STR": 7,
+            "MAG": 2,
+            "SKL": 10,
+            "SPD": 10,
+            "LCK": 9,
+            "DEF": 3,
+            "RES": 2,
+            "CON": 4,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 45,
+            "MAG": 30,
+            "SKL": 50,
+            "SPD": 65,
+            "LCK": 50,
+            "DEF": 30,
+            "RES": 30,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "MAG": 0
+        },
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "SEMI"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Semi",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "DeathQuoteCh15",
+                "Argh, I knew I was gonna lose{tgm}..."
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2,SKL,3,SPD,7,LCK,4"
+            ],
+            [
+                "PromoStatCap3",
+                "SKL,6,SPD,11,LCK,5"
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Semi, Reformed Thief"
+            ]
+        ]
+    }
+]

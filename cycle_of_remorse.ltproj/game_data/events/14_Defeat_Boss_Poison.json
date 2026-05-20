@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "14",
+        "condition": "unit2.nid == None and ((unit.nid == 'Keisha' and game.check_dead('Locke') == True) or (unit.nid == 'Locke' and game.check_dead('Keisha') == True))",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "14 Defeat Boss Poison"
+    }
+]

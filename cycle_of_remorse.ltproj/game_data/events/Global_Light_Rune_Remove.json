@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Light Rune Remove",
+        "trigger": "time_region_complete",
+        "level_nid": null,
+        "condition": "v('runeRegion') > 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_map_anim;LightRune;{position}",
+            "linc;runeRegion;-1"
+        ],
+        "nid": "Global Light Rune Remove"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Pikeman_Card",
+        "sub_nid": "Militia (M) Deserter Lance {Rasdel}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Rasdel",
+                "Pikeman"
+            ]
+        ]
+    }
+]

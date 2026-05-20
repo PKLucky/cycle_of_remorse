@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PassRing",
+        "name": "Pass Ring",
+        "desc": "Allows unit to move through enemy units when held.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "value",
+                10000
+            ],
+            [
+                "status_on_hold",
+                "Pass"
+            ]
+        ]
+    }
+]

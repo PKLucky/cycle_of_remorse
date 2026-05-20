@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "JAKE",
+        "name": "Immobilize",
+        "desc": "<red>(Combat Art)</> Inflicts Hit -10 onto the unit and stuns the target on hit for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            38
+        ],
+        "components": [
+            [
+                "combat_art",
+                "JAKE_CHILD"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) == 'Bow'"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "CombatArt"
+                ]
+            ]
+        ]
+    }
+]

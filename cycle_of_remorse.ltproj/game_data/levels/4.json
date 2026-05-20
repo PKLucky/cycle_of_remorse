@@ -1,0 +1,1105 @@
+[
+    {
+        "nid": "4",
+        "name": "Ch. 4: Time to Run",
+        "tilemap": "Chapter 4",
+        "bg_tilemap": null,
+        "party": "Krista",
+        "music": {
+            "player_phase": "Grana Plains",
+            "enemy_phase": "RO SHAM BO!",
+            "other_phase": "Flower Power!",
+            "enemy2_phase": null,
+            "player_battle": "Dokapon Normal Battle",
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null,
+            "base": null,
+            "boss_battle": "Scout Battle"
+        },
+        "objective": {
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Krista dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "Krista",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "ForrestCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage Knight",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "KaiCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "SamCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Anil",
+                "team": "other",
+                "ai": "FollowLord",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ecco",
+                "team": "other",
+                "ai": "FollowLord",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Jorge",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 4,
+                "klass": "Pikeman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 4,
+                "klass": "Pikeman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 4,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": "Sword",
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": "Sword",
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 4,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": "Sword",
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 4,
+                "klass": "GriffonRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 4,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 4,
+                "klass": "GriffonRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 4,
+                "klass": "GriffonRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 4,
+                "klass": "GriffonRider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    8,
+                    24
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "highlight": null,
+                "condition": "unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    2
+                ],
+                "size": [
+                    5,
+                    2
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Formation_1",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_1",
+                "region_type": "normal",
+                "position": [
+                    14,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_2",
+                "region_type": "normal",
+                "position": [
+                    1,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_3",
+                "region_type": "normal",
+                "position": [
+                    13,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_4",
+                "region_type": "normal",
+                "position": [
+                    4,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Fort_5",
+                "region_type": "normal",
+                "position": [
+                    13,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Player",
+                "units": [
+                    "Krista",
+                    "KaiCopy",
+                    "ForrestCopy",
+                    "SamCopy"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "EnemyN",
+                "units": [
+                    "101",
+                    "102",
+                    "103"
+                ],
+                "positions": {
+                    "104": [
+                        0,
+                        11
+                    ],
+                    "105": [
+                        0,
+                        14
+                    ],
+                    "106": [
+                        16,
+                        5
+                    ],
+                    "109": [
+                        1,
+                        16
+                    ],
+                    "110": [
+                        0,
+                        17
+                    ],
+                    "111": [
+                        0,
+                        19
+                    ],
+                    "112": [
+                        0,
+                        18
+                    ],
+                    "113": [
+                        0,
+                        23
+                    ],
+                    "117": [
+                        5,
+                        23
+                    ],
+                    "118": [
+                        0,
+                        21
+                    ],
+                    "121": [
+                        15,
+                        20
+                    ],
+                    "101": [
+                        8,
+                        0
+                    ],
+                    "102": [
+                        11,
+                        0
+                    ],
+                    "103": [
+                        2,
+                        2
+                    ]
+                }
+            },
+            {
+                "nid": "Recruitable",
+                "units": [
+                    "Anil",
+                    "Ecco"
+                ],
+                "positions": {
+                    "Anil": [
+                        0,
+                        6
+                    ],
+                    "Ecco": [
+                        0,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyNW",
+                "units": [
+                    "104",
+                    "105"
+                ],
+                "positions": {
+                    "103": [
+                        1,
+                        3
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyNE",
+                "units": [
+                    "106",
+                    "107",
+                    "108"
+                ],
+                "positions": {
+                    "106": [
+                        14,
+                        3
+                    ],
+                    "107": [
+                        14,
+                        3
+                    ],
+                    "108": [
+                        14,
+                        3
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyW",
+                "units": [
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "113"
+                ],
+                "positions": {
+                    "110": [
+                        1,
+                        13
+                    ],
+                    "111": [
+                        1,
+                        13
+                    ],
+                    "112": [
+                        1,
+                        13
+                    ],
+                    "113": [
+                        1,
+                        13
+                    ],
+                    "109": [
+                        1,
+                        13
+                    ]
+                }
+            },
+            {
+                "nid": "EnemyE",
+                "units": [
+                    "114",
+                    "115",
+                    "116"
+                ],
+                "positions": {
+                    "114": [
+                        13,
+                        11
+                    ],
+                    "115": [
+                        13,
+                        11
+                    ],
+                    "116": [
+                        13,
+                        11
+                    ]
+                }
+            },
+            {
+                "nid": "EnemySW",
+                "units": [
+                    "117",
+                    "118",
+                    "119",
+                    "120"
+                ],
+                "positions": {
+                    "117": [
+                        4,
+                        20
+                    ],
+                    "118": [
+                        4,
+                        20
+                    ],
+                    "119": [
+                        4,
+                        20
+                    ],
+                    "120": [
+                        4,
+                        20
+                    ]
+                }
+            },
+            {
+                "nid": "EnemySE",
+                "units": [
+                    "121",
+                    "122",
+                    "123"
+                ],
+                "positions": {
+                    "Jorge": [
+                        15,
+                        20
+                    ],
+                    "121": [
+                        13,
+                        18
+                    ],
+                    "122": [
+                        13,
+                        18
+                    ],
+                    "123": [
+                        13,
+                        18
+                    ]
+                }
+            }
+        ],
+        "ai_groups": []
+    }
+]

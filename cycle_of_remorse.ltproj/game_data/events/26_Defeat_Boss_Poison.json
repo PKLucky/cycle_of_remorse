@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Defeat Boss Poison",
+        "trigger": "unit_death",
+        "level_nid": "26",
+        "condition": "unit.nid == 'Reid' and unit2.nid == None",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "26 Defeat Boss Poison"
+    }
+]

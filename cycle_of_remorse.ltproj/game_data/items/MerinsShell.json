@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "MerinsShell",
+        "name": "Merin's Shell",
+        "desc": "User is immune to critical attacks. If of Merin's bloodline, also reduces damage taken by 5.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "MerinsShell"
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "undiscardable",
+                null
+            ]
+        ]
+    }
+]

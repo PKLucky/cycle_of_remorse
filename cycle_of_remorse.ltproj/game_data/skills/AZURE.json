@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "AZURE",
+        "name": "Spectrum Dance",
+        "desc": "<red>Refresh</> all adjacent allies and grants targets +2 to all <red>major stats</> for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "AZURE_DANCE"
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "Refresh"
+                ]
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "MajorStats"
+                ]
+            ],
+            [
+                "condition",
+                "unit.team == 'player' and unit.ai == 'None'"
+            ]
+        ]
+    }
+]

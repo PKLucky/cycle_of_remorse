@@ -1,0 +1,15 @@
+[
+    {
+        "name": "GameOver",
+        "trigger": "unit_death",
+        "level_nid": "23",
+        "condition": "unit.nid in ['Gerolt', 'Leeann']",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lose_game"
+        ],
+        "nid": "23 GameOver"
+    }
+]

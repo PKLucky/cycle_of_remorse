@@ -1,0 +1,36 @@
+[
+    {
+        "name": "KirazSkillCheck",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "u('Kiraz') and u('Kiraz').position",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lvar;kirazSkill;game.get_random(0,8)",
+            "if;v('kirazSkill') == 0",
+            "  lvar;kirazSkillDesc;\"Mag +5\"",
+            "elif;v('kirazSkill') == 1",
+            "  lvar;kirazSkillDesc;\"Skl +5\"",
+            "elif;v('kirazSkill') == 2",
+            "  lvar;kirazSkillDesc;\"Spd +5\"",
+            "elif;v('kirazSkill') == 3",
+            "  lvar;kirazSkillDesc;\"Luk +5\"",
+            "elif;v('kirazSkill') == 4",
+            "  lvar;kirazSkillDesc;\"Def +5\"",
+            "elif;v('kirazSkill') == 5",
+            "  lvar;kirazSkillDesc;\"Res +5\"",
+            "elif;v('kirazSkill') == 6",
+            "  lvar;kirazSkillDesc;\"Hit +10\"",
+            "elif;v('kirazSkill') == 7",
+            "  lvar;kirazSkillDesc;\"Avo +10\"",
+            "elif;v('kirazSkill') == 8",
+            "  lvar;kirazSkillDesc;\"Crit +10\"",
+            "else",
+            "  lvar;kirazSkillDesc;\"--\"",
+            "end"
+        ],
+        "nid": "Global KirazSkillCheck"
+    }
+]

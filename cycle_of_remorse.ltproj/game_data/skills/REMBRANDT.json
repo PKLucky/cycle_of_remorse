@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "REMBRANDT",
+        "name": "Mageblade",
+        "desc": "Grants unit Mag +5 when using a magic sword.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            25
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "'MagicSword' in unit.get_weapon().tags"
+            ]
+        ]
+    }
+]

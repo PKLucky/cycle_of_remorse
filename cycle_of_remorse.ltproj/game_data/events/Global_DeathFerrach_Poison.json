@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DeathFerrach_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Ferrach' and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Ferrach;FarLeft",
+            "if;game.level.nid == '10'",
+            "  s;Ferrach;Y-You worms actually{tgm}...{tgm}|{c:e;Ferrach;CloseEyes,Smile}Ha{tgm}...{tgm} Hahaha! Perhaps I underestimated you.|{c:e;Ferrach;HalfCloseEyes,Smile}I shall retreat for now.|We will meet again.;StyleNid=boss_convo_left;MessageTail=None",
+            "end",
+            "r;Ferrach"
+        ],
+        "nid": "Global DeathFerrach_Poison"
+    }
+]

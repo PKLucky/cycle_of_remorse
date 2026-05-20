@@ -1,0 +1,101 @@
+[
+    {
+        "nid": "TorchStaff",
+        "name": "Torch",
+        "desc": "Lights an area. The light lasts for 5 turns and decreases per turn.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                32
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Torch"
+            ],
+            [
+                "event_on_hit",
+                "Global TorchStaff"
+            ],
+            [
+                "unsplashable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Torch"
+            ],
+            [
+                "eval_available",
+                "v('_fog_of_war')"
+            ],
+            [
+                "eval_target_restrict_2",
+                "not game.get_region_under_pos(target_pos, 'vision')"
+            ],
+            [
+                "hover_description",
+                "Lights an area."
+            ],
+            [
+                "target_fog_of_war",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
+            ]
+        ]
+    }
+]

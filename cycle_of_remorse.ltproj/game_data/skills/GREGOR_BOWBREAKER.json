@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "GREGOR_BOWBREAKER",
+        "name": "Bow Stance",
+        "desc": "Grants +50 Avo and +50 Hit when against foes wielding bows.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            28
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                50
+            ],
+            [
+                "avoid",
+                50
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Bow'"
+            ]
+        ]
+    }
+]

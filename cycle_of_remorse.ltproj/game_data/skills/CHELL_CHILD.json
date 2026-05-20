@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "CHELL_CHILD",
+        "name": "Swift Aura <red>(Chell)</>",
+        "desc": "Grants Skl/Spd +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        3
+                    ],
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

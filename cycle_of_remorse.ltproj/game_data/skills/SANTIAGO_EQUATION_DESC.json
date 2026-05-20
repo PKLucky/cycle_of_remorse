@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "SANTIAGO_EQUATION_DESC",
+        "name": "<red>Break</>",
+        "desc": "90 - 7 * (unit's Con - target's Con)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": []
+    }
+]

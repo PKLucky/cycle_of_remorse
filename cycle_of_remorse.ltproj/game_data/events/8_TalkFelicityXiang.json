@@ -1,0 +1,35 @@
+[
+    {
+        "name": "TalkFelicityXiang",
+        "trigger": "on_talk",
+        "level_nid": "8",
+        "condition": "unit.nid == 'Felicity' and unit2.nid == 'Xiang'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Felicity;Left;Xiang;Right",
+            "s;Xiang;You are{tgm}...",
+            "s;Felicity;Huh?",
+            "s;Xiang;You have a certain power within you.",
+            "e;Felicity;HalfCloseEyes",
+            "s;Felicity;You do too.",
+            "s;Xiang;You are with Medea's kin, yes?",
+            "e;Felicity;NormalBlink",
+            "s;Felicity;You mean Princess Krista? Why do you want to know?",
+            "s;Xiang;I foresaw her arrival to this place.|Though, you being with her is curious.|Considering what you are--",
+            "bop;Felicity",
+            "s;Felicity;Hey, hey, hey, keep your mouth shut about that.|Look, if you have business with Her Highness,|I'll let you tag along as long as you don't tell anyone about what you know about me.",
+            "s;Xiang;I shall accept those terms.",
+            "rrr",
+            "remove_talk;Krista;Xiang",
+            "remove_talk;Felicity;Xiang",
+            "remove_talk;Xiang;Felicity",
+            "change_team;Xiang;player",
+            "change_ai;Xiang;None",
+            "mf"
+        ],
+        "nid": "8 TalkFelicityXiang"
+    }
+]

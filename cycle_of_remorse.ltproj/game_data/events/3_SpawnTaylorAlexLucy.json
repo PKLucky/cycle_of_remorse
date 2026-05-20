@@ -1,0 +1,35 @@
+[
+    {
+        "name": "SpawnTaylorAlexLucy",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;Player;[u for u in game.level.unit_groups.get('PlayerRein').units]",
+            "  change_team;{Player};player",
+            "endf",
+            "center_cursor;11,0",
+            "spawn_group;PlayerRein;north;PlayerRein;normal;stack",
+            "move_group;PlayerRein;starting;;closest",
+            "flicker_cursor;Taylor",
+            "t;close",
+            "b;Clearing",
+            "t;open",
+            "m;Together We Ride",
+            "uu;Taylor;MidLeft;Alex;Right;Lucy;FarLeft",
+            "s;Taylor;According to Chell's message, Her Highness and the rest should be around here.|But all I see are a bunch of bandits!|What do you think, Alex?",
+            "s;Alex;Yes, it is strange. However, we should still investigate.|There is a chance that they're here.",
+            "s;Lucy;Come on, let's go!!{br}They might be in danger.",
+            "s;Taylor;Lucy's right.{br}Let's move!",
+            "s;Alex;Right behind you, Taylor.",
+            "t;close",
+            "b",
+            "t;open",
+            "mf"
+        ],
+        "nid": "3 SpawnTaylorAlexLucy"
+    }
+]

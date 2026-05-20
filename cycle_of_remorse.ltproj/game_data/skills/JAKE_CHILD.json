@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "JAKE_CHILD",
+        "name": "Immobilize",
+        "desc": "Gives Hit -10 to unit and stuns the target for one turn on hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            38
+        ],
+        "components": [
+            [
+                "hit",
+                -10
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "Stunned"
+            ]
+        ]
+    }
+]

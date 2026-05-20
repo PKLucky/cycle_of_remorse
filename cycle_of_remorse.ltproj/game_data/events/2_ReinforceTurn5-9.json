@@ -1,0 +1,35 @@
+[
+    {
+        "name": "ReinforceTurn5-9",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount >= 5 and game.turncount <= 9 and game.turncount % 2 == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;6,9",
+            "if;game.turncount >= 5 and v('EnemyThievesLore') != True",
+            "  make_generic;thief;Thief;4;enemy;Thief;Bandit;;Iron Sword",
+            "  add;thief;6,9;fade;giveup;fade",
+            "else",
+            "  make_generic;;Fighter;4;enemy;Pursue;Bandit;;Iron Axe",
+            "  add;{created_unit};6,9;fade;giveup;fade",
+            "  add_tag;{created_unit};Bandit",
+            "end",
+            "wait;300",
+            "center_cursor;6,5",
+            "make_generic;;Archer;4;enemy;Pursue;Bandit;;Iron Bow",
+            "add;{created_unit};6,5;fade;giveup;fade",
+            "add_tag;{created_unit};Bandit",
+            "wait;300",
+            "if;u('thief').position != None and game.turncount >= 5 and v('EnemyThievesLore') != True",
+            "  map_anim;ThiefEscape;0,0;permanent;no_block",
+            "  add_lore;EnemyThieves",
+            "  s;;A new Guide entry has been added.{br}<red>(Thieves)</>;StyleNid=hint;NumLines=3;no_sound",
+            "  gvar;EnemyThievesLore;True",
+            "end"
+        ],
+        "nid": "2 ReinforceTurn5-9"
+    }
+]

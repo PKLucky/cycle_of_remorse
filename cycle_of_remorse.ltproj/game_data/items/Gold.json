@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Gold",
+        "name": "Gold",
+        "desc": "",
+        "icon_nid": "Valuable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "value",
+                1
+            ]
+        ]
+    }
+]

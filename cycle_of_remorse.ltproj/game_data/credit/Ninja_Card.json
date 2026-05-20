@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Ninja_Card",
+        "sub_nid": "Ninja {Der}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Der",
+                "Ninja"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "nid": "Felicity",
+        "name": "Felicity",
+        "desc": "Krista's personal maid.\nMischevious and playful.",
+        "variant": "",
+        "level": 1,
+        "klass": "Maid",
+        "tags": [
+            "Female",
+            "Dark",
+            "Shifter",
+            "Canon"
+        ],
+        "bases": {
+            "HP": 15,
+            "STR": 3,
+            "MAG": 10,
+            "SKL": 10,
+            "SPD": 10,
+            "LCK": 2,
+            "DEF": 5,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 45,
+            "MAG": 55,
+            "SKL": 50,
+            "SPD": 60,
+            "LCK": 30,
+            "DEF": 30,
+            "RES": 30,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ],
+            [
+                "RepairKit",
+                false
+            ],
+            [
+                "OldRock",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "FELICITY"
+            ],
+            [
+                1,
+                "Nightvision"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                31,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Felicity",
+        "affinity": "Light",
+        "fields": [
+            [
+                "DeathQuote",
+                "This is so unfair{tgm}...!{tgm}|I'm sorry, Your Highness. I have to retreat{tgm}...!"
+            ],
+            [
+                "DeathQuoteCh15",
+                "Well, this is disappointing."
+            ],
+            [
+                "EscapeQuote",
+                "Heh, too easy."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Felicity, Playful Maid"
+            ]
+        ]
+    }
+]

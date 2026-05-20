@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Narcisse",
+        "name": "Narcisse",
+        "desc": "A merchant from Oregot.\nSharp-tongued and haughty.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Mage",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 0,
+            "MAG": 75,
+            "SKL": 55,
+            "SPD": 70,
+            "LCK": 55,
+            "DEF": 35,
+            "RES": 50,
+            "CON": 10,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Elice",
+                false
+            ],
+            [
+                "Elthunder",
+                false
+            ],
+            [
+                "RainbowTonic",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Narcisse",
+        "affinity": "Thunder",
+        "fields": [
+            [
+                "DeathQuote",
+                "Scoundrel{tgm}...!{tgm} H-How dare you{tgm}...!"
+            ]
+        ]
+    }
+]

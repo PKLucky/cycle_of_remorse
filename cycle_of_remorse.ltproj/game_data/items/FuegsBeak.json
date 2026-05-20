@@ -1,0 +1,96 @@
+[
+    {
+        "nid": "FuegsBeak",
+        "name": "Fueg's Beak",
+        "desc": "Fueg bloodline only. Uses Mag to determine damage at range. Str/Mag +3.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            17
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        3
+                    ],
+                    [
+                        "STR",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "undiscardable",
+                null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Fueg"
+                ]
+            ]
+        ]
+    }
+]

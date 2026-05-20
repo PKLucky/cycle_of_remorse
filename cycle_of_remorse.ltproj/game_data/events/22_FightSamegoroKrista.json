@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightSamegoroKrista",
+        "trigger": "combat_start",
+        "level_nid": "22",
+        "condition": "check_pair('Samegoro', 'Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Samegoro;LeftCorner;;HalfCloseEyes",
+            "s;Samegoro;<violet>Medea{tgm}...{tgm} Wh-Why{tgm}...?</>;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Samegoro",
+            "u;Krista;RightCorner;;HalfCloseEyes",
+            "s;Krista;Just like with Azalea{tgm}...|{c:e;Krista;NormalBlink}{tgm}Come on, Samegoro!{br}Snap out of it!|I'm not Medea!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "show_combat_ui"
+        ],
+        "nid": "22 FightSamegoroKrista"
+    }
+]

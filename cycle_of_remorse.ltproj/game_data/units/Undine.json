@@ -1,0 +1,63 @@
+[
+    {
+        "nid": "Undine",
+        "name": "Undine",
+        "desc": "A follower of Circ.\nSeemingly flighty, but hides an inner strength.",
+        "variant": "",
+        "level": 1,
+        "klass": "Shaman",
+        "tags": [
+            "Boss",
+            "Female"
+        ],
+        "bases": {
+            "HP": 1
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 70,
+            "SKL": 65,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Luna",
+                false
+            ],
+            [
+                "Bolting",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Dark": [
+                false,
+                131,
+                null
+            ],
+            "Anima": [
+                false,
+                241,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Undine",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "DeathQuote",
+                "Oooh, I've really done it now{tgm}..."
+            ]
+        ]
+    }
+]

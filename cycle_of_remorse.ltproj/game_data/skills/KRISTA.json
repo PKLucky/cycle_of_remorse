@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "KRISTA",
+        "name": "Inspiration",
+        "desc": "<red>(Aura)</> Grants Dmg dealt +2 and Dmg taken -2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            52
+        ],
+        "components": [
+            [
+                "aura",
+                "KRISTA_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    }
+]

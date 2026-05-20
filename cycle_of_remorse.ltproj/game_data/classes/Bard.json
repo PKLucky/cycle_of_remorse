@@ -1,0 +1,131 @@
+[
+    {
+        "nid": "Bard",
+        "name": "Bard",
+        "desc": "Musicians whose melodies aid allies.",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": "Dancer",
+        "turns_into": [
+            "Trickster"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 14,
+            "STR": 2,
+            "MAG": 7,
+            "SKL": 9,
+            "SPD": 5,
+            "LCK": -1,
+            "DEF": 4,
+            "RES": 8,
+            "CON": 4,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 60,
+            "MAG": 65,
+            "SKL": 40,
+            "SPD": 70,
+            "LCK": 70,
+            "DEF": 35,
+            "RES": 35,
+            "CON": 10,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 5,
+            "STR": 1,
+            "MAG": 4,
+            "SKL": 2,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 1,
+            "RES": 3,
+            "CON": 1,
+            "MOV": 1
+        },
+        "max_stats": {
+            "HP": 45,
+            "STR": 28,
+            "MAG": 33,
+            "SKL": 24,
+            "SPD": 33,
+            "LCK": 28,
+            "DEF": 25,
+            "RES": 25,
+            "CON": 20,
+            "MOV": 10
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                131,
+                491
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Fancy Bard (M) +Lyre {MeatOfJustice}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Bard",
+        "combat_anim_nid": "Bard",
+        "fields": []
+    }
+]

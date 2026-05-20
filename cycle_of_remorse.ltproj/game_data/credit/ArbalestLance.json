@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ArbalestLance",
+        "sub_nid": "Arbalest (F) Lance {EldritchAbomination, Jj09}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "EldritchAbomination, Jj09",
+                "Arbalest (F) Lance"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "EffWallOverride",
+        "name": "EffWallOverride",
+        "desc": "(Allows thieves to get effective damage against certain walls in Ch 28)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": [
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Wall28"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    }
+]

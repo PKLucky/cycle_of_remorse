@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "17",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "m;Armory",
+            "shop;{unit};Killing Edge,Steel Blade,Killer Lance,Killer Axe,Killer Bow;armory",
+            "t;open",
+            "mf"
+        ],
+        "nid": "17 Armory"
+    }
+]

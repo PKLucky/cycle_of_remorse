@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "LIN",
+        "name": "Strike Aura",
+        "desc": "<red>(Aura)</> Grants Str/Mag +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "LIN_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    }
+]

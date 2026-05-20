@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightTaiga",
+        "trigger": "combat_start",
+        "level_nid": "12",
+        "condition": "check_default('Taiga', [])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Taiga;LeftCorner;;Smile",
+            "s;Taiga;Itchin' for a fight, huh?{br}Sure, I'll take you on!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Taiga",
+            "show_combat_ui"
+        ],
+        "nid": "12 FightTaiga"
+    }
+]

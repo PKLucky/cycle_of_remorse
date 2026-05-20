@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightErvanJudah",
+        "trigger": "combat_start",
+        "level_nid": "33",
+        "condition": "check_pair('Ervan','Judah')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ervan;LeftCorner",
+            "s;Ervan;Judah, you've always been so loyal.|Do you have the heart to kill me, friend?;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ervan",
+            "u;Judah;RightCorner",
+            "s;Judah;I've always been prepared for such a task, my prince.|{c:e;Judah;CloseEyes}Now is no different.|{c:e;Judah;NormalBlink}All I ask is that you face death with dignity.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Judah",
+            "show_combat_ui"
+        ],
+        "nid": "33 FightErvanJudah"
+    }
+]

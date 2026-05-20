@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;Close",
+            "shop;{unit};Iron Sword,Slim Sword,Iron Lance,SlimLance,Iron Axe,Hatchet;armory",
+            "t;Open"
+        ],
+        "nid": "DEBUG Armory"
+    }
+]

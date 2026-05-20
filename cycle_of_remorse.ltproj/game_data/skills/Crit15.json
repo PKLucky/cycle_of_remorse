@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Crit15",
+        "name": "Crit +15",
+        "desc": "Grants +15 critical rate.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            12
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit",
+                15
+            ]
+        ]
+    }
+]

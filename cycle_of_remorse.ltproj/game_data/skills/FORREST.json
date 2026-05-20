@@ -1,0 +1,48 @@
+[
+    {
+        "nid": "FORREST",
+        "name": "Instructor's Assist",
+        "desc": "<red>(Aura)</> Grants Def +3.\nAllows unit to use <red>Mercy</>.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "FORREST2"
+                ]
+            ],
+            [
+                "aura",
+                "FORREST_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "FORREST2"
+                ]
+            ]
+        ]
+    }
+]

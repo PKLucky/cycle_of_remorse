@@ -1,0 +1,41 @@
+[
+    {
+        "nid": "SpysDagger",
+        "name": "Spy's Dagger",
+        "desc": "Inflicts Def/Res -3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Negative"
+                ]
+            ]
+        ]
+    }
+]

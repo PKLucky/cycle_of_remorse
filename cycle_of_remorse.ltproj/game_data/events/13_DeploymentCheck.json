@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DeploymentCheck",
+        "trigger": "on_prep_start",
+        "level_nid": "13",
+        "condition": "len(game.get_units_in_party('Krista')) < v('_minimum_deployment') and u('Ryuuji').team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Pirate;14;player;None;Wyrmfang;Female;Steel Axe",
+            "add_tag;{created_unit};Female",
+            "recruit_generic;{created_unit};Hu;Hu",
+            "u;Hu;Right",
+            "s;Hu;Yo, princess! Heard that your army's low on numbers.|Captain Ryuuji said to battle alongside you guys to help even the odds.|Let's go and make some heads spin!",
+            "sound;Item",
+            "alert;Hu joined the party!",
+            "r;Hu"
+        ],
+        "nid": "13 DeploymentCheck"
+    }
+]

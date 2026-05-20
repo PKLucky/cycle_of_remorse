@@ -1,0 +1,41 @@
+[
+    {
+        "name": "TalkKristaRyuuji",
+        "trigger": "on_talk",
+        "level_nid": "12",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Ryuuji'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;The Steel Samurai",
+            "uu;Ryuuji;Left;Krista;Right",
+            "s;Ryuuji;Come to face me?",
+            "s;Krista;Hold on, there's something I gotta ask you first.",
+            "e;Ryuuji;Smile",
+            "s;Ryuuji;Ha! Haven't heard that one before.|Fine, go ahead. I'm listening.",
+            "s;Krista;Do you know a guy named Kai?|Mercenary? White hair? Really good with a sword?",
+            "e;Ryuuji;CloseEyes",
+            "s;Ryuuji;White hair, huh{tgm}...?{c:e;Ryuuji;NormalBlink}{tgm} I might know him. Why?",
+            "e;Krista;Smile",
+            "s;Krista;He's with us! And sounds like he knows who you are too.",
+            "s;Ryuuji;Does he now?",
+            "e;Krista;NoSmile",
+            "s;Krista;That's what he says.|I dunno what's going on between you two, but could you talk to him?|Sounds like he was desperate to know if you are who he thinks you are.",
+            "e;Ryuuji;CloseEyes",
+            "s;Ryuuji;Hm{tgm}...",
+            "e;Ryuuji;NormalBlink",
+            "bop;Ryuuji",
+            "s;Ryuuji;Everyone, hold off the attack!",
+            "e;Krista;Smile",
+            "s;Krista;Hell yeah!",
+            "s;Ryuuji;Don't look so happy.|If I don't like what Kai has to say, we'll get back to raiding your ship.",
+            "e;Krista;HalfCloseEyes,NoSmile",
+            "s;Krista;Man.",
+            "rrr",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "12 TalkKristaRyuuji"
+    }
+]

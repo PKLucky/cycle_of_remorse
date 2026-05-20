@@ -1,0 +1,15 @@
+[
+    {
+        "nid": "Map_ArcherDead",
+        "sub_nid": "ArcherDead",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "Sigmaraven",
+                null
+            ]
+        ]
+    }
+]

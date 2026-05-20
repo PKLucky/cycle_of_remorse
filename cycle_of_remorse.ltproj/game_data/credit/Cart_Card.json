@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Cart_Card",
+        "sub_nid": "Horse {L95}",
+        "credit_type": 3,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "L95",
+                "Cart"
+            ]
+        ]
+    }
+]

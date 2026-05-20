@@ -1,0 +1,30 @@
+[
+    {
+        "name": "TalkKristaAzure",
+        "trigger": "on_talk",
+        "level_nid": "14",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Azure'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Right;Azure;Left",
+            "s;Krista;Hey, are you okay?",
+            "s;Azure;Hm? And who are you?",
+            "e;Krista;Smile",
+            "s;Krista;Krista, princess of Medeas, at your service.|{c:e;Krista;NoSmile}Y'know, when these pirates attacked us, I wasn't expecting us to rescue prisoners too.",
+            "s;Azure;When their ship stopped, I didn't expect this at all either.|How about we join forces, Your Highness?",
+            "e;Krista;Smile",
+            "s;Krista;Sure! We need all the help we can get.",
+            "rrr",
+            "change_team;Azure;player",
+            "remove_talk;Krista;Azure",
+            "remove_talk;Aqua;Azure",
+            "remove_talk;Semi;Azure",
+            "change_ai;Azure;None",
+            "mf"
+        ],
+        "nid": "14 TalkKristaAzure"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "BaseConvo_Living The Dream",
+        "trigger": "on_base_convo",
+        "level_nid": "5",
+        "condition": "base_convo == 'Living the Dream'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;Gate",
+            "m;Girl of the Plains",
+            "uu;Ecco;Left;Anil;Right",
+            "e;Ecco;Smile",
+            "s;Ecco;Anil, my friend, we totally hit the jackpot this time.",
+            "e;Anil;Smile",
+            "s;Anil;*nods*",
+            "s;Ecco;Just think of how much gold we're gonna get!|{c:e;Ecco;HalfCloseEyes,Smile}Do you think it would be too forward to ask our kind benefactor for our pay soon?",
+            "e;Anil;NoSmile",
+            "s;Anil;[We just met her, so yes, of course it's too soon.]",
+            "e;Ecco;NoSmile,CloseEyes",
+            "s;Ecco;*sigh* I had a feeling you'd say that.|{c:e;Ecco;NormalBlink}Honestly, Anil, you gotta live a little.|This is the opportunity of a lifetime!",
+            "s;Anil;[Unlike you, I'm enjoying things in moderation.]|[Besides, I'd rather finish the job first.]",
+            "e;Ecco;HalfCloseEyes",
+            "s;Ecco;You're too honorable for your own good, you know that?",
+            "increment_support_points;Anil;Ecco;1",
+            "sound;Item",
+            "alert;Anil and Ecco grew closer!",
+            "remove_base_convo;Living the Dream",
+            "b",
+            "mf"
+        ],
+        "nid": "5 BaseConvo_Living The Dream"
+    }
+]

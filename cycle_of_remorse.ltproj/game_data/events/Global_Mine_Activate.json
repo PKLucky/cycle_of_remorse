@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Mine Activate",
+        "trigger": "Mine",
+        "level_nid": null,
+        "condition": "v('mineRegion') > 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;Torch;{position}",
+            "sound;FireTrap",
+            "wait;200",
+            "if;u('{unit}').get_hp() - 10 > 0",
+            "  set_current_hp;{unit};{e:u('{unit}').get_hp() - 10};damage_numbers",
+            "else",
+            "  kill;{unit}",
+            "end",
+            "linc;mineRegion;-1"
+        ],
+        "nid": "Global Mine Activate"
+    }
+]

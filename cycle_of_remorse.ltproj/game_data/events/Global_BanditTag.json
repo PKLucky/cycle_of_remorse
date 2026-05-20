@@ -1,0 +1,17 @@
+[
+    {
+        "name": "BanditTag",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;banditUnits;[u for u in game.level.units if u.generic == True and 'Tile' not in u.tags and 'Bandit' not in u.tags and u.team in ['enemy','enemy2','enemy_1','enemy2_1']]",
+            "  add_tag;{banditUnits};Bandit",
+            "endf"
+        ],
+        "nid": "Global BanditTag"
+    }
+]

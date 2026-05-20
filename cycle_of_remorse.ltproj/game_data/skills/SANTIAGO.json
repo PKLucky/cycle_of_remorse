@@ -1,0 +1,32 @@
+[
+    {
+        "nid": "SANTIAGO",
+        "name": "Grapple",
+        "desc": "Both the unit and the target cannot act for two turns. The target loses 20% HP each turn they are grappled. Target has a <red>Break</>% chance of freeing themselves.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "SANTIAGO"
+            ],
+            [
+                "death_tether",
+                null
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "SANTIAGO_EQUATION_DESC"
+                ]
+            ]
+        ]
+    }
+]

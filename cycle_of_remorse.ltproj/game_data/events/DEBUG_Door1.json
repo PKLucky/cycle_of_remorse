@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Door1",
+        "trigger": "Door",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'Door'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Iron Sword"
+        ],
+        "nid": "DEBUG Door1"
+    }
+]

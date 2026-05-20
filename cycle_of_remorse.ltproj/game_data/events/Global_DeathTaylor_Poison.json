@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DeathTaylor_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Taylor' and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "u;Taylor;FarRight",
+            "s;Taylor;A-Alex{tgm}...!{tgm} Are you{tgm}...{tgm} there{tgm}...?{tgm} I{tgm}...;StyleNid=boss_convo_right;MessageTail=None",
+            "e;Taylor;CloseEyes",
+            "r;Taylor",
+            "mf"
+        ],
+        "nid": "Global DeathTaylor_Poison"
+    }
+]

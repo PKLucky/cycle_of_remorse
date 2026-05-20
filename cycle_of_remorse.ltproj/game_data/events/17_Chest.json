@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "17",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Chest1'",
+            "  give_item;{unit};Mine",
+            "  show_layer;chest1",
+            "elif;region.nid == 'Chest2'",
+            "  give_item;{unit};Toxin Lance",
+            "  show_layer;chest2",
+            "end"
+        ],
+        "nid": "17 Chest"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "AQUA",
+        "name": "Live to Serve",
+        "desc": "When unit heals an ally, unit recovers half the HP restored.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            52
+        ],
+        "components": [
+            [
+                "live_to_serve",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

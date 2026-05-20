@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "YUMI_CHILD",
+        "name": "Allured  <red>(Yumi)</>",
+        "desc": "Deals Dmg +3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            24
+        ],
+        "components": [
+            [
+                "condition",
+                "'Female' not in unit.tags"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "damage",
+                3
+            ]
+        ]
+    }
+]

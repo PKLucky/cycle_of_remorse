@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CircsSpine",
+        "sub_nid": "Bow",
+        "credit_type": 1,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            11
+        ],
+        "contrib": [
+            [
+                "Zarg",
+                "Circ's Spine"
+            ]
+        ]
+    }
+]

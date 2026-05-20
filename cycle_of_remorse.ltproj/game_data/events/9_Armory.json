@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "9",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "m;Armory",
+            "shop;{unit};Steel Sword,Iron Blade,Steel Lance,Javelin,Steel Axe,Hand Axe,Steel Bow;armory",
+            "t;open",
+            "mf"
+        ],
+        "nid": "9 Armory"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Torch",
+        "name": "Torch",
+        "desc": "Grants increased sight range in Fog of War. Bonus sight range decreases per turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            53
+        ],
+        "components": [
+            [
+                "decreasing_sight_range_bonus",
+                4
+            ],
+            [
+                "time",
+                4
+            ]
+        ]
+    }
+]

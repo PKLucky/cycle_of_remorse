@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SoldierFemale2",
+        "sub_nid": "SoldierPurpleFemale1",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Alice, Zarg",
+                "Female Soldier 2"
+            ]
+        ]
+    }
+]

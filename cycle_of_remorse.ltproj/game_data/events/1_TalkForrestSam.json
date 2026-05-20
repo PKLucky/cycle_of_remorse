@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TalkForrestSam",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Forrest','Sam')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;A Knight's Oath",
+            "uu;Forrest;Left;Sam;Right",
+            "s;Forrest;Surrender now, and you may yet live, bandit!",
+            "s;Sam;Hey, watch where you're pointing that thing!|I'm on your side here!",
+            "s;Forrest;Wait, that voice{tgm}...{tgm} It can't be{tgm}...{tgm} Sam?!",
+            "s;Sam;Hold on. Forrest? What are you doing here?",
+            "s;Forrest;I should be asking you that.",
+            "s;Sam;Look, we'll talk later. We've got bigger problems on our hands.",
+            "rrr",
+            "remove_talk;Forrest;Sam",
+            "remove_talk;Sam;Forrest",
+            "mf"
+        ],
+        "nid": "1 TalkForrestSam"
+    }
+]

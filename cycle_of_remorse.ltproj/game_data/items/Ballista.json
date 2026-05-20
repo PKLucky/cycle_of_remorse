@@ -1,0 +1,95 @@
+[
+    {
+        "nid": "Ballista",
+        "name": "Ballista",
+        "desc": "Ballisticians only.\nUses recover after each chapter.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "c_uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "item_tags",
+                [
+                    "Ballista"
+                ]
+            ],
+            [
+                "no_alert_on_break",
+                null
+            ]
+        ]
+    }
+]

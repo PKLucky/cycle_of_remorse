@@ -1,0 +1,37 @@
+[
+    {
+        "name": "TalkKristaMichael",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Michael'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Krista;Left;Michael;Right",
+            "s;Krista;Stay away from those innocent villagers!",
+            "bop;Michael",
+            "s;Michael;W-Wait, please!|I'm guarding this house so the others don't get to it.|Please don't hurt me!",
+            "e;Krista;HalfCloseEyes",
+            "s;Krista;A likely story.",
+            "s;Michael;It's the truth! I just joined the Knights, a-and this is NOT what I signed up for.|Splitting families, imprisoning innocent people{tgm}...{tgm} This{tgm}...{tgm} This isn't a knight's duty!|{c:e;Michael;CloseEyes}I{tgm}...{tgm} I{tgm}...{tgm} Wahh!!{br}I want to go home!!",
+            "e;Krista;NormalBlink",
+            "bop;Krista",
+            "s;Krista;Oh man, uh. S-Sorry, I didn't mean to make you cry.|Look, if you don't wanna stick with the Knights, you can come with us.|{c:e;Krista;Smile}I'm Krista, princess of Medeas.|My friends and I are investigating the disappearances going on in Foliaga.",
+            "e;Michael;NormalBlink",
+            "s;Michael;*sniffle* R-Really? I'll join you guys, then!|I want to help bring Foliaga's citizens back home where they belong.",
+            "s;Krista;That's the spirit! Now, brave knight, what's your name?",
+            "s;Michael;B-Brave knight{tgm}...?{tgm} Wow, that's{tgm}...",
+            "bop;Michael",
+            "s;Michael;Um! Pardon me! My name is Michael.|I'll do my best to serve you, Your Highness.",
+            "rrr",
+            "change_team;Michael;player",
+            "remove_talk;Krista;Michael",
+            "remove_talk;Aqua;Michael",
+            "remove_talk;Michael;Aqua",
+            "mf"
+        ],
+        "nid": "5 TalkKristaMichael"
+    }
+]

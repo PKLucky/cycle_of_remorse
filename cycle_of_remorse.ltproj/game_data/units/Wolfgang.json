@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Wolfgang",
+        "name": "Wolfgang",
+        "desc": "Leader of the Tigerfang Gang.\n[]",
+        "variant": "",
+        "level": 1,
+        "klass": "Fighter",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 1,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 65,
+            "MAG": 0,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 40,
+            "DEF": 65,
+            "RES": 40,
+            "CON": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Killer Axe",
+                false
+            ],
+            [
+                "Energy Ring",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Wolfgang",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "This was supposed to be easy pickings{tgm}..."
+            ]
+        ]
+    }
+]

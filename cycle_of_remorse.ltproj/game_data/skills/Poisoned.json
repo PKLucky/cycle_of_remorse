@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "Poisoned",
+        "name": "Poisoned",
+        "desc": "Lose 10% of max HP per turn and take +3 more damage during combat for five turns.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            53
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                5
+            ],
+            [
+                "unit_anim",
+                "MapPoison"
+            ],
+            [
+                "upkeep_animation",
+                "MapPoisonShock"
+            ],
+            [
+                "upkeep_sound",
+                "Poison"
+            ],
+            [
+                "has_tags",
+                [
+                    "Negative"
+                ]
+            ],
+            [
+                "resist",
+                -3
+            ],
+            [
+                "degeneration",
+                0.1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    49,
+                    126,
+                    32
+                ]
+            ],
+            [
+                "combat_flickering_tint",
+                [
+                    49,
+                    126,
+                    32
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BallistaUse",
+        "name": "BallistaUse",
+        "desc": "Allows unit to use Bows when using a Ballista (For Chapter 17x)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": [
+            [
+                "wexp_usable_skill",
+                "Bow"
+            ],
+            [
+                "additional_inventory_space",
+                1
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

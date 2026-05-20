@@ -1,0 +1,16 @@
+[
+    {
+        "name": "GuideTutorial",
+        "trigger": "on_prep_start",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "s;;The <red>Guide</> is accessible in the Preparation menu before combat of each chapter.;;150;hint;NumLines=3;no_sound",
+            "s;;It will be highlighted in <green>green</> if a new entry has been added.;StyleNid=hint;NumLines=3;no_sound"
+        ],
+        "nid": "2 GuideTutorial"
+    }
+]

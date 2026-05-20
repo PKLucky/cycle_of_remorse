@@ -1,0 +1,140 @@
+[
+    {
+        "nid": "Matthew",
+        "name": "Matthew",
+        "desc": "Mysterious wanderer from a foreign continent.\nCheerful and sly.",
+        "variant": "",
+        "level": 1,
+        "klass": "Thief",
+        "tags": [],
+        "bases": {
+            "HP": 14,
+            "STR": 14,
+            "MAG": 9,
+            "SKL": 11,
+            "SPD": 7,
+            "LCK": 5,
+            "DEF": 11,
+            "RES": 9,
+            "CON": 3,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 35,
+            "MAG": 35,
+            "SKL": 45,
+            "SPD": 75,
+            "LCK": 65,
+            "DEF": 30,
+            "RES": 25,
+            "CON": 10,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "MOV": 0,
+            "STR": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "starting_items": [
+            [
+                "SpysDagger",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "MATTHEW"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Matthew",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "Leila{tgm}..."
+            ],
+            [
+                "DeathQuoteCh15",
+                "Heh, never was one for the arena anyway."
+            ],
+            [
+                "PromoStatCap3",
+                "STR,5,SPD,7"
+            ],
+            [
+                "PromoStatCap2",
+                "STR,2,SKL,2,SPD,5,LCK,3"
+            ],
+            [
+                "EscapeQuote",
+                "Let's just slip on through here{tgm}..."
+            ],
+            [
+                "EndQuote",
+                "New Value"
+            ],
+            [
+                "Epitaph",
+                "Matthew, Faithful Spy"
+            ]
+        ]
+    }
+]

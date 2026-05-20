@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightKristaErvan",
+        "trigger": "combat_start",
+        "level_nid": "33",
+        "condition": "check_pair('Ervan','Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Ervan;LeftCorner",
+            "s;Ervan;I won't hold back, Krista.|{c:e;Ervan;HalfCloseEyes}It would be in your best interest|if you did the same.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Ervan",
+            "u;Krista;RightCorner",
+            "s;Krista;I never planned to.|{c:e;Krista;HalfCloseEyes}You died by my hand, so I'll make sure it stays that way.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "show_combat_ui"
+        ],
+        "nid": "33 FightKristaErvan"
+    }
+]

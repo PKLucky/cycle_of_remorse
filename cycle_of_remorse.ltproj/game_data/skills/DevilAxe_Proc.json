@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "DevilAxe_Proc",
+        "name": "Backfired!",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            28
+        ],
+        "components": [
+            [
+                "devil_axe_gba",
+                "Affect attacks done by unit"
+            ]
+        ]
+    }
+]

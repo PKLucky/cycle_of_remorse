@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BaseConvo_Anxieties",
+        "trigger": "on_base_convo",
+        "level_nid": "18",
+        "condition": "base_convo == 'Anxieties'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;TownSnow",
+            "m;Silent Ground",
+            "uu;Parker;Left;Trevor;Right",
+            "s;Parker;Is everything alright, Trevor?",
+            "s;Trevor;Oh, Lord Parker.|In all truth, no. That ghost{tgm}...",
+            "s;Parker;Worried for Krista's safety?",
+            "s;Trevor;Er{tgm}...{tgm} Yes. That is precisely it.|{c:e;Trevor;CloseEyes}Knowing the ghost captures women is{tgm}...{tgm} concerning.|{c:e;Trevor;NormalBlink}How would a ghost be able to tell the difference|between a man and a woman in the middle of the night?|They were human once, yes? They must still have their human-level perceptions.",
+            "s;Parker;Perhaps it's a supernatural ability?|They might be able to just tell.",
+            "e;Trevor;CloseEyes",
+            "s;Trevor;Hm{tgm}...{tgm} Terrifying indeed{tgm}...|{c:e;Trevor;NormalBlink}{tgm}As fascinating this conversation is, Lord Parker, I must{tgm}...{tgm} er.|Make preparations for tonight. So long!",
+            "mirror;Trevor",
+            "move_portrait;Trevor;OffscreenRight",
+            "s;Parker;Hm. Poor boy must have a fear of ghosts.",
+            "increment_support_points;Parker;Trevor;1",
+            "sound;Item",
+            "alert;Parker and Trevor grew closer!",
+            "remove_base_convo;Anxieties",
+            "b"
+        ],
+        "nid": "18 BaseConvo_Anxieties"
+    }
+]

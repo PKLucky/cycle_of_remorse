@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Avo100",
+        "name": "Avo100",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            11
+        ],
+        "components": [
+            [
+                "crit_avoid",
+                1000
+            ],
+            [
+                "avoid",
+                1000
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "NoAvoid",
+        "name": "No Avoid",
+        "desc": "Unit cannot avoid attacks.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            15,
+            11
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                -1000
+            ],
+            [
+                "crit_avoid",
+                1000
+            ]
+        ]
+    }
+]

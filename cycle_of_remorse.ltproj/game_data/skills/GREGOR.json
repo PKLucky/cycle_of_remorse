@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "GREGOR",
+        "name": "Bow Stance",
+        "desc": "Grants an additional Hit/Avo +50 if foe is equipped with a bow. On enemy phase, grants Hit/Avo +10.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            28
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "GREGOR_PATIENCE",
+                    "GREGOR_BOWBREAKER"
+                ]
+            ]
+        ]
+    }
+]

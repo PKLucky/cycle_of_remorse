@@ -1,0 +1,42 @@
+[
+    {
+        "name": "BaseConvo_A Mothers Love",
+        "trigger": "on_base_convo",
+        "level_nid": null,
+        "condition": "base_convo == \"A Mother's Love\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "b;CastleBright",
+            "m;Respite in Battle",
+            "uu;Lucy;Right;Woman1;Left",
+            "e;Lucy;Smile",
+            "s;Lucy;Hi, Mom!",
+            "e;Woman1;Smile",
+            "s;Woman1;Hello, Lucy. How are you?",
+            "s;Lucy;Good! Miss Alex and I planted some ginger a while back.|It should be ready to harvest next year.",
+            "s;Woman1;How lovely.|Do you plan on making more tea with that?",
+            "s;Lucy;Yup!",
+            "s;Woman1;The tea you made last time was wonderful,|but a batch made with ginger you grew yourself will be more special.",
+            "s;Lucy;Tee-hee~",
+            "s;Woman1;I'm glad Miss Alex has been teaching you so many things, Lucy.|{c:e;Woman1;NoSmile}To tell you the truth, I have been worried about you.",
+            "e;Lucy;NoSmile",
+            "s;Lucy;Huh?",
+            "s;Woman1;I know it's natural for a mother to worry about her child,|but when you insisted on being part of the royal army's medical division in my place,|I couldn't help but wonder if it would've been too much for you.",
+            "s;Lucy;Mom{tgm}...",
+            "s;Woman1;Seeing you happy and healthy eases my worries, Lucy.|And it's good to see you working hard, but don't go overboard.",
+            "e;Lucy;Smile",
+            "s;Lucy;I won't!",
+            "e;Woman1;Smile",
+            "s;Woman1;Good. Keep doing your best, Lucy.",
+            "sound;Item",
+            "alert;Lucy gained 10 EXP!",
+            "give_exp;Lucy;10",
+            "b",
+            "mf",
+            "remove_base_convo;A Mother's Love"
+        ],
+        "nid": "Global BaseConvo_A Mothers Love"
+    }
+]

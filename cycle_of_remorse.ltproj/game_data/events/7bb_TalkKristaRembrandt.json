@@ -1,0 +1,33 @@
+[
+    {
+        "name": "TalkKristaRembrandt",
+        "trigger": "on_talk",
+        "level_nid": "7bb",
+        "condition": "unit.nid == 'Krista' and unit2.nid == 'Rembrandt'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Moustafa",
+            "uu;Krista;Left;Rembrandt;Right",
+            "s;Rembrandt;You there! Young lady! Do you need assistance?",
+            "s;Krista;With the pirates? Yeah, some help would be very much appreciated.",
+            "s;Rembrandt;You hardly ever see a pirate crew take their assault to shore like this.|Did you do something to provoke them?",
+            "s;Krista;To be fair, they're the ones who started it.|They were trying to raid a local monestary, so we stopped them.|{c:e;Krista;HalfCloseEyes}Needless to say, they weren't too happy about that.",
+            "s;Rembrandt;How petty. Though, that's how ruffians of any kind tend to be.|It's decided. I'll help you. Who might you be?",
+            "e;Krista;NormalBlink",
+            "s;Krista;Krista, princess of Medeas. And you?",
+            "s;Rembrandt;Rembrandt, former soldier of Fuegsol's royal army.",
+            "e;Krista;HalfCloseEyes",
+            "s;Krista;\"Former\" soldier? Aw man, now I feel bad for dragging you to the battlefield.",
+            "s;Rembrandt;Worry not, Your Highness. Though I prefer to settle things peacefully,|there are times blades are needed to quell a conflict.",
+            "rrr",
+            "change_team;Rembrandt;player",
+            "remove_talk;Krista;Rembrandt",
+            "remove_talk;Rembrandt;Krista",
+            "change_ai;Rembrandt;None",
+            "mf"
+        ],
+        "nid": "7bb TalkKristaRembrandt"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "BoulderDamage",
+        "trigger": null,
+        "level_nid": "30",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;u('{unit}').get_hp() - 10 <= 0",
+            "  kill;{unit}",
+            "else",
+            "  sound;Attack Hit 1",
+            "  map_anim;Snag;{unit}",
+            "  set_current_hp;{unit};{e:u('{unit}').get_hp() - 10};damage_numbers",
+            "  wait;300",
+            "end"
+        ],
+        "nid": "30 BoulderDamage"
+    }
+]

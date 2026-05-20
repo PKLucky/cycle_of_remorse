@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightDaigo",
+        "trigger": "combat_start",
+        "level_nid": "13",
+        "condition": "check_default('Daigo', ['Haruki','Taichi'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Daigo;LeftCorner",
+            "s;Daigo;Oh, you're actually tryin' to stop me?|Can't tell if you're brave or just plain stupid.;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Daigo",
+            "show_combat_ui"
+        ],
+        "nid": "13 FightDaigo"
+    }
+]

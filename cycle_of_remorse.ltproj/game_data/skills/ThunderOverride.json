@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ThunderOverride",
+        "name": "ThunderOverride",
+        "desc": "(Lets Thunder magic swords count as Thunder magic damage at range.)",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_override",
+                "ThunderOverride"
+            ],
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

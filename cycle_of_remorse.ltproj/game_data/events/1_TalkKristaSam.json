@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TalkKristaSam",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Krista','Sam')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;A Knight's Oath",
+            "uu;Krista;Left;Sam;Right",
+            "e;Krista;Smile",
+            "s;Krista;Whoa, you're huge!",
+            "s;Sam;Who in their right mind says something like that--|Wait a minute. You're{tgm}...{tgm}{br}What are you doing here?!",
+            "e;Krista;NoSmile",
+            "s;Krista;Huh?",
+            "s;Sam;Argh, forget it! We've got bandits to worry about!",
+            "rrr",
+            "remove_talk;Krista;Sam",
+            "remove_talk;Sam;Krista",
+            "mf"
+        ],
+        "nid": "1 TalkKristaSam"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "name": "TalkAquaMichael",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "unit.nid == 'Aqua' and unit2.nid == 'Michael'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Together We Ride",
+            "uu;Aqua;Left;Michael;Right",
+            "s;Aqua;Um, excuse me?",
+            "bop;Michael",
+            "s;Michael;I-I'm doing my job! Nothing to see here!",
+            "s;Aqua;Please calm down.|I'm not on the Knights' side.",
+            "s;Michael;But your vestments?",
+            "s;Aqua;I am a Folian cleric, yes. But that's not important right now.|Why are Foliaga's knights raiding their own people?",
+            "e;Michael;HalfCloseEyes",
+            "s;Michael;I{tgm}...{tgm} I don't know.|{c:e;Michael;NormalBlink}I joined the Knights recently, and this is my first mission.|This goes against everything I wanted to do. I{tgm}...{tgm} I wanted to help people!",
+            "s;Aqua;If you're against the Knights, then please join us!|Princess Krista of Medeas is investigating matters now. We need all the help we can get.",
+            "s;Michael;If it means bringing innocent lives back home safe, I'll gladly join your cause!|My name is Michael. What's yours, miss?",
+            "s;Aqua;Aqua, cleric of Vergrande Monastery. Thank you for your aid, Michael.",
+            "rrr",
+            "change_team;Michael;player",
+            "remove_talk;Krista;Michael",
+            "remove_talk;Aqua;Michael",
+            "remove_talk;Michael;Aqua",
+            "mf"
+        ],
+        "nid": "5 TalkAquaMichael"
+    }
+]

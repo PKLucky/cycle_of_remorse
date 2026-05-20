@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Beli",
+        "sub_nid": "Beli",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "Sphealnuke",
+                "Beli"
+            ]
+        ]
+    }
+]

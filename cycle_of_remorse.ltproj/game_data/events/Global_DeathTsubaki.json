@@ -1,0 +1,26 @@
+[
+    {
+        "name": "DeathTsubaki",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Tsubaki'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "if;unit.team == 'player'",
+            "  m;Within Sadness",
+            "  u;Tsubaki;FarRight",
+            "  s;Tsubaki;I'm sorry{tgm}...{tgm} I-I have to retreat!;StyleNid=boss_convo_right;MessageTail=None",
+            "  mf",
+            "else",
+            "  u;Tsubaki;FarLeft",
+            "  s;Tsubaki;Ah, Father{tgm}...{tgm} I won't let you near him{tgm}...!;StyleNid=boss_convo_left;MessageTail=None",
+            "end",
+            "r;Tsubaki",
+            "show_combat_ui"
+        ],
+        "nid": "Global DeathTsubaki"
+    }
+]

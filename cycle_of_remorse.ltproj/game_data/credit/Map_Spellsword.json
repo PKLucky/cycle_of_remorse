@@ -1,0 +1,15 @@
+[
+    {
+        "nid": "Map_Spellsword",
+        "sub_nid": "Spellsword",
+        "credit_type": 8,
+        "category": "Graphics",
+        "icon_index": [],
+        "contrib": [
+            [
+                "TyTheBub",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "Test",
+        "name": "Test",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "STR",
+                        "len([u for u in game.get_all_units() if utils.calculate_distance(unit.position, u.position) <= 3 and 'Female' in u.tags])"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "DeathAgrona",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Agrona'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Agrona;FarLeft",
+            "if;game.level.nid == '22'",
+            "  s;Agrona;So your time in Foliaga was not a fluke after all.|I will have to retreat for now.;StyleNid=boss_convo_left;MessageTail=None",
+            "end",
+            "r;Agrona",
+            "show_combat_ui"
+        ],
+        "nid": "Global DeathAgrona"
+    }
+]

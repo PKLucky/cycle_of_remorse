@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightSolmazKrista",
+        "trigger": "combat_start",
+        "level_nid": "24",
+        "condition": "check_pair('Solmaz', 'Krista')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Krista;RightCorner",
+            "s;Krista;I don't want to use force if I don't have to.|Release the prisoners, and we'll just pretend nothing happened.;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Krista",
+            "u;Solmaz;LeftCorner;;HalfCloseEyes,Smile",
+            "s;Solmaz;Ah, you're Princess Krista, aren't you?|I've heard so much about you.|{c:e;Solmaz;NormalBlink,NoSmile}You're a threat to Lord Milo's plans.|Surrendering is not an option!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Solmaz",
+            "show_combat_ui"
+        ],
+        "nid": "24 FightSolmazKrista"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "HARUKI",
+        "name": "Globetrotter",
+        "desc": "Grants Mov +1 when on an outdoor tile.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            33
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) in ('1','2','3','4','7','10','11','12','20','21','22','Sand','Desert','Crop')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FightNagisaSumire",
+        "trigger": "combat_start",
+        "level_nid": "21",
+        "condition": "check_pair('Nagisa', 'Sumire')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Nagisa;LeftCorner",
+            "s;Nagisa;Sumire? You're alive?!|And what do you think you're doing?!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Nagisa",
+            "u;Sumire;RightCorner",
+            "s;Sumire;I'm sorry, Commander. But we gotta get to the emperor!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Sumire",
+            "show_combat_ui"
+        ],
+        "nid": "21 FightNagisaSumire"
+    }
+]

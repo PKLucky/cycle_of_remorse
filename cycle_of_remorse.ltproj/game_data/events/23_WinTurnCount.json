@@ -1,0 +1,20 @@
+[
+    {
+        "name": "WinTurnCount",
+        "trigger": "turn_change",
+        "level_nid": "23",
+        "condition": "game.turncount == 16",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Krista;Right",
+            "s;Krista;Alright, guys, we've got the thief cornered!|Don't let him get away!",
+            "r;Krista",
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "23 WinTurnCount"
+    }
+]

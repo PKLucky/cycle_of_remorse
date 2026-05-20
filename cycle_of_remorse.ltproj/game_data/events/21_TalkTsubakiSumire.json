@@ -1,0 +1,33 @@
+[
+    {
+        "name": "TalkTsubakiSumire",
+        "trigger": "on_talk",
+        "level_nid": "21",
+        "condition": "unit.nid == 'Sumire' and unit2.nid == 'Tsubaki'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;The Steel Samurai",
+            "uu;Sumire;Right;Tsubaki;Left",
+            "s;Tsubaki;Sumire?! Y-You're alive!",
+            "s;Sumire;Lady Tsubaki?! What are you doing down here?|Oh, it doesn't matter right now.|My lady, the Medeans are here to help Emperor Samegoro.|We have to let them through!",
+            "s;Tsubaki;They{tgm}...{tgm} What?",
+            "s;Sumire;It seems like they know what's happened to him, my lady.|If we work together, maybe we can bring him back to normal!",
+            "e;Tsubaki;CloseEyes",
+            "s;Tsubaki;That is a relief to hear.",
+            "e;Tsubaki;NormalBlink",
+            "bop;Tsubaki",
+            "s;Tsubaki;Sumire, take me to the Medean forces' commander.|I{tgm}...{tgm} I wish to speak to them personally!",
+            "s;Sumire;Yes, Lady Tsubaki!",
+            "rrr",
+            "change_team;Tsubaki;player",
+            "remove_tag;Tsubaki;Boss",
+            "change_ai;Tsubaki;None",
+            "music_clear",
+            "victory_screen",
+            "win_game"
+        ],
+        "nid": "21 TalkTsubakiSumire"
+    }
+]

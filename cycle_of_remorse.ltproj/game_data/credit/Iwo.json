@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Iwo",
+        "sub_nid": "Iwo",
+        "credit_type": 4,
+        "category": "Graphics",
+        "icon_index": [
+            0,
+            0
+        ],
+        "contrib": [
+            [
+                "LaurentLacroix",
+                "Iwo"
+            ]
+        ]
+    }
+]

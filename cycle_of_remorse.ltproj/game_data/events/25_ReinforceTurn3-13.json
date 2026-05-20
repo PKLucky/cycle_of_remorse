@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ReinforceTurn3-13",
+        "trigger": "turn_change",
+        "level_nid": "25",
+        "condition": "game.turncount >= 3 and game.turncount <= 13 and game.turncount % 2 == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "center_cursor;15,23",
+            "make_generic;;Hero;5;enemy;Attack;Circ;;Steel Sword",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};15,23;;giveup",
+            "make_generic;;Halberdier;5;enemy;Attack;Circ;;Steel Lance",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};16,23;;giveup",
+            "wait;300",
+            "#",
+            "center_cursor;11,14",
+            "make_generic;;Sniper;5;enemy;Attack;Circ;;Steel Bow",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};11,14;;giveup",
+            "wait;300",
+            "#",
+            "center_cursor;18,14",
+            "make_generic;;Druid;5;enemy;Attack;Circ;;Nosferatu",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};18,14;;giveup",
+            "wait;300"
+        ],
+        "nid": "25 ReinforceTurn3-13"
+    }
+]

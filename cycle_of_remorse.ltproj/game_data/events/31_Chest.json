@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "31",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'chest1'",
+            "  give_item;{unit};Spear",
+            "  show_layer;chest1",
+            "elif;region.nid == 'chest2'",
+            "  give_item;{unit};Tomahawk",
+            "  show_layer;chest2",
+            "elif;region.nid == 'chest3'",
+            "  give_item;{unit};Runesword",
+            "  show_layer;chest3",
+            "else",
+            "end"
+        ],
+        "nid": "31 Chest"
+    }
+]

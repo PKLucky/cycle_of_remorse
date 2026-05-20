@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "YUKINO_CHILD",
+        "name": "Guarded <red>(Yukino)</>",
+        "desc": "Dmg taken -3.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            35
+        ],
+        "components": [
+            [
+                "condition",
+                "'Female' in unit.tags"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "resist",
+                3
+            ]
+        ]
+    }
+]

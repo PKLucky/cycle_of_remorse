@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "23",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Chest1'",
+            "  give_item;{unit};Blue Gem",
+            "  show_layer;chest1",
+            "elif;region.nid == 'Chest2'",
+            "  if;has_item('GoldCard', unit.nid) and u('Anna').team != 'player'",
+            "    give_item;{unit};GoldCard",
+            "  else",
+            "    give_item;{unit};Battle Axe",
+            "  end",
+            "  show_layer;chest2",
+            "elif;region.nid == 'Chest3'",
+            "  give_item;{unit};ZephyrBoots",
+            "  show_layer;chest3",
+            "elif;region.nid == 'Chest4'",
+            "  give_item;{unit};Hammerne",
+            "  show_layer;chest4",
+            "end"
+        ],
+        "nid": "23 Chest"
+    }
+]

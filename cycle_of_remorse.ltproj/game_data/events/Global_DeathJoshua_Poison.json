@@ -1,0 +1,29 @@
+[
+    {
+        "name": "DeathJoshua_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Joshua' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.level.nid == '15' and unit.team == 'enemy'",
+            "  u;Joshua;FarLeft;;Smile",
+            "  s;Joshua;Heh, not bad. Not bad at all.;StyleNid=boss_convo_left;MessageTail=None",
+            "  r;Joshua",
+            "elif;game.level.nid == '15'",
+            "  u;Joshua;FarRight;;Smile",
+            "  s;Joshua;Heh, not bad. Not bad at all.;StyleNid=boss_convo_right;MessageTail=None",
+            "elif;unit.team == 'player'",
+            "  m;Within Sadness",
+            "  u;Joshua;FarRight",
+            "  s;Joshua;No{tgm}...!{tgm} I can still{tgm}...!;StyleNid=boss_convo_right;MessageTail=None",
+            "  e;Joshua;CloseEyes",
+            "  r;Joshua",
+            "  mf",
+            "end"
+        ],
+        "nid": "Global DeathJoshua_Poison"
+    }
+]

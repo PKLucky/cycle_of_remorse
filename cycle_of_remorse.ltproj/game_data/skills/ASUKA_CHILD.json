@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "ASUKA_CHILD",
+        "name": "Disarm",
+        "desc": "Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            33
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "ASUKA_EFFECT"
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "skill_before_combat",
+                {
+                    "skill": "NullFollowUp",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "ASUKA",
+        "name": "Disarm",
+        "desc": "<red>(Combat Art)</> Grants Hit +10. Neither unit nor target can make a follow-up attack. If unit hits, target cannot use items until the start of their next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            33
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "ASUKA_CHILD"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "CombatArt"
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Defeat Agrona",
+        "trigger": "unit_death",
+        "level_nid": "34",
+        "condition": "game.check_dead('Agrona') == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 18,
+        "_source": [
+            "show_layer;fuegsol",
+            "add;Milo;23,38;immediate;stack",
+            "center_cursor;Milo",
+            "flicker_cursor;Milo",
+            "u;Milo;Left",
+            "s;Milo;Damn, it's up to me now, huh? Figures.|{c:e;Milo;Smile}Well, time to do what I do best.{c:e;Milo;FarWink,Smile} Stick to the shadows.",
+            "r;Milo",
+            "remove;Milo;swoosh",
+            "add_region;fueg_fog;16,33;15,11;fog",
+            "for;UnitSetup;[u for u in game.level.unit_groups.get('milo').units]",
+            "  if;u('{UnitSetup}').generic == True",
+            "    change_portrait;{UnitSetup};Milo",
+            "    change_affinity;{UnitSetup};Wind",
+            "    add_tag;{UnitSetup};Boss",
+            "  end",
+            "endf",
+            "u;Milo;Left;;Smile",
+            "s;Milo;Just try and find me now!{w}{c:e;Milo;FarWink,Smile} I'm not making it easy~",
+            "r;Milo"
+        ],
+        "nid": "34 Defeat Agrona"
+    }
+]

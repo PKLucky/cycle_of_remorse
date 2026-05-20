@@ -1,0 +1,16 @@
+[
+    {
+        "name": "MusicChange",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "len(game.get_enemy_units()) == 1 and not v('_fog_of_war') and game.level.roam == False and game.level.nid != '32'",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "# No music hints for Fog of War maps! #",
+            "change_music;player_phase;Tag Power!"
+        ],
+        "nid": "Global MusicChange"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Chest1'",
+            "  give_item;{unit};Slim Sword",
+            "  show_layer;Chest1",
+            "elif;region.nid == 'Chest2'",
+            "  give_item;{unit};Blue Gem",
+            "  show_layer;Chest2",
+            "elif;region.nid == 'Chest3'",
+            "  give_item;{unit};Speedwing",
+            "  show_layer;Chest3",
+            "elif;region.nid == 'Chest4'",
+            "  give_item;{unit};Talisman",
+            "  show_layer;Chest4",
+            "end"
+        ],
+        "nid": "2 Chest"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Refresh",
+        "name": "Refresh",
+        "desc": "Let an ally act again.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            33
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "Refresh"
+            ]
+        ]
+    }
+]

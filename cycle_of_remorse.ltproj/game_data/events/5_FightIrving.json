@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightIrving",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "check_default('Irving', 'Michael') and (unit.team == 'player' or unit2.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Irving;LeftCorner",
+            "s;Irving;Who are you? Stay out of Foliaga's affairs!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Irving",
+            "show_combat_ui"
+        ],
+        "nid": "5 FightIrving"
+    }
+]

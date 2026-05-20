@@ -1,0 +1,42 @@
+[
+    {
+        "name": "OutroAquaDeath",
+        "trigger": "level_end",
+        "level_nid": null,
+        "condition": "u('Aqua') and game.check_dead('Aqua') == True and v('ChapterFlag') >= 3 and v('ChapterFlag') =< 9",
+        "commands": [],
+        "only_once": true,
+        "priority": 19,
+        "_source": [
+            "t;close",
+            "b;Tent",
+            "t;open",
+            "music_clear",
+            "m;Within Sadness",
+            "uu;Aqua;Left;Krista;Right",
+            "s;Krista;Aqua!",
+            "s;Aqua;Your Highness, I--",
+            "bop;Aqua",
+            "e;Aqua;CloseEyes",
+            "s;Aqua;Ouch!",
+            "s;Krista;Whoa, don't get up so suddenly!|{c:e;Krista;CloseEyes}This ain't good{tgm}...",
+            "e;Krista;NormalBlink",
+            "if;game.level.nid == '7b'",
+            "  s;Krista;Let's have you stay here.",
+            "elif;v('LunarisVergrande') != 'Lake Lunaris' and v('ChapterFlag') >= 7 and v('ChapterFlag') <= 9",
+            "  s;Krista;Let's take you back to Vergrande Monestary.",
+            "else",
+            "  s;Krista;Let's take you back to the castle.",
+            "end",
+            "s;Krista;It'll be hard for you to keep up with your leg banged up like that.",
+            "e;Aqua;NormalBlink",
+            "s;Aqua;I thank you for your concern, Your Highness. But I refuse to stay behind!|{c:e;Aqua;CloseEyes}I promised Semi I would not give up on bringing peace to Foliaga{tgm}...|{c:e;Aqua;NormalBlink}{tgm}So, please let me stay! I beg you!",
+            "s;Krista;Hm{tgm}...{tgm} Okay, but please don't overexert yourself.|I'll see if Forrest can let you ride with him on his horse.",
+            "s;Aqua;I am truly grateful, Your Highness.",
+            "rrr",
+            "music_clear",
+            "t;close"
+        ],
+        "nid": "Global OutroAquaDeath"
+    }
+]

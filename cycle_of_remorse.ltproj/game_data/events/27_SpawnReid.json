@@ -1,0 +1,24 @@
+[
+    {
+        "name": "SpawnReid",
+        "trigger": "turn_change",
+        "level_nid": "27",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Reid;enemy2",
+            "change_ai;Reid;Pursue",
+            "center_cursor;11,29",
+            "m;Raid",
+            "spawn_group;reid;south;reid;normal;closest",
+            "flicker_cursor;Reid",
+            "u;Reid;Right",
+            "s;Reid;There they are! Alright, boys, after 'em!",
+            "r;Reid",
+            "mf"
+        ],
+        "nid": "27 SpawnReid"
+    }
+]

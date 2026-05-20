@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "THALIA_SWORD",
+        "name": "Mutual Support",
+        "desc": "<red>(Aura)</> Grants Dmg taken -5.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            19
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "aura",
+                "THALIA_SWORDCHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "condition",
+                "unit.get_weapon().weapon_type.value == 'Sword'"
+            ]
+        ]
+    }
+]

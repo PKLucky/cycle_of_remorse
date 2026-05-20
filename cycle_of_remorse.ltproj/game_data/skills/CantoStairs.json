@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CantoStairs",
+        "name": "CantoStairs",
+        "desc": "Allows unit to move remaining movement after using stairs",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            32
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "canto",
+                null
+            ]
+        ]
+    }
+]

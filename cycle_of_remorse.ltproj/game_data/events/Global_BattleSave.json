@@ -1,0 +1,18 @@
+[
+    {
+        "name": "BattleSave",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "game.turncount % 3 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "choice;battleSave;Create a battle save?;Yes,No;backable",
+            "if;v('battleSave') == 'Yes'",
+            "  battle_save",
+            "end"
+        ],
+        "nid": "Global BattleSave"
+    }
+]

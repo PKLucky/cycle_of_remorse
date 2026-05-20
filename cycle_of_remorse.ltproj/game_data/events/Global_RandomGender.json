@@ -1,0 +1,20 @@
+[
+    {
+        "name": "RandomGender",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lvar;GenderNum;game.get_random_choice(['','Female'])",
+            "lvar;VariantName;'{v:GenderNum}' + '{e:u('{unit}').variant}'",
+            "set_variant;{unit};{v:VariantName}",
+            "if;v('GenderNum') == 'Female'",
+            "  add_tag;{unit};Female",
+            "end"
+        ],
+        "nid": "Global RandomGender"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DAMIEN",
+        "name": "Alchemy",
+        "desc": "Opens a \"shop\" menu to exchange gold for stat boosters and Vulneraries.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "DAMIAN"
+            ]
+        ]
+    }
+]

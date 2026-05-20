@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ALEX_CHILD",
+        "name": "Defended <red>(Alex)</>",
+        "desc": "Takes Dmg -2 for each ally adjacent to Alex.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            52
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "2 * unit_funcs.check_focus(u('Alex'),1)"
+            ]
+        ]
+    }
+]

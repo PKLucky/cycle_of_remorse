@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Invincible",
+        "name": "Invincible",
+        "desc": "Unit is immune to all damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            22
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "resist",
+                999
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Silvia",
+        "name": "Silvia",
+        "desc": "Head of Domestic Affairs of the Oregotian Council.\nLoyal to those she holds dear.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "Myrmidon",
+        "tags": [
+            "Boss",
+            "Female",
+            "NotDeadLord"
+        ],
+        "bases": {
+            "HP": 1,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 60,
+            "MAG": 40,
+            "SKL": 50,
+            "SPD": 55,
+            "LCK": 40,
+            "DEF": 45,
+            "RES": 40,
+            "CON": 15,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                361,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Silvia",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "DeathQuote",
+                "I'll accept defeat{tgm}..."
+            ]
+        ]
+    }
+]

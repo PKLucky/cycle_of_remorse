@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "ALEX",
+        "name": "Defender",
+        "desc": "Takes Dmg -2 for each ally adjacent to unit. This buff is passed onto all adjacent allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            12,
+            52
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "ALEX_CHILD"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "hide_aura",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "2 * unit_funcs.check_focus(unit,1)"
+            ]
+        ]
+    }
+]

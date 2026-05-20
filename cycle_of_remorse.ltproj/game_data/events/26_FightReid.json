@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightReid",
+        "trigger": "combat_start",
+        "level_nid": "26",
+        "condition": "check_default('Reid', ['Peter','Sam'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Reid;LeftCorner",
+            "s;Reid;You're not getting away!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Reid",
+            "show_combat_ui"
+        ],
+        "nid": "26 FightReid"
+    }
+]

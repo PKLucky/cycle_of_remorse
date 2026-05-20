@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightLorelei",
+        "trigger": "combat_start",
+        "level_nid": "7a",
+        "condition": "check_default('Lorelei',[]) and (unit.team == 'player' or unit2.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "u;Lorelei;LeftCorner",
+            "s;Lorelei;Surrender now, or feel the wrath of Her Excellency!;StyleNid=boss_convo_left;MessageTail=None",
+            "r;Lorelei",
+            "show_combat_ui"
+        ],
+        "nid": "7a FightLorelei"
+    }
+]

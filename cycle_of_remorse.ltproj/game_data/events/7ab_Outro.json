@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "7ab",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_all_units",
+            "t;close",
+            "b;Hill",
+            "t;open",
+            "music_clear",
+            "if;v('LeftBehindCheck') == True",
+            "  m;Into the Shadow of Triumph",
+            "  u;Krista;Right;mirror",
+            "  s;Krista;We made it out of there, I think. But{tgm}...",
+            "  mirror;Krista",
+            "  e;Krista;HalfCloseEyes",
+            "  s;Krista;Everyone else{tgm}...{tgm} They're{tgm}...|{c:e;Krista;CloseEyes}{tgm}No, we have to keep going or they're gonna catch up to the rest of us.|{c:e;Krista;NormalBlink}I'm sorry, guys! We'll come back for you! I swear!",
+            "  mirror;Krista",
+            "  move_portrait;Krista;OffscreenRight",
+            "else",
+            "  trigger_script;Global Ch7aOutro",
+            "end",
+            "t;close"
+        ],
+        "nid": "7ab Outro"
+    }
+]

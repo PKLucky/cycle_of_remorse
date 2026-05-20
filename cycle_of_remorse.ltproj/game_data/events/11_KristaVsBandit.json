@@ -1,0 +1,15 @@
+[
+    {
+        "name": "KristaVsBandit",
+        "trigger": "combat_death",
+        "level_nid": "11",
+        "condition": "unit.nid == '123' and unit2.nid == 'Krista'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "gvar;KristaBSFEGirl;True"
+        ],
+        "nid": "11 KristaVsBandit"
+    }
+]

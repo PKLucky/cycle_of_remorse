@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ALTENA_PROC",
+        "name": "Holy Blood",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            13,
+            44
+        ],
+        "components": [
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 1,
+                    "damage_percent": 1.0,
+                    "show_proc_effects": true
+                }
+            ]
+        ]
+    }
+]

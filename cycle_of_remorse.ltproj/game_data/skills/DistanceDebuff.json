@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DistanceDebuff",
+        "name": "DistanceDebuff",
+        "desc": "Decreases accuracy of status staves based on distance between unit and target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            8
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_accuracy",
+                "utils.calculate_distance(unit.position, unit2.position) * -2 if unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1) else 0"
+            ],
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Staff' and unit.get_weapon().nid != 'Assault'"
+            ]
+        ]
+    }
+]

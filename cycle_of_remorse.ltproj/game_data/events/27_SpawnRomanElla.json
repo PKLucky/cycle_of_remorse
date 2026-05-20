@@ -1,0 +1,38 @@
+[
+    {
+        "name": "SpawnRomanElla",
+        "trigger": "turn_change",
+        "level_nid": "27",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_talk;Krista;Roman",
+            "add_talk;Krista;Ella",
+            "add_talk;Trevor;Roman",
+            "add_talk;Trevor;Ella",
+            "add_talk;Roman;Krista",
+            "add_talk;Ella;Krista",
+            "add_talk;Roman;Trevor",
+            "add_talk;Ella;Trevor",
+            "add_group;other;other;fade;stack",
+            "move_group;other;starting;normal;closest",
+            "flicker_cursor;Ella",
+            "m;A Knight's Oath",
+            "uu;Ella;Left;Roman;Right",
+            "s;Ella;Here we are, Roman. Keep your eyes open.|According to my calculations, the princess and her forces should be in the area.",
+            "bop;Roman",
+            "s;Roman;Over there, Ella! I see them! Come on, let's get a move on!",
+            "move_portrait;Roman;OffscreenLeft",
+            "mirror;Ella",
+            "rrr",
+            "move;Roman;15,17;normal;closest",
+            "u;Ella;Right",
+            "s;Ella;Roman! Wait!{c:e;Ella;CloseEyes} *sigh* That guy{tgm}...|{c:e;Ella;NormalBlink}{tgm}I'M the one leading the charge here! Wait up!!",
+            "r;Ella",
+            "mf"
+        ],
+        "nid": "27 SpawnRomanElla"
+    }
+]

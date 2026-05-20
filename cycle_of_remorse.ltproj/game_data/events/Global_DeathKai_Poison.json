@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DeathKai_Poison",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Kai' and game.level.nid != '15' and unit2.nid is None",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "m;Within Sadness",
+            "u;Kai;FarRight",
+            "s;Kai;Damn it{tgm}...!{tgm} I gotta retreat!;StyleNid=boss_convo_right;MessageTail=None",
+            "r;Kai",
+            "mf"
+        ],
+        "nid": "Global DeathKai_Poison"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "ROMAN",
+        "name": "Behind Me!",
+        "desc": "If unit's Con + 2 >= ally's Con, shifts an ally to the empty tile behind the unit. After shifting the target, unit gains <red>Provoke</> for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            14,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_desc_skill",
+                [
+                    "ROMAN_STATUS"
+                ]
+            ],
+            [
+                "ability",
+                "ROMAN"
+            ]
+        ]
+    }
+]

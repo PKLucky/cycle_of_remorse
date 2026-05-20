@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "10",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'Chest1'",
+            "  give_item;{unit};Pure Water",
+            "  show_layer;chest1",
+            "elif;region.nid == 'Chest2'",
+            "  give_item;{unit};Master Seal",
+            "  if;{v:PromotionGuide} != True and unit.team == 'player'",
+            "    add_lore;Promotions",
+            "    s;;A new Guide entry has been added.{br}<red>(Promotions)</>;;100;hint;NumLines=3;no_sound",
+            "    gvar;PromotionGuide;True",
+            "  end",
+            "  show_layer;chest2",
+            "elif;region.nid == 'Chest3'",
+            "  give_item;{unit};Antitoxin",
+            "  show_layer;chest3",
+            "end"
+        ],
+        "nid": "10 Chest"
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "nid": "Kodachi",
+        "name": "Kodachi",
+        "desc": "Kai only. Grants Spd +3 when equipped.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            27
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Kai"
+                ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "undiscardable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ]
+        ]
+    }
+]

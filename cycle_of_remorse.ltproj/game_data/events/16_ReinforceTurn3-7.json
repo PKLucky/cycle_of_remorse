@@ -1,0 +1,41 @@
+[
+    {
+        "name": "ReinforceTurn3-7",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "game.turncount >= 3 and game.turncount <= 7 and game.turncount % 2 == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "center_cursor;10,6",
+            "make_generic;;Fighter;16;enemy;Ch16;Bandit;;Steel Axe",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};10,6;;giveup;fade",
+            "add_tag;{created_unit};Bandit",
+            "wait;300",
+            "##",
+            "center_cursor;2,12",
+            "make_generic;;Mage;16;enemy;Ch16;Bandit;;Elfire",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};2,12;;giveup;fade",
+            "add_tag;{created_unit};Bandit",
+            "wait;300",
+            "##",
+            "center_cursor;14,14",
+            "make_generic;;Myrmidon;16;enemy;Ch16;Bandit;;Steel Sword",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};14,14;;giveup;fade",
+            "add_tag;{created_unit};Bandit",
+            "wait;300",
+            "##",
+            "center_cursor;19,14",
+            "make_generic;;Lancer;16;enemy;Ch16;Bandit;;Steel Lance",
+            "trigger_script;Global RandomGender;{created_unit}",
+            "add;{created_unit};19,14;;giveup;fade",
+            "add_tag;{created_unit};Bandit",
+            "wait;300"
+        ],
+        "nid": "16 ReinforceTurn3-7"
+    }
+]

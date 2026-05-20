@@ -1,0 +1,43 @@
+[
+    {
+        "name": "BaseConvo_Importance of a Feather",
+        "trigger": "on_base_convo",
+        "level_nid": "17",
+        "condition": "base_convo == 'Importance of a Feather'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "b;Village",
+            "m;Girl of the Plains",
+            "uu;Tsurugi;Right;Kai;Left",
+            "s;Tsurugi;Mister Kai! May I speak to you for a moment?",
+            "s;Kai;Ah, Tsurugi, right? Need something?",
+            "e;Tsurugi;Smile",
+            "s;Tsurugi;I have something to give you. Here!",
+            "s;Kai;A Speedwing? What for?|{c:e;Kai;Smile,CloseEyes}Not trying to say I'm slow, are you?",
+            "e;Tsurugi;NoSmile",
+            "s;Tsurugi;Oh, goodness, no!{br}Far from it!|It's just that I wanted to thank you for{tgm}...{c:e;Tsurugi;HalfCloseEyes}{tgm} Erm.",
+            "e;Kai;NoSmile,NormalBlink",
+            "s;Kai;For what? Can't really think of anything I did for you.|We've only just met, after all.",
+            "e;Tsurugi;NormalBlink",
+            "s;Tsurugi;I mean, I just{tgm}...|{c:e;Tsurugi;CloseEyes}{tgm}Oh, I knew this wasn't a good idea.",
+            "e;Tsurugi;NormalBlink",
+            "bop;Tsurugi",
+            "s;Tsurugi;Never mind! You can keep the Speedwing! Sorry!!",
+            "mirror;Tsurugi",
+            "move_portrait;Tsurugi;OffscreenRight",
+            "s;Kai;Tsurugi{tgm}...?|{c:e;Kai;CloseEyes}{tgm}HAVE we met before?|{c:e;Kai;NormalBlink}I probably would've remembered someone like him.",
+            "if;game.check_alive('Kai') == True",
+            "  give_item;Kai;Speedwing",
+            "else",
+            "  give_item;convoy;Speedwing",
+            "end",
+            "gvar;KaiTsurugiCh17;True",
+            "remove_base_convo;Importance of a Feather",
+            "b",
+            "mf"
+        ],
+        "nid": "17 BaseConvo_Importance of a Feather"
+    }
+]

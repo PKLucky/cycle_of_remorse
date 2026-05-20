@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Crate Death",
+        "trigger": "unit_death",
+        "level_nid": "17x",
+        "condition": "unit.tags has 'Tile'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "linc;cratesDead",
+            "if;{v:cratesDead} == 7",
+            "  u;Krista;Right",
+            "  s;Krista;No, the goods!{c:e;Krista;CloseEyes} I'm sorry, everyone{tgm}...",
+            "  lose_game",
+            "end"
+        ],
+        "nid": "17x Crate Death"
+    }
+]
