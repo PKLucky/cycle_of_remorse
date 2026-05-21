@@ -59057,7 +59057,7 @@
                 "ai_group": "",
                 "starting_position": [
                     23,
-                    25
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59082,8 +59082,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    7
+                    25,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59108,8 +59108,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    41
+                    28,
+                    42
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59117,10 +59117,15 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Drake",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59136,10 +59141,15 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Archsage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59155,10 +59165,15 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Sentinel",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Heavy Spear",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59175,12 +59190,17 @@
                 "nid": "104",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Valkyrie",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Fortify",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Heal",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -59194,9 +59214,14 @@
                 "nid": "105",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Falcoknight",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59212,10 +59237,15 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "DreadFighter",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59232,9 +59262,14 @@
                 "nid": "107",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Dragonspear",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59251,9 +59286,14 @@
                 "nid": "108",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Nosferatu",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59270,9 +59310,14 @@
                 "nid": "109",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Paladin",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59289,9 +59334,14 @@
                 "nid": "110",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59308,9 +59358,14 @@
                 "nid": "111",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elthunder",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59326,10 +59381,15 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "GreatKnight",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Tomahawk",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59346,9 +59406,14 @@
                 "nid": "113",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Spear",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59365,9 +59430,14 @@
                 "nid": "114",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "SilverLongbow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59383,10 +59453,15 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Ranger",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59402,10 +59477,15 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "SkyKnight",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59422,9 +59502,14 @@
                 "nid": "117",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59440,10 +59525,15 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Sentinel",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59459,10 +59549,15 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Sentinel",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59470,7 +59565,7 @@
                 "ai_group": "",
                 "starting_position": [
                     36,
-                    12
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59479,16 +59574,21 @@
                 "nid": "120",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    34,
+                    32,
                     11
                 ],
                 "starting_traveler": null,
@@ -59498,17 +59598,22 @@
                 "nid": "121",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    29,
-                    8
+                    30,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59517,17 +59622,22 @@
                 "nid": "122",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Warrior",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Killer Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
-                    11
+                    19,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59536,9 +59646,14 @@
                 "nid": "123",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elwind",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -59546,7 +59661,7 @@
                 "ai_group": "",
                 "starting_position": [
                     26,
-                    9
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59555,17 +59670,22 @@
                 "nid": "124",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    29,
-                    13
+                    30,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59574,17 +59694,17 @@
                 "nid": "125",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     25,
-                    13
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59593,17 +59713,26 @@
                 "nid": "126",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ],
+                    [
+                        "DoorKey5",
+                        true
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    11
+                    14,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59612,17 +59741,22 @@
                 "nid": "127",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    9
+                    20,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59631,17 +59765,22 @@
                 "nid": "128",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    11
+                    21,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59650,17 +59789,22 @@
                 "nid": "129",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Hero",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Halberd",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    13
+                    30,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59669,17 +59813,22 @@
                 "nid": "130",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Bolting",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    9
+                    14,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59688,17 +59837,22 @@
                 "nid": "131",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Killer Bow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    12
+                    14,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59707,17 +59861,22 @@
                 "nid": "132",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Spear",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    13
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59726,17 +59885,22 @@
                 "nid": "133",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "General",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    7
+                    18,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59745,17 +59909,22 @@
                 "nid": "134",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Ninja",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
-                    7
+                    20,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59778,8 +59947,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    28,
-                    35
+                    29,
+                    34
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59802,7 +59971,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    25,
+                    28,
                     35
                 ],
                 "starting_traveler": null,
@@ -59826,8 +59995,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    35
+                    27,
+                    41
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59850,7 +60019,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
+                    18,
                     35
                 ],
                 "starting_traveler": null,
@@ -59874,8 +60043,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    26,
-                    37
+                    27,
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59898,8 +60067,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    37
+                    29,
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59922,8 +60091,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    37
+                    17,
+                    34
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59947,7 +60116,7 @@
                 "ai_group": "",
                 "starting_position": [
                     17,
-                    37
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -59971,7 +60140,7 @@
                 "ai_group": "",
                 "starting_position": [
                     28,
-                    39
+                    40
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60018,8 +60187,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    39
+                    23,
+                    40
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60043,7 +60212,7 @@
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    39
+                    40
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60066,7 +60235,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
+                    17,
                     41
                 ],
                 "starting_traveler": null,
@@ -60090,7 +60259,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
+                    18,
                     42
                 ],
                 "starting_traveler": null,
@@ -60114,7 +60283,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    26,
+                    24,
                     42
                 ],
                 "starting_traveler": null,
@@ -60553,7 +60722,7 @@
                 "ai_group": "",
                 "starting_position": [
                     20,
-                    27
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60577,7 +60746,7 @@
                 "ai_group": "",
                 "starting_position": [
                     26,
-                    27
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60636,6 +60805,310 @@
                 "sub_nid": null,
                 "highlight": null,
                 "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch1",
+                "region_type": "normal",
+                "position": [
+                    30,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Switch",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch2",
+                "region_type": "normal",
+                "position": [
+                    25,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch3",
+                "region_type": "normal",
+                "position": [
+                    20,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch4",
+                "region_type": "normal",
+                "position": [
+                    19,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch5",
+                "region_type": "normal",
+                "position": [
+                    21,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch6",
+                "region_type": "normal",
+                "position": [
+                    20,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "switch7",
+                "region_type": "normal",
+                "position": [
+                    25,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door1",
+                "region_type": "event",
+                "position": [
+                    19,
+                    35
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door2",
+                "region_type": "event",
+                "position": [
+                    24,
+                    35
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door3",
+                "region_type": "event",
+                "position": [
+                    18,
+                    37
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door4",
+                "region_type": "event",
+                "position": [
+                    23,
+                    37
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door5",
+                "region_type": "event",
+                "position": [
+                    28,
+                    37
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door6",
+                "region_type": "event",
+                "position": [
+                    20,
+                    40
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "door7",
+                "region_type": "event",
+                "position": [
+                    25,
+                    40
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "highlight": null,
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "stairs1",
+                "region_type": "event",
+                "position": [
+                    14,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "highlight": null,
+                "condition": "unit.team == 'player'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "stairs2",
+                "region_type": "event",
+                "position": [
+                    22,
+                    35
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Stairs",
+                "highlight": null,
+                "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -60751,7 +61224,12 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "DEBUG",
@@ -60855,7 +61333,7 @@
                 "faction": "Circ",
                 "starting_items": [
                     [
-                        "Devil Axe",
+                        "Killer Axe",
                         false
                     ]
                 ],

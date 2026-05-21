@@ -1,8 +1,8 @@
 {
-    "date": "2026-05-19 18:37:27.558409",
+    "date": "2026-05-20 23:27:12.482349",
     "engine_version": "2026.02.17a",
     "serialization_version": 0,
     "project": "CycleOfRemorse",
     "has_fatal_errors": false,
-    "as_chunks": true
+    "as_chunks": false
 }

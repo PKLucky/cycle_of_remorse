@@ -40674,6 +40674,20 @@
         "nid": "23 Remove Canto"
     },
     {
+        "name": "Remove Canto",
+        "trigger": "unit_wait",
+        "level_nid": "34",
+        "condition": "v('StairsCheck') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;{unit};CantoStairs;no_banner",
+            "lvar;StairsCheck;False"
+        ],
+        "nid": "34 Remove Canto"
+    },
+    {
         "name": "Stairs",
         "trigger": "Stairs",
         "level_nid": "23",
@@ -40706,6 +40720,28 @@
             "has_attacked;{unit}"
         ],
         "nid": "23 Stairs"
+    },
+    {
+        "name": "Stairs",
+        "trigger": "Stairs",
+        "level_nid": "34",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};CantoStairs;no_banner",
+            "remove;{unit};fade;fade",
+            "if;region.nid == 'stairs1'",
+            "  add;{unit};stairs2",
+            "elif;region.nid == 'stairs2'",
+            "  add;{unit};stairs1",
+            "else",
+            "end",
+            "lvar;StairsCheck;True",
+            "has_attacked;{unit}"
+        ],
+        "nid": "34 Stairs"
     },
     {
         "name": "Stairs",
@@ -42770,8 +42806,9 @@
             "set_wexp;Soromir;Anima;361;no_banner",
             "set_wexp;Soromir;Staff;241;no_banner",
             "change_ai;Ferrach;Defend",
-            "change_ai;Agrona;Defend",
+            "change_ai;Agrona;Guard",
             "change_ai;Vanguard;Defend",
+            "lvar;StairsCheck;False",
             "###",
             "###",
             "end_skip",
@@ -45838,5 +45875,38 @@
             "r;Milo"
         ],
         "nid": "34 Defeat Agrona"
+    },
+    {
+        "name": "Switches",
+        "trigger": "unit_wait",
+        "level_nid": "34",
+        "condition": "region.nid.startswith('switch') and unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "if;region.nid == 'switch1'",
+            "  show_layer;switch1;fade",
+            "elif;region.nid == 'switch2'",
+            "  show_layer;switch2;fade",
+            "elif;region.nid == 'switch3'",
+            "  show_layer;switch3;fade",
+            "elif;region.nid == 'switch4'",
+            "  show_layer;switch4;fade",
+            "elif;region.nid == 'switch5'",
+            "  show_layer;switch5;fade",
+            "elif;region.nid == 'switch6'",
+            "  show_layer;switch6;fade",
+            "elif;region.nid == 'switch7'",
+            "  for;Switches;range(1,8)",
+            "    show_layer;{e:'switch'+'{Switches}'};immediate",
+            "  endf",
+            "  show_layer;switch7;fade",
+            "  sound;Item",
+            "  alert;All bridges unlocked!",
+            "end"
+        ],
+        "nid": "34 Switches"
     }
 ]
