@@ -59095,8 +59095,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    23
+                    8,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -60317,9 +60317,14 @@
                 "nid": "151",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Spear",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60335,10 +60340,15 @@
             {
                 "nid": "152",
                 "variant": null,
-                "level": 12,
-                "klass": "Citizen",
+                "level": 1,
+                "klass": "Sentinel",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60355,9 +60365,14 @@
                 "nid": "153",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sentinel",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60374,9 +60389,14 @@
                 "nid": "154",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Halberdier",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "SilverGreatlance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60393,9 +60413,14 @@
                 "nid": "155",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60412,9 +60437,14 @@
                 "nid": "156",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Warrior",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60431,9 +60461,14 @@
                 "nid": "157",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Druid",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Distort",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60450,9 +60485,14 @@
                 "nid": "158",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60469,16 +60509,21 @@
                 "nid": "159",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sage",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Elice",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    1,
                     26
                 ],
                 "starting_traveler": null,
@@ -60488,9 +60533,14 @@
                 "nid": "160",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "GriffonKnight",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60507,9 +60557,14 @@
                 "nid": "161",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60526,9 +60581,14 @@
                 "nid": "162",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Marauder",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Dragon Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60545,9 +60605,14 @@
                 "nid": "163",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Berserker",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Tomahawk",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60555,7 +60620,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60564,17 +60629,22 @@
                 "nid": "164",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Sniper",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "SilverLongbow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    19
+                    7,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60583,9 +60653,14 @@
                 "nid": "165",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "GriffonKnight",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60602,9 +60677,14 @@
                 "nid": "166",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60621,17 +60701,22 @@
                 "nid": "167",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Warrior",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Devil Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    26
+                    7,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -60640,9 +60725,14 @@
                 "nid": "168",
                 "variant": null,
                 "level": 12,
-                "klass": "Citizen",
+                "klass": "Swordmaster",
                 "faction": "Circ1",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Wyrmslayer",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
@@ -60748,6 +60838,38 @@
                     26,
                     26
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "boulder1",
+                "variant": null,
+                "level": 1,
+                "klass": "Boulder",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "boulder2",
+                "variant": null,
+                "level": 1,
+                "klass": "Boulder",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
