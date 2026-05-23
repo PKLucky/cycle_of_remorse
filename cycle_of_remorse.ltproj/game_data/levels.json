@@ -61346,12 +61346,7 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "DEBUG",
@@ -61595,7 +61590,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    2,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
