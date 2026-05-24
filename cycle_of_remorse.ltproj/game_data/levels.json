@@ -50980,16 +50980,6 @@
                 "generic": false
             },
             {
-                "nid": "Gregor",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Alpin",
                 "team": "enemy",
                 "ai": "Guard",
