@@ -3971,8 +3971,7 @@
         "promotes_from": "Cavalier",
         "turns_into": [],
         "tags": [
-            "Mounted",
-            "NoVariant"
+            "Mounted"
         ],
         "max_level": 20,
         "bases": {
@@ -4372,8 +4371,7 @@
         ],
         "tags": [
             "Mounted",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -4510,8 +4508,7 @@
         ],
         "tags": [
             "Mounted",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -4641,7 +4638,6 @@
         "turns_into": [],
         "tags": [
             "Mounted",
-            "Flying",
             "NoVariant"
         ],
         "max_level": 20,
@@ -4773,8 +4769,7 @@
             "General"
         ],
         "tags": [
-            "Armor",
-            "NoVariant"
+            "Armor"
         ],
         "max_level": 20,
         "bases": {
@@ -4910,8 +4905,7 @@
             "Marshall"
         ],
         "tags": [
-            "Armor",
-            "NoVariant"
+            "Armor"
         ],
         "max_level": 20,
         "bases": {
@@ -5040,8 +5034,7 @@
         "promotes_from": "General",
         "turns_into": [],
         "tags": [
-            "Armor",
-            "NoVariant"
+            "Armor"
         ],
         "max_level": 20,
         "bases": {
@@ -8580,8 +8573,7 @@
         "tags": [
             "Horse",
             "Mounted",
-            "ArenaIgnore",
-            "NoVariant"
+            "ArenaIgnore"
         ],
         "max_level": 20,
         "bases": {
@@ -8718,8 +8710,7 @@
         ],
         "tags": [
             "Horse",
-            "Mounted",
-            "NoVariant"
+            "Mounted"
         ],
         "max_level": 20,
         "bases": {
@@ -8849,8 +8840,7 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted",
-            "NoVariant"
+            "Mounted"
         ],
         "max_level": 20,
         "bases": {
@@ -8983,8 +8973,7 @@
         "tags": [
             "Mounted",
             "Dragon",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -9122,8 +9111,7 @@
         "tags": [
             "Mounted",
             "Dragon",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -9254,8 +9242,7 @@
         "tags": [
             "Mounted",
             "Dragon",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -9387,8 +9374,7 @@
         ],
         "tags": [
             "Mounted",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -9525,8 +9511,7 @@
         ],
         "tags": [
             "Mounted",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -9656,8 +9641,7 @@
         "turns_into": [],
         "tags": [
             "Mounted",
-            "Flying",
-            "NoVariant"
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
@@ -12501,8 +12485,7 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "ArenaIgnore",
-            "NoVariant"
+            "ArenaIgnore"
         ],
         "max_level": 20,
         "bases": {

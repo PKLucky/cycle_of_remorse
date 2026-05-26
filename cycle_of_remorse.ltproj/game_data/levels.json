@@ -61370,11 +61370,11 @@
                 "nid": "109",
                 "variant": null,
                 "level": 1,
-                "klass": "Knight",
+                "klass": "Cleric",
                 "faction": "Knight",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Soothe",
                         false
                     ]
                 ],
@@ -62351,6 +62351,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
