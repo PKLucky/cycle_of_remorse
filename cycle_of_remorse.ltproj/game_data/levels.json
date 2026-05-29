@@ -52325,6 +52325,22 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "VanguardCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Marshall",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -53922,6 +53938,38 @@
                     "boulder2": [
                         14,
                         0
+                    ]
+                }
+            },
+            {
+                "nid": "outro",
+                "units": [
+                    "Vanguard",
+                    "Krista",
+                    "Celik",
+                    "Demir",
+                    "Silvia"
+                ],
+                "positions": {
+                    "Krista": [
+                        10,
+                        11
+                    ],
+                    "Vanguard": [
+                        10,
+                        9
+                    ],
+                    "Celik": [
+                        10,
+                        7
+                    ],
+                    "Demir": [
+                        9,
+                        7
+                    ],
+                    "Silvia": [
+                        11,
+                        7
                     ]
                 }
             }
@@ -62351,11 +62399,6 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
