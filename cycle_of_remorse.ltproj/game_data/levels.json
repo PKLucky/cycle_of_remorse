@@ -53778,6 +53778,38 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "AnnaCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Merchant",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "JakeCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Ballistician",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -53974,7 +54006,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "31",
