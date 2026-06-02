@@ -52741,8 +52741,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    4
+                    9,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -54004,14 +54004,43 @@
                         7
                     ]
                 }
+            },
+            {
+                "nid": "bosses",
+                "units": [
+                    "Vanguard",
+                    "Celik",
+                    "Silvia",
+                    "Demir"
+                ],
+                "positions": {
+                    "Vanguard": [
+                        10,
+                        10
+                    ],
+                    "Celik": [
+                        9,
+                        10
+                    ],
+                    "Silvia": [
+                        11,
+                        10
+                    ],
+                    "Demir": [
+                        10,
+                        11
+                    ]
+                }
+            },
+            {
+                "nid": "player",
+                "units": [
+                    "Krista"
+                ],
+                "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "31",
