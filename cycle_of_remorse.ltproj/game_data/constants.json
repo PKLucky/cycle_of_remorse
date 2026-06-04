@@ -224,6 +224,10 @@
         false
     ],
     [
+        "droppable_icon",
+        true
+    ],
+    [
         "convoy_on_death",
         true
     ],

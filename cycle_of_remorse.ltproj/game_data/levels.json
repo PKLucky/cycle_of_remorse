@@ -54058,8 +54058,8 @@
             "other_phase": "Flower Power!"
         },
         "objective": {
-            "simple": "Defend,{e:game.turncount}/11 turn(s)",
-            "win": "Defend for 11 turns,or Defeat bosses",
+            "simple": "Defend,{e:game.turncount}/7 turn(s)",
+            "win": "Defend for 7 turns,or Defeat bosses",
             "loss": "Krista dies"
         },
         "roam": false,
@@ -56092,6 +56092,86 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "FerrachCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Trickster",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AgronaCopy",
+                "variant": "Female",
+                "level": 1,
+                "klass": "DreadFighter",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "SoromirCopy",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Archsage",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "MiloCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Assassin",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "VanguardCopy",
+                "variant": null,
+                "level": 1,
+                "klass": "Marshall",
+                "faction": "Knight",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -56724,6 +56804,34 @@
                     "gate4"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "cutscene",
+                "units": [
+                    "FerrachCopy",
+                    "AgronaCopy",
+                    "SoromirCopy",
+                    "MiloCopy",
+                    "VanguardCopy"
+                ],
+                "positions": {
+                    "FerrachCopy": [
+                        11,
+                        4
+                    ],
+                    "AgronaCopy": [
+                        7,
+                        1
+                    ],
+                    "SoromirCopy": [
+                        7,
+                        5
+                    ],
+                    "MiloCopy": [
+                        7,
+                        8
+                    ]
+                }
             }
         ],
         "ai_groups": []
@@ -57266,11 +57374,11 @@
                 ],
                 "positions": {
                     "KaiCopy": [
-                        3,
+                        14,
                         6
                     ],
                     "FelicityCopy": [
-                        3,
+                        14,
                         7
                     ]
                 }
@@ -59127,7 +59235,7 @@
             "player_battle": null,
             "enemy_battle": null,
             "other_battle": null,
-            "other_phase": "Flower Power!"
+            "other_phase": null
         },
         "objective": {
             "simple": "Defeat bosses",
@@ -61473,7 +61581,7 @@
             "loss": "Crash"
         },
         "roam": false,
-        "roam_unit": null,
+        "roam_unit": "Krista",
         "go_to_overworld": false,
         "should_record": false,
         "tags": [
@@ -61662,8 +61770,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    5
+                    5,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -62459,7 +62567,7 @@
                 "highlight": null,
                 "condition": "True",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false,
                 "hide_time": false
             }
