@@ -9,7 +9,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Bandit2",
@@ -21,7 +46,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Bandit3",
@@ -33,7 +83,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "BanditFemale1",
@@ -45,7 +120,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Priest1",
@@ -57,7 +157,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Man1",
@@ -69,7 +194,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Man2",
@@ -81,7 +231,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Man3",
@@ -93,7 +268,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Man4",
@@ -105,7 +305,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Man5",
@@ -117,7 +342,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Man6",
@@ -129,7 +379,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Woman1",
@@ -141,7 +416,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Woman2",
@@ -153,7 +453,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Woman3",
@@ -165,7 +490,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "OldMan1",
@@ -177,7 +527,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "OldWoman1",
@@ -189,7 +564,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Boy1",
@@ -201,7 +601,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Girl1",
@@ -213,7 +638,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierBlue",
@@ -225,7 +675,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierGreen",
@@ -237,7 +712,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierGreenFemale",
@@ -249,7 +749,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierPurple",
@@ -261,7 +786,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierWhite",
@@ -273,7 +823,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Maid1",
@@ -285,7 +860,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Maid2",
@@ -297,7 +897,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "LakeSpirit",
@@ -309,7 +934,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "BanditFemale2",
@@ -321,7 +971,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierYellow1",
@@ -333,7 +1008,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierYellow2",
@@ -345,7 +1045,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "BanditFemale3",
@@ -357,7 +1082,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "OldMan2",
@@ -369,7 +1119,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierPurpleFemale1",
@@ -381,7 +1156,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierPurpleFemale2",
@@ -393,7 +1193,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Pirate1",
@@ -405,7 +1230,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierRed1",
@@ -417,7 +1267,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "SoldierRed2",
@@ -429,7 +1304,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Dragon",
@@ -441,7 +1341,32 @@
             24,
             64
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "BuffBarmaid",
@@ -453,7 +1378,32 @@
             32,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "GuildGirl",
@@ -465,7 +1415,32 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Barmaid",
@@ -477,7 +1452,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Boy2",
@@ -489,7 +1489,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Invisible",
@@ -501,7 +1526,32 @@
             0,
             0
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Boy3",
@@ -513,7 +1563,32 @@
             24,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Girl2",
@@ -525,7 +1600,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Boy4",
@@ -537,7 +1637,32 @@
             16,
             56
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Girl3",
@@ -549,7 +1674,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Girl4",
@@ -561,7 +1711,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "PegKnight",
@@ -573,7 +1748,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Krista",
@@ -585,7 +1785,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "KristaFlashback",
@@ -597,7 +1822,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "KristaPast",
@@ -609,7 +1859,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "KristaShirtless",
@@ -621,7 +1896,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "KristaGagged",
@@ -633,7 +1933,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Forrest",
@@ -645,7 +1970,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "ForrestDream",
@@ -657,7 +2007,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Kai",
@@ -669,7 +2044,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "KaiDream",
@@ -681,7 +2081,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "KaiShirtless",
@@ -693,7 +2118,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Trevor",
@@ -705,7 +2155,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Chell",
@@ -717,7 +2192,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "ChellShirtless",
@@ -729,7 +2229,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Sam",
@@ -741,7 +2266,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Aqua",
@@ -753,7 +2303,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Semi",
@@ -765,7 +2340,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Taylor",
@@ -777,7 +2377,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "TaylorShirtless",
@@ -789,7 +2414,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Alex",
@@ -801,7 +2451,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Lucy",
@@ -813,7 +2488,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Ecco",
@@ -825,7 +2525,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Anil",
@@ -837,7 +2562,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Michael",
@@ -849,7 +2599,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "MichaelArmorless",
@@ -861,7 +2636,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Felicity",
@@ -873,7 +2673,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "FelicityDream",
@@ -885,7 +2710,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "FelicityNoHat",
@@ -897,7 +2747,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Viola",
@@ -909,7 +2784,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Marina",
@@ -921,7 +2821,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Joshua",
@@ -933,7 +2858,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Azure",
@@ -945,7 +2895,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Rembrandt",
@@ -957,7 +2932,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Anna",
@@ -969,7 +2969,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Jake",
@@ -981,7 +3006,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Xiang",
@@ -993,7 +3043,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Celeste",
@@ -1005,7 +3080,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Matthew",
@@ -1017,7 +3117,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Parker",
@@ -1029,7 +3154,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Cole",
@@ -1041,7 +3191,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Haruki",
@@ -1053,7 +3228,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Khalid",
@@ -1065,7 +3265,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Reem",
@@ -1077,7 +3302,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Altena",
@@ -1089,7 +3339,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Yukino",
@@ -1101,7 +3376,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Taichi",
@@ -1113,7 +3413,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Sumire",
@@ -1125,7 +3450,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Tsurugi",
@@ -1137,7 +3487,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Taiga",
@@ -1149,7 +3524,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Ryuuji",
@@ -1161,7 +3561,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Lin",
@@ -1173,7 +3598,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Nagisa",
@@ -1185,7 +3635,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Tsubaki",
@@ -1197,7 +3672,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Asuka",
@@ -1209,7 +3709,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Masashi",
@@ -1221,7 +3746,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "MasashiShirtless",
@@ -1233,7 +3783,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Hikaru",
@@ -1245,7 +3820,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Yumi",
@@ -1257,7 +3857,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "YumiShirtless",
@@ -1269,7 +3894,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Torgen",
@@ -1281,7 +3931,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Kiraz",
@@ -1293,7 +3968,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Judah",
@@ -1305,7 +4005,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Ervan",
@@ -1317,7 +4042,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "ErvanFlashback",
@@ -1329,7 +4079,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "ErvanShirtless",
@@ -1341,7 +4116,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Hu",
@@ -1353,7 +4153,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Watt",
@@ -1365,7 +4190,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Aidon",
@@ -1377,7 +4227,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Noh",
@@ -1389,7 +4264,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Wye",
@@ -1401,7 +4301,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Beekos",
@@ -1413,7 +4338,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Tamaruh",
@@ -1425,7 +4375,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Tuhdei",
@@ -1437,7 +4412,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Gevadarn",
@@ -1449,7 +4449,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Nachurali",
@@ -1461,7 +4486,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Gordon",
@@ -1473,7 +4523,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Beli",
@@ -1485,7 +4560,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Iwo",
@@ -1497,7 +4597,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Alfonso",
@@ -1509,7 +4634,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Jorge",
@@ -1521,7 +4671,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Irving",
@@ -1533,7 +4708,32 @@
             24,
             41
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Adler",
@@ -1545,7 +4745,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Lorelei",
@@ -1557,7 +4782,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Zeke",
@@ -1569,7 +4819,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Talbot",
@@ -1581,7 +4856,32 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Daphne",
@@ -1593,7 +4893,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Vernon",
@@ -1605,7 +4930,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Peony",
@@ -1617,7 +4967,32 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Ferrach",
@@ -1629,7 +5004,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Azalea",
@@ -1641,7 +5041,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Shinobu",
@@ -1653,7 +5078,32 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Keisha",
@@ -1665,7 +5115,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Locke",
@@ -1677,7 +5152,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Daigo",
@@ -1689,7 +5189,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Yuma",
@@ -1701,7 +5226,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Akira",
@@ -1713,7 +5263,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Shigeo",
@@ -1725,7 +5300,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Saburo",
@@ -1737,7 +5337,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Hayato",
@@ -1749,7 +5374,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Samegoro",
@@ -1761,7 +5411,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Agrona",
@@ -1773,7 +5448,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Sven",
@@ -1785,7 +5485,32 @@
             32,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Milo",
@@ -1797,7 +5522,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Soromir",
@@ -1809,7 +5559,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Vanguard",
@@ -1821,7 +5596,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Solmaz",
@@ -1833,7 +5633,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Jamal",
@@ -1845,7 +5670,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Alim",
@@ -1857,7 +5707,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Gunnar",
@@ -1869,7 +5744,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Silvia",
@@ -1881,7 +5781,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Celik",
@@ -1893,7 +5818,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Demir",
@@ -1905,7 +5855,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Bryant",
@@ -1917,7 +5892,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Thalia",
@@ -1929,7 +5929,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Leeann",
@@ -1941,7 +5966,32 @@
             16,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Gerolt",
@@ -1953,7 +6003,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Iris",
@@ -1965,7 +6040,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "ArmoredMan",
@@ -1977,7 +6077,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Reid",
@@ -1989,7 +6114,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Gregor",
@@ -2001,7 +6151,32 @@
             24,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Damien",
@@ -2013,7 +6188,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "BSFE",
@@ -2025,7 +6225,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "CircFollower",
@@ -2037,7 +6262,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "CircFollower1",
@@ -2049,7 +6299,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Lev",
@@ -2061,7 +6336,32 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Estoc",
@@ -2073,7 +6373,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Amber",
@@ -2085,7 +6410,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Jasper",
@@ -2097,7 +6447,32 @@
             16,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Topaz",
@@ -2109,7 +6484,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Sphene",
@@ -2121,7 +6521,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Larimar",
@@ -2133,7 +6558,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Amethyst",
@@ -2145,7 +6595,32 @@
             32,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Archie",
@@ -2157,7 +6632,32 @@
             24,
             32
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Narcisse",
@@ -2169,7 +6669,32 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Alpin",
@@ -2181,7 +6706,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "JudahShirtless",
@@ -2193,7 +6743,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Wolfgang",
@@ -2205,7 +6780,32 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Undine",
@@ -2217,7 +6817,32 @@
             32,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "Shula",
@@ -2229,7 +6854,32 @@
             24,
             40
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     },
     {
         "nid": "PKLucky",
@@ -2241,6 +6891,31 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": [
+            8,
+            0
+        ],
+        "chibi_coord": [
+            128,
+            80
+        ],
+        "full_size": [
+            160,
+            112
+        ],
+        "face_size": [
+            96,
+            80
+        ],
+        "blink_size": [
+            32,
+            16
+        ],
+        "mouth_size": [
+            32,
+            16
+        ],
+        "blink_frames": 2,
+        "mouth_frames": 3
     }
 ]
