@@ -7473,6 +7473,10 @@
             [
                 "Hammer",
                 false
+            ],
+            [
+                "Energy Ring",
+                false
             ]
         ],
         "learned_skills": [
@@ -7579,6 +7583,10 @@
             [
                 "Fortify",
                 false
+            ],
+            [
+                "Talisman",
+                false
             ]
         ],
         "learned_skills": [
@@ -7684,6 +7692,10 @@
             ],
             [
                 "Elixir",
+                false
+            ],
+            [
+                "Secret Book",
                 false
             ]
         ],
