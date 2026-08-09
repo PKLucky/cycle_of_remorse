@@ -458,5 +458,9 @@
     {
         "nid": "shop_preview",
         "text": "Here's what we have in stock."
+    },
+    {
+        "nid": "forecast_desc",
+        "text": "What information is shown in the battle forecast."
     }
 ]

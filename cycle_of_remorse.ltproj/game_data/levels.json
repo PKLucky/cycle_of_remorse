@@ -57677,8 +57677,8 @@
             },
             {
                 "nid": "Damien",
-                "team": "player",
-                "ai": "None",
+                "team": "other",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -58235,10 +58235,14 @@
                 "nid": "forrest",
                 "units": [
                     "Krista",
-                    "Damien",
                     "Forrest"
                 ],
-                "positions": {}
+                "positions": {
+                    "Forrest": [
+                        9,
+                        0
+                    ]
+                }
             },
             {
                 "nid": "enemy",
