@@ -3,666 +3,777 @@
         "_Chapter Sound",
         false,
         false,
-        0
+        0,
+        "_Chapter Sound"
     ],
     [
         "Fire Emblem Theme",
         false,
         false,
-        1
+        1,
+        "Fire Emblem Theme"
     ],
     [
         "Verdane Army",
         true,
         false,
-        27
+        27,
+        "Verdane Army"
     ],
     [
         "Arena Entrance",
         false,
         false,
-        35
+        35,
+        "Arena Entrance"
     ],
     [
         "Arena Battle",
         false,
         false,
-        36
+        36,
+        "Arena Battle"
     ],
     [
         "_Arena Victory",
         false,
         false,
-        0
+        0,
+        "_Arena Victory"
     ],
     [
         "Softly with Grace",
         false,
         false,
-        46
+        46,
+        "Softly with Grace"
     ],
     [
         "Healing",
         false,
         false,
-        0
+        0,
+        "Healing"
     ],
     [
         "Curing",
         false,
         false,
-        0
+        0,
+        "Curing"
     ],
     [
         "Shops",
         false,
         false,
-        29
+        29,
+        "Shops"
     ],
     [
         "Armory",
         false,
         false,
-        28
+        28,
+        "Armory"
     ],
     [
         "Together We Ride",
         false,
         false,
-        13
+        13,
+        "Together We Ride"
     ],
     [
         "A Knight's Oath",
         false,
         false,
-        15
+        15,
+        "A Knight's Oath"
     ],
     [
         "Prepare to Charge",
         false,
         false,
-        17
+        17,
+        "Prepare to Charge"
     ],
     [
         "Loyalty",
         false,
         false,
-        10
+        10,
+        "Loyalty"
     ],
     [
         "Girl of the Plains",
         false,
         false,
-        20
+        20,
+        "Girl of the Plains"
     ],
     [
         "Ships and Homes",
         false,
         false,
-        33
+        33,
+        "Ships and Homes"
     ],
     [
         "Raid",
         false,
         false,
-        30
+        30,
+        "Raid"
     ],
     [
         "The Messenger",
         false,
         false,
-        3
+        3,
+        "The Messenger"
     ],
     [
         "The Kingdom of Bern",
         false,
         false,
-        16
+        16,
+        "The Kingdom of Bern"
     ],
     [
         "An Unexpected Caller",
         false,
         false,
-        19
+        19,
+        "An Unexpected Caller"
     ],
     [
         "A Hint of Things to Come",
         false,
         false,
-        11
+        11,
+        "A Hint of Things to Come"
     ],
     [
         "Silent Ground",
         false,
         false,
-        18
+        18,
+        "Silent Ground"
     ],
     [
         "The Archsage Athos",
         false,
         false,
-        2
+        2,
+        "The Archsage Athos"
     ],
     [
         "Within Sadness",
         false,
         false,
-        9
+        9,
+        "Within Sadness"
     ],
     [
         "To the Heights",
         false,
         false,
-        0
+        0,
+        "To the Heights"
     ],
     [
         "Requiem",
         false,
         false,
-        67
+        67,
+        "Requiem"
     ],
     [
         "What Comes from Darkness",
         false,
         false,
-        42
+        42,
+        "What Comes from Darkness"
     ],
     [
         "When the Rush Comes",
         false,
         false,
-        23
+        23,
+        "When the Rush Comes"
     ],
     [
         "Respite in Battle",
         false,
         false,
-        25
+        25,
+        "Respite in Battle"
     ],
     [
         "Into the Shadow of Triumph",
         false,
         false,
-        21
+        21,
+        "Into the Shadow of Triumph"
     ],
     [
         "Was This Love",
         false,
         false,
-        47
+        47,
+        "Was This Love"
     ],
     [
         "For Your Own Good",
         false,
         false,
-        0
+        0,
+        "For Your Own Good"
     ],
     [
         "MoonForest",
         false,
         false,
-        0
+        0,
+        "MoonForest"
     ],
     [
         "MoonForest - Marina",
         false,
         false,
-        0
+        0,
+        "MoonForest - Marina"
     ],
     [
         "MoonForest - Duet",
         false,
         false,
-        0
+        0,
+        "MoonForest - Duet"
     ],
     [
         "Alight",
         false,
         false,
-        73
+        73,
+        "Alight"
     ],
     [
         "Far Dawn",
         false,
         false,
-        55
+        55,
+        "Far Dawn"
     ],
     [
         "Master Battle",
         true,
         false,
-        56
+        56,
+        "Master Battle"
     ],
     [
         "Commence the Psychological Analysis",
         false,
         false,
-        48
+        48,
+        "Commence the Psychological Analysis"
     ],
     [
         "Inescapable Fate",
         false,
         false,
-        43
+        43,
+        "Inescapable Fate"
     ],
     [
         "Pirate Otter Battle",
         false,
         false,
-        50
+        50,
+        "Pirate Otter Battle"
     ],
     [
         "Pirate Otter Hideout",
         false,
         false,
-        38
+        38,
+        "Pirate Otter Hideout"
     ],
     [
         "Route 111",
         true,
         false,
-        40
+        40,
+        "Route 111"
     ],
     [
         "Big Bad Burnin' Buddha",
         true,
         false,
-        61
+        61,
+        "Big Bad Burnin' Buddha"
     ],
     [
         "FE5 Arena Battle",
         false,
         false,
-        63
+        63,
+        "FE5 Arena Battle"
     ],
     [
         "The Steel Samurai",
         true,
         false,
-        53
+        53,
+        "The Steel Samurai"
     ],
     [
         "Moustafa",
         true,
         false,
-        39
+        39,
+        "Moustafa"
     ],
     [
         "Normal Battle",
         true,
         false,
-        52
+        52,
+        "Normal Battle"
     ],
     [
         "Poison Battle",
         true,
         false,
-        51
+        51,
+        "Poison Battle"
     ],
     [
         "Land of Swirling Sands",
         false,
         false,
-        0
+        0,
+        "Land of Swirling Sands"
     ],
     [
         "Bug Battle",
         false,
         false,
-        60
+        60,
+        "Bug Battle"
     ],
     [
         "Past Light",
         false,
         false,
-        58
+        58,
+        "Past Light"
     ],
     [
         "Event Theme 4",
         false,
         false,
-        54
+        54,
+        "Event Theme 4"
     ],
     [
         "Shizima4",
         false,
         false,
-        71
+        71,
+        "Shizima4"
     ],
     [
         "Fantasy 09",
         false,
         false,
-        70
+        70,
+        "Fantasy 09"
     ],
     [
         "Sand town",
         false,
         false,
-        77
+        77,
+        "Sand town"
     ],
     [
         "Lullaby of a Loyal Knight",
         false,
         false,
-        0
+        0,
+        "Lullaby of a Loyal Knight"
     ],
     [
         "Fighting Battle",
         false,
         false,
-        74
+        74,
+        "Fighting Battle"
     ],
     [
         "Ethnic 08",
         false,
         false,
-        79
+        79,
+        "Ethnic 08"
     ],
     [
         "Dazed Desert Walk",
         false,
         false,
-        83
+        83,
+        "Dazed Desert Walk"
     ],
     [
         "Raid Ethnic",
         false,
         false,
-        81
+        81,
+        "Raid Ethnic"
     ],
     [
         "Folk Arabian",
         false,
         false,
-        80
+        80,
+        "Folk Arabian"
     ],
     [
         "Doppel",
         false,
         false,
-        75
+        75,
+        "Doppel"
     ],
     [
         "Doppel - Vocal",
         false,
         false,
-        76
+        76,
+        "Doppel - Vocal"
     ],
     [
         "Guildmaster Wigglytuff",
         false,
         false,
-        12
+        12,
+        "Guildmaster Wigglytuff"
     ],
     [
         "Fantasy 08",
         false,
         false,
-        31
+        31,
+        "Fantasy 08"
     ],
     [
         "Castle 03",
         false,
         false,
-        24
+        24,
+        "Castle 03"
     ],
     [
         "Spring City",
         false,
         false,
-        32
+        32,
+        "Spring City"
     ],
     [
         "Market",
         false,
         false,
-        34
+        34,
+        "Market"
     ],
     [
         "Wish4",
         false,
         false,
-        37
+        37,
+        "Wish4"
     ],
     [
         "RetroRoman Koharu",
         false,
         false,
-        62
+        62,
+        "RetroRoman Koharu"
     ],
     [
         "Windmill Village",
         false,
         false,
-        41
+        41,
+        "Windmill Village"
     ],
     [
         "Otogi3",
         false,
         false,
-        65
+        65,
+        "Otogi3"
     ],
     [
         "Ohayashi",
         false,
         false,
-        68
+        68,
+        "Ohayashi"
     ],
     [
         "Sakuya3",
         false,
         false,
-        72
+        72,
+        "Sakuya3"
     ],
     [
         "Kagaribi no Oyado",
         false,
         false,
-        57
+        57,
+        "Kagaribi no Oyado"
     ],
     [
         "The Grieving Heart",
         false,
         false,
-        82
+        82,
+        "The Grieving Heart"
     ],
     [
         "Lullaby of a Loyal Knight Vocal",
         false,
         false,
-        110
+        110,
+        "Lullaby of a Loyal Knight Vocal"
     ],
     [
         "Butterfly Emerges from Chrysalis",
         false,
         false,
-        44
+        44,
+        "Butterfly Emerges from Chrysalis"
     ],
     [
         "Squall Goes to the Water Aisle",
         true,
         false,
-        0
+        0,
+        "Squall Goes to the Water Aisle"
     ],
     [
         "Grana Plains",
         false,
         false,
-        5
+        5,
+        "Grana Plains"
     ],
     [
         "Romantic Feelings",
         false,
         false,
-        0
+        0,
+        "Romantic Feelings"
     ],
     [
         "A Date With Rosa",
         false,
         false,
-        22
+        22,
+        "A Date With Rosa"
     ],
     [
         "Vien Forest",
         false,
         false,
-        26
+        26,
+        "Vien Forest"
     ],
     [
         "VS Marnie",
         true,
         false,
-        64
+        64,
+        "VS Marnie"
     ],
     [
         "Dokapon Normal Battle",
         false,
         false,
-        6
+        6,
+        "Dokapon Normal Battle"
     ],
     [
         "Scout Battle",
         false,
         false,
-        8
+        8,
+        "Scout Battle"
     ],
     [
         "RO SHAM BO!",
         true,
         false,
-        7
+        7,
+        "RO SHAM BO!"
     ],
     [
         "Starsign Battle",
         true,
         false,
-        85
+        85,
+        "Starsign Battle"
     ],
     [
         "Tag Power!",
         true,
         false,
-        8
+        8,
+        "Tag Power!"
     ],
     [
         "Colin's Theme",
         true,
         false,
-        49
+        49,
+        "Colin's Theme"
     ],
     [
         "Flower Power!",
         true,
         false,
-        14
+        14,
+        "Flower Power!"
     ],
     [
         "Yellow Comet Theme",
         false,
         false,
-        69
+        69,
+        "Yellow Comet Theme"
     ],
     [
         "Resolute",
         true,
         false,
-        45
+        45,
+        "Resolute"
     ],
     [
         "Emphasis on Scat",
         false,
         false,
-        0
+        0,
+        "Emphasis on Scat"
     ],
     [
         "Kecleon Shop",
         false,
         false,
-        0
+        0,
+        "Kecleon Shop"
     ],
     [
         "Esaka!!",
         false,
         false,
-        66
+        66,
+        "Esaka!!"
     ],
     [
         "Healing 12b",
         false,
         false,
-        0
+        0,
+        "Healing 12b"
     ],
     [
         "Orchestra 19",
         false,
         false,
-        0
+        0,
+        "Orchestra 19"
     ],
     [
         "Mount Snowpeak",
         false,
         false,
-        86
+        86,
+        "Mount Snowpeak"
     ],
     [
         "Death Mountain",
         true,
         false,
-        87
+        87,
+        "Death Mountain"
     ],
     [
         "Lyn's Desire",
         false,
         false,
-        0
+        0,
+        "Lyn's Desire"
     ],
     [
         "Anwar's Theme",
         false,
         false,
-        78
+        78,
+        "Anwar's Theme"
     ],
     [
         "Chase Down the Truth",
         false,
         false,
-        0
+        0,
+        "Chase Down the Truth"
     ],
     [
         "Keep Pressing On Variation",
         true,
         false,
-        0
+        0,
+        "Keep Pressing On Variation"
     ],
     [
         "Keep Pressing On",
         true,
         false,
-        0
+        0,
+        "Keep Pressing On"
     ],
     [
         "Moonlit Wilderness",
         true,
         false,
-        88
+        88,
+        "Moonlit Wilderness"
     ],
     [
         "Dancing Dragon Dungeon",
         true,
         false,
-        87
+        87,
+        "Dancing Dragon Dungeon"
     ],
     [
         "Special Dinner",
         false,
         false,
-        0
+        0,
+        "Special Dinner"
     ],
     [
         "Catnap",
         false,
         false,
-        0
+        0,
+        "Catnap"
     ]
 ]

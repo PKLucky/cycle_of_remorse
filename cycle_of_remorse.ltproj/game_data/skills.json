@@ -2605,7 +2605,7 @@
     {
         "nid": "XIANG",
         "name": "Futuresight",
-        "desc": "Grants Hit/Avo +10.",
+        "desc": "Grants Hit/Avo +10.\n<red>(Aura)</> Grants Crit +15.",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -2623,6 +2623,40 @@
             [
                 "avoid",
                 10
+            ],
+            [
+                "aura",
+                "XIANG_CHILD"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "multi_desc_lore",
+                [
+                    "Aura"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "XIANG_CHILD",
+        "name": "Futuresight <red>Xiang</>",
+        "desc": "Crit +15",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            12
+        ],
+        "components": [
+            [
+                "crit",
+                15
             ]
         ]
     },
@@ -3365,7 +3399,7 @@
     {
         "nid": "NAGISA",
         "name": "Wrath",
-        "desc": "Grants Crit +20 when unit is at or below 50% Max HP.",
+        "desc": "Grants Crit +20 when unit is at or below 75% Max HP.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -3374,7 +3408,7 @@
         "components": [
             [
                 "condition",
-                "unit.get_hp() <= unit.get_max_hp() // 2"
+                "unit.get_hp() <= unit.get_max_hp() * 0.75"
             ],
             [
                 "crit",
@@ -4961,27 +4995,6 @@
             [
                 "hidden",
                 null
-            ]
-        ]
-    },
-    {
-        "nid": "Test",
-        "name": "Test",
-        "desc": "",
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "stat_change_expression",
-                [
-                    [
-                        "STR",
-                        "len([u for u in game.get_all_units() if utils.calculate_distance(unit.position, u.position) <= 3 and 'Female' in u.tags])"
-                    ]
-                ]
             ]
         ]
     }

@@ -336,8 +336,8 @@
                 "nid": "Fort",
                 "region_type": "normal",
                 "position": [
-                    4,
-                    6
+                    7,
+                    4
                 ],
                 "size": [
                     1,
@@ -36740,54 +36740,6 @@
             },
             {
                 "nid": "205",
-                "variant": null,
-                "level": 6,
-                "klass": "Sage",
-                "faction": "Fuegsol",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "WallAllyAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    0
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "206",
-                "variant": null,
-                "level": 6,
-                "klass": "WyvernKnight",
-                "faction": "Fuegsol",
-                "starting_items": [
-                    [
-                        "Short Spear",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "WallAllyAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    20,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "207",
                 "variant": "Sword",
                 "level": 6,
                 "klass": "General",
@@ -36811,7 +36763,7 @@
                 "generic": true
             },
             {
-                "nid": "208",
+                "nid": "206",
                 "variant": "Sword",
                 "level": 6,
                 "klass": "General",
@@ -36835,7 +36787,7 @@
                 "generic": true
             },
             {
-                "nid": "209",
+                "nid": "207",
                 "variant": null,
                 "level": 6,
                 "klass": "Bishop",
@@ -36857,37 +36809,13 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    17
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "210",
-                "variant": null,
-                "level": 6,
-                "klass": "Swordmaster",
-                "faction": "Fuegsol",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "WallAllyAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "211",
+                "nid": "208",
                 "variant": null,
                 "level": 6,
                 "klass": "Hero",
@@ -36911,7 +36839,7 @@
                 "generic": true
             },
             {
-                "nid": "212",
+                "nid": "209",
                 "variant": null,
                 "level": 6,
                 "klass": "Sniper",
@@ -36935,31 +36863,7 @@
                 "generic": true
             },
             {
-                "nid": "213",
-                "variant": null,
-                "level": 6,
-                "klass": "Sniper",
-                "faction": "Fuegsol",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "WallAllyAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "214",
+                "nid": "210",
                 "variant": null,
                 "level": 6,
                 "klass": "WyvernKnight",
@@ -36976,38 +36880,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    6,
                     20
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "215",
-                "variant": null,
-                "level": 6,
-                "klass": "WyvernKnight",
-                "faction": "Fuegsol",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "WallAllyDefend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "216",
+                "nid": "211",
                 "variant": null,
                 "level": 6,
                 "klass": "WyvernKnight",
@@ -37025,7 +36905,7 @@
                 "ai_group": "",
                 "starting_position": [
                     21,
-                    12
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37049,7 +36929,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    13
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37121,7 +37001,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    10
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37144,8 +37024,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    22
+                    3,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -37202,30 +37082,6 @@
                 "nid": "108",
                 "variant": null,
                 "level": 4,
-                "klass": "Sniper",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    24,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 4,
                 "klass": "Swordmaster",
                 "faction": "Circ1",
                 "starting_items": [
@@ -37247,7 +37103,7 @@
                 "generic": true
             },
             {
-                "nid": "110",
+                "nid": "109",
                 "variant": null,
                 "level": 4,
                 "klass": "General",
@@ -37271,7 +37127,7 @@
                 "generic": true
             },
             {
-                "nid": "111",
+                "nid": "110",
                 "variant": null,
                 "level": 4,
                 "klass": "General",
@@ -37295,7 +37151,7 @@
                 "generic": true
             },
             {
-                "nid": "112",
+                "nid": "111",
                 "variant": null,
                 "level": 4,
                 "klass": "Sorcerer",
@@ -37323,31 +37179,7 @@
                 "generic": true
             },
             {
-                "nid": "113",
-                "variant": null,
-                "level": 4,
-                "klass": "Hero",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
+                "nid": "112",
                 "variant": null,
                 "level": 4,
                 "klass": "Berserker",
@@ -37371,7 +37203,7 @@
                 "generic": true
             },
             {
-                "nid": "115",
+                "nid": "113",
                 "variant": null,
                 "level": 4,
                 "klass": "Druid",
@@ -37395,7 +37227,7 @@
                 "generic": true
             },
             {
-                "nid": "116",
+                "nid": "114",
                 "variant": null,
                 "level": 4,
                 "klass": "Hero",
@@ -37412,62 +37244,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    14
+                    0,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "117",
-                "variant": null,
-                "level": 4,
-                "klass": "Halberdier",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 4,
-                "klass": "Hero",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Lancereaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    25
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "120",
+                "nid": "115",
                 "variant": null,
                 "level": 4,
                 "klass": "CamelRider",
@@ -37491,7 +37275,7 @@
                 "generic": true
             },
             {
-                "nid": "121",
+                "nid": "116",
                 "variant": null,
                 "level": 4,
                 "klass": "Sage",
@@ -37515,7 +37299,7 @@
                 "generic": true
             },
             {
-                "nid": "122",
+                "nid": "117",
                 "variant": null,
                 "level": 4,
                 "klass": "CamelRider",
@@ -37532,38 +37316,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
+                    24,
                     24
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "123",
-                "variant": null,
-                "level": 4,
-                "klass": "Warrior",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "BroadheadBow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "124",
+                "nid": "118",
                 "variant": null,
                 "level": 4,
                 "klass": "WyvernKnight",
@@ -37587,7 +37347,7 @@
                 "generic": true
             },
             {
-                "nid": "125",
+                "nid": "119",
                 "variant": null,
                 "level": 4,
                 "klass": "WyvernKnight",
@@ -37605,37 +37365,13 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    12
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "126",
-                "variant": null,
-                "level": 4,
-                "klass": "Halberdier",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Short Spear",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    23,
-                    25
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
+                "nid": "120",
                 "variant": null,
                 "level": 4,
                 "klass": "Sniper",
@@ -37653,13 +37389,13 @@
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    24
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "128",
+                "nid": "121",
                 "variant": null,
                 "level": 4,
                 "klass": "Swordmaster",
@@ -37677,13 +37413,13 @@
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    23
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "129",
+                "nid": "122",
                 "variant": null,
                 "level": 4,
                 "klass": "Halberdier",
@@ -37707,7 +37443,7 @@
                 "generic": true
             },
             {
-                "nid": "130",
+                "nid": "123",
                 "variant": null,
                 "level": 4,
                 "klass": "Sorcerer",
@@ -37735,55 +37471,7 @@
                 "generic": true
             },
             {
-                "nid": "131",
-                "variant": null,
-                "level": 4,
-                "klass": "Swordmaster",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    24,
-                    24
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "132",
-                "variant": null,
-                "level": 4,
-                "klass": "GriffonKnight",
-                "faction": "Circ1",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
+                "nid": "124",
                 "variant": null,
                 "level": 4,
                 "klass": "GriffonKnight",
@@ -37800,14 +37488,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
+                    24,
                     20
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "134",
+                "nid": "125",
                 "variant": null,
                 "level": 4,
                 "klass": "Rogue",
@@ -37831,7 +37519,7 @@
                 "generic": true
             },
             {
-                "nid": "135",
+                "nid": "126",
                 "variant": null,
                 "level": 4,
                 "klass": "Rogue",
@@ -37855,7 +37543,7 @@
                 "generic": true
             },
             {
-                "nid": "136",
+                "nid": "127",
                 "variant": null,
                 "level": 4,
                 "klass": "Rogue",
@@ -37877,26 +37565,6 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
-            },
-            {
-                "nid": "Khalid",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Felicity",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
             }
         ],
         "regions": [
@@ -39342,6 +39010,7 @@
                     "115",
                     "116",
                     "117",
+                    "118",
                     "119",
                     "120",
                     "121",
@@ -39350,16 +39019,7 @@
                     "124",
                     "125",
                     "126",
-                    "127",
-                    "128",
-                    "129",
-                    "130",
-                    "131",
-                    "132",
-                    "133",
-                    "134",
-                    "135",
-                    "136"
+                    "127"
                 ],
                 "positions": {}
             },
@@ -39378,12 +39038,7 @@
                     "208",
                     "209",
                     "210",
-                    "211",
-                    "212",
-                    "213",
-                    "214",
-                    "215",
-                    "216"
+                    "211"
                 ],
                 "positions": {}
             },
@@ -61718,7 +61373,7 @@
                     ]
                 ],
                 "starting_skills": [
-                    "Test"
+                    "DEBUG"
                 ],
                 "team": "player",
                 "ai": "Attack",

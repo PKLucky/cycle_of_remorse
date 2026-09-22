@@ -2225,6 +2225,37 @@
         "roam_ai": false
     },
     {
+        "nid": "Gregor",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "enemy2"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
         "nid": "BossGuard",
         "behaviours": [
             {
