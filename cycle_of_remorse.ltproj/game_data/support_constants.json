@@ -1,7 +1,7 @@
 [
     [
         "combat_convos",
-        2
+        0
     ],
     [
         "base_convos",
@@ -17,7 +17,7 @@
     ],
     [
         "bonus_method",
-        "Use Sum of Affinity Bonuses"
+        "Use Average of Affinity Bonuses"
     ],
     [
         "bonus_range",
@@ -49,7 +49,7 @@
     ],
     [
         "bonus_ally_limit",
-        3
+        0
     ],
     [
         "rank_limit",

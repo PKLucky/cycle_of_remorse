@@ -5,6 +5,8 @@
         "fallback_size": 16,
         "default_color": "black",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "black": [
                 [
@@ -168,6 +170,8 @@
         "fallback_size": 16,
         "default_color": "yellow",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "yellow": [
                 [
@@ -397,6 +401,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -405,6 +411,8 @@
         "fallback_size": 16,
         "default_color": "black",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "black": [
                 [
@@ -568,6 +576,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -576,6 +586,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -584,6 +596,8 @@
         "fallback_size": 16,
         "default_color": "black",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "black": [
                 [
@@ -747,6 +761,8 @@
         "fallback_size": 16,
         "default_color": "black",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "black": [
                 [
@@ -798,6 +814,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -806,6 +824,8 @@
         "fallback_size": 16,
         "default_color": "white",
         "outline_font": true,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "white": [
                 [
@@ -1148,6 +1168,8 @@
         "fallback_size": 16,
         "default_color": "black",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "black": [
                 [
@@ -1311,6 +1333,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1319,6 +1343,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1327,6 +1353,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1335,6 +1363,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1343,6 +1373,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1351,6 +1383,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1359,6 +1393,8 @@
         "fallback_size": 16,
         "default_color": null,
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {}
     },
     {
@@ -1367,6 +1403,8 @@
         "fallback_size": 16,
         "default_color": "white",
         "outline_font": true,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "white": [
                 [
@@ -1709,6 +1747,8 @@
         "fallback_size": 16,
         "default_color": "white",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "white": [
                 [
@@ -1770,6 +1810,8 @@
         "fallback_size": 16,
         "default_color": "white",
         "outline_font": true,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "white": [
                 [
@@ -2112,6 +2154,8 @@
         "fallback_size": 16,
         "default_color": "white",
         "outline_font": true,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "white": [
                 [
@@ -2454,6 +2498,8 @@
         "fallback_size": 16,
         "default_color": "white",
         "outline_font": true,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "white": [
                 [
@@ -2796,6 +2842,8 @@
         "fallback_size": 16,
         "default_color": "brown",
         "outline_font": false,
+        "headless": false,
+        "base_color": null,
         "palettes": {
             "brown": [
                 [

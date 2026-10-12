@@ -45,16 +45,16 @@
     ],
     [
         [
-            "enemy",
-            "enemy2"
+            "other",
+            "player"
         ],
         [
             "enemy_1",
             "other"
         ],
         [
-            "other",
-            "player"
+            "enemy",
+            "enemy2"
         ]
     ]
 ]

@@ -38064,13 +38064,13 @@
             "if;v('deadGreen') < 4",
             "  s;BanditFemale3;Speaking of which, take this with you.|Who knows what's waiting for you guys at the capital.",
             "  if;v('deadGreen') <= 0",
-            "    give_item;convoy;Master Seal",
-            "  end",
-            "  if;v('deadGreen') <= 1",
             "    give_item;convoy;Body Ring",
             "  end",
-            "  if;v('deadGreen') <= 2",
+            "  if;v('deadGreen') <= 1",
             "    give_item;convoy;StrangeScroll",
+            "  end",
+            "  if;v('deadGreen') <= 2",
+            "    give_item;convoy;Rescue",
             "  end",
             "  give_item;convoy;Blue Gem",
             "  s;Krista;Thank you. We'll retun the favor by bringing back the villagers!",
@@ -38497,7 +38497,7 @@
             "s;;Please leave feedback on the FEUniverse thread.;StyleNid=hint;NumLines=3;no_sound",
             "s;;Please also consider joining the Discord server!;StyleNid=hint;NumLines=3;no_sound",
             "s;;Links to both are in the Readme file.;StyleNid=hint;NumLines=2;no_sound",
-            "#main_menu"
+            "main_menu"
         ],
         "nid": "22 Outro"
     },

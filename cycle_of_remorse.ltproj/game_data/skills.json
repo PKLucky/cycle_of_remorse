@@ -1759,7 +1759,7 @@
     {
         "nid": "FORREST2",
         "name": "Mercy",
-        "desc": "<red>(Combat Art)</> Leaves the target with 1 HP if the user's attack would kill the target.",
+        "desc": "<red>(Combat Art)</> Unit cannot double. Leaves the target with 1 HP if the user's attack would kill the target.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1803,6 +1803,10 @@
                     "recipient": "target",
                     "allegiance": "enemy"
                 }
+            ],
+            [
+                "cannot_double",
+                null
             ]
         ]
     },

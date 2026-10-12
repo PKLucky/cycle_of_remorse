@@ -8570,7 +8570,7 @@
     {
         "nid": "Fortify",
         "name": "Fortify",
-        "desc": "Restores (User's Mag + 10) HP to all allies within range.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Restores (User's Mag + 10) HP to all allies within range.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -8645,7 +8645,7 @@
     {
         "nid": "TorchStaff",
         "name": "Torch",
-        "desc": "Lights an area. The light lasts for 5 turns and decreases per turn.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Lights an area. The light lasts for 5 turns and decreases per turn.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -8744,7 +8744,7 @@
     {
         "nid": "Unlock",
         "name": "Unlock",
-        "desc": "Opens locks.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Opens locks.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -9314,7 +9314,7 @@
     {
         "nid": "Trade",
         "name": "Trade",
-        "desc": "Trade items with a distant allied unit.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Trade items with a distant allied unit.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -9405,7 +9405,7 @@
     {
         "nid": "Hammerne",
         "name": "Hammerne",
-        "desc": "Repair an item to full uses.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Repair an item to full uses.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -9567,7 +9567,7 @@
     {
         "nid": "Rescue",
         "name": "Rescue",
-        "desc": "Bring an ally to a space adjacent to the user.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Bring an ally to a space adjacent to the user.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -9725,7 +9725,7 @@
     {
         "nid": "Warp",
         "name": "Warp",
-        "desc": "Move an ally to another square.{e:'{br}(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
+        "desc": "Move an ally to another square.\n{e:'(Not affected by <icon>Skills 4, 37</> <red>Prayer</>.)' if unit.nid == 'Hikaru' else ''}",
         "icon_nid": "Staff",
         "icon_index": [
             0,

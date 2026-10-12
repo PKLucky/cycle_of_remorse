@@ -61392,7 +61392,12 @@
                 "level": 10,
                 "klass": "Dancer",
                 "faction": "Knight",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Warp",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "player",
                 "ai": "Attack",
@@ -61900,7 +61905,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    6,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
